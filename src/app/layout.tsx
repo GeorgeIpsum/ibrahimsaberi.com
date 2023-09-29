@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { GFS_Didot as BodyFont } from "next/font/google";
+import { Kanit as BodyFont } from "next/font/google";
 
-const bodyFont = BodyFont({ subsets: ["greek"], weight: ["400"] });
+const bodyFont = BodyFont({ subsets: ["latin", "latin-ext"], weight: ["200", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
   title: "a whisper",
