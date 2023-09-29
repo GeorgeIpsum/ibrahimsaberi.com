@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ibrahimsaberi.com
 
-## Getting Started
+My personal website, built using Next.JS (13+).
 
-First, run the development server:
+## Why Next?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Flavor-of-the-month(-or-year?) framework and it's relatively fun and easy to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and cruft. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Do u hate Ruby/ Jekyll now :(
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Nah. Too much stuff I wanna do requires me to break out of both SSR and Markdown-based editing. If I'm creating raw HTML I'd rather do it in the way that's most ergonomic. Most of the stuff here is still gonna be SSR'd anyway :)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Why not just React in Jekyll
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+JS tooling starts to become a real PITA when you want to do lots of custom stuff once you're outside of webpack/ babel land. And I'm a fraidy cat!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Ok well why don't you just
 
-## Learn More
+Get lost!
 
-To learn more about Next.js, take a look at the following resources:
+## Well are you gonna write more content.....
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+if the lexapro permits.................
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How do u deploy
 
-## Deploy on Vercel
+Vercel hobby edition + porkbun as registrar and DNS (RIP GOOGLE DOMAINS YE SHALL BE MISSED DEARLY)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### You say you hate the Vercel aesthetic and yet you use Vercel a lot... interesting...
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+someone actually said this to me once. please shut up
+
+## Ok when are you gonna try Svelte
+
+(: try again next year

@@ -1,4 +1,13 @@
-import './globals.css'
+import "./globals.css";
+import type { Metadata } from "next";
+import { GFS_Didot as BodyFont } from "next/font/google";
+
+const bodyFont = BodyFont({ subsets: ["greek"], weight: ["400"] });
+
+export const metadata: Metadata = {
+  title: "a whisper",
+  description: "a wave",
+};
 
 export default function RootLayout({
   children,
@@ -7,12 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+      <body className={bodyFont.className}>{children}</body>
     </html>
-  )
+  );
 }
