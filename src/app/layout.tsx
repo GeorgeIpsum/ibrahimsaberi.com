@@ -1,3 +1,4 @@
+import Header from "@/components/structure/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Kanit as BodyFont } from "next/font/google";
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={bodyFont.className}>{children}</body>
+      <body className={`${bodyFont.className}`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
