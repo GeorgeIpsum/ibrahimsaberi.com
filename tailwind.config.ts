@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-body)"],
+        mono: ["var(--font-mono)"],
+        head: ["var(--font-head)"],
+      }
     },
   },
   plugins: [],
