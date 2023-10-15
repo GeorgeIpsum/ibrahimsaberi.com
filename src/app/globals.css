@@ -15,8 +15,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 13, 6;
-    --background-end-rgb: 13, 6, 0;
+    --background-start-rgb: 0, 13, 2;
+    --background-mid-rgb: 1, 1, 13;
+    --background-end-rgb: 13, 0, 2;
   }
 }
 
@@ -31,23 +32,39 @@ h3 {
   font-family: var(--font-head);
 }
 
-body {
+.body-bg {
   color: rgb(var(--foreground-rgb));
-  background-image: linear-gradient(
+  background-color: black;
+  /* background-image: linear-gradient(
     -45deg,
     rgb(var(--background-start-rgb)),
+    rgb(var(--background-mid-rgb)),
     rgb(var(--background-end-rgb))
-  );
-  animation: bg-gradient 15s infinite;
-  background-size: 400% 400%;
+  ); */
+  background-image: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.05),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.05), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.05), rgba(0, 0, 255, 0) 70.71%);
+  /* animation: bg-gradient 12s infinite; */
+  background-position: 0% 0%;
+  background-size: 100% 150%;
 }
 
 @keyframes bg-gradient {
   0% {
     background-position: 0% 50%;
   }
-  50% {
+  25% {
     background-position: 100% 50%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  75% {
+    background-position: 90% 10%;
   }
   100% {
     background-position: 0% 50%;

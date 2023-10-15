@@ -1,9 +1,18 @@
-import Image from "next/image";
+import Better from "@/components/svg/Better";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <main className="h-[9999px] max-w-5xl mx-auto px-2">
-      hello world :)
-    </main>
+    <div className="mx-auto max-w-6xl sm:pt-24">
+      <div className="flex flex-col flex-nowrap sm:flex-row">
+        <header className="flex w-full flex-row px-4 py-2 sm:w-32 sm:flex-col sm:px-8">
+          <div className="w-8 sm:w-full">
+            <Better />
+          </div>
+        </header>
+        <main className="max-w-4xl flex-1 flex-grow px-3">hello world :)</main>
+      </div>
+    </div>
   );
-}
+};
+
+export default Home;

@@ -2,21 +2,25 @@
 const nextConfig = {
   experimental: {
     mdxRs: true,
+    turbo: {
+      rules: {},
+    },
   },
   async redirects() {
     return [
       {
         source: "/blog",
         destination: "/blag",
-        permanent: true
+        permanent: true,
       },
       {
         source: "/blog/:slug*",
         destination: "/blag/:slug*",
-        permanent: true
-      }
+        permanent: true,
+      },
     ];
   },
+  poweredByHeader: false,
 };
 
 const withMDX = require("@next/mdx")();
