@@ -6,6 +6,7 @@ const nextConfig = {
       rules: {},
     },
   },
+  pageExtensions: ["ts", "tsx", "mdx"],
   async redirects() {
     return [
       {

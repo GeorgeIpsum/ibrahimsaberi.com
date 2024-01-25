@@ -1,3 +1,4 @@
+import Crash from "@/components/cli/Crash";
 import Header from "@/components/structure/Header";
 import type { Metadata } from "next";
 
@@ -15,6 +16,7 @@ export default function RootLayout({
     <>
       <Header />
       {children}
+      <Crash />
     </>
   );
 }

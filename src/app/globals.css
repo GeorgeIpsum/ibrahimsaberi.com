@@ -6,8 +6,6 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
   --font-head: Rubik;
   --font-body: Gabarito;
 }
@@ -15,9 +13,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 13, 2;
-    --background-mid-rgb: 1, 1, 13;
-    --background-end-rgb: 13, 0, 2;
   }
 }
 
@@ -32,41 +27,11 @@ h3 {
   font-family: var(--font-head);
 }
 
-.body-bg {
-  color: rgb(var(--foreground-rgb));
-  background-color: black;
-  /* background-image: linear-gradient(
-    -45deg,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-mid-rgb)),
-    rgb(var(--background-end-rgb))
-  ); */
-  background-image: linear-gradient(
-      217deg,
-      rgba(255, 0, 0, 0.05),
-      rgba(255, 0, 0, 0) 70.71%
-    ),
-    linear-gradient(127deg, rgba(0, 255, 0, 0.05), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgba(0, 0, 255, 0.05), rgba(0, 0, 255, 0) 70.71%);
-  /* animation: bg-gradient 12s infinite; */
-  background-position: 0% 0%;
-  background-size: 100% 150%;
-}
-
-@keyframes bg-gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  25% {
-    background-position: 100% 50%;
-  }
-  50% {
-    background-position: 75% 75%;
-  }
-  75% {
-    background-position: 90% 10%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+#root-gradient {
+  width: 100%;
+  height: 100%;
+  --gradient-color-1: #449ce4;
+  --gradient-color-2: #2f8bc1;
+  --gradient-color-3: #ccbeee;
+  --gradient-color-4: #4c57f6;
 }
