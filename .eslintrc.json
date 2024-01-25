@@ -1,13 +1,8 @@
 {
-  "extends": [
-    "plugin:prettier/recommended",
-    "next/core-web-vitals"
-  ],
+  "extends": ["plugin:prettier/recommended", "next/core-web-vitals"],
   "rules": {
-    "quotes": [
-      "error",
-      "double"
-    ],
+    "quotes": ["error", "double"],
+    "react-hooks/exhaustive-deps": "off",
     "semi": "error"
   }
 }

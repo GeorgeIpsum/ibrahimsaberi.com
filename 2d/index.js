@@ -18,7 +18,6 @@ const reqMatcher = (req) => [req.method, req.url.split("/")[1]];
 function getFunc(method, url) {
   const route = routes.find((route) => route.url === url);
   if (!route) {
-    console.log("NO ROUTE FOUND FOR ROUTE", url);
     return emptyHandler;
   }
   return route.methods.find((m) => m.method === method)?.func ?? route.func;

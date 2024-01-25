@@ -20,9 +20,9 @@ const handleCurlCommand = async ({ ua, libcurlC }) => {
           let val = rawval;
           if (
             // eslint-disable-next-line
-            val.indexOf('\"') === 0 &&
+            val.indexOf('"') === 0 &&
             // eslint-disable-next-line
-            val.lastIndexOf('\"') === val.length - 1
+            val.lastIndexOf('"') === val.length - 1
           ) {
             val = val.slice(1, val.length - 1);
           }
@@ -62,7 +62,7 @@ const handler = async (req, res) => {
   if (curlResult.status !== 200) {
     console.log("something went wrong");
   }
-  res.writeHead(200, "STUFF = CURLED");
+  res.writeHead(curlResult.status, "STUFF = CURLED");
   res.end(curlResult.data);
 };
 

@@ -1,6 +1,7 @@
 import { spawnSync } from "child_process";
 import { NextResponse } from "next/server";
 
+// YEAH WE RUNNING CURL FROM THE CLI AND THEN RERUNNING IT FROM LIBCURL... PORBLEM? TROLLFACE>JPEG
 export async function POST(request: Request) {
   const ua = request.headers.get("User-Agent");
   const jsonBody = await request.json();

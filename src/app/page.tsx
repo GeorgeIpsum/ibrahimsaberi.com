@@ -1,4 +1,9 @@
 import Better from "@/components/svg/Better";
+import dynamic from "next/dynamic";
+
+const ThemeToggle = dynamic(() => import("@/components/theme/ThemeToggle"), {
+  ssr: false,
+});
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +14,10 @@ const Home: React.FC = () => {
             <Better />
           </div>
         </header>
-        <main className="max-w-4xl flex-1 flex-grow px-3">hello world :)</main>
+        <main className="max-w-4xl flex-1 flex-grow px-3">
+          hello world :)
+          <ThemeToggle />
+        </main>
       </div>
     </div>
   );

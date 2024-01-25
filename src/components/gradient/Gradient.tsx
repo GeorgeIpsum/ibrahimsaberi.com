@@ -5,6 +5,8 @@ import { useEffect, useRef } from "react";
 import { cx } from "class-variance-authority";
 import { Gradient as G } from "whatamesh";
 
+import { useDarkMode } from "../theme/useDarkMode";
+
 interface GradientProps {
   id: string;
   className?: string;
@@ -14,11 +16,17 @@ const Gradient: React.FC<React.PropsWithChildren<GradientProps>> = ({
   id,
   className,
 }) => {
+  const { isDarkMode } = useDarkMode();
   const GradientCanvas = useRef(new G());
 
   useEffect(() => {
-    GradientCanvas.current.initGradient(`#${id}`);
-  }, []);
+    const grad = GradientCanvas.current;
+    grad.initGradient(`#${id}`);
+
+    return () => {
+      grad.pause();
+    };
+  }, [isDarkMode]);
 
   return (
     <>

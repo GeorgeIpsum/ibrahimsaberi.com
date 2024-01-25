@@ -5,15 +5,24 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
   --font-head: Rubik;
   --font-body: Gabarito;
+
+  --gradient-color-1: #ebe6f9;
+  --gradient-color-2: #e2d4de;
+  --gradient-color-3: #fba2d3;
+  --gradient-color-4: #fce1ff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-  }
+:root[data-mode="dark"] {
+  --gradient-color-1: #192102;
+  --gradient-color-2: #213527;
+  --gradient-color-3: #15221b;
+  --gradient-color-4: #0d340a;
+}
+
+body {
+  background-color: var(--gradient-color-4);
 }
 
 html {
@@ -30,8 +39,15 @@ h3 {
 #root-gradient {
   width: 100%;
   height: 100%;
-  --gradient-color-1: #449ce4;
-  --gradient-color-2: #2f8bc1;
-  --gradient-color-3: #ccbeee;
-  --gradient-color-4: #4c57f6;
+  --gradient-color-1: #ebe6f9;
+  --gradient-color-2: #e2d4de;
+  --gradient-color-3: #fba2d3;
+  --gradient-color-4: #fce1ff;
+}
+
+html[data-mode="dark"] #root-gradient {
+  --gradient-color-1: #192102;
+  --gradient-color-2: #213527;
+  --gradient-color-3: #15221b;
+  --gradient-color-4: #0d340a;
 }
