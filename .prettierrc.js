@@ -20,7 +20,7 @@ module.exports = {
     "@/(.*)$",
     "^[./]",
   ],
-  importOrderSeparation: false,
+  importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderGroupNamespaceSpecifiers: true,
   importOrderParserPlugins: ["typescript", "jsx", "decorators"],

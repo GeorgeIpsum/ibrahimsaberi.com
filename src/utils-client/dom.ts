@@ -1,7 +1,9 @@
 "use client";
 
 import Cookies from "js-cookie";
+
 import { THEME_COOKIE_NAME } from "@/utils/dom";
+
 import { Theme } from "./types";
 
 const DEFAULT_THEME: Theme = "dark";

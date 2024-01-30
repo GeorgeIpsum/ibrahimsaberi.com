@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+
 import Better from "@/components/svg/Better";
 
 const ThemeToggle = dynamic(() => import("@/components/theme/ThemeToggle"), {

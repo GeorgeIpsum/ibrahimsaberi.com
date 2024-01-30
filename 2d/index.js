@@ -6,19 +6,32 @@ const COLORS = {
   yellow: 33,
   green: 32,
   blue: 34,
+  blueBg: "44;1",
   red: 31,
   grey: 90,
   magenta: 35,
+  magentaBg: "45;1",
+  cyanBg: 46,
   clear: 39,
+  reset: 0,
 };
 
+/**
+ * buh???
+ *
+ * @param {keyof typeof COLORS} color color to use
+ * @param {*} string string to colorize
+ * @returns returns string with escape sequences colorizing in ansi shell i guess idk
+ */
 const colorize = (color, string) =>
-  `\u001b[${COLORS[color]}m${string}\u001b[${COLORS.clear}m`;
+  `\u001b[${COLORS[color]}m${string}\u001b[0m`;
 
 const log = (...args) =>
   console.log(
-    colorize("grey", " 📔:"),
-    ...args.map((arg) => colorize("blue", arg))
+    "",
+    colorize("blueBg", "⏥"),
+    "",
+    args.map((arg) => colorize("magentaBg", `${arg}`.padEnd(32))).join("\n    ")
   );
 
 const authPasses = {};
@@ -84,6 +97,5 @@ const server = new Server(async (req, res) => {
 const host = "localhost";
 const port = 3001;
 server.listen(3001, "localhost", () => {
-  log("2D Server Live");
-  log(`http://${host}:${port}`);
+  log("2D Server Live", `http://${host}:${port}`);
 });

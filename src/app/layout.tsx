@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import Script from "next/script";
+
 import Crash from "@/components/cli/Crash";
 import { Gradient } from "@/components/gradient";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { type Theme } from "@/utils-client/types";
 import { THEME_COOKIE_NAME } from "@/utils/dom";
+
 import "./globals.css";
 
 export const metadata: Metadata = {

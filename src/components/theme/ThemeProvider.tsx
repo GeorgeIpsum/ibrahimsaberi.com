@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+
 import { getInitialTheme, observeDomTheme } from "@/utils-client/dom";
 import type { Theme } from "@/utils-client/types";
+
 import { ThemeContextProvider } from "./useDarkMode";
 
 interface ThemeProviderProps {
