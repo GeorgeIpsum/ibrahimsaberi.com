@@ -1,9 +1,11 @@
-import { Gradient } from "@/components/gradient";
-import Header from "@/components/structure/Header";
-import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import Script from "next/script";
-
+import Crash from "@/components/cli/Crash";
+import { Gradient } from "@/components/gradient";
+import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import { type Theme } from "@/utils-client/types";
+import { THEME_COOKIE_NAME } from "@/utils/dom";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -27,14 +29,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const cookieStore = cookies();
+  const themeCookie = cookieStore.get(THEME_COOKIE_NAME)?.value as Theme;
+
   return (
-    <html lang="en">
-      <Script id="set-theme">{themeScript}</Script>
-      <body>
-        <ThemeProvider>
+    <html lang="en" data-mode={themeCookie ?? "dark"}>
+      <Script id="set-initial-theme">{themeScript}</Script>
+      <body className="flex h-full flex-col">
+        <ThemeProvider defaultTheme={themeCookie}>
           <Gradient id="root-gradient" className="-z-20" />
-          <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 bg-emerald-50/5 dark:bg-emerald-950/5" />
+          <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
           {children}
+          <Crash />
         </ThemeProvider>
       </body>
       {process.env.NODE_ENV === "production" && (

@@ -2,6 +2,25 @@ const { Server } = require("node:http");
 const { createHmac } = require("node:crypto");
 const curl = require("./curl");
 
+const COLORS = {
+  yellow: 33,
+  green: 32,
+  blue: 34,
+  red: 31,
+  grey: 90,
+  magenta: 35,
+  clear: 39,
+};
+
+const colorize = (color, string) =>
+  `\u001b[${COLORS[color]}m${string}\u001b[${COLORS.clear}m`;
+
+const log = (...args) =>
+  console.log(
+    colorize("grey", " 📔:"),
+    ...args.map((arg) => colorize("blue", arg))
+  );
+
 const authPasses = {};
 const createAuthPass = (url) => {
   const key = createHmac("sha256", JSON.stringify({ url }));
@@ -53,18 +72,18 @@ async function run(req, res) {
 
 register("curl", "POST", curl.handler);
 const server = new Server(async (req, res) => {
-  console.log("Received request:", req.method, req.url);
+  log("Received request:", req.method, req.url);
   try {
     await run(req, res);
   } catch (e) {
-    console.log(e);
-    console.log("FAILED");
+    log(e);
+    log("FAILED");
   }
 });
 
 const host = "localhost";
 const port = 3001;
 server.listen(3001, "localhost", () => {
-  console.log("Internal server listening at");
-  console.log(`http://${host}:${port}`);
+  log("2D Server Live");
+  log(`http://${host}:${port}`);
 });

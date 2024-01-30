@@ -1,25 +1,43 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
 import { getInitialTheme, observeDomTheme } from "@/utils-client/dom";
 import type { Theme } from "@/utils-client/types";
-
 import { ThemeContextProvider } from "./useDarkMode";
 
-export const ThemeProvider: React.FC<React.PropsWithChildren> = ({
-  children,
-}) => {
-  const [theme, setTheme] = useState<Theme>(getInitialTheme);
+interface ThemeProviderProps {
+  defaultTheme?: Theme;
+}
+export const ThemeProvider: React.FC<
+  React.PropsWithChildren<ThemeProviderProps>
+> = ({ children, defaultTheme }) => {
+  const [theme, setTheme] = useState<Theme>(() =>
+    getInitialTheme(defaultTheme)
+  );
 
   useEffect(() => {
     observeDomTheme(setTheme);
+    const d = new BroadcastChannel("s-channel");
+    d.postMessage("s");
+    function messageListener(
+      this: BroadcastChannel,
+      message: MessageEvent<any>
+    ) {
+      console.log(this.name, message);
+    }
+    d.addEventListener("message", messageListener);
+    return () => {
+      d.removeEventListener("message", messageListener);
+    };
     // return () => disconnect();
   }, []);
 
   return (
     <ThemeContextProvider
-      value={{ theme: theme ?? "dark", isDarkMode: theme === "dark" }}
+      value={{
+        theme,
+        isDarkMode: theme === "dark",
+      }}
     >
       {children}
     </ThemeContextProvider>

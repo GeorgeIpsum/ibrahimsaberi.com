@@ -1,7 +1,6 @@
 "use client";
 
 import { createContext, useContext } from "react";
-
 import { getInitialTheme } from "../../utils-client/dom";
 import { Theme } from "../../utils-client/types";
 

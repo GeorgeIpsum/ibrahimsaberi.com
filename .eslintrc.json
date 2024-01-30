@@ -1,7 +1,7 @@
 {
   "extends": ["plugin:prettier/recommended", "next/core-web-vitals"],
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": ["error", "double", { "avoidEscape": true }],
     "react-hooks/exhaustive-deps": "off",
     "semi": "error"
   }

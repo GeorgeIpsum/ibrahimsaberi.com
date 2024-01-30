@@ -1,10 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-
 import { cx } from "class-variance-authority";
 import { Gradient as G } from "whatamesh";
-
 import { useDarkMode } from "../theme/useDarkMode";
 
 interface GradientProps {
@@ -32,7 +30,11 @@ const Gradient: React.FC<React.PropsWithChildren<GradientProps>> = ({
     <>
       <canvas
         id={id}
-        className={cx("absolute bottom-0 left-0 right-0 top-0", className)}
+        className={cx(
+          "absolute bottom-0 left-0 right-0 top-0",
+          className,
+          "transition-all"
+        )}
       />
       {children}
     </>

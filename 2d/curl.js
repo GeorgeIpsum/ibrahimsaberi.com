@@ -19,9 +19,7 @@ const handleCurlCommand = async ({ ua, libcurlC }) => {
         if (opt in Curl.option) {
           let val = rawval;
           if (
-            // eslint-disable-next-line
             val.indexOf('"') === 0 &&
-            // eslint-disable-next-line
             val.lastIndexOf('"') === val.length - 1
           ) {
             val = val.slice(1, val.length - 1);

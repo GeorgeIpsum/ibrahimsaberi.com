@@ -16,11 +16,11 @@ module.exports = {
   ],
   importOrder: [
     "^react$",
-    "^server$",
     "<THIRD_PARTY_MODULES>",
+    "@/(.*)$",
     "^[./]",
   ],
-  importOrderSeparation: true,
+  importOrderSeparation: false,
   importOrderSortSpecifiers: true,
   importOrderGroupNamespaceSpecifiers: true,
   importOrderParserPlugins: ["typescript", "jsx", "decorators"],

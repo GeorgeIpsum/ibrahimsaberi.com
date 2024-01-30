@@ -1,6 +1,5 @@
-import Crash from "@/components/cli/Crash";
-import Header from "@/components/structure/Header";
 import type { Metadata } from "next";
+import Header from "@/components/structure/Header";
 
 export const metadata: Metadata = {
   title: "a whisper",
@@ -16,7 +15,6 @@ export default function RootLayout({
     <>
       <Header />
       {children}
-      <Crash />
     </>
   );
 }
