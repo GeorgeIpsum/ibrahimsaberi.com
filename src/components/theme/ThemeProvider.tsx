@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-import { getInitialTheme, observeDomTheme } from "@/utils-client/dom";
-import type { Theme } from "@/utils-client/types";
+import { getInitialTheme, observeDomTheme } from "@/_client/dom";
+import type { Theme } from "@/_client/types";
 
 import { ThemeContextProvider } from "./useDarkMode";
 

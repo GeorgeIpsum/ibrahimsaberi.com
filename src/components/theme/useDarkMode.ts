@@ -2,8 +2,8 @@
 
 import { createContext, useContext } from "react";
 
-import { getInitialTheme } from "../../utils-client/dom";
-import { Theme } from "../../utils-client/types";
+import { getInitialTheme } from "../../_client/dom";
+import { Theme } from "../../_client/types";
 
 const ThemeContext = createContext<{ theme: Theme; isDarkMode: boolean }>({
   theme: getInitialTheme(),

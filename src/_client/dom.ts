@@ -2,7 +2,7 @@
 
 import Cookies from "js-cookie";
 
-import { THEME_COOKIE_NAME } from "@/utils/dom";
+import { SITE_SETTINGS_COOKIE, THEME_COOKIE } from "@/_server/utils";
 
 import { Theme } from "./types";
 
@@ -23,7 +23,7 @@ export const getInitialTheme = (defaultTheme: Theme = DEFAULT_THEME): Theme => {
 
     return getUserPreferredTheme();
   } else if (typeof document !== "undefined") {
-    const themeCookie = Cookies.get(THEME_COOKIE_NAME);
+    const themeCookie = Cookies.get(THEME_COOKIE);
     if (themeCookie && (themeCookie === "light" || themeCookie === "dark")) {
       return themeCookie;
     }
@@ -31,27 +31,27 @@ export const getInitialTheme = (defaultTheme: Theme = DEFAULT_THEME): Theme => {
   return defaultTheme;
 };
 
-const themeStorageKey = "theme";
+const LOCAL_THEME_STORAGE_KEY = "theme";
 
 export const getCurrentTheme = (defaultTheme: Theme = DEFAULT_THEME): Theme =>
-  (window.localStorage.getItem(themeStorageKey) as Theme) ??
-  (Cookies.get(THEME_COOKIE_NAME) as Theme) ??
+  (window.localStorage.getItem(LOCAL_THEME_STORAGE_KEY) as Theme) ??
+  (Cookies.get(THEME_COOKIE) as Theme) ??
   (document.documentElement.dataset.mode as Theme) ??
   defaultTheme;
 
 export const setDomTheme = (theme: Theme) => {
   document.documentElement.dataset.mode = theme;
-  window.localStorage.setItem(themeStorageKey, theme);
-  Cookies.set(THEME_COOKIE_NAME, theme);
+  window.localStorage.setItem(LOCAL_THEME_STORAGE_KEY, theme);
+  Cookies.set(THEME_COOKIE, theme);
 };
 
 export const resetDomTheme = () => {
   document.documentElement.dataset.mode = getUserPreferredTheme();
-  window.localStorage.removeItem(themeStorageKey);
-  Cookies.remove(THEME_COOKIE_NAME);
+  window.localStorage.removeItem(LOCAL_THEME_STORAGE_KEY);
+  Cookies.remove(THEME_COOKIE);
 };
 
-// dont question this. I know its Not GoodTM
+// dont question this. I know its Not Good™
 const themeSwapMap: Record<Theme, Theme> = {
   dark: "light",
   light: "dark",
@@ -78,3 +78,7 @@ export const observeDomTheme = (callback: (theme: Theme) => unknown) => {
 
   return observer.disconnect;
 };
+
+export const getSiteSettings = () => Cookies.get(SITE_SETTINGS_COOKIE);
+
+export const setSiteSettings = () => {};

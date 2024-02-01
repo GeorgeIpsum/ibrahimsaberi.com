@@ -1,6 +1,6 @@
 "use client";
 
-import { toggleDomTheme } from "@/utils-client/dom";
+import { toggleDomTheme } from "@/_client/dom";
 
 import { useDarkMode } from "./useDarkMode";
 
