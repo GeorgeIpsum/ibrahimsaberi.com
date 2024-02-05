@@ -18,6 +18,9 @@ const Home: React.FC = () => {
         <main className="max-w-4xl flex-1 flex-grow px-3">
           hello world :)
           <ThemeToggle />
+          <div>
+            <input type="checkbox" />
+          </div>
         </main>
       </div>
     </div>

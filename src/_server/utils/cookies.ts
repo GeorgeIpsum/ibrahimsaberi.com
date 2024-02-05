@@ -5,7 +5,7 @@ import { cookies } from "next/headers";
 export const THEME_COOKIE = "THEME-G1N-X1Z";
 export const SITE_SETTINGS_COOKIE = "SITE-G1N-X2F";
 
-interface SiteSettings {
+export interface SiteSettings {
   hideCli: boolean;
   pauseGradient: boolean;
 }
@@ -15,8 +15,8 @@ const defaultSiteSettings: SiteSettings = {
   pauseGradient: false,
 };
 
-type CookieSerializer<T> = (value: T) => string;
-type CookieDeserializer<T, U extends string = string> = (value: U) => T;
+export type CookieSerializer<T> = (value: T) => string;
+export type CookieDeserializer<T, U extends string = string> = (value: U) => T;
 export const cookieSerializer = <T>(value: T) =>
   Buffer.from(JSON.stringify(value)).toString("base64");
 export const cookieDeserializer = <T>(value: string) =>
@@ -29,12 +29,13 @@ const setCookieObject = <T = any>(
   serializer?: CookieSerializer<T>,
   options?: ResponseCookie
 ) => {
-  if (!value) return store.delete(cookie);
+  if (!value) return store.delete(cookie).getAll().join("\n");
 
   const defaultSerializer: CookieSerializer<T> = cookieSerializer;
   const toSerialized = serializer ?? defaultSerializer;
 
-  return store.set(cookie, toSerialized(value), options);
+  const responseCookies = store.set(cookie, toSerialized(value), options);
+  return responseCookies.getAll().join("\n");
 };
 
 const getCookieObject = <T = any>(
@@ -64,7 +65,7 @@ const buildCookieRepo = <T = any>(
     get() {
       return getCookieObject<T>(cookieStore, cookie, transformer.deserialize);
     },
-    set(value: T) {
+    set(value?: T) {
       return setCookieObject<T>(
         cookieStore,
         cookie,
@@ -88,11 +89,4 @@ export const cookie = () => {
   };
 };
 
-export const cookieDom = () => {
-  "use client";
-  if (typeof document !== "undefined") {
-    return {};
-  }
-
-  return {};
-};
+export type CookieRepo = ReturnType<typeof cookie>;

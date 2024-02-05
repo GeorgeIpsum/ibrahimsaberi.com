@@ -7,16 +7,32 @@ const nextConfig = {
     },
   },
   pageExtensions: ["ts", "tsx", "mdx"],
+  async headers() {
+    return [
+      {
+        source: "/:slug*",
+        headers: [
+          {
+            key: "Accept-CH",
+            value: "Sec-CH-Prefers-Color-Scheme",
+          },
+          {
+            key: "Vary",
+            value: "Sec-CH-Prefers-Color-Scheme",
+          },
+          {
+            key: "Critical-CH",
+            value: "Sec-CH-Prefers-Color-Scheme",
+          },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       {
-        source: "/blog",
-        destination: "/blag",
-        permanent: true,
-      },
-      {
-        source: "/blog/:slug*",
-        destination: "/blag/:slug*",
+        source: "/(blag|blog)/:slug*",
+        destination: "/basin/:slug*",
         permanent: true,
       },
     ];
