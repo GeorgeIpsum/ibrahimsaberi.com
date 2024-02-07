@@ -5,6 +5,9 @@ import { Footer } from "@/components/structure";
 import { Worse } from "@/components/svg";
 import ThemeToggleSsr from "@/features/theme/ThemeToggleSsr";
 
+// BOOGIE WOOGIE IS DEAD
+// LONG LIVE BOOGIE WOOGIE
+
 const headerLinks = [
   {
     href: "/basin",
@@ -34,7 +37,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
               className="flex items-center gap-2 text-2xl font-medium sm:text-4xl"
               title="with feeling"
             >
-              <Worse size={40} />
+              <Worse size={36} />
               Once More
             </Link>
             <div className="mt-2 flex flex-row flex-wrap items-center gap-5 sm:mx-4 sm:mt-0">
