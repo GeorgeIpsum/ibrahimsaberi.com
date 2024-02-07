@@ -1,10 +1,7 @@
 "use client";
 
-import { cx } from "class-variance-authority";
-
 import { toggleDomTheme } from "@/_client/dom";
 
-import styles from "./ThemeToggle.module.css";
 import { useDarkMode } from "./useDarkMode";
 
 const ThemeToggle: React.FC = () => {
@@ -12,8 +9,8 @@ const ThemeToggle: React.FC = () => {
 
   return (
     <input
+      className="theme"
       type="checkbox"
-      className={cx("theme", styles.theme)}
       checked={isDarkMode}
       onChange={toggleDomTheme}
     />

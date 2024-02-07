@@ -1,6 +1,5 @@
 import type { ResponseCookie } from "next/dist/compiled/@edge-runtime/cookies";
 import type { ReadonlyRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies";
-import { cookies } from "next/headers";
 
 export const THEME_COOKIE = "THEME-G1N-X1Z";
 export const SITE_SETTINGS_COOKIE = "SITE-G1N-X2F";
@@ -77,7 +76,7 @@ const buildCookieRepo = <T = any>(
   };
 };
 
-export const cookie = () => {
+export const cookie = (cookies: () => ReadonlyRequestCookies) => {
   const cookieStore = cookies();
 
   return {

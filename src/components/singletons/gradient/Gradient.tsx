@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 import { cx } from "class-variance-authority";
 import { Gradient as G } from "whatamesh";
 
-import { useDarkMode } from "../theme/useDarkMode";
+import { useDarkMode } from "../../../features/theme/useDarkMode";
 
 interface GradientProps {
   id: string;

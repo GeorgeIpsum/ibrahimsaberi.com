@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import { cookies } from "next/headers";
 import Script from "next/script";
 
 import { cookie } from "@/_server/utils";
-import Crash from "@/components/cli/Crash";
-import { Gradient } from "@/components/gradient";
-import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import Crash from "@/components/singletons/cli/Crash";
+import { Gradient } from "@/components/singletons/gradient";
+import { ThemeProvider } from "@/features/theme/ThemeProvider";
 
 import "./globals.css";
 
@@ -21,7 +22,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const themeCookie = cookie().theme.get();
+  const themeCookie = cookie(cookies).theme.get();
   const defaultTheme = headers().get("Sec-CH-Prefers-Color-Scheme");
 
   return (
