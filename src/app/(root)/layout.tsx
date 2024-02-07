@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { Container } from "@/components/atoms";
 import { Footer } from "@/components/structure";
+import { Worse } from "@/components/svg";
 import ThemeToggleSsr from "@/features/theme/ThemeToggleSsr";
 
 const headerLinks = [
@@ -30,9 +31,10 @@ export default function Layout({ children }: React.PropsWithChildren) {
           <Container className="relative w-full items-center justify-between gap-4 font-head sm:flex sm:w-auto">
             <Link
               href="/"
-              className="text-2xl font-medium sm:text-4xl"
+              className="flex items-center gap-2 text-2xl font-medium sm:text-4xl"
               title="with feeling"
             >
+              <Worse size={40} />
               Once More
             </Link>
             <div className="mt-2 flex flex-row flex-wrap items-center gap-5 sm:mx-4 sm:mt-0">
