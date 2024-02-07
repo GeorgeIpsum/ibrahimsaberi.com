@@ -34,11 +34,14 @@ export default function Layout({ children }: React.PropsWithChildren) {
           <Container className="relative w-full items-center justify-between gap-4 font-head sm:flex sm:w-auto">
             <Link
               href="/"
-              className="flex items-center gap-2 text-2xl font-medium sm:text-4xl"
+              className="flex items-center text-2xl font-medium sm:text-4xl"
               title="with feeling"
             >
-              <Worse size={36} />
-              Once More
+              <Worse
+                size={36}
+                className="h-[28px] w-[28px] sm:h-[36px] sm:w-[36px]"
+              />
+              <div className="-ml-2">once more</div>
             </Link>
             <div className="mt-2 flex flex-row flex-wrap items-center gap-5 sm:mx-4 sm:mt-0">
               {headerLinks.map(({ href, display, title }) => (

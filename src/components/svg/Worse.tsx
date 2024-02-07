@@ -16,7 +16,14 @@ const addTransitionClasses = (input: string) =>
   cx(input, "transition-all duration-300 ease-in-out");
 const addTC = addTransitionClasses;
 
-const Worse: React.FC<WorseProps> = ({ fillProps, size = 100 }) => {
+const Worse: React.FC<WorseProps & SvgProps> = ({
+  fillProps,
+  size = 100,
+  className,
+  ...props
+}) => {
+  const classNameHasSize =
+    className?.includes("w-") || className?.includes("h-");
   const {
     bing = addTC("fill-pink-200 dark:fill-emerald-950"),
     bingBorder = addTC("fill-fuchsia-300 dark:fill-emerald-700 delay-300"),
@@ -31,9 +38,13 @@ const Worse: React.FC<WorseProps> = ({ fillProps, size = 100 }) => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1028 1028"
       strokeWidth={0}
-      height={size}
-      width={size}
-      className="fill-slate-50 transition-all duration-700 ease-in-out dark:fill-slate-950"
+      height={classNameHasSize ? size : undefined}
+      width={classNameHasSize ? size : undefined}
+      className={cx(
+        "fill-slate-50 transition-all duration-700 ease-in-out dark:fill-slate-950",
+        className
+      )}
+      {...props}
     >
       <defs>
         <linearGradient
@@ -45,7 +56,7 @@ const Worse: React.FC<WorseProps> = ({ fillProps, size = 100 }) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop offset="0" stop-color="#fbcfe8" />
-          <stop offset="1" stop-color="#fda4af" />
+          <stop offset="1" stop-color="#fb7185" />
         </linearGradient>
         <linearGradient
           id="light-is"
