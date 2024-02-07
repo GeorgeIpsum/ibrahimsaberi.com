@@ -26,7 +26,7 @@ const Container: React.FC<React.PropsWithChildren<ContainerProps>> = ({
   return (
     <div
       {...props}
-      className={cx(className, "bg-pink-400/10 dark:bg-emerald-100/10")}
+      className={cx(className, "bg-pink-400/10 dark:bg-emerald-800/10")}
     >
       {children}
     </div>
