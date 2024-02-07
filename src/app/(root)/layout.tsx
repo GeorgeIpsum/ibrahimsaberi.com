@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 import { Container } from "@/components/atoms";
+import { Logo } from "@/components/navigation";
 import { Footer } from "@/components/structure";
-import { Worse } from "@/components/svg";
 import ThemeToggleSsr from "@/features/theme/ThemeToggleSsr";
 
 // BOOGIE WOOGIE IS DEAD
@@ -32,17 +32,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
       <header className="mx-2 mt-6 sm:mx-6 sm:mt-8">
         <div className="mx-4 flex text-rose-950 dark:text-teal-100">
           <Container className="relative w-full items-center justify-between gap-4 font-head sm:flex sm:w-auto">
-            <Link
-              href="/"
-              className="flex items-center text-2xl font-medium sm:text-4xl"
-              title="with feeling"
-            >
-              <Worse
-                size={36}
-                className="h-[28px] w-[28px] sm:h-[36px] sm:w-[36px]"
-              />
-              <div className="-ml-2">once more</div>
-            </Link>
+            <Logo />
             <div className="mt-2 flex flex-row flex-wrap items-center gap-5 sm:mx-4 sm:mt-0">
               {headerLinks.map(({ href, display, title }) => (
                 <Link
