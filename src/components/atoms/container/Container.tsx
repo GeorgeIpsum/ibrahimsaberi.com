@@ -1,6 +1,6 @@
 import { type VariantProps, cva, cx } from "class-variance-authority";
 
-const $styles = cva(["container", "rounded"], {
+const $styles = cva(["container", "rounded-lg"], {
   variants: {
     padding: {
       sm: ["px-2", "py-1"],

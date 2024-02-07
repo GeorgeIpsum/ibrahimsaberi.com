@@ -26,7 +26,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
   return (
     <>
       <header className="mx-2 mt-6 sm:mx-6 sm:mt-8">
-        <div className="mx-4 flex  text-rose-950 dark:text-teal-100">
+        <div className="mx-4 flex text-rose-950 dark:text-teal-100">
           <Container className="relative w-full items-center justify-between gap-4 font-head sm:flex sm:w-auto">
             <Link
               href="/"
