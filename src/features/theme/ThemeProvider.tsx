@@ -19,18 +19,6 @@ export const ThemeProvider: React.FC<
 
   useEffect(() => {
     observeDomTheme(setTheme);
-    const d = new BroadcastChannel("s-channel");
-    d.postMessage("s");
-    function messageListener(
-      this: BroadcastChannel,
-      message: MessageEvent<any>
-    ) {
-      console.log(this.name, message);
-    }
-    d.addEventListener("message", messageListener);
-    return () => {
-      d.removeEventListener("message", messageListener);
-    };
     // return () => disconnect();
   }, []);
 
