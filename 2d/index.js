@@ -16,6 +16,8 @@ const COLORS = {
   reset: 0,
 };
 
+const maxLineLength = 32;
+
 /**
  * buh???
  *
@@ -28,10 +30,15 @@ const colorize = (color, string) =>
 
 const log = (...args) =>
   console.log(
+    colorize("blueBg", "".padStart(maxLineLength)) + "\n",
+    colorize("magentaBg", " ") + colorize("blueBg", "⏥"),
     "",
-    colorize("blueBg", "⏥"),
-    "",
-    args.map((arg) => colorize("magentaBg", `${arg}`.padEnd(32))).join("\n    ")
+    args
+      .map((arg) => colorize("magentaBg", `  ${arg}`.padEnd(maxLineLength - 5)))
+      .join(`\n ${colorize("magentaBg", " ")}   `),
+    "\n" +
+      colorize("blueBg", " ") +
+      colorize("magentaBg", "".padEnd(maxLineLength - 1))
   );
 
 const authPasses = {};
