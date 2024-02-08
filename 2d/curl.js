@@ -1,4 +1,11 @@
-const { Curl } = require("node-libcurl");
+// const { Curl } = require("node-libcurl");
+
+class Curl {
+  static option = {};
+  setOpt(str, str2) {}
+  on(event, func) {}
+  perform() {}
+}
 
 const handleCurlCommand = async ({ ua, libcurlC }) => {
   if (!ua) throw new Error("user agent not defined");
@@ -26,7 +33,7 @@ const handleCurlCommand = async ({ ua, libcurlC }) => {
           }
           curl.setOpt(Curl.option[opt], val);
         } else {
-          console.log("unsupported curl opt", rawopt, val);
+          console.log("unsupported curl opt", rawopt);
         }
       }
     });
