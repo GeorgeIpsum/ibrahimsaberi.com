@@ -9,7 +9,7 @@ const ThemeToggle: React.FC = () => {
 
   return (
     <input
-      className="theme"
+      className="switch theme"
       type="checkbox"
       checked={isDarkMode}
       onChange={toggleDomTheme}

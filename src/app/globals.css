@@ -63,43 +63,6 @@ html[data-mode="dark"] #root-gradient {
 }
 
 @layer components {
-  input[type="checkbox"] {
-    position: relative;
-    appearance: none;
-    margin: 0;
-    font: inherit;
-    color: currentColor;
-    width: 2.5rem;
-    height: 1.25rem;
-    border-radius: 999px;
-    transition: all 300ms ease-out;
-    cursor: pointer;
-
-    @apply isolate bg-pink-100 bg-gradient-to-br from-slate-400/10 to-pink-100 shadow-inner shadow-pink-300 dark:bg-emerald-800 dark:from-slate-400/10 dark:to-emerald-800 dark:shadow-green-900;
-  }
-
-  input[type="checkbox"]:checked {
-    @apply bg-pink-300 dark:bg-emerald-200;
-  }
-
-  input[type="checkbox"]::before {
-    content: "";
-    width: 0.875rem;
-    height: 0.875rem;
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    border-radius: 2rem;
-    transition: all 350ms ease-in-out;
-
-    @apply bg-slate-300/60 shadow-sm shadow-slate-700/50 dark:bg-slate-50/30 dark:shadow-green-900;
-  }
-
-  input[type="checkbox"]:checked::before {
-    @apply bg-pink-50/90 shadow-fuchsia-400 dark:bg-green-50/90 dark:shadow-green-950;
-    left: calc(100% - 0.875rem - 3px);
-  }
-
   .container {
     position: relative;
     border: solid 2px transparent;
@@ -137,16 +100,98 @@ html[data-mode="dark"] #root-gradient {
   }
 }
 
-input[type="checkbox"].theme::before {
+input.switch[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 2.5rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+
+  @apply isolate bg-pink-100 bg-gradient-to-br from-slate-400/10 to-pink-100 shadow-inner shadow-pink-300 dark:bg-emerald-800 dark:from-slate-400/10 dark:to-emerald-800 dark:shadow-green-900;
+}
+
+input.switch[type="checkbox"]:checked {
+  @apply bg-pink-300 dark:bg-emerald-200;
+}
+
+input.switch[type="checkbox"]::before {
+  content: "";
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 2rem;
+  transition: all 350ms ease-in-out;
+
+  @apply bg-slate-300/60 shadow-sm shadow-slate-700/50 dark:bg-slate-50/30 dark:shadow-green-900;
+}
+
+input.switch[type="checkbox"]:checked::before {
+  @apply bg-pink-50/90 shadow-fuchsia-400 dark:bg-green-50/90 dark:shadow-green-950;
+  left: calc(100% - 0.875rem - 3px);
+}
+
+input.switch[type="checkbox"].theme::before {
   background-image: url("/img/theme/sun.svg");
 
   @apply bg-pink-600 shadow-fuchsia-600;
 }
 
-input[type="checkbox"].theme:checked::before {
+input.switch[type="checkbox"].theme:checked::before {
   background-image: url("/img/theme/evil-moon.svg");
 
   @apply dark:bg-green-950 dark:shadow-green-950;
+}
+
+input.arrow[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+input.arrow[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1rem;
+  height: 1rem;
+  transition: all 200ms ease-in;
+  background-image: url("/icons/caret-lt.svg");
+  background-position: 50% 50%;
+
+  @apply pointer-events-none -translate-x-1/2 -translate-y-1/2 rotate-0 select-none stroke-pink-800 dark:stroke-green-200 dark:text-green-200 lg:-rotate-90;
+}
+
+:is([data-mode="dark"]) input.arrow[type="checkbox"]::before {
+  background-image: url("/icons/caret-dk.svg");
+}
+
+input.arrow[type="checkbox"]:checked::before {
+  @apply rotate-180 lg:rotate-90;
+}
+
+div.crash {
+  transition:
+    bottom 300ms ease-out,
+    right 300ms ease-out,
+    top 300ms ease-out;
+}
+
+div.crash:has(div > input:checked) {
+  @apply top-full lg:-right-[383px] lg:bottom-0 lg:top-[unset];
 }
 
 @keyframes fade-in {

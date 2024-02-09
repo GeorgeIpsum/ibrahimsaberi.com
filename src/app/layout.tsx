@@ -27,12 +27,14 @@ export default function RootLayout({
 
   return (
     <html lang="en" data-mode={themeCookie ?? defaultTheme ?? "dark"}>
-      <body className="flex h-full flex-col">
+      <body>
         <ThemeProvider defaultTheme={themeCookie ?? (defaultTheme as Theme)}>
           <Gradient id="root-gradient" className="-z-20" />
           <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
-          {children}
-          <Crash />
+          <div className="flex w-full flex-row">
+            <div className="w-full pb-12 sm:pb-8 md:pb-4">{children}</div>
+            <Crash />
+          </div>
         </ThemeProvider>
       </body>
       {process.env.NODE_ENV === "production" && (

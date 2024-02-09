@@ -7,7 +7,14 @@ const ThemeToggleSsr = dynamic(() => import("./ThemeToggle"), {
   ssr: false,
   loading: () => {
     const themeCookie = cookie(cookies).theme.get();
-    return <input readOnly type="checkbox" checked={themeCookie === "dark"} />;
+    return (
+      <input
+        className="switch theme"
+        readOnly
+        type="checkbox"
+        defaultChecked={themeCookie === "dark"}
+      />
+    );
   },
 });
 

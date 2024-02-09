@@ -55,8 +55,8 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
           y2="687.24"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#fbcfe8" />
-          <stop offset="1" stop-color="#fb7185" />
+          <stop offset="0" stopColor="#fbcfe8" />
+          <stop offset="1" stopColor="#fb7185" />
         </linearGradient>
         <linearGradient
           id="light-is"
@@ -66,8 +66,8 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
           y2="687.24"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#022c22" />
-          <stop offset="1" stop-color="#15803d" />
+          <stop offset="0" stopColor="#022c22" />
+          <stop offset="1" stopColor="#15803d" />
         </linearGradient>
       </defs>
       <g>

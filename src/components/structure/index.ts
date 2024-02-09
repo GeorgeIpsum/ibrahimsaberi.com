@@ -1,4 +1,5 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import HeaderAlt from "./HeaderAlt";
 
-export { Header, Footer };
+export { Header, HeaderAlt, Footer };
