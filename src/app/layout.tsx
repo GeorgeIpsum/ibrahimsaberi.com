@@ -44,7 +44,7 @@ export default function RootLayout({
           data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
         />
       )}
-      <Script id="global-site" src="/global.js" />
+      <Script id="global-site" src="/script.js" />
     </html>
   );
 }
