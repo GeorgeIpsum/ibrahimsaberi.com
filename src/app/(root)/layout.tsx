@@ -5,9 +5,9 @@ import { Footer, HeaderAlt } from "@/components/structure";
 
 export default function Layout({ children }: React.PropsWithChildren) {
   return (
-    <div className="w-full lg:max-w-5xl">
+    <div className="w-full lg:max-w-4xl">
       <HeaderAlt />
-      <main className="mx-6 w-full">{children}</main>
+      <main className="md:mx-auto md:max-w-3xl lg:w-full">{children}</main>
       <Footer />
     </div>
   );

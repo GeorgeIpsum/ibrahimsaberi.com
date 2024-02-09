@@ -17,6 +17,11 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/container-queries"),
+    require("@tailwindcss/aspect-ratio"),
+    // require("@tailwindcss/forms"),
+    require("tailwind-children"),
+  ],
 };
 export default config;

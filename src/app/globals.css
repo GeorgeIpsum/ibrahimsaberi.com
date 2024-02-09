@@ -60,6 +60,13 @@ html[data-mode="dark"] #root-gradient {
   h3 {
     font-family: var(--font-head);
   }
+
+  input {
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
 }
 
 @layer components {
@@ -100,9 +107,10 @@ html[data-mode="dark"] #root-gradient {
   }
 }
 
-input.switch[type="checkbox"] {
-  position: relative;
+input[data-checkbox="switch"][type="checkbox"] {
   appearance: none;
+  border: none;
+  position: relative;
   margin: 0;
   font: inherit;
   color: currentColor;
@@ -115,11 +123,11 @@ input.switch[type="checkbox"] {
   @apply isolate bg-pink-100 bg-gradient-to-br from-slate-400/10 to-pink-100 shadow-inner shadow-pink-300 dark:bg-emerald-800 dark:from-slate-400/10 dark:to-emerald-800 dark:shadow-green-900;
 }
 
-input.switch[type="checkbox"]:checked {
+input[data-checkbox="switch"][type="checkbox"]:checked {
   @apply bg-pink-300 dark:bg-emerald-200;
 }
 
-input.switch[type="checkbox"]::before {
+input[data-checkbox="switch"][type="checkbox"]::before {
   content: "";
   width: 0.875rem;
   height: 0.875rem;
@@ -132,36 +140,60 @@ input.switch[type="checkbox"]::before {
   @apply bg-slate-300/60 shadow-sm shadow-slate-700/50 dark:bg-slate-50/30 dark:shadow-green-900;
 }
 
-input.switch[type="checkbox"]:checked::before {
+input[data-checkbox="switch"][type="checkbox"]:checked::before {
   @apply bg-pink-50/90 shadow-fuchsia-400 dark:bg-green-50/90 dark:shadow-green-950;
   left: calc(100% - 0.875rem - 3px);
 }
 
-input.switch[type="checkbox"].theme::before {
+input[data-checkbox="switch"][type="checkbox"].theme::before {
   background-image: url("/img/theme/sun.svg");
 
   @apply bg-pink-600 shadow-fuchsia-600;
 }
 
-input.switch[type="checkbox"].theme:checked::before {
+input[data-checkbox="switch"][type="checkbox"].theme:checked::before {
   background-image: url("/img/theme/evil-moon.svg");
 
   @apply dark:bg-green-950 dark:shadow-green-950;
 }
 
-input.arrow[type="checkbox"] {
+input[type="checkbox"][data-checkbox="arrow"] {
   position: relative;
   appearance: none;
+  outline: none;
+  border: none;
   margin: 0;
   font: inherit;
   color: currentColor;
   cursor: pointer;
   width: 100%;
   height: 100%;
-  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: transparent;
+  border-radius: 4px;
 }
 
-input.arrow[type="checkbox"]::before {
+input[type="checkbox"][data-checkbox="arrow"]:focus {
+  outline: none;
+  border: none;
+  outline-offset: 0;
+  background: transparent;
+}
+
+input[type="checkbox"][data-checkbox="arrow"]:hover {
+  outline: none;
+  border: none;
+  outline-offset: 0;
+  background: transparent;
+}
+
+input[type="checkbox"][data-checkbox="arrow"]:active {
+  outline: none;
+  border: none;
+  outline-offset: 0;
+  background: transparent;
+}
+
+input[type="checkbox"][data-checkbox="arrow"]::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -175,11 +207,11 @@ input.arrow[type="checkbox"]::before {
   @apply pointer-events-none -translate-x-1/2 -translate-y-1/2 rotate-0 select-none stroke-pink-800 dark:stroke-green-200 dark:text-green-200 lg:-rotate-90;
 }
 
-:is([data-mode="dark"]) input.arrow[type="checkbox"]::before {
+:is([data-mode="dark"]) input[type="checkbox"][data-checkbox="arrow"]::before {
   background-image: url("/icons/caret-dk.svg");
 }
 
-input.arrow[type="checkbox"]:checked::before {
+input[type="checkbox"][data-checkbox="arrow"]:checked::before {
   @apply rotate-180 lg:rotate-90;
 }
 
