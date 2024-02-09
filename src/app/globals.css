@@ -220,7 +220,7 @@ div.crash {
 }
 
 div.crash:has(div > input:checked) {
-  @apply top-full lg:-right-[383px] lg:bottom-0 lg:top-[unset];
+  @apply bottom-[unset] top-full lg:-right-[400px] lg:bottom-0 lg:top-[unset];
 }
 
 @keyframes fade-in {

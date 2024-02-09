@@ -50,7 +50,7 @@ const Cli: React.FC<CliProps> = ({ platform }) => {
       <input
         ref={inputRef}
         className="mb-2 w-full rounded-b-md bg-pink-50/95 p-3 font-mono text-sm shadow-inner shadow-purple-500/50 outline-none selection:bg-pink-300 dark:bg-zinc-950 dark:shadow-black/40 dark:selection:bg-emerald-700"
-        placeholder={`type / or ${metaKey}+K`}
+        placeholder={`[/] or [${metaKey}+K]`}
       />
     </form>
   );
