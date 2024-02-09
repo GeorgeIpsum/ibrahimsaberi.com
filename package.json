@@ -6,7 +6,7 @@
     "dev": "npm-run-all --parallel dev-next dev-2d",
     "dev-2d": "node --watch-path=./2d 2d",
     "dev-next": "next dev --turbo",
-    "build": "next build",
+    "build": "./build",
     "start-2d": "node 2d",
     "start-next": "next start",
     "start": "npm-run-all --parallel start-next start-2d",
