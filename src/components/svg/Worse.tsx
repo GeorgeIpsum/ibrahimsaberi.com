@@ -1,4 +1,9 @@
+"use client";
+
+import { useEffect } from "react";
+
 import { cx } from "class-variance-authority";
+import { animate, motion } from "framer-motion";
 
 interface WorseProps {
   size?: number;
@@ -16,7 +21,7 @@ const addTransitionClasses = (input: string) =>
   cx(input, "transition-all duration-300 ease-in-out");
 const addTC = addTransitionClasses;
 
-const Worse: React.FC<WorseProps & SvgProps> = ({
+const Worse: React.FC<WorseProps & { className: string }> = ({
   fillProps,
   size = 100,
   className,
@@ -34,7 +39,8 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
   } = fillProps ?? {};
 
   return (
-    <svg
+    <motion.svg
+      id="logo"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1028 1028"
       strokeWidth={0}
@@ -71,8 +77,24 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
         </linearGradient>
       </defs>
       <g>
-        <path
-          className={bangBorder}
+        <motion.path
+          variants={{
+            hidden: {
+              pathLength: 0,
+              className: "opacity-0",
+            },
+            visible: {
+              pathLength: 1,
+              className: bangBorder,
+            },
+          }}
+          initial="hidden"
+          animate="visible"
+          transition={{
+            default: { duration: 5, ease: "easeInOut" },
+            fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+          }}
+          onAnimationStart={() => console.log("animating")}
           d="M78.65,642.5c-.3-22.71,13.19-61.55,22.59-82.82.11-.25.66.51,3.01-4.52,28.41,321.68,410.9,484.84,666.34,283.1,106.89-84.42,159.05-205.28,155.86-340.32-.05-2.01.07-4.02,0-6.02,4.24-4.95,7.46-10.86,10.54-16.56,10.43-19.33,18.76-39.38,25.6-60.23,22.06,119.22,7.43,231.8-55.72,336.56-164.39,272.72-555.56,296.19-752.93,46.68-25.51-32.24-74.77-116.22-75.29-155.86Z"
         />
         <path
@@ -81,7 +103,7 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
         />
       </g>
       <g>
-        <path
+        <motion.path
           className={bingBorder}
           d="M962.59,415.11c-6.84,20.85-15.16,40.91-25.6,60.23-5.83-7.61-3.14-26.68-4.52-36.89-6.08-45.01-20.35-84.09-40.66-124.23C740.09,14.36,325.02-6.02,149.42,290.13c-39.94,67.36-64.4,152.46-58.73,231.15.99,13.69,6.21,51.03,10.54,38.4-9.4,21.27-22.89,60.11-22.59,82.82-3.3.03-8.94-20.85-10.54-27.86-32.83-143.37,4.3-300.64,99.39-412.61C383.31-52.09,781.4,8.47,926.45,301.42c14.91,37.02,28.84,74.22,36.14,113.69Z"
         />
@@ -102,7 +124,7 @@ const Worse: React.FC<WorseProps & SvgProps> = ({
           d="M891.81,314.22q-1.51-.38-3.01-.75c-.85,7.14,4.85,10.63-3.01,9.79C764.04,70.19,401.78-4.79,194.6,242.69c-8.3,9.91-27.76,41.66-33.13,45.93-6.25,4.97-4.87,6-12.05,1.51C325.02-6.02,740.09,14.36,891.81,314.22Z"
         />
       </g>
-    </svg>
+    </motion.svg>
   );
 };
 

@@ -4,8 +4,8 @@ import { cookies } from "next/headers";
 import Script from "next/script";
 
 import { cookie } from "@/_server/utils";
-import Crash from "@/components/singletons/cli/Crash";
 import { Gradient } from "@/components/singletons/gradient";
+import Crash from "@/features/cli/Crash";
 import { ThemeProvider } from "@/features/theme/ThemeProvider";
 
 import "./globals.css";
