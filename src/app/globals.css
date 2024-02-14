@@ -67,6 +67,10 @@ html[data-mode="dark"] #root-gradient {
   input:focus {
     outline: none;
   }
+
+  svg {
+    @apply transition-all duration-300;
+  }
 }
 
 @layer components {

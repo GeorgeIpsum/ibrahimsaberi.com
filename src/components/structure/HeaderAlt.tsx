@@ -4,6 +4,7 @@ import ThemeToggleSsr from "@/features/theme/ThemeToggleSsr";
 
 import { Container } from "../atoms";
 import { Logo } from "../navigation";
+import { Gear } from "../svg";
 
 const headerLinks = [
   {
@@ -25,8 +26,8 @@ const headerLinks = [
 
 const HeaderAlt: React.FC = () => {
   return (
-    <header className="sticky top-0 mx-2 mt-6 sm:ml-6 sm:mt-8">
-      <div className="flex items-stretch justify-between gap-4 text-rose-950 dark:text-teal-100">
+    <header className="sticky top-0 mt-2 sm:mt-6">
+      <div className="flex items-stretch justify-between text-rose-950 dark:text-teal-100 sm:gap-4">
         <Container className="relative flex w-full items-center justify-between gap-4 font-head sm:w-auto sm:gap-12">
           <Logo />
           <div className="flex flex-row flex-nowrap items-center gap-2 text-xs sm:mx-4 sm:gap-6 sm:text-base">
@@ -42,16 +43,31 @@ const HeaderAlt: React.FC = () => {
             ))}
           </div>
         </Container>
-        <Container className="flex w-auto items-center gap-2 sm:gap-4">
-          <ThemeToggleSsr />
-          <button className="flex flex-col gap-1 py-2 pl-2 pr-2 children:h-1 children:w-1 children:rounded-full children:bg-fuchsia-500 children:dark:bg-emerald-300 sm:pr-4">
-            <div></div>
-            <div></div>
-            <div></div>
-          </button>
+        <div className="flex items-center justify-center p-1 sm:hidden">
+          <SettingsGear />
+        </div>
+        <Container className="hidden w-fit items-center gap-2 rounded-xl sm:flex">
+          <SettingsGear />
+          <div className="flex h-full items-center">
+            <ThemeToggleSsr />
+          </div>
         </Container>
       </div>
     </header>
+  );
+};
+
+const SettingsGear: React.FC = () => {
+  return (
+    <button className="group grid h-full place-content-center place-items-center  p-[2px] transition-all duration-150">
+      <div className="-z-10 col-start-1 col-end-1 row-start-1 row-end-1 h-7 w-7 rounded-full bg-pink-300 bg-gradient-to-br from-rose-600/30 to-pink-200/30 transition-all duration-150 group-hover:bg-pink-200  group-hover:opacity-0 dark:bg-emerald-700 dark:from-teal-500/50 dark:to-emerald-800/50 group-hover:dark:bg-emerald-800" />
+      <div className="-z-20 col-start-1 col-end-1 row-start-1 row-end-1 h-7 w-7 rounded-full bg-pink-200  transition-all duration-150 dark:bg-emerald-800" />
+      <Gear
+        height={20}
+        width={20}
+        className="col-start-1 col-end-1 row-start-1 row-end-1 fill-rose-50/90 transition-all duration-500 group-hover:rotate-180 group-hover:fill-white dark:fill-emerald-100/80 "
+      />
+    </button>
   );
 };
 
