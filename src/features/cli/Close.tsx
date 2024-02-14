@@ -23,16 +23,7 @@ const Close: React.FC = () => {
     ],
   ]);
 
-  return (
-    <div className="absolute -top-4 right-0 mx-3 flex h-4 w-12 select-none items-center justify-center rounded-t bg-pink-200 shadow shadow-fuchsia-800/30 dark:bg-green-950 dark:shadow-black/40 lg:-left-7 lg:bottom-12 lg:right-[unset] lg:top-[unset] lg:h-12 lg:w-4 lg:rounded-l lg:rounded-tr-none">
-      <input
-        id="close-drawer"
-        ref={ref}
-        type="checkbox"
-        data-checkbox="arrow"
-      />
-    </div>
-  );
+  return <div className="h-1 w-1 rounded-full bg-red-500"></div>;
 };
 
 /**

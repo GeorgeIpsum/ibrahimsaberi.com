@@ -4,10 +4,9 @@ import { useEffect, useRef } from "react";
 
 import { useHotkeys } from "@/hooks";
 
-interface CliProps {
-  platform: string;
-}
-const Cli: React.FC<CliProps> = ({ platform }) => {
+const Cli: React.FC<{}> = ({}) => {
+  const ua = navigator.userAgent;
+  const platform = ua?.toUpperCase().includes("MAC") ? "Mac" : "Windows";
   const cr = useRef<{ [key: string]: any }>({ asdf: true });
   const inputRef = useRef<HTMLInputElement>(null);
 

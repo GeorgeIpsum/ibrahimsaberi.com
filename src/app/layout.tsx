@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { headers } from "next/headers";
 import { cookies } from "next/headers";
 import Script from "next/script";
 
 import { cookie } from "@/_server/utils";
 import { Gradient } from "@/components/singletons/gradient";
-import Crash from "@/features/cli/Crash";
 import { ThemeProvider } from "@/features/theme/ThemeProvider";
 
 import "./globals.css";
@@ -31,10 +31,7 @@ export default function RootLayout({
         <ThemeProvider defaultTheme={themeCookie ?? (defaultTheme as Theme)}>
           <Gradient id="root-gradient" className="-z-20" />
           <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
-          <div className="w-full lg:w-[calc(100%-400px)]">
-            <div className="w-full pb-12 sm:pb-8 md:pb-4">{children}</div>
-            <Crash />
-          </div>
+          <div className="w-full pb-12 sm:pb-8 md:pb-4">{children}</div>
         </ThemeProvider>
       </body>
       {process.env.NODE_ENV === "production" && (
