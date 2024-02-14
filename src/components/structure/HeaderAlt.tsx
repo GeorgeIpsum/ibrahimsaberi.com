@@ -43,10 +43,13 @@ const HeaderAlt: React.FC = () => {
             ))}
           </div>
         </Container>
-        <div className="flex items-center justify-center p-1 sm:hidden">
+        <div className="ml-2 flex items-center justify-center p-1 sm:hidden">
           <SettingsGear />
         </div>
-        <Container className="relative hidden w-fit items-center gap-2 rounded-xl sm:flex">
+        <Container
+          className="static hidden w-fit items-center gap-2 rounded-xl px-3 sm:relative sm:flex"
+          padding="custom"
+        >
           <SettingsGear />
           <div className="flex h-full items-center">
             <ThemeToggleSsr />

@@ -233,38 +233,45 @@ input[type="checkbox"][data-checkbox="arrow"]:checked::before {
 }
 
 .settings-gear .settings-menu {
-  @apply origin-top scale-y-0 overflow-hidden transition-all duration-500;
+  @apply pointer-events-none origin-top scale-y-0 overflow-hidden opacity-0 transition-all duration-500;
 }
 
-.settings-gear:hover .settings-menu {
-  @apply scale-y-100;
+.settings-gear:hover .settings-menu,
+.settings-gear:focus .settings-menu {
+  @apply pointer-events-auto scale-y-100 opacity-100;
 }
 
 .settings-gear .settings-menu li {
-  @apply origin-left -translate-y-2 scale-0 duration-500;
+  @apply origin-bottom-left -translate-y-2 scale-0 duration-500;
 }
 
-.settings-gear:hover .settings-menu li {
+.settings-gear:hover .settings-menu li,
+.settings-gear:focus .settings-menu li {
   @apply translate-y-0 scale-100;
 }
 
-.settings-gear:hover .settings-menu li:nth-child(1) {
+.settings-gear:hover .settings-menu li:nth-child(1),
+.settings-gear:focus .settings-menu li:nth-child(1) {
   @apply delay-0;
 }
 
-.settings-gear:hover .settings-menu li:nth-child(2) {
+.settings-gear:hover .settings-menu li:nth-child(2),
+.settings-gear:focus .settings-menu li:nth-child(2) {
   @apply delay-0;
 }
 
-.settings-gear:hover .settings-menu li:nth-child(3) {
+.settings-gear:hover .settings-menu li:nth-child(3),
+.settings-gear:focus .settings-menu li:nth-child(3) {
   @apply delay-[100ms];
 }
 
-.settings-gear:hover .settings-menu li:nth-child(4) {
+.settings-gear:hover .settings-menu li:nth-child(4),
+.settings-gear:focus .settings-menu li:nth-child(4) {
   @apply delay-[200ms];
 }
 
-.settings-gear:hover .settings-menu li:nth-child(5) {
+.settings-gear:hover .settings-menu li:nth-child(5),
+.settings-gear:focus .settings-menu li:nth-child(5) {
   @apply delay-[300ms];
 }
 
@@ -276,5 +283,17 @@ input[type="checkbox"][data-checkbox="arrow"]:checked::before {
   100% {
     visibility: visible;
     opacity: 1;
+  }
+}
+
+@keyframes bouncey {
+  0%,
+  100% {
+    transform: translateY(0%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  50% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 }
