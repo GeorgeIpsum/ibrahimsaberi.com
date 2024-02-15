@@ -71,6 +71,28 @@ html[data-mode="dark"] #root-gradient {
   svg {
     @apply transition-all duration-300;
   }
+
+  :nth-child(1) {
+    --nth-child: 1;
+  }
+  :nth-child(2) {
+    --nth-child: 2;
+  }
+  :nth-child(3) {
+    --nth-child: 3;
+  }
+  :nth-child(4) {
+    --nth-child: 4;
+  }
+  :nth-child(5) {
+    --nth-child: 5;
+  }
+  :nth-child(6) {
+    --nth-child: 6;
+  }
+  :nth-child(7) {
+    --nth-child: 7;
+  }
 }
 
 @layer components {
@@ -233,7 +255,7 @@ input[type="checkbox"][data-checkbox="arrow"]:checked::before {
 }
 
 .settings-gear .settings-menu {
-  @apply pointer-events-none origin-top scale-y-0 overflow-hidden opacity-0 transition-all duration-500;
+  @apply pointer-events-none origin-top scale-y-0 overflow-hidden opacity-0 transition-all delay-150 duration-300;
 }
 
 .settings-gear:hover .settings-menu,
@@ -242,37 +264,25 @@ input[type="checkbox"][data-checkbox="arrow"]:checked::before {
 }
 
 .settings-gear .settings-menu li {
-  @apply origin-bottom-left -translate-y-2 scale-0 duration-500;
+  @apply flex w-full -translate-y-4 rounded px-2 py-1 text-lg opacity-0 sm:text-base;
+  transition:
+    background 150ms ease-out,
+    transform 300ms ease-out,
+    opacity 150ms ease-in;
+}
+
+.settings-gear .settings-menu li.nav,
+.settings-gear .settings-menu li.setting {
+  @apply flex w-full gap-4 text-left sm:hidden;
 }
 
 .settings-gear:hover .settings-menu li,
 .settings-gear:focus .settings-menu li {
-  @apply translate-y-0 scale-100;
-}
-
-.settings-gear:hover .settings-menu li:nth-child(1),
-.settings-gear:focus .settings-menu li:nth-child(1) {
-  @apply delay-0;
-}
-
-.settings-gear:hover .settings-menu li:nth-child(2),
-.settings-gear:focus .settings-menu li:nth-child(2) {
-  @apply delay-0;
-}
-
-.settings-gear:hover .settings-menu li:nth-child(3),
-.settings-gear:focus .settings-menu li:nth-child(3) {
-  @apply delay-[100ms];
-}
-
-.settings-gear:hover .settings-menu li:nth-child(4),
-.settings-gear:focus .settings-menu li:nth-child(4) {
-  @apply delay-[200ms];
-}
-
-.settings-gear:hover .settings-menu li:nth-child(5),
-.settings-gear:focus .settings-menu li:nth-child(5) {
-  @apply delay-[300ms];
+  @apply translate-y-0 opacity-100;
+  transition:
+    background 150ms ease-out,
+    transform 300ms ease-out,
+    opacity 300ms ease-in 150ms;
 }
 
 @keyframes fade-in {

@@ -8,9 +8,15 @@ const $styles = cva(["container", "rounded-lg"], {
       lg: ["p-4"],
       custom: [],
     },
+    bg: {
+      transparent: ["bg-pink-400/10 dark:bg-emerald-800/10"],
+      translucent: ["bg-pink-400/50 dark:bg-emerald-800/50"],
+      opaque: ["bg-pink-300/95 dark:bg-green-950/95"],
+    },
   },
   defaultVariants: {
     padding: "md",
+    bg: "transparent",
   },
 });
 
@@ -20,9 +26,10 @@ interface ContainerProps
 const Container: React.FC<React.PropsWithChildren<ContainerProps>> = ({
   children,
   padding,
+  bg,
   ...props
 }) => {
-  const className = $styles({ padding, className: props.className });
+  const className = $styles({ padding, bg, className: props.className });
   return (
     <div
       {...props}

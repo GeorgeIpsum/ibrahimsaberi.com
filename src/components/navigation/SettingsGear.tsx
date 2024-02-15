@@ -1,6 +1,9 @@
+import Link from "next/link";
+
 import ThemeToggle from "@/features/theme/ThemeToggle";
 
 import { Container } from "../atoms";
+import { headerLinks, settingsLinks } from "../navigation/links";
 import { Gear } from "../svg";
 
 const SettingsGear: React.FC = () => {
@@ -14,11 +17,29 @@ const SettingsGear: React.FC = () => {
         className="svg col-start-1 col-end-1 row-start-1 row-end-1 fill-rose-50/90 transition-all duration-500 group-hover:rotate-180 group-hover:fill-white dark:fill-emerald-100/80 "
       />
       <div className="settings-menu absolute right-0 top-full min-w-full sm:min-w-[200%]">
-        <Container className="isolate mt-2 rounded-lg p-1" padding="custom">
-          <ul className="appearance-none children:isolate children:flex children:w-full children:items-center children:gap-2 children:rounded children:px-2 children:py-1 children:text-right children:transition-all children:duration-300 hover:children:bg-slate-950/10">
-            <li className="sm:hidden">
+        <Container
+          className="isolate mt-2 rounded-lg p-1"
+          padding="custom"
+          bg="opaque"
+        >
+          <ul className="appearance-none hover:children:bg-fuchsia-400/20 hover:children:dark:bg-emerald-200/10">
+            <li className="setting items-center justify-between sm:hidden">
               Theme <ThemeToggle />
             </li>
+            {headerLinks.map(({ href, display, title, emoji }) => (
+              <li key={title} className="nav sm:hidden">
+                <Link className="w-full" href={href} title={title}>
+                  <span>{emoji}</span> {display}
+                </Link>
+              </li>
+            ))}
+            {settingsLinks.map(({ href, display, title, emoji }) => (
+              <li key={title} className="nav">
+                <Link className="w-full" href={href} title={title}>
+                  <span>{emoji}</span> {display}
+                </Link>
+              </li>
+            ))}
             <li>More Coming Soon™</li>
           </ul>
         </Container>
