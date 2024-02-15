@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { Footer, Header } from "@/components/structure";
+import { Footer, HeaderAlt } from "@/components/structure";
 
 export const metadata: Metadata = {
   title: "a whisper",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <Header />
+      <HeaderAlt />
       {children}
       <Footer />
     </>

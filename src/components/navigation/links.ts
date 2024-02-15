@@ -27,10 +27,10 @@ export const headerLinks: SiteLink[] = [
 ];
 
 export const settingsLinks: SiteLink[] = [
-  {
-    href: "/crash",
-    display: "CraSH",
-    title: "wip",
-    emoji: "👾",
-  },
+  // {
+  //   href: "/crash",
+  //   display: "craSH",
+  //   title: "wip",
+  //   emoji: "👾",
+  // },
 ];
