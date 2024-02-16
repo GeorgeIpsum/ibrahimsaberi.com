@@ -12,5 +12,6 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
-  }
+  },
+  "prettier.configPath": "./.prettierrc.js"
 }
