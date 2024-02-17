@@ -1,5 +1,6 @@
 import { createEnv } from "@t3-oss/env-nextjs";
 import e from "dotenv";
+import { z } from "zod";
 
 try {
   e.config({ path: "../.env" });
@@ -15,11 +16,13 @@ export default createEnv({
       .default("development"),
   },
   client: {},
-  shared: {},
+  shared: {
+    NEXT_PUBLIC_SANITY_PROJECT_ID: z.string(),
+  },
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
-    NEXT_PUBLIC_BEACON_URL: process.env.NEXT_PUBLIC_BEACON_URL,
+    NEXT_PUBLIC_SANITY_PROJECT_ID: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,
