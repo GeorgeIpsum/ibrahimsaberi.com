@@ -1,6 +1,6 @@
 const { Server } = require("node:http");
 const { createHmac } = require("node:crypto");
-const curl = require("./curl");
+const basin = require("./basin");
 
 const COLORS = {
   yellow: 33,
@@ -90,14 +90,15 @@ async function run(req, res) {
   return await func(req, res);
 }
 
-register("curl", "POST", curl.handler);
+register("basin", "GET", basin.handler);
 const server = new Server(async (req, res) => {
   log("Received request:", req.method, req.url);
   try {
-    await run(req, res);
+    const final = await run(req, res);
+    res.writeHead(final.status);
+    return res.end(final.body);
   } catch (e) {
-    log(e);
-    log("FAILED");
+    log(e, "FAILED");
   }
 });
 
