@@ -1,7 +1,5 @@
+import fm from "front-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import Router from "next/router";
-
-import env from "@/env.mjs";
 
 export default async function Page({ params }: { params: { slug: string } }) {
   const data = await fetch(`http://localhost:3001/basin/${params.slug}`);
