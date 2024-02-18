@@ -1,3 +1,4 @@
+const chokidar = require("chokidar");
 const fm = require("front-matter");
 const fs = require("node:fs");
 const path = require("node:path");
@@ -28,36 +29,48 @@ const getMdxSlug = (mdxFile) => mdxFile.split(".mdx")[0];
 
 const basinPath = path.resolve(__dirname, "..", "basin");
 
-let scanning = false;
-const scanDrops = async () => {
-  if (scanning) return;
-  scanning = true;
-  const drops = fs.readdirSync(basinPath);
+let Diff;
+const scanDrop = (dropPath, a1 = "start", a2 = "finish") => {
+  console.log(`[${a1.toUpperCase()} FILE]:`, dropPath);
   try {
-    const data = await Promise.all(
-      drops.map((dropName) => {
-        const dropPath = path.resolve(basinPath, dropName);
-        return readFile(dropPath).catch(() => null);
-      })
+    const dropFile = fs.readFileSync(
+      path.resolve(basinPath, dropPath),
+      "utf-8"
     );
-    data.forEach((drop, index) => {
-      const d = fm(drop);
-      let slug = getMdxSlug(drops[index]);
-      if (d.attributes.slug) {
-        slug = d.attributes.slug;
+    const fmDrop = fm(dropFile);
+    if (process.env.NODE_ENV === "development" || !process.env.NODE_ENV) {
+      const currentDrop = dropCache.get(getMdxSlug(dropPath));
+      if (currentDrop) {
+        // dont do this in real life kids
+        if (!Diff) {
+          require("colors");
+          Diff = require("diff");
+        }
+        const diff = Diff.diffChars(currentDrop.body, fmDrop.body);
+        diff.forEach((part) => {
+          // green for additions, red for deletions
+          let text = part.added
+            ? part.value.bgGreen
+            : part.removed
+              ? part.value.bgRed
+              : part.value;
+          process.stderr.write(text);
+        });
+
+        console.log();
       }
-      dropCache.set(slug, d);
-    });
+    }
+    dropCache.set(getMdxSlug(dropPath), fmDrop);
+    console.log(`[${a2.toUpperCase()} FILE]:`, dropPath);
   } catch (e) {
-    console.error(e);
+    console.log(e);
   }
-  scanning = false;
 };
 
 // scan file system and build initial cache
-scanDrops().catch((e) => {
-  console.error(e);
-});
+const watcher = chokidar.watch(basinPath, { awaitWriteFinish: true });
+watcher.on("add", (path) => scanDrop(path, "adding", "added"));
+watcher.on("change", (path) => scanDrop(path, "changing", "changed"));
 
 const getPost = (slug) => {
   const cacheValue = dropCache.get(slug);
@@ -100,15 +113,6 @@ async function handler(req, res) {
     body: dropData ? JSON.stringify(dropData.drop) : "",
   };
 }
-
-// TODO: this
-// if (process.env.NODE_ENV === "production") {
-//   const chokidar = require("chokidar");
-//   const watcher = chokidar.watch(basinPath, { awaitWriteFinish: true });
-//   watcher.on("add", (path) => {
-//     console.log("asdf", path);
-//   });
-// }
 
 module.exports = {
   handler,

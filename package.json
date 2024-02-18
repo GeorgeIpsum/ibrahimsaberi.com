@@ -1,10 +1,10 @@
 {
   "name": "ibrahimsaberi.com",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "npm-run-all --parallel dev-next dev-2d",
-    "dev-2d": "node --watch-path=./2d 2d",
+    "dev-2d": "node --watch 2d",
     "dev-next": "next dev --turbo",
     "build": "cp -r favicon/* ./src/app; next build; rm -rf $(ls favicon | grep -v favicon.ico | awk 'P=\"src/app/\" {print P $0}')",
     "start-2d": "node 2d",
@@ -28,6 +28,8 @@
     "@trpc/server": "11.0.0-next-beta.248",
     "chokidar": "^3.6.0",
     "class-variance-authority": "^0.7.0",
+    "colors": "^1.4.0",
+    "diff": "^5.2.0",
     "dotenv": "^16.4.1",
     "framer-motion": "^11.0.3",
     "front-matter": "^4.0.2",
