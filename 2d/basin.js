@@ -84,9 +84,13 @@ const getPost = (slug) => {
 async function handler(req, res) {
   const slug = req.url.split("/")[2];
   if (!slug) {
+    const posts = [];
+    for (const [slug, drop] of dropCache.entries()) {
+      posts.push({ slug, drop });
+    }
     return {
-      status: 404,
-      body: null,
+      status: 200,
+      body: JSON.stringify({ posts }),
     };
   }
   const dropData = getPost(slug);

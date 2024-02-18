@@ -1,7 +1,15 @@
-export default function Page() {
+import Link from "next/link";
+
+export default async function Page() {
+  const res = await fetch("http://localhost:3001/basin");
+  const { posts } = await res.json();
   return (
     <div className="mx-auto w-full sm:w-[600px] md:w-[688px] lg:w-full">
-      asdf
+      {posts.map((p: any) => (
+        <Link key={p.slug} href={`/basin/${p.slug}`}>
+          {JSON.stringify(p)}
+        </Link>
+      ))}
     </div>
   );
 }
