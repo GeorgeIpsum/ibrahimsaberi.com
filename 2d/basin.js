@@ -3,6 +3,8 @@ const fm = require("front-matter");
 const fs = require("node:fs");
 const path = require("node:path");
 const { LRUCache } = require("lru-cache");
+require("colors");
+const Diff = require("diff");
 
 const readFile = async (filePath) => {
   return new Promise((res, rej) => {
@@ -29,7 +31,6 @@ const getMdxSlug = (mdxFile) => mdxFile.split(".mdx")[0];
 
 const basinPath = path.resolve(__dirname, "..", "basin");
 
-let Diff;
 const scanDrop = (dropPath, a1 = "start", a2 = "finish") => {
   console.log(`[${a1.toUpperCase()} FILE]:`, dropPath);
   try {
@@ -38,27 +39,20 @@ const scanDrop = (dropPath, a1 = "start", a2 = "finish") => {
       "utf-8"
     );
     const fmDrop = fm(dropFile);
-    if (process.env.NODE_ENV === "development" || !process.env.NODE_ENV) {
-      const currentDrop = dropCache.get(getMdxSlug(dropPath));
-      if (currentDrop) {
-        // dont do this in real life kids
-        if (!Diff) {
-          require("colors");
-          Diff = require("diff");
-        }
-        const diff = Diff.diffChars(currentDrop.body, fmDrop.body);
-        diff.forEach((part) => {
-          // green for additions, red for deletions
-          let text = part.added
-            ? part.value.bgGreen
-            : part.removed
-              ? part.value.bgRed
-              : part.value;
-          process.stderr.write(text);
-        });
+    const currentDrop = dropCache.get(getMdxSlug(dropPath));
+    if (currentDrop) {
+      const diff = Diff.diffChars(currentDrop.body, fmDrop.body);
+      diff.forEach((part) => {
+        // green for additions, red for deletions
+        let text = part.added
+          ? part.value.bgGreen
+          : part.removed
+            ? part.value.bgRed
+            : part.value;
+        process.stderr.write(text);
+      });
 
-        console.log();
-      }
+      console.log();
     }
     dropCache.set(getMdxSlug(dropPath), fmDrop);
     console.log(`[${a2.toUpperCase()} FILE]:`, dropPath);
