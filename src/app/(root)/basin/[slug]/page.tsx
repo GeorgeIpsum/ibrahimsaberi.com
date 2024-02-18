@@ -1,7 +1,9 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 
+import getDrop from "../drop";
+
 export default async function Page({ params }: { params: { slug: string } }) {
-  const data = await fetch(`http://localhost:3001/basin/${params.slug}`);
+  const data = await getDrop(params.slug);
   if (!data || !data) {
     return ":(";
   }

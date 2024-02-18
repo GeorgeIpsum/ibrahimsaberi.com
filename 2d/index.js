@@ -55,7 +55,7 @@ const emptyHandler = async (req, res) => {
 const routes = [{ url: "", methods: [], func: emptyHandler }];
 const reqMatcher = (req) => [req.method, req.url.split("/")[1]];
 function getFunc(method, url) {
-  const route = routes.find((route) => route.url === url);
+  const route = routes.find((route) => route.url === url.split("?")[0]);
   if (!route) {
     return emptyHandler;
   }
