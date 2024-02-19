@@ -1,3 +1,4 @@
+import dropsRouter from "./drops";
 import { createTRPCRouter, publicProcedure } from "./trpc";
 
 export const appRouter = createTRPCRouter({
@@ -9,6 +10,7 @@ export const appRouter = createTRPCRouter({
       },
     })
     .query(() => "pong"),
+  drops: dropsRouter,
 });
 
 export type AppRouter = typeof appRouter;

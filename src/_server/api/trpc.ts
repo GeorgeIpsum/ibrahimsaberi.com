@@ -4,6 +4,8 @@ import superjson from "superjson";
 import { OpenApiMeta } from "trpc-openapi";
 import { ZodError } from "zod";
 
+import { prisma } from "../db";
+
 interface CreateContextOptions {
   headers: Headers;
 }
@@ -13,6 +15,7 @@ interface Meta extends OpenApiMeta {}
 export const createInnerTRPCContext = (opts: CreateContextOptions) => {
   return {
     headers: opts.headers,
+    db: prisma,
   };
 };
 
