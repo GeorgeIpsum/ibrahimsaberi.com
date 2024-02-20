@@ -6,7 +6,7 @@ const thisFilePath = resolve(__dirname, __filename);
 const thisDirContents = readdirSync(__dirname);
 
 const scripts = [];
-thisDirContents.forEach(file => {
+thisDirContents.forEach(async (file) => {
   const filePath = resolve(__dirname, file);
   if(filePath !== thisFilePath) {
     try {
@@ -17,21 +17,24 @@ thisDirContents.forEach(file => {
           scripts.push(module);
         }
       }
-    } catch {}
+    } catch(e) { console.log(e)}
   }
 });
 
 scripts.forEach(({ meta: { command, description, args, opts }, main }) => {
   const cmd = program
-    .command(command)
-    .description(description);
+    .command(command);
+  
+  if(description) {
+    cmd.description(description);
+  }
   
   if(args && args.length) {
-    args.length.reduce((cmd, arg) => cmd.addArgument(...arg), cmd);
+    args.reduce((cmd, arg) => cmd.addArgument(arg), cmd);
   }
   
   if(opts && opts.length) {
-    opts.length.reduce((cmd, opt) => cmd.addOption(...opt), cmd)
+    opts.reduce((cmd, opt) => cmd.addOption(opt), cmd)
   }
   
   cmd.action(main);

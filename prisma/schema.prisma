@@ -9,6 +9,7 @@ datasource db {
 
 model Author {
   username String @id
+  name     String
 
   posts Post[]
 
@@ -24,16 +25,36 @@ model Category {
 }
 
 model Post {
-  slug           String  @id
-  author         Author  @relation(fields: [authorUsername], references: [username])
-  authorUsername String
-  published      Boolean @default(false)
-  content        Bytes?
+  slug      String  @id
+  title     String
+  published Boolean @default(false)
+  indexed   Boolean @default(true)
+  meta      Json    @default("{}")
 
+  content Bytes
+  blurb   String
+
+  author         Author @relation(fields: [authorUsername], references: [username])
+  authorUsername String
+
+  history    PostHistory[]  @relation(name: "history")
   categories PostCategory[]
 
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model PostHistory {
+  id     String  @id @default(cuid())
+  public Boolean @default(true)
+
+  content Bytes?
+
+  historyFor Post   @relation(name: "history", fields: [slug], references: [slug])
+  slug       String
+
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
 }
 
 model PostCategory {
