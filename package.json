@@ -3,13 +3,13 @@
   "version": "0.4.0",
   "private": true,
   "scripts": {
-    "dev": "npm-run-all --parallel dev-next dev-2d",
+    "dev": "npm-run-all --parallel dev-next",
     "dev-2d": "node --watch 2d",
     "dev-next": "next dev --turbo",
     "build": "cp -r favicon/* ./src/app; next build; rm -rf $(ls favicon | grep -v favicon.ico | awk 'P=\"src/app/\" {print P $0}')",
     "start-2d": "node 2d",
     "start-next": "next start",
-    "start": "npm-run-all --parallel start-next start-2d",
+    "start": "npm-run-all --parallel start-next",
     "lint": "next lint",
     "test": "vitest"
   },
