@@ -2,7 +2,4 @@
 import Cite from "./Cite";
 import Newthought from "./Newthought";
 
-export {
-  Cite,
-  Newthought,
-}
+export { Cite, Newthought };

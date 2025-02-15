@@ -1,5 +1,4 @@
-import { MDXRemote } from "next-mdx-remote/rsc";
-
+import { Drop } from "@/components/drops";
 import { api } from "@/trpc/server";
 
 export default async function Page({ params }: { params: { slug: string } }) {
@@ -7,5 +6,5 @@ export default async function Page({ params }: { params: { slug: string } }) {
   if (!drop || !drop.content) {
     return null;
   }
-  return <MDXRemote source={drop.content?.toString("utf-8")} />;
+  return <Drop {...drop} />;
 }

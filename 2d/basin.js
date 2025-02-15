@@ -5,15 +5,9 @@ const path = require("node:path");
 const { LRUCache } = require("lru-cache");
 require("colors");
 const Diff = require("diff");
+const { PrismaClient } = require("@prisma/client");
 
-const readFile = async (filePath) => {
-  return new Promise((res, rej) => {
-    fs.readFile(filePath, "utf-8", (err, data) => {
-      if (err) rej(err);
-      res(data);
-    });
-  });
-};
+const prisma = new PrismaClient();
 
 const dropCache = new LRUCache({
   maxSize: 100,
@@ -27,20 +21,34 @@ const dropCache = new LRUCache({
   updateAgeOnGet: true,
 });
 
-const getMdxSlug = (mdxFile) => mdxFile.split(".mdx")[0];
+const getMdxSlug = (mdxFile, fm) => {
+  if (fm?.attributes?.slug) return fm.attributes.slug;
+  const toPaths = mdxFile.split("/");
+  const fileName = toPaths[toPaths.length - 1];
+  return fileName.split(".mdx")[0];
+};
 
 const basinPath = path.resolve(__dirname, "..", "basin");
 
-const scanDrop = (dropPath, a1 = "start", a2 = "finish") => {
-  console.log(`[${a1.toUpperCase()} FILE]:`, dropPath);
+const scanDrop = async (dropPath, a1 = "start", a2 = "finish") => {
+  const len = a1.length - a2.length < 0 ? a2.length : a1.length;
+  console.info(
+    `[${a1.toUpperCase()} FILE]:`.padEnd(len + 8),
+    dropPath.split("basin/")[1]
+  );
   try {
     const dropFile = fs.readFileSync(
       path.resolve(basinPath, dropPath),
       "utf-8"
     );
     const fmDrop = fm(dropFile);
-    const currentDrop = dropCache.get(getMdxSlug(dropPath));
+    const slug = getMdxSlug(dropPath, fmDrop);
+    const currentDrop = dropCache.get(slug);
     if (currentDrop) {
+      await prisma.post.update({
+        where: { slug: getMdxSlug(dropPath) },
+        data: { content: Buffer.from(fmDrop.body, "utf-8") },
+      });
       const diff = Diff.diffChars(currentDrop.body, fmDrop.body);
       diff.forEach((part) => {
         // green for additions, red for deletions
@@ -55,7 +63,10 @@ const scanDrop = (dropPath, a1 = "start", a2 = "finish") => {
       console.log();
     }
     dropCache.set(getMdxSlug(dropPath), fmDrop);
-    console.log(`[${a2.toUpperCase()} FILE]:`, dropPath);
+    console.info(
+      `[${a2.toUpperCase()} FILE]:`.padEnd(len + 8),
+      dropPath.split("basin/")[1]
+    );
   } catch (e) {
     console.log(e);
   }

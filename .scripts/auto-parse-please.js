@@ -1,6 +1,8 @@
 const { readFileSync, readdirSync, writeFileSync, statSync } = require("node:fs");
 const { resolve } = require("node:path");
+const { spawnSync } = require("node:child_process");
 
+let spinner;
 const solveFileImports = (path, dir, dirContents) => {
   const imports = [];
   dirContents.forEach(fileName => {
@@ -54,6 +56,7 @@ const solveFileImports = (path, dir, dirContents) => {
 const solveFile = (file, path, dir, dirContents) => {
   const fileContents = readFileSync(path, "utf-8");
   if(file === "index.ts" && fileContents.indexOf("// [auto-parse-please]") === 0) {
+    spinner.text = `${path}`;
     return solveFileImports(path, dir, dirContents);
   }
 }
@@ -66,16 +69,27 @@ const recurseDir = (dir) => {
     const path = resolve(dir, file);
     const stat = statSync(path);
     if(stat.isDirectory()) {
-      return recurseDir(path);
+      recurseDir(path);
     } else if(stat.isFile()) {
-      return solveFile(file, path, dir, dirContents);
+      solveFile(file, path, dir, dirContents);
     }
   });
 }
 
-function main() {
+async function main() {
+  const ora = await import("ora");
+  spinner = ora.default();
+  spinner.prefixText = "Parsing";
+  spinner.start();
   const srcDirPath = resolve(__dirname, "..", "src");
-  return recurseDir(srcDirPath);
+  recurseDir(srcDirPath);
+  spinner.text = "Running ESLint...";
+  const eslintOutput = spawnSync("pnpm", ["run", "lint"]);
+  spinner.prefixText = "";
+  eslintOutput.output.map(output => {
+    if(output) spinner.text = output.toString("utf-8");
+  });
+  spinner.stop();
 }
 
 module.exports = {

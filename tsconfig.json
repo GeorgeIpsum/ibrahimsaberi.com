@@ -29,7 +29,14 @@
     "**/*.tsx",
     "**/*.mdx",
     ".next/types/**/*.ts",
-    "./src/app/global.js"
+    "./src/app/global.js",
+    "./prisma/seed.ts",
+    "./.scripts/**/*.js"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
 }

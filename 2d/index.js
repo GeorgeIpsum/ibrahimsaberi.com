@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { Server } = require("node:http");
 const { createHmac } = require("node:crypto");
 const basin = require("./basin");

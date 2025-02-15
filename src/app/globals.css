@@ -115,6 +115,38 @@ html[data-mode="dark"] #root-gradient {
     background: linear-gradient(to bottom, #000000aa, #00000000),
       linear-gradient(to bottom left, #1023377c, #050c2a2c);
   }
+
+  article {
+    h1,
+    h2,
+    h3 {
+      @apply font-head;
+    }
+    h1 {
+      @apply text-4xl font-medium md:text-6xl;
+    }
+    h2 {
+      @apply text-3xl font-medium md:text-4xl;
+    }
+    h3 {
+      @apply text-2xl font-light;
+    }
+    blockquote {
+      @apply relative rounded bg-pink-400/20 py-1 pl-6 pr-3 font-thin leading-none dark:bg-emerald-800/20;
+      p {
+        @apply leading-6;
+      }
+    }
+    blockquote::before {
+      content: ">";
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+    }
+    p {
+      @apply font-sans text-base leading-8;
+    }
+  }
 }
 
 @layer utilities {

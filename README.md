@@ -4,7 +4,7 @@ My personal website, built using Next.JS (13+).
 
 ## Why Next?
 
-Flavor-of-the-month(-or-year?) framework and it's relatively fun and easy to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and cruft. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit.
+Flavor-of-the-month(-year?-decade?) framework and it's relatively fun and easy™ to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit.
 
 ## Do u hate Ruby/ Jekyll now :(
 
@@ -16,7 +16,7 @@ JS tooling starts to become a real PITA when you want to do lots of custom stuff
 
 ### dae mdx
 
-sometimes, yeah :)
+sometimes (a lot of the time), yeah :)
 
 ### Ok well why don't you just
 
@@ -40,4 +40,4 @@ The aesthetic rules and they don't seem scummy (YET). I also have some stuff on 
 
 ## Ok when are you gonna try Svelte
 
-(: try again next year
+(: try again next year (THE CURRENT YEAR IS 2067)
