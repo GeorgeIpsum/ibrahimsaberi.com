@@ -4,7 +4,7 @@ import { createTRPCRouter, publicProcedure } from "./trpc";
 
 const dropsRouter = createTRPCRouter({
   all: publicProcedure.input(z.string()).query(({ ctx: { db } }) => {
-    return db.post.findMany();
+    return db.post.findMany({ include: { categories: true } });
   }),
   bySlug: publicProcedure
     .input(z.string().min(1))
@@ -24,12 +24,18 @@ const dropsRouter = createTRPCRouter({
   byAuthor: publicProcedure
     .input(z.string())
     .query(({ ctx: { db }, input }) => {
-      return db.author.findMany({ where: { username: input } });
+      return db.author.findMany({
+        where: { username: input },
+        include: { posts: { include: { categories: true } } },
+      });
     }),
   byCategory: publicProcedure
     .input(z.string().min(1))
     .query(({ ctx: { db }, input }) => {
-      return db.category.findMany({ where: { name: input } });
+      return db.category.findMany({
+        where: { name: input },
+        include: { posts: { include: { post: true } } },
+      });
     }),
   searchPosts: publicProcedure
     .input(z.string().min(1))
@@ -38,6 +44,9 @@ const dropsRouter = createTRPCRouter({
     const posts = (
       await db.post.findMany({
         where: { indexed: true, published: true },
+        include: {
+          categories: true,
+        },
       })
     ).map((post) => ({
       ...post,

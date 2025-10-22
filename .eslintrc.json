@@ -1,5 +1,9 @@
 {
-  "extends": ["plugin:prettier/recommended", "next/core-web-vitals"],
+  "extends": [
+    "plugin:mdx/recommended",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
   "rules": {
     "quotes": ["error", "double", { "avoidEscape": true }],
     "react-hooks/exhaustive-deps": "off",

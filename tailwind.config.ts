@@ -14,6 +14,7 @@ const config: Config = {
         sans: ["var(--font-body)"],
         mono: ["var(--font-mono)"],
         head: ["var(--font-head)"],
+        serif: ["var(--font-serif)"],
       },
     },
   },

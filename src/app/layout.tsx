@@ -29,8 +29,11 @@ export default function RootLayout({
     <html lang="en" data-mode={themeCookie ?? defaultTheme ?? "dark"}>
       <body>
         <ThemeProvider defaultTheme={themeCookie ?? (defaultTheme as Theme)}>
-          <Gradient id="root-gradient" className="-z-20" />
-          <div className="absolute bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
+          <Gradient
+            id="root-gradient"
+            className="fixed -z-20 h-screen w-full"
+          />
+          <div className="fixed bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
           <div className="w-full pb-12 sm:pb-8 md:pb-4">{children}</div>
         </ThemeProvider>
       </body>

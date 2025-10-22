@@ -6,20 +6,50 @@ published: true
 publish-date: "2022-04-28"
 ---
 
-# Header 1
+# MDX Style Sheet
 
-## header 2
+The above is what a heading 1 looks like under the ibrahimsaberi.com stylesheet. This paragraph block is what a bare `<p>` tag looks like. And that (and this!) rendered `<p>` tag is what a rendered `<code>` tag looks like.
 
-### h3
+## Headings
 
-this is a regular old paragraph block
+The above is what an `<h2>` tag looks like.
 
-> this is what a blockquote looks like
+### Heading 3
 
-**this should be wrapped in html \<strong\>**
+The above is what an `<h3>` tag looks like. Other heading tags (4-6) are not used.
 
-> this is what a long blockquote looks like. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Base HTML
 
-adf
+### Bold & Italics
 
-_this should be wrapped in html \<em\>_
+Bold text looks like **this**. **This is a bolded sentence.**
+
+Italicized text looks like _this_. _This is an italicized sentence._
+
+### Blockquotes
+
+Below is what a blockquote looks like.
+
+> This is what a blockquote looks like.
+
+And for a longer-form blockquote
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Code Blocks
+
+`This is what a regular code block looks like.`
+
+```typescript
+const str = "And this is what a code block using <pre/> looks like.
+
+function doStuff(a: string) {
+  doOtherStuff(a);
+}
+
+const doOtherStuff = (a: string) => {
+  console.log(a);
+};
+```
+
+## Base MDX Components

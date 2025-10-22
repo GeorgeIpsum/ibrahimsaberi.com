@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;900&family=Fira+Mono:wght@400;500;700&family=Rubik:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;900&family=Fira+Mono:wght@400;500;700&family=Rubik:wght@200;300;400;500;600;700;900&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +7,7 @@
 :root {
   --font-head: Rubik;
   --font-body: Gabarito;
+  --font-serif: Bitter;
   --font-mono: Fira Mono;
 
   --gradient-color-1: #ebe6f9;
@@ -111,6 +112,18 @@ html[data-mode="dark"] #root-gradient {
     @apply backdrop-blur-lg;
   }
 
+  .container::after {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    @apply opacity-40 backdrop-blur-lg;
+  }
+
   :is([data-mode="dark"]) .container::before {
     background: linear-gradient(to bottom, #000000aa, #00000000),
       linear-gradient(to bottom left, #1023377c, #050c2a2c);
@@ -123,28 +136,40 @@ html[data-mode="dark"] #root-gradient {
       @apply font-head;
     }
     h1 {
-      @apply text-4xl font-medium md:text-6xl;
+      @apply mb-2 mt-4 text-4xl font-medium md:mt-6 md:text-6xl;
     }
     h2 {
-      @apply text-3xl font-medium md:text-4xl;
+      @apply mb-2 mt-3 text-3xl font-medium md:mt-4 md:text-4xl;
     }
     h3 {
-      @apply text-2xl font-light;
+      @apply mb-2 mt-2 text-2xl font-light;
+    }
+    p {
+      @apply mb-3 mt-2 font-sans text-base;
     }
     blockquote {
-      @apply relative rounded bg-pink-400/20 py-1 pl-6 pr-3 font-thin leading-none dark:bg-emerald-800/20;
+      @apply relative mb-3 mt-2 rounded bg-pink-400/20 py-1 pl-6 pr-3 shadow-inner shadow-fuchsia-600/30 dark:bg-emerald-800/10 dark:shadow-emerald-600/10;
+
       p {
-        @apply leading-6;
+        @apply m-0 p-0 font-serif font-light italic leading-6;
       }
     }
     blockquote::before {
       content: ">";
       position: absolute;
-      top: 0.5rem;
+      top: 0.25rem;
       left: 0.5rem;
     }
-    p {
-      @apply font-sans text-base leading-8;
+    code {
+      font-size: 14px;
+      @apply rounded bg-white/60 p-1 font-medium shadow-fuchsia-50/50 dark:bg-black/60 dark:shadow-green-950/50;
+      box-shadow: inset 0 0 4px 2px var(--tw-shadow-color);
+    }
+    pre {
+      @apply rounded p-1;
+      code {
+        font-size: 14px;
+      }
     }
   }
 }
