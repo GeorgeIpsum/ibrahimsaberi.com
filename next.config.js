@@ -10,7 +10,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/:slug*",
+        source: "/(.*)",
         headers: [
           {
             key: "Accept-CH",
