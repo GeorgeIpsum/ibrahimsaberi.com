@@ -4,6 +4,8 @@ import { cn } from "./lib";
 export const PopoverCreateHandler: typeof PopoverBase.createHandle =
 	PopoverBase.createHandle;
 
+export const Popover: typeof PopoverBase.Root = PopoverBase.Root;
+
 export const PopoverTrigger: React.FC<
 	React.ComponentProps<typeof PopoverBase.Trigger>
 > = ({ className, children, ...props }) => {
@@ -18,7 +20,7 @@ export const PopoverTrigger: React.FC<
 	);
 };
 
-export function PopoverPopup({
+function PopoverPopup({
 	children,
 	className,
 	side = "bottom",

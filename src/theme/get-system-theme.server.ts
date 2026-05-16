@@ -1,9 +1,9 @@
 import { cookies, headers } from "next/headers";
 import { cache } from "react";
-import type { Theme } from "./types";
+import { THEME_COOKIE_NAME, type Theme } from "./types";
 
 export const getSystemThemeRSC = cache(async (): Promise<Theme> => {
-	const themeCookie = (await cookies()).get("theme")?.value;
+	const themeCookie = (await cookies()).get(THEME_COOKIE_NAME)?.value;
 	if (themeCookie === "light" || themeCookie === "dark") {
 		return themeCookie;
 	}

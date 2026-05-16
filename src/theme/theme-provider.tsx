@@ -7,7 +7,8 @@ import {
 	useEffect,
 	useState,
 } from "react";
-import type { Theme } from "./types";
+import { getSystemTheme } from "./get-system-theme";
+import { THEME_COOKIE_NAME, type Theme } from "./types";
 
 export const ThemeContext = createContext<
 	{ theme: Theme; setTheme: (theme: Theme) => void } | undefined
@@ -23,10 +24,11 @@ export const ThemeProvider: React.FC<
 	);
 
 	const setTheme = useCallback((theme: Theme) => {
-		document.documentElement.dataset.theme = theme;
+		document.documentElement.dataset.theme =
+			theme === "system" ? getSystemTheme() : theme;
 		const cookieTheme = theme === "system" ? "" : theme;
-		// biome-ignore lint/suspicious/noDocumentCookie: no cares
-		document.cookie = `theme=${cookieTheme}; path=/; max-age=31536000; SameSite=Lax`;
+		// biome-ignore lint/suspicious/noDocumentCookie: dont tell me what to do
+		document.cookie = `${THEME_COOKIE_NAME}=${cookieTheme}; path=/; max-age=31536000; SameSite=Lax`;
 		_setTheme(theme);
 	}, []);
 
