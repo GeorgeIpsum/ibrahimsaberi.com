@@ -9,13 +9,19 @@ import Link from "next/link";
 
 import "./globals.css";
 
+import { cn } from "@/atoms/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
+import { fontBody, fontHeading, fontMono } from "./font";
 
 const NotFound: React.FC = async () => {
 	const theme = await getSystemThemeRSC();
 
 	return (
-		<html lang="en" data-theme={theme}>
+		<html
+			lang="en"
+			data-theme={theme}
+			className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
+		>
 			<body>
 				<div className="fixed flex h-screen w-screen items-center justify-center">
 					<div className="w-full px-6 md:mx-auto md:max-w-xl md:px-0">
