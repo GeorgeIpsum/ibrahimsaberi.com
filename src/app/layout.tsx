@@ -6,7 +6,7 @@ import "./globals.css";
 import { cn } from "@/atoms/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { ThemeProvider } from "@/theme/theme-provider";
-import { fontBody, fontHeading } from "./font";
+import { fontBody, fontHeading, fontMono } from "./font";
 
 export const metadata: Metadata = {
 	title: "a whisper",
@@ -28,10 +28,12 @@ export default async function RootLayout({
 		<html
 			lang="en"
 			data-theme={theme}
-			className={cn(fontBody.variable, fontHeading.variable)}
+			className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
 		>
-			<body>
-				<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
+			<body className="relative">
+				<div className="isolate relative flex min-h-svh flex-col">
+					<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
+				</div>
 			</body>
 			{process.env.NODE_ENV === "production" && (
 				<Script
