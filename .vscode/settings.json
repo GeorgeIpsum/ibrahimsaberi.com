@@ -1,18 +1,41 @@
 {
-  "[javascriptreact][typescriptreact][javascript][typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-  "prettier.configPath": "./.prettierrc.js",
-  "typescript.tsdk": "node_modules/typescript/lib"
+	"[javascriptreact][typescriptreact][javascript][typescript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 120
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"js/ts.tsdk.path": "node_modules/typescript/lib",
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+		["cx\\(.*\\)", "cw\\(.*\\)"],
+		["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+		["cva\\(.*\\)", "cw\\(.*\\)"],
+		["variants\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	],
+	"tailwindCSS.classAttributes": [".*ClassName*", "className", "class"],
+	"tailwindCSS.classFunctions": [
+		".*ClassName*",
+		"className",
+		"class",
+		"cx",
+		"cn",
+		"cva",
+		".*Variants"
+	],
+	"tailwindCSS.codeActions": true,
+	"tailwindCSS.colorDecorators": true,
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.validate": true,
+	"tailwindCSS.suggestions": true,
+	"tailwindCSS.codeLens": true
 }

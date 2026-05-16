@@ -1,356 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;900&family=Fira+Mono:wght@400;500;700&family=Rubik:wght@200;300;400;500;600;700;900&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+	--font-display: var(--font-sans), "sans-serif";
+
+	--color-destructive-foreground: var(--destructive-foreground);
+
+	/* --color-red-*: initial; */
+	--color-orange-*: initial;
+	--color-yellow-*: initial;
+	--color-lime-*: initial;
+	--color-green-*: initial;
+	--color-emerald-*: initial;
+	--color-teal-*: initial;
+	--color-cyan-*: initial;
+	--color-sky-*: initial;
+	--color-blue-*: initial;
+	--color-indigo-*: initial;
+	--color-violet-*: initial;
+	--color-purple-*: initial;
+	--color-fuchsia-*: initial;
+	--color-pink-*: initial;
+	--color-rose-*: initial;
+	--color-gray-*: initial;
+	--color-slate-*: initial;
+	--color-zinc-*: initial;
+	--color-stone-*: initial;
+	--color-neutral-*: initial;
+	--color-mist-*: initial;
+	--color-mauve-*: initial;
+	--color-olive-*: initial;
+	--color-taupe-*: initial;
+}
 
 :root {
-  --font-head: Rubik;
-  --font-body: Gabarito;
-  --font-serif: Bitter;
-  --font-mono: Fira Mono;
-
-  --gradient-color-1: #ebe6f9;
-  --gradient-color-2: #e2d4de;
-  --gradient-color-3: #fba2d3;
-  --gradient-color-4: #fce1ff;
+	--destructive-foreground: var(--color-red-700);
 }
 
-:root[data-mode="dark"] {
-  --gradient-color-1: #0e1201;
-  --gradient-color-2: #0f1912;
-  --gradient-color-3: #0a110d;
-  --gradient-color-4: #082206;
-}
-
-#root-gradient {
-  animation-name: fade-in;
-  animation-duration: 2000ms;
-  animation-delay: 50ms;
-  animation-timing-function: ease-in;
-
-  width: 100%;
-  height: 100%;
-  --gradient-color-1: #ebe6f9;
-  --gradient-color-2: #e2d4de;
-  --gradient-color-3: #fba2d3;
-  --gradient-color-4: #fce1ff;
-}
-
-html[data-mode="dark"] #root-gradient {
-  --gradient-color-1: #0e1201;
-  --gradient-color-2: #0c1711;
-  --gradient-color-3: #0a110d;
-  --gradient-color-4: #082206;
-}
-
-@layer base {
-  body {
-    background-color: var(--gradient-color-4);
-
-    @apply text-rose-950 dark:text-teal-100;
-  }
-
-  html {
-    min-height: 100vh;
-    font-family: var(--font-body);
-  }
-
-  h1,
-  h2,
-  h3 {
-    font-family: var(--font-head);
-  }
-
-  h1 {
-    @apply text-2xl;
-  }
-
-  h2 {
-    @apply text-xl;
-  }
-
-  h3 {
-    @apply text-lg;
-  }
-
-  input {
-    border: none;
-  }
-  input:focus {
-    outline: none;
-  }
-
-  svg {
-    @apply transition-all duration-300;
-  }
-}
-
-@layer components {
-  .container {
-    position: relative;
-    border: solid 2px transparent;
-    background-clip: padding-box;
-    box-sizing: border-box;
-    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -2px;
-    border-radius: inherit;
-    opacity: 0.5;
-    background: linear-gradient(to bottom, #ffffffff, #ffffff00),
-      linear-gradient(to bottom right, #ffffff2c, #d6e3f3dc);
-
-    @apply backdrop-blur-lg;
-  }
-
-  .container::after {
-    content: "";
-    border-radius: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -2;
-    @apply opacity-40 backdrop-blur-lg;
-  }
-
-  :is([data-mode="dark"]) .container::before {
-    background: linear-gradient(to bottom, #000000aa, #00000000),
-      linear-gradient(to bottom left, #1023377c, #050c2a2c);
-  }
-
-  article {
-    h1,
-    h2,
-    h3 {
-      @apply font-head;
-    }
-    h1 {
-      @apply mb-2 mt-4 text-4xl font-medium md:mt-6 md:text-6xl;
-    }
-    h2 {
-      @apply mb-2 mt-3 text-3xl font-medium md:mt-4 md:text-4xl;
-    }
-    h3 {
-      @apply mb-2 mt-2 text-2xl font-light;
-    }
-    p {
-      @apply mb-3 mt-2 font-sans text-base;
-    }
-    blockquote {
-      @apply relative mb-3 mt-2 rounded bg-pink-400/20 py-1 pl-6 pr-3 shadow-inner shadow-fuchsia-600/30 dark:bg-emerald-800/10 dark:shadow-emerald-600/10;
-
-      p {
-        @apply m-0 p-0 font-serif font-light italic leading-6;
-      }
-    }
-    blockquote::before {
-      content: ">";
-      position: absolute;
-      top: 0.25rem;
-      left: 0.5rem;
-    }
-    code {
-      font-size: 14px;
-      @apply rounded bg-white/60 p-1 font-medium shadow-fuchsia-50/50 dark:bg-black/60 dark:shadow-green-950/50;
-      box-shadow: inset 0 0 4px 2px var(--tw-shadow-color);
-    }
-    pre {
-      @apply rounded p-1;
-      code {
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-@layer utilities {
-  .appear {
-    animation: fade-in normal 300ms ease-in;
-  }
-}
-
-input[data-checkbox="switch"][type="checkbox"] {
-  appearance: none;
-  border: none;
-  position: relative;
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  width: 2.5rem;
-  height: 1.25rem;
-  border-radius: 999px;
-  transition: all 300ms ease-out;
-  cursor: pointer;
-
-  @apply isolate bg-pink-100 bg-gradient-to-br from-slate-400/10 to-pink-100 shadow-inner shadow-pink-300 dark:bg-emerald-800 dark:from-slate-400/10 dark:to-emerald-800 dark:shadow-green-900;
-}
-
-input[data-checkbox="switch"][type="checkbox"]:checked {
-  @apply bg-pink-300 dark:bg-emerald-200;
-}
-
-input[data-checkbox="switch"][type="checkbox"]::before {
-  content: "";
-  width: 0.875rem;
-  height: 0.875rem;
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  border-radius: 2rem;
-  transition: all 350ms ease-in-out;
-
-  @apply bg-slate-300/60 shadow-sm shadow-slate-700/50 dark:bg-slate-50/30 dark:shadow-green-900;
-}
-
-input[data-checkbox="switch"][type="checkbox"]:checked::before {
-  @apply bg-pink-50/90 shadow-fuchsia-400 dark:bg-green-50/90 dark:shadow-green-950;
-  left: calc(100% - 0.875rem - 3px);
-}
-
-input[data-checkbox="switch"][type="checkbox"].theme::before {
-  background-image: url("/img/theme/sun.svg");
-
-  @apply bg-pink-600 shadow-fuchsia-600;
-}
-
-input[data-checkbox="switch"][type="checkbox"].theme:checked::before {
-  background-image: url("/img/theme/evil-moon.svg");
-
-  @apply dark:bg-green-950 dark:shadow-green-950;
-}
-
-input[type="checkbox"][data-checkbox="arrow"] {
-  position: relative;
-  appearance: none;
-  outline: none;
-  border: none;
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border-radius: 4px;
-}
-
-input[type="checkbox"][data-checkbox="arrow"]:focus {
-  outline: none;
-  border: none;
-  outline-offset: 0;
-  background: transparent;
-}
-
-input[type="checkbox"][data-checkbox="arrow"]:hover {
-  outline: none;
-  border: none;
-  outline-offset: 0;
-  background: transparent;
-}
-
-input[type="checkbox"][data-checkbox="arrow"]:active {
-  outline: none;
-  border: none;
-  outline-offset: 0;
-  background: transparent;
-}
-
-input[type="checkbox"][data-checkbox="arrow"]::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 1rem;
-  height: 1rem;
-  transition: all 200ms ease-in;
-  background-image: url("/icons/caret-lt.svg");
-  background-position: 50% 50%;
-
-  @apply pointer-events-none -translate-x-1/2 -translate-y-1/2 rotate-0 select-none stroke-pink-800 dark:stroke-green-200 dark:text-green-200 lg:-rotate-90;
-}
-
-:is([data-mode="dark"]) input[type="checkbox"][data-checkbox="arrow"]::before {
-  background-image: url("/icons/caret-dk.svg");
-}
-
-input[type="checkbox"][data-checkbox="arrow"]:checked::before {
-  @apply rotate-180 lg:rotate-90;
-}
-
-.drop-area {
-  transition: all 300ms ease;
-  @apply m-2 rounded-lg p-8;
-}
-
-.drop-area.dragging {
-  @apply bg-fuchsia-500/10 dark:bg-emerald-500/10;
-}
-
-.drop-area.hover {
-  @apply bg-fuchsia-500/30 p-12 dark:bg-emerald-500/30;
-}
-
-.settings-gear .settings-menu {
-  @apply pointer-events-none origin-top scale-y-0 overflow-hidden opacity-0 transition-all delay-150 duration-300;
-}
-
-.settings-gear:hover .settings-menu,
-.settings-gear:focus .settings-menu {
-  @apply pointer-events-auto scale-y-100 opacity-100;
-}
-
-.settings-gear .settings-menu li {
-  @apply flex w-full -translate-y-4 rounded px-2 py-1 text-lg opacity-0 sm:text-base;
-  transition:
-    background 150ms ease-out,
-    transform 300ms ease-out,
-    opacity 150ms ease-in;
-}
-
-.settings-gear .settings-menu li.nav,
-.settings-gear .settings-menu li.setting {
-  @apply flex w-full gap-4 text-left sm:hidden;
-}
-
-.settings-gear:hover .settings-menu li,
-.settings-gear:focus .settings-menu li {
-  @apply translate-y-0 opacity-100;
-  transition:
-    background 150ms ease-out,
-    transform 300ms ease-out,
-    opacity 300ms ease-in 150ms;
-}
-
-@keyframes fade-in {
-  0% {
-    visibility: hidden;
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-@keyframes bouncey {
-  0%,
-  100% {
-    transform: translateY(0%);
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
-  50% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
+[data-theme="dark"],
+[data-theme="dark"] * {
+	--destructive-foreground: var(--color-red-400);
 }

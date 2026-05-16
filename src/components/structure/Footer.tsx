@@ -1,5 +1,5 @@
-const Footer: React.FC = () => {
-  return <footer></footer>;
-};
+import type React from "react";
 
-export default Footer;
+export const Footer: React.FC = () => {
+	return null;
+};

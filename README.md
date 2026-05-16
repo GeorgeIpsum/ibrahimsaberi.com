@@ -1,10 +1,10 @@
 ## ibrahimsaberi.com
 
-My personal website, built using Next.JS (13+).
+My personal website, built using Next.JS (16+).
 
 ## Why Next?
 
-Flavor-of-the-month(-year?-decade?) framework and it's relatively fun and easy™ to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit.
+Flavor-of-the-month(-year?-decade?) framework and it's relatively fun and easy™ to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit. I'm not going to lie though I hate how much "black magic" you have to rely on using modern Next
 
 ## Do u hate Ruby/ Jekyll now :(
 
@@ -41,3 +41,7 @@ The aesthetic rules and they don't seem scummy (YET). I also have some stuff on 
 ## Ok when are you gonna try Svelte
 
 (: try again next year (THE CURRENT YEAR IS 2067)
+
+## Ok when are you gonna try Astro
+
+Personally I'm more of a peninsula fan
