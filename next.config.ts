@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const config: NextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
@@ -37,4 +38,4 @@ const nextConfig = {
 	poweredByHeader: false,
 };
 
-module.exports = nextConfig;
+export default config;

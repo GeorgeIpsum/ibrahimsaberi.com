@@ -3,8 +3,10 @@ import Script from "next/script";
 
 import "./globals.css";
 
+import { cn } from "@/atoms/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { ThemeProvider } from "@/theme/theme-provider";
+import { fontBody, fontHeading } from "./font";
 
 export const metadata: Metadata = {
 	title: "a whisper",
@@ -23,7 +25,11 @@ export default async function RootLayout({
 	const theme = await getSystemThemeRSC();
 
 	return (
-		<html lang="en" data-theme={theme}>
+		<html
+			lang="en"
+			data-theme={theme}
+			className={cn(fontBody.variable, fontHeading.variable)}
+		>
 			<body>
 				<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
 			</body>
@@ -34,7 +40,6 @@ export default async function RootLayout({
 					data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
 				/>
 			)}
-			<Script id="global-site" src="/script.js" />
 		</html>
 	);
 }
