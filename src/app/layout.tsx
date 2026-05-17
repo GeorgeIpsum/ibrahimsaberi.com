@@ -3,7 +3,7 @@ import Script from "next/script";
 
 import "./globals.css";
 
-import { cn } from "@/atoms/lib";
+import { cn } from "@/css/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { ThemeProvider } from "@/theme/theme-provider";
 import { fontBody, fontHeading, fontMono } from "./font";

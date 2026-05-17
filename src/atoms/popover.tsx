@@ -1,5 +1,5 @@
 import { Popover as PopoverBase } from "@base-ui/react/popover";
-import { cn } from "./lib";
+import { cn } from "@/css/lib";
 
 export const PopoverCreateHandler: typeof PopoverBase.createHandle =
 	PopoverBase.createHandle;

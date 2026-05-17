@@ -9,7 +9,7 @@ import Link from "next/link";
 
 import "./globals.css";
 
-import { cn } from "@/atoms/lib";
+import { cn } from "@/css/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { fontBody, fontHeading, fontMono } from "./font";
 
