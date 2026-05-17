@@ -1,14 +1,12 @@
-import { Footer, Header } from "@/components/structure";
+import { HFPage } from "@/components/structure/hf-page";
 
 // BOOGIE WOOGIE IS DEAD
 // LONG LIVE BOOGIE WOOGIE
 
 export default function Layout({ children }: React.PropsWithChildren) {
 	return (
-		<div className="mx-auto w-full px-2 sm:px-6 lg:max-w-4xl flex flex-col h-full">
-			<Header />
-			<main className="py-4 flex-1">{children}</main>
-			<Footer />
+		<div className="mx-auto flex h-full w-full flex-col px-2 sm:px-6 lg:max-w-4xl">
+			<HFPage>{children}</HFPage>
 		</div>
 	);
 }

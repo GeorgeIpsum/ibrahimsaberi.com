@@ -1,5 +1,3 @@
-import dynamic from "next/dynamic";
-
 // import { Container, Link } from "@/components/atoms";
 import Link from "next/link";
 
@@ -9,9 +7,9 @@ import Link from "next/link";
 
 import "./globals.css";
 
+import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
-import { fontBody, fontHeading, fontMono } from "./font";
 
 const NotFound: React.FC = async () => {
 	const theme = await getSystemThemeRSC();
@@ -30,7 +28,7 @@ const NotFound: React.FC = async () => {
 							// padding="custom"
 						>
 							{/* <GoBack className="appear absolute left-0 top-0 h-auto text-rose-900 dark:text-teal-50" /> */}
-							<h1 className="mb-4 text-5xl font-semibold">Hmmm...</h1>
+							<h1 className="mb-4 font-semibold text-5xl">Hmmm...</h1>
 							<div className="mb-4">Sorry, couldn&apos;t find that.</div>
 							<div>Think something should be here?</div>
 							<div>
@@ -38,7 +36,7 @@ const NotFound: React.FC = async () => {
 								<Link href="mailto:help@studiohmr.com">help@studiohmr.com</Link>
 								.
 							</div>
-							<div className="absolute bottom-0 left-0 right-0 top-0 -z-10 flex select-none items-center justify-center font-head text-8xl font-bold uppercase opacity-5">
+							<div className="absolute top-0 right-0 bottom-0 left-0 -z-10 flex select-none items-center justify-center font-bold font-head text-8xl uppercase opacity-5">
 								Not
 								<br />
 								Found

@@ -3,10 +3,10 @@ import Script from "next/script";
 
 import "./globals.css";
 
+import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { ThemeProvider } from "@/theme/theme-provider";
-import { fontBody, fontHeading, fontMono } from "./font";
 
 export const metadata: Metadata = {
 	title: "a whisper",
@@ -31,7 +31,7 @@ export default async function RootLayout({
 			className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
 		>
 			<body className="relative">
-				<div className="isolate relative flex min-h-svh flex-col">
+				<div className="relative isolate flex min-h-svh flex-col">
 					<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
 				</div>
 			</body>

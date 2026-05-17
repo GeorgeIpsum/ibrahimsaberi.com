@@ -82,7 +82,7 @@ const recurseDir = (dir) => {
 		fileA === "index.ts" ? -1 : fileB === "index.ts" ? 1 : 0,
 	);
 
-	dirContents.forEach((file, index) => {
+	dirContents.forEach((file, _index) => {
 		const path = resolve(dir, file);
 		const stat = statSync(path);
 		if (stat.isDirectory()) {
