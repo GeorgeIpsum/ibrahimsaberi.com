@@ -1,10 +1,11 @@
+import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
-	pageExtensions: ["ts", "tsx", "mdx"],
+	pageExtensions: ["ts", "tsx", "md", "mdx"],
 	async headers() {
 		return [
 			{
@@ -38,4 +39,8 @@ const config: NextConfig = {
 	poweredByHeader: false,
 };
 
-export default config;
+const withMDX = createMDX({
+	extension: /\.(md|mdx)$/,
+});
+
+export default withMDX(config);

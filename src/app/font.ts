@@ -8,6 +8,7 @@ export const fontBody = Atkinson_Hyperlegible_Next({
 	weight: "variable",
 	subsets: ["latin"],
 	variable: "--font-sans",
+	adjustFontFallback: false,
 });
 
 export const fontHeading = Platypi({
@@ -20,4 +21,5 @@ export const fontMono = Atkinson_Hyperlegible_Mono({
 	weight: "variable",
 	subsets: ["latin"],
 	variable: "--font-mono",
+	adjustFontFallback: false,
 });
