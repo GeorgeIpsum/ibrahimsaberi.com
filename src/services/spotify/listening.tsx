@@ -11,7 +11,11 @@ export const Listening: React.FC = async () => {
 	const nowPlaying = await getNowPlayingSSR();
 
 	if (!nowPlaying) {
-		return <div>Not listening to anything right now.</div>;
+		return (
+			<div className="w-full text-center">
+				Not listening to anything right now.
+			</div>
+		);
 	}
 
 	return (

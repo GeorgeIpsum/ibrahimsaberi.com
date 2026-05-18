@@ -31,8 +31,8 @@ const NotFound: React.FC = async () => {
 									<GoBack />
 								</div>
 								<h1 className="mb-4 font-semibold text-5xl">Hmmm...</h1>
-								<div className="mb-4">Sorry, couldn&apos;t find that.</div>
-								<div>Think something should be here?</div>
+								<h2 className="mb-4">Sorry, couldn&apos;t find that.</h2>
+								<div className="mt-8">Think something should be here?</div>
 								<div>
 									Reach out at{" "}
 									<Link href="mailto:help@studiohmr.com">
@@ -40,7 +40,7 @@ const NotFound: React.FC = async () => {
 									</Link>
 									.
 								</div>
-								<div className="absolute top-0 right-0 bottom-0 left-0 -z-10 flex select-none items-center justify-center font-bold font-head text-8xl uppercase opacity-5">
+								<div className="absolute top-0 right-0 bottom-0 left-0 -z-10 flex select-none items-center justify-center font-bold font-heading text-8xl uppercase opacity-5">
 									Not
 									<br />
 									Found

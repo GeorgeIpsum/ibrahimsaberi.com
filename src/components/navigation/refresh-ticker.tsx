@@ -13,7 +13,6 @@ export function RefreshTicker({ intervalMs, pauseWhenHidden = true }: Props) {
 
 	useEffect(() => {
 		const tick = () => {
-			console.log("RefreshTicker tick");
 			router.refresh();
 		};
 
