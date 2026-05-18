@@ -1,4 +1,5 @@
 import "server-only";
+import { revalidateTag } from "next/cache";
 import { getAccessToken } from "./auth";
 
 export type NowPlaying = {
@@ -41,7 +42,7 @@ export async function getNowPlaying(): Promise<NowPlaying | null> {
 		"https://api.spotify.com/v1/me/player/currently-playing",
 		{
 			headers: { Authorization: `Bearer ${token}` },
-			next: { revalidate: 5 }, // revalidate every 5 seconds
+			next: { revalidate: 0 },
 			// cache: "no-store",
 		},
 	);
@@ -51,6 +52,9 @@ export async function getNowPlaying(): Promise<NowPlaying | null> {
 		console.error(
 			`[spotify] currently-playing returned ${res.status}: ${await res.text()}`,
 		);
+		if (res.status === 401) {
+			revalidateTag("spotify-token", { expire: 0 }); // Invalidate token cache on unauthorized error
+		}
 		return null;
 	}
 

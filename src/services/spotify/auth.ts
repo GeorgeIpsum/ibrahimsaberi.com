@@ -25,7 +25,7 @@ export async function getAccessToken(): Promise<string> {
 			grant_type: "refresh_token",
 			refresh_token: env.SPOTIFY_REFRESH_TOKEN,
 		}),
-		next: { revalidate: 60 }, // revalidate every 60 seconds
+		next: { revalidate: 10, tags: ["spotify-token"] }, // revalidate every 10 seconds
 		// cache: "no-store",
 	});
 

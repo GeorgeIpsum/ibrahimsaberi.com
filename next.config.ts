@@ -30,6 +30,11 @@ const config: NextConfig = {
 				destination: "/basin/:slug*",
 				permanent: true,
 			},
+			{
+				source: "/rss",
+				destination: "/feed.xml",
+				permanent: true,
+			},
 		];
 	},
 	images: {
