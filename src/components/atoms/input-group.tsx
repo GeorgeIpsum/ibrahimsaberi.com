@@ -2,8 +2,8 @@
 
 import { cva, type VariantProps } from "cva";
 import type * as React from "react";
-import { Input, type InputProps } from "@/atoms/input";
-import { Textarea, type TextareaProps } from "@/atoms/textarea";
+import { Input, type InputProps } from "@/components/atoms/input";
+import { Textarea, type TextareaProps } from "@/components/atoms/textarea";
 import { cn } from "@/css/lib";
 
 const inputGroupAddonVariants = cva({

@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AudioWaveform } from "@/atoms/audio-waveform";
 import {
 	PreviewCard,
 	PreviewCardPopup,
 	PreviewCardTrigger,
-} from "@/atoms/preview-card";
+} from "@/components/atoms/preview-card";
+import { AudioWaveform } from "@/components/icons/audio-waveform";
 import { RefreshTicker } from "@/components/navigation/refresh-ticker";
 import { cn } from "@/css/lib";
 import { getNowPlayingSSR, Listening } from "@/services/spotify/listening";
+import { MobileMenu } from "../navigation/mobile-menu";
+import { navItems } from "../navigation/nav-items";
 
 export const Header: React.FC = async () => {
 	const nowPlaying = (await getNowPlayingSSR())?.isPlaying;
@@ -48,36 +50,40 @@ export const Header: React.FC = async () => {
 						</span>
 					</Link>
 				</div>
-				<div className="flex w-full flex-1 items-center justify-end gap-6">
-					<nav className="flex w-full flex-1 items-center justify-end">
-						<ul className="flex w-full items-center justify-end gap-2 text-sm">
-							<li>
-								<Link href="/basin">basin</Link>
-							</li>
-							<li>
-								<Link href="/mrcl">spin</Link>
-							</li>
-							<li>
-								<Link className="uppercase" href="/wkur">
-									wkur
-								</Link>
-							</li>
+				<div className="flex w-full flex-1 items-center justify-end gap-4 sm:gap-6">
+					<nav className="hidden w-full flex-1 items-center justify-end sm:flex">
+						<ul className="flex w-full items-center justify-end gap-4 text-sm">
+							{navItems
+								.filter((item) => !item.mobileOnly)
+								.map((item) => (
+									<li key={item.href}>
+										<Link href={item.href} className="hover:text-primary">
+											{item.title}
+										</Link>
+									</li>
+								))}
 						</ul>
 					</nav>
 					<div
-						className={cn("rounded-full border p-1", {
-							"border-accent text-muted-foreground": !nowPlaying,
-							"border-primary/90 text-primary/90": nowPlaying,
-						})}
+						className={cn(
+							"rounded-full border p-1 transition-colors duration-1000 ease-out",
+							{
+								"border-accent text-muted-foreground": !nowPlaying,
+								"border-primary/90 text-primary/90": nowPlaying,
+							},
+						)}
 					>
 						<PreviewCard>
-							<PreviewCardTrigger>
+							<PreviewCardTrigger delay={300}>
 								<AudioWaveform size={16} playing={!!nowPlaying} />
 							</PreviewCardTrigger>
 							<PreviewCardPopup className="w-80" align="end" sideOffset={12}>
 								<Listening />
 							</PreviewCardPopup>
 						</PreviewCard>
+					</div>
+					<div className="inline-block sm:hidden">
+						<MobileMenu />
 					</div>
 				</div>
 			</div>

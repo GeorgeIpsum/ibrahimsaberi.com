@@ -2,10 +2,6 @@ import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
-	experimental: {
-		mdxRs: true,
-	},
-	pageExtensions: ["ts", "tsx", "md", "mdx"],
 	async headers() {
 		return [
 			{
@@ -30,7 +26,7 @@ const config: NextConfig = {
 	async redirects() {
 		return [
 			{
-				source: "/(blag|blog)/:slug*",
+				source: "/:type(blag|blog)/:slug*",
 				destination: "/basin/:slug*",
 				permanent: true,
 			},
@@ -42,10 +38,30 @@ const config: NextConfig = {
 		],
 	},
 	poweredByHeader: false,
+	devIndicators: false,
 };
 
-const withMDX = createMDX({
-	extension: /\.(md|mdx)$/,
-});
+const plugins = [
+	createMDX({
+		extension: /\.(md|mdx)$/,
+		options: {
+			remarkPlugins: [
+				"remark-frontmatter",
+				"remark-mdx-frontmatter",
+				"remark-gfm",
+				"remark-smartypants",
+			],
+			rehypePlugins: [
+				"rehype-slug",
+				[
+					"@shikijs/rehype",
+					{ themes: { light: "github-light", dark: "github-dark" } },
+				],
+			],
+		},
+	}),
+];
 
-export default withMDX(config);
+export default plugins.reduce((config, plugin) => {
+	return plugin(config);
+}, config);

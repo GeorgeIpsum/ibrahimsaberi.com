@@ -174,7 +174,7 @@
   --accent-foreground: var(--primary);
 
   --border: color-mix(in oklch, var(--primary) 10%, transparent);
-  --input: color-mix(in oklch, var(--primary) 14%, transparent);
+  --input: color-mix(in oklch, var(--primary) 10%, transparent);
   --ring: color-mix(in oklch, var(--primary) 35%, var(--background));
 
   --sidebar: color-mix(in oklch, var(--background) 92%, var(--primary));

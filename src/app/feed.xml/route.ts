@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import RSS from "rss";
 
-import { api } from "@/trpc/server";
+// import { api } from "@/trpc/server";
 
 const feed = new RSS({
 	title: "Don't Drown",
@@ -15,11 +15,20 @@ const feed = new RSS({
 });
 
 export async function GET() {
-	const drops = await api.drops.allPosts.query();
+	// const drops = await api.drops.allPosts.query();
+	const drops: {
+		slug: string;
+		title: string;
+		blurb: string;
+		publishedAt: Date | null;
+		authorUsername: string;
+		categories: { categoryName: string }[];
+		published: boolean;
+	}[] = [];
 
 	drops
 		.filter((drop) => drop.published)
-		.forEach((drop) =>
+		.forEach((drop) => {
 			feed.item({
 				title: drop.title,
 				guid: drop.slug,
@@ -28,8 +37,8 @@ export async function GET() {
 				description: drop.blurb,
 				author: drop.authorUsername,
 				categories: drop.categories.map((c) => c.categoryName),
-			}),
-		);
+			});
+		});
 
 	return new NextResponse(feed.xml({ indent: true }), {
 		headers: {

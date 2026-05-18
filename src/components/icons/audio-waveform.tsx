@@ -1,3 +1,4 @@
+// Based on AudioWaveform from lucide-react, but with a custom animation
 import { cn } from "@/css/lib";
 
 type Props = {

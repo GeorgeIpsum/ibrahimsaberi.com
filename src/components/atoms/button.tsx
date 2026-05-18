@@ -4,7 +4,7 @@ import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "cva";
 import type * as React from "react";
-import { Spinner } from "@/atoms/spinner";
+import { Spinner } from "@/components/atoms/spinner";
 import { cn } from "@/css/lib";
 
 export const buttonVariants = cva({

@@ -11,7 +11,11 @@ export function PreviewCardTrigger({
 	...props
 }: PreviewCardPrimitive.Trigger.Props): React.ReactElement {
 	return (
-		<PreviewCardPrimitive.Trigger data-slot="preview-card-trigger" {...props} />
+		<PreviewCardPrimitive.Trigger
+			className={cn("hover:cursor-pointer", props.className)}
+			data-slot="preview-card-trigger"
+			{...props}
+		/>
 	);
 }
 

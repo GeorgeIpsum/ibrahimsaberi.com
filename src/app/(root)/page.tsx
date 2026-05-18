@@ -1,6 +1,6 @@
 export default function Page() {
 	return (
-		<div className="flex h-20 max-h-24 min-h-1 w-full flex-col overflow-y-auto rounded">
+		<div className="flex h-20 min-h-[calc(100svh-10rem)] w-full flex-col overflow-y-auto rounded">
 			asdf
 		</div>
 	);

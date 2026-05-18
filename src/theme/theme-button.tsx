@@ -2,29 +2,44 @@
 
 import { MonitorSmartphone, MoonStar, Sun, SunMoon } from "lucide-react";
 import { useRef } from "react";
-import { Button } from "@/atoms/button";
-import { Popover, PopoverContent, PopoverTrigger } from "@/atoms/popover";
-import { ToggleGroup, ToggleGroupItem } from "@/atoms/toggle-group";
+import { Button } from "@/components/atoms/button";
+import {
+	Popover,
+	PopoverContent,
+	PopoverTrigger,
+} from "@/components/atoms/popover";
+import { ToggleGroup, ToggleGroupItem } from "@/components/atoms/toggle-group";
 import {
 	Tooltip,
 	TooltipPopup,
 	TooltipProvider,
 	TooltipTrigger,
-} from "@/atoms/tooltip";
+} from "@/components/atoms/tooltip";
 import type { Theme } from "./types";
 import { useTheme } from "./use-theme";
 
 interface ThemeButtonProps {
+	size?: React.ComponentProps<typeof Button>["size"];
+	variant?: React.ComponentProps<typeof Button>["variant"];
 	side?: React.ComponentProps<typeof PopoverContent>["side"];
 	align?: React.ComponentProps<typeof PopoverContent>["align"];
+	className?: string;
 }
-export const ThemeButton: React.FC<ThemeButtonProps> = ({ side, align }) => {
+export const ThemeButton: React.FC<ThemeButtonProps> = ({
+	size = "icon-xs",
+	variant = "outline",
+	side,
+	align,
+	className,
+}) => {
 	const { theme, setTheme } = useTheme();
 	const initialTheme = useRef(theme).current;
 
 	return (
 		<Popover>
-			<PopoverTrigger render={<Button size="icon-sm" variant="ghost" />}>
+			<PopoverTrigger
+				render={<Button size={size} variant={variant} className={className} />}
+			>
 				<SunMoon />
 			</PopoverTrigger>
 			<PopoverContent

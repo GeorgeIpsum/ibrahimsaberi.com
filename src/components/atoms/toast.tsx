@@ -9,7 +9,7 @@ import {
 	TriangleAlertIcon,
 } from "lucide-react";
 import type React from "react";
-import { buttonVariants } from "@/atoms/button";
+import { buttonVariants } from "@/components/atoms/button";
 import { cn } from "@/css/lib";
 
 const TOAST_ICONS = {

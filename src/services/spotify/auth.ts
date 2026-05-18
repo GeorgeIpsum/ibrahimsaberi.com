@@ -25,7 +25,8 @@ export async function getAccessToken(): Promise<string> {
 			grant_type: "refresh_token",
 			refresh_token: env.SPOTIFY_REFRESH_TOKEN,
 		}),
-		cache: "no-store",
+		next: { revalidate: 60 }, // revalidate every 60 seconds
+		// cache: "no-store",
 	});
 
 	if (!res.ok) {

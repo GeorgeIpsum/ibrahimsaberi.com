@@ -23,7 +23,7 @@
 						"patterns": [
 							{
 								"group": ["@base-ui/react", "@base-ui/react/*"],
-								"message": "Import Base UI primitives only through src/atoms. Add or extend a wrapper there, then import from @/atoms/..."
+								"message": "Import Base UI primitives only through src/atoms. Add or extend a wrapper there, then import from @/components/atoms/..."
 							}
 						]
 					}
@@ -57,7 +57,7 @@
 	},
 	"overrides": [
 		{
-			"includes": ["src/atoms/**"],
+			"includes": ["src/components/atoms/**"],
 			"linter": {
 				"rules": {
 					"style": {

@@ -2,13 +2,13 @@
 
 import { ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { Button } from "@/atoms/button";
+import { Button } from "@/components/atoms/button";
 import {
 	Tooltip,
 	TooltipPopup,
 	TooltipProvider,
 	TooltipTrigger,
-} from "@/atoms/tooltip";
+} from "@/components/atoms/tooltip";
 import { useHistory } from "./history-provider";
 
 interface GoBackProps {

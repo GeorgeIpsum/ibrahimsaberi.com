@@ -24,7 +24,7 @@ export const HistoryProvider: React.FC<React.PropsWithChildren> = ({
 
 	// biome-ignore lint/correctness/useExhaustiveDependencies: no infinite loop pls
 	useEffect(() => {
-		console.log("history updated", history);
+		// console.log("history updated", history);
 		if (window.location.pathname !== history[history.length - 1])
 			setHistory((prev) => [...prev, window.location.pathname]);
 	}, [typeof window === "undefined" ? undefined : window.location.pathname]);

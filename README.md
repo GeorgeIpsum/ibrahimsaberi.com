@@ -4,7 +4,9 @@ My personal website, built using Next.JS (16+).
 
 ## Why Next?
 
-Flavor-of-the-month(-year?-decade?) framework and it's relatively fun and easy™ to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit. I'm not going to lie though I hate how much "black magic" you have to rely on using modern Next
+Flavor-of-the-month(-year?-decade??) framework and it's relatively fun and easy™[^1] to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit. I'm not going to lie though I hate how much "black magic" you have to rely on using modern Next
+
+[^1]: magic_is_a_good_thing.jpeg
 
 ## Do u hate Ruby/ Jekyll now :(
 
@@ -36,7 +38,7 @@ someone actually said this to me once. please shut up
 
 ### why porkbun
 
-The aesthetic rules and they don't seem scummy (YET). I also have some stuff on namecheap but I hate their UI
+The aesthetic rules and they don't seem scummy (YET). I also have some stuff on namecheap but I hate their UI. Sorry mom I know it's not halal
 
 ## Ok when are you gonna try Svelte
 
@@ -45,3 +47,7 @@ The aesthetic rules and they don't seem scummy (YET). I also have some stuff on 
 ## Ok when are you gonna try Astro
 
 Personally I'm more of a peninsula fan
+
+## Ok when are y
+
+this candlejack-as-a-service thing is really useful
