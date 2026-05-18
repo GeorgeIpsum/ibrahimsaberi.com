@@ -3,6 +3,7 @@ import Script from "next/script";
 
 import "./globals.css";
 
+import { HistoryProvider } from "@/components/navigation/history-provider";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
@@ -30,11 +31,13 @@ export default async function RootLayout({
 			data-theme={theme}
 			className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
 		>
-			<body className="relative">
-				<div className="relative isolate flex min-h-svh flex-col">
-					<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
-				</div>
-			</body>
+			<HistoryProvider>
+				<body className="relative">
+					<div className="relative isolate flex min-h-svh flex-col">
+						<ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
+					</div>
+				</body>
+			</HistoryProvider>
 			{process.env.NODE_ENV === "production" && (
 				<Script
 					defer

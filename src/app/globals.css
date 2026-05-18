@@ -56,7 +56,7 @@
     100% {
       transform: translateY(0);
     }
-    25% {
+    75% {
       transform: translateY(-3.33%);
     }
     45% {
@@ -112,7 +112,7 @@
   --muted: color-mix(in oklch, var(--background) 92%, var(--primary));
   --muted-foreground: color-mix(
     in oklch,
-    var(--primary) 65%,
+    var(--primary) 95%,
     var(--background)
   );
   --accent: color-mix(in oklch, var(--background) 88%, var(--primary));
@@ -198,6 +198,21 @@
   --success-foreground: oklch(22% 0.05 150);
   --info: oklch(74% 0.08 290);
   --info-foreground: oklch(22% 0.04 290);
+}
+
+@keyframes audio-bar {
+  0%,
+  100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+.animate-audio-bar {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: audio-bar 0.9s ease-in-out infinite;
 }
 
 html {

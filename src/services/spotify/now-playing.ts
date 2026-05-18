@@ -41,7 +41,7 @@ export async function getNowPlaying(): Promise<NowPlaying | null> {
 		"https://api.spotify.com/v1/me/player/currently-playing",
 		{
 			headers: { Authorization: `Bearer ${token}` },
-			next: { revalidate: 30 },
+			cache: "no-store",
 		},
 	);
 

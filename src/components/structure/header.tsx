@@ -1,9 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AudioWaveform } from "@/atoms/audio-waveform";
+import {
+	PreviewCard,
+	PreviewCardPopup,
+	PreviewCardTrigger,
+} from "@/atoms/preview-card";
+import { RefreshTicker } from "@/components/navigation/refresh-ticker";
+import { cn } from "@/css/lib";
+import { getNowPlayingSSR, Listening } from "@/services/spotify/listening";
 
-export const Header: React.FC = () => {
+export const Header: React.FC = async () => {
+	const nowPlaying = (await getNowPlayingSSR())?.isPlaying;
+
 	return (
 		<header className="sticky top-2 h-12 w-full">
+			<RefreshTicker intervalMs={15000} />
 			<div className="flex w-full items-center rounded-xl border-accent border-b bg-white/20 p-2 backdrop-blur dark:bg-black/20">
 				<div className="flex items-center gap-2">
 					<Link rel="home" href="/">
@@ -35,18 +47,37 @@ export const Header: React.FC = () => {
 						</span>
 					</Link>
 				</div>
-				<div className="flex w-full flex-1 items-center justify-end gap-4">
+				<div className="flex w-full flex-1 items-center justify-end gap-6">
 					<nav className="flex w-full flex-1 items-center justify-end">
-						<ul className="flex w-full items-center justify-end gap-2">
+						<ul className="flex w-full items-center justify-end gap-2 text-sm">
 							<li>
 								<Link href="/basin">basin</Link>
+							</li>
+							<li>
+								<Link className="uppercase" href="/wkur">
+									wkur
+								</Link>
 							</li>
 							<li>
 								<Link href="/miracle">mir</Link>
 							</li>
 						</ul>
 					</nav>
-					<div>listening:</div>
+					<div
+						className={cn("rounded-full border p-1", {
+							"border-accent text-muted-foreground": !nowPlaying,
+							"border-primary/90 text-primary/90": nowPlaying,
+						})}
+					>
+						<PreviewCard>
+							<PreviewCardTrigger>
+								<AudioWaveform size={16} playing={!!nowPlaying} />
+							</PreviewCardTrigger>
+							<PreviewCardPopup className="w-80" align="end" sideOffset={12}>
+								<Listening />
+							</PreviewCardPopup>
+						</PreviewCard>
+					</div>
 				</div>
 			</div>
 		</header>
