@@ -4,50 +4,50 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 type Props = {
-	intervalMs: number;
-	pauseWhenHidden?: boolean;
+  intervalMs: number;
+  pauseWhenHidden?: boolean;
 };
 
 export function RefreshTicker({ intervalMs, pauseWhenHidden = true }: Props) {
-	const router = useRouter();
+  const router = useRouter();
 
-	useEffect(() => {
-		const tick = () => {
-			router.refresh();
-		};
+  useEffect(() => {
+    const tick = () => {
+      router.refresh();
+    };
 
-		let id: ReturnType<typeof setInterval> | undefined;
-		const start = () => {
-			if (id) clearInterval(id);
-			id = setInterval(tick, intervalMs);
-		};
-		const stop = () => {
-			if (id) {
-				clearInterval(id);
-				id = undefined;
-			}
-		};
+    let id: ReturnType<typeof setInterval> | undefined;
+    const start = () => {
+      if (id) clearInterval(id);
+      id = setInterval(tick, intervalMs);
+    };
+    const stop = () => {
+      if (id) {
+        clearInterval(id);
+        id = undefined;
+      }
+    };
 
-		start();
+    start();
 
-		if (!pauseWhenHidden) {
-			return () => stop();
-		}
+    if (!pauseWhenHidden) {
+      return () => stop();
+    }
 
-		const handleVisibility = () => {
-			if (document.hidden) {
-				stop();
-			} else {
-				tick();
-				start();
-			}
-		};
-		document.addEventListener("visibilitychange", handleVisibility);
-		return () => {
-			stop();
-			document.removeEventListener("visibilitychange", handleVisibility);
-		};
-	}, [router, intervalMs, pauseWhenHidden]);
+    const handleVisibility = () => {
+      if (document.hidden) {
+        stop();
+      } else {
+        tick();
+        start();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibility);
+    return () => {
+      stop();
+      document.removeEventListener("visibilitychange", handleVisibility);
+    };
+  }, [router, intervalMs, pauseWhenHidden]);
 
-	return null;
+  return null;
 }

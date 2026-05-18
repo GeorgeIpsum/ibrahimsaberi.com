@@ -3,86 +3,86 @@ import { revalidateTag } from "next/cache";
 import { getAccessToken } from "./auth";
 
 export type NowPlaying = {
-	isPlaying: boolean;
-	title: string;
-	artist: string;
-	album: string;
-	albumArt: string | null;
-	url: string;
-	progressMs: number;
-	durationMs: number;
+  isPlaying: boolean;
+  title: string;
+  artist: string;
+  album: string;
+  albumArt: string | null;
+  url: string;
+  progressMs: number;
+  durationMs: number;
 };
 
 type SpotifyImage = { url: string; width: number; height: number };
 type SpotifyArtist = { name: string };
 type SpotifyTrack = {
-	name: string;
-	duration_ms: number;
-	artists: SpotifyArtist[];
-	album: { name: string; images: SpotifyImage[] };
-	external_urls: { spotify: string };
+  name: string;
+  duration_ms: number;
+  artists: SpotifyArtist[];
+  album: { name: string; images: SpotifyImage[] };
+  external_urls: { spotify: string };
 };
 type CurrentlyPlayingResponse = {
-	is_playing: boolean;
-	progress_ms: number;
-	item: SpotifyTrack | null;
-	currently_playing_type: string;
+  is_playing: boolean;
+  progress_ms: number;
+  item: SpotifyTrack | null;
+  currently_playing_type: string;
 };
 
 export async function getNowPlaying(): Promise<NowPlaying | null> {
-	let token: string;
-	try {
-		token = await getAccessToken();
-	} catch (e) {
-		console.error("[spotify] failed to obtain access token:", e);
-		return null;
-	}
+  let token: string;
+  try {
+    token = await getAccessToken();
+  } catch (e) {
+    console.error("[spotify] failed to obtain access token:", e);
+    return null;
+  }
 
-	const res = await fetch(
-		"https://api.spotify.com/v1/me/player/currently-playing",
-		{
-			headers: { Authorization: `Bearer ${token}` },
-			next: { revalidate: 0 },
-			// cache: "no-store",
-		},
-	);
+  const res = await fetch(
+    "https://api.spotify.com/v1/me/player/currently-playing",
+    {
+      headers: { Authorization: `Bearer ${token}` },
+      next: { revalidate: 0 },
+      // cache: "no-store",
+    },
+  );
 
-	if (res.status === 204) return null;
-	if (!res.ok) {
-		console.error(
-			`[spotify] currently-playing returned ${res.status}: ${await res.text()}`,
-		);
-		if (res.status === 401) {
-			revalidateTag("spotify-token", { expire: 0 }); // Invalidate token cache on unauthorized error
-		}
-		return null;
-	}
+  if (res.status === 204) return null;
+  if (!res.ok) {
+    console.error(
+      `[spotify] currently-playing returned ${res.status}: ${await res.text()}`,
+    );
+    if (res.status === 401) {
+      revalidateTag("spotify-token", { expire: 0 }); // Invalidate token cache on unauthorized error
+    }
+    return null;
+  }
 
-	const data = (await res.json()) as CurrentlyPlayingResponse;
-	if (
-		!data?.item ||
-		data.currently_playing_type !== "track" // skip podcasts / episodes
-	) {
-		return null;
-	}
+  const data = (await res.json()) as CurrentlyPlayingResponse;
+  if (
+    !data?.item ||
+    data.currently_playing_type !== "track" // skip podcasts / episodes
+  ) {
+    return null;
+  }
 
-	const item = data.item;
-	const albumArt = pickAlbumArt(item.album.images);
+  const item = data.item;
+  const albumArt = pickAlbumArt(item.album.images);
 
-	return {
-		isPlaying: data.is_playing,
-		title: item.name,
-		artist: item.artists.map((a) => a.name).join(", "),
-		album: item.album.name,
-		albumArt,
-		url: item.external_urls.spotify,
-		progressMs: data.progress_ms,
-		durationMs: item.duration_ms,
-	};
+  return {
+    isPlaying: data.is_playing,
+    title: item.name,
+    artist: item.artists.map((a) => a.name).join(", "),
+    album: item.album.name,
+    albumArt,
+    url: item.external_urls.spotify,
+    progressMs: data.progress_ms,
+    durationMs: item.duration_ms,
+  };
 }
 
 function pickAlbumArt(images: SpotifyImage[]): string | null {
-	if (!images.length) return null;
-	const mid = images.find((i) => i.width >= 200 && i.width <= 400);
-	return (mid ?? images[images.length - 1] ?? images[0]).url;
+  if (!images.length) return null;
+  const mid = images.find((i) => i.width >= 200 && i.width <= 400);
+  return (mid ?? images[images.length - 1] ?? images[0]).url;
 }

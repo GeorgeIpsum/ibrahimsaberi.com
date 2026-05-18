@@ -25,46 +25,46 @@ const dirContents = await readdir(__dirname);
 /** @type {Script[]} */
 const scripts = [];
 for (const file of dirContents) {
-	const filePath = resolve(__dirname, file);
-	if (filePath === __filename) continue;
-	if (!file.endsWith(".js")) continue;
-	try {
-		const mod = await import(pathToFileURL(filePath).href);
-		/** @type {Script | undefined} */
-		const exported = mod.default ?? mod;
-		if (exported?.main && typeof exported.main === "function") {
-			scripts.push(exported);
-		}
-	} catch (e) {
-		console.log(e);
-	}
+  const filePath = resolve(__dirname, file);
+  if (filePath === __filename) continue;
+  if (!file.endsWith(".js")) continue;
+  try {
+    const mod = await import(pathToFileURL(filePath).href);
+    /** @type {Script | undefined} */
+    const exported = mod.default ?? mod;
+    if (exported?.main && typeof exported.main === "function") {
+      scripts.push(exported);
+    }
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 for (const {
-	meta: { command, description, args, opts },
-	main,
+  meta: { command, description, args, opts },
+  main,
 } of scripts) {
-	const cmd = program.command(command);
+  const cmd = program.command(command);
 
-	if (description) {
-		cmd.description(description);
-	}
+  if (description) {
+    cmd.description(description);
+  }
 
-	if (args?.length) {
-		args.reduce((c, arg) => c.addArgument(arg), cmd);
-	}
+  if (args?.length) {
+    args.reduce((c, arg) => c.addArgument(arg), cmd);
+  }
 
-	if (opts?.length) {
-		opts.reduce((c, opt) => c.addOption(opt), cmd);
-	}
+  if (opts?.length) {
+    opts.reduce((c, opt) => c.addOption(opt), cmd);
+  }
 
-	cmd.action(main);
+  cmd.action(main);
 }
 
 if (program.commands.length) {
-	program
-		.name("ibrahimsaberi.com Helper Scripts")
-		.description("Some basic stuff for housekeeping and auto-generation")
-		.version("1.0.0");
-	program.parse();
+  program
+    .name("ibrahimsaberi.com Helper Scripts")
+    .description("Some basic stuff for housekeeping and auto-generation")
+    .version("1.0.0");
+  program.parse();
 }

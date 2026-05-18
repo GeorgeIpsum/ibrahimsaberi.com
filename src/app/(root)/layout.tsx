@@ -4,5 +4,5 @@ import { HFPage } from "@/components/structure/hf-page";
 // LONG LIVE BOOGIE WOOGIE
 
 export default function Layout({ children }: React.PropsWithChildren) {
-	return <HFPage>{children}</HFPage>;
+  return <HFPage>{children}</HFPage>;
 }
