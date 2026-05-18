@@ -36,6 +36,11 @@ const config: NextConfig = {
 			},
 		];
 	},
+	images: {
+		remotePatterns: [
+			{ protocol: "https", hostname: "i.scdn.co" }, // album art
+		],
+	},
 	poweredByHeader: false,
 };
 

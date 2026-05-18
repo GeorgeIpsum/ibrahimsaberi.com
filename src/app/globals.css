@@ -49,35 +49,18 @@
     }
   }
 
-  --animate-wave-distort: wave-distort 3.2s cubic-bezier(0.65, 0, 0.35, 1)
-    infinite;
-  @keyframes wave-distort {
-    0% {
-      transform: translate3d(0, 0, 0) skewX(0deg) scaleY(1);
-    }
-    12% {
-      transform: translate3d(-1%, -8%, 0) skewX(-2deg) scaleY(1.04);
-    }
-    24% {
-      transform: translate3d(2%, 6%, 0) skewX(3deg) scaleY(0.96);
-    }
-    38% {
-      transform: translate3d(-2%, -4%, 0) skewX(-1deg) scaleY(1.02);
-    }
-    51% {
-      transform: translate3d(3%, 3%, 0) skewX(2deg) scaleY(0.98);
-    }
-    63% {
-      transform: translate3d(-1%, -6%, 0) skewX(-3deg) scaleY(1.03);
-    }
-    76% {
-      transform: translate3d(2%, 5%, 0) skewX(1deg) scaleY(0.97);
-    }
-    88% {
-      transform: translate3d(-2%, -2%, 0) skewX(-2deg) scaleY(1.01);
-    }
+  --animate-wave-travel: wave-travel 2s ease-in-out infinite;
+  @keyframes wave-travel {
+    0%,
+    60%,
     100% {
-      transform: translate3d(0, 0, 0) skewX(0deg) scaleY(1);
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-3.33%);
+    }
+    45% {
+      transform: translateY(4.44%);
     }
   }
 

@@ -1,6 +1,6 @@
 function main() {}
 
-module.exports = {
+export default {
 	main,
 	meta: {
 		command: "check-posts",

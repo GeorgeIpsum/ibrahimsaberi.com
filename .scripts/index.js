@@ -1,29 +1,49 @@
-const { resolve } = require("node:path");
-const { readdirSync } = require("node:fs");
-const { program } = require("commander");
+import { readdir } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { program } from "commander";
 
-const thisFilePath = resolve(__dirname, __filename);
-const thisDirContents = readdirSync(__dirname);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
+/**
+ * @typedef {Object} ScriptMeta
+ * @property {string} command
+ * @property {string} [description]
+ * @property {import("commander").Argument[]} [args]
+ * @property {import("commander").Option[]} [opts]
+ */
+
+/**
+ * @typedef {Object} Script
+ * @property {(...args: unknown[]) => void | Promise<void>} main
+ * @property {ScriptMeta} meta
+ */
+
+const dirContents = await readdir(__dirname);
+
+/** @type {Script[]} */
 const scripts = [];
-thisDirContents.forEach(async (file) => {
+for (const file of dirContents) {
 	const filePath = resolve(__dirname, file);
-	if (filePath !== thisFilePath) {
-		try {
-			const modulePath = require.resolve(filePath);
-			if (modulePath) {
-				const module = require(filePath);
-				if (module?.main && typeof module.main === "function") {
-					scripts.push(module);
-				}
-			}
-		} catch (e) {
-			console.log(e);
+	if (filePath === __filename) continue;
+	if (!file.endsWith(".js")) continue;
+	try {
+		const mod = await import(pathToFileURL(filePath).href);
+		/** @type {Script | undefined} */
+		const exported = mod.default ?? mod;
+		if (exported?.main && typeof exported.main === "function") {
+			scripts.push(exported);
 		}
+	} catch (e) {
+		console.log(e);
 	}
-});
+}
 
-scripts.forEach(({ meta: { command, description, args, opts }, main }) => {
+for (const {
+	meta: { command, description, args, opts },
+	main,
+} of scripts) {
 	const cmd = program.command(command);
 
 	if (description) {
@@ -31,15 +51,15 @@ scripts.forEach(({ meta: { command, description, args, opts }, main }) => {
 	}
 
 	if (args?.length) {
-		args.reduce((cmd, arg) => cmd.addArgument(arg), cmd);
+		args.reduce((c, arg) => c.addArgument(arg), cmd);
 	}
 
 	if (opts?.length) {
-		opts.reduce((cmd, opt) => cmd.addOption(opt), cmd);
+		opts.reduce((c, opt) => c.addOption(opt), cmd);
 	}
 
 	cmd.action(main);
-});
+}
 
 if (program.commands.length) {
 	program

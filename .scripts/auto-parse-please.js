@@ -1,17 +1,31 @@
-const {
-	readFileSync,
-	readdirSync,
-	writeFileSync,
-	statSync,
-} = require("node:fs");
-const { resolve } = require("node:path");
-const { spawnSync } = require("node:child_process");
+import { spawnSync } from "node:child_process";
+import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+/**
+ * @typedef {Object} FileImport
+ * @property {string | null} defaultExport
+ * @property {string[]} vars
+ * @property {string} name
+ */
+
+/** @type {import("ora").Ora | undefined} */
 let spinner;
+
+/**
+ * @param {string} path
+ * @param {string} dir
+ * @param {string[]} dirContents
+ */
 const solveFileImports = (path, dir, dirContents) => {
+	/** @type {FileImport[]} */
 	const imports = [];
 	dirContents.forEach((fileName) => {
 		if (fileName !== "index.ts") {
+			/** @type {FileImport} */
 			const fileImport = { defaultExport: null, vars: [], name: fileName };
 			const fileContents = readFileSync(resolve(dir, fileName), "utf-8");
 			const byLine = fileContents.split("\n");
@@ -65,17 +79,24 @@ const solveFileImports = (path, dir, dirContents) => {
 	writeFileSync(path, newIndexFile, "utf-8");
 };
 
+/**
+ * @param {string} file
+ * @param {string} path
+ * @param {string} dir
+ * @param {string[]} dirContents
+ */
 const solveFile = (file, path, dir, dirContents) => {
 	const fileContents = readFileSync(path, "utf-8");
 	if (
 		file === "index.ts" &&
 		fileContents.indexOf("// [auto-parse-please]") === 0
 	) {
-		spinner.text = `${path}`;
+		if (spinner) spinner.text = `${path}`;
 		return solveFileImports(path, dir, dirContents);
 	}
 };
 
+/** @param {string} dir */
 const recurseDir = (dir) => {
 	const dirContents = readdirSync(dir);
 	dirContents.sort((fileA, fileB) =>
@@ -95,21 +116,22 @@ const recurseDir = (dir) => {
 
 async function main() {
 	const ora = await import("ora");
-	spinner = ora.default();
-	spinner.prefixText = "Parsing";
-	spinner.start();
+	const s = ora.default();
+	spinner = s;
+	s.prefixText = "Parsing";
+	s.start();
 	const srcDirPath = resolve(__dirname, "..", "src");
 	recurseDir(srcDirPath);
-	spinner.text = "Running ESLint...";
+	s.text = "Running ESLint...";
 	const eslintOutput = spawnSync("pnpm", ["run", "lint"]);
-	spinner.prefixText = "";
+	s.prefixText = "";
 	eslintOutput.output.forEach((output) => {
-		if (output) spinner.text = output.toString("utf-8");
+		if (output) s.text = output.toString("utf-8");
 	});
-	spinner.stop();
+	s.stop();
 }
 
-module.exports = {
+export default {
 	main,
 	meta: {
 		command: "parse-indices",

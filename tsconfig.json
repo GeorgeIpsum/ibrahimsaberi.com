@@ -24,14 +24,10 @@
 	},
 	"include": [
 		"next-env.d.ts",
-		"types.d.ts",
-		"**/*.ts",
-		"**/*.tsx",
-		"**/*.mdx",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"src/**/*.mdx",
 		".next/types/**/*.ts",
-		"./src/app/global.js",
-		"./prisma/seed.ts",
-		"./.scripts/**/*.js",
 		".next/dev/types/**/*.ts"
 	],
 	"exclude": ["node_modules"],
