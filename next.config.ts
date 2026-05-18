@@ -47,7 +47,6 @@ const plugins = [
 		options: {
 			remarkPlugins: [
 				"remark-frontmatter",
-				"remark-mdx-frontmatter",
 				"remark-gfm",
 				"remark-smartypants",
 			],
@@ -55,7 +54,10 @@ const plugins = [
 				"rehype-slug",
 				[
 					"@shikijs/rehype",
-					{ themes: { light: "github-light", dark: "github-dark" } },
+					{
+						themes: { light: "github-light", dark: "github-dark" },
+						defaultColor: false,
+					},
 				],
 			],
 		},

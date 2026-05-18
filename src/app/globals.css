@@ -215,6 +215,31 @@
   animation: audio-bar 0.9s ease-in-out infinite;
 }
 
+/* Shiki dual-theme: activate the right variables per data-theme.
+   Specificity matches `.prose pre` (0,1,1); as long as this rule comes
+   after the typography plugin import, it wins. */
+pre.shiki,
+pre.shiki span {
+  color: var(--shiki-light);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+  text-decoration: var(--shiki-light-text-decoration);
+}
+pre.shiki {
+  background-color: var(--shiki-light-bg);
+}
+
+[data-theme="dark"] pre.shiki,
+[data-theme="dark"] pre.shiki span {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style);
+  font-weight: var(--shiki-dark-font-weight);
+  text-decoration: var(--shiki-dark-text-decoration);
+}
+[data-theme="dark"] pre.shiki {
+  background-color: var(--shiki-dark-bg);
+}
+
 html {
   @apply bg-background text-foreground font-sans font-medium antialiased;
 }
