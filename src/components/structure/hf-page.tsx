@@ -20,7 +20,7 @@ export const HFPage: React.FC<React.PropsWithChildren<HFPageProps>> = ({
   );
 
   return (
-    <div className="mx-auto flex h-full w-full flex-col px-2 sm:px-6 lg:max-w-4xl">
+    <div className="mx-auto flex h-full w-full flex-col px-2 sm:px-6 lg:max-w-2xl">
       <Header />
       {renderContent()}
       <Footer />

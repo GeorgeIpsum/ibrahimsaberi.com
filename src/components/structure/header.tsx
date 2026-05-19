@@ -18,7 +18,7 @@ export const Header: React.FC = async () => {
   return (
     <header className="sticky top-2 z-100 h-12 w-full">
       <RefreshTicker intervalMs={15000} />
-      <div className="flex w-full items-center rounded-xl border-accent border-b bg-white/20 p-2 backdrop-blur dark:bg-black/20">
+      <div className="flex w-full items-center rounded-xl border-accent/25 border-b-2 bg-white/40 p-2 backdrop-blur dark:bg-black/40">
         <div className="flex items-center gap-2">
           <Link rel="home" href="/">
             <Image
@@ -66,7 +66,7 @@ export const Header: React.FC = async () => {
           </nav>
           <div
             className={cn(
-              "rounded-full border p-1 transition-colors duration-1000 ease-out",
+              "isolate rounded-full border bg-background/80 p-1 transition-colors duration-1000 ease-out",
               {
                 "border-accent text-muted-foreground": !nowPlaying,
                 "border-primary/90 text-primary/90": nowPlaying,
@@ -77,7 +77,11 @@ export const Header: React.FC = async () => {
               <PreviewCardTrigger delay={300}>
                 <AudioWaveform size={16} playing={!!nowPlaying} />
               </PreviewCardTrigger>
-              <PreviewCardPopup className="w-80" align="end" sideOffset={12}>
+              <PreviewCardPopup
+                className="w-80 bg-background/75 backdrop-blur"
+                align="end"
+                sideOffset={12}
+              >
                 <Listening />
               </PreviewCardPopup>
             </PreviewCard>

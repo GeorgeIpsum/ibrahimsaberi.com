@@ -252,3 +252,15 @@ h5,
 h6 {
   @apply font-heading;
 }
+
+code::before {
+  content: "";
+}
+
+code::after {
+  content: "";
+}
+
+code:not(:has(span.line)) {
+  @apply text-sm font-mono bg-card text-card-foreground rounded px-1.5 py-0.5 mx-1;
+}

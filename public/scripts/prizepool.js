@@ -35,6 +35,7 @@ const getPrizePool = (
   };
 
   xhr.open("GET", url);
+  xhr.setRequestHeader("x-requested-with", "XMLHttpRequest");
   xhr.send();
 };
 

@@ -24,8 +24,10 @@ If you follow TI at all, you'll likely know about the [prizepool tracker](http:/
 [^http]: In writing this blog post I learned that this website is served over HTTP. For shame.
 
 ![dota 2 prizetracker](/img/2019-06-24-scraping-ti9/prizepool2.png)
-_EDIT: 2026[^lost_image]_
-> The hourly prize pool tracking comparison graph. Seems like there's data for every half hour of every day up until each year's respective TI.
+
+<blockquote>The hourly prize pool tracking comparison graph. Seems like there's data for every half hour of every day up until each year's respective TI.</blockquote>
+
+<blockquote>_EDIT: 2026[^lost_image]_</blockquote>
 
 [^lost_image]: I lost the original image I had for this, and the prizetracker website is now permadead, AND this post is not available at all on Wayback. So I'm not going to find it. Believeth me: there was a graph here once.
 
@@ -37,7 +39,8 @@ I actually got curious to see what would happen if I tried to access this page o
 And since dota2 is a subdomain, I wondered what would happen if I went to the regular prizetrac.kr domain.
 
 ![uh oh......](/img/2019-06-24-scraping-ti9/ssl.png)
-_EDIT: 2026[^lost_image_2]_
+
+<blockquote>_EDIT: 2026[^lost_image_2]_</blockquote>
 
 [^lost_image_2]: Seriously WHERE did these images go.
 
@@ -176,8 +179,12 @@ The current prizepool for The International 2019 is:
 
 _*If you're interested, you can see the full script in the source of this page!*_
 
-_EDIT MAY 29, 2020: The TI10 Battlepass is here! This means that this code no longer works, but I can certainly recreate it for future battlepasses. I can. I probably won't. Just trust me, this used to work._
+<PostEdit date="May 29, 2020">
+The TI10 Battlepass is here! This means that this code no longer works, but I can certainly recreate it for future battlepasses. I can. I probably won't. Just trust me, this used to work.
+</PostEdit>
 
-_EDIT MAY 18, 2026: This script definitely does NOT work. Also you absolutely can NOT see the script in the source of the page, my mdx parser gets really mad if I try to inline it (it is now at [`/scripts/prizepool.js`](/scripts/prizepool.js)). Also 2 of the images that used to be here have been completely lost to the ether. Who said that everything is preserved on the internet?_
+<PostEdit date="May 18, 2026">
+This script definitely does NOT work. `cors-anywhere` now requires manually enabling the proxy once from your IP, and it also requires some additional headers on requests (Things That I Won't Make Work). Also you absolutely can NOT see the script in the source of the page anymore, my mdx parser gets really mad if I try to inline it. It is now located at [`/scripts/prizepool.js`](/scripts/prizepool.js). Also 2 of the images that used to be here have been completely lost to the ether. Who said that everything is preserved on the internet?
+</PostEdit>
 
 <Script defer src="/scripts/prizepool.js"  />

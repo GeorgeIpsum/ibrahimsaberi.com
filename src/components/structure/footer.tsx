@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
       <Separator orientation="horizontal" />
       <div className="flex w-full items-center gap-4 px-2 py-4 text-muted-foreground text-sm transition-colors md:px-0">
         <div className="flex flex-1 items-center gap-4">
-          <ThemeButton side="top" align="end" className="-ml-0.5" />
+          <ThemeButton side="top" align="start" />
           <Link href="/about" className="hover:text-primary">
             about
           </Link>

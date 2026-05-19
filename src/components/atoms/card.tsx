@@ -211,7 +211,7 @@ export function CardAction({
   });
 }
 
-export function CardPanel({
+function CardPanel({
   className,
   render,
   ...props
