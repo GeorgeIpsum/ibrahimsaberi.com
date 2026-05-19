@@ -16,7 +16,7 @@ export const Header: React.FC = async () => {
   const nowPlaying = (await getNowPlayingSSR())?.isPlaying;
 
   return (
-    <header className="sticky top-2 h-12 w-full">
+    <header className="sticky top-2 z-100 h-12 w-full">
       <RefreshTicker intervalMs={15000} />
       <div className="flex w-full items-center rounded-xl border-accent border-b bg-white/20 p-2 backdrop-blur dark:bg-black/20">
         <div className="flex items-center gap-2">

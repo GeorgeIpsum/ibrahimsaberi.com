@@ -21,6 +21,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BasinPostPage({ params }: Props) {
   const { slug } = await params;
-  const { Content } = await loadPost(slug);
-  return <Content />;
+  const { Content, frontmatter } = await loadPost(slug);
+  return (
+    <>
+      {frontmatter.tags?.includes("migrated") && (
+        <blockquote>
+          This post was migrated from my original Jekyll site with little to no
+          modification. Weird formatting (and general prose cringe) is to be
+          expected. Sorry.
+        </blockquote>
+      )}
+      <Content />
+    </>
+  );
 }

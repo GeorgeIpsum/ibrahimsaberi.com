@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { InlineMarkdown } from "@/components/inline-markdown";
 import { loadPost } from "@/services/basin/load-post";
 
 type Props = {
@@ -42,7 +43,7 @@ export default async function BasinPostLayout({ children, params }: Props) {
         </div>
         {frontmatter.blurb ? (
           <p className="mt-4 text-lg text-muted-foreground italic">
-            {frontmatter.blurb}
+            <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
           </p>
         ) : null}
       </header>

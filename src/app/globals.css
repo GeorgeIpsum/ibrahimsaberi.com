@@ -241,7 +241,7 @@ pre.shiki {
 }
 
 html {
-  @apply bg-background text-foreground font-sans font-medium antialiased;
+  @apply bg-background text-foreground font-sans font-medium antialiased scroll-p-24;
 }
 
 h1,

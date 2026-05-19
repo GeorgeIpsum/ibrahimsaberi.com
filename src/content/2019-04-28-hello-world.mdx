@@ -1,0 +1,160 @@
+---
+title: A Breath Of Fresh Air
+author: Ibrahim Saberi
+publishedAt: 2019-04-28
+blurb: "Hello, world; hell, world."
+tags:
+  - code
+  - frameworks
+  - esm
+  - go
+  - rust
+  - migrated
+---
+
+## Hello, world
+
+I'm learning Go right now! It's easy enough, but more importantly, it's *fun*. Like, really really fun (well, kind of). We're in the process of retiring the Yii2 REST API that powers Viewify (more on this in another blog post), and the ease of just picking up and writing in Go really piqued my interest.
+
+Let's ignore all of the Go dissidents for a hot sec.[^1] Nobody can deny how refreshing and simple it is to pick up a new language and be able to just, well, *code*.
+
+[^1]: Yes, there are so many of you. Yes, I know what a generic is. Yes, this joke is super stale.
+
+Assuming you're on macOS, you can simply `brew install go` (and then do some $PATH setting which I don't remember exactly) and you can jump right in.
+
+To create the proverbial "Hello, world" program, you just:
+```go
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello, world")
+}
+```
+
+and then you run that and get:
+
+```console
+g1n@home: ~$ go run hello-world.go
+Hello, world
+```
+
+Wow. Okay, well, duh.
+
+### But wait!
+
+Not duh! 
+
+The current Viewify tech stack uses an Angular 5 app for its frontend and a Yii2 app[^2] as a REST API and backend. Yeah, I'm a web developer that has fallen face first into **framework hell**. *It just works* are not words that I physically comprehend.
+
+[^2]: If you're unfamiliar with the Yii2 framework: think Laravel, but uglier.
+
+So what are the *Hello, world* equivalents for different frameworks? If you're reading the **Getting Started** guide for Angular 7{/*{% sidenote 'sn-id-two' "As of June 2019 the Getting Started guide for Angular 8 doesn't even do this. You now just jump right into a StackBlitz demo. Lol." %}*/}, the steps are:
+
+1. Global install the Angular CLI:<br/>`npm install -g @angular/cli`
+2. Generate a new angular project:<br/>`ng new some-app-name`
+3. Go to the project directory and launch the server:<br/>`cd my-app && ng serve --open`
+
+That's it. Simple, right? Except, wait, you didn't actually write any code!
+
+Most frameworks will generate boilerplate for you, because nobody wants to mess around for however long to create basic project structure or to `npm install` things ad nauseum. Also, most of the commandline tools and generators are pretty robust and allow you to customize and economize the generation process (how fast can you type `ng g c`)! I'd say the quality-of-life here (or at least for Angular) is pretty decent.
+
+For those of us who have been using these frameworks for a while, it's also pretty easy to crack a new one open, learn the directory structure, and sift through the documentation and the boilerplate to figure out what the hell is going on.
+
+But, if you're new.
+
+Well.
+
+Remember when you wrote your first *Hello, world* program in Java and you were like, "what the hell does `public` or `static` or `void` or `main` or `String` or `args[]` mean? Why do I need to do any of that?"
+
+Take that feeling. And then multiply it by the number of files you have in a default Angular project folder[^3]. That's framework hell for the freshly minted web developer.
+
+[^3]: This is about 100 usually if you know not to count `node_modules`.
+
+## Hello, hell
+
+Obviously the comparison of *Hello, world* between a language and a framework is unfair, even at face value. The actual equivalent of this on the web (in js) would be something as simple as:
+
+```javascript
+alert("Hello, world")
+```
+
+That's it. You open `index.html` and you've recreated the bleeding edge of ad tech.
+
+Frameworks create a certain cognitive load that makes *moving forward and just doing things* particularly hard, especially if you're just starting out. It feels like anything you touch will just break. 
+
+I was a wee lad when I first used AngularJS for [a really basic school project](https://github.com/GeorgeIpsum/coffeeViewer). I had just learned what nodeJS was the previous week, I had no idea what "MVC" meant, and worst of all I had developed the habit of never ever **ever** reading documentation past the getting started phase. I poked around in `node_modules` for what felt like weeks thinking "I definitely need to know all of this."
+
+### Ok... So you didn't read the documentation
+
+Right now it feels like when CS students are dropped into new environments they're primed to *just start doing things*: you muck around, you break stuff, you learn how and why you broke that thing, rinse and repeat. You can't really just dive into a framework with the same mindset. 
+
+If you're given all of the scaffolding and wiring of a house[^4], and you're told to complete the rest of it, you're probably going to spend some time learning how all of that shit works before actually doing anything.
+
+[^4]: Is it clear enough that I have no actual idea what goes into making a home.
+
+You can't properly evaluate or run a framework's application with a *Hello, world* example. The *Hello, world* adage just doesn't work here. Maybe hell is a better substitute?
+
+So how would you even create a *Hello, hell* type intro for people who are really new to this whole programming schtick?[^5] Are there ways to better compartmentalize each of the components of a framework and teach them individually? Is it even worth the extra work? Consider what all you'd (probably) have to break up within Angular:
+
+[^5]: **READ**: I don't know.
+
+1. Bootstrapping
+2. Templating/ Template Syntax
+3. Modules
+4. Components
+5. Services
+6. Routing
+7. RxJS
+8. Native Angular Modules (HttpClient, Forms, etc)
+9. Change Detection
+10. Angular Material Components
+11. Animations
+12. Compilation Strategies
+13. Wait this list is getting really long
+
+If you scroll down the guide on [angular.io](https://angular.io) almost all of these are covered (Angular Material isn't but it's not technically a part of Angular so that makes sense), but uh, it's definitely a lot to take in. You certainly don't need to have complete (or even partial) knowledge on all of these topics to really get started and building in Angular, and if you're an idiot like me you can even jump in and **just start using jQuery for everything**:
+  
+{/* {% maincolumn 'assets/img/2019-04-28-hello-world/AAAAAAAAAA.png' 'Hey, look. Sometimes all that matters is that it just works.' 'some jquery in ngoninit because im a heathen' %} */}
+![some jquery in ngoninit because im a heathen](/img/2019-04-28-hello-world/AAAAAAAAAA.png)
+> Hey, look. Sometimes all that matters is that it just works.
+
+And this doesn't even include all of the prerequisite HTML, CSS, and JS that you really should know before bothering with any actual framework specific stuff.
+
+### But, Angular is pretty easy. Really.
+
+Oh, I agree. Once you know even some of the ins and outs of Angular (or just know barely enough to know what to ACTUALLY google), it's a cinch to keep learning and iterating. Even the more complex-ish stuff[^6] just kind of clicks with some experience. All in all, you can get used to the heat of hell.
+
+[^6]: Cue flashbacks to me poking different change detection schemes with a very long stick.
+
+But, compare this to something like Go, where it sure is easy to pick, but the more complex your app gets, the more problems you're bound to run into. Lack of generics isn't *really* a problem, but it *is* a humongous pain in the ass when you're working with a lot of analogous data types. 
+
+And if you need to handle errors in a way that doesn't make you want to pull your hair out? Cool! Let me know if you find a way[^7] Want to overload an operator for some data type? What? What are data types? What's immutability? 
+
+[^7]: No, seriously. Let me know.
+
+Oh you accidentally shadowed a variable? What are you, a baby?
+
+So I couldn't really say hello to the hellish landscape of Angular, but I found my place there anyway. When I tried to embrace the world of Go, I've found that it has very different plans for me.
+
+So I'm not sure if the steep learning curve that most frameworks present is so bad. And now that the honeymoon phase is over with Go, I kinda want to curl up in a ball and type some `ng g c`s again.
+
+### ...so what was the point again?
+
+There IS a kind of nostalgia that comes from writing very short programs or scripts that just compile and run. Diving headfirst into the monthly web framework du jour is certainly exciting, but it also has become tiring. And so being able to immerse myself in something new with little to no effort feels like a luxury, even if in the end I end up thinking "oh my god, what the hell am I doing."
+
+So yeah. That kind breath of fresh air does feel really nice. Even if it's fleeting.
+
+So I'm probably gonna pick up Rust next. I mean, look at how short the *Hello, world* example is!
+
+```rust
+fn main() {
+  println!("Hello, world");
+}
+```
+
+> *EDIT June 22, 2019*: Angular 8 is out, so I checked out the documentation again to see what's new, but also to see how they've changed the getting started guide. I'm not sure when they added these, but they now have these really cute (but INCREDIBLY tacky) illustrations to better demonstrate some of the moving parts. I mean. Look at this:
+> 
+> ![Oh dear](/img/2019-04-28-hello-world/component-databinding.png)
+> ![Oh dear](/img/2019-04-28-hello-world/parent-child-binding.png)
+> 
+> Absolutely incredible.
