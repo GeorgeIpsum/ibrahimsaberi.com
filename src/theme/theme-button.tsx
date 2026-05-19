@@ -1,6 +1,6 @@
 "use client";
 
-import { MonitorSmartphone, MoonStar, Sun, SunMoon } from "lucide-react";
+import { /* MonitorSmartphone, */ MoonStar, Sun, SunMoon } from "lucide-react";
 import { useRef } from "react";
 import { Button } from "@/components/atoms/button";
 import {
@@ -84,7 +84,7 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
               </TooltipTrigger>
               <TooltipPopup side="left">Dark Theme</TooltipPopup>
             </Tooltip>
-            <Tooltip>
+            {/* <Tooltip>
               <TooltipTrigger
                 render={
                   <ToggleGroupItem
@@ -97,7 +97,7 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
                 <MonitorSmartphone />
               </TooltipTrigger>
               <TooltipPopup side="left">System Theme</TooltipPopup>
-            </Tooltip>
+            </Tooltip> */}
           </ToggleGroup>
         </TooltipProvider>
       </PopoverContent>

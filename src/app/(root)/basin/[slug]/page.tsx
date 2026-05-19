@@ -28,7 +28,9 @@ export default async function BasinPostPage({ params }: Props) {
         <blockquote>
           This post was migrated from my original Jekyll site with little to no
           modification. Weird formatting (and general prose cringe) is to be
-          expected. Sorry.
+          expected.
+          <br />
+          <s>Sorry.</s>
         </blockquote>
       )}
       <Content />

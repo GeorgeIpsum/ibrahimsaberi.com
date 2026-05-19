@@ -61,10 +61,7 @@ const components: MDXComponents = {
       <sup
         {...props}
         id={id}
-        className={cn(
-          "relative top-[-0.4em] size-lg font-mono text-foreground-high-contrast",
-          props.className,
-        )}
+        className={cn("relative top-[-0.4em]", props.className)}
       >
         <PreviewCard>
           <PreviewCardTrigger render={<a {...restAnchorProps} />} />

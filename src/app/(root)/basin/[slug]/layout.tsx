@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/inline-markdown";
 import { loadPost } from "@/services/basin/load-post";
 
@@ -30,12 +31,14 @@ export default async function BasinPostLayout({ children, params }: Props) {
             <ul className="flex gap-1.5">
               {frontmatter.tags.map((tag) => (
                 <li key={tag}>
-                  <Link
-                    href={`/basin/tags/${encodeURIComponent(tag)}`}
-                    className="rounded bg-muted px-1.5 py-0.5 text-xs transition-colors hover:bg-accent"
+                  <Badge
+                    // variant="outline"
+                    render={
+                      <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
+                    }
                   >
                     {tag}
-                  </Link>
+                  </Badge>
                 </li>
               ))}
             </ul>
