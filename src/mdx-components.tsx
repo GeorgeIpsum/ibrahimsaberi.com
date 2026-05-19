@@ -1,5 +1,6 @@
 import type { MDXComponents } from "mdx/types";
 import Link from "next/link";
+import Script from "next/script";
 import {
   Card,
   CardContent,
@@ -41,6 +42,7 @@ const components: MDXComponents = {
       <CardContent className="font-heading">{children}</CardContent>
     </Card>
   ),
+  Script,
 };
 
 export function useMDXComponents(): MDXComponents {
