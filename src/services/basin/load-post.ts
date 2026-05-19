@@ -26,15 +26,6 @@ type FileEntry = {
   dateStr: string; // "2026-05-18"
 };
 
-function isUtcMidnight(d: Date): boolean {
-  return (
-    d.getUTCHours() === 0 &&
-    d.getUTCMinutes() === 0 &&
-    d.getUTCSeconds() === 0 &&
-    d.getUTCMilliseconds() === 0
-  );
-}
-
 function dateFromStr(s: string): TZDate {
   const [y, m, d] = s.split("-").map(Number);
   return new TZDate(y, m - 1, d, AUTHOR_TIMEZONE);

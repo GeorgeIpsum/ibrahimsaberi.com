@@ -94,8 +94,15 @@
 
 :root {
   --radius: 0.625rem;
+  /* fun easter-egg for when someone figures out they can just delete data-theme */
 
-  /* base — Option B (Violet → Moss), light side */
+  @apply transition-colors duration-200 ease-out;
+}
+
+[data-theme="light"],
+[data-theme="system-light"],
+[data-theme="light"] *,
+[data-theme="system-light"] * {
   --primary: oklch(28% 0.06 315);
   --background: oklch(98% 0.014 320);
 
@@ -136,7 +143,6 @@
   --sidebar-border: color-mix(in oklch, var(--primary) 10%, transparent);
   --sidebar-ring: color-mix(in oklch, var(--primary) 45%, var(--background));
 
-  /* semantics — floral-leaning palette in OKLCH */
   --destructive: oklch(58% 0.2 18);
   --destructive-foreground: oklch(96% 0.02 18);
   --warning: oklch(74% 0.14 65);
@@ -145,13 +151,12 @@
   --success-foreground: oklch(96% 0.02 150);
   --info: oklch(58% 0.1 290);
   --info-foreground: oklch(96% 0.02 290);
-
-  @apply transition-colors duration-200 ease-out;
 }
 
 [data-theme="dark"],
-[data-theme="dark"] * {
-  /* base — Option B, dark side */
+[data-theme="system-dark"],
+[data-theme="dark"] *,
+[data-theme="system-dark"] * {
   --primary: oklch(92% 0.035 135);
   --background: oklch(14% 0.02 130);
 
