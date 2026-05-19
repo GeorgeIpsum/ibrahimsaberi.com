@@ -1,5 +1,5 @@
 import { UnderConstruction } from "@/components/navigation/under-construction";
 
 export default function Page() {
-  return <UnderConstruction title="Home" />;
+  return <UnderConstruction title="FM" />;
 }

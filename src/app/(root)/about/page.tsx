@@ -1,3 +1,5 @@
+import { UnderConstruction } from "@/components/navigation/under-construction";
+
 export default function Page() {
-  return <div>asdf</div>;
+  return <UnderConstruction title="About" />;
 }
