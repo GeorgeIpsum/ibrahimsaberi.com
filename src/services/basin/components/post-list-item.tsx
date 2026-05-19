@@ -15,7 +15,7 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
         className="group block rounded-lg p-3 transition-colors hover:bg-accent/40"
       >
         <div className="flex items-baseline justify-between gap-3">
-          <h2 className="font-heading text-primary/90 text-xl transition-colors group-hover:text-primary">
+          <h2 className="font-heading text-foreground text-xl transition-colors group-hover:text-foreground-high-contrast">
             {post.frontmatter.title}
           </h2>
           <time
