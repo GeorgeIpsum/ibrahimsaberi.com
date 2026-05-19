@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PaginationControls } from "@/services/basin/components/pagination-controls";
 import { PostListItem } from "@/services/basin/components/post-list-item";
-import { listPosts } from "@/services/basin/load-post";
+import { countPosts, listPosts, listTags } from "@/services/basin/load-post";
+import { makePageInfo, POSTS_PER_PAGE } from "@/services/basin/pagination";
 
 type Props = {
   params: Promise<{ tag: string }>;
 };
 
 // Only generate routes for tags that actually appear in at least one post.
-// Stale URLs (tag that no longer exists) will render the empty state.
 export async function generateStaticParams() {
-  const posts = await listPosts();
-  const tags = new Set<string>();
-  for (const p of posts) {
-    for (const t of p.frontmatter.tags ?? []) tags.add(t);
-  }
-  return Array.from(tags).map((tag) => ({ tag }));
+  const tags = await listTags();
+  return tags.map((tag) => ({ tag }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -31,8 +28,11 @@ export default async function TaggedBasinIndex({ params }: Props) {
   const { tag: rawTag } = await params;
   const tag = decodeURIComponent(rawTag);
 
-  const allPosts = await listPosts();
-  const posts = allPosts.filter((p) => p.frontmatter.tags?.includes(tag));
+  const [posts, total] = await Promise.all([
+    listPosts({ tag, take: POSTS_PER_PAGE }),
+    countPosts({ tag }),
+  ]);
+  const page = makePageInfo(1, total);
 
   return (
     <div className="mx-auto w-full sm:max-w-2xl">
@@ -58,11 +58,17 @@ export default async function TaggedBasinIndex({ params }: Props) {
           No posts tagged “{tag}” yet.
         </p>
       ) : (
-        <section className="space-y-2">
-          {posts.map((post) => (
-            <PostListItem key={post.slug} post={post} />
-          ))}
-        </section>
+        <>
+          <section className="space-y-2">
+            {posts.map((post) => (
+              <PostListItem key={post.slug} post={post} />
+            ))}
+          </section>
+          <PaginationControls
+            page={page}
+            basePath={`/basin/tags/${encodeURIComponent(tag)}`}
+          />
+        </>
       )}
     </div>
   );

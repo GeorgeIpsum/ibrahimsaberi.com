@@ -35,6 +35,26 @@ const config: NextConfig = {
         destination: "/feed.xml",
         permanent: true,
       },
+      {
+        source: "/basin/page",
+        destination: "/basin",
+        permanent: false,
+      },
+      {
+        source: "/basin/page/1",
+        destination: "/basin",
+        permanent: false,
+      },
+      {
+        source: "/basin/tags/:tag/page",
+        destination: "/basin/tags/:tag",
+        permanent: false,
+      },
+      {
+        source: "/basin/tags/:tag/page/1",
+        destination: "/basin/tags/:tag",
+        permanent: false,
+      },
     ];
   },
   images: {
