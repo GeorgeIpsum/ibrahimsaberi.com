@@ -114,6 +114,8 @@ const plugins = [
           },
         ],
         "rehype-katex",
+        "rehype-code-group",
+        "rehype-attr",
       ],
       remarkRehypeOptions: {
         clobberPrefix: "",

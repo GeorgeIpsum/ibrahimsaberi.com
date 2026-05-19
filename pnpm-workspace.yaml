@@ -1,8 +1,11 @@
+packages:
+  - packages/*
+
 onlyBuiltDependencies:
   - esbuild
   - msw
   - node-jq
   - sharp
 
-packages:
-  - "packages/*"
+patchedDependencies:
+  rehype-code-group: patches/rehype-code-group.patch

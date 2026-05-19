@@ -167,9 +167,9 @@
     border-left-width: 2px;
     cursor: help;
 
-    transition: --alert-current 600ms ease-out;
+    transition: --callout-current 300ms ease-out;
 
-    @property --alert-current {
+    @property --callout-current {
       syntax: "<color>";
       inherits: true;
       initial-value: transparent;
@@ -235,13 +235,13 @@
   --sidebar-ring: color-mix(in oklch, var(--primary) 45%, var(--background));
 
   --destructive: oklch(58% 0.2 18);
-  --destructive-foreground: oklch(96% 0.02 18);
+  --destructive-foreground: oklch(36% 0.22 18);
   --warning: oklch(74% 0.14 65);
   --warning-foreground: oklch(22% 0.06 65);
-  --success: oklch(60% 0.12 150);
-  --success-foreground: oklch(96% 0.02 150);
-  --info: oklch(58% 0.1 290);
-  --info-foreground: oklch(96% 0.02 290);
+  --success: oklch(80% 0.22 150);
+  --success-foreground: oklch(46% 0.12 150);
+  --info: oklch(88% 0.24 290);
+  --info-foreground: oklch(36% 0.12 290);
 }
 
 [data-theme="dark"],
@@ -287,14 +287,14 @@
   --sidebar-border: color-mix(in oklch, var(--primary) 8%, transparent);
   --sidebar-ring: color-mix(in oklch, var(--primary) 35%, var(--background));
 
-  --destructive: oklch(70% 0.18 18);
-  --destructive-foreground: oklch(22% 0.06 18);
-  --warning: oklch(82% 0.13 65);
-  --warning-foreground: oklch(22% 0.06 65);
-  --success: oklch(78% 0.1 150);
-  --success-foreground: oklch(22% 0.05 150);
-  --info: oklch(74% 0.08 290);
-  --info-foreground: oklch(22% 0.04 290);
+  --destructive: oklch(54% 0.18 18);
+  --destructive-foreground: oklch(82% 0.06 18);
+  --warning: oklch(64% 0.13 65);
+  --warning-foreground: oklch(86% 0.06 65);
+  --success: oklch(78% 0.15 150);
+  --success-foreground: oklch(92% 0.05 150);
+  --info: oklch(54% 0.08 290);
+  --info-foreground: oklch(92% 0.04 290);
 }
 
 @keyframes audio-bar {
