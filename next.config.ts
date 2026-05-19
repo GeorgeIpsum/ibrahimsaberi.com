@@ -70,7 +70,13 @@ const plugins = [
   createMDX({
     extension: /\.(md|mdx)$/,
     options: {
-      remarkPlugins: ["remark-frontmatter", "remark-gfm", "remark-smartypants"],
+      remarkPlugins: [
+        "remark-frontmatter",
+        "remark-gfm",
+        "remark-smartypants",
+        "remark-math",
+        "remark-mdx-frontmatter",
+      ],
       rehypePlugins: [
         "rehype-slug",
         [
@@ -80,6 +86,7 @@ const plugins = [
             defaultColor: false,
           },
         ],
+        "rehype-katex",
       ],
       remarkRehypeOptions: {
         clobberPrefix: "",

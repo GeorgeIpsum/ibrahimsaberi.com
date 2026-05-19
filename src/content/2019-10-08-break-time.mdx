@@ -1,0 +1,41 @@
+---
+title: Break Time
+author: Ibrahim Saberi
+publishedAt: 2019-10-08
+blurb: "Nothing IS something"
+tags:
+  - projects
+  - esm
+  - node
+  - react
+  - mobx
+  - ramblings
+---
+
+## Doing Nothing Is Something
+
+Here's the thing about taking a breather. I hate taking breathers. I get restless about doing nothing but breathing. It sucks.
+
+Another thing. Keeping yourself occupied when you're supposed to be "not doing anything" because you are "incredibly burnt out" also sucks. There's only so many matches of Dota 2 you can play before you start thinking "what if instead of playing this game... I try to make this game?"
+
+Of course, I'm a talentless hack, so instead I build side projects using Node.
+
+### Fruition
+
+You can only spend so much time figuring out all of the things you want to build before you also start figuring out ways to build stuff that'll help you keep track of all of the things you want to build. I encountered [Getting Things Done](https://hamberg.no/gtd/) as a mental model[^bad]for approaching task lists. The entire point is to provide better infrastructure around your typical to-do list, all with plumbing and heating and even some cement mix-ins. It's the whole package.
+
+[^bad]: If you read this and thought "wow he totally missed the point" that means you're smarter than me, which, guess what? Means nothing.
+
+GTD demands a lot of organization. Erlend's post on GTD figures that you're going to be using your filesystem to keep track of everything instead of any one kind of software program. 
+
+I started building Fruition as a way to 1) understand "functional" React better (hooks are still new... right?) and 2) become more familiar with `mobx` and `mobx-state-tree`, the state-tracking libraries we used in the Viewify React Native MVP. I'm a huge fan of mobx, primarily because managing state is hard and even though reducers are now a first class concept in React they still make my head hurt.
+
+I also built Fruition to become more experienced with formalized CI processes, and also to just force myself to write something that required unit tests (something I desperately wanted to do but could not accomplish while at Viewify). I used jest for all of my unit testing and Travis CI to run and test builds.
+
+I don't think I'll ever finish this little webapp/ electron thing, but you can see a running version of it on [my Github profile](https://georgeipsum.github.io/fruition). It actually saves everything to local storage so you can IN THEORY use it as a very basic todo list. You can also grep the other hundred million beginner todo apps that exist on Github. Your choice.
+
+### NewT
+
+Momentum has started to bug me about their premium product offering. As a disclaimer, I think it's totally fair for the team behind Momentum to have a premium product and I also really enjoy it, but also I'm not paying for my new tab page. I started working on NewT because I thought it would be cool if a new tab page had interactable long-form content. The idea was to take an HTML canvas and "grow" a tree over time on the new tab page. I wanted the tree growth to be organic, and so I fell down a rabbit hole learning about L-systems and how trees[^wood] work and a whole bunch of other hullabaloo.
+
+[^wood]: Like the ones made from wood
