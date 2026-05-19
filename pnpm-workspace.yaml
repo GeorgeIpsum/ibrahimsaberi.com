@@ -3,3 +3,6 @@ onlyBuiltDependencies:
   - msw
   - node-jq
   - sharp
+
+packages:
+  - "packages/*"

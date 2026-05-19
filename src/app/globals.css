@@ -96,15 +96,102 @@
 
 :root {
   --radius: 0.625rem;
-  /* fun easter-egg for when someone figures out they can just delete data-theme */
+  /* fun easter-egg for when someone figures out they can just delete data-theme on the html element, we tufte again */
+
+  --primary: #0f0f00;
+  --background: #fffff6;
+  --foreground-high-contrast: #000;
+  --background-high-contrast: #fff;
+
+  --foreground: var(--primary);
+  --card: color-mix(in oklch, var(--background) 97%, var(--primary));
+  --card-foreground: var(--primary);
+  --popover: color-mix(in oklch, var(--background) 94%, var(--primary));
+  --popover-foreground: var(--primary);
+
+  --primary-foreground: var(--background);
+
+  --secondary: color-mix(in oklch, var(--background) 90%, var(--primary));
+  --secondary-foreground: var(--primary);
+  --muted: color-mix(in oklch, var(--background) 92%, var(--primary));
+  --muted-foreground: color-mix(
+    in oklch,
+    var(--primary) 95%,
+    var(--background)
+  );
+  --accent: color-mix(in oklch, var(--background) 88%, var(--primary));
+  --accent-foreground: var(--primary);
+
+  --border: color-mix(in oklch, var(--primary) 12%, transparent);
+  --input: color-mix(in oklch, var(--primary) 18%, transparent);
+  --ring: color-mix(in oklch, var(--primary) 45%, var(--background));
+
+  --sidebar: color-mix(in oklch, var(--background) 94%, var(--primary));
+  --sidebar-foreground: color-mix(
+    in oklch,
+    var(--primary) 78%,
+    var(--background)
+  );
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--background);
+  --sidebar-accent: color-mix(in oklch, var(--background) 86%, var(--primary));
+  --sidebar-accent-foreground: var(--primary);
+  --sidebar-border: color-mix(in oklch, var(--primary) 10%, transparent);
+  --sidebar-ring: color-mix(in oklch, var(--primary) 45%, var(--background));
+
+  --destructive: #ff0000;
+  --destructive-foreground: #fff8f8;
+  --warning: #ffff00;
+  --warning-foreground: #333300;
+  --success: #00ff00;
+  --success-foreground: #003300;
+  --info: #0000ff;
+  --info-foreground: #f8f8ff;
+
+  .asdf {
+    background-color: var(--color-accent);
+  }
+
+  .markdown-callout {
+    --callout-background-color: var(--card);
+    --callout-color: color-mix(in oklab, var(--primary) 80%, transparent);
+    --callout-color-hover: var(--primary);
+    --callout-current: var(--callout-color);
+
+    background-color: var(--callout-background-color);
+    padding-inline: calc(var(--spacing) * 4);
+    padding-block: calc(var(--spacing) * 0.5);
+    border-radius: var(--radius-md);
+    border-color: var(--callout-current);
+    border-left-style: var(--tw-border-style, solid);
+    border-left-width: 2px;
+    cursor: help;
+
+    transition: --alert-current 600ms ease-out;
+
+    @property --alert-current {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: transparent;
+    }
+  }
+
+  .markdown-callout:hover {
+    --callout-current: var(--callout-color-hover);
+  }
+
+  .markdown-callout .markdown-callout-title {
+    font-weight: 700;
+    color: var(--callout-current);
+    margin-top: calc(var(--spacing) * 2);
+    margin-bottom: calc(var(--spacing) * 4);
+  }
 
   @apply transition-colors duration-200 ease-out;
 }
 
 [data-theme="light"],
-[data-theme="system-light"],
-[data-theme="light"] *,
-[data-theme="system-light"] * {
+[data-theme="system-light"] {
   --primary: oklch(28% 0.06 315);
   --background: oklch(98% 0.014 320);
   --foreground-high-contrast: #000;
@@ -158,9 +245,7 @@
 }
 
 [data-theme="dark"],
-[data-theme="system-dark"],
-[data-theme="dark"] *,
-[data-theme="system-dark"] * {
+[data-theme="system-dark"] {
   --primary: oklch(92% 0.035 135);
   --background: oklch(14% 0.02 130);
   --foreground-high-contrast: #fff;
@@ -227,9 +312,25 @@
   animation: audio-bar 0.9s ease-in-out infinite;
 }
 
-/* Shiki dual-theme: activate the right variables per data-theme.
-   Specificity matches `.prose pre` (0,1,1); as long as this rule comes
-   after the typography plugin import, it wins. */
+/**
+ * Theme prose colors via Tailwind Typography's CSS variables
+ */
+.prose {
+  --tw-prose-headings: var(--foreground-high-contrast);
+  --tw-prose-body: var(--primary);
+  --tw-prose-bold: var(--primary);
+  --tw-prose-quotes: var(--primary);
+  --tw-prose-quote-borders: var(--border);
+  --tw-prose-links: var(--primary);
+  --tw-prose-counters: var(--primary);
+  --tw-prose-bullets: var(--primary);
+  --tw-prose-hr: var(--border);
+  --tw-prose-captions: var(--muted-foreground);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+}
+
+/* Shiki dual-theme */
 pre.shiki,
 pre.shiki span {
   color: var(--shiki-light);
@@ -252,25 +353,35 @@ pre.shiki {
   background-color: var(--shiki-dark-bg);
 }
 
-/* Prevent wide tables in migrated posts from pushing the article past its
-   container and triggering page-level horizontal scroll. `display:block` on
-   <table> is the cross-browser trick that makes the element itself scrollable
-   instead of expanding its ancestor box. */
+/*
+ * Prevent wide tables in migrated posts from pushing the article past its
+ * container and triggering page-level horizontal scroll. `display:block` on
+ * <table> is the cross-browser trick that makes the element itself scrollable
+ * instead of expanding its ancestor box.
+ */
 .prose :where(table) {
   display: block;
   overflow-x: auto;
   max-width: 100%;
 }
 
-/* Legacy Jekyll `.table-wrapper` divs in migrated content carried no CSS —
-   give them the scroll behavior they were always assumed to have. */
+/*
+ * Legacy Jekyll `.table-wrapper` divs in migrated content carried no CSS —
+ * give them the scroll behavior they were always assumed to have.
+ */
 .table-wrapper {
   overflow-x: auto;
   max-width: 100%;
 }
 
 html {
-  @apply bg-background text-foreground font-sans font-medium antialiased scroll-p-24;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-padding: calc(var(--spacing) * 24);
 }
 
 h1,
@@ -279,7 +390,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-heading;
+  font-family: var(--font-heading);
 }
 
 code::before {
@@ -291,5 +402,12 @@ code::after {
 }
 
 code:not(:has(span.line)) {
-  @apply text-sm font-mono bg-card text-card-foreground rounded px-1.5 py-0.5 mx-1;
+  font-size: var(--text-sm);
+  line-height: var(--tw-leading, var(--text-sm--line-height));
+  background-color: var(--card);
+  color: var(--card-foreground);
+  border-radius: var(--radius);
+  padding-inline: calc(var(--spacing) * 1.5);
+  padding-block: calc(var(--spacing) * 0.5);
+  margin-inline: calc(var(--spacing) * 1);
 }

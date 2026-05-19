@@ -48,7 +48,7 @@ export default async function BasinPostLayout({ children, params }: Props) {
         ) : null}
       </header>
 
-      <div className="prose dark:prose-invert max-w-none">{children}</div>
+      <div className="prose max-w-none">{children}</div>
     </article>
   );
 }

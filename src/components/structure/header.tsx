@@ -1,3 +1,4 @@
+import { headers } from "next/headers";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -14,6 +15,9 @@ import { navItems } from "../navigation/nav-items";
 
 export const Header: React.FC = async () => {
   const nowPlaying = (await getNowPlayingSSR())?.isPlaying;
+  const headerList = await headers();
+  const path = headerList.get("x-next-path") || "";
+  console.log(path);
 
   return (
     <header className="sticky top-2 z-100 h-12 w-full">
