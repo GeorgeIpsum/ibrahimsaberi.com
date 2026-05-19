@@ -59,44 +59,48 @@ const getUserId = cache(async (): Promise<string | null> => {
   }
 });
 
-export const getMyPublicPlaylists = cache(async (): Promise<Playlist[]> => {
-  const userId = await getUserId();
-  if (!userId) return [];
+export const getMyPlaylists = cache(
+  async (publicPlaylists = false): Promise<Playlist[]> => {
+    const userId = await getUserId();
+    if (!userId) return [];
 
-  let token: string;
-  try {
-    token = await getAccessToken();
-  } catch (e) {
-    console.error("[spotify] failed to obtain access token:", e);
-    return [];
-  }
-
-  const collected: SpotifyPlaylistItem[] = [];
-  let url: string | null =
-    `https://api.spotify.com/v1/users/${userId}/playlists?limit=50`;
-
-  while (url) {
-    const res: Response = await fetch(url, {
-      headers: { Authorization: `Bearer ${token}` },
-      next: { revalidate: 3600 },
-    });
-
-    if (!res.ok) {
-      console.error(
-        `[spotify] playlists fetch returned ${res.status}: ${await res.text()}`,
-      );
-      break;
+    let token: string;
+    try {
+      token = await getAccessToken();
+    } catch (e) {
+      console.error("[spotify] failed to obtain access token:", e);
+      return [];
     }
 
-    const page = (await res.json()) as PlaylistsPage;
-    collected.push(...page.items);
-    url = page.next;
-  }
+    const collected: SpotifyPlaylistItem[] = [];
+    let url: string | null =
+      `https://api.spotify.com/v1/users/${userId}/playlists?limit=50`;
 
-  // Authenticated requests against your own /users/{id}/playlists endpoint
-  // can include collaborative/private playlists too. Filter to public only.
-  return collected.filter((p) => p.public !== false).map(toPlaylist);
-});
+    while (url) {
+      const res: Response = await fetch(url, {
+        headers: { Authorization: `Bearer ${token}` },
+        next: { revalidate: 3600 },
+      });
+
+      if (!res.ok) {
+        console.error(
+          `[spotify] playlists fetch returned ${res.status}: ${await res.text()}`,
+        );
+        break;
+      }
+
+      const page = (await res.json()) as PlaylistsPage;
+      collected.push(...page.items);
+      url = page.next;
+    }
+
+    // Authenticated requests against your own /users/{id}/playlists endpoint
+    // can include collaborative/private playlists too. Filter to public only.
+    return collected
+      .filter((p) => publicPlaylists || p.public !== false)
+      .map(toPlaylist);
+  },
+);
 
 function toPlaylist(item: SpotifyPlaylistItem): Playlist {
   return {
