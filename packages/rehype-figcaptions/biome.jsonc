@@ -1,0 +1,17 @@
+{
+  "extends": "//",
+  "overrides": [
+    {
+      "includes": ["dist/**/*.js"],
+      "assist": {
+        "enabled": false
+      },
+      "formatter": {
+        "enabled": false
+      },
+      "linter": {
+        "enabled": false
+      }
+    }
+  ]
+}

@@ -14,7 +14,10 @@ export default function Page() {
           <h2 className="text-xl">A Website</h2>
         </section>
         <section>
-          <h2 className="text-xl">A Blog</h2>
+          <h2 className="text-xl">A Basin</h2>
+        </section>
+        <section>
+          <h2 className="text-xl">A Reservoir</h2>
         </section>
         <section>
           <h2 className="text-xl">A Sandbox</h2>

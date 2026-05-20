@@ -32,9 +32,7 @@ export async function getNowPlaying(): Promise<NowPlaying | null> {
   return fetchNowPlaying(false);
 }
 
-async function fetchNowPlaying(
-  isRetry: boolean,
-): Promise<NowPlaying | null> {
+async function fetchNowPlaying(isRetry: boolean): Promise<NowPlaying | null> {
   let token: string;
   try {
     token = await getAccessToken();

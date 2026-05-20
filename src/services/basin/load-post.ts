@@ -5,11 +5,7 @@ import { TZDate } from "@date-fns/tz";
 import frontMatter from "front-matter";
 import { notFound } from "next/navigation";
 import { cache } from "react";
-import {
-  FrontmatterSchema,
-  type Post,
-  type PostListEntry,
-} from "./types";
+import { FrontmatterSchema, type Post, type PostListEntry } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "src/content");
 

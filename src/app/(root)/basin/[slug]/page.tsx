@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import {
-  listPosts,
-  loadPost,
-  loadPostMeta,
-} from "@/services/basin/load-post";
+import { listPosts, loadPost, loadPostMeta } from "@/services/basin/load-post";
 
 type Props = {
   params: Promise<{ slug: string }>;

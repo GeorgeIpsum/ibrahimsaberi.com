@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/atoms/card";
 import { FootnotePreview } from "@/components/content/footnote-preview";
+import { Kbd, KbdGroup } from "./components/atoms/kbd";
 import {
   PreviewCard,
   PreviewCardPopup,
@@ -93,6 +94,8 @@ const components: MDXComponents = {
     </Card>
   ),
   Script,
+  Kbd,
+  KbdGroup,
 };
 
 export function useMDXComponents(): MDXComponents {

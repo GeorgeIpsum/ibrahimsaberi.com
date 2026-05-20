@@ -1,30 +1,39 @@
 # ibrahimsaberi.com
 
-My personal website, built using Next.JS (16+).
+My personal website and sandbox.
 
-## Why Next?
+## How it's built
+
+- Next.js
+- Tailwind
+- Base UI + coss ui
+- MDX
+
+### Why Next?
 
 Flavor-of-the-month(-year?-decade??) framework and it's relatively fun and easy™[^1] to use. Reminds me of working with Angular 5/6 but with none of the CLI nonsense and additional cruft surrounding dependency injection (I never want to see the world "controller" again as long as I live) and the like. The Vercel aesthetic that's polluted startup design everywhere IS a little overstated though I'll admit. I'm not going to lie though I hate how much "black magic" you have to rely on using modern Next
 
 [^1]: magic_is_a_good_thing.jpeg
 
-## UI
+### UI
 
-A lot of the base UI components are sourced from [coss ui](https://coss.com/ui) which itself is built using [Base UI](https://base-ui.com). Definitely overkill but it's nice to be able to reach into a toolbox and grab what I know/ like.
+A lot of the base UI components are sourced from [coss ui](https://coss.com/ui) which itself is built using [Base UI](https://base-ui.com). Definitely overkill but it's nice to be able to reach into a toolbox and grab what I know/ like. I've also grabbed some cool components from other areas of the web, I leave attribution in component files whenever that does happen.
 
-## Theming
+### MDX
+
+Blog content and other arbitrary pages are written/ built using MDX. I use a whole slew of remark/ rehype plugins, including some I've handrolled. You can check out which in the [`next.config.ts`](/next.config.ts) file.
+
+### Theming
 
 Colors for dark/ light mode themes were picked by me and are meant to be kind of "floral" in nature. Everything is driven by Tailwind + CSS vars here. I'll probably keep iterating on this, not 100% happy with how everything is as of right now.
-
-## MDX
-
-I use a whole slew of remark/ rehype plugins, including some I've handrolled. You can check out which in the [`next.config.ts`](/next.config.ts) file.
 
 ## Some "Features"
 - Blog (all of the writing is bad)
 - Spotify now playing (and a whole bunch of other Spotify-related information, playlists, etc)
+- A (mostly) fully featured TTY
 - Web viewer for my amateur radio station (this may or may not be some decoration around "Spotify now playing" with web player SDK on top)
 - Camera roll (curated list of dumb or cool images from my camera roll, auto-synced via a Homelab integration + some iCloud shenaniganery)
+- A health endpoint (`/api/health`) that returns random copypasta/ ascii art/ other text
 - Random games/ micro-frontends for projects I've built
 - A contact form that may or may not send whatever you put in there to the ether
 
