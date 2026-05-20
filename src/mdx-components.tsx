@@ -37,7 +37,7 @@ const components: MDXComponents = {
 
     if (!isFootnote) {
       return (
-        <sup {...props} className="relative top-[-0.4em] size-lg">
+        <sup {...props} className="relative top-[-0.5em] text-sm">
           {children}
         </sup>
       );
@@ -56,10 +56,13 @@ const components: MDXComponents = {
       <sup
         {...props}
         id={id}
-        className={cn("relative top-[-0.4em]", props.className)}
+        className={cn(
+          "relative top-[-0.5em] rounded-full bg-primary/10 px-1 py-0.5 text-foreground-high-contrast text-sm transition-colors has-[a:hover]:bg-primary/20",
+          props.className,
+        )}
       >
         <PreviewCard>
-          <PreviewCardTrigger render={<a {...restAnchorProps} />} />
+          <PreviewCardTrigger delay={50} render={<a {...restAnchorProps} />} />
           <PreviewCardPopup>
             <FootnotePreview
               targetId={(restAnchorProps.href ?? "").replace(/^#/, "")}

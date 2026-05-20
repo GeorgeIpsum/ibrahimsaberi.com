@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { type ReactNode, ViewTransition } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { AUTHOR_TIMEZONE, loadPostMeta } from "@/services/basin/load-post";
@@ -16,9 +16,11 @@ export default async function BasinPostLayout({ children, params }: Props) {
   return (
     <article className="rounded-lg px-4 pt-4 pb-14 shadow-lg backdrop-blur-lg md:px-6 md:pt-12 md:pb-20">
       <header className="mb-8 border-border border-b pb-6">
-        <h1 className="font-heading text-4xl leading-tight tracking-tight">
-          {frontmatter.title}
-        </h1>
+        <ViewTransition name={`droplet-${slug}`}>
+          <h1 className="font-heading text-4xl leading-tight tracking-tight">
+            {frontmatter.title}
+          </h1>
+        </ViewTransition>
         <div className="mt-3 flex items-center gap-3 text-muted-foreground text-sm">
           <time dateTime={frontmatter.publishedAt}>
             {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {

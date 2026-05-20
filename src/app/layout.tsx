@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 
-import "./globals.css";
+import "@/css/globals.css";
+import "@/css/prose.css";
 
 import { HistoryProvider } from "@/components/navigation/history-provider";
 import { fontBody, fontHeading, fontMono } from "@/css/font";

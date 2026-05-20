@@ -1,0 +1,107 @@
+@reference "./globals.css";
+
+/* Theme prose colors via Tailwind Typography's CSS variables */
+.prose {
+  --tw-prose-headings: var(--foreground-high-contrast);
+  --tw-prose-body: var(--primary);
+  --tw-prose-bold: var(--primary);
+  --tw-prose-quotes: var(--primary);
+  --tw-prose-quote-borders: var(--border);
+  --tw-prose-links: var(--primary);
+  --tw-prose-counters: var(--primary);
+  --tw-prose-bullets: var(--primary);
+  --tw-prose-hr: var(--border);
+  --tw-prose-captions: var(--muted-foreground);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+}
+
+/* Shiki dual-theme */
+.prose pre.shiki,
+.prose pre.shiki span {
+  color: var(--shiki-light);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+  text-decoration: var(--shiki-light-text-decoration);
+}
+.prose pre.shiki {
+  background-color: var(--shiki-light-bg);
+}
+[data-theme="dark"] .prose pre.shiki,
+[data-theme="dark"] .prose pre.shiki span {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style);
+  font-weight: var(--shiki-dark-font-weight);
+  text-decoration: var(--shiki-dark-text-decoration);
+}
+[data-theme="dark"] .prose pre.shiki {
+  background-color: var(--shiki-dark-bg);
+}
+
+/* inline code blocks */
+.prose code::before {
+  content: "";
+}
+.prose code::after {
+  content: "";
+}
+.prose code:not(:has(span.line)) {
+  font-size: var(--text-sm);
+  line-height: var(--tw-leading, var(--text-sm--line-height));
+  background-color: color-mix(in oklch, var(--card) 92%, var(--primary));
+  color: var(--card-foreground);
+  border-radius: calc(var(--radius) * 0.5);
+  padding-inline: calc(var(--spacing) * 1.5);
+  padding-block: calc(var(--spacing) * 0.5);
+  margin-inline: calc(var(--spacing) * 1);
+}
+
+/* Styles for rehype-callouts */
+.markdown-callout {
+  --callout-background-color: var(--card);
+  --callout-color: color-mix(in oklab, var(--primary) 80%, transparent);
+  --callout-color-hover: var(--primary);
+  --callout-current: var(--callout-color);
+
+  background-color: var(--callout-background-color);
+  padding-inline: calc(var(--spacing) * 4);
+  padding-block: calc(var(--spacing) * 0.5);
+  border-radius: var(--radius-md);
+  border-color: var(--callout-current);
+  border-left-style: var(--tw-border-style, solid);
+  border-left-width: 2px;
+  margin-bottom: calc(var(--spacing) * 4);
+  cursor: help;
+
+  transition: --callout-current 300ms ease-out;
+
+  @property --callout-current {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: transparent;
+  }
+}
+
+.markdown-callout:hover {
+  --callout-current: var(--callout-color-hover);
+}
+
+.markdown-callout .markdown-callout-title {
+  font-weight: 700;
+  color: var(--callout-current);
+  margin-top: calc(var(--spacing) * 2);
+  margin-bottom: calc(var(--spacing) * 4);
+}
+
+/* Wide table fix */
+.prose :where(table) {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Legacy Jekyll `.table-wrapper` divs from migrated content */
+.prose .table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}

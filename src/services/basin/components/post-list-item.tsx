@@ -1,5 +1,6 @@
 import { Scroll } from "lucide-react";
 import Link from "next/link";
+import { ViewTransition } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { AUTHOR_TIMEZONE } from "../load-post";
@@ -16,11 +17,14 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
       <Link
         href={`/basin/${post.slug}`}
         className="group block rounded-lg p-3 transition-colors hover:bg-accent/40"
+        transitionTypes={["nav-forward"]}
       >
         <div className="flex min-h-12 items-baseline justify-between gap-3">
-          <h2 className="font-heading text-foreground text-xl transition-colors group-hover:text-foreground-high-contrast">
-            {post.frontmatter.title}
-          </h2>
+          <ViewTransition name={`droplet-${post.slug}`}>
+            <h2 className="font-heading text-foreground text-xl transition-colors group-hover:text-foreground-high-contrast">
+              {post.frontmatter.title}
+            </h2>
+          </ViewTransition>
           <div className="flex flex-col items-end justify-end gap-1">
             <time
               dateTime={post.frontmatter.publishedAt}

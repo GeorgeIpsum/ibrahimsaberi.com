@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/css/globals.css";
 
 import { HistoryProvider } from "@/components/navigation/history-provider";
 import { NotFound } from "@/components/navigation/not-found";

@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 
 const config: NextConfig = {
   cacheComponents: true,
+  cleanDistDir: true,
   async redirects() {
     return [
       {
@@ -54,6 +55,9 @@ const config: NextConfig = {
   },
   outputFileTracingIncludes: {
     "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
+  },
+  experimental: {
+    viewTransition: true,
   },
   poweredByHeader: false,
   devIndicators: false,
@@ -128,7 +132,10 @@ const plugins = [
       ],
       remarkRehypeOptions: {
         clobberPrefix: "",
-        footnoteLabel: "Notes",
+        footnoteLabel: "reference notes",
+        footnoteLabelProperties: {
+          className: "text-primary font-light",
+        },
       },
     },
   }),

@@ -275,6 +275,7 @@
     transform: scaleY(1);
   }
 }
+
 .animate-audio-bar {
   transform-box: fill-box;
   transform-origin: center;
@@ -308,68 +309,6 @@
   }
 }
 
-/**
- * Theme prose colors via Tailwind Typography's CSS variables
- */
-.prose {
-  --tw-prose-headings: var(--foreground-high-contrast);
-  --tw-prose-body: var(--primary);
-  --tw-prose-bold: var(--primary);
-  --tw-prose-quotes: var(--primary);
-  --tw-prose-quote-borders: var(--border);
-  --tw-prose-links: var(--primary);
-  --tw-prose-counters: var(--primary);
-  --tw-prose-bullets: var(--primary);
-  --tw-prose-hr: var(--border);
-  --tw-prose-captions: var(--muted-foreground);
-  --tw-prose-th-borders: var(--border);
-  --tw-prose-td-borders: var(--border);
-}
-
-/* Shiki dual-theme */
-pre.shiki,
-pre.shiki span {
-  color: var(--shiki-light);
-  font-style: var(--shiki-light-font-style);
-  font-weight: var(--shiki-light-font-weight);
-  text-decoration: var(--shiki-light-text-decoration);
-}
-pre.shiki {
-  background-color: var(--shiki-light-bg);
-}
-
-[data-theme="dark"] pre.shiki,
-[data-theme="dark"] pre.shiki span {
-  color: var(--shiki-dark);
-  font-style: var(--shiki-dark-font-style);
-  font-weight: var(--shiki-dark-font-weight);
-  text-decoration: var(--shiki-dark-text-decoration);
-}
-[data-theme="dark"] pre.shiki {
-  background-color: var(--shiki-dark-bg);
-}
-
-/*
- * Prevent wide tables in migrated posts from pushing the article past its
- * container and triggering page-level horizontal scroll. `display:block` on
- * <table> is the cross-browser trick that makes the element itself scrollable
- * instead of expanding its ancestor box.
- */
-.prose :where(table) {
-  display: block;
-  overflow-x: auto;
-  max-width: 100%;
-}
-
-/*
- * Legacy Jekyll `.table-wrapper` divs in migrated content carried no CSS —
- * give them the scroll behavior they were always assumed to have.
- */
-.table-wrapper {
-  overflow-x: auto;
-  max-width: 100%;
-}
-
 html {
   background-color: var(--background);
   color: var(--foreground);
@@ -377,7 +316,7 @@ html {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-padding: calc(var(--spacing) * 24);
+  scroll-padding: min(calc(var(--spacing) * 48), 33.33%);
 }
 
 h1,
@@ -387,59 +326,4 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-}
-
-code::before {
-  content: "";
-}
-
-code::after {
-  content: "";
-}
-
-code:not(:has(span.line)) {
-  font-size: var(--text-sm);
-  line-height: var(--tw-leading, var(--text-sm--line-height));
-  background-color: color-mix(in oklch, var(--card) 92%, var(--primary));
-  color: var(--card-foreground);
-  border-radius: calc(var(--radius) * 0.5);
-  padding-inline: calc(var(--spacing) * 1.5);
-  padding-block: calc(var(--spacing) * 0.5);
-  margin-inline: calc(var(--spacing) * 1);
-}
-
-.markdown-callout {
-  --callout-background-color: var(--card);
-  --callout-color: color-mix(in oklab, var(--primary) 80%, transparent);
-  --callout-color-hover: var(--primary);
-  --callout-current: var(--callout-color);
-
-  background-color: var(--callout-background-color);
-  padding-inline: calc(var(--spacing) * 4);
-  padding-block: calc(var(--spacing) * 0.5);
-  border-radius: var(--radius-md);
-  border-color: var(--callout-current);
-  border-left-style: var(--tw-border-style, solid);
-  border-left-width: 2px;
-  margin-bottom: calc(var(--spacing) * 4);
-  cursor: help;
-
-  transition: --callout-current 300ms ease-out;
-
-  @property --callout-current {
-    syntax: "<color>";
-    inherits: true;
-    initial-value: transparent;
-  }
-}
-
-.markdown-callout:hover {
-  --callout-current: var(--callout-color-hover);
-}
-
-.markdown-callout .markdown-callout-title {
-  font-weight: 700;
-  color: var(--callout-current);
-  margin-top: calc(var(--spacing) * 2);
-  margin-bottom: calc(var(--spacing) * 4);
 }
