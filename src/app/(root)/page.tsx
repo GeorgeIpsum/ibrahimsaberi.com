@@ -23,7 +23,7 @@ export default function Page() {
           <h2 className="text-xl">A Station</h2>
         </section>
         <section>
-          <h2 className="text-xl">A Whisper, A Wave</h2>
+          <h2 className="text-xl">A Whisper. A Wave.</h2>
         </section>
       </div>
     </>
