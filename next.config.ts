@@ -52,6 +52,9 @@ const config: NextConfig = {
       { protocol: "https", hostname: "i.scdn.co" }, // album art
     ],
   },
+  outputFileTracingIncludes: {
+    "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
+  },
   poweredByHeader: false,
   devIndicators: false,
 };

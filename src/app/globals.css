@@ -336,7 +336,7 @@
     .reveal {
       animation: reveal-up linear both;
       animation-timeline: view();
-      animation-range: entry 60% cover 25%;
+      animation-range: entry 15% entry 85%;
     }
 
     .reveal-bottom {
