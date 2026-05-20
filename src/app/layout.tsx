@@ -15,6 +15,19 @@ export const metadata: Metadata = {
     { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
   ],
   archives: "https://ibrahimsaberi.com/basin",
+  alternates: {
+    types: {
+      "application/rss+xml": [
+        { url: "/feed.xml", title: "A Whisper — RSS" },
+      ],
+      "application/atom+xml": [
+        { url: "/atom.xml", title: "A Whisper — Atom" },
+      ],
+      "application/feed+json": [
+        { url: "/feed.json", title: "A Whisper — JSON Feed" },
+      ],
+    },
+  },
 };
 
 export default function RootLayout({

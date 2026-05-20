@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
           </Link>
         </div>
         <div className="grid grid-cols-3 grid-rows-1 items-center justify-center gap-6 sm:gap-4">
-          <Link href="/rss" className="hover:text-primary">
+          <Link href="/feed.xml" className="hover:text-primary">
             <Rss className="size-5 md:size-4" />
           </Link>
           <Link

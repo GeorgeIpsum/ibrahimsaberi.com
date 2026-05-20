@@ -11,8 +11,18 @@ const config: NextConfig = {
         permanent: true,
       },
       {
-        source: "/rss",
+        source: "/:legacy(rss|rss.xml)",
         destination: "/feed.xml",
+        permanent: true,
+      },
+      {
+        source: "/atom",
+        destination: "/atom.xml",
+        permanent: true,
+      },
+      {
+        source: "/json",
+        destination: "/feed.json",
         permanent: true,
       },
       {

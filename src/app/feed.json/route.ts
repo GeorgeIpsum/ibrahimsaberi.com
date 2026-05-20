@@ -5,9 +5,9 @@ import { buildFeed, originFromHeaders } from "@/services/basin/build-feed";
 export async function GET() {
   const origin = originFromHeaders(await headers());
   const feed = await buildFeed(origin);
-  return new NextResponse(feed.rss2(), {
+  return new NextResponse(feed.json1(), {
     headers: {
-      "Content-Type": "application/rss+xml; charset=utf-8",
+      "Content-Type": "application/feed+json; charset=utf-8",
       "Cache-Control": "public, max-age=0, s-maxage=3600",
     },
   });
