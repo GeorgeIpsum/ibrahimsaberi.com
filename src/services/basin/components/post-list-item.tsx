@@ -2,6 +2,7 @@ import { Scroll } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/inline-markdown";
+import { AUTHOR_TIMEZONE } from "../load-post";
 import type { PostListEntry } from "../types";
 
 interface PostListItemProps {
@@ -22,14 +23,18 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
           </h2>
           <div className="flex flex-col items-end justify-end gap-1">
             <time
-              dateTime={post.frontmatter.publishedAt.toISOString()}
+              dateTime={post.frontmatter.publishedAt}
               className="shrink-0 text-muted-foreground text-xs"
             >
-              {post.frontmatter.publishedAt.toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-              })}
+              {new Date(post.frontmatter.publishedAt).toLocaleDateString(
+                "en-US",
+                {
+                  timeZone: AUTHOR_TIMEZONE,
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric",
+                },
+              )}
             </time>
             <div className="flex max-w-24 flex-wrap items-center justify-end gap-2 sm:max-w-48">
               {post.frontmatter.draft && (

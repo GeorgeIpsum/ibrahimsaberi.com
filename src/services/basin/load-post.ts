@@ -5,7 +5,11 @@ import { TZDate } from "@date-fns/tz";
 import frontMatter from "front-matter";
 import { notFound } from "next/navigation";
 import { cache } from "react";
-import { FrontmatterSchema, type Post, type PostListEntry } from "./types";
+import {
+  FrontmatterSchema,
+  type Post,
+  type PostListEntry,
+} from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "src/content");
 
@@ -26,9 +30,16 @@ type FileEntry = {
   dateStr: string; // "2026-05-18"
 };
 
-function dateFromStr(s: string): TZDate {
+/**
+ * Filename `YYYY-MM-DD` → ISO UTC instant of midnight in AUTHOR_TIMEZONE.
+ * Stored as a string so the value survives `"use cache"` serialization
+ * (TZDate's prototype is lost through the JSON-ish cache boundary).
+ * Consumers call `new Date(publishedAt).toLocaleDateString(..., {timeZone})`
+ * for display.
+ */
+function isoFromFilenameDate(s: string): string {
   const [y, m, d] = s.split("-").map(Number);
-  return new TZDate(y, m - 1, d, AUTHOR_TIMEZONE);
+  return new TZDate(y, m - 1, d, AUTHOR_TIMEZONE).toISOString();
 }
 
 function normalizeAttributes(
@@ -38,7 +49,7 @@ function normalizeAttributes(
   const out = { ...attrs };
   // Filename always wins. Any `publishedAt` in frontmatter is overridden — keep
   // it for human-readability but the authoritative date is the filename prefix.
-  out.publishedAt = dateFromStr(dateStrFromFilename);
+  out.publishedAt = isoFromFilenameDate(dateStrFromFilename);
   return out;
 }
 
@@ -46,6 +57,7 @@ function normalizeAttributes(
 // parsing. Used wherever we just need sort order, count, or to find a file
 // by slug.
 const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
+  "use cache";
   const files = await readdir(CONTENT_DIR);
   return files
     .map((f): FileEntry | null => {
@@ -71,6 +83,7 @@ async function parseEntry(entry: FileEntry): Promise<PostListEntry> {
 // Expensive layer: reads + parses every post. Used when we need frontmatter
 // data for filtering (tags, drafts) or full enumeration.
 const _listAllParsed = cache(async (): Promise<PostListEntry[]> => {
+  "use cache";
   const entries = await _listFileEntries();
   const parsed = await Promise.all(entries.map(parseEntry));
   return process.env.NODE_ENV === "production"
@@ -90,6 +103,7 @@ export type ListPostsOptions = {
 export async function listPosts(
   opts: ListPostsOptions = {},
 ): Promise<PostListEntry[]> {
+  "use cache";
   const skip = opts.skip ?? 0;
 
   // Cheap path: no filtering, dev mode (no draft filter needed). We can slice
@@ -118,6 +132,7 @@ export async function listPosts(
 export async function countPosts(
   opts: Pick<ListPostsOptions, "tag"> = {},
 ): Promise<number> {
+  "use cache";
   // Tag filter or production: must parse to filter accurately.
   if (opts.tag || process.env.NODE_ENV === "production") {
     const all = opts.tag
@@ -132,6 +147,7 @@ export async function countPosts(
 }
 
 export async function listTags(): Promise<string[]> {
+  "use cache";
   const all = await _listAllParsed();
   const tags = new Set<string>();
   for (const p of all) {
@@ -140,23 +156,42 @@ export async function listTags(): Promise<string[]> {
   return Array.from(tags);
 }
 
-export const loadPost = cache(async (slug: string): Promise<Post> => {
+export type PostMeta = {
+  slug: string;
+  frontmatter: Post["frontmatter"];
+  basename: string;
+};
+
+/**
+ * Cached metadata-only loader. Safe to call from the static prerender path
+ * because the return value contains no functions (the MDX Component is
+ * loaded separately in `loadPost`).
+ */
+export async function loadPostMeta(slug: string): Promise<PostMeta> {
+  "use cache";
   const entries = await _listFileEntries();
   const entry = entries.find((e) => e.slug === slug);
   if (!entry) notFound();
 
-  try {
-    const raw = await readFile(path.join(CONTENT_DIR, entry.file), "utf-8");
-    const { attributes } = frontMatter<Record<string, unknown>>(raw);
-    const frontmatter = FrontmatterSchema.assert(
-      normalizeAttributes(attributes, entry.dateStr),
-    );
+  const raw = await readFile(path.join(CONTENT_DIR, entry.file), "utf-8");
+  const { attributes } = frontMatter<Record<string, unknown>>(raw);
+  const frontmatter = FrontmatterSchema.assert(
+    normalizeAttributes(attributes, entry.dateStr),
+  );
+  const basename = entry.file.replace(/\.mdx$/, "");
+  return { slug, frontmatter, basename };
+}
 
-    // The dynamic import path needs a single interpolation slot for Turbopack
-    // to statically capture `@/content/*.mdx`. Strip the .mdx extension first.
-    const basename = entry.file.replace(/\.mdx$/, "");
-    const mod = await import(`@/content/${basename}.mdx`);
-    return { slug, frontmatter, Content: mod.default };
+/**
+ * Full loader including the MDX Component. NOT cached — Components can't
+ * be serialized through Cache Components. React's per-request `cache()`
+ * dedupes within one render.
+ */
+export const loadPost = cache(async (slug: string): Promise<Post> => {
+  try {
+    const meta = await loadPostMeta(slug);
+    const mod = await import(`@/content/${meta.basename}.mdx`);
+    return { slug, frontmatter: meta.frontmatter, Content: mod.default };
   } catch (e) {
     if (
       e instanceof Error &&

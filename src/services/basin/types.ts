@@ -3,7 +3,7 @@ import { type } from "arktype";
 export const FrontmatterSchema = type({
   title: "string",
   "author?": "string",
-  publishedAt: "Date",
+  publishedAt: "string",
   "blurb?": "string",
   "tags?": "string[]",
   "draft?": "boolean",

@@ -1,23 +1,12 @@
-// import { headers } from "next/headers";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  PreviewCard,
-  PreviewCardPopup,
-  PreviewCardTrigger,
-} from "@/components/atoms/preview-card";
-import { AudioWaveform } from "@/components/icons/audio-waveform";
 import { RefreshTicker } from "@/components/navigation/refresh-ticker";
 import { cn } from "@/css/lib";
-import { getNowPlayingSSR, Listening } from "@/services/spotify/listening";
+import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
 import { navItems } from "../navigation/nav-items";
 
-export const Header: React.FC = async () => {
-  const nowPlaying = (await getNowPlayingSSR())?.isPlaying;
-  // const headerList = await headers();
-  // const path = headerList.get("x-next-path") || "";
-
+export const Header: React.FC = () => {
   return (
     <header className="sticky top-2 z-100 h-12 w-full">
       <RefreshTicker intervalMs={15000} />
@@ -72,28 +61,7 @@ export const Header: React.FC = async () => {
                 ))}
             </ul>
           </nav>
-          <div
-            className={cn(
-              "isolate rounded-full border bg-background/80 p-1 transition-colors duration-1000 ease-out",
-              {
-                "border-accent text-muted-foreground": !nowPlaying,
-                "border-primary/90 text-primary/90": nowPlaying,
-              },
-            )}
-          >
-            <PreviewCard>
-              <PreviewCardTrigger delay={300}>
-                <AudioWaveform size={16} playing={!!nowPlaying} />
-              </PreviewCardTrigger>
-              <PreviewCardPopup
-                className="w-80 bg-background/75 backdrop-blur"
-                align="end"
-                sideOffset={12}
-              >
-                <Listening />
-              </PreviewCardPopup>
-            </PreviewCard>
-          </div>
+          <SpotifyIndicator />
           <div className="inline-block sm:hidden">
             <MobileMenu />
           </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/inline-markdown";
-import { loadPost } from "@/services/basin/load-post";
+import { AUTHOR_TIMEZONE, loadPostMeta } from "@/services/basin/load-post";
 
 type Props = {
   children: ReactNode;
@@ -11,7 +11,7 @@ type Props = {
 
 export default async function BasinPostLayout({ children, params }: Props) {
   const { slug } = await params;
-  const { frontmatter } = await loadPost(slug);
+  const { frontmatter } = await loadPostMeta(slug);
 
   return (
     <article className="rounded-lg px-4 pt-4 pb-14 shadow-lg backdrop-blur-lg md:px-6 md:pt-12 md:pb-20">
@@ -20,8 +20,9 @@ export default async function BasinPostLayout({ children, params }: Props) {
           {frontmatter.title}
         </h1>
         <div className="mt-3 flex items-center gap-3 text-muted-foreground text-sm">
-          <time dateTime={frontmatter.publishedAt.toISOString()}>
-            {frontmatter.publishedAt.toLocaleDateString("en-US", {
+          <time dateTime={frontmatter.publishedAt}>
+            {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
+              timeZone: AUTHOR_TIMEZONE,
               year: "numeric",
               month: "long",
               day: "numeric",

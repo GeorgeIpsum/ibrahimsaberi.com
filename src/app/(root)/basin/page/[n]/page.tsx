@@ -13,9 +13,13 @@ export async function generateStaticParams() {
   const total = await countPosts();
   const totalPages = Math.max(1, Math.ceil(total / POSTS_PER_PAGE));
   // Page 1 lives at /basin; generate /basin/page/2, /basin/page/3, …
-  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+  const params = Array.from({ length: totalPages - 1 }, (_, i) => ({
     n: String(i + 2),
   }));
+
+  // Cache Components requires at least one entry. If there's nothing to
+  // paginate, return a sentinel that the page below will notFound() on.
+  return params.length > 0 ? params : [{ n: "2" }];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

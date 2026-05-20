@@ -4,15 +4,13 @@ import { HistoryProvider } from "@/components/navigation/history-provider";
 import { NotFound } from "@/components/navigation/not-found";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
-import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 
-export default async function GlobalNotFound() {
-  const theme = await getSystemThemeRSC();
-
+export default function GlobalNotFound() {
   return (
     <html
       lang="en"
-      data-theme={theme}
+      data-theme="system"
+      suppressHydrationWarning
       className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
     >
       <body>

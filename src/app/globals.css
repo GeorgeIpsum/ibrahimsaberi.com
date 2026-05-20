@@ -3,7 +3,12 @@
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 
-@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+@custom-variant dark (&:where(
+  [data-theme="dark"],
+  [data-theme="dark"] *,
+  [data-theme="system-dark"],
+  [data-theme="system-dark"] *
+));
 
 @theme inline {
   --font-sans: var(--font-sans), "sans-serif";
@@ -190,38 +195,74 @@
   @apply transition-colors duration-200 ease-out;
 }
 
-[data-theme="light"],
-[data-theme="system-light"] {
-  --primary: oklch(28% 0.06 315);
-  --background: oklch(98% 0.014 320);
-  --foreground-high-contrast: #000;
-  --background-high-contrast: #fff;
+:root[data-theme] {
+  color-scheme: light dark;
 
-  /* surfaces */
+  --primary: light-dark(oklch(28% 0.06 315), oklch(92% 0.035 135));
+  --background: light-dark(oklch(98% 0.014 320), oklch(14% 0.02 130));
+  --foreground-high-contrast: light-dark(#000, #fff);
+  --background-high-contrast: light-dark(#fff, #000);
+
   --foreground: var(--primary);
-  --card: color-mix(in oklch, var(--background) 97%, var(--primary));
+  --card: color-mix(
+    in oklch,
+    var(--background) light-dark(97%, 96%),
+    var(--primary)
+  );
   --card-foreground: var(--primary);
-  --popover: color-mix(in oklch, var(--background) 94%, var(--primary));
+  --popover: color-mix(
+    in oklch,
+    var(--background) light-dark(94%, 92%),
+    var(--primary)
+  );
   --popover-foreground: var(--primary);
 
   --primary-foreground: var(--background);
 
-  --secondary: color-mix(in oklch, var(--background) 90%, var(--primary));
+  --secondary: color-mix(
+    in oklch,
+    var(--background) light-dark(90%, 92%),
+    var(--primary)
+  );
   --secondary-foreground: var(--primary);
-  --muted: color-mix(in oklch, var(--background) 92%, var(--primary));
+  --muted: color-mix(
+    in oklch,
+    var(--background) light-dark(92%, 94%),
+    var(--primary)
+  );
   --muted-foreground: color-mix(
     in oklch,
-    var(--primary) 95%,
+    var(--primary) light-dark(95%, 60%),
     var(--background)
   );
-  --accent: color-mix(in oklch, var(--background) 88%, var(--primary));
+  --accent: color-mix(
+    in oklch,
+    var(--background) light-dark(88%, 90%),
+    var(--primary)
+  );
   --accent-foreground: var(--primary);
 
-  --border: color-mix(in oklch, var(--primary) 12%, transparent);
-  --input: color-mix(in oklch, var(--primary) 18%, transparent);
-  --ring: color-mix(in oklch, var(--primary) 45%, var(--background));
+  --border: color-mix(
+    in oklch,
+    var(--primary) light-dark(12%, 10%),
+    transparent
+  );
+  --input: color-mix(
+    in oklch,
+    var(--primary) light-dark(18%, 10%),
+    transparent
+  );
+  --ring: color-mix(
+    in oklch,
+    var(--primary) light-dark(45%, 35%),
+    var(--background)
+  );
 
-  --sidebar: color-mix(in oklch, var(--background) 94%, var(--primary));
+  --sidebar: color-mix(
+    in oklch,
+    var(--background) light-dark(94%, 92%),
+    var(--primary)
+  );
   --sidebar-foreground: color-mix(
     in oklch,
     var(--primary) 78%,
@@ -231,70 +272,35 @@
   --sidebar-primary-foreground: var(--background);
   --sidebar-accent: color-mix(in oklch, var(--background) 86%, var(--primary));
   --sidebar-accent-foreground: var(--primary);
-  --sidebar-border: color-mix(in oklch, var(--primary) 10%, transparent);
-  --sidebar-ring: color-mix(in oklch, var(--primary) 45%, var(--background));
+  --sidebar-border: color-mix(
+    in oklch,
+    var(--primary) light-dark(10%, 8%),
+    transparent
+  );
+  --sidebar-ring: color-mix(
+    in oklch,
+    var(--primary) light-dark(45%, 35%),
+    var(--background)
+  );
 
-  --destructive: oklch(58% 0.2 18);
-  --destructive-foreground: oklch(36% 0.22 18);
-  --warning: oklch(74% 0.14 65);
-  --warning-foreground: oklch(22% 0.06 65);
-  --success: oklch(80% 0.22 150);
-  --success-foreground: oklch(46% 0.12 150);
-  --info: oklch(88% 0.24 290);
-  --info-foreground: oklch(36% 0.12 290);
+  --destructive: light-dark(oklch(58% 0.2 18), oklch(54% 0.18 18));
+  --destructive-foreground: light-dark(oklch(36% 0.22 18), oklch(82% 0.06 18));
+  --warning: light-dark(oklch(74% 0.14 65), oklch(64% 0.13 65));
+  --warning-foreground: light-dark(oklch(22% 0.06 65), oklch(86% 0.06 65));
+  --success: light-dark(oklch(80% 0.22 150), oklch(78% 0.15 150));
+  --success-foreground: light-dark(oklch(46% 0.12 150), oklch(92% 0.05 150));
+  --info: light-dark(oklch(88% 0.24 290), oklch(54% 0.08 290));
+  --info-foreground: light-dark(oklch(36% 0.12 290), oklch(92% 0.04 290));
 }
 
-[data-theme="dark"],
-[data-theme="system-dark"] {
-  --primary: oklch(92% 0.035 135);
-  --background: oklch(14% 0.02 130);
-  --foreground-high-contrast: #fff;
-  --background-high-contrast: #000;
+:root[data-theme="light"],
+:root[data-theme="system-light"] {
+  color-scheme: light;
+}
 
-  --foreground: var(--primary);
-  --card: color-mix(in oklch, var(--background) 96%, var(--primary));
-  --card-foreground: var(--primary);
-  --popover: color-mix(in oklch, var(--background) 92%, var(--primary));
-  --popover-foreground: var(--primary);
-
-  --primary-foreground: var(--background);
-
-  --secondary: color-mix(in oklch, var(--background) 92%, var(--primary));
-  --secondary-foreground: var(--primary);
-  --muted: color-mix(in oklch, var(--background) 94%, var(--primary));
-  --muted-foreground: color-mix(
-    in oklch,
-    var(--primary) 60%,
-    var(--background)
-  );
-  --accent: color-mix(in oklch, var(--background) 90%, var(--primary));
-  --accent-foreground: var(--primary);
-
-  --border: color-mix(in oklch, var(--primary) 10%, transparent);
-  --input: color-mix(in oklch, var(--primary) 10%, transparent);
-  --ring: color-mix(in oklch, var(--primary) 35%, var(--background));
-
-  --sidebar: color-mix(in oklch, var(--background) 92%, var(--primary));
-  --sidebar-foreground: color-mix(
-    in oklch,
-    var(--primary) 78%,
-    var(--background)
-  );
-  --sidebar-primary: var(--primary);
-  --sidebar-primary-foreground: var(--background);
-  --sidebar-accent: color-mix(in oklch, var(--background) 86%, var(--primary));
-  --sidebar-accent-foreground: var(--primary);
-  --sidebar-border: color-mix(in oklch, var(--primary) 8%, transparent);
-  --sidebar-ring: color-mix(in oklch, var(--primary) 35%, var(--background));
-
-  --destructive: oklch(54% 0.18 18);
-  --destructive-foreground: oklch(82% 0.06 18);
-  --warning: oklch(64% 0.13 65);
-  --warning-foreground: oklch(86% 0.06 65);
-  --success: oklch(78% 0.15 150);
-  --success-foreground: oklch(92% 0.05 150);
-  --info: oklch(54% 0.08 290);
-  --info-foreground: oklch(92% 0.04 290);
+:root[data-theme="dark"],
+:root[data-theme="system-dark"] {
+  color-scheme: dark;
 }
 
 @keyframes audio-bar {

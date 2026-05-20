@@ -6,7 +6,6 @@ import "./globals.css";
 import { HistoryProvider } from "@/components/navigation/history-provider";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
-import { getSystemThemeRSC } from "@/theme/get-system-theme.server";
 import { ThemeProvider } from "@/theme/theme-provider";
 
 export const metadata: Metadata = {
@@ -18,33 +17,36 @@ export const metadata: Metadata = {
   archives: "https://ibrahimsaberi.com/basin",
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const theme = await getSystemThemeRSC();
-
   return (
     <html
       lang="en"
-      data-theme={theme}
+      data-theme="system"
+      suppressHydrationWarning
       className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
     >
+      <head>
+        <script src="/theme-bootstrap.js" />
+      </head>
       <HistoryProvider>
         <body className="relative">
           <div className="relative isolate flex min-h-svh flex-col">
-            <ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
+            <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
           </div>
         </body>
       </HistoryProvider>
-      {process.env.NODE_ENV === "production" && (
-        <Script
-          defer
-          src="https://us.umami.is/script.js"
-          data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
-        />
-      )}
+      {process.env.NODE_ENV === "production" &&
+        process.env.VERCEL_ENV === "production" && (
+          <Script
+            defer
+            src="https://us.umami.is/script.js"
+            data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
+          />
+        )}
     </html>
   );
 }

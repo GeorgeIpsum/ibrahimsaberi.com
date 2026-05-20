@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { listPosts, loadPost } from "@/services/basin/load-post";
+import {
+  listPosts,
+  loadPost,
+  loadPostMeta,
+} from "@/services/basin/load-post";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -7,12 +11,17 @@ type Props = {
 
 export async function generateStaticParams() {
   const posts = await listPosts();
-  return posts.map((p) => ({ slug: p.slug }));
+  return posts
+    .filter(
+      (post) =>
+        process.env.NODE_ENV !== "production" || !post.frontmatter.draft,
+    )
+    .map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const { frontmatter } = await loadPost(slug);
+  const { frontmatter } = await loadPostMeta(slug);
   return {
     title: frontmatter.title,
     description: frontmatter.blurb,

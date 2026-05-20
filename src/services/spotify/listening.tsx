@@ -2,12 +2,14 @@ import "server-only";
 import { Music, Pause, Volume2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { connection } from "next/server";
 import { cache } from "react";
 import { getNowPlaying } from "./now-playing";
 
 export const getNowPlayingSSR = cache(getNowPlaying);
 
 export const Listening: React.FC = async () => {
+  await connection();
   const nowPlaying = await getNowPlayingSSR();
 
   if (!nowPlaying) {

@@ -21,6 +21,12 @@ export async function generateStaticParams() {
       params.push({ tag, n: String(i) });
     }
   }
+
+  // Cache Components requires at least one entry. Fall back to a sentinel
+  // (using the first known tag if any) that the page below will notFound() on.
+  if (params.length === 0) {
+    params.push({ tag: tags[0] ?? "_", n: "2" });
+  }
   return params;
 }
 

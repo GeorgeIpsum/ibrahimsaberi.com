@@ -8,7 +8,7 @@ import {
   useState,
 } from "react";
 import { getSystemTheme } from "./get-system-theme";
-import { THEME_COOKIE_NAME, type Theme } from "./types";
+import type { Theme } from "./types";
 
 export const ThemeContext = createContext<
   { theme: Theme; setTheme: (theme: Theme) => void } | undefined
@@ -26,9 +26,6 @@ export const ThemeProvider: React.FC<
   const setTheme = useCallback((theme: Theme) => {
     document.documentElement.dataset.theme =
       theme === "system" ? getSystemTheme() : theme;
-    const cookieTheme = theme === "system" ? "" : theme;
-    // biome-ignore lint/suspicious/noDocumentCookie: dont tell me what to do
-    document.cookie = `${THEME_COOKIE_NAME}=${cookieTheme}; path=/; max-age=31536000; SameSite=Lax`;
     _setTheme(theme);
   }, []);
 
@@ -53,6 +50,18 @@ export const ThemeProvider: React.FC<
       childList: false,
     });
     return () => observer.disconnect();
+  }, [theme]);
+
+  useEffect(() => {
+    if (theme !== "system-light" && theme !== "system-dark") return;
+    const mq = matchMedia("(prefers-color-scheme: dark)");
+    const handler = (e: MediaQueryListEvent) => {
+      document.documentElement.dataset.theme = e.matches
+        ? "system-dark"
+        : "system-light";
+    };
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
   }, [theme]);
 
   return (
