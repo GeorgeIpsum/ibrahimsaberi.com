@@ -1,9 +1,9 @@
 {
-  "name": "@local/rehype-figcaptions",
+  "name": "@local/rehype-quotes",
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Internal rehype plugin for rendering figure captions in MDX content.",
+  "description": "Internal rehype plugin for rendering quote citations in MDX content.",
   "main": "./dist/index.js",
   "exports": {
     ".": "./dist/index.js"

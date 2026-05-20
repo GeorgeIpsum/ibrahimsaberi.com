@@ -155,45 +155,6 @@
   --info: #0000ff;
   --info-foreground: #f8f8ff;
 
-  .asdf {
-    background-color: var(--color-accent);
-  }
-
-  .markdown-callout {
-    --callout-background-color: var(--card);
-    --callout-color: color-mix(in oklab, var(--primary) 80%, transparent);
-    --callout-color-hover: var(--primary);
-    --callout-current: var(--callout-color);
-
-    background-color: var(--callout-background-color);
-    padding-inline: calc(var(--spacing) * 4);
-    padding-block: calc(var(--spacing) * 0.5);
-    border-radius: var(--radius-md);
-    border-color: var(--callout-current);
-    border-left-style: var(--tw-border-style, solid);
-    border-left-width: 2px;
-    cursor: help;
-
-    transition: --callout-current 300ms ease-out;
-
-    @property --callout-current {
-      syntax: "<color>";
-      inherits: true;
-      initial-value: transparent;
-    }
-  }
-
-  .markdown-callout:hover {
-    --callout-current: var(--callout-color-hover);
-  }
-
-  .markdown-callout .markdown-callout-title {
-    font-weight: 700;
-    color: var(--callout-current);
-    margin-top: calc(var(--spacing) * 2);
-    margin-bottom: calc(var(--spacing) * 4);
-  }
-
   @apply transition-colors duration-200 ease-out;
 }
 
@@ -439,10 +400,46 @@ code::after {
 code:not(:has(span.line)) {
   font-size: var(--text-sm);
   line-height: var(--tw-leading, var(--text-sm--line-height));
-  background-color: var(--card);
+  background-color: color-mix(in oklch, var(--card) 92%, var(--primary));
   color: var(--card-foreground);
-  border-radius: var(--radius);
+  border-radius: calc(var(--radius) * 0.5);
   padding-inline: calc(var(--spacing) * 1.5);
   padding-block: calc(var(--spacing) * 0.5);
   margin-inline: calc(var(--spacing) * 1);
+}
+
+.markdown-callout {
+  --callout-background-color: var(--card);
+  --callout-color: color-mix(in oklab, var(--primary) 80%, transparent);
+  --callout-color-hover: var(--primary);
+  --callout-current: var(--callout-color);
+
+  background-color: var(--callout-background-color);
+  padding-inline: calc(var(--spacing) * 4);
+  padding-block: calc(var(--spacing) * 0.5);
+  border-radius: var(--radius-md);
+  border-color: var(--callout-current);
+  border-left-style: var(--tw-border-style, solid);
+  border-left-width: 2px;
+  margin-bottom: calc(var(--spacing) * 4);
+  cursor: help;
+
+  transition: --callout-current 300ms ease-out;
+
+  @property --callout-current {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: transparent;
+  }
+}
+
+.markdown-callout:hover {
+  --callout-current: var(--callout-color-hover);
+}
+
+.markdown-callout .markdown-callout-title {
+  font-weight: 700;
+  color: var(--callout-current);
+  margin-top: calc(var(--spacing) * 2);
+  margin-bottom: calc(var(--spacing) * 4);
 }

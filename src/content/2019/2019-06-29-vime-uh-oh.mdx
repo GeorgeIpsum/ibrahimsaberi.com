@@ -12,6 +12,7 @@ tags:
 ---
 
 ## Or How To Leave A Video Platform
+
 It took less than an hour to figure out how to pull all of our videos from Vimeo. What followed, though, was an entire weekend of head-scratching, dealing with messy edge cases, and then waiting for  300-something-GB worth of files to download. Or really, waiting for that download to fail multiple times so I could figure out what went wrong.
 
 ### Vimeo? More Like Vime-Uh-No-Thanks-Really-I'm-Good
@@ -27,9 +28,10 @@ And so on some uneventful day last year I got this email:
 ![how about no](/img/2019-06-29-vime-uh-oh/email.png)
 
 And my immediate thought was:
-> *How about I deal with this like later. Like specifically not right now. Like specifically at an indeterminate time that is potentially never. Like later in the future.*
 
-<cite>Me, idiot, circa 10 months ago</cite>
+> !QUOTE How about I deal with this like later. Like specifically not right now. Like specifically at an indeterminate time that is potentially never. Like later in the future.
+>
+> !VIA Me, idiot, circa 10 months ago
 
 And so now it's June. And we've started migrating our codebase to a mobile app. And it's all dawned on us that "Hey. Uh. We don't really have any use for this Vimeo stuff anymore." And so before we migrate off Vimeo for good we'd like to download all of our videos that are on Vimeo.
 
@@ -56,8 +58,7 @@ And so whenever this occurs you have a neverending transcoding mess[^mess] of a 
 If you're curious, this is what one of these broken bad boys looks like by the way:
 
 ![feels bad](/img/2019-06-29-vime-uh-oh/feels-bad.png)
-
-<blockquote>Vimeo, you need to make your error screens look more _HEY LISTEN! YOU FUCKED UP_ because that's how they make me feel.</blockquote>
+> !FIGCAP Vimeo, you need to make your error screens look more _HEY LISTEN! YOU FUCKED UP_ because that's how they make me feel.
 
 We built a queueing system earlier this year to deal with that problem, and it's gotten the job done so far. But our issues didn't really end there. Vimeo apparently lets you upload any file through its API; these are all  treated equally as video files and once uploaded Vimeo will try to transcode them.
 
@@ -68,20 +69,18 @@ This is fine and dandy if on the client-side you only whitelist certain filetype
 And so the occasional "video" upload would slip through when no actual video file was uploaded. And Vimeo would fail to transcode that pdf, or that jpeg, or that mp3 because, guess what? You can't do that. You can't "transcode" a "pee dee eff." That literally doesn't make any sense. If you attempt to run a pdf file through `ffmpeg`, you will have a bad time.
 
 ![transcoding a pdf. jay peg](/img/2019-06-29-vime-uh-oh/nice.gif)
-
-<blockquote>Now THIS is an error screen that really makes me feel the whole "_attempt to transcode_ bad_vibes.pdf _#3402. Vimeo is very sad now._"</blockquote>
+> !FIGCAP Now THIS is an error screen that really makes me feel the whole "_attempt to transcode_ bad_vibes.pdf _#3402. Vimeo is very sad now._"
 
 Like you literally really can't even begin to treat a pdf as a video file. Even the ones with embedded videos. ESPECIALLY the ones with embedded videos. I actually looked into it.
 
 ![adobe.png](/img/2019-06-29-vime-uh-oh/adobe.png)
-
-<blockquote>This is fine and dandy until you realize that running a headless version of Acrobat Pro (READ: This Isn't Even A Real Thing) just so you can extract a video file and then do things with it is like. Insane.</blockquote>
+> !FIGCAP This is fine and dandy until you realize that running a headless version of Acrobat Pro (**READ: This Isn't Even A Real Thing**) just so you can extract a video file and then do things with it is like. Insane.
 
 This same issue rings true with corrupted video files. Like actual video files[^NOT_PDFS], that after uploading Vimeo is like
 
 [^NOT_PDFS]: *READ*: not pdfs.
 
->*HEY! I GET THAT THIS IS AN MP4 BUT I CAN'T ACTUALLY DEAL WITH THIS. I'M JUST GONNA SIT HERE NOW.*
+>!QUOTE *HEY! I GET THAT THIS IS AN MP4 BUT I CAN'T ACTUALLY DEAL WITH THIS. I'M JUST GONNA SIT HERE NOW.*
 
 and then Vimeo retains those files even though they are useless and can never properly be transcoded in the first place.
 
@@ -91,9 +90,9 @@ No. I promise you. It's only pain ahead.
 
 So we've established that there are multiple kinds of "this video isn't actually a video even though Vimeo says it's a video," all of which happen to exist on our Vimeo account. This is fantastic to know now, and it was also definitely not something I considered when I thought
 
-> *I could probably write a script that downloads all of our account's videos in like an hour.*
-
-<cite>Me, idiot, circa 10 days ago</cite>
+> !QUOTE *I could probably write a script that downloads all of our account's videos in like an hour.*
+>
+> !VIA Me, idiot, circa 10 days ago
 
 And I *technically* wasn't wrong. Despite my grumblings, the Vimeo API is incredibly easy to use. If you have a business account, you can query for all of your videos + their download URLs[^dl].
 
@@ -245,8 +244,7 @@ I can now willingly stop the script at night so I can turn my computer off befor
 9 days ago, I finally finished:
 
 ![thank god](/img/2019-06-29-vime-uh-oh/ITS-OVER.png)
-
-<blockquote>If you look carefully, you can see my computer struggling very hard to load Literally 5000 Video Thumbnails.</blockquote>
+> !FIGCAP If you look carefully, you can see my computer struggling very hard to load Literally 5000 Video Thumbnails.
 
 I wanted to integrate more code samples into this post, but the reality is that this script I wrote is a gross, never-once-refactored, spaghetti mess that nobody should ever, ever see[^lie].
 

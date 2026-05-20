@@ -13,9 +13,8 @@ tags:
 
 A fairly obvious note for this very dated post: This website no longer uses Tufte CSS in really any way, shape, or form. I might create some wrapper in the future that allows viewing this post in what should be its original form, but for now you can view the content and ~imagine~ an awesome Tufte CSS style on top of it.
 
-<blockquote>
-This post is like 95% straight up taken [from](https://edwardtufte.github.io/tufte-css/) [others](http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog) on Tufte CSS.
-</blockquote>
+> [!CAUTION]
+> This post is like 95% straight up taken [from](https://edwardtufte.github.io/tufte-css/) [others](http://clayh53.github.io/tufte-jekyll/articles/15/tufte-style-jekyll-blog) on Tufte CSS.
 
 ## An Intro To Tufte CSS
 
@@ -28,7 +27,9 @@ If you see anything that Tufte CSS could improve, your contribution is welcomed 
 This adaptation of Tufte CSS does diverge slightly from the original guidelines. The core of the guidelines are still the same, but things like link styling have changed. I'll make note of which changes I (or Clay Harmon) have made below.
 
 A final note from Dave Liepmann when he originally wrote on Tufte CSS:
-> [A] reminder about the goal of this project. The web is not print. Webpages are not books. Therefore, the goal of Tufte CSS is not to say “websites should look like this interpretation of Tufte's books” but rather “here are some techniques Tufte developed that we've found useful in print; maybe you can find a way to make them useful on the web”. Tufte CSS is merely a sketch of one way to implement this particular set of ideas. It should be a starting point, not a design goal, because any project should present their information as best suits their particular circumstances.
+> !QUOTE [A] reminder about the goal of this project. The web is not print. Webpages are not books. Therefore, the goal of Tufte CSS is not to say “websites should look like this interpretation of Tufte's books” but rather “here are some techniques Tufte developed that we've found useful in print; maybe you can find a way to make them useful on the web”. Tufte CSS is merely a sketch of one way to implement this particular set of ideas. It should be a starting point, not a design goal, because any project should present their information as best suits their particular circumstances.
+>
+> !VIA Dave Liepmann, [forum post, 'Book design: advice and examples' thread](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)
 
 ## Fundamentals
 
@@ -40,11 +41,11 @@ Organize your document with an `article` element inside your `body` tag. Inside 
 
 Tufte CSS uses `h1` for the document title, `p` with class `subtitle` for the document subtitle, `h2` for section headings, and `h3` for low-level headings. More specific headings are not supported. If you feel the urge to reach for a heading of level 4 or greater, consider redesigning your document:
 
->[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn't require an elaborate hierarchy to organize.[^cite]
+> !QUOTE [It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn't require an elaborate hierarchy to organize.[^cite]
+>
+> !VIA [Edward Tufte, forum post, 'Book design: advice and examples' thread](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)
 
 [^cite]: Markdown doesn't have native `cite` support. I created a cite tag in Liquid that floats the attribution to the right and adds a link if that's present as a 2nd attribute. It's not implemented exactly as it is in Tufte CSS but it gets the job done. 🤷🏾‍
-
-<cite>[Edward Tufte, forum post, 'Book design: advice and examples' thread](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)</cite>
 
 As a bonus, this excerpt regarding the use of headings provides an example of block quotes. ~~In Tufte CSS they are just lightly styled, semantically corrent HTML using `blockquote` and `footer` elements'~~ (refer to footnote 3[^cite] on how this is actually accomplished). See page 20 of [The Visual Display of Quantitative Information](https://www.edwardtufte.com/tufte/books_vdqi) for an example in print.
 
@@ -85,9 +86,9 @@ One of the most distinctive features of Tufte's style is his extensive use of si
 
 [^sn]: This is a sidenote.
 
-> Perhaps you have noticed their use in this document already. You are very astute.
-
-<cite>Dave Liepmann</cite>
+> !QUOTE Perhaps you have noticed their use in this document already. You are very astute.
+>
+> !VIA Dave Liepmann
 
 I really couldn't allow this part of the original Tufte CSS document to ever be attributable to me (not that the vast majority of this document should ever be attributable to me). So here's the quote, to be preserved here for posterity. Now. Um. Back to sidenotes.
 
@@ -140,7 +141,7 @@ Figures should try to use the `figure` element, which by default are constrained
 
 <cite>F.J. Cole, “The History of Albrecht Dürer's Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte's *Visual Explanations*.</cite>
 
-But tight integration of graphics with text is central to Tufte’s work even when those graphics are ancillary to the main body of a text. In many of those cases, a margin figure may be most appropriate. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a `p` tag, as seen to the right of this paragraph.
+But tight integration of graphics with text is central to Tufte's work even when those graphics are ancillary to the main body of a text. In many of those cases, a margin figure may be most appropriate. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a `p` tag, as seen to the right of this paragraph.
 
 For whatever odd reason, full-width figures won't properly clear any margin notes or margin figures if the space they inhabit clashes. I'm not sure if this is a bug with the Liquid tag used for full-width figures (I don't think it is), but it doesn't seem like it's related to the CSS being different; I've looked at both the theme and Tufte CSS and haven't found any differences that would cause this problem. Anyway, this additional text and explanation is primarily meant to help the full-width figure below clear the margin figure above.
 
@@ -158,7 +159,9 @@ One obstacle to creating elegant figures on the web is the difficulty of handlin
 </figure>
 ```
 
-<iframe src="https://www.youtube.com/embed/YslQ2625TR4" frameBorder="0" allowFullScreen></iframe>
+<figure>
+<iframe src="https://www.youtube.com/embed/YslQ2625TR4" allowFullScreen></iframe>
+</figure>
 
 I implemented this as a Liquid tag that only accepts the `src` attribute for the iframe as an argument. The Tufte CSS original implementation is kind of ugly so I also reduced the `padding-bottom` that determines the  height for the iframe so that it isn't so squarish. The implementation certainly isn't perfect by any means and I'll be toying around with this in the future to see if there's a better way to inject the current document width/ height into the iframe for this Liquid tag.
 
@@ -194,8 +197,7 @@ This method breaks if you put HTML in a code block. You can use triple tildes (~
 I'm not gonna lie, I think these just might be the funniest things on the planet. I have no idea what function they serve other than to look like cool abstract art. Here's one below:
 
 ![imagequilt](/img/2019-05-01-tufte-css/imagequilt-chinese-calligraphy.png)
-
-<cite>ImageQuilt Example</cite>
+> !FIGCAP ImageQuilt Example
 
 The original Tufte CSS has included "support" for these. I have no idea what the hell that means. The above image is just a `.png` file. I haven't really looked into what an ImageQuilt is and I probably don't plan on "supporting" them on this site.
 
@@ -265,9 +267,10 @@ Tables are, frankly, a pain in the ass to create. That said, they often are one 
 
 Note that when writing Jekyll Markdown content, there will often be a need to get some dirt under your fingernails and stoop to writing a little honest-to-god html. Yes, all that hideous ```<table>..<thead>..<th>``` nonsense. *And* you must wrap the unholy mess in a ```<div class="table-wrapper">``` tag to ensure that the table stays centered in the main content column.
 
-Tables are designed with an `overflow: scroll;` property to create slider bars when the viewport is narrow. This is so that you do not collapse all your beautiful data into a jumble of letters and numbers when you view it on your smartphone.
+Tables are designed with an `overflow: scroll;` property to create slider bars when the viewport is narrow. This is so that you do not collapse all your beautiful data into a jumble of letters and numbers when you view it on your smartphone.[^table_1]
 
-[^table_1]
+[^table_1]: *Table 1*: A table with default style formatting
+
 <div className="table-wrapper">
   <table className="table-alpha overflow-x-scroll" id="newspaper-tone">
     <thead>
@@ -327,11 +330,9 @@ Tables are designed with an `overflow: scroll;` property to create slider bars w
   </table>
 </div>
 
-[^table_1]: *Table 1*: A table with default style formatting
-
 This is not the One True Table. Such a style does not exist. One must craft each data table with custom care to the narrative one is telling with that specific data. So take this not as “the table style to use”, but rather as “a table style to start from”. From here, use principles to guide you: avoid chartjunk, optimize the data-ink ratio (“within reason”, as Tufte says), and “mobilize every graphical element, perhaps several times over, to show the data.[^table] Furthermore, one must know when to reach for more complex data presentation tools, like a custom graphic or a JavaScript charting library.
 
-[^table]: Page 139, _The Visual Display of Quantitative Information_, Edward Tufte 2001.
+[^table]: <cite>Page 139, _The Visual Display of Quantitative Information_, Edward Tufte 2001.</cite>
 
 As an example of alternative table styles, academic publications written in <span className="latex">L<sup>a</sup>T<sub>e</sub>X</span> often rely on the `booktabs` package to produce clean, clear tables. Similar results can be achieved in Tufte CSS with the `booktabs` class, as demonstrated in this table:
 [^table_2]

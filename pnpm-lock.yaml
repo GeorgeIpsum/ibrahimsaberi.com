@@ -34,6 +34,12 @@ importers:
       '@local/rehype-callouts':
         specifier: workspace:*
         version: link:packages/rehype-callouts
+      '@local/rehype-figcaptions':
+        specifier: workspace:*
+        version: link:packages/rehype-figcaptions
+      '@local/rehype-quotes':
+        specifier: workspace:*
+        version: link:packages/rehype-quotes
       '@mdx-js/loader':
         specifier: 3.1.1
         version: 3.1.1(acorn@8.14.0)
@@ -248,6 +254,25 @@ importers:
         version: 6.0.3
 
   packages/rehype-figcaptions:
+    dependencies:
+      hast-util-whitespace:
+        specifier: 3.0.0
+        version: 3.0.0
+      unist-util-visit:
+        specifier: 5.1.0
+        version: 5.1.0
+    devDependencies:
+      '@types/hast':
+        specifier: 3.0.4
+        version: 3.0.4
+      '@types/unist':
+        specifier: 3.0.3
+        version: 3.0.3
+      typescript:
+        specifier: 6.0.3
+        version: 6.0.3
+
+  packages/rehype-quotes:
     dependencies:
       hast-util-whitespace:
         specifier: 3.0.0
