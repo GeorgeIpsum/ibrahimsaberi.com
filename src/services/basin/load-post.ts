@@ -22,7 +22,8 @@ type FileEntry = {
 };
 
 /**
- * Filename `YYYY-MM-DD` → ISO UTC instant of midnight in AUTHOR_TIMEZONE.
+ * Filename `YYYY-MM-DD` → ISO 8601 string for midnight in AUTHOR_TIMEZONE,
+ * carrying that zone's offset (e.g. `2026-05-20T00:00:00.000-04:00`).
  * Stored as a string so the value survives `"use cache"` serialization
  * (TZDate's prototype is lost through the JSON-ish cache boundary).
  * Consumers call `new Date(publishedAt).toLocaleDateString(..., {timeZone})`
