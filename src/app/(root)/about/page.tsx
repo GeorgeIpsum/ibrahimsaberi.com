@@ -57,7 +57,9 @@ export default function Page() {
 
       <h3 className="reveal">Viewify</h3>
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
-        <time dateTime="2018">2018</time> - <time dateTime="2019">2019</time>
+        <time dateTime="2018">2018</time>
+        <span>{"\u2013"}</span>
+        <time dateTime="2019">2019</time>
       </div>
       <p className="reveal">
         My first official job as a developer was building a large-ish Angular 5
@@ -80,7 +82,9 @@ export default function Page() {
 
       <h3 className="reveal">MaxRewards</h3>
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
-        <time dateTime="2019">2019</time> - <time dateTime="2022">2022</time>
+        <time dateTime="2019">2019</time>
+        <span>{"\u2013"}</span>
+        <time dateTime="2022">2022</time>
       </div>
       <p className="reveal">
         From there I went on to MaxRewards, where I helped build and maintain a
@@ -114,7 +118,8 @@ export default function Page() {
 
       <h3 className="reveal">Studio HMR</h3>
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
-        <time dateTime="2022">2022</time> -{" "}
+        <time dateTime="2022">2022</time>
+        <span>{"\u2013"}</span>
         <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
       </div>
       <p className="reveal">
@@ -128,7 +133,8 @@ export default function Page() {
 
       <h3 className="reveal">tilli software</h3>
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
-        <time dateTime="2023">2023</time> -{" "}
+        <time dateTime="2023">2023</time>
+        <span>{"\u2013"}</span>
         <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
       </div>
       <p className="reveal font-black">YOU (WE?) ARE HERE.</p>
