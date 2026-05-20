@@ -5,6 +5,7 @@ import { TZDate } from "@date-fns/tz";
 import frontMatter from "front-matter";
 import { notFound } from "next/navigation";
 import { cache } from "react";
+import { classifyContentPath } from "./content-paths";
 import { FrontmatterSchema, type Post, type PostListEntry } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "src/content");
@@ -14,16 +15,10 @@ const CONTENT_DIR = path.join(process.cwd(), "src/content");
 // so `toLocaleDateString()` formats in this tz automatically.
 export const AUTHOR_TIMEZONE = "America/New_York";
 
-// Convention: every published post lives at `src/content/YYYY-MM-DD-<slug>.mdx`.
-// The filename date is the source of truth for publishedAt — drives both the
-// sort order (free lexicographic = chronological) and the value injected into
-// the frontmatter before schema validation.
-const FILE_PATTERN = /^(\d{4}-\d{2}-\d{2})-(.+)\.mdx$/;
-
 type FileEntry = {
-  file: string; // "2026-05-18-welcome.mdx"
-  slug: string; // "welcome"
-  dateStr: string; // "2026-05-18"
+  file: string; // path relative to CONTENT_DIR, POSIX sep: "2024/2024-01-08-post.mdx"
+  slug: string; // "post"
+  dateStr: string; // "2024-01-08"
 };
 
 /**
@@ -49,20 +44,58 @@ function normalizeAttributes(
   return out;
 }
 
-// Cheap layer: directory scan + filename parse only. No file reads, no YAML
-// parsing. Used wherever we just need sort order, count, or to find a file
-// by slug.
+// Emit one warning per slug shared by two or more files. Duplicate slugs are
+// allowed (loadPostMeta resolves to the newest by date) but worth surfacing.
+function warnDuplicateSlugs(entries: FileEntry[]): void {
+  const bySlug = new Map<string, string[]>();
+  for (const e of entries) {
+    const files = bySlug.get(e.slug);
+    if (files) files.push(e.file);
+    else bySlug.set(e.slug, [e.file]);
+  }
+  for (const [slug, files] of bySlug) {
+    if (files.length > 1) {
+      console.warn(
+        `Duplicate post slug "${slug}" — ${files.length} files: ${files.join(", ")}`,
+      );
+    }
+  }
+}
+
+// Cheap layer: recursive directory scan + filename/folder classification.
+// No file reads, no YAML parsing. Used wherever we just need sort order,
+// count, or to find a file by slug. Throws (failing the build) when a post
+// sits in a year/month folder that contradicts its filename date.
 const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
   "use cache";
-  const files = await readdir(CONTENT_DIR);
-  return files
-    .map((f): FileEntry | null => {
-      const m = f.match(FILE_PATTERN);
-      if (!m) return null;
-      return { file: f, dateStr: m[1], slug: m[2] };
-    })
-    .filter((e): e is FileEntry => e !== null)
-    .sort((a, b) => b.dateStr.localeCompare(a.dateStr));
+  const paths = await readdir(CONTENT_DIR, { recursive: true });
+  const entries: FileEntry[] = [];
+  const invalid: { file: string; reason: string }[] = [];
+
+  for (const rel of paths) {
+    if (!rel.endsWith(".mdx")) continue;
+    const classified = classifyContentPath(rel);
+    if (classified.kind === "skip") continue;
+    if (classified.kind === "invalid") {
+      invalid.push({ file: classified.file, reason: classified.reason });
+      continue;
+    }
+    entries.push({
+      file: classified.file,
+      dateStr: classified.dateStr,
+      slug: classified.slug,
+    });
+  }
+
+  if (invalid.length > 0) {
+    const list = invalid
+      .map((e) => `  - src/content/${e.file}: ${e.reason}`)
+      .join("\n");
+    throw new Error(`Invalid content placement:\n${list}`);
+  }
+
+  warnDuplicateSlugs(entries);
+  return entries.sort((a, b) => b.dateStr.localeCompare(a.dateStr));
 });
 
 async function parseEntry(entry: FileEntry): Promise<PostListEntry> {
