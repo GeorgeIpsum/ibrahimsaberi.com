@@ -78,36 +78,58 @@ export function PaginationLink({
   });
 }
 
+type MovePaginationProps = React.ComponentProps<typeof PaginationLink> & {
+  text?: string;
+  disabled?: boolean;
+  iconClassName?: string;
+};
+
 export function PaginationPrevious({
   className,
+  text = "Previous",
+  disabled,
+  iconClassName,
   ...props
-}: React.ComponentProps<typeof PaginationLink>): React.ReactElement {
+}: MovePaginationProps): React.ReactElement {
   return (
     <PaginationLink
-      aria-label="Go to previous page"
-      className={cn("max-sm:aspect-square max-sm:p-0", className)}
+      aria-label={props["aria-label"] ?? "Go to previous page"}
+      aria-disabled={disabled}
+      className={cn(
+        "max-sm:aspect-square max-sm:p-0",
+        disabled && "pointer-events-none cursor-not-allowed opacity-50",
+        className,
+      )}
       size="default"
       {...props}
     >
-      <ChevronLeftIcon className="sm:-ms-1" />
-      <span className="max-sm:hidden">Previous</span>
+      <ChevronLeftIcon className={cn("sm:-ms-1", iconClassName)} />
+      <span className="max-sm:hidden">{text}</span>
     </PaginationLink>
   );
 }
 
 export function PaginationNext({
   className,
+  text = "Next",
+  disabled,
+  iconClassName,
   ...props
-}: React.ComponentProps<typeof PaginationLink>): React.ReactElement {
+}: MovePaginationProps): React.ReactElement {
   return (
     <PaginationLink
-      aria-label="Go to next page"
-      className={cn("max-sm:aspect-square max-sm:p-0", className)}
+      aria-label={props["aria-label"] ?? "Go to next page"}
+      aria-disabled={disabled}
+      className={cn(
+        "max-sm:aspect-square max-sm:p-0",
+        disabled && "pointer-events-none cursor-not-allowed opacity-50",
+        className,
+      )}
       size="default"
       {...props}
     >
-      <span className="max-sm:hidden">Next</span>
-      <ChevronRightIcon className="sm:-me-1" />
+      <span className="max-sm:hidden">{text}</span>
+      <ChevronRightIcon className={cn("sm:-me-1", iconClassName)} />
     </PaginationLink>
   );
 }

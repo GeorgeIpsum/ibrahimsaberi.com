@@ -1,8 +1,6 @@
 "use client";
 
-import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
-import type * as React from "react";
 import { buttonVariants } from "@/components/atoms/button";
 import {
   Pagination,
@@ -10,8 +8,9 @@ import {
   PaginationEllipsis,
   PaginationItem,
   PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
 } from "@/components/atoms/pagination";
-import { cn } from "@/css/lib";
 import {
   nextHref,
   type PageInfo,
@@ -34,15 +33,27 @@ export function PaginationControls({ page, basePath = "/basin" }: Props) {
   return (
     <Pagination className="mt-8 border-border border-t pt-4">
       <PaginationContent className="w-full justify-between">
-        <PaginationItem className="font-heading">
-          <NavLink
+        <PaginationItem>
+          {/* <NavLink
             disabled={!page.hasPrev}
             href={prevHref(page.pageNumber, basePath)}
             label="Go to newer posts"
           >
             <ChevronLeftIcon />
             Newer
-          </NavLink>
+          </NavLink> */}
+          <PaginationPrevious
+            disabled={!page.hasPrev}
+            text="newer"
+            aria-label="Go to newer posts"
+            iconClassName="size-4"
+            render={
+              <Link
+                className="flex items-center gap-1 font-heading text-sm leading-none"
+                href={prevHref(page.pageNumber, basePath)}
+              />
+            }
+          />
         </PaginationItem>
 
         <div className="flex items-center justify-center gap-1">
@@ -77,49 +88,29 @@ export function PaginationControls({ page, basePath = "/basin" }: Props) {
           })}
         </div>
 
-        <PaginationItem className="w-24 font-heading">
-          <NavLink
+        <PaginationItem>
+          {/* <NavLink
             disabled={!page.hasNext}
             href={nextHref(page.pageNumber, basePath)}
             label="Go to older posts"
           >
             Older
             <ChevronRightIcon />
-          </NavLink>
+          </NavLink> */}
+          <PaginationNext
+            disabled={!page.hasNext}
+            text="older"
+            aria-label="Go to older posts"
+            iconClassName="size-4"
+            render={
+              <Link
+                className="flex items-center gap-1 font-heading text-sm leading-none"
+                href={nextHref(page.pageNumber, basePath)}
+              />
+            }
+          />
         </PaginationItem>
       </PaginationContent>
     </Pagination>
-  );
-}
-
-function NavLink({
-  children,
-  disabled,
-  href,
-  label,
-}: {
-  children: React.ReactNode;
-  disabled: boolean;
-  href: string;
-  label: string;
-}) {
-  return (
-    <PaginationLink
-      aria-disabled={disabled || undefined}
-      aria-label={label}
-      className={cn(
-        buttonVariants({ size: "default", variant: "ghost" }),
-        disabled && "pointer-events-none opacity-50",
-      )}
-      render={
-        disabled ? (
-          <span className="w-22" />
-        ) : (
-          <Link className="w-22" href={href} />
-        )
-      }
-    >
-      {children}
-    </PaginationLink>
   );
 }
