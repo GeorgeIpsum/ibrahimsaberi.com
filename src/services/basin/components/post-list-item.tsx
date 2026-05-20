@@ -1,7 +1,7 @@
 import { Scroll } from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/atoms/badge";
-import { InlineMarkdown } from "@/components/inline-markdown";
+import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { AUTHOR_TIMEZONE } from "../load-post";
 import type { PostListEntry } from "../types";
 

@@ -3,8 +3,17 @@ import { env } from "@/env";
 
 type TokenCache = { accessToken: string; expiresAt: number };
 
+// Module-scoped cache is the ONLY cache for the access token. The token fetch
+// itself uses `cache: "no-store"` — Next-caching it would let a stale-while-
+// revalidate hit return an already-expired token while the module cache trusts
+// `expires_in` relative to now, masking the real expiry.
 let cache: TokenCache | null = null;
 const SAFETY_WINDOW_MS = 60_000;
+
+/** Drop the cached token so the next getAccessToken() forces a fresh refresh. */
+export function clearTokenCache(): void {
+  cache = null;
+}
 
 export async function getAccessToken(): Promise<string> {
   if (cache && cache.expiresAt > Date.now() + SAFETY_WINDOW_MS) {
@@ -25,8 +34,7 @@ export async function getAccessToken(): Promise<string> {
       grant_type: "refresh_token",
       refresh_token: env.SPOTIFY_REFRESH_TOKEN,
     }),
-    next: { revalidate: 10, tags: ["spotify-token"] }, // revalidate every 10 seconds
-    // cache: "no-store",
+    cache: "no-store",
   });
 
   if (!res.ok) {

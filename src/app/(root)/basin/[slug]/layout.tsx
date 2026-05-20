@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Badge } from "@/components/atoms/badge";
-import { InlineMarkdown } from "@/components/inline-markdown";
+import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { AUTHOR_TIMEZONE, loadPostMeta } from "@/services/basin/load-post";
 
 type Props = {

@@ -1,6 +1,5 @@
 import "server-only";
-import { revalidateTag } from "next/cache";
-import { getAccessToken } from "./auth";
+import { clearTokenCache, getAccessToken } from "./auth";
 
 export type NowPlaying = {
   isPlaying: boolean;
@@ -30,11 +29,17 @@ type CurrentlyPlayingResponse = {
 };
 
 export async function getNowPlaying(): Promise<NowPlaying | null> {
+  return fetchNowPlaying(false);
+}
+
+async function fetchNowPlaying(
+  isRetry: boolean,
+): Promise<NowPlaying | null> {
   let token: string;
   try {
     token = await getAccessToken();
   } catch (e) {
-    console.error("[spotify] failed to obtain access token:", e);
+    console.warn("[spotify] failed to obtain access token:", e);
     return null;
   }
 
@@ -42,19 +47,23 @@ export async function getNowPlaying(): Promise<NowPlaying | null> {
     "https://api.spotify.com/v1/me/player/currently-playing",
     {
       headers: { Authorization: `Bearer ${token}` },
-      next: { revalidate: 0 },
-      // cache: "no-store",
+      cache: "no-store",
     },
   );
 
   if (res.status === 204) return null;
+
+  // Token expired mid-flight — drop the cached token and retry once with a
+  // fresh one. Self-heals instead of surfacing a 401 to the dev overlay.
+  if (res.status === 401 && !isRetry) {
+    clearTokenCache();
+    return fetchNowPlaying(true);
+  }
+
   if (!res.ok) {
-    console.error(
-      `[spotify] currently-playing returned ${res.status}: ${await res.text()}`,
-    );
-    if (res.status === 401) {
-      revalidateTag("spotify-token", { expire: 0 }); // Invalidate token cache on unauthorized error
-    }
+    // console.warn (not console.error) so Next's dev overlay doesn't treat a
+    // recoverable upstream hiccup as a page-breaking error.
+    console.warn(`[spotify] currently-playing returned ${res.status}`);
     return null;
   }
 

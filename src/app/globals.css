@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "katex/dist/katex.min.css";
+@import "tw-animate-css";
+
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/forms";
 
@@ -316,6 +318,30 @@
   transform-box: fill-box;
   transform-origin: center;
   animation: audio-bar 0.9s ease-in-out infinite;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scroll-driven reveal. Progressive enhancement: outside this @supports block
+   no styles apply, so browsers without animation-timeline render the element
+   visible with no animation, no flash, no fallback. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 10% entry 55%;
+    }
+  }
 }
 
 /**

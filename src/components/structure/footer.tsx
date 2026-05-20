@@ -21,9 +21,9 @@ export const Footer: React.FC = () => {
           </Link>
         </div>
         <div className="grid grid-cols-3 grid-rows-1 items-center justify-center gap-6 sm:gap-4">
-          <Link href="/feed.xml" className="hover:text-primary">
+          <a href="/feed.xml" className="hover:text-primary">
             <Rss className="size-5 md:size-4" />
-          </Link>
+          </a>
           <Link
             href="https://www.linkedin.com/in/ibrahimsaberi/"
             target="_blank"

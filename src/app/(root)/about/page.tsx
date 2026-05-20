@@ -1,5 +1,166 @@
-import { UnderConstruction } from "@/components/navigation/under-construction";
+import type { Metadata } from "next";
+import { Suspense } from "react";
+import {
+  PreviewCard,
+  PreviewCardPopup,
+  PreviewCardTrigger,
+} from "@/components/atoms/preview-card";
+import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
+import { HelloGradient } from "@/components/special/hello";
+
+const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Page() {
-  return <UnderConstruction title="About" />;
+  return (
+    <div className="prose min-h-[calc(100svh-10rem)]">
+      <div className="mb-8 flex">
+        <Suspense
+          fallback={<h1 className="animate-skeleton text-3xl">{"‎"}</h1>}
+        >
+          <HelloGradient />
+        </Suspense>
+      </div>
+      <p className="reveal">
+        I'm <span className="font-bold">Ibrahim</span>, a product-focused
+        software engineer based in Bethesda, Maryland. I currently work as a{" "}
+        <span className="font-bold">product owner</span> at{" "}
+        <span className="font-bold font-heading">
+          <a
+            href="https://tillisoftware.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="sorry that this website is so jank. I don't have the bandwidth to make it better at the moment, and so you have to deal with this vibe coded slop"
+          >
+            tilli software
+          </a>
+        </span>
+        , where I've built out our consumer-facing products and own the
+        company's overall product strategy. My team is also responsible for
+        investigating new tech, solving really weird problems, and building
+        internal tooling to connect our different products and teams.
+      </p>
+      <h2 className="reveal">How we got here</h2>
+      <p className="reveal">
+        I've been programming since my dad downloaded NetBeans on the family
+        desktop computer; the first program I "wrote" was a hack of the{" "}
+        <a
+          href="https://www.greenfoot.org/doc/tut-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Greenfoot wombat scenario
+        </a>
+        . I gave those wombats access to meteor, hyper beam, and hydro pump, and
+        then let them go wild. Unfortunately, I haven't been able to recreate
+        that thrill since.
+      </p>
+
+      <h3 className="reveal">Viewify</h3>
+      <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
+        <time dateTime="2018">2018</time> - <time dateTime="2019">2019</time>
+      </div>
+      <p className="reveal">
+        My first official job as a developer was building a large-ish Angular 5
+        PWA + PHP (Yii2) backend. That experience involved wearing{" "}
+        <span>
+          <PreviewCard>
+            <PreviewCardTrigger>multiple hats</PreviewCardTrigger>
+            <PreviewCardPopup>
+              many of which had nothing to do with software development
+              whatsoever
+            </PreviewCardPopup>
+          </PreviewCard>
+        </span>
+        , and it made me really understand and enjoy owning an entire software
+        stack. It was also my first time building an actual "product," as
+        opposed to just hobby software or weekend projects, and I learned a lot
+        (the hard way) about what it takes to build something that real users
+        can use reliably and enjoyably.
+      </p>
+
+      <h3 className="reveal">MaxRewards</h3>
+      <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
+        <time dateTime="2019">2019</time> - <time dateTime="2022">2022</time>
+      </div>
+      <p className="reveal">
+        From there I went on to MaxRewards, where I helped build and maintain a
+        large{" "}
+        <span>
+          <PreviewCard>
+            <PreviewCardTrigger>React Native</PreviewCardTrigger>
+            <PreviewCardPopup>and met my first love, MobX</PreviewCardPopup>
+          </PreviewCard>
+        </span>{" "}
+        app and Node.js backend. Most importantly, I got a real feel for
+        "hacking" in a garage-mode setting: COVID hit the US in full force just
+        a few months into the job, and it completely derailed our plans to raise
+        a seed round (VCs were reasonably spooked by the potential end of
+        society). During this time, we had to use the skills we developed to
+        build our internal bank connectors (reverse-engineering, scraping,
+        dealing with C&Ds from Chase) to{" "}
+        <span>
+          <PreviewCard>
+            <PreviewCardTrigger>feed ourselves</PreviewCardTrigger>
+            <PreviewCardPopup>
+              seriously, thank you T-Mobile for T-Mobile Tuesdays and all the
+              free Panera gift cards
+            </PreviewCardPopup>
+          </PreviewCard>
+        </span>{" "}
+        and pay rent. Duking it out with all of those circumstances, launching
+        our V2 product, and ultimately raising a successful seed round was
+        probably the most formative experience of my career.
+      </p>
+
+      <h3 className="reveal">Studio HMR</h3>
+      <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
+        <time dateTime="2022">2022</time> -{" "}
+        <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
+      </div>
+      <p className="reveal">
+        As appreciative as I am today, I was pretty burnt out at this point. I
+        created Studio HMR as a space for me to start exploring my own product
+        ideas and to hopefully soft-launch some gamedev projects that I had been
+        discussing with friends and former colleagues. We still haven't gotten
+        around to actually publishing a game yet, but hey, I have a lot of cool
+        concept art now.
+      </p>
+
+      <h3 className="reveal">tilli software</h3>
+      <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
+        <time dateTime="2023">2023</time> -{" "}
+        <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
+      </div>
+      <p className="reveal font-black">YOU (WE?) ARE HERE.</p>
+
+      <h2 className="reveal">Sparking joy</h2>
+      <p className="reveal">More like parking toy amirite fellas</p>
+
+      <h2 className="reveal">About this website</h2>
+      <p className="reveal">
+        I enjoy building things, whether it be in real life or the digital
+        realm. This website is my personal blog and playground for experimenting
+        with different web tech and design ideas. You'll see a mix of technical
+        posts, ramblings, rants, and (sometimes bizarre) tech demos.
+      </p>
+
+      <p className="reveal">Thanks for stopping by!</p>
+
+      <div className="reveal mb-12">
+        <p className="mb-0 text-sm">Signed,</p>
+        <Suspense>
+          <GradientTextReveal
+            delay={1}
+            className="font-heading"
+            text="Ibrahim Saberi"
+          />
+        </Suspense>
+      </div>
+    </div>
+  );
 }
+
+export const metadata: Metadata = {
+  title: "about",
+  description: "A little bit about me and this website.",
+};
