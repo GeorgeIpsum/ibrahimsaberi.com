@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { originFromHeaders } from "@/services/basin/build-feed";
+import { originFromHeaders } from "../src/services/basin/build-feed";
 
 function makeHeaders(
   init: Record<string, string>,

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { FrontmatterSchema } from "@/services/basin/types";
+import { FrontmatterSchema } from "../src/services/basin/types";
 
 describe("FrontmatterSchema", () => {
   it("accepts a minimal post with only the required fields", () => {
