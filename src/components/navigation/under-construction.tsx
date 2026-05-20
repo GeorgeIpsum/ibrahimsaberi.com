@@ -16,7 +16,7 @@ export const UnderConstruction: React.FC<UnderConstructionProps> = ({
   children,
 }) => {
   return (
-    <Card>
+    <Card className="mb-4">
       <CardHeader>
         <CardTitle>{title}: Under Construction</CardTitle>
         <CardDescription>Come back soon!</CardDescription>

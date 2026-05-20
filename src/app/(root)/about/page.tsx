@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import {
+  Accordion,
+  AccordionItem,
+  AccordionPanel,
+  AccordionTrigger,
+} from "@/components/atoms/accordion";
+import {
   PreviewCard,
   PreviewCardPopup,
   PreviewCardTrigger,
@@ -12,7 +18,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Page() {
   return (
-    <div className="prose min-h-[calc(100svh-10rem)]">
+    <div className="prose mx-auto min-h-[calc(100svh-10rem)] px-2">
       <div className="mb-8 flex">
         <Suspense
           fallback={<h1 className="animate-skeleton text-3xl">{"‎"}</h1>}
@@ -39,6 +45,10 @@ export default function Page() {
         investigating new tech, solving really weird problems, and building
         internal tooling to connect our different products and teams.
       </p>
+
+      <h2 className="reveal">Sparking joy</h2>
+      <p className="reveal">More like parking toy amirite fellas</p>
+
       <h2 className="reveal">How we got here</h2>
       <p className="reveal">
         I've been programming since my dad downloaded NetBeans on the family
@@ -139,9 +149,6 @@ export default function Page() {
       </div>
       <p className="reveal font-black">YOU (WE?) ARE HERE.</p>
 
-      <h2 className="reveal">Sparking joy</h2>
-      <p className="reveal">More like parking toy amirite fellas</p>
-
       <h2 className="reveal">About this website</h2>
       <p className="reveal">
         I enjoy building things, whether it be in real life or the digital
@@ -152,9 +159,11 @@ export default function Page() {
 
       <p className="reveal">Thanks for stopping by!</p>
 
-      <div className="reveal mb-12">
+      <div className="reveal mb-24">
         <p className="mb-0 text-sm">Signed,</p>
-        <Suspense>
+        <Suspense
+          fallback={<h2 className="animate-skeleton text-2xl">{"‎"}</h2>}
+        >
           <GradientTextReveal
             delay={1}
             className="font-heading"
@@ -162,9 +171,76 @@ export default function Page() {
           />
         </Suspense>
       </div>
+
+      <h2>Frequenly Asked Questions</h2>
+      <Accordion className="not-prose mb-24 w-full">
+        {faqs.map(({ question, answer, id }) => (
+          <AccordionItem key={id} value={id}>
+            <AccordionTrigger>{question}</AccordionTrigger>
+            <AccordionPanel>
+              {Array.isArray(answer) ? (
+                answer.map((item, index) => (
+                  <p className="mb-2" key={index.toString()}>
+                    {item}
+                  </p>
+                ))
+              ) : (
+                <p className="mb-2">{answer}</p>
+              )}
+            </AccordionPanel>
+          </AccordionItem>
+        ))}
+      </Accordion>
     </div>
   );
 }
+
+type FAQ = {
+  question: string;
+  answer: string | string[];
+  id: string;
+};
+const faqs: FAQ[] = [
+  {
+    question: "What's the stack?",
+    answer: [
+      "Next.js (PPR + cache components), Tailwind, MDX for content, Base UI + coss ui for atoms, and some custom theme colors.",
+      "I don't even really like this stack (Suspense boundaries have ruined my life), but hey, the devil you know",
+    ],
+    id: "stack",
+  },
+  {
+    question: "What's your favorite stack?",
+    answer:
+      "Peanut butter and jelly with a glass of cold milk. (Built with MobX)",
+    id: "favorite-snack",
+  },
+  {
+    question: "What's with all the weird terminology?",
+    answer:
+      "Things are better when they're weird and a tad bit mysterious. This is, in fact, my swamp. And the bog water will flow.",
+    id: "esoteria",
+  },
+  {
+    question: "Why do you write like that?",
+    answer: [
+      "I'm a David Foster Wallace fan. Unless you meant the immaturity/cringiness, in which case, sorry, I was not socialized right and picked up too many habits from early 2010s tumblr.",
+      "It was not for the best. I don't think I will or want to change.",
+    ],
+    id: "youweird",
+  },
+  {
+    question: 'What does "a whisper, a wave" mean?',
+    answer:
+      "You can't just ask people what \"a whisper, a wave\" means. Won't anyone think of the children?",
+    id: "a_whisper__a_wave",
+  },
+  {
+    question: "You are so cool. Can I give you one million dollars?",
+    answer: "hey this mf spittin",
+    id: "cash",
+  },
+];
 
 export const metadata: Metadata = {
   title: "about",

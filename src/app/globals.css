@@ -331,15 +331,18 @@
   }
 }
 
-/* Scroll-driven reveal. Progressive enhancement: outside this @supports block
-   no styles apply, so browsers without animation-timeline render the element
-   visible with no animation, no flash, no fallback. */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .reveal {
       animation: reveal-up linear both;
       animation-timeline: view();
-      animation-range: entry 10% entry 55%;
+      animation-range: entry 60% cover 25%;
+    }
+
+    .reveal-bottom {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 80% entry 100%;
     }
   }
 }
