@@ -27,11 +27,13 @@ export const GET = async (request: NextRequest) => {
   let pasta: (typeof copypasta)[number] | null = null;
   if (request.headers.get("X-Pasta")) {
     const title = request.headers.get("X-Pasta");
-    pasta = copypasta.find((p) => p.title === title);
+    pasta = copypasta.find((p) => p.title === title) ?? null;
   }
 
   if (!pasta) {
-    pasta = copypasta[Math.floor(Math.random() * copypasta.length)];
+    pasta = copypasta[
+      Math.floor(Math.random() * copypasta.length)
+    ] as (typeof copypasta)[number];
   }
 
   return new NextResponse(pasta.content, {
