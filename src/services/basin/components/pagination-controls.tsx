@@ -11,6 +11,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/atoms/pagination";
+import { cn } from "@/css/lib";
 import {
   nextHref,
   type PageInfo,
@@ -91,15 +92,18 @@ export function PaginationControls({
   );
 }
 
-const NavLink: React.FC<React.PropsWithChildren<{ href: string }>> = ({
-  href,
-  children,
-}) => {
+const NavLink: React.FC<
+  React.ComponentProps<typeof PaginationLink> & { href: string }
+> = ({ href, children, ...props }) => {
   // add a mb-1 to the internal span to deal with weird font baseline nonsense when using lowercased text
   return (
     <Link
+      {...props}
       href={href}
-      className="flex h-6 items-center gap-1 font-heading text-sm lowercase [&>span]:mb-1"
+      className={cn(
+        props.className,
+        "flex h-6 items-center gap-1 font-heading text-sm lowercase [&>span]:mb-1",
+      )}
     >
       {children}
     </Link>
