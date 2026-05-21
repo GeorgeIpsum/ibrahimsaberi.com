@@ -2,10 +2,10 @@ import "server-only";
 import { connection } from "next/server";
 import { Suspense } from "react";
 import {
-  PreviewCard,
-  PreviewCardPopup,
-  PreviewCardTrigger,
-} from "@/components/atoms/preview-card";
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/atoms/popover";
 import { AudioWaveform } from "@/components/icons/audio-waveform";
 import { cn } from "@/css/lib";
 import { getNowPlayingSSR, Listening } from "./listening";
@@ -44,18 +44,18 @@ async function SpotifyIndicatorInner() {
         },
       )}
     >
-      <PreviewCard>
-        <PreviewCardTrigger delay={300}>
+      <Popover>
+        <PopoverTrigger openOnHover delay={300}>
           <AudioWaveform size={16} playing={!!nowPlaying} />
-        </PreviewCardTrigger>
-        <PreviewCardPopup
+        </PopoverTrigger>
+        <PopoverContent
           className="w-80 bg-background/75 backdrop-blur"
           align="end"
           sideOffset={12}
         >
           <Listening />
-        </PreviewCardPopup>
-      </PreviewCard>
+        </PopoverContent>
+      </Popover>
     </div>
   );
 }

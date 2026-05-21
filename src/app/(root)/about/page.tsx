@@ -7,10 +7,10 @@ import {
   AccordionTrigger,
 } from "@/components/atoms/accordion";
 import {
-  PreviewCard,
-  PreviewCardPopup,
-  PreviewCardTrigger,
-} from "@/components/atoms/preview-card";
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/atoms/popover";
 import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
 import { HelloGradient } from "@/components/special/hello";
 
@@ -75,13 +75,15 @@ export default function Page() {
         My first official job as a developer was building a large-ish Angular 5
         PWA + PHP (Yii2) backend. That experience involved wearing{" "}
         <span>
-          <PreviewCard>
-            <PreviewCardTrigger>multiple hats</PreviewCardTrigger>
-            <PreviewCardPopup>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              multiple hats
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
               many of which had nothing to do with software development
               whatsoever
-            </PreviewCardPopup>
-          </PreviewCard>
+            </PopoverContent>
+          </Popover>
         </span>
         , and it made me really understand and enjoy owning an entire software
         stack. It was also my first time building an actual "product," as
@@ -100,10 +102,14 @@ export default function Page() {
         From there I went on to MaxRewards, where I helped build and maintain a
         large{" "}
         <span>
-          <PreviewCard>
-            <PreviewCardTrigger>React Native</PreviewCardTrigger>
-            <PreviewCardPopup>and met my first love, MobX</PreviewCardPopup>
-          </PreviewCard>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              React Native
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              and met my first love, MobX
+            </PopoverContent>
+          </Popover>
         </span>{" "}
         app and Node.js backend. Most importantly, I got a real feel for
         "hacking" in a garage-mode setting: COVID hit the US in full force just
@@ -113,13 +119,15 @@ export default function Page() {
         build our internal bank connectors (reverse-engineering, scraping,
         dealing with C&Ds from Chase) to{" "}
         <span>
-          <PreviewCard>
-            <PreviewCardTrigger>feed ourselves</PreviewCardTrigger>
-            <PreviewCardPopup>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              feed ourselves
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
               seriously, thank you T-Mobile for T-Mobile Tuesdays and all the
               free Panera gift cards
-            </PreviewCardPopup>
-          </PreviewCard>
+            </PopoverContent>
+          </Popover>
         </span>{" "}
         and pay rent. Duking it out with all of those circumstances, launching
         our V2 product, and ultimately raising a successful seed round was

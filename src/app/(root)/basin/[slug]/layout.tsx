@@ -16,7 +16,12 @@ export default async function BasinPostLayout({ children, params }: Props) {
   return (
     <article className="rounded-lg px-4 pt-4 pb-14 shadow-lg backdrop-blur-lg md:px-6 md:pt-12 md:pb-20">
       <header className="mb-8 border-border border-b pb-6">
-        <ViewTransition name={`droplet-${slug}`}>
+        <ViewTransition
+          name={`droplet-${slug}`}
+          share="auto"
+          enter="auto"
+          default="none"
+        >
           <h1 className="font-heading text-4xl leading-tight tracking-tight">
             {frontmatter.title}
           </h1>
