@@ -16,6 +16,16 @@
   --tw-prose-td-borders: var(--border);
 }
 
+.prose blockquote p:has(q)::before {
+  content: "";
+}
+.prose blockquote p {
+  text-indent: -0.44rem;
+}
+.prose blockquote p:has(q)::after {
+  content: "";
+}
+
 /* Shiki dual-theme */
 .prose pre.shiki,
 .prose pre.shiki span {

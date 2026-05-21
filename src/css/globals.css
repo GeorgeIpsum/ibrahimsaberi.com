@@ -327,3 +327,19 @@ h5,
 h6 {
   font-family: var(--font-heading);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*),
+  ::view-transition-new(*),
+  ::view-transition-group(*) {
+    /* biome-ignore lint/complexity/noImportantStyles: required */
+    animation-duration: 0s !important;
+    /* biome-ignore lint/complexity/noImportantStyles: required */
+    animation-delay: 0s !important;
+  }
+}
+
+/* MODERN WEB DEVELOPMENT WAS A MISTAKE */
+button {
+  cursor: pointer;
+}
