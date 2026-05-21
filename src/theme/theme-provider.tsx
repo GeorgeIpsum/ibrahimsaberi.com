@@ -26,7 +26,7 @@ export const ThemeProvider: React.FC<
   const setTheme = useCallback((theme: Theme) => {
     document.documentElement.dataset.theme =
       theme === "system" ? getSystemTheme() : theme;
-    _setTheme(theme);
+    localStorage.theme = theme;
   }, []);
 
   useEffect(() => {

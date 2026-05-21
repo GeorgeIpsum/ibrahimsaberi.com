@@ -4,28 +4,10 @@ import Script from "next/script";
 import "@/css/globals.css";
 import "@/css/prose.css";
 
-import { HistoryProvider } from "@/components/navigation/history-provider";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { ThemeProvider } from "@/theme/theme-provider";
-
-export const metadata: Metadata = {
-  title: "a whisper",
-  description: "a wave",
-  authors: [
-    { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
-  ],
-  archives: "https://ibrahimsaberi.com/basin",
-  alternates: {
-    types: {
-      "application/rss+xml": [{ url: "/feed.xml", title: "A Whisper — RSS" }],
-      "application/atom+xml": [{ url: "/atom.xml", title: "A Whisper — Atom" }],
-      "application/feed+json": [
-        { url: "/feed.json", title: "A Whisper — JSON Feed" },
-      ],
-    },
-  },
-};
+import { ThemeScript } from "../theme/theme-script";
 
 export default function RootLayout({
   children,
@@ -40,15 +22,13 @@ export default function RootLayout({
       className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
     >
       <head>
-        <script src="/theme-bootstrap.js" />
+        <ThemeScript />
       </head>
-      <HistoryProvider>
-        <body className="relative">
-          <div className="relative isolate flex min-h-svh flex-col">
-            <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
-          </div>
-        </body>
-      </HistoryProvider>
+      <body className="relative">
+        <div className="relative isolate flex min-h-svh flex-col">
+          <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
+        </div>
+      </body>
       {process.env.NODE_ENV === "production" &&
         process.env.VERCEL_ENV === "production" && (
           <Script
@@ -60,3 +40,22 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  title: "a whisper",
+  description: "a wave",
+  authors: [
+    { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
+    { name: "G1N", url: "https://ibrahimsaberi.com/about" },
+  ],
+  archives: "https://ibrahimsaberi.com/basin",
+  alternates: {
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: "A Whisper — RSS" }],
+      "application/atom+xml": [{ url: "/atom.xml", title: "A Whisper — Atom" }],
+      "application/feed+json": [
+        { url: "/feed.json", title: "A Whisper — JSON Feed" },
+      ],
+    },
+  },
+};

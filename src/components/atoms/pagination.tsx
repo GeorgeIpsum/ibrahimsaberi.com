@@ -122,7 +122,7 @@ export function PaginationNext({
       aria-disabled={disabled}
       className={cn(
         "max-sm:aspect-square max-sm:p-0",
-        disabled && "pointer-events-none cursor-not-allowed opacity-50",
+        disabled && "pointer-events-none opacity-50",
         className,
       )}
       size="default"

@@ -8,8 +8,7 @@
     );
     document.head.appendChild(s);
 
-    const m = document.cookie.match(/(?:^|; )theme=([^;]+)/);
-    const v = m && decodeURIComponent(m[1]);
+    const v = localStorage.theme;
     let theme;
     if (v === "light" || v === "dark") {
       theme = v;
@@ -19,6 +18,7 @@
         : "system-light";
     }
     document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.themeSet = "1";
 
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
