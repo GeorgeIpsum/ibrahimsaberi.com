@@ -56,8 +56,9 @@ const components: MDXComponents = {
       <sup
         {...props}
         id={id}
+        // NOTE: we put the `a` styles here because putting them in the trigger's render causes a hydration mismatch
         className={cn(
-          "relative top-[-0.5em] rounded-full bg-primary/10 px-1 py-0.5 text-foreground-high-contrast text-sm transition-colors has-[a:hover]:bg-primary/20",
+          "relative top-[-0.7em] rounded bg-primary/90 font-mono text-secondary transition-colors has-[a:hover]:bg-foreground-high-contrast [&_a]:px-0.25 [&_a]:text-background [&_a]:not-italic [&_a]:no-underline",
           props.className,
         )}
       >
