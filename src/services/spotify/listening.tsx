@@ -14,7 +14,7 @@ export const Listening: React.FC = async () => {
 
   if (!nowPlaying) {
     return (
-      <div className="w-full text-center">
+      <div className="w-full text-center text-muted-foreground text-sm">
         Not listening to anything right now.
       </div>
     );

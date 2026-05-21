@@ -10,9 +10,6 @@ export const NotFound: React.FC<React.PropsWithChildren> = ({ children }) => {
           className="relative flex h-full w-full flex-col p-4 text-center text-lg md:px-16"
           // padding="custom"
         >
-          <div className="z-10 flex w-full justify-start">
-            <GoBack />
-          </div>
           <div className="absolute inset-0 z-0 flex flex-col items-center justify-center">
             <h1 className="mb-4 font-semibold text-5xl">Hmmm...</h1>
             <h2 className="mb-4">Sorry, couldn&apos;t find that.</h2>
@@ -30,6 +27,9 @@ export const NotFound: React.FC<React.PropsWithChildren> = ({ children }) => {
                 </div>
               </>
             )}
+            <div className="flex w-full justify-center py-4">
+              <GoBack />
+            </div>
           </div>
           <div className="absolute inset-0 -z-10 flex select-none items-center justify-center font-bold font-heading text-8xl uppercase opacity-5">
             Not

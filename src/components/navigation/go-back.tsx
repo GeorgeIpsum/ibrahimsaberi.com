@@ -9,7 +9,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
-import { useHistory } from "./history-provider";
 
 interface GoBackProps {
   icon?: React.ReactNode;
@@ -19,7 +18,6 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
   children,
 }) => {
   const router = useRouter();
-  const history = useHistory();
 
   const renderIcon = () => {
     if (icon) return icon;
@@ -37,12 +35,7 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
           {renderIcon()}
           {children ?? <span>Go back</span>}
         </TooltipTrigger>
-        <TooltipPopup side="right">
-          Return to{" "}
-          {typeof window === "undefined"
-            ? "previous page"
-            : (history.entries[history.entries.length - 2] ?? "previous page")}
-        </TooltipPopup>
+        <TooltipPopup side="top">From whence you came</TooltipPopup>
       </Tooltip>
     </TooltipProvider>
   );
