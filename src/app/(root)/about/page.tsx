@@ -138,7 +138,7 @@ export default function Page() {
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
         <time dateTime="2022">2022</time>
         <span>{"\u2013"}</span>
-        <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
+        <time dateTime={CURRENT_YEAR.toString()}>now</time>
       </div>
       <p className="reveal">
         As appreciative as I am today, I was pretty burnt out at this point. I
@@ -153,7 +153,7 @@ export default function Page() {
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
         <time dateTime="2023">2023</time>
         <span>{"\u2013"}</span>
-        <time dateTime={CURRENT_YEAR.toString()}>{CURRENT_YEAR}</time>
+        <time dateTime={CURRENT_YEAR.toString()}>now</time>
       </div>
       <p className="reveal font-black">YOU (WE?) ARE HERE.</p>
 
@@ -236,6 +236,14 @@ const faqs: FAQ[] = [
       "It was not for the best. I don't think I will or want to change.",
     ],
     id: "youweird",
+  },
+  {
+    question: "Aren't basins and reservoirs the same thing?",
+    answer: [
+      "A reservoir is an artificial, man-made construct. A basin is a natural geological formation.",
+      "A reservoir is a prison for water. A basin is a home.",
+    ],
+    id: "basin_vs_reservoir",
   },
   {
     question: 'What does "a whisper, a wave" mean?',
