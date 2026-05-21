@@ -84,6 +84,7 @@
     }
   }
 
+  /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;
   --color-yellow-*: initial;
@@ -352,4 +353,47 @@ h6 {
 /* MODERN WEB DEVELOPMENT WAS A MISTAKE */
 button {
   cursor: pointer;
+}
+
+header div.header-blur::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  top: calc(var(--spacing, 0.25rem) * -2);
+  height: calc(200% + var(--spacing, 0.25rem) * 3);
+  width: 100%;
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+
+  background: linear-gradient(
+    to bottom,
+    var(--background) 0%,
+    color-mix(in oklch, var(--background) 5%, transparent) 60%
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    var(--color-background-high-contrast) 0% 50%,
+    transparent 50% 100%
+  );
+}
+
+header div.header-blur::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  top: calc(100% - 4px);
+  height: 4px;
+  width: 100%;
+  backdrop-filter: blur(24px) saturate(120%) hue-rotate(-30deg);
+  border-radius: 100% 100% 0 0;
+  pointer-events: none;
+}
+
+a:focus-visible {
+  outline-offset: 4px;
+  outline-color: var(--ring);
+  border-radius: 2px;
 }

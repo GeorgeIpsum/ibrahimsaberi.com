@@ -8,10 +8,10 @@ import { navItems } from "../navigation/nav-items";
 
 export const Header: React.FC = () => {
   return (
-    <header className="sticky top-2 z-100 h-12 w-full">
+    <header className="sticky top-2 z-100 h-12 w-full bg-background/5">
       <RefreshTicker intervalMs={15000} />
-      <div className="flex w-full items-center rounded-xl border-accent/25 border-b-2 bg-white/40 p-2 backdrop-blur dark:bg-black/40">
-        <div className="flex items-center gap-2">
+      <div className="header-blur relative flex w-full items-center overflow-clip overscroll-none rounded-xl p-2">
+        <div className="z-10 flex items-center gap-2">
           <Link rel="home" href="/">
             <Image
               className="size-7"
@@ -42,7 +42,7 @@ export const Header: React.FC = () => {
             </span>
           </Link>
         </div>
-        <div className="flex w-full flex-1 items-center justify-end gap-4 sm:gap-6">
+        <div className="z-10 flex w-full flex-1 items-center justify-end gap-4 sm:gap-6">
           <nav className="hidden w-full flex-1 items-center justify-end sm:flex">
             <ul className="flex w-full items-center justify-end gap-4 text-sm">
               {navItems
