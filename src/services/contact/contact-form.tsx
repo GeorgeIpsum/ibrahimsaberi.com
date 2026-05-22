@@ -177,7 +177,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
 
         try {
           await toastManager.promise(
-            new Promise((resolve) => setTimeout(resolve)),
+            new Promise((resolve) => setTimeout(resolve, randNum(2000, 6000))),
             {
               error: `${message} - FAILED`,
               loading: message,
@@ -194,7 +194,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
               new Promise((resolve, reject) =>
                 setTimeout(
                   Math.random() > 0.3 ? reject : resolve,
-                  randNum(3000, 8000),
+                  randNum(3000, 6000),
                 ),
               ),
               {
