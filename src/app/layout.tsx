@@ -4,10 +4,11 @@ import Script from "next/script";
 import "@/css/globals.css";
 import "@/css/prose.css";
 
+import { AnchoredToastProvider, ToastProvider } from "@/components/atoms/toast";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { ThemeProvider } from "@/theme/theme-provider";
-import { ThemeScript } from "../theme/theme-script";
+import { ThemeScript } from "@/theme/theme-script";
 
 export default function RootLayout({
   children,
@@ -25,9 +26,13 @@ export default function RootLayout({
         <ThemeScript />
       </head>
       <body className="relative">
-        <div className="relative isolate flex min-h-svh flex-col">
-          <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
-        </div>
+        <ToastProvider>
+          <AnchoredToastProvider>
+            <div className="relative isolate flex min-h-svh flex-col">
+              <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
+            </div>
+          </AnchoredToastProvider>
+        </ToastProvider>
       </body>
       {process.env.NODE_ENV === "production" &&
         process.env.VERCEL_ENV === "production" && (
