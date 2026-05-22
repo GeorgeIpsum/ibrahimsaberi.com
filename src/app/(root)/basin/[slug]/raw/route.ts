@@ -13,9 +13,13 @@ export async function generateStaticParams() {
 
 export async function GET(_request: Request, { params }: Props) {
   const { slug } = await params;
-  const { basename } = await loadPostMeta(slug);
+  const meta = await loadPostMeta(slug);
+  if (!meta)
+    return new Response("There is no post here. There was never a post here.", {
+      status: 404,
+    });
   const raw = await readFile(
-    path.join(process.cwd(), "src/content", `${basename}.mdx`),
+    path.join(process.cwd(), "src/content", `${meta.basename}.mdx`),
     "utf-8",
   );
   return new Response(raw, {
