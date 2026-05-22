@@ -132,7 +132,10 @@ export default function Page() {
         </li>
         <li>
           <Popover>
-            <PopoverTrigger className="underline" openOnHover>
+            <PopoverTrigger
+              className="items-start justify-start text-left underline"
+              openOnHover
+            >
               Arguing with my dad about networking and our homelabs
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
