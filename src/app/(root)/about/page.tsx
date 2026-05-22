@@ -11,6 +11,11 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/atoms/popover";
+import {
+  PreviewCard,
+  PreviewCardPopup,
+  PreviewCardTrigger,
+} from "@/components/atoms/preview-card";
 import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
 import { HelloGradient } from "@/components/special/hello";
 
@@ -26,7 +31,7 @@ export default function Page() {
           <HelloGradient />
         </Suspense>
       </div>
-      <p className="reveal">
+      <p className="reveal reveal-top">
         I'm <span className="font-bold">Ibrahim</span>, a product-focused
         software engineer based in Bethesda, Maryland. I currently work as a{" "}
         <span className="font-bold">product owner</span> at{" "}
@@ -35,7 +40,7 @@ export default function Page() {
             href="https://tillisoftware.com"
             target="_blank"
             rel="noopener noreferrer"
-            title="sorry that this website is so jank. I don't have the bandwidth to make it better at the moment, and so you have to deal with this vibe coded slop"
+            title="Sorry that this website is so jank. We used to have a WordPress site, but lack of fine-tuned control and plugin hell made leadership decide to switch to this vibe-coded thing (...slop). I don't have the bandwidth to make it better at the moment."
           >
             tilli software
           </a>
@@ -46,8 +51,98 @@ export default function Page() {
         internal tooling to connect our different products and teams.
       </p>
 
-      <h2 className="reveal">Sparking joy</h2>
-      <p className="reveal">More like parking toy amirite fellas</p>
+      <h2 className="reveal-top">What sparks joy</h2>
+      <p className="reveal-top">
+        I'm a creator/ tinkerer at heart. After reading{" "}
+        <PreviewCard>
+          <PreviewCardTrigger href="https://www.robinsloan.com/notes/home-cooked-app/">
+            "An app can be a home cooked meal"
+          </PreviewCardTrigger>
+          , the goal of creating for others has become my driving ethos.
+          <PreviewCardPopup>
+            <figure className="prose block">
+              <blockquote className="text-sm">
+                <p>
+                  <q>
+                    The list of reasons to “learn to cook” overflows, and only a
+                    handful have anything to do with the marketplace. Cooking
+                    reaches beyond buying and selling to touch nearly all of
+                    human experience. It connects to domesticity and curiosity;
+                    to history and culture; to care and love.
+                  </q>
+                </p>
+              </blockquote>
+              <figcaption className="text-xs">
+                Robert Sloan, The Lab,{" "}
+                <cite>An app can be a home-cooked meal</cite>, February 2020
+              </figcaption>
+            </figure>
+          </PreviewCardPopup>
+        </PreviewCard>
+      </p>
+      <p className="reveal-top">
+        A lot of the content on this website reflects my different hobbies and
+        interests. A few below:
+      </p>
+      <ul className="reveal-top">
+        <li>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              Exploring and learning big codebases
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              and more importantly, yoinking what I like
+            </PopoverContent>
+          </Popover>
+        </li>
+        <li>
+          Exploring new (and old) tech and{" "}
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              reverse-engineering
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              I'm trying to get more into the hardware side recently, but this
+              feels more and more like black magic the more I learn
+            </PopoverContent>
+          </Popover>{" "}
+          arcane systems
+        </li>
+        <li>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              Cooking
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              Especially the science behind what makes good food
+            </PopoverContent>
+          </Popover>{" "}
+          (and food in general)
+        </li>
+        <li>Hacking on my homelab</li>
+        <li>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              Arguing with my dad about networking
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              Which is starting to feel more and more like arguing with an LLM
+              about networking. Wonder why that is.
+            </PopoverContent>
+          </Popover>
+        </li>
+        <li>Gamedev</li>
+        <li>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              Basketball
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              And I am unfortunately an Atlanta sports fan
+            </PopoverContent>
+          </Popover>
+        </li>
+      </ul>
 
       <h2 className="reveal">How we got here</h2>
       <p className="reveal">
