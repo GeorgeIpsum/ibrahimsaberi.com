@@ -79,15 +79,13 @@ And then let's set up some basic stuff in the component's `.ts` file:
 //synoptic-map.component.ts
 export class SynopticMapComponent implements AfterViewInit {
 
-  @ViewChild('canvas',{ static: false }) public canvas: ElementRef;
+  @ViewChild('canvas', { static: false }) public canvas: ElementRef;
 
   @Input() public imageString;
 
-  constructor() { }
+  constructor() {}
 
-  ngAfterViewInit() {
-  }
-
+  ngAfterViewInit() {}
 }
 ```
 
@@ -128,7 +126,8 @@ export class SynopticMapComponent implements AfterViewInit {
 }
 ```
 
-*NOTE: I'm using the AfterViewInit lifecycle hook since all of the canvas logic can only really be done after the component view has been fully initialized. If we used the OnInit lifecycle hook, we'd end up doing stuff before the canvas element has been initialized.*
+> [!NOTE]
+> I'm using the `AfterViewInit` lifecycle hook since all of the canvas logic can only really be done after the component view has been fully initialized. If we used the `OnInit` lifecycle hook, we'd end up doing stuff before the canvas element has been initialized.
 
 In our `AfterViewInit` lifecycle hook we create a reference to the canvas element, and then we get the 2d context of that element. We also have an uninitialized `Image` that in the `AfterViewInit` lifecycle hook is then provided an `onload` function. That `onload` function resizes the canvas to the dimensions of the image, and then draws the image onto the canvas. We then finally set the `src` of that image to the provided src string so the image loads can begin to load.
 
