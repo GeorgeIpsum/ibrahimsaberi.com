@@ -196,12 +196,16 @@ export type PostMeta = {
  * Cached metadata-only loader. Safe to call from the static prerender path
  * because the return value contains no functions (the MDX Component is
  * loaded separately in `loadPost`).
+ *
+ * Returns `null` for an unknown slug rather than calling `notFound()`:
+ * navigation APIs touch request-time state and are not permitted inside a
+ * `"use cache"` scope. Callers handle the miss.
  */
-export async function loadPostMeta(slug: string): Promise<PostMeta> {
+export async function loadPostMeta(slug: string): Promise<PostMeta | null> {
   "use cache";
   const entries = await _listFileEntries();
   const entry = entries.find((e) => e.slug === slug);
-  if (!entry) notFound();
+  if (!entry) return null;
 
   const raw = await readFile(path.join(CONTENT_DIR, entry.file), "utf-8");
   const { attributes } = frontMatter<Record<string, unknown>>(raw);
@@ -218,8 +222,9 @@ export async function loadPostMeta(slug: string): Promise<PostMeta> {
  * dedupes within one render.
  */
 export const loadPost = cache(async (slug: string): Promise<Post> => {
+  const meta = await loadPostMeta(slug);
+  if (!meta) notFound();
   try {
-    const meta = await loadPostMeta(slug);
     const mod = await import(`@/content/${meta.basename}.mdx`);
     return { slug, frontmatter: meta.frontmatter, Content: mod.default };
   } catch (e) {
