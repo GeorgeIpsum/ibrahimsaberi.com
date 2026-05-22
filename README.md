@@ -28,14 +28,14 @@ Blog content and other arbitrary pages are written/ built using MDX. I use a who
 Colors for dark/ light mode themes were picked by me and are meant to be kind of "floral" in nature. Everything is driven by Tailwind + CSS vars here. I'll probably keep iterating on this, not 100% happy with how everything is as of right now.
 
 ## Some "Features"
-- Blog (all of the writing is bad)
-- Spotify now playing (and a whole bunch of other Spotify-related information, playlists, etc)
-- A (mostly) fully featured TTY
-- Web viewer for my amateur radio station (this may or may not be some decoration around "Spotify now playing" with web player SDK on top)
-- Camera roll (curated list of dumb or cool images from my camera roll, auto-synced via a Homelab integration + some iCloud shenaniganery)
-- A health endpoint (`/api/health`) that returns random copypasta/ ascii art/ other text
-- Random games/ micro-frontends for projects I've built
-- A contact form that may or may not send whatever you put in there to the ether
+- [x] Blog (all of the writing is bad)
+- [x] Spotify now playing (and a whole bunch of other Spotify-related information, playlists, etc)
+- [ ] A (mostly) fully featured TTY
+- [ ] Web viewer for my amateur radio station (this may or may not be some decoration around "Spotify now playing" with web player SDK on top)
+- [ ] Camera roll (curated list of dumb or cool images from my camera roll, auto-synced via a Homelab integration + some iCloud shenaniganery)
+- [x] A health endpoint (`/api/health`) that returns random copypasta/ ascii art/ other text
+- [ ] Random games/ micro-frontends for projects I've built
+- [ ] A contact form that may or may not send whatever you put in there to the ether
 
 <details>
 <summary>Rambling Below, Beware</summary>
