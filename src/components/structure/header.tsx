@@ -1,5 +1,13 @@
+import { WavesArrowDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/atoms/button";
+import {
+  Menu,
+  MenuItem,
+  MenuPopup,
+  MenuTrigger,
+} from "@/components/atoms/menu";
 import { RefreshTicker } from "@/components/navigation/refresh-ticker";
 import { cn } from "@/css/lib";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
@@ -43,7 +51,7 @@ export const Header: React.FC = () => {
           </Link>
         </div>
         <div className="z-10 flex w-full flex-1 items-center justify-end gap-4 sm:gap-6">
-          <nav className="hidden w-full flex-1 items-center justify-end sm:flex">
+          <nav className="hidden w-full flex-1 items-center justify-end gap-4 sm:flex">
             <ul className="flex w-full items-center justify-end gap-4 text-sm">
               {navItems
                 .filter((item) => !item.mobileOnly)
@@ -60,6 +68,28 @@ export const Header: React.FC = () => {
                   </li>
                 ))}
             </ul>
+            <Menu>
+              <MenuTrigger
+                openOnHover
+                render={<Button variant="ghost" size="icon-xs" />}
+              >
+                <WavesArrowDown aria-label="Menu Dropdown" />
+              </MenuTrigger>
+              <MenuPopup side="bottom" align="end">
+                {navItems
+                  .filter((item) => item.mobileOnly && item.title !== "home")
+                  .map((item) => (
+                    <MenuItem key={item.href}>
+                      <Link
+                        href={item.href}
+                        className="w-full text-left text-primary/80 text-sm transition-colors duration-300 ease-out hover:text-primary"
+                      >
+                        {item.title}
+                      </Link>
+                    </MenuItem>
+                  ))}
+              </MenuPopup>
+            </Menu>
           </nav>
           <SpotifyIndicator />
           <div className="inline-block sm:hidden">
