@@ -1,3 +1,5 @@
+import "@/css/basin.css";
+
 import type { ReactNode } from "react";
 
 export default function BasinPostLayout({ children }: { children: ReactNode }) {

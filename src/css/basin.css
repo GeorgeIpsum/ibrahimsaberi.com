@@ -1,0 +1,82 @@
+@reference "./globals.css";
+
+/* basin post entrance animation */
+.basin-entrance .water-title {
+  position: relative;
+}
+
+.water-title-fill {
+  position: absolute;
+  inset: 0;
+  color: var(--muted-foreground);
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+@keyframes water-fill {
+  0% {
+    -webkit-mask-position: 0% -15%;
+    mask-position: 0% -15%;
+  }
+  25% {
+    -webkit-mask-position: -35% 18%;
+    mask-position: -35% 18%;
+  }
+  50% {
+    -webkit-mask-position: 25% 48%;
+    mask-position: 25% 48%;
+  }
+  75% {
+    -webkit-mask-position: -20% 80%;
+    mask-position: -20% 80%;
+  }
+  100% {
+    -webkit-mask-position: 0% 115%;
+    mask-position: 0% 115%;
+  }
+}
+
+@keyframes entrance-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes entrance-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .basin-entrance:not([data-seen]) .water-title-fill {
+    --wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 200' preserveAspectRatio='none'%3E%3Cpath d='M0,0 H120 V100 C100,80 80,120 60,100 C40,80 20,120 0,100 Z' fill='%23fff'/%3E%3C/svg%3E");
+    opacity: 1;
+    -webkit-mask-image: var(--wave-mask);
+    mask-image: var(--wave-mask);
+    -webkit-mask-repeat: repeat-x;
+    mask-repeat: repeat-x;
+    -webkit-mask-size: 240px 200%;
+    mask-size: 240px 200%;
+    animation: water-fill 3s ease-in-out both;
+  }
+
+  .basin-entrance:not([data-seen]) .entrance-fade {
+    opacity: 0;
+    animation: entrance-fade 0.5s ease-out both;
+  }
+
+  .basin-entrance:not([data-seen]) .entrance-fade-up {
+    opacity: 0;
+    animation: entrance-fade-up 0.6s ease-out both;
+  }
+}

@@ -5,6 +5,7 @@ export const FrontmatterSchema = type({
   "author?": "string",
   publishedAt: "string",
   "blurb?": "string",
+  "linkTitle?": "string",
   "tags?": "string[]",
   "draft?": "boolean",
 });

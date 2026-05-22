@@ -20,6 +20,7 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
     <article key={post.slug}>
       <Link
         href={`/basin/${post.slug}`}
+        title={post.frontmatter.linkTitle ?? post.frontmatter.title}
         className="group block rounded-lg p-3 transition-colors hover:bg-accent/40"
       >
         <div className="flex min-h-12 items-baseline justify-between gap-3">

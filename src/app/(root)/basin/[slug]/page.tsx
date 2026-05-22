@@ -10,6 +10,7 @@ import {
   loadPost,
   loadPostMeta,
 } from "@/services/basin/load-post";
+import { BasinEntranceScript } from "./basin-entrance-script";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 async function PostBody({ slug }: { slug: string }) {
   const { Content, frontmatter } = await loadPost(slug);
   return (
-    <div className="prose max-w-none">
+    <div className="entrance-fade-up prose max-w-none">
       {frontmatter.tags?.includes("migrated") && (
         <blockquote>
           This post was migrated from my original Jekyll site with little to no
@@ -62,13 +63,17 @@ export default async function BasinPostPage({ params }: Props) {
   const { frontmatter } = meta;
 
   return (
-    <>
+    <div className="basin-entrance" suppressHydrationWarning>
+      <BasinEntranceScript />
       <header className="mb-8 border-border border-b pb-6">
-        <h1 className="font-heading text-4xl leading-tight tracking-tight">
-          {frontmatter.title}
+        <h1 className="water-title font-heading text-4xl leading-tight tracking-tight">
+          <span>{frontmatter.title}</span>
+          <span className="water-title-fill" aria-hidden="true">
+            {frontmatter.title}
+          </span>
         </h1>
         <div className="mt-4 flex items-center gap-4 text-muted-foreground text-sm">
-          <time dateTime={frontmatter.publishedAt}>
+          <time className="entrance-fade" dateTime={frontmatter.publishedAt}>
             {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
               timeZone: AUTHOR_TIMEZONE,
               year: "numeric",
@@ -78,8 +83,12 @@ export default async function BasinPostPage({ params }: Props) {
           </time>
           {frontmatter.tags?.length ? (
             <ul className="flex max-w-full flex-wrap items-baseline gap-1">
-              {frontmatter.tags.map((tag) => (
-                <li key={tag}>
+              {frontmatter.tags.map((tag, index) => (
+                <li
+                  key={tag}
+                  className="entrance-fade"
+                  style={{ animationDelay: `${index * 0.05}s` }}
+                >
                   <Badge
                     render={
                       <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
@@ -93,7 +102,7 @@ export default async function BasinPostPage({ params }: Props) {
           ) : null}
         </div>
         {frontmatter.blurb ? (
-          <p className="mt-4 text-lg text-muted-foreground italic">
+          <p className="entrance-fade-up mt-4 text-lg text-muted-foreground italic">
             <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
           </p>
         ) : null}
@@ -102,6 +111,6 @@ export default async function BasinPostPage({ params }: Props) {
       <Suspense>
         <PostBody slug={slug} />
       </Suspense>
-    </>
+    </div>
   );
 }
