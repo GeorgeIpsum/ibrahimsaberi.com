@@ -18,48 +18,52 @@ export default async function BasinPostLayout({ children, params }: Props) {
       <header className="mb-8 border-border border-b pb-6">
         <ViewTransition
           name={`droplet-${slug}`}
-          share="auto"
-          enter="auto"
+          share="droplet-title"
+          enter="droplet-title"
           default="none"
         >
           <h1 className="font-heading text-4xl leading-tight tracking-tight">
             {frontmatter.title}
           </h1>
         </ViewTransition>
-        <div className="mt-3 flex items-center gap-3 text-muted-foreground text-sm">
-          <time dateTime={frontmatter.publishedAt}>
-            {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
-              timeZone: AUTHOR_TIMEZONE,
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </time>
-          {frontmatter.tags?.length ? (
-            <ul className="flex gap-1.5">
-              {frontmatter.tags.map((tag) => (
-                <li key={tag}>
-                  <Badge
-                    // variant="outline"
-                    render={
-                      <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
-                    }
-                  >
-                    {tag}
-                  </Badge>
-                </li>
-              ))}
-            </ul>
+        <ViewTransition default="none" enter="droplet-settle">
+          <div className="mt-4 flex items-center gap-4 text-muted-foreground text-sm">
+            <time dateTime={frontmatter.publishedAt}>
+              {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
+                timeZone: AUTHOR_TIMEZONE,
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </time>
+            {frontmatter.tags?.length ? (
+              <ul className="flex max-w-full flex-wrap items-baseline gap-1">
+                {frontmatter.tags.map((tag) => (
+                  <li key={tag}>
+                    <Badge
+                      // variant="outline"
+                      render={
+                        <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
+                      }
+                    >
+                      {tag}
+                    </Badge>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+          </div>
+          {frontmatter.blurb ? (
+            <p className="mt-4 text-lg text-muted-foreground italic">
+              <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
+            </p>
           ) : null}
-        </div>
-        {frontmatter.blurb ? (
-          <p className="mt-4 text-lg text-muted-foreground italic">
-            <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
-          </p>
-        ) : null}
+        </ViewTransition>
       </header>
 
-      <div className="prose max-w-none">{children}</div>
+      <ViewTransition default="none" enter="droplet-settle">
+        <div className="prose max-w-none">{children}</div>
+      </ViewTransition>
     </article>
   );
 }

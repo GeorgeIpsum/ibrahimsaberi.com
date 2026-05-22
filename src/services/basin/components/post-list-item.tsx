@@ -1,16 +1,21 @@
-import { Scroll } from "lucide-react";
 import Link from "next/link";
 import { ViewTransition } from "react";
-import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
+import { cn } from "@/css/lib";
 import { AUTHOR_TIMEZONE } from "../load-post";
 import type { PostListEntry } from "../types";
+import { PostTags } from "./post-badge";
+
+// If I don't deploy more than once a month then the website deserves to be forcibly broken.
+// Get good
+const oneMonthAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
 
 interface PostListItemProps {
   post: PostListEntry;
 }
 export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
-  const isMigrated = post.frontmatter.tags?.includes("migrated");
+  const isNewPost =
+    new Date(post.frontmatter.publishedAt) > new Date(oneMonthAgo);
 
   return (
     <article key={post.slug}>
@@ -20,8 +25,18 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
         transitionTypes={["nav-forward"]}
       >
         <div className="flex min-h-12 items-baseline justify-between gap-3">
-          <ViewTransition name={`droplet-${post.slug}`}>
-            <h2 className="font-heading text-foreground text-xl transition-colors group-hover:text-foreground-high-contrast">
+          <ViewTransition
+            name={`droplet-${post.slug}`}
+            share="droplet-title"
+            enter="droplet-title"
+            default="none"
+          >
+            <h2
+              className={cn(
+                "flex items-center gap-2 font-heading text-xl transition-colors group-hover:text-foreground-high-contrast",
+                isNewPost ? "text-foreground-high-contrast" : "text-primary",
+              )}
+            >
               {post.frontmatter.title}
             </h2>
           </ViewTransition>
@@ -40,22 +55,13 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
                 },
               )}
             </time>
-            <div className="flex max-w-24 flex-wrap items-center justify-end gap-2 sm:max-w-48">
-              {post.frontmatter.draft && (
-                <Badge variant="info" size="sm">
-                  <Scroll
-                    style={{ transform: "scaleX(-1)" }}
-                    aria-hidden="true"
-                  />
-                  DRAFT
-                </Badge>
-              )}
-              {isMigrated && (
-                <Badge variant="outline" size="sm">
-                  MIGRATED
-                </Badge>
-              )}
-            </div>
+            <PostTags
+              tags={[
+                ...(post.frontmatter.tags ?? []),
+                ...(post.frontmatter.draft ? ["draft"] : []),
+                ...(isNewPost ? ["new"] : []),
+              ]}
+            />
           </div>
         </div>
         {post.frontmatter.blurb ? (
