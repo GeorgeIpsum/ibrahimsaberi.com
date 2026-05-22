@@ -32,8 +32,8 @@ export default function Page() {
         </Suspense>
       </div>
       <p className="reveal reveal-top">
-        I'm <span className="font-bold">Ibrahim</span>, a product-focused
-        software engineer based in Bethesda, Maryland. I currently work as a{" "}
+        I'm <span className="font-bold">Ibrahim</span>, a software engineer
+        based in Bethesda, Maryland. I currently work as a{" "}
         <span className="font-bold">product owner</span> at{" "}
         <span className="font-bold font-heading">
           <a
@@ -47,18 +47,18 @@ export default function Page() {
         </span>
         , where I've built out our consumer-facing products and own the
         company's overall product strategy. My team is also responsible for
-        investigating new tech, solving really weird problems, and building
-        internal tooling to connect our different products and teams.
+        investigating new tech, solving weird problems, and building internal
+        tooling to connect our different applications and teams.
       </p>
 
       <h2 className="reveal-top">What sparks joy</h2>
       <p className="reveal-top">
-        I'm a creator/ tinkerer at heart. After reading{" "}
+        I'm a creator/tinkerer at heart. After reading{" "}
         <PreviewCard>
           <PreviewCardTrigger href="https://www.robinsloan.com/notes/home-cooked-app/">
             "An app can be a home-cooked meal"
           </PreviewCardTrigger>
-          , the goal of creating for others has become my driving ethos.
+          , creating for others has become my driving ethos.
           <PreviewCardPopup>
             <figure className="prose block">
               <blockquote className="text-sm">
@@ -91,7 +91,7 @@ export default function Page() {
               Exploring and learning big codebases
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
-              and more importantly, yoinking what I like
+              And more importantly, yoinking what I like
             </PopoverContent>
           </Popover>
         </li>
@@ -119,15 +119,26 @@ export default function Page() {
           </Popover>{" "}
           (and food in general)
         </li>
-        <li>Hacking on my homelab</li>
+        <li>
+          Hacking on my{" "}
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              homelab
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              And breaking all the lighting in my apartment every month or so
+            </PopoverContent>
+          </Popover>
+        </li>
         <li>
           <Popover>
             <PopoverTrigger className="underline" openOnHover>
-              Arguing with my dad about networking
+              Arguing with my dad about networking and our homelabs
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
               Which is starting to feel more and more like arguing with an LLM
-              about networking. Wonder why that is.
+              about networking and hardware. Perhaps I won the war but lost the
+              planet in the process
             </PopoverContent>
           </Popover>
         </li>
@@ -139,6 +150,16 @@ export default function Page() {
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
               And I am unfortunately an Atlanta sports fan
+            </PopoverContent>
+          </Popover>
+        </li>
+        <li>
+          <Popover>
+            <PopoverTrigger className="underline" openOnHover>
+              Dota 2
+            </PopoverTrigger>
+            <PopoverContent className="max-w-64 text-sm">
+              My therapist says this explains a lot
             </PopoverContent>
           </Popover>
         </li>
@@ -175,16 +196,16 @@ export default function Page() {
               multiple hats
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
-              many of which had nothing to do with software development
+              Many of which had nothing to do with software development
               whatsoever
             </PopoverContent>
           </Popover>
         </span>
-        , and it made me really understand and enjoy owning an entire software
+        , and it made me understand what it meant to own an entire software
         stack. It was also my first time building an actual "product," as
-        opposed to just hobby software or weekend projects, and I learned a lot
-        (the hard way) about what it takes to build something that real users
-        can use reliably and enjoyably.
+        opposed to just hobby software or weekend projects; I learned a lot (the
+        hard way) about what it takes to build something that people can
+        actually use reliably and enjoyably.
       </p>
 
       <h3 className="reveal">MaxRewards</h3>
@@ -202,25 +223,29 @@ export default function Page() {
               React Native
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
-              and met my first love, MobX
+              And met my first love, MobX
             </PopoverContent>
           </Popover>
         </span>{" "}
-        app and Node.js backend. Most importantly, I got a real feel for
-        "hacking" in a garage-mode setting: COVID hit the US in full force just
-        a few months into the job, and it completely derailed our plans to raise
-        a seed round (VCs were reasonably spooked by the potential end of
-        society). During this time, we had to use the skills we developed to
-        build our internal bank connectors (reverse-engineering, scraping,
-        dealing with C&Ds from Chase) to{" "}
+        app and Node.js backend.
+      </p>
+      <p className="reveal">
+        Most importantly, I got a feel for "hacking" in a garage-mode setting:
+        COVID hit the US in full force just a few months into the job, and it
+        completely derailed our plans to raise a seed round (VCs were reasonably
+        spooked by the potential end of society). During this time, we had to
+        use the skills we developed to build our internal bank connectors
+        (reverse-engineering, scraping, dealing with C&Ds from Chase) to{" "}
         <span>
           <Popover>
             <PopoverTrigger className="underline" openOnHover>
               feed ourselves
             </PopoverTrigger>
             <PopoverContent className="max-w-64 text-sm">
-              seriously, thank you T-Mobile for T-Mobile Tuesdays and all the
-              free Panera gift cards
+              Seriously, thank you T-Mobile for T-Mobile Tuesdays and all the
+              free Panera gift cards. Thank you Panera for feeding me.
+              Unfortunately I will not be patronizing you for the rest of my
+              life if I can avoid it
             </PopoverContent>
           </Popover>
         </span>{" "}
@@ -236,12 +261,26 @@ export default function Page() {
         <time dateTime={CURRENT_YEAR.toString()}>now</time>
       </div>
       <p className="reveal">
-        As appreciative as I am today, I was pretty burnt out at this point. I
-        created Studio HMR as a space for me to start exploring my own product
-        ideas and to hopefully soft-launch some gamedev projects that I had been
+        As appreciative as I am today of all that I had learned and experienced
+        at MaxRewards, I burned out pretty hard and needed a change. I created
+        Studio HMR as a space for me to start exploring my own product ideas and
+        to hopefully soft-launch some gamedev projects that I had been
         discussing with friends and former colleagues. We still haven't gotten
-        around to actually publishing a game yet, but hey, I have a lot of cool
-        concept art now.
+        around to actually{" "}
+        <Popover>
+          <PopoverTrigger className="underline" openOnHover>
+            publishing a game
+          </PopoverTrigger>
+          <PopoverContent className="max-w-72 text-sm">
+            Eyeboy WILL release in
+            <br />
+            <code className="rounded bg-foreground p-1 font-light text-[10px] text-background/80">
+              {/** biome-ignore lint/suspicious/noTemplateCurlyInString: is intentional dear sir */}
+              {"${new Date().getFullYear() + 1}"}
+            </code>
+          </PopoverContent>
+        </Popover>{" "}
+        yet, but hey, I have a lot of cool concept art now.
       </p>
 
       <h3 className="reveal">tilli software</h3>
@@ -254,10 +293,10 @@ export default function Page() {
 
       <h2 className="reveal">About this website</h2>
       <p className="reveal">
-        I enjoy building things, whether it be in real life or the digital
-        realm. This website is my personal blog and playground for experimenting
-        with different web tech and design ideas. You'll see a mix of technical
-        posts, ramblings, rants, and (sometimes bizarre) tech demos.
+        I enjoy building things, both in real life and in the digital realm.
+        This website is my personal blog and playground for experimenting with
+        different web tech and design ideas. You'll see a mix of technical
+        posts, ramblings, rants, reviews, and (sometimes bizarre) demos.
       </p>
 
       <p className="reveal">Thanks for stopping by!</p>
@@ -308,7 +347,7 @@ const faqs: FAQ[] = [
     question: "What's the stack?",
     answer: [
       "Next.js (PPR + cache components), Tailwind, MDX for content, Base UI + coss ui for atoms, and some custom theme colors.",
-      "I don't even really like this stack (Suspense boundaries have ruined my life), but hey, the devil you know",
+      "I don't even really like this stack (Suspense boundaries have ruined my life), but, uh, the devil you know or something?",
     ],
     id: "stack",
   },
@@ -335,7 +374,7 @@ const faqs: FAQ[] = [
   {
     question: "Aren't basins and reservoirs the same thing?",
     answer: [
-      "A reservoir is an artificial, man-made construct. A basin is a natural geological formation.",
+      "A reservoir is pure imitation: a man-made construct that defies all nature. A basin is a natural geological formation.",
       "A reservoir is a prison for water. A basin is a home.",
     ],
     id: "basin_vs_reservoir",
@@ -355,5 +394,5 @@ const faqs: FAQ[] = [
 
 export const metadata: Metadata = {
   title: "about",
-  description: "A little bit about me and this website.",
+  description: "A little bit about me (Ibrahim Saberi) and this website.",
 };
