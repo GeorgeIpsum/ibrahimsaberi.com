@@ -36,8 +36,8 @@ export default async function TaggedBasinIndex({ params }: Props) {
 
   return (
     <div className="mx-auto w-full sm:max-w-2xl">
-      <div className="mb-8 flex items-baseline justify-between gap-3">
-        <h1 className="font-heading text-3xl">
+      <div className="mb-8 flex items-start justify-between gap-4">
+        <h1 className="flex-1 font-heading text-3xl">
           <Link
             href="/basin"
             className="text-muted-foreground underline-offset-2 hover:underline"
@@ -46,12 +46,20 @@ export default async function TaggedBasinIndex({ params }: Props) {
           </Link>{" "}
           <span className="text-muted-foreground">/</span> <span>{tag}</span>
         </h1>
-        <Link
-          href="/basin"
-          className="text-muted-foreground text-sm underline-offset-2 hover:underline"
-        >
-          clear
-        </Link>
+        <div className="flex flex-col items-end justify-center">
+          <Link
+            href="/basin/tags"
+            className="text-muted-foreground text-sm underline-offset-2 hover:underline"
+          >
+            view all
+          </Link>
+          <Link
+            href="/basin"
+            className="text-muted-foreground text-sm underline-offset-2 hover:underline"
+          >
+            clear
+          </Link>
+        </div>
       </div>
       {posts.length === 0 ? (
         <p className="text-muted-foreground italic">
