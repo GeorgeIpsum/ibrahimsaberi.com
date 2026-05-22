@@ -56,7 +56,7 @@ export default function Page() {
         I'm a creator/ tinkerer at heart. After reading{" "}
         <PreviewCard>
           <PreviewCardTrigger href="https://www.robinsloan.com/notes/home-cooked-app/">
-            "An app can be a home cooked meal"
+            "An app can be a home-cooked meal"
           </PreviewCardTrigger>
           , the goal of creating for others has become my driving ethos.
           <PreviewCardPopup>
@@ -73,7 +73,7 @@ export default function Page() {
                 </p>
               </blockquote>
               <figcaption className="text-xs">
-                Robert Sloan, The Lab,{" "}
+                Robin Sloan, The Lab,{" "}
                 <cite>An app can be a home-cooked meal</cite>, February 2020
               </figcaption>
             </figure>
@@ -275,7 +275,7 @@ export default function Page() {
         </Suspense>
       </div>
 
-      <h2>Frequenly Asked Questions</h2>
+      <h2>Frequently Asked Questions</h2>
       <Accordion className="not-prose mb-24 w-full">
         {faqs.map(({ question, answer, id }) => (
           <AccordionItem key={id} value={id}>
