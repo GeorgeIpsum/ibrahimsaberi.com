@@ -20,9 +20,11 @@ export const HFPage: React.FC<React.PropsWithChildren<HFPageProps>> = ({
   );
 
   return (
-    <div className="mx-auto flex h-full w-full flex-col px-2 sm:px-6 lg:max-w-2xl">
+    <div className="mx-auto flex h-full w-full flex-col md:max-w-2xl">
       <Header />
-      {renderContent()}
+      <div className="min-h-[calc(100svh-14rem)] px-4 md:px-4">
+        {renderContent()}
+      </div>
       <Footer />
     </div>
   );

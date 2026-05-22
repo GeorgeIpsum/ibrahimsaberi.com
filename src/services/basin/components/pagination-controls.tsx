@@ -40,7 +40,7 @@ export function PaginationControls({
   const tokens = pageWindow(page.pageNumber, page.totalPages);
 
   return (
-    <Pagination className="mt-8 border-border border-t pt-4">
+    <Pagination className="pt-4">
       <PaginationContent className="w-full justify-between">
         <PaginationItem>
           <PaginationPrevious

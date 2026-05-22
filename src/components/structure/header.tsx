@@ -8,7 +8,7 @@ import { navItems } from "../navigation/nav-items";
 
 export const Header: React.FC = () => {
   return (
-    <header className="sticky top-2 z-100 h-12 w-full bg-background/5">
+    <header className="sticky top-2 z-100 h-12 w-full bg-background/5 px-1 md:px-0">
       <RefreshTicker intervalMs={15000} />
       <div className="header-blur relative flex w-full items-center overflow-clip overscroll-none rounded-xl p-2">
         <div className="z-10 flex items-center gap-2">
@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
               height={28}
             />
           </Link>
-          <Link rel="home" href="/">
+          <Link rel="home" href="/" tabIndex={-1}>
             <span className="group/title text-sm leading-none tracking-tighter">
               <span className="leading-none opacity-75 duration-500 ease-in-out group-hover/title:opacity-40">
                 a whisper.

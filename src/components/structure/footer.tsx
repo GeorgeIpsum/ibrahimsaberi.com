@@ -8,7 +8,7 @@ import { LinkedIn } from "../icons/linkedin";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full">
+    <footer className="w-full px-2 md:px-0">
       <Separator orientation="horizontal" />
       <div className="flex w-full items-center gap-4 px-2 py-4 text-muted-foreground text-sm transition-colors md:px-0">
         <div className="flex flex-1 items-center gap-4">

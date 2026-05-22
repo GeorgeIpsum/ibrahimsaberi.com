@@ -449,8 +449,15 @@ header div.header-blur::after {
   pointer-events: none;
 }
 
-a:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline-offset: 4px;
   outline-color: var(--ring);
-  border-radius: 2px;
+}
+
+button.spotify-indicator:focus-visible {
+  outline-offset: -2px;
+  outline-width: 2px;
+  outline-color: var(--foreground);
+  outline-style: dotted;
 }

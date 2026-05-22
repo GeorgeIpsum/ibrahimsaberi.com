@@ -1,3 +1,4 @@
+import { Separator } from "@/components/atoms/separator";
 import { PaginationControls } from "@/services/basin/components/pagination-controls";
 import { PostListItem } from "@/services/basin/components/post-list-item";
 import { countPosts, listPosts } from "@/services/basin/load-post";
@@ -11,8 +12,8 @@ export default async function BasinIndex() {
   const page = makePageInfo(1, total);
 
   return (
-    <div className="mx-auto w-full sm:max-w-2xl">
-      <h1 className="mb-8 font-heading text-3xl">basin</h1>
+    <>
+      <h1 className="mb-8 text-3xl">basin</h1>
       {posts.length === 0 ? (
         <p className="text-muted-foreground italic">Nothing yet.</p>
       ) : (
@@ -22,9 +23,10 @@ export default async function BasinIndex() {
               <PostListItem key={post.slug} post={post} />
             ))}
           </section>
+          <Separator className="-mx-2 mt-8 data-[orientation=horizontal]:w-[calc(100%+1rem)] md:-mx-4 md:data-[orientation=horizontal]:w-[calc(100%+2rem)]" />
           <PaginationControls page={page} />
         </>
       )}
-    </div>
+    </>
   );
 }
