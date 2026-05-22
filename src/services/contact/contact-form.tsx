@@ -173,6 +173,26 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
           // THE SPICE MUST FLOW
         }
 
+        if (message === "Lighting candles in a dark room") {
+          await toastManager.promise(
+            new Promise((_, reject) => setTimeout(reject, randNum(2000, 4000))),
+            {
+              error: `Uh oh. What is that.`,
+              loading: `Invoking the name of ${placeholder?.name}...`,
+              success: `Phew, that was close. Wait oh God what is that`,
+            },
+          );
+
+          await toastManager.promise(
+            new Promise((_, reject) => setTimeout(reject, randNum(2000, 4000))),
+            {
+              error: `RUN. RUN NOW. YOU NEED TO GET OUT NOW.`,
+              loading: `HOLD ON I CAN FIX THIS I THINK...`,
+              success: `>:)`,
+            },
+          );
+        }
+
         if (message === ordered[ordered.length - 1]) {
           await toastManager.promise(
             new Promise((_, reject) => setTimeout(reject, randNum(2000, 6000))),

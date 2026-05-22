@@ -60,6 +60,46 @@ export const placeholders: Placeholder[] = [
     email: "vorwinfo@gmail.com",
     text: `Taking a look at this website. Let's see if it has that "wow" factor.`,
   },
+  {
+    name: "Miranda Priestly",
+    email: "mpriestly@runwaymagazines.com",
+    text: "Is this some kind of joke? Do you think this is a game? This is not a game. This is my life. And I will not have it mocked by some amateur website.",
+  },
+  {
+    name: "Albert Einstein",
+    email: "moc.ytivitaler@c",
+    text: "hey bro you really need to work on your spacetime curvature, it's looking a little flat. also, your mass-energy equivalence could use some work. but other than that, not bad pixels",
+  },
+  {
+    name: "LeBron James",
+    email: "lbj@gmail.com",
+    text: "You've sent one too many LeMemes. The black vans will be there shortly.",
+  },
+  {
+    name: "Lyndon Baines Johnson",
+    email: "lbj2@gmail.com",
+    text: "HOW is it that I couldn't get the email lbj@gmail.com",
+  },
+  {
+    name: "Ronald Reagan",
+    email: "there is no joke. i hate this guy",
+    text: "AAAAAAAAAAAAAAAAA I'M BURNING IN HELL AAAAAAAAAAAAAAAAAA IT HURTS AAAAAAAAAAAAAAAAAAAAAAAA",
+  },
+  {
+    name: "David Foster Wallace",
+    email: "dfw@banality.co",
+    text: "This is just a placeholder. I'm not sure what to say here. Maybe something about the infinite jest of existence? Or the absurdity of the human condition? I don't know. I'm just a placeholder.",
+  },
+  {
+    name: "Youngster Joey",
+    email: "ceo@rattata.com",
+    text: "Now that I'm an Elite Four member, you need to FEAR my Rattata.",
+  },
+  {
+    name: "Youngster Ben",
+    email: "ben@comfyandeasy.com",
+    text: "I like shorts! And I hate the government.",
+  },
   // hmmm this one could cause problems in my life
   // {
   //   name: "Benjamin Netanyahu",
