@@ -83,7 +83,6 @@ export const SpotifyIndicator: React.FC = () => {
           className="spotify-indicator flex size-8 items-center justify-center rounded-full"
           openOnHover
           delay={300}
-          autoFocus
         >
           <AudioWaveform size={18} playing={isPlaying} />
         </PopoverTrigger>

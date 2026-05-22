@@ -13,4 +13,6 @@ export const ReviewTag: React.FC<{ tag: string; otherTags: string[] }> = ({
   const IconComponent = useCallback(() => {
     const reviewType = tag.replace("-review", "");
   }, [tag]);
+
+  return null;
 };

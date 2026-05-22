@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ViewTransition } from "react";
+import { Suspense } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import {
@@ -35,71 +35,73 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// The MDX import is the slow await — isolated behind Suspense so the header
+// renders from cached metadata immediately, before the body resolves.
+async function PostBody({ slug }: { slug: string }) {
+  const { Content, frontmatter } = await loadPost(slug);
+  return (
+    <div className="prose max-w-none">
+      {frontmatter.tags?.includes("migrated") && (
+        <blockquote>
+          This post was migrated from my original Jekyll site with little to no
+          modification. Weird formatting (and general prose cringe) is to be
+          expected.
+          <br />
+          <s>Sorry.</s>
+        </blockquote>
+      )}
+      <Content />
+    </div>
+  );
+}
+
 export default async function BasinPostPage({ params }: Props) {
   const { slug } = await params;
-  const { Content, frontmatter } = await loadPost(slug);
+  const meta = await loadPostMeta(slug);
+  if (!meta) notFound();
+  const { frontmatter } = meta;
 
   return (
     <>
       <header className="mb-8 border-border border-b pb-6">
-        <ViewTransition
-          name={`droplet-${slug}`}
-          share="droplet-title"
-          enter="droplet-title"
-          default="none"
-        >
-          <h1 className="font-heading text-4xl leading-tight tracking-tight">
-            {frontmatter.title}
-          </h1>
-        </ViewTransition>
-        <ViewTransition default="none" enter="droplet-settle">
-          <div className="mt-4 flex items-center gap-4 text-muted-foreground text-sm">
-            <time dateTime={frontmatter.publishedAt}>
-              {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
-                timeZone: AUTHOR_TIMEZONE,
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </time>
-            {frontmatter.tags?.length ? (
-              <ul className="flex max-w-full flex-wrap items-baseline gap-1">
-                {frontmatter.tags.map((tag) => (
-                  <li key={tag}>
-                    <Badge
-                      render={
-                        <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
-                      }
-                    >
-                      {tag}
-                    </Badge>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
-          {frontmatter.blurb ? (
-            <p className="mt-4 text-lg text-muted-foreground italic">
-              <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
-            </p>
+        <h1 className="font-heading text-4xl leading-tight tracking-tight">
+          {frontmatter.title}
+        </h1>
+        <div className="mt-4 flex items-center gap-4 text-muted-foreground text-sm">
+          <time dateTime={frontmatter.publishedAt}>
+            {new Date(frontmatter.publishedAt).toLocaleDateString("en-US", {
+              timeZone: AUTHOR_TIMEZONE,
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </time>
+          {frontmatter.tags?.length ? (
+            <ul className="flex max-w-full flex-wrap items-baseline gap-1">
+              {frontmatter.tags.map((tag) => (
+                <li key={tag}>
+                  <Badge
+                    render={
+                      <Link href={`/basin/tags/${encodeURIComponent(tag)}`} />
+                    }
+                  >
+                    {tag}
+                  </Badge>
+                </li>
+              ))}
+            </ul>
           ) : null}
-        </ViewTransition>
+        </div>
+        {frontmatter.blurb ? (
+          <p className="mt-4 text-lg text-muted-foreground italic">
+            <InlineMarkdown>{frontmatter.blurb}</InlineMarkdown>
+          </p>
+        ) : null}
       </header>
 
-      <ViewTransition default="none" enter="droplet-settle">
-        <div className="prose max-w-none">
-          {frontmatter.tags?.includes("migrated") && (
-            <blockquote>
-              This post was migrated from my original Jekyll site with little to
-              no modification. Weird formatting (and general prose cringe) is to
-              be expected.
-              <br />
-              <s>Sorry.</s>
-            </blockquote>
-          )}
-          <Content />
-        </div>
-      </ViewTransition>
+      <Suspense>
+        <PostBody slug={slug} />
+      </Suspense>
     </>
   );
 }

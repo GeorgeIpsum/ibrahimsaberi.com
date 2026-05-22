@@ -56,9 +56,6 @@ const config: NextConfig = {
   outputFileTracingIncludes: {
     "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
   },
-  experimental: {
-    viewTransition: true,
-  },
   poweredByHeader: false,
   devIndicators: false,
 };

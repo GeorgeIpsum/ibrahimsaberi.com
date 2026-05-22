@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { ViewTransition } from "react";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { cn } from "@/css/lib";
 import { AUTHOR_TIMEZONE } from "../load-post";
 import type { PostListEntry } from "../types";
-import { PostTags } from "./post-badge";
+import { PostTags } from "./post-tag";
 
 // If I don't deploy more than once a month then the website deserves to be forcibly broken.
 // Get good
@@ -22,24 +21,16 @@ export const PostListItem: React.FC<PostListItemProps> = ({ post }) => {
       <Link
         href={`/basin/${post.slug}`}
         className="group block rounded-lg p-3 transition-colors hover:bg-accent/40"
-        transitionTypes={["nav-forward"]}
       >
         <div className="flex min-h-12 items-baseline justify-between gap-3">
-          <ViewTransition
-            name={`droplet-${post.slug}`}
-            share="droplet-title"
-            enter="droplet-title"
-            default="none"
+          <h2
+            className={cn(
+              "flex items-center gap-2 font-heading text-xl transition-colors group-hover:text-foreground-high-contrast",
+              isNewPost ? "text-foreground-high-contrast" : "text-primary",
+            )}
           >
-            <h2
-              className={cn(
-                "flex items-center gap-2 font-heading text-xl transition-colors group-hover:text-foreground-high-contrast",
-                isNewPost ? "text-foreground-high-contrast" : "text-primary",
-              )}
-            >
-              {post.frontmatter.title}
-            </h2>
-          </ViewTransition>
+            {post.frontmatter.title}
+          </h2>
           <div className="flex flex-col items-end justify-end gap-1">
             <time
               dateTime={post.frontmatter.publishedAt}
