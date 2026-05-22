@@ -6,14 +6,17 @@ export default async function Page() {
 
   const tags = posts.reduce(
     (acc, prev) => {
-      prev.frontmatter.tags?.forEach((tag) => {
-        const existing = acc.find(([t]) => t === tag);
-        if (existing) {
-          existing[1]++;
-        } else {
-          acc.push([tag, 1]);
-        }
-      });
+      // only count tags from non-draft posts in production
+      if (process.env.NODE_ENV !== "production" || !prev.frontmatter.draft) {
+        prev.frontmatter.tags?.forEach((tag) => {
+          const existing = acc.find(([t]) => t === tag);
+          if (existing) {
+            existing[1]++;
+          } else {
+            acc.push([tag, 1]);
+          }
+        });
+      }
       return acc;
     },
     [] as [string, number][],

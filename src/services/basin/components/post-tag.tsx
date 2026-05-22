@@ -1,7 +1,6 @@
 "use client";
 
 import { ArchiveRestore, Code, Scroll } from "lucide-react";
-import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { ReviewTag } from "./review-tag";
@@ -20,12 +19,14 @@ const MigratedTag: React.FC = () => (
   </Badge>
 );
 
-const CodeTag: React.FC = () => (
-  <Badge className="ml-1" variant="default" size="sm">
-    <Code aria-hidden="true" />
-    <code className="font-mono text-xs">CODE</code>
-  </Badge>
-);
+const CodeTag: React.FC = () => {
+  return (
+    <Badge className="ml-1 cursor-wait" variant="default" size="sm">
+      <Code aria-hidden="true" />
+      <code className="font-mono text-[10px]">CODE</code>
+    </Badge>
+  );
+};
 
 const codeTags = ["code", "esm", "python", "rust", "go", "k8s"];
 
@@ -34,7 +35,6 @@ export const PostTag: React.FC<{ tag: string; otherTags: string[] }> = ({
   tag,
   otherTags,
 }) => {
-  const router = useRouter();
   const isReviewTag = useMemo(() => tag.endsWith("-review"), [tag]);
   const isCodeTag = useMemo(() => {
     if (tag === "code") return true;
