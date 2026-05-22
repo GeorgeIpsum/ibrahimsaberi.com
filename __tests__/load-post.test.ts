@@ -205,8 +205,8 @@ describe("loadPostMeta", () => {
     expect(meta.frontmatter.publishedAt).toBe("2026-01-15T00:00:00.000-05:00");
   });
 
-  it("calls notFound for an unknown slug", async () => {
+  it("returns null for an unknown slug", async () => {
     setFiles({ "2026-05-20-hello.mdx": mdx({ title: "Hello" }) });
-    await expect(loadPostMeta("ghost")).rejects.toThrow("NEXT_NOT_FOUND");
+    await expect(loadPostMeta("ghost")).resolves.toBeNull();
   });
 });

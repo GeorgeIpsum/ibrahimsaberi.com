@@ -45,7 +45,7 @@ async function fetchNowPlaying(isRetry: boolean): Promise<NowPlaying | null> {
     "https://api.spotify.com/v1/me/player/currently-playing",
     {
       headers: { Authorization: `Bearer ${token}` },
-      cache: "no-store",
+      next: { revalidate: 10 },
     },
   );
 

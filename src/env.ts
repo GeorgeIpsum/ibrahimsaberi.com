@@ -6,12 +6,16 @@ export const env = createEnv({
     SPOTIFY_CLIENT_ID: type("string > 0"),
     SPOTIFY_CLIENT_SECRET: type("string > 0"),
     SPOTIFY_REFRESH_TOKEN: type("string > 0"),
+    REDIS_KV_REST_API_TOKEN: type("string > 0"),
+    REDIS_KV_REST_API_URL: type("string > 0"),
   },
   client: {},
   runtimeEnv: {
     SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
     SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
     SPOTIFY_REFRESH_TOKEN: process.env.SPOTIFY_REFRESH_TOKEN,
+    REDIS_KV_REST_API_TOKEN: process.env.REDIS_KV_REST_API_TOKEN,
+    REDIS_KV_REST_API_URL: process.env.REDIS_KV_REST_API_URL,
   },
   emptyStringAsUndefined: true,
 });
