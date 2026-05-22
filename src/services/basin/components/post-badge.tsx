@@ -41,6 +41,8 @@ export const PostTag: React.FC<{ tag: string; otherTags: string[] }> = ({
 }) => {
   const router = useRouter();
   const isReviewTag = useMemo(() => tag.endsWith("-review"), [tag]);
+
+  return null;
 };
 
 export const PostTags: React.FC<{ tags?: string[] | undefined }> = ({
@@ -49,42 +51,14 @@ export const PostTags: React.FC<{ tags?: string[] | undefined }> = ({
   if (!tags || tags.length === 0) return null;
 
   const renderTags = (tag: string) => {
-    switch (tag) {
-      case "throwback":
-        return (
-          <Badge variant="info" size="sm">
-            <History aria-hidden="true" />
-            THROWBACK
-          </Badge>
-        );
-      case "movie-review":
-        return (
-          <Badge variant="info" size="sm">
-            <TicketCheck aria-hidden="true" />
-            MOVIE REVIEW
-          </Badge>
-        );
-      case "show-review":
-        return (
-          <Badge variant="info" size="sm">
-            <Scroll aria-hidden="true" />
-            SHOW REVIEW
-          </Badge>
-        );
-      case "music-review":
-        return (
-          <Badge variant="info" size="sm">
-            <Scroll aria-hidden="true" />
-            MUSIC REVIEW
-          </Badge>
-        );
-      default:
-        return null;
-    }
+    if (tag === "draft") return <DraftTag />;
+    if (tag === "migrated") return <MigratedTag />;
+
+    return <PostTag tag={tag} otherTags={tags.filter((t) => t !== tag)} />;
   };
 
   return (
-    <div className="flex max-w-24 flex-wrap items-center justify-end gap-2 sm:max-w-48">
+    <div className="flex max-w-32 flex-wrap items-center justify-end gap-1.5 sm:max-w-48">
       {tags.map((tag) => (
         <div key={tag}>{renderTags(tag)}</div>
       ))}
