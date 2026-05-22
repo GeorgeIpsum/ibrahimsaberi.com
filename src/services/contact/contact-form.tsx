@@ -160,7 +160,33 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
 
       const alreadyChosenUndordered: string[] = [];
       for (const message of ordered) {
-        const randomUnorderedAmount = randNum(1, 3);
+        try {
+          await toastManager.promise(
+            new Promise((resolve) => setTimeout(resolve, randNum(2000, 6000))),
+            {
+              error: `${message} - FAILED`,
+              loading: message,
+              success: `${message} - SUCCESS?`,
+            },
+          );
+        } catch {
+          // THE SPICE MUST FLOW
+        }
+
+        if (message === ordered[ordered.length - 1]) {
+          await toastManager.promise(
+            new Promise((_, reject) => setTimeout(reject, randNum(2000, 6000))),
+            {
+              error: `Welp. Something went wrong. Maybe try again later?`,
+              loading: `Finishing up...`,
+              success: `You'll never get this. Never ever ever ever.`,
+            },
+          );
+          return;
+        }
+
+        // for every command into the nether we must send forth additional sacrifices
+        const randomUnorderedAmount = randNum(1, 4);
         const chosenUnordered: string[] = [];
         for (let i = 0; i < randomUnorderedAmount; i++) {
           let choice: string;
@@ -173,19 +199,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
           );
           chosenUnordered.push(choice);
           alreadyChosenUndordered.push(choice);
-        }
-
-        try {
-          await toastManager.promise(
-            new Promise((resolve) => setTimeout(resolve, randNum(2000, 6000))),
-            {
-              error: `${message} - FAILED`,
-              loading: message,
-              success: `${message} - SUCCESS?`,
-            },
-          );
-        } catch {
-          // THE SPICE MUST FLOW
         }
 
         for (const unorderedMessage of chosenUnordered) {
