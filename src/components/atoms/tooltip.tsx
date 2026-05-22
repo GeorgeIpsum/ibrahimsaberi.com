@@ -18,7 +18,7 @@ export function TooltipTrigger(
   return <TooltipPrimitive.Trigger data-slot="tooltip-trigger" {...props} />;
 }
 
-export function TooltipPopup({
+function TooltipPopup({
   className,
   align = "center",
   sideOffset = 4,

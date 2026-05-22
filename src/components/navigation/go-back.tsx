@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/atoms/button";
 import {
   Tooltip,
-  TooltipPopup,
+  TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
@@ -35,7 +35,7 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
           {renderIcon()}
           {children ?? <span>Go back</span>}
         </TooltipTrigger>
-        <TooltipPopup side="top">From whence you came</TooltipPopup>
+        <TooltipContent side="top">From whence you came</TooltipContent>
       </Tooltip>
     </TooltipProvider>
   );

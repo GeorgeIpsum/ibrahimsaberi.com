@@ -11,7 +11,7 @@ import {
 import { ToggleGroup, ToggleGroupItem } from "@/components/atoms/toggle-group";
 import {
   Tooltip,
-  TooltipPopup,
+  TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
@@ -68,7 +68,7 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
               >
                 <Sun />
               </TooltipTrigger>
-              <TooltipPopup side="left">Light Theme</TooltipPopup>
+              <TooltipContent side="left">Light Theme</TooltipContent>
             </Tooltip>
             <Tooltip>
               <TooltipTrigger
@@ -82,7 +82,7 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
               >
                 <MoonStar />
               </TooltipTrigger>
-              <TooltipPopup side="left">Dark Theme</TooltipPopup>
+              <TooltipContent side="left">Dark Theme</TooltipContent>
             </Tooltip>
             {/* <Tooltip>
               <TooltipTrigger
