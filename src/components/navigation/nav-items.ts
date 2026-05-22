@@ -6,10 +6,10 @@ interface NavItem {
 
 export const navItems: NavItem[] = [
   { title: "home", href: "/", mobileOnly: true },
-  { title: "about", href: "/about", mobileOnly: true },
-  { title: "projects", href: "/projects", mobileOnly: true },
   { title: "basin", href: "/basin" },
+  { title: "reservoir", href: "/reservoir", mobileOnly: true },
   { title: "spin", href: "/mrcl" },
   { title: "fm", href: "/fm" },
+  { title: "about", href: "/about", mobileOnly: true },
   { title: "contact", href: "/contact", mobileOnly: true },
 ];
