@@ -99,7 +99,15 @@ export function InputGroupInput({
 
 export function InputGroupTextarea({
   className,
+  textAreaProps,
   ...props
 }: TextareaProps): React.ReactElement {
-  return <Textarea className={className} unstyled {...props} />;
+  return (
+    <Textarea
+      className={className}
+      unstyled
+      textAreaProps={textAreaProps}
+      {...props}
+    />
+  );
 }

@@ -9,6 +9,7 @@ export type TextareaProps = React.ComponentPropsWithoutRef<"textarea"> &
   React.RefAttributes<HTMLTextAreaElement> & {
     size?: "sm" | "default" | "lg" | number;
     unstyled?: boolean;
+    textAreaProps?: React.ComponentPropsWithoutRef<"textarea">;
   };
 
 export function Textarea({
@@ -16,6 +17,7 @@ export function Textarea({
   size = "default",
   unstyled = false,
   ref,
+  textAreaProps,
   ...props
 }: TextareaProps): React.ReactElement {
   return (
@@ -45,6 +47,7 @@ export function Textarea({
                 "min-h-16.5 px-[calc(--spacing(2.5)-1px)] py-[calc(--spacing(1)-1px)] max-sm:min-h-19.5",
               size === "lg" &&
                 "min-h-18.5 py-[calc(--spacing(2)-1px)] max-sm:min-h-21.5",
+              textAreaProps?.className,
             )}
             data-slot="textarea"
             {...mergeProps(defaultProps, props)}
