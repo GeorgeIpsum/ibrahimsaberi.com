@@ -1,4 +1,5 @@
 export const ordered = [
+  "Falling back to manual submission",
   "Polyfilling `fetch@2.0.0`",
   "Creating SendGrid account",
   "Building payload",
