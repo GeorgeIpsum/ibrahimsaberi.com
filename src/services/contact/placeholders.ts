@@ -28,7 +28,7 @@ export const placeholders: Placeholder[] = [
   {
     name: "Eye Boy",
     email: `eyeboy${new Date().getFullYear() + 1}@yahoo.com`,
-    text: "I see all. You have no plans to make me.",
+    text: "I see all. You have no plans to make me. But tell me now? How will you unmake me?",
   },
   {
     name: "Blue Oak",
@@ -81,11 +81,6 @@ export const placeholders: Placeholder[] = [
     text: "HOW is it that I couldn't get the email lbj@gmail.com",
   },
   {
-    name: "Ronald Reagan",
-    email: "there is no joke. i hate this guy",
-    text: "AAAAAAAAAAAAAAAAA I'M BURNING IN HELL AAAAAAAAAAAAAAAAAA IT HURTS AAAAAAAAAAAAAAAAAAAAAAAA",
-  },
-  {
     name: "David Foster Wallace",
     email: "dfw@banality.co",
     text: "This is just a placeholder. I'm not sure what to say here. Maybe something about the infinite jest of existence? Or the absurdity of the human condition? I don't know. I'm just a placeholder.",
@@ -93,13 +88,38 @@ export const placeholders: Placeholder[] = [
   {
     name: "Youngster Joey",
     email: "ceo@rattata.com",
-    text: "Now that I'm an Elite Four member, you need to FEAR my Rattata.",
+    text: "Now that I'm an Elite Four member, you have no choice but to FEAR my Rattata. Prepare yourself.",
   },
   {
     name: "Youngster Ben",
     email: "ben@comfyandeasy.com",
     text: "I like shorts! And I hate the government.",
   },
+  {
+    name: "Ronald Reagan",
+    email: "there is no joke. i hate this guy",
+    text: "AAAAAAAAAAAAAAAAA I'M BURNING IN HELL AAAAAAAAAAAAAAAAAA IT HURTS AAAAAAAAAAAAAAAAAAAAAAAA",
+  },
+  {
+    name: "Hatsune Miku",
+    email: "hmiku@crypton.co.jp",
+    text: "My name is Hatsune Miku. You killed my father. Prepare to die.",
+  },
+  {
+    name: "Inigo Montoya",
+    email: "epee777@hotmail.com",
+    text: "私はイニゴ・モントヤです",
+  },
+  // {
+  //   name: "Sharukh Khan",
+  //   email: "srk@redchillies.com",
+  //   text: "",
+  // },
+  // {
+  //   name: "Saul Goodman",
+  //   email: "",
+  //   text: "",
+  // },
   // hmmm this one could cause problems in my life
   // {
   //   name: "Benjamin Netanyahu",
