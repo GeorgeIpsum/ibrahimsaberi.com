@@ -17,7 +17,7 @@ const randomTimeRange = () => clampedNumber(1800, 3600);
 const sleepRandom = () => sleep(randomTimeRange());
 
 const TOAST_ID = "contact-form-subtask";
-const SUBTASK_SUCCESS_CHANCE = 0.5;
+const SUBTASK_SUCCESS_CHANCE = 0.6;
 const MIN_SUBTASKS = 3;
 const MAX_SUBTASKS = 6;
 
@@ -193,6 +193,7 @@ const finalizeSubtask = async (data: TaskData) => {
     await sleep(2000);
 
     toastManager.add({
+      id: "WE_DID_IT_REDDIT",
       type: "success",
       title: `Form Submitted?`,
       description: (
@@ -202,6 +203,13 @@ const finalizeSubtask = async (data: TaskData) => {
           isSuccess
         />
       ),
+      timeout: 0,
+      // actionProps: {
+      //   onClick: () => {
+      //     toastManager.close("WE_DID_IT_REDDIT");
+      //   },
+      //   children: "Celebrate",
+      // },
     });
 
     return { ...data, finished: true };
