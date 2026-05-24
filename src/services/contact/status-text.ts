@@ -9,7 +9,7 @@ export const ordered = [
   "Attempting to deploy carrier pigeons",
   "Attempting vigilante seagull countermeasures",
   "Attempting launching rockets",
-  "Attempting to use smoke signals",
+  "Attempting smoke signal deployment",
   "Attempting satellite transmission",
   "Attempting suborbital laser communication",
   "Attempting to call the fire department",
@@ -105,6 +105,8 @@ export const unordered = [
   "Consulting Tayne",
   "Reclassifying Pluto as a planet",
   "Constructing pylons",
+  "Torrenting soulja_boy_tellem.mp3",
+  "Rotating tires",
 ] as const;
 
 export const successMessages = [
@@ -141,6 +143,14 @@ export const successMessages = [
   "Also untangled the headphones.",
   "Shroomish evolved into a Breloom.",
   "And we found a shiny Shroomish as well!",
+  "I'm as surprised as you are.",
+  "Bogos binted?",
+  "AND we got an extra McNugget.",
+  "😎",
+  "Are you beginning to believe yet?",
+  "We are so back.",
+  "But we had to use the Master Ball.",
+  "We killed it with kindness.",
 ] as const;
 
 export const errorMessages = [
@@ -172,4 +182,24 @@ export const errorMessages = [
   "The red mage was right, actually.",
   "The Shroomish are revolting.",
   "Server's on a smoke break.",
+  "Dough = overproofed.",
+  ":(",
+  "The dog ate the request.",
+  "We're blaming cosmic bit flips.",
+  "Requests haunted.",
+  "Also, your ISP has been notified.",
+  "The courier stepped on a lego.",
+  "The Shroomish was a Ditto in disguise.",
+  "Plot armor failed.",
+  "The request's favorite manga got discontinued.",
+  "It's so over.",
+  "The prophecy was wrong.",
+  "Open the door. Get on the floor. Everybody walk the dinosaur.",
+  "I warned you about stairs, bro.",
+  "Turns out Spiders Georg was NOT an outlier.",
+  "Did I do that?",
+  "Mom said it was the other server's turn.",
+  "Blinded by an incoming driver's high beams.",
+  "They hated the PowerPoint.",
+  "We ran out of error messages.",
 ] as const;
