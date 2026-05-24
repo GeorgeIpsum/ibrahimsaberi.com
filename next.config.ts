@@ -55,6 +55,14 @@ const config: NextConfig = {
   },
   outputFileTracingIncludes: {
     "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
+    "/api/audio/:path*": ["./public/audio/**/*"],
+  },
+  outputFileTracingExcludes: {
+    "/api/audio/:path*": [
+      "./package.json", // ← the file actually causing ERR_REQUIRE_ESM
+      "./next.config.ts",
+      "./packages/**", // local workspace packages NFT pulled in
+    ],
   },
   poweredByHeader: false,
   devIndicators: false,
