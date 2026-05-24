@@ -29,7 +29,7 @@ import { cn } from "@/css/lib";
 import { classifySentiment, getSentiment } from "@/services/sentiment/lib";
 import { type Placeholder, placeholders } from "./placeholders";
 import { SentimentIcon } from "./sentiment-icon";
-import { attemptContactFormSubmission } from "./toast";
+import { attemptContactFormSubmission } from "./submit-contact-form";
 
 const MAX_TEXTAREA_LENGTH = 2048;
 const MIN_TEXTAREA_LENGTH = 16;
@@ -234,7 +234,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                       <AnimatePresence>
                         {textAreaLength > 0 && (
                           <motion.div
-                            className="font-mono text-muted-foreground text-sm transition-colors"
+                            className="font-mono text-muted-foreground text-xs transition-colors"
                             layoutId="char-count"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
