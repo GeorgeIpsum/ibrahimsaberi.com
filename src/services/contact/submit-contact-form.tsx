@@ -1,6 +1,7 @@
 import { toastManager } from "@/components/atoms/toast";
 import { passForward, pipe, sleep } from "@/utils/async";
 import { clampedNumber, randomArrayMember, randomLessThan } from "@/utils/rand";
+import { createAudio, playOnce } from "../audio/play";
 import {
   type ErrorMessage,
   errorMessages,
@@ -61,7 +62,7 @@ const initialSubmit = async () => {
     type: "error",
   });
 
-  await sleep(randomTimeRange() / 2);
+  await Promise.all([sleep(randomTimeRange() / 2), playOnce("/error")]);
 
   const id2 = "initial-submit-fallback";
   toastManager.add({
@@ -77,6 +78,24 @@ const initialSubmit = async () => {
     title: "Let's try again...",
     description: "Fallback submission sequence initialized.",
     type: "success",
+  });
+
+  const audio = await createAudio("/elevator");
+  audio.volume = 0.02;
+
+  const interval = setInterval(() => {
+    if (audio.volume >= 1) {
+      clearInterval(interval);
+      console.log("Audio volume reached 1, clearing interval.");
+      return;
+    }
+    audio.volume = Math.min(audio.volume + 0.05, 1);
+  }, 500);
+
+  audio.play().catch((e) => {
+    if (process.env.NODE_ENV === "development") {
+      console.error("Error playing audio:", e);
+    }
   });
 };
 
@@ -211,6 +230,15 @@ const finalizeSubtask = async (data: TaskData) => {
       //   children: "Celebrate",
       // },
     });
+
+    const player = document.querySelector(
+      "audio[src='/api/audio/elevator']",
+    ) as HTMLAudioElement | null;
+    if (player) {
+      player.pause();
+      player.currentTime = 0;
+      document.body.removeChild(player);
+    }
 
     return { ...data, finished: true };
   }
