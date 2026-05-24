@@ -267,6 +267,7 @@ export const attemptContactFormSubmission = async () => {
             task,
             taskNumber: index + 1,
             results: [],
+            excludedResultMessages: [],
             chosenSubtasks,
           }),
         passForward<TaskData>(sleepRandom),
