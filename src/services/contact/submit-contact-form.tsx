@@ -104,7 +104,7 @@ const finalizeStatusResult = async (data: UpdateData) => {
     description: <StatusDescription message="Compressing results" />,
   });
 
-  await sleepRandom();
+  await sleep(2000);
 
   if (results.every(Boolean)) {
     let choice: string;
@@ -228,7 +228,7 @@ export const attemptContactFormSubmission = async (placeholder?: {
         addStatus,
         passForward(sleepRandom),
         ...Array(randomUnorderedAmount).fill(pipeStatusUpdates),
-        passForward(() => sleep(1500)),
+        passForward(sleepRandom),
         finalizeStatusResult,
         passForward(sleepRandom),
       );
