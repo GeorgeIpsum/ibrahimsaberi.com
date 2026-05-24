@@ -33,6 +33,7 @@ import { attemptContactFormSubmission } from "./submit-contact-form";
 
 const MAX_TEXTAREA_LENGTH = 2048;
 const MIN_TEXTAREA_LENGTH = 16;
+const phoneRegex = /(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}/;
 
 interface ContactFormProps {
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void | Promise<void>;
@@ -177,6 +178,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                     <InputGroupInput
                       type="email"
                       autoComplete="email"
+                      inputMode="email"
                       required
                       minLength={3}
                       placeholder={placeholder?.email}
@@ -192,10 +194,18 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                   <InputGroup>
                     <InputGroupInput
                       type="tel"
+                      inputMode="tel"
+                      pattern={phoneRegex.source}
                       autoComplete="tel"
                       minLength={10}
                       maxLength={15}
                       placeholder="+1 (opt)-ion-ally"
+                      onBeforeInput={(e) => {
+                        const data = (e.nativeEvent as InputEvent).data;
+                        if (data && phoneRegex.test(data)) {
+                          e.preventDefault();
+                        }
+                      }}
                     />
                     <InputGroupAddon>
                       <Phone aria-hidden="true" />
