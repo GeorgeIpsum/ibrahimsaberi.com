@@ -1,11 +1,11 @@
 import { AnimatePresence, motion } from "motion/react";
 import { cn } from "@/css/lib";
 
-export const StatusDescription: React.FC<{
-  message: React.ReactNode;
-  status?: React.ReactNode;
+export const Subtask: React.FC<{
+  subtask: React.ReactNode;
+  subtaskResult?: React.ReactNode;
   isSuccess?: boolean;
-}> = ({ message, status, isSuccess }) => (
+}> = ({ subtask, subtaskResult, isSuccess }) => (
   <motion.span
     layout
     transition={{ layout: { duration: 0.3, ease: "easeOut" } }}
@@ -13,21 +13,21 @@ export const StatusDescription: React.FC<{
   >
     <AnimatePresence mode="popLayout" initial={false}>
       <motion.span
-        key={message?.toString()}
+        key={subtask?.toString()}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
         className="block"
       >
-        {message}
+        {subtask}
         {typeof isSuccess === "boolean" ? (isSuccess ? " ✅" : " ❌") : "..."}
       </motion.span>
     </AnimatePresence>
     <AnimatePresence mode="popLayout" initial={false}>
-      {status && (
+      {subtaskResult && (
         <motion.span
-          key={status.toString()}
+          key={subtaskResult.toString()}
           initial={{ opacity: 0, x: 30, scaleX: 0.9 }}
           animate={{
             opacity: 1,
@@ -46,7 +46,7 @@ export const StatusDescription: React.FC<{
             isSuccess ? "text-success-foreground" : "text-warning-foreground",
           )}
         >
-          {status}
+          {subtaskResult}
         </motion.span>
       )}
     </AnimatePresence>

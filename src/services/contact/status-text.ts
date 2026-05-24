@@ -1,31 +1,27 @@
-export const ordered = [
+export const fallbackSequences = [
   "Attempting manual submission",
   "Attempting fetch@2.0.0",
-  "Attempting using SendGrid",
+  "Attempting SendGrid SMTP relay",
   "Attempting artisanally crafting payload",
   "Attempting POSTing to Outlook API",
-  "Attempting to search for a Twilio API Key",
-  "Attempting to mail physical media",
-  "Attempting to deploy carrier pigeons",
-  "Attempting vigilante seagull countermeasures",
-  "Attempting launching rockets",
-  "Attempting smoke signal deployment",
-  "Attempting satellite transmission",
-  "Attempting suborbital laser communication",
+  "Attempting Twilio API Key exfiltration",
+  "Attempting physical media delivery",
+  "Attempting carrier pigeon deployment",
+  "Attempting rocket launch",
+  "Attempting smoke signal transmission",
+  "Attempting satellite uplink",
+  "Attempting suborbital laser flash",
   "Attempting to call the fire department",
-  "Attempting to pay off the EPA",
-  "Attempting metaphysical media",
+  "Attempting metaphysical media manipulation",
   "Attempting candlelit vigil",
   "Attempting to appease the beast",
-  "Attempting to summon angels",
+  "Attempting angel summoning",
   "Attempting to blow the horn",
-  "Attempting CYA",
-  "Attempting user responsiveness check",
-  "Attempting to load spinner",
-  "Attempting to spin the loader",
+  "Attempting universal compression",
 ] as const;
+export type FallbackSequence = (typeof fallbackSequences)[number];
 
-export const unordered = [
+export const subtasks = [
   "Uploading apology video to YouTube",
   "Paying off the EPA",
   "Taking a coffee break",
@@ -107,7 +103,33 @@ export const unordered = [
   "Constructing pylons",
   "Torrenting soulja_boy_tellem.mp3",
   "Rotating tires",
+  "Paying off the EPA",
+  "Deploying vigilante seagull countermeasures",
+  "Currying",
+  "Finding change for a 20",
+  "Filling adoption forms",
+  "Laying down a sick beat",
+  "Taking a bathroom break",
+  "Erasing whiteboard",
+  "Counting cards",
+  "Tabling this discussion",
+  "Reorganizing the sock drawer",
+  "Inventing time travel",
+  "Filing an RFC",
+  "Threading the needle",
+  "Pickling the data",
+  "Reviving the cleric",
+  "Awaiting Godot",
+  "Mounting components",
+  "Hatching egg",
+  "Playing the Pokéflute",
+  "Banking geo",
+  "Manifesting",
+  "Skipping cutscene",
+  "Reciting pi",
+  "Closing cookie banner",
 ] as const;
+export type Subtask = (typeof subtasks)[number];
 
 export const successMessages = [
   "Uh... it worked? That's not supposed to happen.",
@@ -152,6 +174,7 @@ export const successMessages = [
   "But we had to use the Master Ball.",
   "We killed it with kindness.",
 ] as const;
+export type SuccessMessage = (typeof successMessages)[number];
 
 export const errorMessages = [
   "Well, this is embarrassing.",
@@ -203,3 +226,4 @@ export const errorMessages = [
   "They hated the PowerPoint.",
   "We ran out of error messages.",
 ] as const;
+export type ErrorMessage = (typeof errorMessages)[number];

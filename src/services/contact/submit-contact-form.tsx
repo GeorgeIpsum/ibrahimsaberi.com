@@ -1,281 +1,289 @@
 import { toastManager } from "@/components/atoms/toast";
 import { passForward, pipe, sleep } from "@/utils/async";
+import { clampedNumber, randomArrayMember, randomLessThan } from "@/utils/rand";
 import {
-  clampedNumber,
-  coinFlip,
-  randomArrayMember,
-  randomLessThan,
-} from "@/utils/rand";
-import { StatusDescription } from "./status-description";
-import {
+  type ErrorMessage,
   errorMessages,
-  ordered,
+  type FallbackSequence,
+  fallbackSequences,
+  type Subtask,
+  type SuccessMessage,
+  subtasks,
   successMessages,
-  unordered,
 } from "./status-text";
+import { Subtask as SubtaskDisplay } from "./subtask";
 
 const randomTimeRange = () => clampedNumber(1800, 3600);
 const sleepRandom = () => sleep(randomTimeRange());
 
-type UpdateData = {
+const TOAST_ID = "contact-form-subtask";
+const SUBTASK_SUCCESS_CHANCE = 0.5;
+const MIN_SUBTASKS = 3;
+const MAX_SUBTASKS = 6;
+
+type TaskData = {
   id: string;
-  message: string;
-  chosenMessages: string[];
-  chosenStatuses: string[];
-  results: boolean[];
-  attempt: number;
+  task: FallbackSequence;
+  taskNumber: number;
+  chosenSubtasks: Subtask[];
+  excludedSubtasks: Subtask[];
+  excludedResultMessages: (ErrorMessage | SuccessMessage)[];
+  results: {
+    subtask: Subtask;
+    success?: boolean;
+    resultMessage?: ErrorMessage | SuccessMessage;
+  }[];
   finished?: boolean;
 };
 
-const addStatus = async (data: UpdateData) => {
-  const { id, attempt, message } = data;
+const initialSubmit = async () => {
+  const id1 = "initial-submit";
   toastManager.add({
-    id: `${id}-${attempt}`,
+    id: id1,
+    title: "Submitting...",
+    description: "This'll take just a second.",
     type: "loading",
-    title: message,
-    description: <StatusDescription message="Booting" />,
     timeout: 0,
+  });
+
+  await sleep(randomTimeRange() * 1.5);
+
+  toastManager.update(id1, {
+    title: "Hmm...",
+    description: "This is taking longer than expected.",
+  });
+
+  await sleep(randomTimeRange() * 1.5);
+
+  toastManager.update(id1, {
+    title: "Submission Failed",
+    description: "That's odd. Hold on a minute.",
+    type: "error",
   });
 
   await sleep(randomTimeRange() / 2);
 
-  toastManager.update(`${id}-${attempt}`, {
-    description: <StatusDescription message="Booted" isSuccess={true} />,
+  const id2 = "initial-submit-fallback";
+  toastManager.add({
+    id: id2,
+    title: "Let's try again...",
+    description: "Initializing fallback submission sequence...",
+    type: "loading",
+  });
+
+  await sleepRandom();
+
+  toastManager.update(id2, {
+    title: "Let's try again...",
+    description: "Fallback submission sequence initialized.",
+    type: "success",
+  });
+};
+
+const subTaskId = (data: Pick<TaskData, "id" | "taskNumber">) =>
+  `${data.id}-${data.taskNumber}`;
+
+const startSequence = async (data: TaskData) => {
+  const { task, chosenSubtasks, finished } = data;
+  if (finished) return data;
+
+  toastManager.add({
+    id: subTaskId(data),
+    type: "loading",
+    title: task,
+    description: <SubtaskDisplay subtask="Booting" />,
+    timeout: 0,
+  });
+
+  await sleep(randomTimeRange());
+
+  toastManager.update(subTaskId(data), {
+    description: (
+      <SubtaskDisplay
+        subtask="Booted"
+        subtaskResult={`${chosenSubtasks.length} loaded.`}
+        isSuccess={true}
+      />
+    ),
+  });
+
+  await sleep(randomTimeRange());
+
+  toastManager.update(subTaskId(data), {
+    description: <SubtaskDisplay subtask="Starting subtasks" />,
+  });
+
+  return data;
+};
+
+const doSubtask = async (data: TaskData): Promise<TaskData> => {
+  const { chosenSubtasks, finished } = data;
+  if (finished) return data;
+
+  const subtask = chosenSubtasks.shift();
+  if (!subtask) {
+    throw new Error("No subtasks left to perform");
+  }
+  data.results.push({ subtask });
+
+  // for every command into the nether we must send forth additional sacrifices
+  toastManager.update(subTaskId(data), {
+    type: "loading",
+    description: <SubtaskDisplay subtask={subtask} />,
     timeout: 0,
   });
 
   return data;
 };
 
-const updateStatus = async (data: UpdateData) => {
-  const { chosenMessages = [], id, attempt } = data;
+const resolveSubtask = async (data: TaskData): Promise<TaskData> => {
+  const { excludedResultMessages, finished, results } = data;
+  if (finished) return data;
 
-  let choice: string;
-  // add random unordered message that hasn't already been chosen to chosenUnordered
-  do {
-    choice = randomArrayMember(unordered);
-  } while (chosenMessages.includes(choice));
-
-  // for every command into the nether we must send forth additional sacrifices
-  toastManager.update(`${id}-${attempt}`, {
-    type: "loading",
-    description: <StatusDescription message={choice} />,
-    timeout: 0,
-  });
-
-  return { ...data, chosenMessages: [...chosenMessages, choice] };
-};
-
-const SUCCESS_CHANCE = 0.5;
-const resolveStatusResult = async (data: UpdateData) => {
-  const success = randomLessThan(SUCCESS_CHANCE);
-
-  const { id, attempt, chosenMessages, chosenStatuses } = data;
-
-  const chosenMessage = chosenMessages[chosenMessages.length - 1];
-  let status: string;
+  const success = randomLessThan(SUBTASK_SUCCESS_CHANCE);
+  const currentSubtask = results[results.length - 1].subtask;
+  let resultMessage: ErrorMessage | SuccessMessage;
   // add random unordered status that hasn't already been chosen to chosenStatuses
   do {
-    status = randomArrayMember(success ? successMessages : errorMessages);
-  } while (chosenStatuses.includes(status));
+    resultMessage = randomArrayMember(
+      success ? successMessages : errorMessages,
+    );
+  } while (excludedResultMessages.includes(resultMessage));
 
-  toastManager.update(`${id}-${attempt}`, {
+  toastManager.update(subTaskId(data), {
     description: (
-      <StatusDescription
-        message={chosenMessage}
+      <SubtaskDisplay
+        subtask={currentSubtask}
+        subtaskResult={resultMessage}
         isSuccess={success}
-        status={status}
       />
     ),
     timeout: 0,
   });
 
-  return {
-    ...data,
-    results: [...(data.results ?? []), success],
-    chosenStatuses: [...chosenStatuses, status],
-  };
+  results[results.length - 1].success = success;
+  results[results.length - 1].resultMessage = resultMessage;
+  excludedResultMessages.push(resultMessage);
+
+  return data;
 };
 
-const finalizeStatusResult = async (data: UpdateData) => {
-  const { results, id, attempt, chosenMessages, message } = data;
+const finalizeSubtask = async (data: TaskData) => {
+  const { results, excludedResultMessages, task, taskNumber, finished } = data;
+  if (finished) return data;
 
-  toastManager.update(`${id}-${attempt}`, {
-    description: <StatusDescription message="Compressing results" />,
+  toastManager.update(subTaskId(data), {
+    description: <SubtaskDisplay subtask="Compressing results" />,
   });
 
   await sleep(2000);
 
-  if (results.every(Boolean)) {
-    let choice: string;
-
+  if (results.every((result) => result.success)) {
+    let successMessage: SuccessMessage;
     do {
-      choice = randomArrayMember(successMessages);
-    } while (chosenMessages.includes(choice));
+      successMessage = randomArrayMember(successMessages);
+    } while (excludedResultMessages.includes(successMessage));
 
-    toastManager.update(`${id}-${attempt}`, {
+    toastManager.update(subTaskId(data), {
       type: "success",
-      description: <StatusDescription message={"Holy cow."} isSuccess={true} />,
-      timeout: 3000,
+      description: <SubtaskDisplay subtask={"Holy cow."} isSuccess={true} />,
+      timeout: 0,
     });
 
-    await sleep(1500);
+    await sleep(2000);
 
     toastManager.add({
       type: "success",
-      title: `Wow. We really sent it. Or really, I sent it. You didn't actually do anything.`,
-      description: choice,
-      timeout: 5000,
+      title: `Form Submitted?`,
+      description: (
+        <SubtaskDisplay
+          subtask="Really? It really went through?"
+          subtaskResult="We did it I suppose. Really, I did it. You didn't do anything."
+          isSuccess
+        />
+      ),
     });
+
     return { ...data, finished: true };
   }
 
-  toastManager.update(`${id}-${attempt}`, {
+  toastManager.update(subTaskId(data), {
     type: "error",
-    title: `${message} ❌`,
+    title: `${task} - Failed`,
     description: (
-      <StatusDescription
-        message={`Sequence ${attempt} failed... Loading next fallback sequence...`}
-        status={`${results.length - results.filter(Boolean).length}/${results.length} commands failed`}
+      <SubtaskDisplay
+        subtask={`Sequence ${taskNumber} failed... Loading next fallback sequence`}
+        subtaskResult={`${results.length - results.filter((result) => result.success).length}/${results.length} commands failed`}
       />
     ),
     timeout: 0,
   });
 
-  if (attempt > 5) {
-    toastManager.close(`${id}-${attempt - 5}`);
-  }
-
   return data;
 };
 
-const pipeStatusUpdates = (data: UpdateData) =>
-  pipe<UpdateData>(
-    data,
-    passForward(sleepRandom),
-    updateStatus,
-    passForward(sleepRandom),
-    resolveStatusResult,
+const subtaskPipe = (numChosenTasks: number) =>
+  pipe<TaskData>(
+    ...Array.from({ length: numChosenTasks }, () => [
+      doSubtask,
+      passForward<TaskData>(sleepRandom),
+      resolveSubtask,
+      passForward<TaskData>(sleepRandom),
+    ]).flat(),
   );
 
-// "attempt"
-export const attemptContactFormSubmission = async (placeholder?: {
-  name: string;
-}) => {
-  const id = "status-update";
-  try {
-    await toastManager.promise(
-      new Promise((_, reject) => setTimeout(reject, randomTimeRange())),
-      {
-        loading: {
-          title: `Submitting...`,
-          description: "This'll just take a second.",
+// an "attempt"
+export const attemptContactFormSubmission = async () => {
+  const excludedSubtasks: Subtask[] = [];
+
+  const taskPipe = pipe<TaskData>(
+    passForward(initialSubmit),
+    passForward(sleepRandom),
+    ...fallbackSequences.flatMap((task, index) => {
+      const chosenSubtasks = Array.from(
+        { length: clampedNumber(MIN_SUBTASKS, MAX_SUBTASKS) },
+        () => {
+          let subtask: Subtask;
+          let attempt = 0;
+          do {
+            subtask = randomArrayMember(subtasks);
+            attempt++;
+          } while (excludedSubtasks.includes(subtask) && attempt < 10);
+
+          if (excludedSubtasks.includes(subtask)) {
+            subtask = `${randomArrayMember(subtasks)} (again)` as Subtask;
+          }
+
+          excludedSubtasks.push(subtask);
+
+          return subtask;
         },
-        success: {
-          title: "Submitted!",
-          description: "Sike. You can't actually get here.",
-        },
-        error: {
-          title: "Submission Failed",
-          description: "That's odd. Hold on a minute.",
-          timeout: 12000,
-        },
-      },
-    );
-  } catch {}
-
-  await sleep(randomTimeRange() / 2);
-
-  // it beginneth.
-  await toastManager.promise(
-    new Promise((resolve) => setTimeout(resolve, randomTimeRange())),
-    {
-      loading: {
-        title: `Let's try again...`,
-        description: `Initializing fallback submission sequence...`,
-      },
-      success: {
-        title: `Let's try again...`,
-        description: `Fallback submission sequence initialized.`,
-        timeout: 12000,
-      },
-      error: "",
-    },
-  );
-
-  await sleep(randomTimeRange() / 2);
-
-  let chosenMessages: string[] = [];
-
-  for (const [index, message] of Object.entries(ordered)) {
-    const attempt = parseInt(index, 10) + 1;
-    const results: boolean[] = [];
-
-    try {
-      const randomUnorderedAmount = clampedNumber(4, 8);
-
-      let pipeResult: UpdateData = {
-        id,
-        message,
-        chosenMessages,
-        chosenStatuses: [],
-        results,
-        attempt,
-      };
-
-      pipeResult = await pipe(
-        pipeResult,
-        addStatus,
-        passForward(() => sleep(randomTimeRange() / 2)),
-        ...Array(randomUnorderedAmount).fill(pipeStatusUpdates),
-        passForward(sleepRandom),
-        finalizeStatusResult,
-        passForward(sleepRandom),
       );
 
-      chosenMessages = pipeResult.chosenMessages;
+      return [
+        (data: TaskData) =>
+          startSequence({
+            ...data,
+            task,
+            taskNumber: index + 1,
+            results: [],
+            chosenSubtasks,
+          }),
+        passForward<TaskData>(sleepRandom),
+        subtaskPipe(chosenSubtasks.length),
+        finalizeSubtask,
+        passForward<TaskData>(sleepRandom),
+      ];
+    }),
+  );
 
-      if (pipeResult.finished) {
-        return;
-      }
-    } catch {
-      // THE SPICE MUST FLOW
-    }
-
-    if (message === "Attempting candlelit vigil") {
-      try {
-        await toastManager.promise(
-          new Promise<void>((resolve, reject) =>
-            setTimeout(coinFlip() ? resolve : reject, randomTimeRange()),
-          ),
-          {
-            loading: `Invoking the name of ${placeholder?.name}...`,
-            success: `Phew, that was close. Wait oh God what is that`,
-            error: `Uh oh. What is that.`,
-          },
-        );
-
-        await sleep(randomTimeRange() / 2);
-      } catch {
-        // careful now...
-      }
-
-      try {
-        await toastManager.promise(
-          new Promise((_, reject) =>
-            setTimeout(() => reject(), randomTimeRange()),
-          ),
-          {
-            loading: `HOLD ON I CAN FIX THIS I THINK... SERIOUSLY DONT PANIC...`,
-            success: `lol u wish`,
-            error: `RUN. RUN NOW. YOU NEED TO GET OUT NOW.`,
-          },
-        );
-
-        await sleep(randomTimeRange() / 2);
-      } catch {
-        // well... we fucked up
-      }
-    }
-  }
+  await taskPipe({
+    id: TOAST_ID,
+    task: "Attempting manual submission",
+    taskNumber: 1,
+    chosenSubtasks: [],
+    excludedSubtasks,
+    excludedResultMessages: [],
+    results: [],
+  });
 };

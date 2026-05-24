@@ -3,21 +3,23 @@
 import { ONE_SECOND } from "./time";
 
 export const sleep = async (ms = ONE_SECOND as number) =>
-  new Promise((resolve) => {
+  new Promise<void>((resolve) => {
     setTimeout(resolve, ms);
   });
-export const pipe = async <T = any>(
-  val: T | Promise<T> | ((...args: any[]) => Promise<T>),
-  ...fns: ((...args: any[]) => Promise<T>)[]
-) => {
-  let result: T | undefined =
-    typeof val === "function"
-      ? await (val as (...args: any[]) => Promise<T>)()
-      : await val;
-  for (const fn of fns) {
-    result = await fn(result);
-  }
-  return result as T;
+
+export const pipe = <T = any>(...fns: ((...args: any[]) => Promise<T>)[]) => {
+  return async (val: T | Promise<T> | (() => Promise<T>)) => {
+    let result: T | undefined =
+      typeof val === "function"
+        ? await (val as (...args: any[]) => Promise<T>)()
+        : val instanceof Promise
+          ? await val
+          : val;
+    for (const fn of fns) {
+      result = await fn(result);
+    }
+    return result as T;
+  };
 };
 
 export const passForward = <T>(

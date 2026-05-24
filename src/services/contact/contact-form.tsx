@@ -136,7 +136,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       if (onSubmit) {
         await onSubmit(e);
       }
-      await attemptContactFormSubmission(placeholder);
+      await attemptContactFormSubmission();
     } finally {
       setIsSubmitting(false);
     }
