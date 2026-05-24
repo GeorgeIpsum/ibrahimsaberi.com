@@ -33,19 +33,36 @@ export const Header: React.FC = () => {
           <Link rel="home" href="/" tabIndex={-1}>
             <span className="group/title text-sm leading-none tracking-tighter">
               <span className="leading-none opacity-75 duration-500 ease-in-out group-hover/title:opacity-40">
-                a whisper.
-              </span>{" "}
-              <span className="inline-block whitespace-pre">
-                {Array.from("a wave").map((ch, i) => (
+                {Array.from("a whisper.").map((ch, i) => (
                   <span
                     key={ch + i.toString()}
-                    className="inline-block origin-bottom leading-none group-hover/title:animate-wave-travel"
-                    style={{ animationDelay: `${i * 70}ms` }}
+                    className="origin-center leading-none group-hover/title:animate-whisper-travel"
+                    style={
+                      {
+                        animationDelay: `${-40 + i * 50 - Math.exp((i + 1) / 5)}ms`,
+                      } as React.CSSProperties
+                    }
                   >
                     {ch}
                   </span>
                 ))}
-                .
+              </span>{" "}
+              <span className="inline-block whitespace-pre">
+                {Array.from("a wave.").map((ch, i) => (
+                  <span
+                    key={ch + i.toString()}
+                    className="transform-3d inline-block origin-center leading-none group-hover/title:animate-wave-travel"
+                    style={
+                      {
+                        animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
+                        "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
+                        "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
+                      } as React.CSSProperties
+                    }
+                  >
+                    {ch}
+                  </span>
+                ))}
               </span>
             </span>
           </Link>
