@@ -66,7 +66,7 @@ const updateStatus = async (data: UpdateData) => {
   return { ...data, chosenMessages: [...chosenMessages, choice] };
 };
 
-const SUCCESS_CHANCE = 0.4;
+const SUCCESS_CHANCE = 0.5;
 const resolveStatusResult = async (data: UpdateData) => {
   const success = randomLessThan(SUCCESS_CHANCE);
 
@@ -119,7 +119,7 @@ const finalizeStatusResult = async (data: UpdateData) => {
       timeout: 3000,
     });
 
-    await sleep(1000);
+    await sleep(1500);
 
     toastManager.add({
       type: "success",
@@ -139,11 +139,11 @@ const finalizeStatusResult = async (data: UpdateData) => {
         status={`${results.length - results.filter(Boolean).length}/${results.length} commands failed`}
       />
     ),
-    timeout: 12000,
+    timeout: 0,
   });
 
-  if (attempt > 2) {
-    toastManager.close(`${id}-${attempt - 2}`);
+  if (attempt > 5) {
+    toastManager.close(`${id}-${attempt - 5}`);
   }
 
   return data;
@@ -156,7 +156,6 @@ const pipeStatusUpdates = (data: UpdateData) =>
     updateStatus,
     passForward(sleepRandom),
     resolveStatusResult,
-    passForward(sleepRandom),
   );
 
 // "attempt"
@@ -229,7 +228,7 @@ export const attemptContactFormSubmission = async (placeholder?: {
         addStatus,
         passForward(sleepRandom),
         ...Array(randomUnorderedAmount).fill(pipeStatusUpdates),
-        passForward(sleepRandom),
+        passForward(() => sleep(1500)),
         finalizeStatusResult,
         passForward(sleepRandom),
       );
