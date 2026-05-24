@@ -53,6 +53,7 @@ const config: NextConfig = {
       { protocol: "https", hostname: "i.scdn.co" }, // album art
     ],
   },
+  serverExternalPackages: [],
   outputFileTracingIncludes: {
     "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
     "/api/audio/:path*": ["./public/audio/**/*"],

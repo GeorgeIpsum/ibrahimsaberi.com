@@ -1,24 +1,17 @@
+"use client";
+
+import { pipeline } from "@huggingface/transformers";
 import type { Sentiment } from "./types";
 
 export const getSentiment = async (text: string) => {
-  const response = await fetch("/api/sentiment", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ text }),
-  });
-  if (!response.ok) {
-    throw new Error("Ruh roh raggy");
-  }
-  const data = await response.json();
-  return data;
+  const classifier = await pipeline("sentiment-analysis");
+  const classifierResult = await classifier(text);
+  return { sentiment: classifierResult };
 };
 
 export const classifySentiment = (data: {
   sentiment: { label: string; score: number }[];
 }) => {
-  console.log(data);
   return data.sentiment.reduce((acc, { label, score }) => {
     if (label === "NEGATIVE" && score > 0.9) {
       return "UH-OH";
