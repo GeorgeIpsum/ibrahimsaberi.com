@@ -226,7 +226,7 @@ export const attemptContactFormSubmission = async (placeholder?: {
       pipeResult = await pipe(
         pipeResult,
         addStatus,
-        passForward(sleepRandom),
+        passForward(() => sleep(randomTimeRange() / 2)),
         ...Array(randomUnorderedAmount).fill(pipeStatusUpdates),
         passForward(sleepRandom),
         finalizeStatusResult,
