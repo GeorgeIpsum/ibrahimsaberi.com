@@ -80,7 +80,7 @@ const initialSubmit = async () => {
     type: "success",
   });
 
-  const audio = await createAudio("/elevator");
+  const audio = await createAudio("/elevator", { loop: true });
   audio.volume = 0.02;
 
   const interval = setInterval(() => {
