@@ -12,7 +12,7 @@ import { RefreshTicker } from "@/components/navigation/refresh-ticker";
 import { cn } from "@/css/lib";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
-import { navItems } from "../navigation/nav-items";
+import { type NavItem, navItems } from "../navigation/nav-items";
 
 export const Header: React.FC = () => {
   return (
@@ -71,13 +71,13 @@ export const Header: React.FC = () => {
           <nav className="hidden w-full flex-1 items-center justify-end gap-4 sm:flex">
             <ul className="flex w-full items-center justify-end gap-4 text-sm">
               {navItems
-                .filter((item) => !item.mobileOnly)
+                .filter((item) => !(item as NavItem).mobileOnly)
                 .map((item) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
                       className={cn(
-                        "text-primary/80 transition-colors duration-300 ease-out hover:text-primary",
+                        "text-primary/80 transition-colors duration-300 ease-out hover:text-foreground-high-contrast",
                       )}
                     >
                       {item.title}
@@ -88,18 +88,27 @@ export const Header: React.FC = () => {
             <Menu>
               <MenuTrigger
                 openOnHover
-                render={<Button variant="ghost" size="icon-xs" />}
+                render={
+                  <Button
+                    variant="ghost"
+                    size="icon-xs"
+                    className="transition-all hover:text-foreground-high-contrast"
+                  />
+                }
               >
                 <WavesArrowDown aria-label="Menu Dropdown" />
               </MenuTrigger>
               <MenuPopup side="bottom" align="end">
                 {navItems
-                  .filter((item) => item.mobileOnly && item.title !== "home")
+                  .filter(
+                    (item) =>
+                      (item as NavItem).mobileOnly && item.title !== "hearth",
+                  )
                   .map((item) => (
                     <MenuItem key={item.href}>
                       <Link
                         href={item.href}
-                        className="w-full text-left text-primary/80 text-sm transition-colors duration-300 ease-out hover:text-primary"
+                        className="w-full text-left text-primary/80 text-sm transition-colors duration-300 ease-out focus-within:text-foreground-high-contrast hover:text-foreground-high-contrast focus:text-foreground-high-contrast focus-visible:text-foreground-high-contrast data-highlighted:text-foreground-high-contrast"
                       >
                         {item.title}
                       </Link>
