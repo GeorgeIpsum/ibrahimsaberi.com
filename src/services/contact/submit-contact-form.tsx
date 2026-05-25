@@ -274,6 +274,7 @@ export const attemptContactFormSubmission = async () => {
 
           if (excludedSubtasks.includes(subtask)) {
             subtask = `${randomArrayMember(subtasks)} (again)` as Subtask;
+            console.log("WAOW", subtask);
           }
 
           excludedSubtasks.push(subtask);
