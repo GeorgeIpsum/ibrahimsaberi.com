@@ -37,7 +37,9 @@ export const playOnce = async (src: `/${string}`) => {
   try {
     const audio = await createAudio(src, { loop: false });
     audio.currentTime = 0;
-    await audio.play();
+    audio.addEventListener("canplaythrough", () => {
+      audio.play();
+    });
 
     return new Promise<void>((resolve) => {
       audio.onended = () => {

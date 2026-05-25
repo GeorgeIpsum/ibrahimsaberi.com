@@ -80,23 +80,33 @@ const initialSubmit = async () => {
     type: "success",
   });
 
-  const audio = await createAudio("/elevator", { loop: true });
-  audio.volume = 0.02;
+  try {
+    const audio = await createAudio("/elevator", { loop: true }).catch((e) => {
+      if (process.env.NODE_ENV === "development") {
+        console.error("Error creating audio element:", e);
+      }
+    });
+    audio.volume = 0.02;
 
-  const interval = setInterval(() => {
-    if (audio.volume >= 1) {
-      clearInterval(interval);
-      console.log("Audio volume reached 1, clearing interval.");
-      return;
-    }
-    audio.volume = Math.min(audio.volume + 0.05, 1);
-  }, 500);
+    const interval = setInterval(() => {
+      if (audio.volume >= 1) {
+        clearInterval(interval);
+        console.log("Audio volume reached 1, clearing interval.");
+        return;
+      }
+      audio.volume = Math.min(audio.volume + 0.05, 1);
+    }, 500);
 
-  audio.play().catch((e) => {
-    if (process.env.NODE_ENV === "development") {
-      console.error("Error playing audio:", e);
-    }
-  });
+    audio.play().catch((e) => {
+      if (process.env.NODE_ENV === "development") {
+        console.error("Error playing audio:", e);
+      }
+    });
+  } catch {
+    console.warn(
+      "Audio failed to play, but the submission sequence will continue regardless. You're welcome.",
+    );
+  }
 };
 
 const subTaskId = (data: Pick<TaskData, "id" | "taskNumber">) =>
