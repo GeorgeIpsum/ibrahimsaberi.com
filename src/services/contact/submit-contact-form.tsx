@@ -298,7 +298,10 @@ export const attemptContactFormSubmission = async () => {
         finalizeSubtask,
         async (data: TaskData) => {
           if (data.finished) {
-            audio.fade(1, 0, 2000).stop().unload();
+            audio.fade(1, 0, 5000);
+            audio.once("fade", () => {
+              audio.stop().unload();
+            });
           }
           return data;
         },
