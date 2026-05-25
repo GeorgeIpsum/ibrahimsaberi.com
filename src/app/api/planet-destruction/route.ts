@@ -58,15 +58,11 @@ export const POST = async (request: NextRequest) => {
       );
     }
 
-    let prompt = NEUTRAL_SENTIMENT_PROMPT;
-    if (
-      sentiment &&
-      typeof sentiment === "string" &&
-      isSentiment(sentiment) &&
-      SENTIMENT_PROMPT_MAP[sentiment]
-    ) {
-      prompt = SENTIMENT_PROMPT_MAP[sentiment];
-    }
+    const textSentiment =
+      isSentiment(sentiment) && typeof sentiment === "string"
+        ? sentiment
+        : "NEUTRAL";
+    const prompt = SENTIMENT_PROMPT_MAP[textSentiment];
 
     const leRequest = await fetch(
       "https://api.mistral.ai/v1/chat/completions",
@@ -78,7 +74,7 @@ export const POST = async (request: NextRequest) => {
         },
         body: JSON.stringify({
           model: "mistral-small-2506",
-          max_tokens: 256,
+          max_tokens: 64,
           messages: [
             {
               role: "system",
@@ -90,6 +86,9 @@ export const POST = async (request: NextRequest) => {
             },
           ],
           parallel_tool_calls: false,
+          prompt_cache_key: `planet-destruction-${textSentiment}`,
+          frequency_penalty: 0.5,
+          safe_prompt: true,
           temperature: 1,
           n: 1,
         }),

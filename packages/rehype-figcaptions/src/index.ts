@@ -63,10 +63,7 @@ export default function rehypeFigcaptions(): (tree: Root) => void {
       if (pIndex < 0) return;
 
       const imageParagraph = parent.children[pIndex];
-      if (
-        imageParagraph.type !== "element" ||
-        imageParagraph.tagName !== "p"
-      ) {
+      if (imageParagraph.type !== "element" || imageParagraph.tagName !== "p") {
         return;
       }
       const img = loneImage(imageParagraph);

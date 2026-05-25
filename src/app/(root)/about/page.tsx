@@ -277,7 +277,7 @@ export default function Page() {
           <PopoverContent className="max-w-72 text-sm">
             Eyeboy WILL release in
             <br />
-            <code className="rounded bg-foreground p-1 font-light text-[10px] text-background/80">
+            <code className="rounded bg-foreground p-1 font-medium text-[10px] text-background/80">
               {/** biome-ignore lint/suspicious/noTemplateCurlyInString: is intentional dear sir */}
               {"${new Date().getFullYear() + 1}"}
             </code>
