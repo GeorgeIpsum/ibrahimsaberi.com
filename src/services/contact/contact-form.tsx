@@ -29,6 +29,7 @@ import { cn } from "@/css/lib";
 import { classifySentiment, getSentiment } from "@/services/sentiment/lib";
 import { type Placeholder, placeholders } from "./placeholders";
 import { SentimentIcon } from "./sentiment-icon";
+import { SentimentText } from "./sentiment-text";
 import { attemptContactFormSubmission } from "./submit-contact-form";
 
 const MAX_TEXTAREA_LENGTH = 2048;
@@ -45,7 +46,9 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   >(null);
   const [placeholder, setPlaceholder] = useState<Placeholder>();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [textAreaLength, setTextAreaLength] = useState(0);
+  const [textAreaValue, setTextAreaValue] = useState("");
+
+  const textAreaLength = textAreaValue.length;
 
   useEffect(() => {
     if (textAreaRef.current) {
@@ -53,7 +56,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
 
       const handleInput = (e: InputEvent) => {
         const textAreaValue = (e.target as HTMLTextAreaElement).value;
-        setTextAreaLength(textAreaValue.length);
+        setTextAreaValue(textAreaValue);
         clearTimeout(timeoutId);
         if (!textAreaValue.trim()) {
           setSentiment(null);
@@ -303,14 +306,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                         <SentimentIcon sentiment={sentiment} />
                       </TooltipTrigger>
                       <TooltipContent side="bottom" sideOffset={8} align="end">
-                        {sentiment === "NEUTRAL" && "Nothing much to say, huh?"}
-                        {sentiment === "POSITIVE" &&
-                          "Ooh, I like that. I like that a lot."}
-                        {sentiment === "NEGATIVE" &&
-                          "Hmm, that doesn't sound good."}
-                        {sentiment === "UH-OH" &&
-                          "You talk to your momma with that mouth?"}
-                        {!sentiment && "It's ok. Let it all out."}
+                        <SentimentText
+                          sentiment={sentiment}
+                          text={textAreaValue}
+                        />
                       </TooltipContent>
                     </Tooltip>
                   </InputGroupAddon>
