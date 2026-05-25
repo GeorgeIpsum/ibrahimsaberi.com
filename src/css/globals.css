@@ -61,6 +61,9 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+
+  /** Animations **/
+
   --animate-skeleton: skeleton 2s -1s infinite linear;
   @keyframes skeleton {
     to {
@@ -122,7 +125,6 @@
       1
     )
     var(--shake-delay, 0s) var(--shake-iteration, 1) both;
-
   @keyframes shake {
     0%,
     100% {
@@ -140,6 +142,25 @@
     60%,
     80% {
       transform: translateX(2px);
+    }
+  }
+
+  --animate-blink: blink 6s ease-out var(--blink-delay, 0s)
+    var(--blink-iteration, infinite) both;
+  @keyframes blink {
+    0%,
+    22%,
+    30%,
+    36%,
+    75%,
+    100% {
+      transform: scaleY(1);
+      transform-origin: var(--blink-origin, center);
+    }
+    25%,
+    35% {
+      transform: scaleY(0);
+      transform-origin: var(--blink-origin, center);
     }
   }
 

@@ -1,12 +1,18 @@
 "use client";
 
+import { LensConvex } from "lucide-react";
+import { BotMessageSquare } from "@/components/icons/bot-message-square";
 import { cn } from "@/css/lib";
+import type { Sentiment } from "../sentiment/types";
 
 export const SentimentText: React.FC<{
   display: string | null;
   robot?: boolean;
+  sentiment?: Sentiment;
   truncated?: boolean;
-}> = ({ display, robot = false, truncated = false }) => {
+}> = ({ display, robot = false, truncated = false, sentiment }) => {
+  const textDisplay =
+    truncated && display?.endsWith(".") ? display.slice(0, -1) : display;
   return display ? (
     <p
       title={
@@ -17,18 +23,31 @@ export const SentimentText: React.FC<{
       className={cn(
         "font-medium",
         robot
-          ? "rounded bg-card px-3 py-2 font-mono shadow shadow-primary/20"
+          ? "rounded bg-linear-to-br from-card to-primary/10 py-2 pr-3 pl-8 -indent-6 font-mono shadow shadow-primary/20"
           : "",
       )}
     >
       {!!robot && (
-        <span className="my-0 mr-1 inline-block rounded bg-linear-to-br from-60% from-background to-primary/20 px-1 text-sm leading-none shadow-inner shadow-primary/20">
-          🤖
+        <span
+          className={cn("relative mr-2", {
+            "text-destructive-foreground":
+              (sentiment === "NEGATIVE" || sentiment === "UH-OH") && !truncated,
+            "text-success-foreground": sentiment === "POSITIVE" && !truncated,
+            "text-muted-foreground": sentiment === "NEUTRAL" && !truncated,
+            "text-[#F00]": truncated,
+          })}
+        >
+          <BotMessageSquare
+            className={cn("inline-block size-4", truncated && "*:animate-none")}
+          />
+          {truncated && (
+            <LensConvex className="absolute inset-0 -top-2.5 size-4 rotate-90 scale-x-50 animate-pulse stroke-4 text-[#F00]" />
+          )}
         </span>
       )}
-      {display}
+      {textDisplay}
       {truncated && robot && (
-        <span className="ml-1 whitespace-pre-wrap rounded bg-destructive px-1 font-bold font-sans text-[10px] text-destructive-foreground">
+        <span className="ml-1 whitespace-pre-wrap rounded bg-destructive px-1 font-black font-sans text-[10px] text-destructive-foreground">
           - BOT TERMINATED FOR REVEALING TOO MUCH
         </span>
       )}

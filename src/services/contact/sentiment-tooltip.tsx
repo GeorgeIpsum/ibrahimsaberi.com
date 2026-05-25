@@ -10,7 +10,6 @@ import { useSentiment } from "@/services/sentiment/use-sentiment";
 import { SentimentIcon } from "./sentiment-icon";
 import { SentimentText } from "./sentiment-text";
 
-const DISMISS_ANIMATION_MS = 200;
 const REOPEN_DELAY_MS = 250;
 
 interface SentimentTooltipProps {
@@ -27,7 +26,6 @@ export const SentimentTooltip: React.FC<SentimentTooltipProps> = ({
     sentimentResponse,
     sentimentSource,
     loading,
-    dismiss,
     isTruncated,
   } = useSentiment({ text, debounceTime });
 
@@ -38,7 +36,6 @@ export const SentimentTooltip: React.FC<SentimentTooltipProps> = ({
   const prevResponseRef = useRef("");
   const prevLoadingRef = useRef(false);
   const prevOpenRef = useRef(false);
-  const dismissTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reopenTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -98,29 +95,13 @@ export const SentimentTooltip: React.FC<SentimentTooltipProps> = ({
 
   useEffect(
     () => () => {
-      if (dismissTimerRef.current) clearTimeout(dismissTimerRef.current);
       if (reopenTimerRef.current) clearTimeout(reopenTimerRef.current);
     },
     [],
   );
 
   const onOpenChange = (next: boolean) => {
-    if (next) {
-      if (dismissTimerRef.current) {
-        clearTimeout(dismissTimerRef.current);
-        dismissTimerRef.current = null;
-      }
-      setOpen(true);
-      return;
-    }
-    setOpen(false);
-    if (sentimentSource === "robot") {
-      if (dismissTimerRef.current) clearTimeout(dismissTimerRef.current);
-      dismissTimerRef.current = setTimeout(() => {
-        dismiss();
-        dismissTimerRef.current = null;
-      }, DISMISS_ANIMATION_MS);
-    }
+    setOpen(next);
   };
 
   return (
@@ -135,6 +116,7 @@ export const SentimentTooltip: React.FC<SentimentTooltipProps> = ({
         className="max-w-xs whitespace-normal"
       >
         <SentimentText
+          sentiment={sentiment}
           display={sentimentResponse}
           robot={sentimentSource === "robot"}
           truncated={isTruncated}
