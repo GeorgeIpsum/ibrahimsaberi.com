@@ -109,6 +109,40 @@
     }
   }
 
+  --animate-shake: shake 1s
+    linear(
+      0,
+      1 44.7%,
+      0.898 51.8%,
+      0.874 55.1%,
+      0.866 58.4%,
+      0.888 64.3%,
+      1 77.4%,
+      0.98 84.5%,
+      1
+    )
+    var(--shake-delay, 0s) var(--shake-iteration, 1) both;
+
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translateX(-2px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translateX(2px);
+    }
+  }
+
   /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;

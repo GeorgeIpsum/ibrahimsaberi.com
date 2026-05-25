@@ -235,6 +235,28 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                       wrap: "hard",
                     }}
                     size="lg"
+                    onBlur={(e) => {
+                      if (e.target.value.trim().length < MIN_TEXTAREA_LENGTH) {
+                        const charSpan = document.getElementById(
+                          "contact-form-message-char-count",
+                        );
+                        const charSpanContainer = document.getElementById(
+                          "contact-form-message-char-count-container",
+                        );
+                        if (charSpan) {
+                          charSpan.style.color =
+                            "var(--destructive-foreground)";
+                        }
+                        charSpanContainer?.classList.add("animate-shake");
+
+                        setTimeout(() => {
+                          charSpanContainer?.classList.remove("animate-shake");
+                          if (charSpan) {
+                            charSpan.style.color = "";
+                          }
+                        }, 1300);
+                      }
+                    }}
                   />
                   <InputGroupAddon
                     align="block-end"
@@ -244,6 +266,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                       <AnimatePresence>
                         {textAreaLength > 0 && (
                           <motion.div
+                            id="contact-form-message-char-count-container"
                             className="font-mono text-muted-foreground text-xs transition-colors"
                             layoutId="char-count"
                             initial={{ opacity: 0 }}
@@ -251,6 +274,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                             exit={{ opacity: 0 }}
                           >
                             <span
+                              id="contact-form-message-char-count"
                               className={cn("transition-colors", {
                                 "text-destructive-foreground":
                                   textAreaLength > MAX_TEXTAREA_LENGTH,

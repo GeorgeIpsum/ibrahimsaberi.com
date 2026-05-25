@@ -1,6 +1,11 @@
 import { toastManager } from "@/components/atoms/toast";
 import { passForward, pipe, sleep } from "@/utils/async";
-import { clampedNumber, randomArrayMember, randomLessThan } from "@/utils/rand";
+import {
+  clampedNumber,
+  randomArrayMember,
+  randomArrayMembers,
+  randomLessThan,
+} from "@/utils/rand";
 import { createAudio, playOnce } from "../audio/play";
 import {
   type ErrorMessage,
@@ -146,13 +151,11 @@ const resolveSubtask = async (data: TaskData): Promise<TaskData> => {
 
   const success = randomLessThan(SUBTASK_SUCCESS_CHANCE);
   const currentSubtask = results[results.length - 1].subtask;
-  let resultMessage: ErrorMessage | SuccessMessage;
+  const resultMessage: ErrorMessage | SuccessMessage = randomArrayMember(
+    success ? successMessages : errorMessages,
+    { exclude: excludedResultMessages },
+  );
   // add random unordered status that hasn't already been chosen to chosenStatuses
-  do {
-    resultMessage = randomArrayMember(
-      success ? successMessages : errorMessages,
-    );
-  } while (excludedResultMessages.includes(resultMessage));
 
   toastManager.update(subTaskId(data), {
     description: (
@@ -173,7 +176,7 @@ const resolveSubtask = async (data: TaskData): Promise<TaskData> => {
 };
 
 const finalizeSubtask = async (data: TaskData) => {
-  const { results, excludedResultMessages, task, taskNumber, finished } = data;
+  const { results, task, taskNumber, finished } = data;
   if (finished) return data;
 
   toastManager.update(subTaskId(data), {
@@ -183,10 +186,9 @@ const finalizeSubtask = async (data: TaskData) => {
   await sleep(2000);
 
   if (results.every((result) => result.success)) {
-    let successMessage: SuccessMessage;
-    do {
-      successMessage = randomArrayMember(successMessages);
-    } while (excludedResultMessages.includes(successMessage));
+    // const successMessage = randomArrayMember(successMessages, {
+    //   exclude: excludedResultMessages,
+    // });
 
     toastManager.update(subTaskId(data), {
       type: "success",
@@ -262,26 +264,13 @@ export const attemptContactFormSubmission = async () => {
     }),
     passForward(sleepRandom),
     ...fallbackSequences.flatMap((task, index) => {
-      const chosenSubtasks = Array.from(
-        { length: clampedNumber(MIN_SUBTASKS, MAX_SUBTASKS) },
-        () => {
-          let subtask: Subtask;
-          let attempt = 0;
-          do {
-            subtask = randomArrayMember(subtasks);
-            attempt++;
-          } while (excludedSubtasks.includes(subtask) && attempt < 10);
-
-          if (excludedSubtasks.includes(subtask)) {
-            subtask = `${randomArrayMember(subtasks)} (again)` as Subtask;
-            console.log("WAOW", subtask);
-          }
-
-          excludedSubtasks.push(subtask);
-
-          return subtask;
-        },
+      const chosenSubtasks = randomArrayMembers(
+        subtasks,
+        clampedNumber(MIN_SUBTASKS, MAX_SUBTASKS),
+        { exclude: excludedSubtasks },
       );
+
+      excludedSubtasks.push(...chosenSubtasks);
 
       return [
         (data: TaskData) =>
