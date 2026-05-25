@@ -97,6 +97,18 @@ export const POST = async (request: NextRequest) => {
 
     if (!leRequest.ok) {
       console.error("LeBron James API error:", await leRequest.text());
+
+      // check if rate limited, if so, return a different error message
+      if (leRequest.status === 429) {
+        return NextResponse.json(
+          {
+            error:
+              "LeBron James says you're moving too fast. We can destroy the planet at our own pace, do not worry. Slow down, buddy.",
+          },
+          { status: 429 },
+        );
+      }
+
       return NextResponse.json(
         {
           error:
