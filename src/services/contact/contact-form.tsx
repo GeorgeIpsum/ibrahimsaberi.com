@@ -2,7 +2,13 @@
 
 import { AtSign, Phone, User } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import { Button } from "@/components/atoms/button";
 import {
   Card,
@@ -32,6 +38,7 @@ import { SentimentIcon } from "./sentiment-icon";
 import { SentimentText } from "./sentiment-text";
 import { attemptContactFormSubmission } from "./submit-contact-form";
 
+const SENTIMENT_DEBOUNCE_MS = 1000;
 const MAX_TEXTAREA_LENGTH = 2048;
 const MIN_TEXTAREA_LENGTH = 16;
 const phoneRegex = /(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}/;
@@ -50,6 +57,28 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
 
   const textAreaLength = textAreaValue.length;
 
+  const debounceSentimentRetrieval = useCallback(
+    (text: string) =>
+      setTimeout(() => {
+        if (!text.trim()) {
+          setSentiment(null);
+          return;
+        }
+
+        getSentiment(text)
+          .then((data) => {
+            setSentiment(classifySentiment(data));
+          })
+          .catch((e) => {
+            if (process.env.NODE_ENV === "development") {
+              console.error("Error classifying sentiment:", e);
+            }
+            console.error("🥸");
+          });
+      }, SENTIMENT_DEBOUNCE_MS),
+    [],
+  );
+
   useEffect(() => {
     if (textAreaRef.current) {
       let timeoutId: NodeJS.Timeout;
@@ -62,23 +91,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
           setSentiment(null);
           return;
         }
-        timeoutId = setTimeout(() => {
-          if (!textAreaValue.trim()) {
-            setSentiment(null);
-            return;
-          }
-
-          getSentiment(textAreaValue)
-            .then((data) => {
-              setSentiment(classifySentiment(data));
-            })
-            .catch((e) => {
-              if (process.env.NODE_ENV === "development") {
-                console.error("Error classifying sentiment:", e);
-              }
-              console.error("🥸");
-            });
-        }, 300);
+        timeoutId = debounceSentimentRetrieval(textAreaValue);
       };
 
       textAreaRef.current.addEventListener("input", handleInput);
@@ -87,10 +100,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
         if (textAreaRef.current) {
           textAreaRef.current.removeEventListener("input", handleInput);
         }
-        clearTimeout(timeoutId);
+        if (timeoutId) {
+          clearTimeout(timeoutId);
+        }
       };
     }
-  }, []);
+  }, [debounceSentimentRetrieval]);
 
   useLayoutEffect(() => {
     const randomPlaceholder =
