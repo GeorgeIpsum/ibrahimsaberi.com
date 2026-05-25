@@ -247,16 +247,18 @@ const subtaskPipe = (numChosenTasks: number) =>
 // an "attempt"
 export const attemptContactFormSubmission = async () => {
   const excludedSubtasks: Subtask[] = [];
-  const audio = createAudio("/api/audio/attempt", {
+  const audio = createAudio("/api/audio/elevator", {
     autoplay: false,
     loop: true,
     volume: 0,
+    html5: true,
   });
 
   const taskPipe = pipe<TaskData>(
     passForward(initialSubmit),
-    passForward(async () => {
-      audio.load().play();
+    passForward(() => {
+      audio.load().stop().play();
+      audio.fade(0, 1, 10000);
     }),
     passForward(sleepRandom),
     ...fallbackSequences.flatMap((task, index) => {
