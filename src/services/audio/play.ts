@@ -1,53 +1,26 @@
-interface PlayAudioOptions {
-  loop?: boolean;
-}
-export const createAudio = async (
+import { Howl, type HowlOptions } from "howler";
+
+export const createAudio = (
   src: `/${string}`,
-  options?: PlayAudioOptions,
+  options?: Omit<HowlOptions, "src">,
 ) => {
-  const existingAudio = document.querySelector(
-    `audio[src="${src}"]`,
-  ) as HTMLAudioElement | null;
-  if (existingAudio) {
-    return existingAudio;
-  }
-
-  const audio = new Audio(`/api/audio${src}`);
-  audio.loop = options?.loop ?? false;
-
-  audio.style.display = "none";
-  document.body.appendChild(audio);
-
-  return new Promise<HTMLAudioElement>((resolve, reject) => {
-    audio.onloadeddata = () => {
-      resolve(audio);
-    };
-
-    audio.onerror = (e) => {
-      if (process.env.NODE_ENV === "development") {
-        console.error(`Error loading audio: ${src}`, e);
-      }
-      document.body.removeChild(audio);
-      reject(new Error(`Failed to load audio: ${src}`));
-    };
+  const audio = new Howl({
+    src: [src],
+    format: ["mp3"],
+    ...options,
   });
+
+  return audio;
 };
 
 export const playOnce = async (src: `/${string}`) => {
   try {
-    const audio = await createAudio(src, { loop: false });
-    audio.currentTime = 0;
-    audio.addEventListener("canplaythrough", () => {
-      audio.play();
+    const audio = createAudio(src, {
+      autoplay: true,
+      loop: false,
+      format: ["mp3"],
     });
-
-    return new Promise<void>((resolve) => {
-      audio.onended = () => {
-        audio.pause();
-        document.body.removeChild(audio);
-        resolve();
-      };
-    });
+    return audio;
   } catch (e) {
     if (process.env.NODE_ENV === "development") {
       console.error(`Error playing audio: ${src}`, e);

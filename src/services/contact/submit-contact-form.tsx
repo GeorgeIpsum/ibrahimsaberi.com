@@ -62,7 +62,10 @@ const initialSubmit = async () => {
     type: "error",
   });
 
-  await Promise.all([sleep(randomTimeRange() / 2), playOnce("/error")]);
+  await Promise.all([
+    sleep(randomTimeRange() / 2),
+    playOnce("/api/audio/error"),
+  ]);
 
   const id2 = "initial-submit-fallback";
   toastManager.add({
@@ -79,34 +82,6 @@ const initialSubmit = async () => {
     description: "Fallback submission sequence initialized.",
     type: "success",
   });
-
-  try {
-    const audio = await createAudio("/elevator", { loop: true }).catch((e) => {
-      if (process.env.NODE_ENV === "development") {
-        console.error("Error creating audio element:", e);
-      }
-    });
-    audio.volume = 0.02;
-
-    const interval = setInterval(() => {
-      if (audio.volume >= 1) {
-        clearInterval(interval);
-        console.log("Audio volume reached 1, clearing interval.");
-        return;
-      }
-      audio.volume = Math.min(audio.volume + 0.05, 1);
-    }, 500);
-
-    audio.play().catch((e) => {
-      if (process.env.NODE_ENV === "development") {
-        console.error("Error playing audio:", e);
-      }
-    });
-  } catch {
-    console.warn(
-      "Audio failed to play, but the submission sequence will continue regardless. You're welcome.",
-    );
-  }
 };
 
 const subTaskId = (data: Pick<TaskData, "id" | "taskNumber">) =>
@@ -241,15 +216,6 @@ const finalizeSubtask = async (data: TaskData) => {
       // },
     });
 
-    const player = document.querySelector(
-      "audio[src='/api/audio/elevator']",
-    ) as HTMLAudioElement | null;
-    if (player) {
-      player.pause();
-      player.currentTime = 0;
-      document.body.removeChild(player);
-    }
-
     return { ...data, finished: true };
   }
 
@@ -281,9 +247,17 @@ const subtaskPipe = (numChosenTasks: number) =>
 // an "attempt"
 export const attemptContactFormSubmission = async () => {
   const excludedSubtasks: Subtask[] = [];
+  const audio = createAudio("/api/audio/attempt", {
+    autoplay: false,
+    loop: true,
+    volume: 0,
+  });
 
   const taskPipe = pipe<TaskData>(
     passForward(initialSubmit),
+    passForward(async () => {
+      audio.load().play();
+    }),
     passForward(sleepRandom),
     ...fallbackSequences.flatMap((task, index) => {
       const chosenSubtasks = Array.from(
@@ -319,6 +293,12 @@ export const attemptContactFormSubmission = async () => {
         passForward<TaskData>(sleepRandom),
         subtaskPipe(chosenSubtasks.length),
         finalizeSubtask,
+        async (data: TaskData) => {
+          if (data.finished) {
+            audio.fade(1, 0, 2000).stop().unload();
+          }
+          return data;
+        },
         passForward<TaskData>(sleepRandom),
       ];
     }),
