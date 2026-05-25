@@ -29,7 +29,7 @@ export const SentimentIcon: React.FC<{
   };
 
   return (
-    <motion.div className="relative size-3">
+    <motion.div className="relative size-4">
       <AnimatePresence mode="popLayout">
         {!loading && sentiment && (
           <motion.div
@@ -44,18 +44,18 @@ export const SentimentIcon: React.FC<{
         )}
       </AnimatePresence>
       <MessageCircleDashed
-        className="absolute inset-0 cursor-auto opacity-30"
+        className="absolute inset-0 size-4 cursor-auto opacity-30"
         aria-hidden="true"
       />
       <AnimatePresence>
         {loading && (
           <motion.div
-            className="pointer-events-none absolute inset-0 flex px-1 pt-0.5 *:stroke-3"
+            className="pointer-events-none absolute inset-0 flex px-1 pt-1 *:stroke-3"
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.5 }}
             exit={{ opacity: 0 }}
           >
-            <Loader2 className="size-3 animate-spin" aria-hidden="true" />
+            <Loader2 className="size-2 animate-spin" aria-hidden="true" />
           </motion.div>
         )}
       </AnimatePresence>

@@ -22,7 +22,7 @@ const SENTIMENT_PROMPT_MAP: Record<Exclude<Sentiment, null>, string> = {
 export const POST = async (request: NextRequest) => {
   if (!env.LE_PLATFORM_API_KEY) {
     return NextResponse.json(
-      { error: "LeBron James sends his regards." },
+      { error: "`Le`Bron James sends his regards." },
       { status: 500 },
     );
   }
@@ -39,7 +39,8 @@ export const POST = async (request: NextRequest) => {
     ) {
       return NextResponse.json(
         {
-          error: "LeBron James says you're moving too fast. Slow down, buddy.",
+          error:
+            "`Le`Bron James says you're moving too fast. Slow down, buddy.",
         },
         { status: 429 },
       );
@@ -48,12 +49,12 @@ export const POST = async (request: NextRequest) => {
     const { text, sentiment } = json;
     if (!text || typeof text !== "string") {
       return NextResponse.json(
-        { error: "LeBron James condemns your trickery." },
+        { error: "`Le`Bron James condemns your trickery." },
         { status: 400 },
       );
     } else if (text.length > 2048) {
       return NextResponse.json(
-        { error: "LeBron James says you ask for too much." },
+        { error: "`Le`Bron James says you ask for too much." },
         { status: 400 },
       );
     }
@@ -96,14 +97,14 @@ export const POST = async (request: NextRequest) => {
     );
 
     if (!leRequest.ok) {
-      console.error("LeBron James API error:", await leRequest.text());
+      console.error("`Le`Bron James API error:", await leRequest.text());
 
       // check if rate limited, if so, return a different error message
       if (leRequest.status === 429) {
         return NextResponse.json(
           {
             error:
-              "LeBron James says you're moving too fast. We can destroy the planet at our own pace, do not worry. Slow down, buddy.",
+              "`Le`Bron James says you're moving too fast. We can destroy the planet at our own pace, do not worry. Slow down, buddy.",
           },
           { status: 429 },
         );
@@ -112,7 +113,7 @@ export const POST = async (request: NextRequest) => {
       return NextResponse.json(
         {
           error:
-            "LeBron James' planet destruction operation is facing unexpected issues. LeBron is looking into it.",
+            "`Le`Bron James' planet destruction operation is facing unexpected issues. `Le`Bron is looking into it.",
         },
         { status: 500 },
       );
@@ -123,16 +124,19 @@ export const POST = async (request: NextRequest) => {
     if (
       leResponse.object === "chat.completion" &&
       Array.isArray(leResponse.choices) &&
-      leResponse.choices?.[0].finish_reason === "stop"
+      (leResponse.choices?.[0].finish_reason === "stop" ||
+        leResponse.choices?.[0].finish_reason === "length")
     ) {
       return NextResponse.json({
         response: leResponse.choices[0].message.content,
+        leTruncated: leResponse.choices[0].finish_reason === "length",
       });
     } else {
+      console.log("`Le`Bron James API response:", leResponse);
       return NextResponse.json(
         {
           error:
-            "LeBron James' planet destruction operation is going well, but there will always be an element of unpredictability when it comes to destroying planets. LeBron James is doing his best to minimize this unpredictability, but sometimes things happen that are out of his control. Rest assured, LeBron James is on the case and is doing everything he can to ensure the continued success of his planet destruction operation.",
+            "`Le`Bron James' planet destruction operation is going well, but there will always be an element of unpredictability when it comes to destroying planets. `Le`Bron James is doing his best to minimize this unpredictability, but sometimes things happen that are out of his control. Rest assured, `Le`Bron James is on the case and is doing everything he can to ensure the continued success of his planet destruction operation.",
         },
         { status: 500 },
       );

@@ -19,6 +19,7 @@ interface UseSentimentResult {
   sentimentResponse: string;
   sentimentSource: "robot" | "static";
   loading: boolean;
+  isTruncated: boolean;
   dismiss: () => void;
 }
 
@@ -30,6 +31,7 @@ export function useSentiment({
   const [randomDisplay, setRandomDisplay] = useState<string | null>(null);
   const [frozenDisplay, setFrozenDisplay] = useState<string | null>(null);
   const [pendingResponse, setPendingResponse] = useState(false);
+  const [isTruncated, setIsTruncated] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const lastFireAtRef = useRef<number | null>(null);
@@ -131,13 +133,47 @@ export function useSentiment({
     })
       .then(async (res) => {
         if (!res.ok) {
+          if (res.status === 429) {
+            const errorData = await res.json();
+            console.error(
+              "Wow. Imagine being rate limited by a planet destruction API. Here's what `Le`Bron James has to say about that:",
+              errorData.error,
+            );
+            return {
+              error:
+                errorData.error ||
+                "Wow. Imagine being rate limited by a planet destruction API.",
+            } as { error: string };
+          } else if (
+            res.headers.get("Content-Type")?.includes("application/json")
+          ) {
+            const errorData = await res.json();
+            console.error("Sentiment LLM API error:", errorData);
+            return {
+              error:
+                errorData.error ||
+                "Planet destruction haulted. What did you do.",
+            };
+          }
           throw new Error(`planet-destruction returned ${res.status}`);
         }
-        return (await res.json()) as { response: string };
+        return (await res.json()) as {
+          response: string;
+          leTruncated?: boolean;
+        };
       })
       .then((data) => {
         if (controller.signal.aborted) return;
-        setFrozenDisplay(data.response);
+        if ("error" in data) {
+          setFrozenDisplay(data.error);
+        } else {
+          if (data.leTruncated) {
+            setIsTruncated(true);
+          } else {
+            setIsTruncated(false);
+          }
+          setFrozenDisplay(data.response);
+        }
         setPendingResponse(true);
       })
       .catch((err) => {
@@ -173,6 +209,7 @@ export function useSentiment({
   return {
     sentiment,
     sentimentResponse,
+    isTruncated,
     sentimentSource: pendingResponse ? "robot" : "static",
     loading,
     dismiss,
