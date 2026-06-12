@@ -8,17 +8,19 @@ import {
 } from "@/components/atoms/popover";
 import { AudioWaveform } from "@/components/icons/audio-waveform";
 import { cn } from "@/css/lib";
-import { Listening } from "./listening";
+import { Listening, type LiveNowPlaying } from "./listening";
 import type { NowPlaying } from "./now-playing";
 
 const POLL_INTERVAL_MS = 15_000;
 
-async function fetchNowPlaying(): Promise<NowPlaying | null> {
+async function fetchNowPlaying(): Promise<LiveNowPlaying | null> {
   try {
     const res = await fetch("/api/spotify/now-playing");
     if (!res.ok) return null;
     const { track } = (await res.json()) as { track: NowPlaying | null };
-    return track;
+    // Anchor the snapshot to the client clock so the progress bar can
+    // extrapolate between polls without server/client clock skew.
+    return track ? { ...track, receivedAt: performance.now() } : null;
   } catch {
     return null;
   }
@@ -38,7 +40,7 @@ const SpotifyIndicatorFallback: React.FC = () => {
 };
 
 export const SpotifyIndicator: React.FC = () => {
-  const [nowPlaying, setNowPlaying] = useState<NowPlaying | null>(null);
+  const [nowPlaying, setNowPlaying] = useState<LiveNowPlaying | null>(null);
   const [loaded, setLoaded] = useState(false);
 
   const refresh = useCallback(async () => {

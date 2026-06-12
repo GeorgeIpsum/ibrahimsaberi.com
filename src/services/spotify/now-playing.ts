@@ -10,6 +10,12 @@ export type NowPlaying = {
   url: string;
   progressMs: number;
   durationMs: number;
+  /**
+   * Epoch ms when Spotify generated this snapshot. Taken from the response
+   * `Date` header so it stays coherent with `progressMs` even when the fetch
+   * is served from Next's revalidate cache.
+   */
+  fetchedAt: number;
 };
 
 type SpotifyImage = { url: string; width: number; height: number };
@@ -85,6 +91,20 @@ async function fetchNowPlaying(isRetry: boolean): Promise<NowPlaying | null> {
     url: item.external_urls.spotify,
     progressMs: data.progress_ms,
     durationMs: item.duration_ms,
+    fetchedAt: Date.parse(res.headers.get("date") ?? "") || Date.now(),
+  };
+}
+
+/**
+ * Returns the track with `progressMs` advanced to `now`, compensating for
+ * time the snapshot spent in the fetch cache. Paused tracks don't advance.
+ */
+export function withLiveProgress(track: NowPlaying, now: number): NowPlaying {
+  if (!track.isPlaying) return track;
+  const elapsed = Math.max(0, now - track.fetchedAt);
+  return {
+    ...track,
+    progressMs: Math.min(track.progressMs + elapsed, track.durationMs),
   };
 }
 
