@@ -1,7 +1,7 @@
 import type { MDXComponents } from "mdx/types";
 import Link from "next/link";
 import Script from "next/script";
-import { FootnotePreview } from "@/components/content/footnote-preview";
+import { FootnotePreview } from "@/services/basin/components/footnote-preview";
 import { Kbd, KbdGroup } from "./components/atoms/kbd";
 import {
   PreviewCard,
