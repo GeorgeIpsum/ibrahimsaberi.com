@@ -19,6 +19,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="system"
+      data-contrast="system"
       suppressHydrationWarning
       className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
     >
@@ -29,7 +30,9 @@ export default function RootLayout({
         <ToastProvider>
           <AnchoredToastProvider>
             <div className="relative isolate flex min-h-svh flex-col">
-              <ThemeProvider defaultTheme="system">{children}</ThemeProvider>
+              <ThemeProvider defaultTheme="system" defaultContrast="system">
+                {children}
+              </ThemeProvider>
             </div>
           </AnchoredToastProvider>
         </ToastProvider>

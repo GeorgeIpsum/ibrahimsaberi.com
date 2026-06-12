@@ -18,6 +18,17 @@
         : "system-light";
     }
     document.documentElement.dataset.theme = theme;
+
+    const c = localStorage.contrast;
+    let contrast;
+    if (c === "normal" || c === "high") {
+      contrast = c;
+    } else {
+      contrast = matchMedia("(prefers-contrast: more)").matches
+        ? "system-high"
+        : "system-normal";
+    }
+    document.documentElement.dataset.contrast = contrast;
     document.documentElement.dataset.themeSet = "1";
 
     requestAnimationFrame(() => {

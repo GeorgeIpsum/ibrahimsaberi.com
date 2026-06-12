@@ -11,9 +11,12 @@ vi.mock("../src/services/spotify/auth", () => ({
 
 vi.spyOn(console, "warn").mockImplementation(() => {});
 
+const RESPONSE_DATE = "Wed, 10 Jun 2026 12:00:00 GMT";
+
 type FakeResponse = {
   ok: boolean;
   status: number;
+  headers: Headers;
   json: () => Promise<unknown>;
   text: () => Promise<string>;
 };
@@ -22,6 +25,7 @@ function jsonResponse(status: number, body: unknown): FakeResponse {
   return {
     ok: status >= 200 && status < 300,
     status,
+    headers: new Headers({ date: RESPONSE_DATE }),
     json: async () => body,
     text: async () => "",
   };
@@ -75,7 +79,17 @@ describe("getNowPlaying", () => {
       url: "https://open.spotify.com/track/abc",
       progressMs: 12345,
       durationMs: 200000,
+      fetchedAt: Date.parse(RESPONSE_DATE),
     });
+  });
+
+  it("stamps fetchedAt from the wall clock when the Date header is missing", async () => {
+    const res = jsonResponse(200, trackBody());
+    res.headers = new Headers();
+    fetchMock.mockResolvedValue(res);
+    const nowSpy = vi.spyOn(Date, "now").mockReturnValue(1_750_000_000_000);
+    expect((await getNowPlaying())?.fetchedAt).toBe(1_750_000_000_000);
+    nowSpy.mockRestore();
   });
 
   it("returns null for non-track playback such as podcasts", async () => {

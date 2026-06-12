@@ -1,6 +1,10 @@
 packages:
   - packages/*
 
+ignoredBuiltDependencies:
+  - onnxruntime-node # hugging face
+  - protobufjs # also hugging face
+
 onlyBuiltDependencies:
   - esbuild
   - msw

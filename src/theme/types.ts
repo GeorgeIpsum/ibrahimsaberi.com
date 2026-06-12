@@ -4,3 +4,10 @@ export type Theme =
   | "system"
   | "system-light"
   | "system-dark";
+
+export type Contrast =
+  | "normal"
+  | "high"
+  | "system"
+  | "system-normal"
+  | "system-high";

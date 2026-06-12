@@ -21,6 +21,23 @@
   }
 }
 
+@custom-variant high-contrast {
+  &:where(
+    [data-contrast="high"],
+    [data-contrast="high"] *,
+    [data-contrast="system-high"],
+    [data-contrast="system-high"] *
+  ) {
+    @slot;
+  }
+
+  @media (prefers-contrast: more) {
+    &:where([data-contrast="system"], [data-contrast="system"] *) {
+      @slot;
+    }
+  }
+}
+
 @theme inline {
   --font-sans: var(--font-sans), "sans-serif";
   --font-heading: var(--font-heading), "serif";
@@ -355,6 +372,64 @@
 :root[data-theme="dark"],
 :root[data-theme="system-dark"] {
   color-scheme: dark;
+}
+
+/*
+ * High-contrast versions of each theme: collapse foreground/background onto
+ * the per-theme high-contrast endpoints and harden every token that is
+ * normally allowed to be subtle. Must cascade after the `:root[data-theme]`
+ * blocks above.
+ */
+:root[data-contrast="high"],
+:root[data-contrast="system-high"] {
+  --primary: var(--foreground-high-contrast);
+  --background: var(--background-high-contrast);
+
+  --muted-foreground: var(--primary);
+  --sidebar-foreground: var(--primary);
+
+  --border: color-mix(in oklch, var(--primary) 50%, transparent);
+  --input: color-mix(in oklch, var(--primary) 60%, transparent);
+  --ring: var(--primary);
+  --sidebar-border: color-mix(in oklch, var(--primary) 50%, transparent);
+  --sidebar-ring: var(--primary);
+
+  --destructive: light-dark(oklch(46% 0.22 18), oklch(68% 0.22 18));
+  --destructive-foreground: light-dark(oklch(20% 0.18 18), oklch(96% 0.03 18));
+  --warning: light-dark(oklch(55% 0.15 65), oklch(82% 0.15 65));
+  --warning-foreground: light-dark(oklch(14% 0.05 65), oklch(98% 0.02 65));
+  --success: light-dark(oklch(50% 0.18 150), oklch(86% 0.2 150));
+  --success-foreground: light-dark(oklch(16% 0.1 150), oklch(98% 0.03 150));
+  --info: light-dark(oklch(92% 0.2 290), oklch(44% 0.12 290));
+  --info-foreground: light-dark(oklch(16% 0.12 290), oklch(98% 0.02 290));
+}
+
+@media (prefers-contrast: more) {
+  :root[data-contrast="system"] {
+    --primary: var(--foreground-high-contrast);
+    --background: var(--background-high-contrast);
+
+    --muted-foreground: var(--primary);
+    --sidebar-foreground: var(--primary);
+
+    --border: color-mix(in oklch, var(--primary) 50%, transparent);
+    --input: color-mix(in oklch, var(--primary) 60%, transparent);
+    --ring: var(--primary);
+    --sidebar-border: color-mix(in oklch, var(--primary) 50%, transparent);
+    --sidebar-ring: var(--primary);
+
+    --destructive: light-dark(oklch(46% 0.22 18), oklch(68% 0.22 18));
+    --destructive-foreground: light-dark(
+      oklch(20% 0.18 18),
+      oklch(96% 0.03 18)
+    );
+    --warning: light-dark(oklch(55% 0.15 65), oklch(82% 0.15 65));
+    --warning-foreground: light-dark(oklch(14% 0.05 65), oklch(98% 0.02 65));
+    --success: light-dark(oklch(50% 0.18 150), oklch(86% 0.2 150));
+    --success-foreground: light-dark(oklch(16% 0.1 150), oklch(98% 0.03 150));
+    --info: light-dark(oklch(92% 0.2 290), oklch(44% 0.12 290));
+    --info-foreground: light-dark(oklch(16% 0.12 290), oklch(98% 0.02 290));
+  }
 }
 
 @keyframes audio-bar {

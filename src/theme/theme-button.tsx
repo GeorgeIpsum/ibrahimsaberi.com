@@ -1,6 +1,13 @@
 "use client";
 
-import { /* MonitorSmartphone, */ MoonStar, Sun, SunMoon } from "lucide-react";
+import {
+  Circle,
+  Contrast,
+  MonitorSmartphone,
+  MoonStar,
+  Sun,
+  SunMoon,
+} from "lucide-react";
 import { useRef } from "react";
 import { Button } from "@/components/atoms/button";
 import {
@@ -15,7 +22,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
-import type { Theme } from "./types";
+import type { Contrast as ContrastValue, Theme } from "./types";
 import { useTheme } from "./use-theme";
 
 interface ThemeButtonProps {
@@ -32,8 +39,13 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
   align,
   className,
 }) => {
-  const { theme, setTheme } = useTheme();
-  const initialTheme = useRef(theme).current;
+  const { theme, setTheme, contrast, setContrast } = useTheme();
+  // "system-light"/"system-dark" etc. are resolved system states — they
+  // should highlight the system toggle, not the explicit ones.
+  const themeValue = theme.startsWith("system") ? "system" : theme;
+  const contrastValue = contrast.startsWith("system") ? "system" : contrast;
+  const initialTheme = useRef(themeValue).current;
+  const initialContrast = useRef(contrastValue).current;
 
   return (
     <Popover>
@@ -45,60 +57,121 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
       <PopoverContent
         side={side}
         align={align}
-        popoverProps={{ className: "px-1 py-1" }}
+        popoverProps={{ className: "px-2 py-2" }}
       >
         <TooltipProvider>
-          <ToggleGroup
-            orientation="vertical"
-            defaultValue={[initialTheme]}
-            value={[theme]}
-            onValueChange={([value]) => {
-              if (value) setTheme(value as Theme);
-            }}
-          >
-            <Tooltip>
-              <TooltipTrigger
-                render={
-                  <ToggleGroupItem
-                    aria-label="Light Theme"
-                    value="light"
-                    size="sm"
-                  />
-                }
+          <div className="flex flex-col gap-2">
+            <div>
+              <div className="pl-0.5 text-muted-foreground text-xs">theme</div>
+              <ToggleGroup
+                defaultValue={[initialTheme]}
+                value={[themeValue]}
+                size="sm"
+                onValueChange={([value]) => {
+                  if (value) setTheme(value as Theme);
+                }}
               >
-                <Sun />
-              </TooltipTrigger>
-              <TooltipContent side="left">Light Theme</TooltipContent>
-            </Tooltip>
-            <Tooltip>
-              <TooltipTrigger
-                render={
-                  <ToggleGroupItem
-                    aria-label="Dark Theme"
-                    value="dark"
-                    size="sm"
-                  />
-                }
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="System Theme"
+                        value="system"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <MonitorSmartphone />
+                  </TooltipTrigger>
+                  <TooltipContent side="top">System Theme</TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="Light Theme"
+                        value="light"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <Sun />
+                  </TooltipTrigger>
+                  <TooltipContent side="top">Light Theme</TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="Dark Theme"
+                        value="dark"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <MoonStar />
+                  </TooltipTrigger>
+                  <TooltipContent side="top">Dark Theme</TooltipContent>
+                </Tooltip>
+              </ToggleGroup>
+            </div>
+            <div>
+              <div className="pl-0.5 text-muted-foreground text-xs">
+                contrast
+              </div>
+              <ToggleGroup
+                defaultValue={[initialContrast]}
+                size="sm"
+                value={[contrastValue]}
+                onValueChange={([value]) => {
+                  if (value) setContrast(value as ContrastValue);
+                }}
               >
-                <MoonStar />
-              </TooltipTrigger>
-              <TooltipContent side="left">Dark Theme</TooltipContent>
-            </Tooltip>
-            {/* <Tooltip>
-              <TooltipTrigger
-                render={
-                  <ToggleGroupItem
-                    aria-label="System Theme"
-                    value="system"
-                    size="sm"
-                  />
-                }
-              >
-                <MonitorSmartphone />
-              </TooltipTrigger>
-              <TooltipPopup side="left">System Theme</TooltipPopup>
-            </Tooltip> */}
-          </ToggleGroup>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="System Contrast"
+                        value="system"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <MonitorSmartphone />
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">System Contrast</TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="Normal Contrast"
+                        value="normal"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <Circle />
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">Normal Contrast</TooltipContent>
+                </Tooltip>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <ToggleGroupItem
+                        aria-label="High Contrast"
+                        value="high"
+                        size="sm"
+                      />
+                    }
+                  >
+                    <Contrast />
+                  </TooltipTrigger>
+                  <TooltipContent side="bottom">High Contrast</TooltipContent>
+                </Tooltip>
+              </ToggleGroup>
+            </div>
+          </div>
         </TooltipProvider>
       </PopoverContent>
     </Popover>
