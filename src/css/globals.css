@@ -39,6 +39,14 @@
 }
 
 @theme inline {
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 50rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+  --breakpoint-3xl: 100rem;
+  --breakpoint-4xl: 125rem;
+
   --font-sans: var(--font-sans), "sans-serif";
   --font-heading: var(--font-heading), "serif";
   --font-mono: var(--font-mono);
@@ -487,7 +495,7 @@ html {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
-  font-weight: 400;
+  font-weight: 404;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-padding: min(calc(var(--spacing) * 48), 33.33%);
@@ -500,6 +508,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  font-weight: 505;
 }
 
 /* MODERN WEB DEVELOPMENT WAS A MISTAKE */
@@ -557,4 +566,28 @@ button.spotify-indicator:focus-visible {
   outline-width: 2px;
   outline-color: var(--foreground);
   outline-style: dotted;
+}
+
+.pui-ascii {
+  display: block;
+  position: relative;
+  user-select: none;
+}
+.pui-ascii > canvas {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.pui-ascii--panel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--background);
+  /* box-shadow: 0 0 60px rgba(124, 58, 237, 0.15); */
+  cursor: crosshair;
+  width: min(720px, 100%);
+  min-height: 280px;
+  margin: 0 auto;
+  overflow: hidden;
 }

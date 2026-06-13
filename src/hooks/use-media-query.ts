@@ -3,13 +3,13 @@
 import { useCallback, useSyncExternalStore } from "react";
 
 const BREAKPOINTS = {
+  sm: 640,
+  md: 800,
+  lg: 1024,
+  xl: 1280,
   "2xl": 1536,
   "3xl": 1600,
   "4xl": 2000,
-  lg: 1024,
-  md: 800,
-  sm: 640,
-  xl: 1280,
 } as const;
 
 type Breakpoint = keyof typeof BREAKPOINTS;

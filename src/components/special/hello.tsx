@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Separator } from "../atoms/separator";
+import { titleClassName } from "../structure/title.css";
 import { GradientTextReveal } from "./gradient-text-reveal";
 
 const greetings = [
@@ -67,7 +68,7 @@ export const HelloGradient: React.FC<HelloProps> = ({
   const greeting = useHello(defaultGreeting);
 
   return (
-    <h1 className="text-3xl">
+    <h1 className={titleClassName} title={greeting} suppressHydrationWarning>
       <GradientTextReveal text={`👋🏾 ${greeting}`} />
     </h1>
   );

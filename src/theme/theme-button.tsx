@@ -15,6 +15,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/atoms/popover";
+import { Separator } from "@/components/atoms/separator";
 import { ToggleGroup, ToggleGroupItem } from "@/components/atoms/toggle-group";
 import {
   Tooltip,
@@ -22,6 +23,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import type { Contrast as ContrastValue, Theme } from "./types";
 import { useTheme } from "./use-theme";
 
@@ -40,6 +42,7 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
   className,
 }) => {
   const { theme, setTheme, contrast, setContrast } = useTheme();
+  const isMobile = useMediaQuery({ max: "md" });
   // "system-light"/"system-dark" etc. are resolved system states — they
   // should highlight the system toggle, not the explicit ones.
   const themeValue = theme.startsWith("system") ? "system" : theme;
@@ -60,13 +63,17 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
         popoverProps={{ className: "px-2 py-2" }}
       >
         <TooltipProvider>
-          <div className="flex flex-col gap-2">
-            <div>
-              <div className="pl-0.5 text-muted-foreground text-xs">theme</div>
+          <div className="flex flex-col gap-2 md:flex-row">
+            <div className="flex flex-row items-start gap-1 md:flex-col">
+              <div className="text-muted-foreground text-xs max-md:rotate-180 max-md:self-end max-md:[writing-mode:vertical-rl]">
+                theme
+              </div>
+              <Separator orientation={isMobile ? "vertical" : "horizontal"} />
               <ToggleGroup
                 defaultValue={[initialTheme]}
                 value={[themeValue]}
                 size="sm"
+                orientation={isMobile ? "vertical" : "horizontal"}
                 onValueChange={([value]) => {
                   if (value) setTheme(value as Theme);
                 }}
@@ -115,14 +122,16 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
                 </Tooltip>
               </ToggleGroup>
             </div>
-            <div>
-              <div className="pl-0.5 text-muted-foreground text-xs">
+            <div className="flex flex-row items-start gap-1 md:flex-col">
+              <div className="text-muted-foreground text-xs max-md:rotate-180 max-md:self-end max-md:[writing-mode:vertical-rl]">
                 contrast
               </div>
+              <Separator orientation={isMobile ? "vertical" : "horizontal"} />
               <ToggleGroup
                 defaultValue={[initialContrast]}
                 size="sm"
                 value={[contrastValue]}
+                orientation={isMobile ? "vertical" : "horizontal"}
                 onValueChange={([value]) => {
                   if (value) setContrast(value as ContrastValue);
                 }}

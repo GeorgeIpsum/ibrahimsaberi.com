@@ -18,13 +18,16 @@ import {
 } from "@/components/atoms/preview-card";
 import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
 import { HelloGradient } from "@/components/special/hello";
+import { titleContainerClassName } from "@/components/structure/title.css";
+import { cn } from "@/css/lib";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Page() {
+  console.log(cn("flex", titleContainerClassName));
   return (
-    <div className="prose mx-auto min-h-[calc(100svh-10rem)] px-2">
-      <div className="mb-8 flex">
+    <article className="prose mx-auto min-h-[calc(100svh-10rem)] px-2">
+      <div className={cn("flex", titleContainerClassName)}>
         <Suspense
           fallback={<h1 className="animate-skeleton text-3xl">{"‎"}</h1>}
         >
@@ -336,7 +339,7 @@ export default function Page() {
           </AccordionItem>
         ))}
       </Accordion>
-    </div>
+    </article>
   );
 }
 

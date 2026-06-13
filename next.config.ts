@@ -126,7 +126,8 @@ const plugins = [
         [
           "@shikijs/rehype",
           {
-            themes: { light: "github-light", dark: "github-dark" },
+            inline: "tailing-curly-colon",
+            themes: { light: "horizon-bright", dark: "vitesse-dark" },
             defaultColor: false,
           },
         ],

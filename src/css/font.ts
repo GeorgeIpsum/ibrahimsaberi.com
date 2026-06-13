@@ -1,10 +1,19 @@
 import {
-  Atkinson_Hyperlegible_Mono,
-  Atkinson_Hyperlegible_Next,
+  // legibility is for babies
+  // Atkinson_Hyperlegible_Mono,
+  // looks a little too baby
+  // Atkinson_Hyperlegible_Next,
+  // overused
+  // DM_Sans,
+  Figtree,
+  // LIGATURES RULE
+  Fira_Code,
   Platypi,
+  // maybe idk
+  // Rubik,
 } from "next/font/google";
 
-export const fontBody = Atkinson_Hyperlegible_Next({
+export const fontBody = Figtree({
   weight: "variable",
   subsets: ["latin"],
   variable: "--font-sans",
@@ -17,9 +26,9 @@ export const fontHeading = Platypi({
   variable: "--font-heading",
 });
 
-export const fontMono = Atkinson_Hyperlegible_Mono({
+export const fontMono = Fira_Code({
   weight: "variable",
-  subsets: ["latin"],
+  subsets: ["latin", "symbols2"],
   variable: "--font-mono",
   adjustFontFallback: false,
 });
