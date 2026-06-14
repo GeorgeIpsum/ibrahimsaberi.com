@@ -8,7 +8,6 @@ import {
   MenuPopup,
   MenuTrigger,
 } from "@/components/atoms/menu";
-import { RefreshTicker } from "@/components/navigation/refresh-ticker";
 import { cn } from "@/css/lib";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
@@ -17,7 +16,6 @@ import { type NavItem, navItems } from "../navigation/nav-items";
 export const Header: React.FC = () => {
   return (
     <header className="sticky top-2 z-100 h-12 w-full bg-background/5 px-1 md:px-0">
-      <RefreshTicker intervalMs={15000} />
       <div className="header-blur relative flex w-full items-center overflow-clip overscroll-none rounded-xl p-2">
         <div className="z-10 flex items-center gap-2">
           <Link rel="home" href="/">

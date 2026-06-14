@@ -491,6 +491,25 @@
   }
 }
 
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    font-weight: 505;
+  }
+
+  /* MODERN WEB DEVELOPMENT WAS A MISTAKE */
+  button,
+  a {
+    cursor: pointer;
+    font-weight: 500;
+  }
+}
+
 html {
   background-color: var(--background);
   color: var(--foreground);
@@ -499,23 +518,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-padding: min(calc(var(--spacing) * 48), 33.33%);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
-  font-weight: 505;
-}
-
-/* MODERN WEB DEVELOPMENT WAS A MISTAKE */
-button,
-a {
-  cursor: pointer;
-  font-weight: 500;
 }
 
 header div.header-blur::before {
@@ -566,6 +568,22 @@ button.spotify-indicator:focus-visible {
   outline-width: 2px;
   outline-color: var(--foreground);
   outline-style: dotted;
+}
+
+/*
+ * Control panel: paint the restored-open state before hydration so it never
+ * pops in. The bootstrap script sets html[data-panel] from localStorage before
+ * first paint; React then swaps this static clone for the interactive panel.
+ * visibility:hidden (not just opacity) keeps the fixed, full-height clone out
+ * of pointer/tab/AOM until it's actually shown.
+ */
+.control-panel-static {
+  opacity: 0;
+  visibility: hidden;
+}
+html[data-panel="open"] .control-panel-static {
+  opacity: 1;
+  visibility: visible;
 }
 
 .pui-ascii {

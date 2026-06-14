@@ -5,6 +5,8 @@ export type Theme =
   | "system-light"
   | "system-dark";
 
+export type ResolvedTheme = "light" | "dark";
+
 export type Contrast =
   | "normal"
   | "high"

@@ -8,12 +8,13 @@ import {
   useState,
 } from "react";
 import { getSystemContrast } from "./get-system-contrast";
-import { getSystemTheme } from "./get-system-theme";
-import type { Contrast, Theme } from "./types";
+import { getSystemTheme, resolveTheme } from "./get-system-theme";
+import type { Contrast, ResolvedTheme, Theme } from "./types";
 
 export const ThemeContext = createContext<
   | {
       theme: Theme;
+      resolvedTheme: ResolvedTheme;
       setTheme: (theme: Theme) => void;
       contrast: Contrast;
       setContrast: (contrast: Contrast) => void;
@@ -101,7 +102,15 @@ export const ThemeProvider: React.FC<
   }, [contrast]);
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme, contrast, setContrast }}>
+    <ThemeContext.Provider
+      value={{
+        theme,
+        resolvedTheme: resolveTheme(theme),
+        setTheme,
+        contrast,
+        setContrast,
+      }}
+    >
       {children}
     </ThemeContext.Provider>
   );

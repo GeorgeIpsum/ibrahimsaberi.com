@@ -3,7 +3,7 @@ import { Rss } from "lucide-react";
 import Link from "next/link";
 import type React from "react";
 import { Separator } from "@/components/atoms/separator";
-import { ThemeButton } from "@/theme/theme-button";
+import { ThemeButton } from "@/theme";
 import { LinkedIn } from "../icons/linkedin";
 
 export const Footer: React.FC = () => {

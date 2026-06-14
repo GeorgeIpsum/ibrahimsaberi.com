@@ -31,6 +31,11 @@
     document.documentElement.dataset.contrast = contrast;
     document.documentElement.dataset.themeSet = "1";
 
+    // Control panel: reveal a restored-open panel before first paint (mirrors
+    // the theme approach above) so it never pops in after hydration.
+    document.documentElement.dataset.panel =
+      localStorage.panelVisible === "true" ? "open" : "closed";
+
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         s.remove();

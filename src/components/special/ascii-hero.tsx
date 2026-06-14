@@ -34,7 +34,7 @@ export interface AsciiArtPlacement {
    * Spaces are transparent, so the field shows through internal gaps.
    * Use spaces (not tabs) for alignment — a tab is a single grid cell.
    */
-  art: string;
+  ascii: string;
 
   /* ----- Position (precedence: col/row → at/anchor, then offset) ----- */
   /**
@@ -97,6 +97,18 @@ export interface UseAsciiFieldOptions {
   /** ms throttle between frames. Default 50. */
   frameMs?: number;
 
+  /* ----- Entrance ----- */
+  /**
+   * Wipe the field in row by row on mount instead of popping in all at
+   * once. The animation plays once per mount; theme/prop changes mid-life
+   * don't replay it. Default true.
+   */
+  reveal?: boolean;
+  /** ms between consecutive rows starting their fade-in. Default 22. */
+  revealStagger?: number;
+  /** ms for a single row to fade fully in. Default 420. */
+  revealDuration?: number;
+
   /* ----- Static art ----- */
   /**
    * One or more blocks of static ASCII art overlaid on the field. Each is
@@ -140,7 +152,7 @@ function prepareArt(
   if (art == null) return [];
   const list = Array.isArray(art) ? art : [art];
   return list.map((p) => {
-    const lines = p.art.replace(/\r\n/g, "\n").split("\n");
+    const lines = p.ascii.replace(/\r\n/g, "\n").split("\n");
     const artCols = lines.reduce((max, line) => Math.max(max, line.length), 0);
     return {
       ...p,
@@ -203,6 +215,9 @@ export function useAsciiField(
     spotlightOpacity,
     spotlightRadius = 8,
     frameMs = 50,
+    reveal = true,
+    revealStagger = 22,
+    revealDuration = 420,
     art,
   } = options;
 
@@ -210,6 +225,11 @@ export function useAsciiField(
     () => paletteOpt ?? (colorful ? DEFAULT_PALETTE : null),
     [paletteOpt, colorful],
   );
+
+  // The entrance wipe plays once per mount. This ref survives effect
+  // re-runs (e.g. a theme/palette change) so the field doesn't re-wipe
+  // every time an option changes.
+  const revealedRef = useRef(false);
 
   // Prepare art outside the animation effect and read it through a ref, so
   // changing the art repaints on the next frame without tearing down and
@@ -232,11 +252,23 @@ export function useAsciiField(
     let cellW = 0;
     let cellH = 0;
     let baseField = new Float32Array(0);
+    // Per-frame scratch: intensity, empty-cell mask, and the distance from
+    // each cell to the nearest empty cell (drives the color ripple).
+    let vField = new Float32Array(0);
+    let emptyField = new Uint8Array(0);
+    let distField = new Float32Array(0);
     let dpr = 1;
     const mouse = { x: -9999, y: -9999 };
 
+    // Entrance timeline: the timestamp of the first painted frame, so the
+    // field can wipe in top-to-bottom one row at a time. -1 until set.
+    let revealStart = -1;
+
     const seed = () => {
       baseField = new Float32Array(cols * rows);
+      vField = new Float32Array(cols * rows);
+      emptyField = new Uint8Array(cols * rows);
+      distField = new Float32Array(cols * rows);
       for (let y = 0; y < rows; y++) {
         for (let x = 0; x < cols; x++) {
           const nx = (x / cols) * 2 - 1;
@@ -307,15 +339,40 @@ export function useAsciiField(
 
       ctx.clearRect(0, 0, rect.width, rect.height);
 
+      // Entrance wipe: start the clock on this first valid frame, then fade
+      // each grid row in `revealStagger` ms after the one above it. Once the
+      // bottom row has finished, latch it done so it never replays.
+      if (revealStart < 0) revealStart = t;
+      const revealActive = reveal && !revealedRef.current;
+      const rowReveal = (gy: number): number => {
+        if (!revealActive) return 1;
+        const e = t - revealStart - gy * revealStagger;
+        if (e <= 0) return 0;
+        if (e >= revealDuration) return 1;
+        const x = e / revealDuration;
+        return x * x * (3 - 2 * x); // smoothstep ease
+      };
+      if (
+        revealActive &&
+        t - revealStart >= (rows - 1) * revealStagger + revealDuration
+      ) {
+        revealedRef.current = true;
+      }
+
       const rampMax = charRamp.length - 1;
       const useSpotlight =
         typeof spotlightOpacity === "number" &&
         spotlightOpacity !== baseOpacity;
       const spotR2 = spotlightRadius * spotlightRadius * 2;
 
+      // Pass 1 — intensity + emptiness for every cell (whole grid, so the
+      // distance transform below is correct even under the entrance wipe).
+      // distField seeds to 0 at empty cells, +inf elsewhere.
+      const INF = 1e9;
       for (let y = 0; y < rows; y++) {
         for (let x = 0; x < cols; x++) {
-          const base = baseField[y * cols + x];
+          const i = y * cols + x;
+          const base = baseField[i];
           const wave =
             0.15 *
             Math.sin(x * 0.18 + time * 1.4) *
@@ -333,25 +390,78 @@ export function useAsciiField(
               : 0;
 
           const v = Math.max(0, Math.min(1, base + wave + ripple));
-          const ch = charRamp[Math.floor(v * rampMax)];
-          if (ch === " ") continue;
+          vField[i] = v;
+          const empty = charRamp[Math.floor(v * rampMax)] === " " ? 1 : 0;
+          emptyField[i] = empty;
+          distField[i] = empty ? 0 : INF;
+        }
+      }
 
-          // Per-cell alpha.
+      // Pass 2 — chamfer distance transform: every cell learns how far it is
+      // from the nearest empty cell. Vertical steps are weighted by the ~1.8
+      // cell aspect so the resulting rings read circular on screen. Two
+      // sweeps (forward + backward) propagate distances across the grid.
+      const A = 1; // horizontal step
+      const B = 1.8; // vertical step
+      const C = Math.sqrt(A * A + B * B); // diagonal step
+      for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+          const i = y * cols + x;
+          let dv = distField[i];
+          if (x > 0) dv = Math.min(dv, distField[i - 1] + A);
+          if (y > 0) dv = Math.min(dv, distField[i - cols] + B);
+          if (x > 0 && y > 0) dv = Math.min(dv, distField[i - cols - 1] + C);
+          if (x < cols - 1 && y > 0)
+            dv = Math.min(dv, distField[i - cols + 1] + C);
+          distField[i] = dv;
+        }
+      }
+      for (let y = rows - 1; y >= 0; y--) {
+        for (let x = cols - 1; x >= 0; x--) {
+          const i = y * cols + x;
+          let dv = distField[i];
+          if (x < cols - 1) dv = Math.min(dv, distField[i + 1] + A);
+          if (y < rows - 1) dv = Math.min(dv, distField[i + cols] + B);
+          if (x < cols - 1 && y < rows - 1)
+            dv = Math.min(dv, distField[i + cols + 1] + C);
+          if (x > 0 && y < rows - 1)
+            dv = Math.min(dv, distField[i + cols - 1] + C);
+          distField[i] = dv;
+        }
+      }
+
+      // Pass 3 — draw. Each rendered glyph is colored by its distance to the
+      // nearest empty blob; subtracting time marches the bands outward, so
+      // the palette appears to ripple out of every hole in the field.
+      const len = palette?.length ?? 0;
+      for (let y = 0; y < rows; y++) {
+        const rowAlpha = rowReveal(y);
+        if (rowAlpha <= 0) continue; // row hasn't entered yet — leave blank
+        for (let x = 0; x < cols; x++) {
+          const i = y * cols + x;
+          if (emptyField[i]) continue; // the hole itself stays empty
+          const v = vField[i];
+          const ch = charRamp[Math.floor(v * rampMax)];
+
+          // Per-cell alpha (cursor spotlight).
           let alpha = baseOpacity;
           if (useSpotlight && mouseInside) {
-            const spot = Math.exp(-d2 / spotR2);
+            const dx = x - cx;
+            const dy = (y - cy) * 1.8;
+            const spot = Math.exp(-(dx * dx + dy * dy) / spotR2);
             alpha = baseOpacity + (spotlightOpacity - baseOpacity) * spot;
             if (alpha < 0) alpha = 0;
             if (alpha > 1) alpha = 1;
           }
+          alpha *= rowAlpha; // entrance wipe scales the whole row in
           if (alpha <= 0.01) continue;
 
-          // Per-cell color.
+          // Per-cell color: palette band keyed to distance-from-hole.
           let color = "#c8c8d4";
-          if (palette?.length) {
-            const huePos = (x * 0.1 + y * 0.07 + time * 0.12) % palette.length;
-            const idx = Math.floor(Math.abs(huePos));
-            color = palette[idx % palette.length];
+          if (len) {
+            const huePos = distField[i] * 0.18 - time * 0.6;
+            const idx = ((Math.floor(huePos) % len) + len) % len;
+            color = (palette as string[])[idx];
           }
 
           ctx.globalAlpha = alpha;
@@ -369,10 +479,12 @@ export function useAsciiField(
         for (const p of placements) {
           const origin = placeArt(p, cols, rows, hasFixedGrid);
           ctx.fillStyle = p.color;
-          ctx.globalAlpha = p.opacity;
           for (let ly = 0; ly < p.lines.length; ly++) {
             const gy = origin.y + ly;
             if (gy < 0 || gy >= rows) continue;
+            const rowAlpha = rowReveal(gy);
+            if (rowAlpha <= 0) continue; // row hasn't entered yet
+            ctx.globalAlpha = p.opacity * rowAlpha;
             const line = p.lines[ly];
             for (let lx = 0; lx < line.length; lx++) {
               const ch = line[lx];
@@ -428,6 +540,9 @@ export function useAsciiField(
     spotlightOpacity,
     spotlightRadius,
     frameMs,
+    reveal,
+    revealStagger,
+    revealDuration,
   ]);
 }
 
@@ -478,6 +593,9 @@ export const AsciiHero = forwardRef<HTMLDivElement, AsciiHeroProps>(
       spotlightOpacity,
       spotlightRadius,
       frameMs,
+      reveal,
+      revealStagger,
+      revealDuration,
       art,
       className,
       ...rest
@@ -502,6 +620,9 @@ export const AsciiHero = forwardRef<HTMLDivElement, AsciiHeroProps>(
       spotlightOpacity,
       spotlightRadius,
       frameMs,
+      reveal,
+      revealStagger,
+      revealDuration,
       art,
     });
 
