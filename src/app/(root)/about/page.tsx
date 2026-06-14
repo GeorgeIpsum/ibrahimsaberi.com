@@ -17,23 +17,14 @@ import {
   PreviewCardTrigger,
 } from "@/components/atoms/preview-card";
 import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
-import { HelloGradient } from "@/components/special/hello";
-import { titleContainerClassName } from "@/components/structure/title.css";
-import { cn } from "@/css/lib";
+import { Hello } from "@/components/special/hello";
 
 const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Page() {
-  console.log(cn("flex", titleContainerClassName));
   return (
     <article className="prose mx-auto min-h-[calc(100svh-10rem)] px-2">
-      <div className={cn("flex", titleContainerClassName)}>
-        <Suspense
-          fallback={<h1 className="animate-skeleton text-3xl">{"‎"}</h1>}
-        >
-          <HelloGradient />
-        </Suspense>
-      </div>
+      <Hello />
       <p className="reveal reveal-top">
         I'm <span className="font-bold">Ibrahim</span>, a software engineer
         based in Bethesda, Maryland. I currently work as a{" "}
@@ -322,22 +313,32 @@ export default function Page() {
 
       <h2>Frequently Asked Questions</h2>
       <Accordion className="not-prose mb-24 w-full">
-        {faqs.map(({ question, answer, id }) => (
-          <AccordionItem key={id} value={id}>
-            <AccordionTrigger>{question}</AccordionTrigger>
-            <AccordionPanel>
-              {Array.isArray(answer) ? (
-                answer.map((item, index) => (
+        {faqs.map(({ question, answer, id }) => {
+          const answers = Array.isArray(answer) ? answer : [answer];
+          return (
+            <AccordionItem key={id} value={id}>
+              <AccordionTrigger>{question}</AccordionTrigger>
+              <AccordionPanel>
+                {answers.map((item, index) => (
                   <p className="mb-2" key={index.toString()}>
-                    {item}
+                    {item.startsWith("link::") ? (
+                      <a
+                        href={item.split("::")[1]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline"
+                      >
+                        {item.split("::")[2]}
+                      </a>
+                    ) : (
+                      item
+                    )}
                   </p>
-                ))
-              ) : (
-                <p className="mb-2">{answer}</p>
-              )}
-            </AccordionPanel>
-          </AccordionItem>
-        ))}
+                ))}
+              </AccordionPanel>
+            </AccordionItem>
+          );
+        })}
       </Accordion>
     </article>
   );
@@ -364,9 +365,15 @@ const faqs: FAQ[] = [
     id: "favorite-snack",
   },
   {
+    question: "Where's your resume?",
+    answer:
+      "link::https://georgeipsum.github.io/resume/::For our dear friends who cannot read.",
+    id: "resume",
+  },
+  {
     question: "What's with all the weird terminology?",
     answer:
-      "Things are better when they're weird and a tad bit mysterious. This is, in fact, my swamp. And the bog water will flow.",
+      "Things are better when they're weird and a tad bit mysterious. My forest. My Basin. My bog.",
     id: "esoteria",
   },
   {

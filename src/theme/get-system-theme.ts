@@ -12,3 +12,11 @@ export const getSystemTheme = (): Theme => {
     ? "dark"
     : "light";
 };
+
+export const resolveTheme = (theme: Theme): "light" | "dark" => {
+  if (theme === "light") return "light";
+  if (theme === "dark") return "dark";
+  if (theme === "system-light") return "light";
+  if (theme === "system-dark") return "dark";
+  return getSystemTheme() as "light" | "dark";
+};

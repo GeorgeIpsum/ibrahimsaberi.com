@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { isRateLimited } from "@/services/redis";
-import { getNowPlaying } from "@/services/spotify/now-playing";
+import {
+  getNowPlaying,
+  withLiveProgress,
+} from "@/services/spotify/now-playing";
 
 export async function GET(request: Request) {
   const ip =
@@ -12,5 +15,7 @@ export async function GET(request: Request) {
     );
   }
   const track = await getNowPlaying();
-  return NextResponse.json({ track });
+  return NextResponse.json({
+    track: track && withLiveProgress(track, Date.now()),
+  });
 }

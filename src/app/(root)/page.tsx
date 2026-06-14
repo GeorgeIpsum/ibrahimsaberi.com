@@ -1,4 +1,3 @@
-import { AsciiHero } from "@/components/special/ascii-hero";
 import { Title } from "@/components/structure/title";
 
 const ASCII_ART = `       _..._
@@ -14,27 +13,19 @@ export default function Page() {
     <div className="mb-4 flex flex-col gap-4 text-sm">
       <div className="relative -mx-4 overflow-hidden rounded-2xl">
         <div className="mx-4">
-          <Title className="text-2xl">
+          <Title
+            className="text-2xl"
+            art={{
+              ascii: ASCII_ART,
+              anchor: "right",
+              offset: { x: -6 },
+              color: "#F8C523",
+            }}
+          >
             Ibrahim Saberi{" "}
             <span className="text-muted-foreground text-sm">presents</span>
           </Title>
         </div>
-        <AsciiHero
-          className="overflow-hidden"
-          baseOpacity={0.2}
-          fontSize={8}
-          variant="bare"
-          palette={["#f87171", "#fbbf24", "#34d399", "#60a5fa", "#c084fc"]}
-          spotlightOpacity={0.3}
-          spotlightRadius={8}
-          style={{ position: "absolute", inset: 0 }}
-          art={{
-            art: ASCII_ART,
-            anchor: "left",
-            color: "#fbbf24A1",
-            offset: { x: 0 },
-          }}
-        />
       </div>
       <section>
         <h2 className="text-xl">A Website</h2>

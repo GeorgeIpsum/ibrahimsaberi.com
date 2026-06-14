@@ -1,14 +1,28 @@
 // import { waveCircle } from "@lucide/lab";
-import {
-  // Icon,
-  WavesVertical,
-} from "lucide-react";
 import { Separator } from "@/components/atoms/separator";
 import { Title } from "@/components/structure/title";
 import { PaginationControls } from "@/services/basin/components/pagination-controls";
 import { PostListItem } from "@/services/basin/components/post-list-item";
 import { countPosts, listPosts } from "@/services/basin/load-post";
 import { makePageInfo, POSTS_PER_PAGE } from "@/services/basin/pagination";
+
+const ASCII_ART = `                                                                                ░░                  
+                                                                                ░░                  
+                                                                              ░░  ░░                
+                                                                                                    
+                                                                                              ░░    
+                                                          ░░        ░░▒▒░░  ░░          ░░░░░░░░░░░░
+                                                      ░░░░░░  ░░░░░░░░░░░░░░      ░░  ░░░░░░░░░░░░░░
+░░                  ░░                          ░░  ░░░░    ▒▒░░░░░░░░░░      ░░░░░░░░░░▒▒▒▒░░░░░░░░
+░░░░                      ░░  ░░░░░░░░░░      ░░░░    ░░░░▒▒░░░░░░░░            ░░░░░░    ░░░░░░░░░░
+▒▒░░▒▒░░░░░░░░░░░░░░            ░░░░░░  ░░          ░░▓▓░░                            ░░▒▒  ▒▒  ░░░░
+▓▓▒▒░░▒▒▒▒░░    ░░░░░░░░░░░░▒▒░░          ░░  ░░  ░░▓▓                                              
+      ░░▒▒▒▒░░░░      ▒▒    ░░  ░░░░░░░░░░░░░░░░░░▒▒                                                
+            ▓▓▓▓▒▒░░    ░░░░▒▒▒▒░░░░░░░░░░░░▒▒▒▒                                                    
+              ▒▒██▓▓░░░░░░░░░░░░░░▒▒░░░░▒▒▒▒                                                        
+                  ░░▓▓▒▒▒▒▒▒░░░░░░▒▒▒▒░░                                                            
+                      ▒▒▒▒▒▒▒▒▓▓░░▒▒░░                                                              
+                            ░░                                                                      `;
 
 export default async function BasinIndex() {
   const [posts, total] = await Promise.all([
@@ -21,36 +35,13 @@ export default async function BasinIndex() {
     <>
       <Title
         containerClassName="group flex w-auto items-center gap-2"
-        className="relative -left-6 cursor-default"
         title="forming waves"
-        adornment={
-          <WavesVertical
-            className="size-12 rounded-full bg-radial from-transparent to-amber-500/10 text-amber-900 opacity-10 shadow-amber-900/50 shadow-inner blur-[2px] transition-all duration-500 group-hover:opacity-30 group-hover:blur-none dark:text-amber-200"
-            aria-hidden="true"
-          />
-        }
+        art={{
+          ascii: ASCII_ART,
+          at: { x: 0, y: 1 },
+        }}
       >
-        <span className="opacity-50 transition-all duration-500 group-hover:opacity-100">
-          r
-        </span>
-        <span className="opacity-55 transition-all duration-500 group-hover:opacity-100">
-          i
-        </span>
-        <span className="opacity-70 transition-all duration-500 group-hover:opacity-100">
-          p
-        </span>
-        <span className="opacity-85 transition-all duration-500 group-hover:opacity-100">
-          p
-        </span>
-        <span className="opacity-90 transition-all duration-500 group-hover:opacity-100">
-          l
-        </span>
-        <span className="opacity-100 transition-all duration-500 group-hover:opacity-100">
-          e
-        </span>
-        <span className="opacity-100 transition-all duration-500 group-hover:opacity-100">
-          s
-        </span>
+        ripples
       </Title>
 
       {posts.length === 0 ? (

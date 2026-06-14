@@ -7,8 +7,9 @@ import "@/css/prose.css";
 import { AnchoredToastProvider, ToastProvider } from "@/components/atoms/toast";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
-import { ThemeProvider } from "@/theme/theme-provider";
+import { ThemeProvider } from "@/theme";
 import { ThemeScript } from "@/theme/theme-script";
+import { ControlPanel } from "@/utils/control-panel/control-panel";
 
 export default function RootLayout({
   children,
@@ -36,6 +37,7 @@ export default function RootLayout({
             </div>
           </AnchoredToastProvider>
         </ToastProvider>
+        <ControlPanel />
       </body>
       {process.env.NODE_ENV === "production" &&
         process.env.VERCEL_ENV === "production" && (

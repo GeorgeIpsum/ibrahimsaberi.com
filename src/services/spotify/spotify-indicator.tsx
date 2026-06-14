@@ -11,7 +11,7 @@ import { cn } from "@/css/lib";
 import { Listening, type LiveNowPlaying } from "./listening";
 import type { NowPlaying } from "./now-playing";
 
-const POLL_INTERVAL_MS = 15_000;
+const POLL_INTERVAL_MS = 10_000;
 
 async function fetchNowPlaying(): Promise<LiveNowPlaying | null> {
   try {
