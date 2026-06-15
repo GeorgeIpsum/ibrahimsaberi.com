@@ -24,6 +24,36 @@ export type AsciiArtAnchor =
   | "bottom-right";
 
 /**
+ * Axis a fading opacity gradient travels along, named `<from>-to-<to>`.
+ * The four edges fade across one axis; the four corners fade along a
+ * diagonal. `start`/`end` opacities are sampled at the named ends.
+ */
+export type AsciiGradientDirection =
+  | "top-to-bottom"
+  | "bottom-to-top"
+  | "left-to-right"
+  | "right-to-left"
+  | "top-left-to-bottom-right"
+  | "bottom-left-to-top-right"
+  | "top-right-to-bottom-left"
+  | "bottom-right-to-top-left";
+
+/**
+ * A linear opacity fade applied across an art block's bounding box.
+ * Glyphs at the `direction`'s start end render at `start` alpha and fade
+ * to `end` alpha at the opposite end; cells in between interpolate
+ * linearly. Use in place of a constant `opacity`.
+ */
+export interface AsciiArtOpacityGradient {
+  /** Alpha (0–1) at the gradient's start edge/corner. */
+  start: number;
+  /** Alpha (0–1) at the gradient's end edge/corner. */
+  end: number;
+  /** Axis the fade travels along. */
+  direction: AsciiGradientDirection;
+}
+
+/**
  * A block of static ASCII art pinned to a region of the field. Its glyphs
  * are drawn on top of the (still-animating) procedural field with a fixed
  * color/opacity — untouched by the wave, ripple, or cursor spotlight.
@@ -58,8 +88,13 @@ export interface AsciiArtPlacement {
   /* ----- Look (static; ignores palette + spotlight) ----- */
   /** Glyph color. Default "#fff". */
   color?: string;
-  /** Glyph alpha (0–1). Default 1 (fully covers the field cell beneath). */
-  opacity?: number;
+  /**
+   * Glyph alpha. Either a constant (0–1; default 1, fully covering the
+   * field cell beneath) or an {@link AsciiArtOpacityGradient} that fades
+   * between two alphas across the art's bounding box in one of eight
+   * cardinal/diagonal directions. Spaces stay transparent either way.
+   */
+  opacity?: number | AsciiArtOpacityGradient;
 }
 
 export interface UseAsciiFieldOptions {
@@ -142,7 +177,67 @@ interface PreparedPlacement extends AsciiArtPlacement {
   artCols: number;
   artRows: number;
   color: string;
-  opacity: number;
+  /** Per-glyph alpha at local cell (lx, ly) within the art bounding box. */
+  opacityAt: (lx: number, ly: number) => number;
+}
+
+/**
+ * Normalized position (0–1) of a cell along a gradient's axis: 0 at the
+ * direction's start end, 1 at its end. `fx`/`fy` are the cell's fractional
+ * position within the bounding box (0 = left/top, 1 = right/bottom).
+ * Diagonals average the two axes so the fade runs corner-to-corner.
+ */
+function gradientT(
+  direction: AsciiGradientDirection,
+  fx: number,
+  fy: number,
+): number {
+  switch (direction) {
+    case "top-to-bottom":
+      return fy;
+    case "bottom-to-top":
+      return 1 - fy;
+    case "left-to-right":
+      return fx;
+    case "right-to-left":
+      return 1 - fx;
+    case "top-left-to-bottom-right":
+      return (fx + fy) / 2;
+    case "bottom-right-to-top-left":
+      return 1 - (fx + fy) / 2;
+    case "top-right-to-bottom-left":
+      return (1 - fx + fy) / 2;
+    case "bottom-left-to-top-right":
+      return (fx + (1 - fy)) / 2;
+    default:
+      return 0;
+  }
+}
+
+/**
+ * Resolve an `opacity` prop into a per-cell alpha sampler over an art block
+ * `artCols`×`artRows` in size. A number yields a constant; a gradient
+ * interpolates `start`→`end` along its direction. Always clamped to [0, 1].
+ * Exported for unit testing the direction math.
+ */
+export function makeArtOpacity(
+  opacity: number | AsciiArtOpacityGradient | undefined,
+  artCols: number,
+  artRows: number,
+): (lx: number, ly: number) => number {
+  if (opacity == null) return () => 1;
+  if (typeof opacity === "number") {
+    const v = Math.max(0, Math.min(1, opacity));
+    return () => v;
+  }
+  const { start, end, direction } = opacity;
+  return (lx, ly) => {
+    // A single-cell span has no axis to fade along; pin it to `start`.
+    const fx = artCols > 1 ? lx / (artCols - 1) : 0;
+    const fy = artRows > 1 ? ly / (artRows - 1) : 0;
+    const t = gradientT(direction, fx, fy);
+    return Math.max(0, Math.min(1, start + (end - start) * t));
+  };
 }
 
 /** Pre-split art into lines and measure its bounding box once. */
@@ -154,13 +249,14 @@ function prepareArt(
   return list.map((p) => {
     const lines = p.ascii.replace(/\r\n/g, "\n").split("\n");
     const artCols = lines.reduce((max, line) => Math.max(max, line.length), 0);
+    const artRows = lines.length;
     return {
       ...p,
       lines,
       artCols,
-      artRows: lines.length,
+      artRows,
       color: p.color ?? "#fff",
-      opacity: p.opacity ?? 1,
+      opacityAt: makeArtOpacity(p.opacity, artCols, artRows),
     };
   });
 }
@@ -484,13 +580,17 @@ export function useAsciiField(
             if (gy < 0 || gy >= rows) continue;
             const rowAlpha = rowReveal(gy);
             if (rowAlpha <= 0) continue; // row hasn't entered yet
-            ctx.globalAlpha = p.opacity * rowAlpha;
             const line = p.lines[ly];
             for (let lx = 0; lx < line.length; lx++) {
               const ch = line[lx];
               if (ch === " ") continue;
               const gx = origin.x + lx;
               if (gx < 0 || gx >= cols) continue;
+              // Per-glyph alpha: the gradient (or constant) sampled at this
+              // cell, scaled by the entrance wipe's per-row fade.
+              const alpha = p.opacityAt(lx, ly) * rowAlpha;
+              if (alpha <= 0.01) continue;
+              ctx.globalAlpha = alpha;
               ctx.fillText(ch, gx * cellW, gy * cellH);
             }
           }
@@ -570,7 +670,13 @@ export interface AsciiHeroProps
  * animation or spotlight:
  *
  *     <AsciiHero variant="bare" baseOpacity={0.2}
- *       art={{ art: "  /\\_/\\\n ( o.o )\n  > ^ <", anchor: "center" }} />
+ *       art={{ ascii: "  /\\_/\\\n ( o.o )\n  > ^ <", anchor: "center" }} />
+ *
+ * An art block's `opacity` can be a constant or a gradient that fades it
+ * across its bounding box in any of eight cardinal/diagonal directions:
+ *
+ *     art={{ ascii, anchor: "center",
+ *       opacity: { start: 1, end: 0, direction: "top-to-bottom" } }}
  *
  * For full control over markup, drop the component and call
  * `useAsciiField(canvasRef, hostRef, options)` against your own DOM.

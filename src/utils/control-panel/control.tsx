@@ -35,7 +35,9 @@ export const ControlInput: React.FC<{ control: Control<"text"> }> = observer(
   ({ control }) => {
     return (
       <Input
+        size="xs"
         value={control.value?.get()}
+        inputClassName="text-[10px]"
         onValueChange={(value) => {
           action(() => {
             control.value?.set(value);

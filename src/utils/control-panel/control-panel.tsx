@@ -17,25 +17,30 @@ const PANEL_CONTAINER_CLASS =
 
 const PanelBody: React.FC = observer(() => (
   <>
-    <h4 className="mb-2 flex w-fit gap-2 rounded border border-border bg-background-high-contrast/50 px-4 py-1 text-right font-mono font-thin text-sm">
+    <h4 className="mb-2 flex w-fit gap-2 rounded border border-border bg-background-high-contrast/10 px-4 py-1 text-right font-mono font-thin text-sm backdrop-blur-lg">
       <span>control panel</span>
       <Kbd>CTRL+K</Kbd>
     </h4>
-    <ScrollArea className="flex h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] flex-col gap-2 rounded-lg border border-border bg-secondary/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84">
-      {Object.entries(controlContext.context.registeredControls).map(
-        ([key, control]) => (
-          <div key={key} className="flex w-full items-center gap-2 text-xs">
-            <div className="flex w-24 justify-end border-border border-r pr-2">
-              <h5 className="text-right font-mono font-thin text-[10px] uppercase">
-                {key}
-              </h5>
+    <ScrollArea className="h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] rounded-lg border border-border bg-secondary/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84">
+      <div className="flex flex-col gap-y-1.5">
+        {Object.entries(controlContext.context.registeredControls).map(
+          ([key, control]) => (
+            <div
+              key={key}
+              className="relative flex w-full origin-center items-center gap-2 text-xs"
+            >
+              <div className="flex w-24 justify-end border-border border-r pr-2">
+                <h5 className="text-right font-mono font-thin text-[10px] uppercase">
+                  {key}
+                </h5>
+              </div>
+              <div className="flex-1">
+                <ControlRenderer control={control} />
+              </div>
             </div>
-            <div className="flex-1">
-              <ControlRenderer control={control} />
-            </div>
-          </div>
-        ),
-      )}
+          ),
+        )}
+      </div>
     </ScrollArea>
   </>
 ));

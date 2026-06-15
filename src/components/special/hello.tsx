@@ -9,14 +9,16 @@ interface HelloProps {
 
 async function HelloTitle({ default: defaultGreeting }: HelloProps) {
   await connection();
+  const { ascii, offset, color, anchor } = randomAsciiArt();
   return (
     <Title
       className="fade-in-0 animate-in duration-2000 ease-out"
       art={{
-        ascii: randomAsciiArt(),
-        anchor: "right",
-        offset: { x: -8, y: 1 },
-        color: "#F8C523",
+        ascii,
+        anchor: anchor ?? "right",
+        offset: { x: -8, y: 1, ...offset },
+        color: color ?? "#F8C523",
+        opacity: 1,
       }}
     >
       {defaultGreeting ?? randomGreeting()}
