@@ -277,7 +277,9 @@
 :root[data-theme] {
   color-scheme: light dark;
 
+  /* roughly #341f3d and #dbead3 */
   --primary: light-dark(oklch(28% 0.06 315), oklch(92% 0.035 135));
+  /* roughly #fdf6fe and #070b04 */
   --background: light-dark(oklch(98% 0.014 320), oklch(14% 0.02 130));
   --foreground-high-contrast: light-dark(#000, #fff);
   --background-high-contrast: light-dark(#fff, #000);
