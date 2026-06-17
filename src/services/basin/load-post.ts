@@ -8,7 +8,12 @@ import { cache } from "react";
 import { classifyContentPath } from "./content-paths";
 import { FrontmatterSchema, type Post, type PostListEntry } from "./types";
 
-const CONTENT_DIR = path.join(process.cwd(), "src/content");
+const BASIN_REL_PATH = "src/basin";
+const BASIN_DIR = path.join(process.cwd(), BASIN_REL_PATH);
+const DROP_DIR = path.join(BASIN_DIR, "drops");
+const DROP_IMPORT_PREFIX = "@/basin/drops/";
+const DROPLET_DIR = path.join(BASIN_DIR, "droplets");
+const DROPLET_IMPORT_PREFIX = "@/basin/droplets/";
 
 // All bare YAML dates (`publishedAt: 2026-05-18`) and filename-encoded dates
 // are interpreted as midnight in this timezone. TZDate carries its tz with it
@@ -21,14 +26,6 @@ type FileEntry = {
   dateStr: string; // "2024-01-08"
 };
 
-/**
- * Filename `YYYY-MM-DD` → ISO 8601 string for midnight in AUTHOR_TIMEZONE,
- * carrying that zone's offset (e.g. `2026-05-20T00:00:00.000-04:00`).
- * Stored as a string so the value survives `"use cache"` serialization
- * (TZDate's prototype is lost through the JSON-ish cache boundary).
- * Consumers call `new Date(publishedAt).toLocaleDateString(..., {timeZone})`
- * for display.
- */
 function isoFromFilenameDate(s: string): string {
   const [y, m, d] = s.split("-").map(Number);
   return new TZDate(y, m - 1, d, AUTHOR_TIMEZONE).toISOString();
@@ -46,7 +43,7 @@ function normalizeAttributes(
 }
 
 // Emit one warning per slug shared by two or more files. Duplicate slugs are
-// allowed (loadPostMeta resolves to the newest by date) but worth surfacing.
+// allowed (loadDropMeta resolves to the newest by date) but worth surfacing.
 function warnDuplicateSlugs(entries: FileEntry[]): void {
   const bySlug = new Map<string, string[]>();
   for (const e of entries) {
@@ -63,13 +60,9 @@ function warnDuplicateSlugs(entries: FileEntry[]): void {
   }
 }
 
-// Cheap layer: recursive directory scan + filename/folder classification.
-// No file reads, no YAML parsing. Used wherever we just need sort order,
-// count, or to find a file by slug. Throws (failing the build) when a post
-// sits in a year/month folder that contradicts its filename date.
 const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
   "use cache";
-  const paths = await readdir(CONTENT_DIR, { recursive: true });
+  const paths = await readdir(DROP_DIR, { recursive: true });
   const entries: FileEntry[] = [];
   const invalid: { file: string; reason: string }[] = [];
 
@@ -90,7 +83,7 @@ const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
 
   if (invalid.length > 0) {
     const list = invalid
-      .map((e) => `  - src/content/${e.file}: ${e.reason}`)
+      .map((e) => `  - ${BASIN_REL_PATH}/${e.file}: ${e.reason}`)
       .join("\n");
     throw new Error(`Invalid content placement:\n${list}`);
   }
@@ -100,7 +93,7 @@ const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
 });
 
 async function parseEntry(entry: FileEntry): Promise<PostListEntry> {
-  const raw = await readFile(path.join(CONTENT_DIR, entry.file), "utf-8");
+  const raw = await readFile(path.join(DROP_DIR, entry.file), "utf-8");
   const { attributes } = frontMatter<Record<string, unknown>>(raw);
   return {
     slug: entry.slug,
@@ -110,8 +103,6 @@ async function parseEntry(entry: FileEntry): Promise<PostListEntry> {
   };
 }
 
-// Expensive layer: reads + parses every post. Used when we need frontmatter
-// data for filtering (tags, drafts) or full enumeration.
 const _listAllParsed = cache(async (): Promise<PostListEntry[]> => {
   "use cache";
   const entries = await _listFileEntries();
@@ -192,22 +183,13 @@ export type PostMeta = {
   basename: string;
 };
 
-/**
- * Cached metadata-only loader. Safe to call from the static prerender path
- * because the return value contains no functions (the MDX Component is
- * loaded separately in `loadPost`).
- *
- * Returns `null` for an unknown slug rather than calling `notFound()`:
- * navigation APIs touch request-time state and are not permitted inside a
- * `"use cache"` scope. Callers handle the miss.
- */
-export async function loadPostMeta(slug: string): Promise<PostMeta | null> {
+export async function loadDropMeta(slug: string): Promise<PostMeta | null> {
   "use cache";
   const entries = await _listFileEntries();
   const entry = entries.find((e) => e.slug === slug);
   if (!entry) return null;
 
-  const raw = await readFile(path.join(CONTENT_DIR, entry.file), "utf-8");
+  const raw = await readFile(path.join(DROP_DIR, entry.file), "utf-8");
   const { attributes } = frontMatter<Record<string, unknown>>(raw);
   const frontmatter = FrontmatterSchema.assert(
     normalizeAttributes(attributes, entry.dateStr),
@@ -216,22 +198,18 @@ export async function loadPostMeta(slug: string): Promise<PostMeta | null> {
   return { slug, frontmatter, basename };
 }
 
-/**
- * Full loader including the MDX Component. NOT cached — Components can't
- * be serialized through Cache Components. React's per-request `cache()`
- * dedupes within one render.
- */
-export const loadPost = cache(async (slug: string): Promise<Post> => {
-  const meta = await loadPostMeta(slug);
+export const loadDrop = cache(async (slug: string): Promise<Post> => {
+  const meta = await loadDropMeta(slug);
   if (!meta) notFound();
   try {
-    const mod = await import(`@/content/${meta.basename}.mdx`);
+    const mod = await import(`${DROP_IMPORT_PREFIX}${meta.basename}.mdx`);
     return { slug, frontmatter: meta.frontmatter, Content: mod.default };
   } catch (e) {
     if (
       e instanceof Error &&
       (e.message.includes("Cannot find module") || e.message.includes("ENOENT"))
     ) {
+      // this throws
       notFound();
     }
     throw e;

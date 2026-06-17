@@ -5,7 +5,7 @@ import {
   countPosts,
   listPosts,
   listTags,
-  loadPostMeta,
+  loadDropMeta,
 } from "../src/services/basin/load-post";
 
 // React's `cache()` memoizes per request; outside a render there is no request.
@@ -190,7 +190,7 @@ describe("listTags", () => {
 describe("loadPostMeta", () => {
   it("returns slug, basename, and a summer publishedAt instant", async () => {
     setFiles({ "2026-05-20-hello.mdx": mdx({ title: "Hello" }) });
-    const meta = await loadPostMeta("hello");
+    const meta = await loadDropMeta("hello");
     expect(meta.slug).toBe("hello");
     expect(meta.basename).toBe("2026-05-20-hello");
     expect(meta.frontmatter.title).toBe("Hello");
@@ -200,13 +200,13 @@ describe("loadPostMeta", () => {
 
   it("resolves a winter date at the EST offset", async () => {
     setFiles({ "2026-01-15-winter.mdx": mdx({ title: "Winter" }) });
-    const meta = await loadPostMeta("winter");
+    const meta = await loadDropMeta("winter");
     // January → EST: midnight in New York carries a -05:00 offset.
     expect(meta.frontmatter.publishedAt).toBe("2026-01-15T00:00:00.000-05:00");
   });
 
   it("returns null for an unknown slug", async () => {
     setFiles({ "2026-05-20-hello.mdx": mdx({ title: "Hello" }) });
-    await expect(loadPostMeta("ghost")).resolves.toBeNull();
+    await expect(loadDropMeta("ghost")).resolves.toBeNull();
   });
 });

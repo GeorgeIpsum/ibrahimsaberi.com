@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { listPosts, loadPostMeta } from "@/services/basin/load-post";
+import { listPosts, loadDropMeta } from "@/services/basin/load-post";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 export async function GET(_request: Request, { params }: Props) {
   const { slug } = await params;
-  const meta = await loadPostMeta(slug);
+  const meta = await loadDropMeta(slug);
   if (!meta)
     return new Response("There is no post here. There was never a post here.", {
       status: 404,

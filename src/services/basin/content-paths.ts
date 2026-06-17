@@ -15,7 +15,7 @@ export type ClassifiedPath =
   | { kind: "invalid"; file: string; reason: string };
 
 /**
- * Classify a path relative to `src/content`:
+ * Classify a path relative to `src/basin`:
  *  - `post`    — an indexable post at a valid location
  *  - `skip`    — a non-post file or a post-named file in an unrecognized
  *                location (non-numeric folder, depth >= 3)
@@ -23,7 +23,7 @@ export type ClassifiedPath =
  *                filename date; the caller must fail the build on these
  *
  * `file` is the path normalized to POSIX separators, safe for both
- * `path.join` and the `import("@/content/...")` specifier.
+ * `path.join` and the `import("@/basin/...")` specifier.
  */
 export function classifyContentPath(relativePath: string): ClassifiedPath {
   const segments = relativePath.split(path.sep);
