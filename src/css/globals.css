@@ -620,3 +620,31 @@ html[data-panel="open"] .control-panel-static {
   margin: 0 auto;
   overflow: hidden;
 }
+
+@keyframes pui-caret {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.pui-caret {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--pui-grad-mid);
+  vertical-align: -2px;
+  animation: pui-caret 1s steps(2, start) infinite;
+  box-shadow: 0 0 8px var(--pui-grad-mid);
+}
+.pui-bubble__stream-caret {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--primary);
+  vertical-align: -2px;
+  margin-left: 1px;
+  animation: pui-caret 1s steps(2, start) infinite;
+}

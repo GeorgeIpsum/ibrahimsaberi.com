@@ -94,6 +94,13 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    const handlePageUnload = (event: BeforeUnloadEvent) => {
+      event.preventDefault();
+
+      // I wish this worked
+      return "WHAT ARE YOU DOING?????????????????????? BRO!!!!!!!!!!!!!!!!!!!!!!!";
+    };
+    window.addEventListener("beforeunload", handlePageUnload);
     try {
       if (onSubmit) {
         await onSubmit(e);
@@ -107,6 +114,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
     } finally {
       setIsSubmitting(false);
     }
+    window.removeEventListener("beforeunload", handlePageUnload);
   };
 
   return (

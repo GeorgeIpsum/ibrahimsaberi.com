@@ -205,7 +205,7 @@ const finalizeSubtask = async (data: TaskData) => {
       description: (
         <SubtaskDisplay
           subtask="Really? It really went through?"
-          subtaskResult="We did it I suppose. Really, I did it. You didn't do anything."
+          subtaskResult="We did it, I guess. Really, I did it. You didn't do anything."
           isSuccess
         />
       ),
