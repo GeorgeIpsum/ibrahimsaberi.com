@@ -7,13 +7,10 @@ export function proxy(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith("/basin/droplets")) {
     const ua = userAgent(request);
     const reflectionCookie = request.cookies.get("droplets-path");
-    if (!reflectionCookie && !ua.isBot) {
-      return NextResponse.redirect(
-        new URL("/basin/droplets/reflection", request.url),
-        {
-          headers,
-        },
-      );
+    if (!reflectionCookie || ua.isBot) {
+      return NextResponse.redirect(new URL("/reflection", request.url), {
+        headers,
+      });
     }
   }
 
