@@ -5,6 +5,7 @@ import { Button } from "@/components/atoms/button";
 import {
   Menu,
   MenuItem,
+  MenuLinkItem,
   MenuPopup,
   MenuTrigger,
 } from "@/components/atoms/menu";
@@ -69,8 +70,8 @@ export const Header: React.FC = () => {
           <nav className="hidden w-full flex-1 items-center justify-end gap-4 sm:flex">
             <ul className="flex w-full items-center justify-end gap-4 text-sm">
               {navItems
-                .filter((item) => !(item as NavItem).mobileOnly)
-                .map((item) => (
+                .filter((item: NavItem) => !item.mobileOnly && !item.footerItem)
+                .map((item: NavItem) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
@@ -99,18 +100,53 @@ export const Header: React.FC = () => {
               <MenuPopup side="bottom" align="end">
                 {navItems
                   .filter(
-                    (item) =>
-                      (item as NavItem).mobileOnly && item.title !== "hearth",
+                    (item: NavItem) =>
+                      item.mobileOnly &&
+                      !item.footerItem &&
+                      item.title !== "hearth",
                   )
-                  .map((item) => (
-                    <MenuItem key={item.href}>
-                      <Link
-                        href={item.href}
-                        className="w-full text-left text-primary/80 text-sm transition-colors duration-300 ease-out focus-within:text-foreground-high-contrast hover:text-foreground-high-contrast focus:text-foreground-high-contrast focus-visible:text-foreground-high-contrast data-highlighted:text-foreground-high-contrast"
+                  .map((item: NavItem) => (
+                    <MenuLinkItem
+                      key={item.href}
+                      closeOnClick
+                      render={
+                        <Link
+                          href={item.href}
+                          className={cn(
+                            "group/asdf cursor-pointer text-primary/80 text-sm ease-out focus-within:text-foreground-high-contrast hover:text-foreground-high-contrast focus:text-foreground-high-contrast focus-visible:text-foreground-high-contrast data-highlighted:text-foreground-high-contrast",
+                            item.private
+                              ? "blur-[3px] hue-rotate-360 transition-all duration-1000 hover:blur-[0px] hover:hue-rotate-0"
+                              : "transition-colors duration-300",
+                          )}
+                        />
+                      }
+                    >
+                      <item.icon className="size-4" />
+                      <span
+                        className={cn(
+                          item.private &&
+                            "group-hover/asdf:animate-wave-travel",
+                        )}
                       >
-                        {item.title}
-                      </Link>
-                    </MenuItem>
+                        {item.private
+                          ? Array.from(item.title).map((ch, i) => (
+                              <span
+                                key={ch + i.toString()}
+                                className="transform-3d inline-block origin-center leading-none group-hover/asdf:animate-wave-travel"
+                                style={
+                                  {
+                                    animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
+                                    "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
+                                    "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
+                                  } as React.CSSProperties
+                                }
+                              >
+                                {ch}
+                              </span>
+                            ))
+                          : item.title}
+                      </span>
+                    </MenuLinkItem>
                   ))}
               </MenuPopup>
             </Menu>

@@ -32,12 +32,13 @@ export const MobileMenu: React.FC = () => {
                 nativeButton={false}
                 render={
                   <Button
-                    className="justify-start"
+                    className="group/menu-link justify-start"
                     render={<Link href={item.href} />}
                     variant="ghost"
                   />
                 }
               >
+                <item.icon className="size-4 transition-colors group-hover/menu-link:text-foreground-high-contrast" />
                 {item.title}
               </DrawerClose>
             ))}

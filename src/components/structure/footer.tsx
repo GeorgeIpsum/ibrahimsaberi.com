@@ -5,6 +5,7 @@ import type React from "react";
 import { Separator } from "@/components/atoms/separator";
 import { ThemeButton } from "@/theme";
 import { LinkedIn } from "../icons/linkedin";
+import { type NavItem, navItems } from "../navigation/nav-items";
 
 export const Footer: React.FC = () => {
   return (
@@ -13,12 +14,17 @@ export const Footer: React.FC = () => {
       <div className="flex w-full items-center gap-4 px-2 py-4 text-muted-foreground text-sm transition-colors md:px-0">
         <div className="flex flex-1 items-center gap-4">
           <ThemeButton side="top" align="start" />
-          <Link href="/about" className="hover:text-primary">
-            about
-          </Link>
-          <Link href="/contact" className="hover:text-primary">
-            contact
-          </Link>
+          {navItems
+            .filter((item) => (item as NavItem).footerItem)
+            .map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="hover:text-primary"
+              >
+                {item.title}
+              </Link>
+            ))}
         </div>
         <div className="grid grid-cols-3 grid-rows-1 items-center justify-center gap-6 sm:gap-4">
           <a href="/feed.xml" className="hover:text-primary">
