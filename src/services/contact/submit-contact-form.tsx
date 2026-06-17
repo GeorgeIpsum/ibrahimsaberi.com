@@ -23,7 +23,11 @@ const randomTimeRange = () => clampedNumber(1800, 3600);
 const sleepRandom = () => sleep(randomTimeRange());
 
 const TOAST_ID = "contact-form-subtask";
-const SUBTASK_SUCCESS_CHANCE = 0.505;
+// IM GOING BACK TO
+// const SUBTASK_SUCCESS_CHANCE = 0.505;
+// unfortunately 0.505^3 is only about a ~12% chance of success, which is a little too low for my liking. 0.6^3 is ~22%, which is a bit more reasonable while still feeling suitably punishi- I mean challenging for the user
+// making this random array access changes the success bounds to be between 0.5^6 (~1.6%) and 0.7^3 (~34%) which is sufficiently ev- good enough
+const SUBTASK_SUCCESS_CHANCE = [0.5, 0.6, 0.7];
 const MIN_SUBTASKS = 3;
 const MAX_SUBTASKS = 6;
 
@@ -149,7 +153,7 @@ const resolveSubtask = async (data: TaskData): Promise<TaskData> => {
   const { excludedResultMessages, finished, results } = data;
   if (finished) return data;
 
-  const success = randomLessThan(SUBTASK_SUCCESS_CHANCE);
+  const success = randomLessThan(randomArrayMember(SUBTASK_SUCCESS_CHANCE));
   const currentSubtask = results[results.length - 1].subtask;
   const resultMessage: ErrorMessage | SuccessMessage = randomArrayMember(
     success ? successMessages : errorMessages,
