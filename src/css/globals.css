@@ -128,12 +128,12 @@
     85% {
       transform: translateY(var(--ebb, -6%)) scaleY(0.92);
       filter: hue-rotate(180deg) saturate(120%) brightness(110%)
-        drop-shadow(3px 3px #ff0000aa);
+        var(--wave-shadow-below);
     }
     65% {
       transform: translateY(var(--flow, 4.5%)) scaleY(1.04);
       filter: hue-rotate(-180deg) saturate(150%) brightness(120%)
-        drop-shadow(1px -2px 1px blue);
+        var(--wave-shadow-above);
     }
   }
 
@@ -372,6 +372,15 @@
   --success-foreground: light-dark(oklch(46% 0.12 150), oklch(92% 0.05 150));
   --info: light-dark(oklch(88% 0.24 290), oklch(54% 0.08 290));
   --info-foreground: light-dark(oklch(36% 0.12 290), oklch(92% 0.04 290));
+
+  --wave-shadow-below: light-dark(
+    drop-shadow(3px 2px #ff028066),
+    drop-shadow(3px 3px #ff0000aa)
+  );
+  --wave-shadow-above: light-dark(
+    drop-shadow(1px -1px #f000ff4a),
+    drop-shadow(1px -2px 1px blue)
+  );
 }
 
 :root[data-theme="light"],
