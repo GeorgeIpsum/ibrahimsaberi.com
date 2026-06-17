@@ -12,7 +12,7 @@ const config: NextConfig = {
         permanent: true,
       },
       {
-        source: "/:legacy(rss|rss.xml)",
+        source: "/:legacy(rss|feed|rss.xml)",
         destination: "/feed.xml",
         permanent: true,
       },
@@ -47,6 +47,9 @@ const config: NextConfig = {
         permanent: false,
       },
     ];
+  },
+  async rewrites() {
+    return [];
   },
   images: {
     remotePatterns: [

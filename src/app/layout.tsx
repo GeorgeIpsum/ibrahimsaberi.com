@@ -56,16 +56,14 @@ export const metadata: Metadata = {
   description: "a wave",
   authors: [
     { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
-    { name: "G1N", url: "https://ibrahimsaberi.com/about" },
+    { name: "G1N", url: "https://github.com/GeorgeIpsum" },
   ],
-  archives: "https://ibrahimsaberi.com/basin",
+  archives: "https://ibrahimsaberi.com/basin/archive",
   alternates: {
     types: {
-      "application/rss+xml": [{ url: "/feed.xml", title: "A Whisper — RSS" }],
-      "application/atom+xml": [{ url: "/atom.xml", title: "A Whisper — Atom" }],
-      "application/feed+json": [
-        { url: "/feed.json", title: "A Whisper — JSON Feed" },
-      ],
+      "application/rss+xml": [{ url: "/feed.xml", title: "ripples — RSS" }],
+      "application/atom+xml": [{ url: "/atom.xml", title: "ripples — Atom" }],
+      "application/feed+json": [{ url: "/feed.json", title: "ripples — JSON" }],
     },
   },
 };

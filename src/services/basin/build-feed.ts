@@ -12,10 +12,6 @@ const COPYRIGHT =
 
 type Headers = Awaited<ReturnType<typeof nextHeaders>>;
 
-/**
- * Derive the canonical origin from the incoming request so each feed's
- * self-link matches wherever it's served (localhost / preview / production).
- */
 export function originFromHeaders(h: Headers): string {
   const host = h.get("host") ?? FALLBACK_HOST;
   const proto =
@@ -24,11 +20,6 @@ export function originFromHeaders(h: Headers): string {
   return `${proto}://${host}`;
 }
 
-/**
- * Build a Feed instance populated with every visible basin post. The same
- * instance is then serialized as RSS / Atom / JSON depending on which route
- * is being served.
- */
 export async function buildFeed(origin: string): Promise<Feed> {
   const feed = new Feed({
     title: SITE_TITLE,
@@ -39,7 +30,7 @@ export async function buildFeed(origin: string): Promise<Feed> {
     favicon: `${origin}/favicon.ico`,
     copyright: COPYRIGHT,
     updated: new Date(),
-    generator: "Next.js (feed)",
+    generator: "paper g1n",
     feedLinks: {
       rss: `${origin}/feed.xml`,
       atom: `${origin}/atom.xml`,
@@ -53,6 +44,8 @@ export async function buildFeed(origin: string): Promise<Feed> {
 
   const posts = await listPosts();
   for (const post of posts) {
+    if (post.frontmatter.draft) continue;
+
     const url = `${origin}/basin/${post.slug}`;
     feed.addItem({
       title: post.frontmatter.title,
