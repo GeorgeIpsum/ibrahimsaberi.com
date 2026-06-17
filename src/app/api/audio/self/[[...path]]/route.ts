@@ -10,14 +10,16 @@ const audioIndex: Record<string, string[]> = Object.fromEntries(
     .filter((name) => statSync(join(audioRoot, name)).isDirectory())
     .map((dir) => [
       dir,
-      readdirSync(join(audioRoot, dir)).filter((f) => f.endsWith(".mp3")),
+      readdirSync(join(audioRoot, dir)).filter(
+        (f) => f.endsWith(".mp3") || f.endsWith(".wav"),
+      ),
     ]),
 );
 
 export const GET = async (request: NextRequest) => {
   await connection();
 
-  const parts = request.nextUrl.pathname.split("/audio/")[1]?.split("/");
+  const parts = request.nextUrl.pathname.split("/audio/self/")[1]?.split("/");
   if (!parts?.length) {
     return new Response("u aint slick bub", { status: 400 });
   }
@@ -50,9 +52,18 @@ export const GET = async (request: NextRequest) => {
     },
   });
 
+  const fileExtension = fileName.split(".").pop()?.toLowerCase();
+  const contentTypeMap = {
+    mp3: "audio/mpeg",
+    wav: "audio/wav",
+  };
+  const contentType =
+    contentTypeMap[fileExtension as keyof typeof contentTypeMap] ||
+    "application/octet-stream";
+
   return new NextResponse(stream, {
     headers: {
-      "Content-Type": "audio/mpeg",
+      "Content-Type": contentType,
       "Content-Length": size.toString(),
       "Accept-Ranges": "bytes",
     },
