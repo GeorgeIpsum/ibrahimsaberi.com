@@ -21,6 +21,7 @@ import {
   InputGroupTextarea,
 } from "@/components/atoms/input-group";
 import { cn } from "@/css/lib";
+import { playOnce } from "../audio/play";
 import { type Placeholder, placeholders } from "./placeholders";
 import { SentimentTooltip } from "./sentiment-tooltip";
 import { attemptContactFormSubmission } from "./submit-contact-form";
@@ -109,6 +110,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       console.log("Form submitted successfully");
     } catch (e) {
       if (e instanceof Error && e.message === "ERR_TASK_COMPLETE_UH_OH") {
+        playOnce("/api/audio/self/success");
         // TODO: actually submit something idk
       }
     } finally {
