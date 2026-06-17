@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   Popover,
   PopoverContent,
@@ -13,9 +13,14 @@ import type { NowPlaying } from "./now-playing";
 
 const POLL_INTERVAL_MS = 10_000;
 
-async function fetchNowPlaying(): Promise<LiveNowPlaying | null> {
+async function fetchNowPlaying(
+  noCache = false,
+): Promise<LiveNowPlaying | null> {
   try {
-    const res = await fetch("/api/spotify/now-playing");
+    const res = await fetch(
+      "/api/spotify/now-playing",
+      noCache ? { cache: "no-store" } : undefined,
+    );
     if (!res.ok) return null;
     const { track } = (await res.json()) as { track: NowPlaying | null };
     // Anchor the snapshot to the client clock so the progress bar can
@@ -42,11 +47,22 @@ const SpotifyIndicatorFallback: React.FC = () => {
 export const SpotifyIndicator: React.FC = () => {
   const [nowPlaying, setNowPlaying] = useState<LiveNowPlaying | null>(null);
   const [loaded, setLoaded] = useState(false);
+  const trackEndTimeout = useRef<NodeJS.Timeout | null>(null);
 
-  const refresh = useCallback(async () => {
-    const track = await fetchNowPlaying();
+  const refresh = useCallback(async (noCache = false) => {
+    const track = await fetchNowPlaying(noCache);
     setNowPlaying(track);
     setLoaded(true);
+
+    if (track) {
+      const timeUntilEnd = track.durationMs - track.progressMs;
+      if (trackEndTimeout.current) {
+        clearTimeout(trackEndTimeout.current);
+      }
+      trackEndTimeout.current = setTimeout(() => {
+        refresh(true);
+      }, timeUntilEnd + 50);
+    }
   }, []);
 
   useEffect(() => {
@@ -57,6 +73,9 @@ export const SpotifyIndicator: React.FC = () => {
         refresh();
       } else if (document.visibilityState === "hidden") {
         clearInterval(id);
+        if (trackEndTimeout.current) {
+          clearTimeout(trackEndTimeout.current);
+        }
       }
     };
     document.addEventListener("visibilitychange", handleVisibilityChange);

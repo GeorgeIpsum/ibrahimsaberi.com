@@ -5,24 +5,7 @@ import { PaginationControls } from "@/services/basin/components/pagination-contr
 import { PostListItem } from "@/services/basin/components/post-list-item";
 import { countPosts, listPosts } from "@/services/basin/load-post";
 import { makePageInfo, POSTS_PER_PAGE } from "@/services/basin/pagination";
-
-const ASCII_ART = `                                                                                ░░                  
-                                                                                ░░                  
-                                                                              ░░  ░░                
-                                                                                                    
-                                                                                              ░░    
-                                                          ░░        ░░▒▒░░  ░░          ░░░░░░░░░░░░
-                                                      ░░░░░░  ░░░░░░░░░░░░░░      ░░  ░░░░░░░░░░░░░░
-░░                  ░░                          ░░  ░░░░    ▒▒░░░░░░░░░░      ░░░░░░░░░░▒▒▒▒░░░░░░░░
-░░░░                      ░░  ░░░░░░░░░░      ░░░░    ░░░░▒▒░░░░░░░░            ░░░░░░    ░░░░░░░░░░
-▒▒░░▒▒░░░░░░░░░░░░░░            ░░░░░░  ░░          ░░▓▓░░                            ░░▒▒  ▒▒  ░░░░
-▓▓▒▒░░▒▒▒▒░░    ░░░░░░░░░░░░▒▒░░          ░░  ░░  ░░▓▓                                              
-      ░░▒▒▒▒░░░░      ▒▒    ░░  ░░░░░░░░░░░░░░░░░░▒▒                                                
-            ▓▓▓▓▒▒░░    ░░░░▒▒▒▒░░░░░░░░░░░░▒▒▒▒                                                    
-              ▒▒██▓▓░░░░░░░░░░░░░░▒▒░░░░▒▒▒▒                                                        
-                  ░░▓▓▒▒▒▒▒▒░░░░░░▒▒▒▒░░                                                            
-                      ▒▒▒▒▒▒▒▒▓▓░░▒▒░░                                                              
-                            ░░                                                                      `;
+import { ASCII_WAVE } from "@/utils/ascii";
 
 export default async function BasinIndex() {
   const [posts, total] = await Promise.all([
@@ -37,8 +20,10 @@ export default async function BasinIndex() {
         containerClassName="group flex w-auto items-center gap-2"
         title="forming waves"
         art={{
-          ascii: ASCII_ART,
-          at: { x: 0, y: 1 },
+          ascii: ASCII_WAVE,
+          anchor: "top-left",
+          offset: { x: 0, y: -3 },
+          opacity: { start: 1, end: 0.1, direction: "left-to-right" },
         }}
       >
         ripples

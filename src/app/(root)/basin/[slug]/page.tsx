@@ -7,8 +7,8 @@ import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import {
   AUTHOR_TIMEZONE,
   listPosts,
-  loadPost,
-  loadPostMeta,
+  loadDrop,
+  loadDropMeta,
 } from "@/services/basin/load-post";
 import { BasinEntranceScript } from "./basin-entrance-script";
 
@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const meta = await loadPostMeta(slug);
+  const meta = await loadDropMeta(slug);
   if (!meta) notFound();
   return {
     title: meta.frontmatter.title,
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // The MDX import is the slow await — isolated behind Suspense so the header
 // renders from cached metadata immediately, before the body resolves.
 async function PostBody({ slug }: { slug: string }) {
-  const { Content, frontmatter } = await loadPost(slug);
+  const { Content, frontmatter } = await loadDrop(slug);
   return (
     <div className="entrance-fade-up prose max-w-none">
       {frontmatter.tags?.includes("migrated") && (
@@ -58,7 +58,7 @@ async function PostBody({ slug }: { slug: string }) {
 
 export default async function BasinPostPage({ params }: Props) {
   const { slug } = await params;
-  const meta = await loadPostMeta(slug);
+  const meta = await loadDropMeta(slug);
   if (!meta) notFound();
   const { frontmatter } = meta;
 
@@ -66,7 +66,7 @@ export default async function BasinPostPage({ params }: Props) {
     <div className="basin-entrance" suppressHydrationWarning>
       <BasinEntranceScript />
       <header className="mb-8 border-border border-b pb-6">
-        <h1 className="water-title font-heading text-4xl leading-tight tracking-tight">
+        <h1 className="water-title text-4xl leading-tight tracking-tight">
           <span>{frontmatter.title}</span>
           <span className="water-title-fill" aria-hidden="true">
             {frontmatter.title}

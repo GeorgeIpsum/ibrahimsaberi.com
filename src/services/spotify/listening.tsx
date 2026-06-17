@@ -105,7 +105,10 @@ export const Listening: React.FC<{ nowPlaying: LiveNowPlaying | null }> = ({
           )}
           <div className="flex w-54 flex-col gap-1 overflow-hidden leading-none">
             <div className="line-clamp-1 flex w-full items-center justify-between gap-2">
-              <div title={nowPlaying.title} className="flex-1">
+              <div
+                title={nowPlaying.title}
+                className="flex-1 font-medium text-sm"
+              >
                 {nowPlaying.title}
               </div>
 

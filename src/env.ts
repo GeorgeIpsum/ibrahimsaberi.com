@@ -10,6 +10,7 @@ export const env = createEnv({
     REDIS_KV_REST_API_URL: type("string > 0"),
     OPENWEATHERMAP_API_KEY: type("string | undefined"),
     LE_PLATFORM_API_KEY: type("string | undefined"),
+    CLOUDFLARE_VOICE_PUBLIC_URL: type("string | undefined"),
   },
   client: {},
   runtimeEnv: {
@@ -20,6 +21,7 @@ export const env = createEnv({
     REDIS_KV_REST_API_URL: process.env.REDIS_KV_REST_API_URL,
     OPENWEATHERMAP_API_KEY: process.env.OPENWEATHERMAP_API_KEY,
     LE_PLATFORM_API_KEY: process.env.LE_PLATFORM_API_KEY,
+    CLOUDFLARE_VOICE_PUBLIC_URL: process.env.CLOUDFLARE_VOICE_PUBLIC_URL,
   },
   emptyStringAsUndefined: true,
 });

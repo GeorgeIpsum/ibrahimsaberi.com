@@ -57,12 +57,18 @@ const config: NextConfig = {
   outputFileTracingIncludes: {
     "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
     "/api/audio/:path*": ["./public/audio/**/*"],
+    "/api/voice-responses": ["./src/app/api/voice-responses/meta/**/*.json"],
   },
   outputFileTracingExcludes: {
     "/api/audio/:path*": [
       "./package.json", // ← the file actually causing ERR_REQUIRE_ESM
       "./next.config.ts",
       "./packages/**", // local workspace packages NFT pulled in
+    ],
+    "/api/voice-responses": [
+      "./package.json",
+      "./next.config.ts",
+      "./packages/**",
     ],
   },
   poweredByHeader: false,
