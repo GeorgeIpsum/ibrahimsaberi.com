@@ -4,7 +4,7 @@ import {
   selectVoiceline,
   toHeroSlug,
   type Voiceline,
-} from "../src/app/api/voice-responses/select";
+} from "../src/app/api/audio/voice-responses/select";
 
 const line = (
   slug: string,

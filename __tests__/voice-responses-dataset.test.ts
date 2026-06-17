@@ -1,8 +1,8 @@
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { loadDataset } from "../src/app/api/voice-responses/dataset";
-import { selectVoiceline } from "../src/app/api/voice-responses/select";
+import { loadDataset } from "../src/app/api/audio/voice-responses/dataset";
+import { selectVoiceline } from "../src/app/api/audio/voice-responses/select";
 
 const metaDir = join(
   import.meta.dirname,
@@ -10,6 +10,7 @@ const metaDir = join(
   "src",
   "app",
   "api",
+  "audio",
   "voice-responses",
   "meta",
 );

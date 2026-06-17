@@ -69,7 +69,7 @@ const initialSubmit = async () => {
 
   await Promise.all([
     sleep(randomTimeRange() / 2),
-    playOnce("/api/audio/error"),
+    playOnce("/api/audio/self/error"),
   ]);
 
   const id2 = "initial-submit-fallback";
@@ -249,7 +249,7 @@ const subtaskPipe = (numChosenTasks: number) =>
 // an "attempt"
 export const attemptContactFormSubmission = async () => {
   const excludedSubtasks: Subtask[] = [];
-  const audio = createAudio("/api/audio/elevator", {
+  const audio = createAudio("/api/audio/self/elevator", {
     autoplay: false,
     loop: true,
     volume: 0,

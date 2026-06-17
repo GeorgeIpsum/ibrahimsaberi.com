@@ -9,7 +9,7 @@
   "files": {
     // Scraper-generated voiceline metadata — keep biome from reformatting it so
     // committed files always match `scripts/scrape-dota2-voicelines.mjs` output.
-    "includes": ["**", "!src/app/api/voice-responses/meta"]
+    "includes": ["**", "!src/app/api/audio/voice-responses/meta"]
   },
   "formatter": {
     "enabled": true,
