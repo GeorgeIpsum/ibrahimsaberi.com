@@ -62,9 +62,6 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
       options: ["system", "normal", "high"],
       onChange: (value) => setContrast(value as ContrastValue),
     },
-    ...Object.fromEntries(
-      new Array(20).fill(0).map((_, i) => [`dummy${i}`, { value: "asdf" }]),
-    ),
   });
 
   return (
