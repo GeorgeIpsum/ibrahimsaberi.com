@@ -1,0 +1,2584 @@
+{
+  "hero": "Bloodseeker",
+  "slug": "bloodseeker",
+  "source": "https://liquipedia.net/dota2/Bloodseeker/Responses",
+  "scrapedAt": "2026-06-17T13:42:17.490Z",
+  "count": 255,
+  "voicelines": [
+    {
+      "file": "Vo_bloodseeker_blod_spawn_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_01.mp3",
+      "transcript": "Bloodseeker.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_bloodseeker_blod_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_02.mp3",
+      "transcript": "I am Bloodseeker.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_bloodseeker_blod_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_03.mp3",
+      "transcript": "The search for blood begins.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bloodseeker_blod_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_04.mp3",
+      "transcript": "I will claim first blood.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_bloodseeker_blod_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_05.mp3",
+      "transcript": "My blade sings for blood.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_bloodseeker_blod_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_06.mp3",
+      "transcript": "I am called Bloodseeker.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_bloodseeker_blod_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_07.mp3",
+      "transcript": "For the Flayed Twins, I seek blood.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bloodseeker_blod_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_spawn_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_spawn_08.mp3",
+      "transcript": "I smell blood.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_bloodseeker_blod_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_03.mp3",
+      "transcript": "Out for blood.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_bloodseeker_blod_attack_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_02.mp3",
+      "transcript": "Let the seas run red.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bloodseeker_blod_rival_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_02.mp3",
+      "transcript": "Blood calls for blood.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_bloodseeker_blod_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_04.mp3",
+      "transcript": "Your blood is mine.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_bloodseeker_blod_attack_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_06.mp3",
+      "transcript": "Neuuuuuhhh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bloodseeker_blod_anger_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_inthebag_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_bloodseeker_blod_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_begin_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_begin_01.mp3",
+      "transcript": "Over the field of battle, the smell of blood rises like a promise.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bloodseeker_blod_begin_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_begin_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_begin_02.mp3",
+      "transcript": "I love the smell of serum in the morning.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_bloodseeker_blod_begin_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_bloodseeker_blod_move_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_02.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_bloodseeker_blod_move_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_03.mp3",
+      "transcript": "As you wish.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bloodseeker_blod_move_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_05.mp3",
+      "transcript": "So it shall be.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bloodseeker_blod_move_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_06.mp3",
+      "transcript": "Enough hide and seek.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bloodseeker_blod_move_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_07.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_bloodseeker_blod_move_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_10.mp3",
+      "transcript": "The search continues.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_bloodseeker_blod_move_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_11.mp3",
+      "transcript": "By the Flayed Ones.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bloodseeker_blod_move_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_12.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_12.mp3",
+      "transcript": "As the twins direct.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_bloodseeker_blod_move_12.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_13.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_13.mp3",
+      "transcript": "Flayed Twins guide me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_bloodseeker_blod_move_13.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_acknow_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_acknow_01.mp3",
+      "transcript": "Hmmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_bloodseeker_blod_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_acknow_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_acknow_02.mp3",
+      "transcript": "Huuhrr.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_bloodseeker_blod_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_acknow_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_acknow_03.mp3",
+      "transcript": "Raaarrr.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_bloodseeker_blod_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_01.mp3",
+      "transcript": "I strike.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bloodseeker_blod_attack_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_02.mp3",
+      "transcript": "Blood feud.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bloodseeker_blod_attack_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_05.mp3",
+      "transcript": "I will drain you dry.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_bloodseeker_blod_attack_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_06.mp3",
+      "transcript": "For the raw twins!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_bloodseeker_blod_attack_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_07.mp3",
+      "transcript": "For the Flayed ones.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_bloodseeker_blod_attack_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_08.mp3",
+      "transcript": "Blood calls to blood.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bloodseeker_blod_attack_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_09.mp3",
+      "transcript": "Open your veins.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bloodseeker_blod_attack_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_attack_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_attack_10.mp3",
+      "transcript": "Hemorrhage!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_bloodseeker_blod_attack_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_cast_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_cast_01.mp3",
+      "transcript": "Blood calls!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bloodseeker_blod_cast_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_cast_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_cast_02.mp3",
+      "transcript": "Such blood!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_bloodseeker_blod_cast_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_cast_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_cast_03.mp3",
+      "transcript": "Huh-he-he.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_bloodseeker_blod_cast_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodrage_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodrage_01.mp3",
+      "transcript": "Bloodrage!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_bloodseeker_blod_ability_blodrage_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodrage_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodrage_02.mp3",
+      "transcript": "Like the taste of blood?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bloodseeker_blod_ability_blodrage_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodrage_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodrage_03.mp3",
+      "transcript": "Choke!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_bloodseeker_blod_ability_blodrage_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_move_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_move_04.mp3",
+      "transcript": "I smell blood.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_bloodseeker_blod_move_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_thirst_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_thirst_01.mp3",
+      "transcript": "I thirst!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_bloodseeker_blod_ability_thirst_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_thirst_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_thirst_02.mp3",
+      "transcript": "I smell blood.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bloodseeker_blod_ability_thirst_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_thirst_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_thirst_03.mp3",
+      "transcript": "Blood is in the air.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_bloodseeker_blod_ability_thirst_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_thirst_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_thirst_04.mp3",
+      "transcript": "Heyaaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_bloodseeker_blod_ability_thirst_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_rupture_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_rupture_01.mp3",
+      "transcript": "Why are you not running?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_bloodseeker_blod_ability_rupture_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_rupture_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_rupture_02.mp3",
+      "transcript": "Go ahead...run.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bloodseeker_blod_ability_rupture_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_rupture_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_rupture_03.mp3",
+      "transcript": "Most fools run!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_bloodseeker_blod_ability_rupture_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_rupture_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_rupture_04.mp3",
+      "transcript": "Lie down...have a cookie.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_bloodseeker_blod_ability_rupture_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodbath_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodbath_01.mp3",
+      "transcript": "Heh-ha-huh-huh-ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_bloodseeker_blod_ability_blodbath_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodbath_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodbath_03.mp3",
+      "transcript": "Your power is mine.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_bloodseeker_blod_ability_blodbath_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodbath_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodbath_04.mp3",
+      "transcript": "I bathe in your blood.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_bloodseeker_blod_ability_blodbath_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_01.mp3",
+      "transcript": "I grow stronger!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_bloodseeker_blod_level_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_02.mp3",
+      "transcript": "I gain strength.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bloodseeker_blod_level_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_03.mp3",
+      "transcript": "My blood runs strong.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_bloodseeker_blod_level_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_04.mp3",
+      "transcript": "My strength grows.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bloodseeker_blod_level_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_05.mp3",
+      "transcript": "The Flayed Ones send me strength.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_bloodseeker_blod_level_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_06.mp3",
+      "transcript": "He-ha-ha-haaah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bloodseeker_blod_level_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_level_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_level_07.mp3",
+      "transcript": "He-ha-ha-haaah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_bloodseeker_blod_level_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_blodbath_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_blodbath_02.mp3",
+      "transcript": "Bloodbath!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_bloodseeker_blod_ability_blodbath_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_01.mp3",
+      "transcript": "Your blood is mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_bloodseeker_blod_kill_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_02.mp3",
+      "transcript": "Bleeeeed!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_bloodseeker_blod_kill_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_03.mp3",
+      "transcript": "Bleed out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_bloodseeker_blod_kill_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_04.mp3",
+      "transcript": "You feed the Flayed Twins.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_bloodseeker_blod_kill_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_05.mp3",
+      "transcript": "The Flayed Ones drink your blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bloodseeker_blod_kill_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_06.mp3",
+      "transcript": "Your veins run empty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_bloodseeker_blod_kill_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_07.mp3",
+      "transcript": "Bleed your last.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bloodseeker_blod_kill_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_08.mp3",
+      "transcript": "I drain you dry.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_bloodseeker_blod_kill_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_09.mp3",
+      "transcript": "I claim your blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_bloodseeker_blod_kill_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_10.mp3",
+      "transcript": "So much blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_bloodseeker_blod_kill_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_11.mp3",
+      "transcript": "He-ha-ha, blood for the twins!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_bloodseeker_blod_kill_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_kill_12.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_kill_12.mp3",
+      "transcript": "Heh-ha-ha-ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_bloodseeker_blod_kill_12.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_01.mp3",
+      "transcript": "Hmm-heh-huh",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_bloodseeker_blod_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_02.mp3",
+      "transcript": "Hmm-heh-heh-heh-heh-ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bloodseeker_blod_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_03.mp3",
+      "transcript": "Huh-heh-heh-heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_bloodseeker_blod_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_04.mp3",
+      "transcript": "Heh-heh-heh-heh-heh-heh-heh!",
+      "categories": [
+        "Killing an enemy",
+        "Activating runes",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bloodseeker_blod_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_05.mp3",
+      "transcript": "Huh-huh-huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_bloodseeker_blod_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_06.mp3",
+      "transcript": "Heh-heh-heh-huh-huh-huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bloodseeker_blod_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_07.mp3",
+      "transcript": "He-ha-hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_bloodseeker_blod_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_08.mp3",
+      "transcript": "Heh-heh-hehhh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bloodseeker_blod_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_laugh_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_laugh_09.mp3",
+      "transcript": "Hah-hah-hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_bloodseeker_blod_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_killmorph_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_killmorph_01.mp3",
+      "transcript": "Heeeh, blood in the water.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_bloodseeker_blod_killmorph_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_01.mp3",
+      "transcript": "Heh,Your blood was a prisoner begging me to set it free.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_bloodseeker_blod_rival_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_03.mp3",
+      "transcript": "I'll spill from you an ocean of blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_bloodseeker_blod_rival_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_04.mp3",
+      "transcript": "This blood must be one hundred eighty proof!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_bloodseeker_blod_rival_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_05.mp3",
+      "transcript": "The Twins shall grow drunk on this one's blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bloodseeker_blod_rival_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_06.mp3",
+      "transcript": "To drink from this one's blood is to risk blindness.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bloodseeker_blod_rival_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_07.mp3",
+      "transcript": "The Twins shall drink your blood and eat the worm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bloodseeker_blod_rival_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_17.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_17.mp3",
+      "transcript": "I think that one had some blood in his alcohol stream.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_bloodseeker_blod_rival_17.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_08.mp3",
+      "transcript": "Invoker's blood has a sour taste indeed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_bloodseeker_blod_rival_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_09.mp3",
+      "transcript": "Drink from Invoker and the Flayed Ones pucker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bloodseeker_blod_rival_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_10.mp3",
+      "transcript": "Hung by your hooves, your blood shall fill the sacred gutters.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_bloodseeker_blod_rival_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_11.mp3",
+      "transcript": "My gods demand your god's sacrifice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_bloodseeker_blod_rival_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_12.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_12.mp3",
+      "transcript": "The god who drinks no blood deserves no worshipers.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_bloodseeker_blod_rival_12.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_13.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_13.mp3",
+      "transcript": "Ah, what bloodless Wisp is this?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bloodseeker_blod_rival_13.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_14.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_14.mp3",
+      "transcript": "Ah, there is no blood in this.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_bloodseeker_blod_rival_14.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_15.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_15.mp3",
+      "transcript": "My blades can scarcely bleed this one, but still the essence flows.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_bloodseeker_blod_rival_15.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rival_16.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rival_16.mp3",
+      "transcript": "Even rancid blood pleases the Twins.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_bloodseeker_blod_rival_16.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_first_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_first_01.mp3",
+      "transcript": "First Blood! The Twins shall not thirst for long!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_bloodseeker_blod_first_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ally_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ally_01.mp3",
+      "transcript": "Ah, Batrider, we shall boil their blood.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_bloodseeker_blod_ally_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ally_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ally_02.mp3",
+      "transcript": "The Twins are pleased with your work, Pudge.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_bloodseeker_blod_ally_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ally_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ally_03.mp3",
+      "transcript": "Ah, you have a reputation for bloodlust, Luna.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_bloodseeker_blod_ally_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ally_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ally_04.mp3",
+      "transcript": "Soak your horn in their blood, Magnataur. The Twins demand it.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_bloodseeker_blod_ally_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ally_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ally_05.mp3",
+      "transcript": "We will spatter the wall, Dark Seer.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_bloodseeker_blod_ally_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_bloodseeker_blod_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_02.mp3",
+      "transcript": "Blood money.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_bloodseeker_blod_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_03.mp3",
+      "transcript": "Blood-gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_bloodseeker_blod_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_04.mp3",
+      "transcript": "What's yours is mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_bloodseeker_blod_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_05.mp3",
+      "transcript": "Gold!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bloodseeker_blod_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_06.mp3",
+      "transcript": "Blood to let.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_bloodseeker_blod_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_07.mp3",
+      "transcript": "For the Twins!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_bloodseeker_blod_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_08.mp3",
+      "transcript": "Heh-huh-huh-huhh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_bloodseeker_blod_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lasthit_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lasthit_09.mp3",
+      "transcript": "Hmuhhhhhh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_bloodseeker_blod_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_bloodseeker_blod_deny_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_02.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_bloodseeker_blod_deny_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_03.mp3",
+      "transcript": "Em-meh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bloodseeker_blod_deny_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_04.mp3",
+      "transcript": "You get nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_bloodseeker_blod_deny_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_05.mp3",
+      "transcript": "Oh, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_bloodseeker_blod_deny_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_06.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_bloodseeker_blod_deny_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_07.mp3",
+      "transcript": "I deny you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bloodseeker_blod_deny_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_08.mp3",
+      "transcript": "None for you!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bloodseeker_blod_deny_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_09.mp3",
+      "transcript": "No blood for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bloodseeker_blod_deny_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_deny_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_deny_10.mp3",
+      "transcript": "Huh-huhhh, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_bloodseeker_blod_deny_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_purch_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_purch_01.mp3",
+      "transcript": "Expensive, but worth the price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_bloodseeker_blod_purch_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_purch_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_purch_02.mp3",
+      "transcript": "Bled my coin pouch dry.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_bloodseeker_blod_purch_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_purch_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_purch_03.mp3",
+      "transcript": "Blood money well spent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_bloodseeker_blod_purch_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_purch_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_purch_04.mp3",
+      "transcript": "I'm only buying this because it has blood in it.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_bloodseeker_blod_purch_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_purch_scepter_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_purch_scepter_01.mp3",
+      "transcript": "Ah, yes, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_bloodseeker_blod_purch_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_sceptor_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_sceptor_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_bloodseeker_blod_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_sceptor_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_sceptor_02.mp3",
+      "transcript": "This scepter will come as a shock to my enemies.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_bloodseeker_blod_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_blink_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_blink_01.mp3",
+      "transcript": "Hah-hah-hah-huh.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_bloodseeker_blod_blink_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_blink_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_blink_02.mp3",
+      "transcript": "Yes, this dagger shall be drenched in blood.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_bloodseeker_blod_blink_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_blink_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_blink_03.mp3",
+      "transcript": "Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_bloodseeker_blod_blink_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_01.mp3",
+      "transcript": "Radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_bloodseeker_blod_items_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_02.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_bloodseeker_blod_items_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_03.mp3",
+      "transcript": "Blooderfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_bloodseeker_blod_items_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_04.mp3",
+      "transcript": "Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_bloodseeker_blod_items_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_05.mp3",
+      "transcript": "Satanic!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_bloodseeker_blod_items_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_06.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bloodseeker_blod_items_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_07.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_bloodseeker_blod_items_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_13.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_13.mp3",
+      "transcript": "Blood King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bloodseeker_blod_items_13.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_08.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_bloodseeker_blod_items_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_09.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_bloodseeker_blod_items_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_10.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_bloodseeker_blod_items_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_11.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_bloodseeker_blod_items_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_items_12.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_items_12.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_bloodseeker_blod_items_12.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_immort_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_immort_01.mp3",
+      "transcript": "Heh-huh-huh-huh-huh-huh.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_bloodseeker_blod_immort_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_immort_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_immort_02.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_bloodseeker_blod_immort_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_immort_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_immort_03.mp3",
+      "transcript": "I cheat red death.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_bloodseeker_blod_immort_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_01.mp3",
+      "transcript": "I fail the Twins.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bloodseeker_blod_death_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_02.mp3",
+      "transcript": "You have...blood on your hands.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_bloodseeker_blod_death_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_03.mp3",
+      "transcript": "The Flayed Ones...mourn me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bloodseeker_blod_death_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_04.mp3",
+      "transcript": "My veins...run...dry.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_bloodseeker_blod_death_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_05.mp3",
+      "transcript": "I bleed my last.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bloodseeker_blod_death_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_06.mp3",
+      "transcript": "My blood runs cold.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bloodseeker_blod_death_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_07.mp3",
+      "transcript": "My hunt ends here.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_bloodseeker_blod_death_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_08.mp3",
+      "transcript": "I seek no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_bloodseeker_blod_death_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_09.mp3",
+      "transcript": "Flayed...alive.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_bloodseeker_blod_death_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_10.mp3",
+      "transcript": "My blood on your hands.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_bloodseeker_blod_death_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_11.mp3",
+      "transcript": "Bloodless.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_bloodseeker_blod_death_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_12.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_12.mp3",
+      "transcript": "Sangre...sagrada.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bloodseeker_blod_death_12.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_death_13.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_death_13.mp3",
+      "transcript": "Heuhh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bloodseeker_blod_death_13.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_01.mp3",
+      "transcript": "New Blood.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bloodseeker_blod_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_03.mp3",
+      "transcript": "I seek anew!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bloodseeker_blod_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_04.mp3",
+      "transcript": "The blood hunt continues.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_bloodseeker_blod_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_05.mp3",
+      "transcript": "My heart beats again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bloodseeker_blod_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_06.mp3",
+      "transcript": "I live to fight another day!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_bloodseeker_blod_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_07.mp3",
+      "transcript": "For the Twins, I am reborn to hunt again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_bloodseeker_blod_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_08.mp3",
+      "transcript": "From blood-shrouded peaks, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_bloodseeker_blod_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_09.mp3",
+      "transcript": "The Flayed Ones send me for blood.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_bloodseeker_blod_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_10.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_10.mp3",
+      "transcript": "Don't be negative...be positive!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_bloodseeker_blod_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_respawn_11.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_respawn_11.mp3",
+      "transcript": "Ah, transfused!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_bloodseeker_blod_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_fastres_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_fastres_01.mp3",
+      "transcript": "Ah, blood calls to blood!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bloodseeker_blod_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_bottle_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_bottle_01.mp3",
+      "transcript": "Bottled for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_bloodseeker_blod_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_bottle_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_bottle_02.mp3",
+      "transcript": "When the time is right.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bloodseeker_blod_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_bottle_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_bottle_03.mp3",
+      "transcript": "Put this aside for now.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_bloodseeker_blod_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_bottle_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_bottle_04.mp3",
+      "transcript": "Broke the blood bank.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_bloodseeker_blod_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_doubdam_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bloodseeker_blod_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_doubdam_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_doubdam_02.mp3",
+      "transcript": "Twice the blood shall I shed.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_bloodseeker_blod_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_haste_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_bloodseeker_blod_haste_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_haste_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_haste_02.mp3",
+      "transcript": "Blood's a runner.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_bloodseeker_blod_haste_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_haste_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_haste_03.mp3",
+      "transcript": "My blood runs quick.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_bloodseeker_blod_haste_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_illus_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bloodseeker_blod_illus_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_illus_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_illus_02.mp3",
+      "transcript": "Blood runs in circles around you!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_bloodseeker_blod_illus_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_invis_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_bloodseeker_blod_invis_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_invis_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_invis_02.mp3",
+      "transcript": "Nothing shall the foe see.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_bloodseeker_blod_invis_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_invis_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_invis_03.mp3",
+      "transcript": "The silent killer.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_bloodseeker_blod_invis_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_regen_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bloodseeker_blod_regen_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_regen_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_regen_02.mp3",
+      "transcript": "I am renewed in a font of blood!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_bloodseeker_blod_regen_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_bloodseeker_blod_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bloodseeker_blod_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_bloodseeker_blod_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_bloodseeker_blod_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_bloodseeker_blod_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bloodseeker_blod_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_bloodseeker_blod_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_bloodseeker_blod_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_notyet_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_bloodseeker_blod_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_bloodseeker_blod_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_bloodseeker_blod_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_bloodseeker_blod_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_bloodseeker_blod_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bloodseeker_blod_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bloodseeker_blod_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_07.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_bloodseeker_blod_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_08.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_bloodseeker_blod_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_nomana_09.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bloodseeker_blod_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_01.mp3",
+      "transcript": "Ohhhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_bloodseeker_blod_pain_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_02.mp3",
+      "transcript": "Ehhheh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_bloodseeker_blod_pain_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_03.mp3",
+      "transcript": "Ahhhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_bloodseeker_blod_pain_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_04.mp3",
+      "transcript": "dohhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bloodseeker_blod_pain_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_05.mp3",
+      "transcript": "dohhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bloodseeker_blod_pain_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_pain_06.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_pain_06.mp3",
+      "transcript": "uhhoh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bloodseeker_blod_pain_06.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_underattack_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bloodseeker_blod_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rare_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rare_01.mp3",
+      "transcript": "The vital liquor of each vein I open flows to the Flayed Twins.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_bloodseeker_blod_rare_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rare_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rare_02.mp3",
+      "transcript": "You should be honored to bleed so that the Flayed ones may live.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_bloodseeker_blod_rare_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rare_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rare_03.mp3",
+      "transcript": "By blood oath, I am bound to the Flayed Ones.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_bloodseeker_blod_rare_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_rare_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_rare_04.mp3",
+      "transcript": "I drift on a river of blood.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bloodseeker_blod_rare_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_missing_lane_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_missing_lane_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_bloodseeker_blod_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_missing_lane_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_missing_lane_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bloodseeker_blod_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_missing_lane_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_missing_lane_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_bloodseeker_blod_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_thanks_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_thanks_01.mp3",
+      "transcript": "Deepest thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bloodseeker_blod_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_thanks_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_thanks_02.mp3",
+      "transcript": "The Flayed Ones keep you safe.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bloodseeker_blod_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_win_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_bloodseeker_blod_win_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_win_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_bloodseeker_blod_win_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_win_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_win_03.mp3",
+      "transcript": "The Flayed Ones veins run full!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bloodseeker_blod_win_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lose_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lose_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_bloodseeker_blod_lose_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lose_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_bloodseeker_blod_lose_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_lose_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_lose_04.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bloodseeker_blod_lose_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_drop_common_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_drop_common_01.mp3",
+      "transcript": "My drive for blood has found a donor!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_bloodseeker_blod_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_drop_medium_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_drop_medium_01.mp3",
+      "transcript": "Yes, a treasure as fine as the rarest blood type!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bloodseeker_blod_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_drop_rare_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_drop_rare_01.mp3",
+      "transcript": "I'm seeing red...and it's amazing!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_bloodseeker_blod_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_failure_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_failure_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_bloodseeker_blod_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_ability_failure_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_ability_failure_02.mp3",
+      "transcript": "Hrrrrrah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bloodseeker_blod_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_shitwiz_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_bloodseeker_blod_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_crumwiz_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_bloodseeker_blod_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_01.mp3",
+      "transcript": "Ehhhhrrehhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_bloodseeker_blod_anger_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_02.mp3",
+      "transcript": "Ehhhrrrrrhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_bloodseeker_blod_anger_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_03.mp3",
+      "transcript": "Ehhhye.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_bloodseeker_blod_anger_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_04.mp3",
+      "transcript": "Ehhhhhhhrrhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bloodseeker_blod_anger_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_anger_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_anger_05.mp3",
+      "transcript": "RaeauuuuH",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_bloodseeker_blod_anger_05.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_happy_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_happy_01.mp3",
+      "transcript": "Eh-ha-ha-ha-ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_bloodseeker_blod_happy_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_happy_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_happy_02.mp3",
+      "transcript": "Yeeeeessss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_bloodseeker_blod_happy_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_growl_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_growl_01.mp3",
+      "transcript": "Snarahahuhuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_bloodseeker_blod_growl_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_growl_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_growl_02.mp3",
+      "transcript": "Heruhuhuhuhuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_bloodseeker_blod_growl_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_growl_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_growl_03.mp3",
+      "transcript": "Hehuhhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_bloodseeker_blod_growl_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_growl_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_growl_04.mp3",
+      "transcript": "Grruuhhhlheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bloodseeker_blod_growl_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_breathing_01.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_breathing_01.mp3",
+      "transcript": "Huheh-huh-eh-huh-eh-heh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bloodseeker_blod_breathing_01.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_breathing_02.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_breathing_02.mp3",
+      "transcript": "Huheh-huh-eh-huh-eh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bloodseeker_blod_breathing_02.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_breathing_03.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_breathing_03.mp3",
+      "transcript": "Huheh-huh-eh-huh-eh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_bloodseeker_blod_breathing_03.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_breathing_04.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_breathing_04.mp3",
+      "transcript": "Huheh-huh-eh-huh-eh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bloodseeker_blod_breathing_04.mp3"
+    },
+    {
+      "file": "Vo_bloodseeker_blod_breathing_05.mp3",
+      "key": "dota2/bloodseeker/Vo_bloodseeker_blod_breathing_05.mp3",
+      "transcript": "He-huh-he-huh-he-huh-he-huh-he-huh-he-huh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bloodseeker_blod_breathing_05.mp3"
+    }
+  ]
+}

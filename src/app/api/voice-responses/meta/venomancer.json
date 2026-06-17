@@ -1,0 +1,2455 @@
+{
+  "hero": "Venomancer",
+  "slug": "venomancer",
+  "source": "https://liquipedia.net/dota2/Venomancer/Responses",
+  "scrapedAt": "2026-06-17T15:15:21.908Z",
+  "count": 242,
+  "voicelines": [
+    {
+      "file": "Vo_venomancer_venm_spawn_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_spawn_01.mp3",
+      "transcript": "Venomancer!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_venomancer_venm_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_spawn_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_spawn_02.mp3",
+      "transcript": "I am Venomancer!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_venomancer_venm_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_spawn_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_spawn_03.mp3",
+      "transcript": "I come — the venomous one.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_venomancer_venm_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_spawn_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_spawn_04.mp3",
+      "transcript": "Dripping venom, I arrive.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_venomancer_venm_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_05.mp3",
+      "transcript": "A touch of venom.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_venomancer_venm_move_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_09.mp3",
+      "transcript": "My venom flows.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_venomancer_venm_move_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_02.mp3",
+      "transcript": "Taste my venom!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_venomancer_venm_attack_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_04.mp3",
+      "transcript": "Deadly to the touch.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_venomancer_venm_attack_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_11.mp3",
+      "transcript": "Ah, sweet toxicity!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_venomancer_venm_attack_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_01.mp3",
+      "transcript": "Concentrated venom.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_venomancer_venm_level_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_04.mp3",
+      "transcript": "Ever more venomous.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_venomancer_venm_level_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_06.mp3",
+      "transcript": "My enemies will taste my venom.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_venomancer_venm_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_01.mp3",
+      "transcript": "Ssssss!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_venomancer_venm_anger_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_inthebag_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_inthebag_01.mp3",
+      "transcript": "In case you're wondering, it's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_venomancer_venm_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_10.mp3",
+      "transcript": "To the fight.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_venomancer_venm_move_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_venomancer_venm_move_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_02.mp3",
+      "transcript": "Ooh ah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_venomancer_venm_move_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_03.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_venomancer_venm_move_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_06.mp3",
+      "transcript": "Agitation.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_venomancer_venm_move_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_07.mp3",
+      "transcript": "Impelled.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_venomancer_venm_move_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_08.mp3",
+      "transcript": "Quick as venom.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_venomancer_venm_move_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_11.mp3",
+      "transcript": "As you say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_venomancer_venm_move_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_12.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_12.mp3",
+      "transcript": "With vim and venom.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_venomancer_venm_move_12.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_13.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_13.mp3",
+      "transcript": "Going.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_venomancer_venm_move_13.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_14.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_14.mp3",
+      "transcript": "Vile advance.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_venomancer_venm_move_14.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_15.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_15.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_venomancer_venm_move_15.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_16.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_16.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_venomancer_venm_move_16.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_17.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_17.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_venomancer_venm_move_17.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_move_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_move_04.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_venomancer_venm_move_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_venomancer_venm_attack_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_03.mp3",
+      "transcript": "Churn!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_venomancer_venm_attack_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_05.mp3",
+      "transcript": "Sweet toxin!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_venomancer_venm_attack_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_06.mp3",
+      "transcript": "Envenomed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_venomancer_venm_attack_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_07.mp3",
+      "transcript": "It's in my nature.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_venomancer_venm_attack_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_08.mp3",
+      "transcript": "Caustic blow.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_venomancer_venm_attack_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_09.mp3",
+      "transcript": "Toxic attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_venomancer_venm_attack_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_attack_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_attack_10.mp3",
+      "transcript": "Ruination!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_venomancer_venm_attack_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_cast_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_cast_01.mp3",
+      "transcript": "Run you down!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_venomancer_venm_cast_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_cast_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_cast_02.mp3",
+      "transcript": "You can't run from the venomous one!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_venomancer_venm_cast_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_01.mp3",
+      "transcript": "My loyal ward.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_venomancer_venm_ability_ward_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_02.mp3",
+      "transcript": "Plague our enemies!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_venomancer_venm_ability_ward_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_03.mp3",
+      "transcript": "Well warded.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_venomancer_venm_ability_ward_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_04.mp3",
+      "transcript": "Watch this spot.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_venomancer_venm_ability_ward_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_05.mp3",
+      "transcript": "A plague on our foes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_venomancer_venm_ability_ward_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_ward_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_ward_06.mp3",
+      "transcript": "Ward them off.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_venomancer_venm_ability_ward_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_01.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_venomancer_venm_ability_nova_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_02.mp3",
+      "transcript": "Vaaaah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_venomancer_venm_ability_nova_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_03.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_venomancer_venm_ability_nova_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_04.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_venomancer_venm_ability_nova_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_05.mp3",
+      "transcript": "Ahhhh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_venomancer_venm_ability_nova_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_06.mp3",
+      "transcript": "Ehhhhhhhhh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_venomancer_venm_ability_nova_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_07.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_venomancer_venm_ability_nova_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_08.mp3",
+      "transcript": "Ss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_venomancer_venm_ability_nova_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_09.mp3",
+      "transcript": "Hiss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_venomancer_venm_ability_nova_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_10.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_venomancer_venm_ability_nova_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_11.mp3",
+      "transcript": "Ss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_venomancer_venm_ability_nova_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_12.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_12.mp3",
+      "transcript": "Ss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_venomancer_venm_ability_nova_12.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_13.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_13.mp3",
+      "transcript": "Heh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_venomancer_venm_ability_nova_13.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_14.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_14.mp3",
+      "transcript": "Huuh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_venomancer_venm_ability_nova_14.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_15.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_15.mp3",
+      "transcript": "Haah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_venomancer_venm_ability_nova_15.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_16.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_16.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_venomancer_venm_ability_nova_16.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_17.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_17.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_venomancer_venm_ability_nova_17.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_18.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_18.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_venomancer_venm_ability_nova_18.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_19.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_19.mp3",
+      "transcript": "Haaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_venomancer_venm_ability_nova_19.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_20.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_20.mp3",
+      "transcript": "Ssssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_venomancer_venm_ability_nova_20.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_nova_21.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_nova_21.mp3",
+      "transcript": "Feel the burn!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_venomancer_venm_ability_nova_21.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_02.mp3",
+      "transcript": "I am envenomed.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_venomancer_venm_level_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_03.mp3",
+      "transcript": "My venom glands engorge.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_venomancer_venm_level_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_05.mp3",
+      "transcript": "Increased potency.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_venomancer_venm_level_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_06.mp3",
+      "transcript": "He he he he he he.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_venomancer_venm_level_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_07.mp3",
+      "transcript": "Ah ha ha ha ha ha ha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_venomancer_venm_level_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_08.mp3",
+      "transcript": "Heh, he he he he he.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_venomancer_venm_level_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_09.mp3",
+      "transcript": "Ah ha ha ha ha ha ha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_venomancer_venm_level_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_10.mp3",
+      "transcript": "Ah ha ha ha ha ha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_venomancer_venm_level_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_level_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_level_11.mp3",
+      "transcript": "Ss ah he ha he he…ah ha ha ha he.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_venomancer_venm_level_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_01.mp3",
+      "transcript": "A victim of venom.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_venomancer_venm_kill_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_02.mp3",
+      "transcript": "Have I tainted the well of our discourse?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_venomancer_venm_kill_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_03.mp3",
+      "transcript": "Nothing touches the heart like my venom.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_venomancer_venm_kill_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_04.mp3",
+      "transcript": "My venom, your veins.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_venomancer_venm_kill_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_05.mp3",
+      "transcript": "Welcome…to your death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_venomancer_venm_kill_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_06.mp3",
+      "transcript": "You were a fool to oppose me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_venomancer_venm_kill_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_07.mp3",
+      "transcript": "No necromancer shall raise what the venomancer puts down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_venomancer_venm_kill_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_08.mp3",
+      "transcript": "Death cures all ills.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_venomancer_venm_kill_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_09.mp3",
+      "transcript": "Your downfall.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_venomancer_venm_kill_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_10.mp3",
+      "transcript": "Death is the only antidote.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_venomancer_venm_kill_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_11.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_venomancer_venm_kill_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_12.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_12.mp3",
+      "transcript": "Oh ho ho ho ho.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_venomancer_venm_kill_12.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_13.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_13.mp3",
+      "transcript": "Ss ah ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_venomancer_venm_kill_13.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_14.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_14.mp3",
+      "transcript": "Uh huh hu hu hu hu huh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_venomancer_venm_kill_14.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_15.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_15.mp3",
+      "transcript": "Eh he he he he ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_venomancer_venm_kill_15.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_kill_16.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_kill_16.mp3",
+      "transcript": "Ooh he ha he ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_venomancer_venm_kill_16.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_01.mp3",
+      "transcript": "Oh he he he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_venomancer_venm_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_02.mp3",
+      "transcript": "Sss eh he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_venomancer_venm_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_03.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_venomancer_venm_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_05.mp3",
+      "transcript": "Ah he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_venomancer_venm_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_06.mp3",
+      "transcript": "He he he he he he he ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_venomancer_venm_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_07.mp3",
+      "transcript": "Ooh ho ho ho ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_venomancer_venm_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_08.mp3",
+      "transcript": "Ah ha he ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_venomancer_venm_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_09.mp3",
+      "transcript": "Eeh he he he hyah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_venomancer_venm_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_10.mp3",
+      "transcript": "Hm mya ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_venomancer_venm_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_11.mp3",
+      "transcript": "Eeh he ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_venomancer_venm_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_12.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_12.mp3",
+      "transcript": "He he he heah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_venomancer_venm_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rival_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rival_01.mp3",
+      "transcript": "Venom beats Viper!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_venomancer_venm_rival_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rival_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rival_02.mp3",
+      "transcript": "Ah, Viper, you might want to invest in some venom.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_venomancer_venm_rival_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rival_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rival_03.mp3",
+      "transcript": "New at this, Necrolyte?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_venomancer_venm_rival_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rival_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rival_04.mp3",
+      "transcript": "More like…Necrolightweight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_venomancer_venm_rival_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_firstblood_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_firstblood_01.mp3",
+      "transcript": "Ah, First Blood. He he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_venomancer_venm_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_firstblood_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_firstblood_02.mp3",
+      "transcript": "First Blood, he he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_venomancer_venm_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_firstblood_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_firstblood_03.mp3",
+      "transcript": "First Blood is the sweetest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_venomancer_venm_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_01.mp3",
+      "transcript": "Venom pays.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_venomancer_venm_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_02.mp3",
+      "transcript": "Gold for me.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_venomancer_venm_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_03.mp3",
+      "transcript": "Coin for my efforts.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_venomancer_venm_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_04.mp3",
+      "transcript": "Payment due.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_venomancer_venm_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_05.mp3",
+      "transcript": "Venom's vengeance.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_venomancer_venm_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lasthit_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lasthit_06.mp3",
+      "transcript": "My enemy succumbs.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_venomancer_venm_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_venomancer_venm_deny_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_venomancer_venm_deny_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_03.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_venomancer_venm_deny_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_04.mp3",
+      "transcript": "No no no no no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_venomancer_venm_deny_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_05.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_venomancer_venm_deny_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_06.mp3",
+      "transcript": "I say no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_venomancer_venm_deny_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_07.mp3",
+      "transcript": "I say no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_venomancer_venm_deny_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_08.mp3",
+      "transcript": "You've earned nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_venomancer_venm_deny_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_09.mp3",
+      "transcript": "Not so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_venomancer_venm_deny_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_10.mp3",
+      "transcript": "Now now.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_venomancer_venm_deny_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_11.mp3",
+      "transcript": "Nothing for your troubles.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_venomancer_venm_deny_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_12.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_12.mp3",
+      "transcript": "He he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_venomancer_venm_deny_12.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_13.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_13.mp3",
+      "transcript": "Uh heee.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_venomancer_venm_deny_13.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_14.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_14.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_venomancer_venm_deny_14.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_15.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_15.mp3",
+      "transcript": "Ah he, he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_venomancer_venm_deny_15.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_16.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_16.mp3",
+      "transcript": "Stop it!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_venomancer_venm_deny_16.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_17.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_17.mp3",
+      "transcript": "Ssstop it!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_venomancer_venm_deny_17.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_18.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_18.mp3",
+      "transcript": "He he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_venomancer_venm_deny_18.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_deny_19.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_deny_19.mp3",
+      "transcript": "Eh he he he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_venomancer_venm_deny_19.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_purch_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_purch_01.mp3",
+      "transcript": "Oh, costly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_venomancer_venm_purch_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_purch_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_purch_02.mp3",
+      "transcript": "A significant purchase.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_venomancer_venm_purch_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_purch_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_purch_03.mp3",
+      "transcript": "Worth twice the price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_venomancer_venm_purch_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_blink_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_venomancer_venm_blink_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_blink_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_blink_02.mp3",
+      "transcript": "A dagger dipped in venom.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_venomancer_venm_blink_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_scepter_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_venomancer_venm_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_scepter_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_scepter_02.mp3",
+      "transcript": "A toxic scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_venomancer_venm_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_blade_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_blade_01.mp3",
+      "transcript": "Oh, blade unseen!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_venomancer_venm_blade_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_blade_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_blade_02.mp3",
+      "transcript": "They'll never see me coming.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_venomancer_venm_blade_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_blade_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_blade_03.mp3",
+      "transcript": "Unseen and unseeable.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_venomancer_venm_blade_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_immort_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_venomancer_venm_immort_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_immort_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_immort_02.mp3",
+      "transcript": "I've acquired an immunity to death.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_venomancer_venm_immort_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_01.mp3",
+      "transcript": "Nooooo.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_venomancer_venm_death_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_02.mp3",
+      "transcript": "Cursed antidote.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_venomancer_venm_death_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_03.mp3",
+      "transcript": "Anti…venom!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_venomancer_venm_death_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_04.mp3",
+      "transcript": "My venom dissipates.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_venomancer_venm_death_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_05.mp3",
+      "transcript": "I only wanted to kill…everyone.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_venomancer_venm_death_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_06.mp3",
+      "transcript": "The world loses an exquisite toxin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_venomancer_venm_death_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_07.mp3",
+      "transcript": "The pain. The pain!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_venomancer_venm_death_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_08.mp3",
+      "transcript": "My venom is no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_venomancer_venm_death_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_09.mp3",
+      "transcript": "My venom sacs run empty.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_venomancer_venm_death_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_10.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_10.mp3",
+      "transcript": "Venom neutralized.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_venomancer_venm_death_10.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_death_11.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_death_11.mp3",
+      "transcript": "Oh what a burn!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_venomancer_venm_death_11.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_01.mp3",
+      "transcript": "Back from death's door.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_venomancer_venm_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_02.mp3",
+      "transcript": "Regurgitated into the world.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_venomancer_venm_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_03.mp3",
+      "transcript": "Like a blight, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_venomancer_venm_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_04.mp3",
+      "transcript": "My venom's restored.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_venomancer_venm_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_05.mp3",
+      "transcript": "Back from the brink.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_venomancer_venm_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_07.mp3",
+      "transcript": "I'll make up for lost time.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_venomancer_venm_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_08.mp3",
+      "transcript": "My venom flows again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_venomancer_venm_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_respawn_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_respawn_09.mp3",
+      "transcript": "Venom and vengeance: A toxic combination.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_venomancer_venm_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_laugh_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_laugh_04.mp3",
+      "transcript": "Oh ho ho ho ho.",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_venomancer_venm_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_bottle_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_bottle_01.mp3",
+      "transcript": "A tainted chalice.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_venomancer_venm_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_bottle_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_bottle_02.mp3",
+      "transcript": "What's your poison?",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_venomancer_venm_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_bottle_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_bottle_03.mp3",
+      "transcript": "I'll get back to this later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_venomancer_venm_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_06.mp3",
+      "transcript": "It's a Venomancer enhancer.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_venomancer_venm_rosh_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_05.mp3",
+      "transcript": "I deserve this.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_venomancer_venm_rosh_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_doubdam_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_venomancer_venm_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_doubdam_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_doubdam_02.mp3",
+      "transcript": "Double dose.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_venomancer_venm_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_haste_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_venomancer_venm_haste_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_haste_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_haste_02.mp3",
+      "transcript": "Nothing faster.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_venomancer_venm_haste_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_illus_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_venomancer_venm_illus_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_illus_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_illus_02.mp3",
+      "transcript": "Three times the toxicity.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_venomancer_venm_illus_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_invis_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_venomancer_venm_invis_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_invis_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_invis_02.mp3",
+      "transcript": "Untraceable venom.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_venomancer_venm_invis_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_regen_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_venomancer_venm_regen_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_regen_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_regen_02.mp3",
+      "transcript": "A return to strength.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_venomancer_venm_regen_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_venomancer_venm_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_venomancer_venm_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_venomancer_venm_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_venomancer_venm_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_venomancer_venm_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_venomancer_venm_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_venomancer_venm_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_venomancer_venm_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_notyet_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_venomancer_venm_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_venomancer_venm_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_venomancer_venm_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_venomancer_venm_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_venomancer_venm_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_venomancer_venm_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_venomancer_venm_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_venomancer_venm_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_venomancer_venm_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_nomana_09.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_venomancer_venm_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_pain_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_venomancer_venm_pain_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_pain_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_pain_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_venomancer_venm_pain_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_pain_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_pain_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_venomancer_venm_pain_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_pain_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_pain_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_venomancer_venm_pain_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_pain_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_pain_05.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_venomancer_venm_pain_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_underattack_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_venomancer_venm_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_underattack_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_underattack_02.mp3",
+      "transcript": "Get over here and help me!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_venomancer_venm_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rare_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rare_01.mp3",
+      "transcript": "I'm a perfect 10…on the pain scale.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_venomancer_venm_rare_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rare_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rare_02.mp3",
+      "transcript": "In the Acid Jungles of Jidi, I was but a minor inconvenience. Here, the slightest whiff of venom sends them screaming.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_venomancer_venm_rare_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rare_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rare_03.mp3",
+      "transcript": "Keep your enemies close, and your antidotes closer.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_venomancer_venm_rare_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rare_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rare_04.mp3",
+      "transcript": "Yes, ah ha ha ha ha ha…kof!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_venomancer_venm_rare_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_thanks_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_thanks_01.mp3",
+      "transcript": "My thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_venomancer_venm_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_thanks_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_thanks_02.mp3",
+      "transcript": "Thanks are in order.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_venomancer_venm_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_win_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_venomancer_venm_win_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_win_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_venomancer_venm_win_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_win_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_win_03.mp3",
+      "transcript": "Venomous victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_venomancer_venm_win_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_win_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_win_04.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_venomancer_venm_win_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lose_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lose_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_venomancer_venm_lose_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lose_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_venomancer_venm_lose_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_lose_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_lose_03.mp3",
+      "transcript": "My venom is overmatched.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_venomancer_venm_lose_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_happy_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_happy_02.mp3",
+      "transcript": "Mmmm aaaah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_venomancer_venm_happy_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_happy_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_happy_03.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_venomancer_venm_happy_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_happy_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_happy_04.mp3",
+      "transcript": "Ooo aaa.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_venomancer_venm_happy_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_01.mp3",
+      "transcript": "Ah, missed him!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_venomancer_venm_ability_fail_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_02.mp3",
+      "transcript": "Ooh, what a waste of venom.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_venomancer_venm_ability_fail_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_03.mp3",
+      "transcript": "Ah, mm, got away.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_venomancer_venm_ability_fail_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_04.mp3",
+      "transcript": "Huh, what a waste.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_venomancer_venm_ability_fail_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_05.mp3",
+      "transcript": "I've been burned.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_venomancer_venm_ability_fail_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_06.mp3",
+      "transcript": "That burned.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_venomancer_venm_ability_fail_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_07.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_07.mp3",
+      "transcript": "Ssss, that burns.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_venomancer_venm_ability_fail_07.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_ability_fail_08.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_ability_fail_08.mp3",
+      "transcript": "Ooh, that burns me.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_venomancer_venm_ability_fail_08.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_shitwiz_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_venomancer_venm_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_crumwiz_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_venomancer_venm_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_02.mp3",
+      "transcript": "Ssssss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_venomancer_venm_anger_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_03.mp3",
+      "transcript": "Kkkkkk!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_venomancer_venm_anger_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_04.mp3",
+      "transcript": "Heeeeee.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_venomancer_venm_anger_04.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_05.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_05.mp3",
+      "transcript": "Aahhhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_venomancer_venm_anger_05.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_anger_06.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_anger_06.mp3",
+      "transcript": "Aaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_venomancer_venm_anger_06.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_happy_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_happy_01.mp3",
+      "transcript": "Ssssaaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_venomancer_venm_happy_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_01.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_01.mp3",
+      "transcript": "Almost there.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_venomancer_venm_rosh_01.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_02.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_02.mp3",
+      "transcript": "It's all me.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_venomancer_venm_rosh_02.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_03.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_03.mp3",
+      "transcript": "It's not hard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_venomancer_venm_rosh_03.mp3"
+    },
+    {
+      "file": "Vo_venomancer_venm_rosh_04.mp3",
+      "key": "dota2/venomancer/Vo_venomancer_venm_rosh_04.mp3",
+      "transcript": "I owe it all to me.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_venomancer_venm_rosh_04.mp3"
+    }
+  ]
+}

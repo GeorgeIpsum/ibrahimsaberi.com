@@ -1,0 +1,2204 @@
+{
+  "hero": "Faceless Void",
+  "slug": "faceless-void",
+  "source": "https://liquipedia.net/dota2/Faceless_Void/Responses",
+  "scrapedAt": "2026-06-17T13:45:33.922Z",
+  "count": 217,
+  "voicelines": [
+    {
+      "file": "Vo_faceless_void_face_spawn_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_spawn_01.mp3",
+      "transcript": "Faceless Void.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_faceless_void_face_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_spawn_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_spawn_02.mp3",
+      "transcript": "I have seen how this war ends.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_faceless_void_face_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_spawn_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_spawn_03.mp3",
+      "transcript": "I am the elder one.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_faceless_void_face_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_spawn_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_spawn_04.mp3",
+      "transcript": "From a place beyond time, and time beyond counting.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_faceless_void_face_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_cast_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_cast_02.mp3",
+      "transcript": "Your fate approaches.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_faceless_void_face_cast_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_03.mp3",
+      "transcript": "Feel my mace!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_faceless_void_face_attack_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_04.mp3",
+      "transcript": "Face your doom.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_faceless_void_face_attack_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_08.mp3",
+      "transcript": "Time is the cruelest cut.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_faceless_void_face_attack_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_09.mp3",
+      "transcript": "Your end comes.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_faceless_void_face_attack_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_02.mp3",
+      "transcript": "Time tells, the mace fells.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_faceless_void_face_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_03.mp3",
+      "transcript": "I have seen the end of time.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_faceless_void_face_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_12.mp3",
+      "transcript": "Foreseen is forearmed.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_faceless_void_face_move_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_02.mp3",
+      "transcript": "Eaaaagh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_faceless_void_face_anger_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_inthebag_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_faceless_void_face_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_cast_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_cast_03.mp3",
+      "transcript": "Time catches all.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_faceless_void_face_cast_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_faceless_void_face_move_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_02.mp3",
+      "transcript": "It shall be.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_faceless_void_face_move_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_03.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_faceless_void_face_move_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_04.mp3",
+      "transcript": "The march of time.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_faceless_void_face_move_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_05.mp3",
+      "transcript": "Inexorable.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_faceless_void_face_move_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_06.mp3",
+      "transcript": "Dark portents ahead.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_faceless_void_face_move_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_07.mp3",
+      "transcript": "My path unspools.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_faceless_void_face_move_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_08.mp3",
+      "transcript": "Road to oblivion.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_faceless_void_face_move_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_09.mp3",
+      "transcript": "Time flows.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_faceless_void_face_move_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_10.mp3",
+      "transcript": "A path foreseen.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_faceless_void_face_move_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_move_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_move_11.mp3",
+      "transcript": "Face forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_faceless_void_face_move_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_faceless_void_face_attack_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_02.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_faceless_void_face_attack_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_05.mp3",
+      "transcript": "Primal shard.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_faceless_void_face_attack_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_06.mp3",
+      "transcript": "It must be.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_faceless_void_face_attack_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_07.mp3",
+      "transcript": "Time's up.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_faceless_void_face_attack_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_10.mp3",
+      "transcript": "Ended.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_faceless_void_face_attack_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_11.mp3",
+      "transcript": "Time to fight.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_faceless_void_face_attack_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_12.mp3",
+      "transcript": "Your time runs out.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_faceless_void_face_attack_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_attack_13.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_attack_13.mp3",
+      "transcript": "Face the future.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_faceless_void_face_attack_13.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_cast_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_cast_01.mp3",
+      "transcript": "It is presaged.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_faceless_void_face_cast_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_cast_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_cast_04.mp3",
+      "transcript": "Where do you think you're going?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_faceless_void_face_cast_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_03.mp3",
+      "transcript": "I'm here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_faceless_void_face_ability_timewalk_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_04.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_faceless_void_face_ability_timewalk_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_05.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_faceless_void_face_ability_timewalk_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_06.mp3",
+      "transcript": "I'm here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_faceless_void_face_ability_timewalk_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_01.mp3",
+      "transcript": "Where do you think you're going?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_faceless_void_face_ability_timewalk_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_timewalk_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_timewalk_02.mp3",
+      "transcript": "Not so fast.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_faceless_void_face_ability_timewalk_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_01.mp3",
+      "transcript": "Forestalled.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_faceless_void_face_ability_chronos_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_02.mp3",
+      "transcript": "Entombed by time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_faceless_void_face_ability_chronos_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_03.mp3",
+      "transcript": "Sealed your fate.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_faceless_void_face_ability_chronos_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_04.mp3",
+      "transcript": "Like insects in amber.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_faceless_void_face_ability_chronos_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_05.mp3",
+      "transcript": "Time's pendulum stops.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_faceless_void_face_ability_chronos_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_06.mp3",
+      "transcript": "Stop where you are!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_faceless_void_face_ability_chronos_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_01.mp3",
+      "transcript": "Nothing to see here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_faceless_void_face_ability_chronos_failure_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_02.mp3",
+      "transcript": "How embarrassing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_faceless_void_face_ability_chronos_failure_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_03.mp3",
+      "transcript": "Your time will come.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_faceless_void_face_ability_chronos_failure_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_04.mp3",
+      "transcript": "Eh, next time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_faceless_void_face_ability_chronos_failure_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_05.mp3",
+      "transcript": "Dear gods, my mistake!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_faceless_void_face_ability_chronos_failure_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_06.mp3",
+      "transcript": "Forgive me my friends!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_faceless_void_face_ability_chronos_failure_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_07.mp3",
+      "transcript": "An eternity of embarrassment!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_faceless_void_face_ability_chronos_failure_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_08.mp3",
+      "transcript": "I can't bear to look.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_faceless_void_face_ability_chronos_failure_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_09.mp3",
+      "transcript": "Time stops! Eh, for no one.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_faceless_void_face_ability_chronos_failure_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_ability_chronos_failure_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_ability_chronos_failure_10.mp3",
+      "transcript": "Eh, that's a mixed bag.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_faceless_void_face_ability_chronos_failure_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_01.mp3",
+      "transcript": "My foresight sharpens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_faceless_void_face_level_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_02.mp3",
+      "transcript": "Time quickens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_faceless_void_face_level_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_03.mp3",
+      "transcript": "My control improves.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_faceless_void_face_level_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_04.mp3",
+      "transcript": "My powers grow.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_faceless_void_face_level_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_05.mp3",
+      "transcript": "A timely increase in power.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_faceless_void_face_level_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_06.mp3",
+      "transcript": "Ah hah heh heh ha hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_faceless_void_face_level_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_07.mp3",
+      "transcript": "Heh ha heh hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_faceless_void_face_level_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_level_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_level_08.mp3",
+      "transcript": "Heh ha heh hah heh heh hah heh hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_faceless_void_face_level_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_01.mp3",
+      "transcript": "You lose face...and life.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_faceless_void_face_kill_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_02.mp3",
+      "transcript": "A death foretold.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_faceless_void_face_kill_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_03.mp3",
+      "transcript": "Your chronology ends!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_faceless_void_face_kill_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_04.mp3",
+      "transcript": "Glad we could meet, mace to face.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_faceless_void_face_kill_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_05.mp3",
+      "transcript": "You become past tense.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_faceless_void_face_kill_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_06.mp3",
+      "transcript": "Your page in history ends.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_faceless_void_face_kill_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_07.mp3",
+      "transcript": "I foresaw your death the moment you were born.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_faceless_void_face_kill_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_08.mp3",
+      "transcript": "Suffer the ravages of time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_faceless_void_face_kill_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_09.mp3",
+      "transcript": "Birth is a promise; death its fulfillment.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_faceless_void_face_kill_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_10.mp3",
+      "transcript": "We all owe a life. I take yours.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_faceless_void_face_kill_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_11.mp3",
+      "transcript": "You've been voided.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_faceless_void_face_kill_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_12.mp3",
+      "transcript": "I have seen the future; you're not in it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_faceless_void_face_kill_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_kill_13.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_kill_13.mp3",
+      "transcript": "Heaheheh ha ha heh ha ha heh heh ha heh ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_faceless_void_face_kill_13.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_01.mp3",
+      "transcript": "Heah heh heh heh hah heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_faceless_void_face_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_02.mp3",
+      "transcript": "Heh he heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_faceless_void_face_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_03.mp3",
+      "transcript": "Heah heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_faceless_void_face_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_04.mp3",
+      "transcript": "Heah heh heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_faceless_void_face_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_05.mp3",
+      "transcript": "Heh heh heh he heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_faceless_void_face_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_06.mp3",
+      "transcript": "Hah heheh heh heh heah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_faceless_void_face_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_08.mp3",
+      "transcript": "Heh heh heh he heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_faceless_void_face_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_09.mp3",
+      "transcript": "Eaheh heh heh heh heah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_faceless_void_face_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_10.mp3",
+      "transcript": "Heh heh heh heh hah heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_faceless_void_face_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_firstblood_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_firstblood_01.mp3",
+      "transcript": "First blood, hehehehaah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_faceless_void_face_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_01.mp3",
+      "transcript": "Gold is forever.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_faceless_void_face_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_02.mp3",
+      "transcript": "Fate takes you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_faceless_void_face_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_03.mp3",
+      "transcript": "As foretold.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_faceless_void_face_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_04.mp3",
+      "transcript": "Out of time.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_faceless_void_face_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_05.mp3",
+      "transcript": "So it must be.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_faceless_void_face_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_06.mp3",
+      "transcript": "Null and void.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_faceless_void_face_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_07.mp3",
+      "transcript": "Heheh heh heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_faceless_void_face_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_08.mp3",
+      "transcript": "Time is money.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_faceless_void_face_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_09.mp3",
+      "transcript": "Heheh heh heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_faceless_void_face_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lasthit_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lasthit_10.mp3",
+      "transcript": "Ehheeh heh heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_faceless_void_face_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_faceless_void_face_deny_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_faceless_void_face_deny_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_03.mp3",
+      "transcript": "Uh-uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_faceless_void_face_deny_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_04.mp3",
+      "transcript": "Mm mmm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_faceless_void_face_deny_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_05.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_faceless_void_face_deny_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_06.mp3",
+      "transcript": "It was not meant.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_faceless_void_face_deny_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_07.mp3",
+      "transcript": "You get nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_faceless_void_face_deny_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_08.mp3",
+      "transcript": "Steal your face.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_faceless_void_face_deny_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_09.mp3",
+      "transcript": "Forget it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_faceless_void_face_deny_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_10.mp3",
+      "transcript": "Heh heh he heh heh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_faceless_void_face_deny_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_11.mp3",
+      "transcript": "Not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_faceless_void_face_deny_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_12.mp3",
+      "transcript": "No, no, no, no, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_faceless_void_face_deny_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_deny_13.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_deny_13.mp3",
+      "transcript": "You wish.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_faceless_void_face_deny_13.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_purch_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_purch_01.mp3",
+      "transcript": "Heh, face value indeed.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_faceless_void_face_purch_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_purch_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_purch_02.mp3",
+      "transcript": "I'm meant to own this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_faceless_void_face_purch_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_purch_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_purch_03.mp3",
+      "transcript": "Well bought.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_faceless_void_face_purch_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_blink_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_blink_01.mp3",
+      "transcript": "Blink dagger, what need have I for this?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_faceless_void_face_blink_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_blink_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_blink_02.mp3",
+      "transcript": "Blink dagger, ehh.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_faceless_void_face_blink_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_scepter_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_scepter_01.mp3",
+      "transcript": "Ahhh, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_faceless_void_face_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_scepter_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_scepter_02.mp3",
+      "transcript": "Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_faceless_void_face_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_maskmad_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_maskmad_01.mp3",
+      "transcript": "Mask of madness.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_faceless_void_face_maskmad_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_maskmad_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_maskmad_02.mp3",
+      "transcript": "Ah, mask of madness, a perfect fit.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_faceless_void_face_maskmad_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_maskmad_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_maskmad_03.mp3",
+      "transcript": "I have a face now.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_faceless_void_face_maskmad_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_immort_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_faceless_void_face_immort_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_immort_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_immort_02.mp3",
+      "transcript": "Gift of eternity.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_faceless_void_face_immort_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_01.mp3",
+      "transcript": "Nohoooh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_faceless_void_face_death_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_02.mp3",
+      "transcript": "My debt to life...is paid.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_faceless_void_face_death_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_03.mp3",
+      "transcript": "I foresaw this end...ehhhh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_faceless_void_face_death_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_04.mp3",
+      "transcript": "Time grinds even mountains to dust.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_faceless_void_face_death_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_05.mp3",
+      "transcript": "As was promised.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_faceless_void_face_death_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_06.mp3",
+      "transcript": "An end...of an age.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_faceless_void_face_death_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_07.mp3",
+      "transcript": "Fate...finds me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_faceless_void_face_death_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_08.mp3",
+      "transcript": "I've seen this...in my dreams.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_faceless_void_face_death_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_09.mp3",
+      "transcript": "I face...the darkness.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_faceless_void_face_death_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_10.mp3",
+      "transcript": "Commend me...to the void.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_faceless_void_face_death_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_11.mp3",
+      "transcript": "We all owe a life to the fates.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_faceless_void_face_death_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_death_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_death_12.mp3",
+      "transcript": "Unkind...rewind.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_faceless_void_face_death_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_01.mp3",
+      "transcript": "Like the sun, I rise again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_faceless_void_face_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_04.mp3",
+      "transcript": "A new age begins.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_faceless_void_face_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_05.mp3",
+      "transcript": "So begins...the final epoch.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_faceless_void_face_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_06.mp3",
+      "transcript": "The end is already written.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_faceless_void_face_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_07.mp3",
+      "transcript": "Returned from Clazureme!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_faceless_void_face_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_08.mp3",
+      "transcript": "I returned to fulfill my destiny!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_faceless_void_face_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_09.mp3",
+      "transcript": "In the land of time, the no-eyed man is king.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_faceless_void_face_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_10.mp3",
+      "transcript": "Time is a river with many eddies.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_faceless_void_face_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_respawn_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_respawn_11.mp3",
+      "transcript": "My pendulum swings back to life.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_faceless_void_face_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_laugh_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_laugh_07.mp3",
+      "transcript": "Heh heh hah ha hah heh heah heh.",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_faceless_void_face_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_bottle_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_bottle_01.mp3",
+      "transcript": "Time in a bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_faceless_void_face_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_bottle_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_bottle_02.mp3",
+      "transcript": "I foresee a time when this will be useful.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_faceless_void_face_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_bottle_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_bottle_03.mp3",
+      "transcript": "For a time of need.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_faceless_void_face_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_doubdam_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_faceless_void_face_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_doubdam_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_doubdam_02.mp3",
+      "transcript": "Two-faced.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_faceless_void_face_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_haste_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_faceless_void_face_haste_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_haste_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_haste_02.mp3",
+      "transcript": "Time flies.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_faceless_void_face_haste_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_illus_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_faceless_void_face_illus_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_illus_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_illus_02.mp3",
+      "transcript": "Me times three.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_faceless_void_face_illus_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_invis_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_faceless_void_face_invis_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_invis_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_invis_02.mp3",
+      "transcript": "Eyes without a face, unseen.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_faceless_void_face_invis_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_invis_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_invis_03.mp3",
+      "transcript": "Unseen.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_faceless_void_face_invis_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_regen_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_faceless_void_face_regen_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_regen_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_regen_02.mp3",
+      "transcript": "I am renewed.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_faceless_void_face_regen_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_regen_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_regen_03.mp3",
+      "transcript": "Turned back the clock.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_faceless_void_face_regen_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_faceless_void_face_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_faceless_void_face_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_faceless_void_face_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_faceless_void_face_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_faceless_void_face_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_faceless_void_face_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_faceless_void_face_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_faceless_void_face_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_notyet_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_faceless_void_face_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_faceless_void_face_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_faceless_void_face_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_faceless_void_face_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_faceless_void_face_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_faceless_void_face_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_faceless_void_face_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_faceless_void_face_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_faceless_void_face_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_nomana_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_faceless_void_face_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_01.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_faceless_void_face_pain_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_02.mp3",
+      "transcript": "Ahgh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_faceless_void_face_pain_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_03.mp3",
+      "transcript": "Ehugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_faceless_void_face_pain_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_04.mp3",
+      "transcript": "Aaagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_faceless_void_face_pain_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_05.mp3",
+      "transcript": "Eagh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_faceless_void_face_pain_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_06.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_faceless_void_face_pain_06.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_07.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_07.mp3",
+      "transcript": "Eagh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_faceless_void_face_pain_07.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_08.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_08.mp3",
+      "transcript": "Ooph.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_faceless_void_face_pain_08.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_09.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_09.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_faceless_void_face_pain_09.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_10.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_10.mp3",
+      "transcript": "Eaghheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_faceless_void_face_pain_10.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_11.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_11.mp3",
+      "transcript": "Eaaagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_faceless_void_face_pain_11.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_pain_12.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_pain_12.mp3",
+      "transcript": "Ough.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_faceless_void_face_pain_12.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_underattack_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_faceless_void_face_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_underattack_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_underattack_02.mp3",
+      "transcript": "Help would be appreciated.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_faceless_void_face_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_rare_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_rare_01.mp3",
+      "transcript": "Every day lived is a page of history.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_faceless_void_face_rare_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_rare_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_rare_02.mp3",
+      "transcript": "Time is a river with many eddies. I have seen its head waters, and I have seen its currents reach the sea.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_faceless_void_face_rare_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_rare_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_rare_03.mp3",
+      "transcript": "I may be faceless, but I'm not maceless.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_faceless_void_face_rare_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_rare_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_rare_04.mp3",
+      "transcript": "Defeat in this dimension brings unpleasant repercussions in Clazureme.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_faceless_void_face_rare_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_thanks_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_thanks_01.mp3",
+      "transcript": "I thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_faceless_void_face_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_thanks_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_thanks_02.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_faceless_void_face_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_win_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_faceless_void_face_win_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_win_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_faceless_void_face_win_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_win_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_win_03.mp3",
+      "transcript": "Just as I envisaged.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_faceless_void_face_win_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_win_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_win_04.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_faceless_void_face_win_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lose_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_faceless_void_face_lose_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lose_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_faceless_void_face_lose_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_lose_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_lose_03.mp3",
+      "transcript": "Some things were just not meant to be.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_faceless_void_face_lose_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_happy_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_happy_01.mp3",
+      "transcript": "Eaheheah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_faceless_void_face_happy_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_happy_02.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_happy_02.mp3",
+      "transcript": "Eahehhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_faceless_void_face_happy_02.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_happy_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_happy_03.mp3",
+      "transcript": "Eagheh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_faceless_void_face_happy_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_shitwiz_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_faceless_void_face_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_crumwiz_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_faceless_void_face_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_01.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_01.mp3",
+      "transcript": "Heeergh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_faceless_void_face_anger_01.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_03.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_03.mp3",
+      "transcript": "Reergh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_faceless_void_face_anger_03.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_04.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_04.mp3",
+      "transcript": "Eareugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_faceless_void_face_anger_04.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_05.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_05.mp3",
+      "transcript": "Earrrgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_faceless_void_face_anger_05.mp3"
+    },
+    {
+      "file": "Vo_faceless_void_face_anger_06.mp3",
+      "key": "dota2/faceless-void/Vo_faceless_void_face_anger_06.mp3",
+      "transcript": "Rargh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_faceless_void_face_anger_06.mp3"
+    }
+  ]
+}

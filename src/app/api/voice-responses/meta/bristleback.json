@@ -1,0 +1,3246 @@
+{
+  "hero": "Bristleback",
+  "slug": "bristleback",
+  "source": "https://liquipedia.net/dota2/Bristleback/Responses",
+  "scrapedAt": "2026-06-17T13:17:21.839Z",
+  "count": 322,
+  "voicelines": [
+    {
+      "file": "Vo_bristleback_bristle_spawn_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_spawn_01.mp3",
+      "transcript": "Bristleback!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_bristleback_bristle_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_spawn_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_spawn_02.mp3",
+      "transcript": "Look who's here, hahaha...",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bristleback_bristle_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_spawn_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_spawn_03.mp3",
+      "transcript": "Well, what have we here.",
+      "categories": [
+        "Loadout",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_bristleback_bristle_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_spawn_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_spawn_04.mp3",
+      "transcript": "I cut quite a figure, don't I?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bristleback_bristle_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_spawn_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_spawn_05.mp3",
+      "transcript": "Bristleback here! Ha ha!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_bristleback_bristle_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_begin_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_begin_03.mp3",
+      "transcript": "Time to mash some faces, I'd say.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_bristleback_bristle_begin_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_11.mp3",
+      "transcript": "Time for a good scrap.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_bristleback_bristle_move_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_03.mp3",
+      "transcript": "Yeah, I'm getting me blood up now.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_bristleback_bristle_attack_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_01.mp3",
+      "transcript": "Come on, have at me!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_bristleback_bristle_bristleback_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_22.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_22.mp3",
+      "transcript": "Oh, you want some of this... eh?",
+      "categories": [
+        "Loadout",
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bristleback_bristle_attack_22.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_09.mp3",
+      "transcript": "Time for a little bashing.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_bristleback_bristle_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_06.mp3",
+      "transcript": "Oh, I'm a right proper basher.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_bristleback_bristle_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_09.mp3",
+      "transcript": "Woooogh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_bristleback_bristle_anger_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_inthebag_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_inthebag_01.mp3",
+      "transcript": "It's in the bag, mate. Yeah, go on, you see if it's not. Open it up and see if it's not in there. I'm telling you, it's a lock, mate.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_bristleback_bristle_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_begin_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_begin_01.mp3",
+      "transcript": "Oh, now we're in it.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_bristleback_bristle_begin_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_begin_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_begin_02.mp3",
+      "transcript": "This is what I'm talking about, heh hah hah.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_bristleback_bristle_begin_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_bristleback_bristle_move_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bristleback_bristle_move_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_03.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_bristleback_bristle_move_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_04.mp3",
+      "transcript": "You don't say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bristleback_bristle_move_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_06.mp3",
+      "transcript": "One step at a time.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bristleback_bristle_move_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_07.mp3",
+      "transcript": "I'll sort this out.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_bristleback_bristle_move_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_08.mp3",
+      "transcript": "By all means.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_bristleback_bristle_move_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_09.mp3",
+      "transcript": "There's faces need mashing.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_bristleback_bristle_move_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_10.mp3",
+      "transcript": "Bit of work to do.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bristleback_bristle_move_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_13.mp3",
+      "transcript": "At way!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_bristleback_bristle_move_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_14.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_14.mp3",
+      "transcript": "Oi, One step at a time.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bristleback_bristle_move_14.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_16.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_16.mp3",
+      "transcript": "Here we go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_bristleback_bristle_move_16.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_17.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_17.mp3",
+      "transcript": "I'll sort this.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_bristleback_bristle_move_17.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_01.mp3",
+      "transcript": "There's more where that came from.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_bristleback_bristle_attack_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_02.mp3",
+      "transcript": "Here we go.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bristleback_bristle_attack_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_04.mp3",
+      "transcript": "Boom!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_attack_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_05.mp3",
+      "transcript": "A clubbin.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_bristleback_bristle_attack_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_06.mp3",
+      "transcript": "This'll sort you out.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bristleback_bristle_attack_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_07.mp3",
+      "transcript": "Here we go.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_bristleback_bristle_attack_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_10.mp3",
+      "transcript": "Let's hear ya squeal.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bristleback_bristle_attack_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_12.mp3",
+      "transcript": "For your troubles.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bristleback_bristle_attack_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_13.mp3",
+      "transcript": "Put your lights out.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bristleback_bristle_attack_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_14.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_14.mp3",
+      "transcript": "I'll bash you dim.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_bristleback_bristle_attack_14.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_15.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_15.mp3",
+      "transcript": "I'll concave your head.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_bristleback_bristle_attack_15.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_16.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_16.mp3",
+      "transcript": "Yeah, take it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_bristleback_bristle_attack_16.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_17.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_17.mp3",
+      "transcript": "Have some of that.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_bristleback_bristle_attack_17.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_18.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_18.mp3",
+      "transcript": "You want some of this, son, you want it?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bristleback_bristle_attack_18.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_20.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_20.mp3",
+      "transcript": "More where that came from sunshine.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bristleback_bristle_attack_20.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_cast_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_cast_01.mp3",
+      "transcript": "No getting away now.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bristleback_bristle_cast_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_cast_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_cast_02.mp3",
+      "transcript": "What'd you take me for, eh?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_bristleback_bristle_cast_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_cast_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_cast_03.mp3",
+      "transcript": "I'll give you all you can handle.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bristleback_bristle_cast_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_cast_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_cast_04.mp3",
+      "transcript": "Oh, you're in it now, are ya?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_bristleback_bristle_cast_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_cast_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_cast_05.mp3",
+      "transcript": "You want some of me? You want some of Bristlebog?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bristleback_bristle_cast_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_01.mp3",
+      "transcript": "Ooh, excuse me, he heh heh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bristleback_bristle_nasal_goo_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_02.mp3",
+      "transcript": "That looks good on you, that does, mate.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_bristleback_bristle_nasal_goo_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_03.mp3",
+      "transcript": "Oh, where are my manners.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_bristleback_bristle_nasal_goo_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_04.mp3",
+      "transcript": "Hechoo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_bristleback_bristle_nasal_goo_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_05.mp3",
+      "transcript": "Aaaaachoo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bristleback_bristle_nasal_goo_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_06.mp3",
+      "transcript": "Argh, here's some goo for ya.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_nasal_goo_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nasal_goo_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nasal_goo_07.mp3",
+      "transcript": "Heh, you wear it well, mate.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bristleback_bristle_nasal_goo_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_01.mp3",
+      "transcript": "Oh, pardon my quills.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bristleback_bristle_quill_spray_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_02.mp3",
+      "transcript": "Have some quills.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_bristleback_bristle_quill_spray_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_03.mp3",
+      "transcript": "Ha! You make a right pin cushion.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_bristleback_bristle_quill_spray_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_04.mp3",
+      "transcript": "Pin cushion.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_bristleback_bristle_quill_spray_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_05.mp3",
+      "transcript": "Haha, stuck you good.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_bristleback_bristle_quill_spray_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_quill_spray_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_quill_spray_06.mp3",
+      "transcript": "Quilled in the line of duty.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_quill_spray_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_02.mp3",
+      "transcript": "Yeah, go on, go on, give it a go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_bristleback_bristle_bristleback_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_03.mp3",
+      "transcript": "Hit me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_bristleback_bristle_bristleback_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_05.mp3",
+      "transcript": "Yeah, you bring your best.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bristleback_bristle_bristleback_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_06.mp3",
+      "transcript": "You want some of this?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_bristleback_bristle_bristleback_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bristleback_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bristleback_04.mp3",
+      "transcript": "Oh, me back needs a scratch.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_bristleback_bristle_bristleback_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_01.mp3",
+      "transcript": "Well, what do you know.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_bristleback_bristle_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_02.mp3",
+      "transcript": "My tusks just got sharper.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bristleback_bristle_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_03.mp3",
+      "transcript": "Now this...this is proper smart.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bristleback_bristle_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_04.mp3",
+      "transcript": "Bright and breezy.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_bristleback_bristle_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_07.mp3",
+      "transcript": "Oh, now it's on. Yes.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bristleback_bristle_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_09.mp3",
+      "transcript": "A'yeh, I put me back into it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_bristleback_bristle_attack_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_11.mp3",
+      "transcript": "Yeah, a proper thrashing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bristleback_bristle_attack_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_levelup_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_levelup_05.mp3",
+      "transcript": "Bish, bash, bosh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_bristleback_bristle_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_01.mp3",
+      "transcript": "All in a day's killing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_bristleback_bristle_kill_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_02.mp3",
+      "transcript": "You shoulda backed down, son.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bristleback_bristle_kill_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_03.mp3",
+      "transcript": "Who's squealing now, eh? Ha, aha ha heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_bristleback_bristle_kill_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_04.mp3",
+      "transcript": "A good bashing, never hurt nobody.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_bristleback_bristle_kill_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_05.mp3",
+      "transcript": "What are you on about?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_bristleback_bristle_kill_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_06.mp3",
+      "transcript": "Yeah, that chinned ya, didn't it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_bristleback_bristle_kill_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_07.mp3",
+      "transcript": "I layed you out flat, son.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_bristleback_bristle_kill_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_08.mp3",
+      "transcript": "You won't be getting up too soon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bristleback_bristle_kill_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_09.mp3",
+      "transcript": "There ya go, troubles over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_bristleback_bristle_kill_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_10.mp3",
+      "transcript": "You been sorted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_bristleback_bristle_kill_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_11.mp3",
+      "transcript": "That pinned your eyes open, didn't it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_bristleback_bristle_kill_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_12.mp3",
+      "transcript": "Haha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_bristleback_bristle_kill_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_kill_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_kill_13.mp3",
+      "transcript": "Down you go.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_bristleback_bristle_kill_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_laugh_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_laugh_01.mp3",
+      "transcript": "Hahahahaha haha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_bristleback_bristle_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_laugh_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_laugh_02.mp3",
+      "transcript": "Hehey hahaha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_bristleback_bristle_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_laugh_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_laugh_03.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_bristleback_bristle_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_laugh_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_laugh_04.mp3",
+      "transcript": "Hoho hah ah ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_bristleback_bristle_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_laugh_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_laugh_05.mp3",
+      "transcript": "Hahahahh ahh hah, suck it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_bristleback_bristle_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_26.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_26.mp3",
+      "transcript": "Is that a bat you was riding? Who rides a bat?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_bristleback_bristle_rival_26.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_06.mp3",
+      "transcript": "Time to meet that maker of yours.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_bristleback_bristle_rival_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_46.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_46.mp3",
+      "transcript": "So little and weak, you know I almost feel guilty. Almost.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bristleback_bristle_rival_46.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_47.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_47.mp3",
+      "transcript": "These Keen folk die so easy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_bristleback_bristle_rival_47.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_01.mp3",
+      "transcript": "Bashed your bones in.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_bristleback_bristle_rival_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_02.mp3",
+      "transcript": "Oh, now, you're king of the dead hahaha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_rival_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_03.mp3",
+      "transcript": "One less bug in the world.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_bristleback_bristle_rival_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_04.mp3",
+      "transcript": "Off you go, Chen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_bristleback_bristle_rival_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_05.mp3",
+      "transcript": "One less Zealot.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_bristleback_bristle_rival_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_07.mp3",
+      "transcript": "Nighty night, Knight. He heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bristleback_bristle_rival_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_10.mp3",
+      "transcript": "Never did like knights.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_bristleback_bristle_rival_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_11.mp3",
+      "transcript": "Part dragon, all dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_bristleback_bristle_rival_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_08.mp3",
+      "transcript": "You can't heal being dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_bristleback_bristle_rival_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_09.mp3",
+      "transcript": "Bashed in that ugly head of yours.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_bristleback_bristle_rival_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_12.mp3",
+      "transcript": "Lights out for you, geezer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bristleback_bristle_rival_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_14.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_14.mp3",
+      "transcript": "Die, geezer! And that horse you rode in on!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_bristleback_bristle_rival_14.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_13.mp3",
+      "transcript": "Knocked you off your high horse, didn't I?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_bristleback_bristle_rival_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_35.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_35.mp3",
+      "transcript": "So, you can beat a dead horse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_bristleback_bristle_rival_35.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_15.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_15.mp3",
+      "transcript": "Other times, well, we might have shared a brew.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bristleback_bristle_rival_15.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_16.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_16.mp3",
+      "transcript": "That round was on me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_bristleback_bristle_rival_16.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_17.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_17.mp3",
+      "transcript": "Yugh, I love a good bar fight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_bristleback_bristle_rival_17.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_19.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_19.mp3",
+      "transcript": "Could have offered me a swig afore dying.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_bristleback_bristle_rival_19.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_18.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_18.mp3",
+      "transcript": "A beastie after me own heart.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_bristleback_bristle_rival_18.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_20.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_20.mp3",
+      "transcript": "Who's. Doomed. Now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_bristleback_bristle_rival_20.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_21.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_21.mp3",
+      "transcript": "Devil's in the details.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_bristleback_bristle_rival_21.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_52.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_52.mp3",
+      "transcript": "Who's doomed now, eh?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bristleback_bristle_rival_52.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_22.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_22.mp3",
+      "transcript": "Yegh! Doffed you and the kitty both.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_bristleback_bristle_rival_22.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_23.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_23.mp3",
+      "transcript": "Oh, I hate cats, or whatever that bloody thing was.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_bristleback_bristle_rival_23.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_24.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_24.mp3",
+      "transcript": "Your whirly-whatsit can bug off.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_bristleback_bristle_rival_24.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_25.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_25.mp3",
+      "transcript": "Brought you down to earth didn't I, eh?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_bristleback_bristle_rival_25.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_27.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_27.mp3",
+      "transcript": "No need for a rematch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_bristleback_bristle_rival_27.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_28.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_28.mp3",
+      "transcript": "Your tusks were no match for mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_bristleback_bristle_rival_28.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_29.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_29.mp3",
+      "transcript": "You had it coming, Tusk.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bristleback_bristle_rival_29.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_30.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_30.mp3",
+      "transcript": "I been waiting to do that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bristleback_bristle_rival_30.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_32.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_32.mp3",
+      "transcript": "Wasn't a draw that time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_bristleback_bristle_rival_32.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_33.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_33.mp3",
+      "transcript": "Well, that's the end of that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bristleback_bristle_rival_33.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_34.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_34.mp3",
+      "transcript": "Looks like I won the next round.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_bristleback_bristle_rival_34.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_36.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_36.mp3",
+      "transcript": "I expected more from a Fundamental.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_bristleback_bristle_rival_36.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_37.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_37.mp3",
+      "transcript": "For a Fundamental...bah, you was barely a wisp of a fighter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_bristleback_bristle_rival_37.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_38.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_38.mp3",
+      "transcript": "Oy, shut your chimey talking mouth.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_bristleback_bristle_rival_38.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_39.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_39.mp3",
+      "transcript": "Wha... eh, I can't understand a word you just said.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_bristleback_bristle_rival_39.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_40.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_40.mp3",
+      "transcript": "Wha...what's that you said. No, I don't speak chimey bell talk.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_bristleback_bristle_rival_40.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_53.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_53.mp3",
+      "transcript": "No, listen, I cannot understand a word you just said.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bristleback_bristle_rival_53.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_41.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_41.mp3",
+      "transcript": "I thought elementals were stronger than that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_bristleback_bristle_rival_41.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_42.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_42.mp3",
+      "transcript": "Terrorblade? More like terrible with a blade, haha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_rival_42.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_43.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_43.mp3",
+      "transcript": "Handsome and smart? Yeah, Invoker, you had to die, mate.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_bristleback_bristle_rival_43.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_44.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_44.mp3",
+      "transcript": "It's hard being uglier than me, Slardar, but you did pull it off, mate. Hats off to ya.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_bristleback_bristle_rival_44.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_45.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_45.mp3",
+      "transcript": "The only good Keen is a dead Keen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_bristleback_bristle_rival_45.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_48.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_48.mp3",
+      "transcript": "I hate keens.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_bristleback_bristle_rival_48.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_49.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_49.mp3",
+      "transcript": "The Oglodi always put up a good fight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_bristleback_bristle_rival_49.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_50.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_50.mp3",
+      "transcript": "The Oglodi, they don't die easy, I will give em that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_bristleback_bristle_rival_50.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_51.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_51.mp3",
+      "transcript": "You Oglodi fighters is tough, yeah, I admit it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_bristleback_bristle_rival_51.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_firstblood_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_firstblood_01.mp3",
+      "transcript": "Well, if it ain't first bloody blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_bristleback_bristle_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_firstblood_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_firstblood_02.mp3",
+      "transcript": "A little blood? First thing in the morning, Hah Hah haha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bristleback_bristle_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_firstblood_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_firstblood_03.mp3",
+      "transcript": "Well, look who's first.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_bristleback_bristle_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_01.mp3",
+      "transcript": "Let's you me and Tusk throw back a tumbler after this, eh?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bristleback_bristle_ally_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_03.mp3",
+      "transcript": "I'll split that keg with ya when we're through.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bristleback_bristle_ally_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_04.mp3",
+      "transcript": "Hey, you keep that keg handy.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bristleback_bristle_ally_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_05.mp3",
+      "transcript": "Come on, big fella.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_bristleback_bristle_ally_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_06.mp3",
+      "transcript": "Ooh, ain't you a bonnie fair.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_bristleback_bristle_ally_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_07.mp3",
+      "transcript": "That barkeep got us into this, we'll get ourselves out.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_bristleback_bristle_ally_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_08.mp3",
+      "transcript": "Let's put our differences behind us. What do you say?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_bristleback_bristle_ally_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_09.mp3",
+      "transcript": "Tusk, let's partner up on this one.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_bristleback_bristle_ally_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_11.mp3",
+      "transcript": "Looks like it's you and me, Tusk.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_bristleback_bristle_ally_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_12.mp3",
+      "transcript": "Between your tusks and mine, they won't know what hit em.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_bristleback_bristle_ally_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_10.mp3",
+      "transcript": "Now look, we can all fight each other once the killing is done.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bristleback_bristle_ally_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_13.mp3",
+      "transcript": "Hmm, for the Keen Folk, you ain't half bad.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_bristleback_bristle_ally_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_14.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_14.mp3",
+      "transcript": "I'll hit em. You stand there looking small and weak.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_bristleback_bristle_ally_14.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_15.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_15.mp3",
+      "transcript": "I tell you what, it's nice to know an Oglodi's got me back.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_bristleback_bristle_ally_15.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_16.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_16.mp3",
+      "transcript": "Between you and me, we got this lane, Oglodi.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_bristleback_bristle_ally_16.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_18.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_18.mp3",
+      "transcript": "Okay, here's the plan. Look, I'll hit em, and you just stand there looking... small and...and weak.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bristleback_bristle_ally_18.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_01.mp3",
+      "transcript": "That's for me.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_bristleback_bristle_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_02.mp3",
+      "transcript": "Gold for me teeth.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_bristleback_bristle_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_03.mp3",
+      "transcript": "Bash'n grab.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_bristleback_bristle_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_04.mp3",
+      "transcript": "A dash of the honey.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_bristleback_bristle_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_05.mp3",
+      "transcript": "A bit of jangle.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_bristleback_bristle_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_06.mp3",
+      "transcript": "Eh, he didn't need that anyway.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_bristleback_bristle_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_07.mp3",
+      "transcript": "Pilfered proper.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_bristleback_bristle_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_08.mp3",
+      "transcript": "Bash we go.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_bristleback_bristle_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_09.mp3",
+      "transcript": "You're dead.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_bristleback_bristle_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_10.mp3",
+      "transcript": "Flat busted.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_bristleback_bristle_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_11.mp3",
+      "transcript": "Oopsy daisy.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_12.mp3",
+      "transcript": "Dead broke.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_bristleback_bristle_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_13.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_13.mp3",
+      "transcript": "Fat for me purse.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_bristleback_bristle_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_14.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_14.mp3",
+      "transcript": "Tough luck.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bristleback_bristle_lasthit_14.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lasthit_15.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lasthit_15.mp3",
+      "transcript": "Boom!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_bristleback_bristle_lasthit_15.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_21.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_21.mp3",
+      "transcript": "Oh, you fancy it, now do ya?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_bristleback_bristle_attack_21.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_bristleback_bristle_deny_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_bristleback_bristle_deny_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_03.mp3",
+      "transcript": "Uh, uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bristleback_bristle_deny_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_04.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_bristleback_bristle_deny_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_05.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_bristleback_bristle_deny_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_06.mp3",
+      "transcript": "Ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bristleback_bristle_deny_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_07.mp3",
+      "transcript": "I think not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_bristleback_bristle_deny_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_08.mp3",
+      "transcript": "No way.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_deny_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_09.mp3",
+      "transcript": "You may not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_bristleback_bristle_deny_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_10.mp3",
+      "transcript": "I refuse you, heh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bristleback_bristle_deny_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_deny_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_deny_11.mp3",
+      "transcript": "Consider yourself denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bristleback_bristle_deny_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_purch_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_purch_01.mp3",
+      "transcript": "Aha, here we go.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_bristleback_bristle_purch_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_purch_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_purch_02.mp3",
+      "transcript": "Cost more than a bit of honey.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bristleback_bristle_purch_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_purch_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_purch_03.mp3",
+      "transcript": "This better be worth the grubbin.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_bristleback_bristle_purch_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_purch_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_purch_04.mp3",
+      "transcript": "Skint me clean for this?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_bristleback_bristle_purch_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_purch_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_purch_05.mp3",
+      "transcript": "Now here we go.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_bristleback_bristle_purch_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_scepter_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_bristleback_bristle_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_scepter_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_scepter_02.mp3",
+      "transcript": "I tell you what, this'll bash heads pretty like.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_bristleback_bristle_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_blink_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_bristleback_bristle_blink_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_blink_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_blink_02.mp3",
+      "transcript": "Blinkered dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bristleback_bristle_blink_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_blink_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_blink_03.mp3",
+      "transcript": "Blink, and they're dead.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_bristleback_bristle_blink_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_01.mp3",
+      "transcript": "Manta style!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bristleback_bristle_items_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_02.mp3",
+      "transcript": "Helm of the Dominator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_bristleback_bristle_items_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_03.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bristleback_bristle_items_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_04.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_bristleback_bristle_items_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_05.mp3",
+      "transcript": "Yeah, Satanic!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_bristleback_bristle_items_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_06.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bristleback_bristle_items_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_07.mp3",
+      "transcript": "Pipe of Insight.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_bristleback_bristle_items_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_08.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_bristleback_bristle_items_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_items_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_items_09.mp3",
+      "transcript": "Monkey King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_bristleback_bristle_items_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_immort_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_bristleback_bristle_immort_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_immort_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_immort_02.mp3",
+      "transcript": "A good time to fight.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bristleback_bristle_immort_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_bristleback_bristle_death_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_02.mp3",
+      "transcript": "Send me quills, to me mum.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_bristleback_bristle_death_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_03.mp3",
+      "transcript": "Bury me quills down, so's to poke the devil.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bristleback_bristle_death_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_04.mp3",
+      "transcript": "It's toes up, for me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bristleback_bristle_death_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_05.mp3",
+      "transcript": "This ain't how I pictured it.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_bristleback_bristle_death_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_06.mp3",
+      "transcript": "Ah, you bleedin' muck!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_bristleback_bristle_death_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_07.mp3",
+      "transcript": "I chipped a tusk.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bristleback_bristle_death_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_08.mp3",
+      "transcript": "You dirty fighter.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bristleback_bristle_death_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_09.mp3",
+      "transcript": "Oogh, I been better.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_death_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_10.mp3",
+      "transcript": "Is...is that my blood coming out?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_bristleback_bristle_death_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_death_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_death_11.mp3",
+      "transcript": "Ah, that can't be good.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_bristleback_bristle_death_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_01.mp3",
+      "transcript": "Oy, calm down, I just took a quick trip to the bog.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bristleback_bristle_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_02.mp3",
+      "transcript": "Bristlebog again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_bristleback_bristle_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_03.mp3",
+      "transcript": "Let's get back to it.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_04.mp3",
+      "transcript": "Back to work.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_bristleback_bristle_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_05.mp3",
+      "transcript": "Here we go again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_bristleback_bristle_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_06.mp3",
+      "transcript": "This fountain looks familiar.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bristleback_bristle_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_07.mp3",
+      "transcript": "What's this, back again?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_bristleback_bristle_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_08.mp3",
+      "transcript": "Oh, they're a dangerous lot.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_bristleback_bristle_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_10.mp3",
+      "transcript": "The basher is here again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_bristleback_bristle_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_11.mp3",
+      "transcript": "Stop moping, I'm here.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_bristleback_bristle_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_respawn_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_respawn_12.mp3",
+      "transcript": "Oy, stop whining, I'm back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_bristleback_bristle_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_attack_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_attack_08.mp3",
+      "transcript": "Back to it.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_bristleback_bristle_attack_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_fastres_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_fastres_01.mp3",
+      "transcript": "Back at it.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_bristleback_bristle_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_fastres_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_fastres_02.mp3",
+      "transcript": "Don't turn your back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_bristleback_bristle_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_fastres_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_fastres_03.mp3",
+      "transcript": "Look who's back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_bristleback_bristle_fastres_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bottle_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bristleback_bristle_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bottle_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bottle_02.mp3",
+      "transcript": "Bottled.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_bristleback_bristle_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_bottle_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_bottle_03.mp3",
+      "transcript": "Well, I'll just stop the bottle up.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_05.mp3",
+      "transcript": "Don't mind if I do.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_bristleback_bristle_move_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_doubdam_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_bristleback_bristle_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_doubdam_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_doubdam_02.mp3",
+      "transcript": "Twice the bash.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_bristleback_bristle_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_haste_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_bristleback_bristle_haste_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_15.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_15.mp3",
+      "transcript": "Bit of a hurry.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bristleback_bristle_move_15.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_haste_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_haste_02.mp3",
+      "transcript": "Oh, quick now.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_bristleback_bristle_haste_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_illus_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_bristleback_bristle_illus_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_illus_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_illus_02.mp3",
+      "transcript": "The world can't handle three of me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_bristleback_bristle_illus_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_invis_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_bristleback_bristle_invis_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_invis_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_invis_02.mp3",
+      "transcript": "They won't know what hit em.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bristleback_bristle_invis_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_regen_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_bristleback_bristle_regen_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_regen_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_regen_02.mp3",
+      "transcript": "What's the green rune do again?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bristleback_bristle_regen_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_bristleback_bristle_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_04.mp3",
+      "transcript": "No, I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bristleback_bristle_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_07.mp3",
+      "transcript": "It's not time yet, mate.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_bristleback_bristle_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_bristleback_bristle_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_bristleback_bristle_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_bristleback_bristle_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_03.mp3",
+      "transcript": "Oy, not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_bristleback_bristle_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_06.mp3",
+      "transcript": "I. Am not. Ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bristleback_bristle_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_notyet_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_notyet_09.mp3",
+      "transcript": "It. Is not time yet, you get it?!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_bristleback_bristle_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_bristleback_bristle_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_bristleback_bristle_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_07.mp3",
+      "transcript": "Not enough mana, mate.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bristleback_bristle_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_02.mp3",
+      "transcript": "I'm out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_bristleback_bristle_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bristleback_bristle_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_08.mp3",
+      "transcript": "No, I ain't got enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_bristleback_bristle_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_03.mp3",
+      "transcript": "Oy, l-listen, I'm out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_bristleback_bristle_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_bristleback_bristle_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_nomana_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_nomana_09.mp3",
+      "transcript": "Not enough mana, you idiot!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_bristleback_bristle_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_01.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_bristleback_bristle_pain_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_02.mp3",
+      "transcript": "Aagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bristleback_bristle_pain_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_03.mp3",
+      "transcript": "Oy!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bristleback_bristle_pain_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_04.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bristleback_bristle_pain_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_05.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_bristleback_bristle_pain_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_06.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_06.mp3",
+      "transcript": "Aergh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_bristleback_bristle_pain_06.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_07.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_07.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bristleback_bristle_pain_07.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_08.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_bristleback_bristle_pain_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_09.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_09.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bristleback_bristle_pain_09.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_10.mp3",
+      "transcript": "Aagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_bristleback_bristle_pain_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_11.mp3",
+      "transcript": "Ooogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_bristleback_bristle_pain_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_pain_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_pain_12.mp3",
+      "transcript": "Eghoogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bristleback_bristle_pain_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_underattack_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_underattack_01.mp3",
+      "transcript": "Oy, come on, I'm under attack here!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_bristleback_bristle_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_underattack_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_underattack_03.mp3",
+      "transcript": "I'm under attack.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_bristleback_bristle_underattack_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_underattack_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_underattack_02.mp3",
+      "transcript": "Agh! They got the drop on me!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_bristleback_bristle_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rare_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rare_01.mp3",
+      "transcript": "It was a barkeep that got me into this mess. Yeah, I think I'll pay em a visit when this is done.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_bristleback_bristle_rare_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rare_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rare_02.mp3",
+      "transcript": "I'm more than a pretty face.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_bristleback_bristle_rare_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lanemissing_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lanemissing_01.mp3",
+      "transcript": "Top's gone missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_bristleback_bristle_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lanemissing_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lanemissing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_bristleback_bristle_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lanemissing_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lanemissing_03.mp3",
+      "transcript": "Bottom's gone missing, just so's ya know.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_bristleback_bristle_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_thanks_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_bristleback_bristle_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_thanks_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_thanks_02.mp3",
+      "transcript": "Ah, thanks a lot.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_bristleback_bristle_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_thanks_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_thanks_03.mp3",
+      "transcript": "Too kind, you are.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_bristleback_bristle_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_thanks_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_thanks_04.mp3",
+      "transcript": "Much appreciated.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_bristleback_bristle_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_win_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_win_01.mp3",
+      "transcript": "Yessss!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_bristleback_bristle_win_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_win_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_bristleback_bristle_win_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_win_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_win_03.mp3",
+      "transcript": "Aheh hah. It was only a matter of time.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_bristleback_bristle_win_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_win_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_win_04.mp3",
+      "transcript": "I never had a doubt in me mind.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_bristleback_bristle_win_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_ally_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_ally_02.mp3",
+      "transcript": "Oy, oy, oy, save some of that keg for me, will ya, lads?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_bristleback_bristle_ally_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lose_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lose_01.mp3",
+      "transcript": "Oh, bollocks.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bristleback_bristle_lose_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lose_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lose_02.mp3",
+      "transcript": "Oh, defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_bristleback_bristle_lose_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lose_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lose_03.mp3",
+      "transcript": "Aw, well that's the end of that, innit?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_bristleback_bristle_lose_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lose_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lose_04.mp3",
+      "transcript": "Aw no, you've got to be kidding me.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_bristleback_bristle_lose_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_lose_05.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_lose_05.mp3",
+      "transcript": "Oh, no, no, no, no, no.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_bristleback_bristle_lose_05.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_move_12.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_move_12.mp3",
+      "transcript": "Here we go.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_bristleback_bristle_move_12.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_rival_31.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_rival_31.mp3",
+      "transcript": "Ah, now I feel better.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_bristleback_bristle_rival_31.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_failure_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_failure_01.mp3",
+      "transcript": "Bah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_bristleback_bristle_failure_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_failure_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_failure_02.mp3",
+      "transcript": "Doh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_bristleback_bristle_failure_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_failure_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_failure_03.mp3",
+      "transcript": "Oh, sort it out mate, come on.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bristleback_bristle_failure_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_failure_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_failure_04.mp3",
+      "transcript": "Ah, come on.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_bristleback_bristle_failure_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_crumwiz_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_bristleback_bristle_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_shiwiz_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_shiwiz_01.mp3",
+      "transcript": "Ah, Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bristleback_bristle_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_02.mp3",
+      "transcript": "Wooaf.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_bristleback_bristle_anger_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_03.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_03.mp3",
+      "transcript": "Ah, sooo.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_bristleback_bristle_anger_03.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_04.mp3",
+      "transcript": "Bueh, egh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_bristleback_bristle_anger_04.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_08.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_08.mp3",
+      "transcript": "Methm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_bristleback_bristle_anger_08.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_10.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_10.mp3",
+      "transcript": "Woghm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_bristleback_bristle_anger_10.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_anger_11.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_anger_11.mp3",
+      "transcript": "Wmmh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_bristleback_bristle_anger_11.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_happy_01.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_happy_01.mp3",
+      "transcript": "Ooohohehho.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_bristleback_bristle_happy_01.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_happy_02.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_happy_02.mp3",
+      "transcript": "Ooogh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_bristleback_bristle_happy_02.mp3"
+    },
+    {
+      "file": "Vo_bristleback_bristle_happy_04.mp3",
+      "key": "dota2/bristleback/Vo_bristleback_bristle_happy_04.mp3",
+      "transcript": "Oooh, that's lovely days.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_bristleback_bristle_happy_04.mp3"
+    }
+  ]
+}

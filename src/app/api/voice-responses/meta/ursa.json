@@ -1,0 +1,3489 @@
+{
+  "hero": "Ursa",
+  "slug": "ursa",
+  "source": "https://liquipedia.net/dota2/Ursa/Responses",
+  "scrapedAt": "2026-06-17T14:09:08.399Z",
+  "count": 345,
+  "voicelines": [
+    {
+      "file": "Vo_ursa_ursa_spawn_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_01.mp3",
+      "transcript": "Ursa Warrior!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_ursa_ursa_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_02.mp3",
+      "transcript": "I defend what is mine.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_ursa_ursa_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_03.mp3",
+      "transcript": "Come not near the darkwoods where my kindred sleep.",
+      "categories": [
+        "Loadout",
+        "Entering battle",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_ursa_ursa_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_04.mp3",
+      "transcript": "It is my spirit that keeps me safe, and not mere armor.",
+      "categories": [
+        "Loadout",
+        "Entering battle",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_ursa_ursa_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_05.mp3",
+      "transcript": "Fuzzy Wuzzy!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_ursa_ursa_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_06.mp3",
+      "transcript": "R-r-r-r-r-r-r-r-r uuuuuuunuh!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_ursa_ursa_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_07.mp3",
+      "transcript": "R-r-r-r-r-r-r-r-r uuuuuuuuuuuw!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_ursa_ursa_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_08.mp3",
+      "transcript": "Rruuuuw. Rrunff. Hergh-Hrauugh!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_ursa_ursa_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_09.mp3",
+      "transcript": "Hrauuuuuugh!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_ursa_ursa_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_10.mp3",
+      "transcript": "Hraaauuuuuugh!",
+      "categories": [
+        "Loadout",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_ursa_ursa_spawn_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_spawn_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_spawn_11.mp3",
+      "transcript": "Hraauuugh-oooo-hrrooogh!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_ursa_ursa_spawn_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_cast_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_cast_04.mp3",
+      "transcript": "I'll have you in my claws!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ursa_ursa_cast_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_04.mp3",
+      "transcript": "Rrrugh hh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_ursa_ursa_anger_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_inthebag_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_inthebag_01.mp3",
+      "transcript": "My friend, this is truly in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_ursa_ursa_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_inthebag_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_inthebag_03.mp3",
+      "transcript": "To all my cubs and kindred: it is most definitely in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_ursa_ursa_inthebag_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_begin_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_begin_01.mp3",
+      "transcript": "We must meet this threat head-on!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_ursa_ursa_begin_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_ursa_ursa_move_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_ursa_ursa_move_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_03.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ursa_ursa_move_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_04.mp3",
+      "transcript": "Mm-hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_ursa_ursa_move_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_05.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_ursa_ursa_move_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_06.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_ursa_ursa_move_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_07.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_ursa_ursa_move_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_08.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ursa_ursa_move_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_09.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_ursa_ursa_move_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_10.mp3",
+      "transcript": "We will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_ursa_ursa_move_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_11.mp3",
+      "transcript": "Mmm-hmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_ursa_ursa_move_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_12.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_ursa_ursa_move_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_13.mp3",
+      "transcript": "Who calls me?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_ursa_ursa_move_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_15.mp3",
+      "transcript": "Join with me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_ursa_ursa_move_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_16.mp3",
+      "transcript": "For the forest!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ursa_ursa_move_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_17.mp3",
+      "transcript": "Tracks of intruders!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_ursa_ursa_move_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_18.mp3",
+      "transcript": "The enemy is near.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_ursa_ursa_move_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_19.mp3",
+      "transcript": "Seek the foe.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_ursa_ursa_move_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_20.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_20.mp3",
+      "transcript": "Against all strife.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_ursa_ursa_move_20.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_21.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_21.mp3",
+      "transcript": "We fight as one.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ursa_ursa_move_21.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_22.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_22.mp3",
+      "transcript": "Go to!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ursa_ursa_move_22.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_23.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_23.mp3",
+      "transcript": "Set upon them.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_ursa_ursa_move_23.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_24.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_24.mp3",
+      "transcript": "Fiercely now.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_ursa_ursa_move_24.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_25.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_25.mp3",
+      "transcript": "Fangs bared.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_ursa_ursa_move_25.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_26.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_26.mp3",
+      "transcript": "Huu-u-u-hh u-u, I smell something.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_ursa_ursa_move_26.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_27.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_27.mp3",
+      "transcript": "Let them see our teeth.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ursa_ursa_move_27.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_28.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_28.mp3",
+      "transcript": "Set upon them.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ursa_ursa_move_28.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_move_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_move_14.mp3",
+      "transcript": "For the cubs!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_ursa_ursa_move_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_ursa_ursa_attack_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_02.mp3",
+      "transcript": "Come near.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_ursa_ursa_attack_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_03.mp3",
+      "transcript": "I'll rend their flesh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_ursa_ursa_attack_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_04.mp3",
+      "transcript": "Claws out!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_ursa_ursa_attack_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_05.mp3",
+      "transcript": "They're here!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ursa_ursa_attack_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_06.mp3",
+      "transcript": "Take heed!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_ursa_ursa_attack_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_07.mp3",
+      "transcript": "Your blood is mine!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_ursa_ursa_attack_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_08.mp3",
+      "transcript": "Push them back!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ursa_ursa_attack_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_09.mp3",
+      "transcript": "Fall upon them!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_ursa_ursa_attack_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_10.mp3",
+      "transcript": "On notice!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_ursa_ursa_attack_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_11.mp3",
+      "transcript": "Interloper!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_ursa_ursa_attack_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_12.mp3",
+      "transcript": "Interloper.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_ursa_ursa_attack_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_13.mp3",
+      "transcript": "Hraaaauuugh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_ursa_ursa_attack_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_14.mp3",
+      "transcript": "Hraaaauuuuuugh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ursa_ursa_attack_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_15.mp3",
+      "transcript": "Hroooooough!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_ursa_ursa_attack_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_16.mp3",
+      "transcript": "Hrr-r-r-r hraaaagh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_ursa_ursa_attack_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_17.mp3",
+      "transcript": "Hurrr-hraaargh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_ursa_ursa_attack_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_18.mp3",
+      "transcript": "Uurr-auugh f-uaugh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_ursa_ursa_attack_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_attack_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_attack_19.mp3",
+      "transcript": "Arrr h-h-h-h",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_ursa_ursa_attack_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_cast_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_cast_01.mp3",
+      "transcript": "Come no closer!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ursa_ursa_cast_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_cast_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_cast_03.mp3",
+      "transcript": "Hauhh-hhh Behold my fangs, and fear!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_ursa_ursa_cast_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_earthshock_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_earthshock_01.mp3",
+      "transcript": "Cease!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_ursa_ursa_earthshock_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_earthshock_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_earthshock_02.mp3",
+      "transcript": "Cease!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_ursa_ursa_earthshock_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_earthshock_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_earthshock_03.mp3",
+      "transcript": "Stop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_ursa_ursa_earthshock_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_earthshock_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_earthshock_04.mp3",
+      "transcript": "Stay your paws!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_ursa_ursa_earthshock_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_earthshock_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_earthshock_05.mp3",
+      "transcript": "Lose your footing?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ursa_ursa_earthshock_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_03.mp3",
+      "transcript": "I'll rip you apart!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_ursa_ursa_overpower_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_04.mp3",
+      "transcript": "I'll rip you apart!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ursa_ursa_overpower_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_05.mp3",
+      "transcript": "Fear my claws!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_ursa_ursa_overpower_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_06.mp3",
+      "transcript": "Digging in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_ursa_ursa_overpower_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_07.mp3",
+      "transcript": "I'll dig right in.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_ursa_ursa_overpower_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_01.mp3",
+      "transcript": "Hooouuu!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_ursa_ursa_enrage_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_02.mp3",
+      "transcript": "Hoooouuuooooooooaaauuuuaauuogh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ursa_ursa_enrage_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_03.mp3",
+      "transcript": "Hoouuuuogh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_ursa_ursa_enrage_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_04.mp3",
+      "transcript": "Hrraauugh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ursa_ursa_enrage_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_05.mp3",
+      "transcript": "Mauling!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_ursa_ursa_enrage_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_06.mp3",
+      "transcript": "You could use some new scars!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_ursa_ursa_enrage_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_enrage_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_enrage_07.mp3",
+      "transcript": "My life shall take yours!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_ursa_ursa_enrage_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_01.mp3",
+      "transcript": "Hhruuu-raugh r-r-r. Uuuuraugh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ursa_ursa_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_03.mp3",
+      "transcript": "Hrrooough hruuuuuuuuagh haugh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ursa_ursa_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_04.mp3",
+      "transcript": "Dormant powers stir.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_ursa_ursa_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_05.mp3",
+      "transcript": "Ah! That's better.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_ursa_ursa_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_06.mp3",
+      "transcript": "Warm as the spring sunshine.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_ursa_ursa_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_07.mp3",
+      "transcript": "Sweet as honey.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ursa_ursa_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_08.mp3",
+      "transcript": "Ah. Strength rises from within.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_ursa_ursa_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_09.mp3",
+      "transcript": "Ah! The wakening from within.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_ursa_ursa_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_10.mp3",
+      "transcript": "Hah hah hah hah hah hah hah hah hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_ursa_ursa_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_11.mp3",
+      "transcript": "He he he he heh heh heh heh",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_ursa_ursa_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_12.mp3",
+      "transcript": "Hhuh huh huh huh huh huh huh huh huh",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_ursa_ursa_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_13.mp3",
+      "transcript": "Hhuh huh, heh heh huh huh huh huh huh hhhh aaaah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_ursa_ursa_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_01.mp3",
+      "transcript": "You came too close to what is mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_ursa_ursa_kill_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_02.mp3",
+      "transcript": "Take this warning to heart.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_ursa_ursa_kill_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_03.mp3",
+      "transcript": "You and yours will not prevail.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_ursa_ursa_kill_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_04.mp3",
+      "transcript": "Your cubs are orphaned now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_ursa_ursa_kill_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_05.mp3",
+      "transcript": "I go now to the river, to wash your blood from my claws.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_ursa_ursa_kill_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_07.mp3",
+      "transcript": "How is it you heard not my warnings?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_ursa_ursa_kill_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_08.mp3",
+      "transcript": "There was not much fight in you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_ursa_ursa_kill_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_09.mp3",
+      "transcript": "I doubt your kin will weep for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_ursa_ursa_kill_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_10.mp3",
+      "transcript": "A loss so small, the world will hardly notice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_ursa_ursa_kill_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_11.mp3",
+      "transcript": "I was born to war. You died to it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_ursa_ursa_kill_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_13.mp3",
+      "transcript": "The world is safer now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_ursa_ursa_kill_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_14.mp3",
+      "transcript": "Rent asunder.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ursa_ursa_kill_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_15.mp3",
+      "transcript": "Consider yourself lucky: a Denmother would have done much worse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_ursa_ursa_kill_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_16.mp3",
+      "transcript": "You should see my wife.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_ursa_ursa_kill_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_17.mp3",
+      "transcript": "Huh huh huh huh",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_ursa_ursa_kill_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_18.mp3",
+      "transcript": "Hooh heh huh huh huh huh huh hoh hoh hoh hoh",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_ursa_ursa_kill_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_19.mp3",
+      "transcript": "Hhh uuuu huh, huh huh huh huh huh huh huh",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_ursa_ursa_kill_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_20.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_20.mp3",
+      "transcript": "Hh hu hu hah hah hah hah",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_ursa_ursa_kill_20.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_kill_21.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_kill_21.mp3",
+      "transcript": "Huh hah hah, hah! Hu-hah hah hah hah hah heh heh heh heh heh heh",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ursa_ursa_kill_21.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_01.mp3",
+      "transcript": "Hh hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_ursa_ursa_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_02.mp3",
+      "transcript": "Mkmph.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_ursa_ursa_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_03.mp3",
+      "transcript": "Mkmphh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ursa_ursa_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_04.mp3",
+      "transcript": "Fff heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ursa_ursa_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_05.mp3",
+      "transcript": "He-fff heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ursa_ursa_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_06.mp3",
+      "transcript": "Huh huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_ursa_ursa_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_07.mp3",
+      "transcript": "Huh huh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_ursa_ursa_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_08.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_ursa_ursa_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_09.mp3",
+      "transcript": "Huh-huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_ursa_ursa_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_10.mp3",
+      "transcript": "Huh huh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_ursa_ursa_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_11.mp3",
+      "transcript": "Hh huh huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_ursa_ursa_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_12.mp3",
+      "transcript": "Huuh huh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ursa_ursa_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_13.mp3",
+      "transcript": "Huh huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_ursa_ursa_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_14.mp3",
+      "transcript": "Heh huh huh huh huh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_ursa_ursa_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_15.mp3",
+      "transcript": "Heh-haah hah-hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ursa_ursa_laugh_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_16.mp3",
+      "transcript": "Hah! Hah! Hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_ursa_ursa_laugh_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_17.mp3",
+      "transcript": "Hah-haah hah hah hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ursa_ursa_laugh_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_18.mp3",
+      "transcript": "He-heh hah haaah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ursa_ursa_laugh_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_20.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_20.mp3",
+      "transcript": "Hah! Hah! Hah-hah-hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ursa_ursa_laugh_20.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_01.mp3",
+      "transcript": "For those who bring Doom, I have Doom in return.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_ursa_ursa_rival_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_02.mp3",
+      "transcript": "Those who called Axe a bear of a man, have never met me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_ursa_ursa_rival_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_03.mp3",
+      "transcript": "I was not your Beast to Master.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_ursa_ursa_rival_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_04.mp3",
+      "transcript": "You should have stayed in your cold den, Broodmother.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_ursa_ursa_rival_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_23.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_23.mp3",
+      "transcript": "Broodmother, you should have stayed in your cold den.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_ursa_ursa_rival_23.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_05.mp3",
+      "transcript": "I've driven off Crystal Maiden, as spring drives off winter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_ursa_ursa_rival_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_06.mp3",
+      "transcript": "Tidehunter, if you'll not be wanting that fish, it will make me a very small snack.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ursa_ursa_rival_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_09.mp3",
+      "transcript": "I am sad Enchantress, that this rift has been driven between us.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_ursa_ursa_rival_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_10.mp3",
+      "transcript": "I'll sharpen my claws in your bark, Prophet!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_ursa_ursa_rival_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_11.mp3",
+      "transcript": "The forest rejects you, Chen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_ursa_ursa_rival_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_12.mp3",
+      "transcript": "Keep your filthy Alchemy away from these waters!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_ursa_ursa_rival_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_13.mp3",
+      "transcript": "Batrider, I prevent forest fires.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_ursa_ursa_rival_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_14.mp3",
+      "transcript": "Lycan, the forces of nature abhor impurities.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_ursa_ursa_rival_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_16.mp3",
+      "transcript": "Oh Lone Druid, you almost had me fooled.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_ursa_ursa_rival_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_18.mp3",
+      "transcript": "Dragon Knight, you squander a great gift.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_ursa_ursa_rival_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_19.mp3",
+      "transcript": "Cubs! Rest in tranquility: the Night Stalker is no more.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ursa_ursa_rival_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_21.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_21.mp3",
+      "transcript": "Mock not nature's form, Spirit Breaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ursa_ursa_rival_21.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_22.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_22.mp3",
+      "transcript": "The seas are your domain Kunkka, but the forest is mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_ursa_ursa_rival_22.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_25.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_25.mp3",
+      "transcript": "I fear not the cold, Lich. It makes me warm and drowsy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ursa_ursa_rival_25.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_26.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_26.mp3",
+      "transcript": "Drow, I did not give you permission to stalk these woods.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ursa_ursa_rival_26.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_first_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_first_01.mp3",
+      "transcript": "Hah-hah! My claws are red with the gore of first blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ursa_ursa_first_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_01.mp3",
+      "transcript": "Nature's Prophet, your presence foretells our victory.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_ursa_ursa_ally_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_03.mp3",
+      "transcript": "Ah, the Lone Druid. You are among allies, and alone no longer.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_ursa_ursa_ally_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_06.mp3",
+      "transcript": "The forest seems brighter with you here, Enchantress.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ursa_ursa_ally_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_05.mp3",
+      "transcript": "Help us shatter them, Spirit Breaker!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ursa_ursa_ally_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_07.mp3",
+      "transcript": "The breeze said you would aid us, Windrunner.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ursa_ursa_ally_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_ally_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_ally_08.mp3",
+      "transcript": "With you, Tiny, I foresee a landslide victory.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_ursa_ursa_ally_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_01.mp3",
+      "transcript": "Gold and sweet.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_ursa_ursa_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_02.mp3",
+      "transcript": "Honey from the comb.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_ursa_ursa_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_03.mp3",
+      "transcript": "Another swatted down.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_ursa_ursa_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_04.mp3",
+      "transcript": "I merely cuffed you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_ursa_ursa_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_05.mp3",
+      "transcript": "Trinkets.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_ursa_ursa_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_06.mp3",
+      "transcript": "Trifles.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_ursa_ursa_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_07.mp3",
+      "transcript": "Mmmm!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ursa_ursa_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lasthit_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lasthit_08.mp3",
+      "transcript": "Mtlap tlap, not bad! Sllleup tlap tlap tlap.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ursa_ursa_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_27.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_27.mp3",
+      "transcript": "Shame on you Lone Druid, for putting our cubs in harm's way.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_ursa_ursa_rival_27.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_28.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_28.mp3",
+      "transcript": "Shame on you Lone Druid, for putting our kin in harm's way.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_ursa_ursa_rival_28.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_29.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_29.mp3",
+      "transcript": "Lone Druid, his death is on your head.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_ursa_ursa_rival_29.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_rival_30.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_rival_30.mp3",
+      "transcript": "Lone Druid, kindred killing grieves me greatly.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_ursa_ursa_rival_30.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_ursa_ursa_deny_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_ursa_ursa_deny_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_03.mp3",
+      "transcript": "Uh-uuh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_ursa_ursa_deny_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_04.mp3",
+      "transcript": "Hurr-huugh-hrrr-harr-hhrhmm-hmm-hmm",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_ursa_ursa_deny_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_06.mp3",
+      "transcript": "Hrr-hrmm-hrr-hrgh-hargh-hh-hurgh-hh",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_ursa_ursa_deny_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_07.mp3",
+      "transcript": "Rrrou-hrr-hh, rrou-hh-hh hmm-hh",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_ursa_ursa_deny_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_08.mp3",
+      "transcript": "Away from there!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ursa_ursa_deny_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_09.mp3",
+      "transcript": "Get back!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_ursa_ursa_deny_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_10.mp3",
+      "transcript": "Get away, you!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ursa_ursa_deny_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_11.mp3",
+      "transcript": "This is ours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ursa_ursa_deny_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_12.mp3",
+      "transcript": "Look to your own!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_ursa_ursa_deny_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_13.mp3",
+      "transcript": "Ours! Not yours!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_ursa_ursa_deny_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_14.mp3",
+      "transcript": "Hhuh-huh-hah-hah-hah-hah, rrr",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_ursa_ursa_deny_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_15.mp3",
+      "transcript": "Hh-hhuh huuuh huuuh huuuh",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_ursa_ursa_deny_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_16.mp3",
+      "transcript": "Haah huh huh huh huh huh",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_ursa_ursa_deny_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_17.mp3",
+      "transcript": "Hh-ah hah hah hah hah hah hah",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_ursa_ursa_deny_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_deny_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_deny_18.mp3",
+      "transcript": "Hah hah-hah hah hah hah haah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ursa_ursa_deny_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_purch_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_purch_01.mp3",
+      "transcript": "Ah, a pleasure to hold in my paws!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ursa_ursa_purch_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_purch_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_purch_02.mp3",
+      "transcript": "I've been wanting to sink my claws into this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_ursa_ursa_purch_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_purch_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_purch_03.mp3",
+      "transcript": "For this I saved many a winter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ursa_ursa_purch_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_scepter_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_scepter_01.mp3",
+      "transcript": "Ah! Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ursa_ursa_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_scepter_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_scepter_02.mp3",
+      "transcript": "The season for scepter has arrived.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_ursa_ursa_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_blink_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_blink_01.mp3",
+      "transcript": "Blink Dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_ursa_ursa_blink_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_blink_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_blink_02.mp3",
+      "transcript": "I'll move sprightly as a fawn.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_ursa_ursa_blink_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_blink_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_blink_03.mp3",
+      "transcript": "A dagger sharper than my claws.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ursa_ursa_blink_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_01.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ursa_ursa_items_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_02.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_ursa_ursa_items_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_03.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_ursa_ursa_items_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_04.mp3",
+      "transcript": "Shadow Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_ursa_ursa_items_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_05.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ursa_ursa_items_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_06.mp3",
+      "transcript": "Linken's Sphere.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_ursa_ursa_items_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_07.mp3",
+      "transcript": "Behold Vladmir. In my claws, Roshan is undone.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ursa_ursa_items_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_09.mp3",
+      "transcript": "Behold the offering. In my claws, Roshan is undone.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ursa_ursa_items_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_10.mp3",
+      "transcript": "Roshan shall bow to me!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_ursa_ursa_items_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_items_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_items_11.mp3",
+      "transcript": "Roshan! I come to reclaim what you stole!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_ursa_ursa_items_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_immort_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_ursa_ursa_immort_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_immort_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_immort_02.mp3",
+      "transcript": "The spirit of the first bear burns immortal in me.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ursa_ursa_immort_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_ursa_ursa_death_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_02.mp3",
+      "transcript": "Noo-ooogh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_ursa_ursa_death_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_03.mp3",
+      "transcript": "Eugh oooo",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_ursa_ursa_death_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_05.mp3",
+      "transcript": "Death, swarms over me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_ursa_ursa_death_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_06.mp3",
+      "transcript": "I join hh-hh the wild spirits.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_ursa_ursa_death_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_07.mp3",
+      "transcript": "I leave the woods hh unguarded.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_ursa_ursa_death_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_08.mp3",
+      "transcript": "My last… defense.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_ursa_ursa_death_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_10.mp3",
+      "transcript": "You, have no honor.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ursa_ursa_death_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_11.mp3",
+      "transcript": "I only go, to sleep.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_ursa_ursa_death_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_14.mp3",
+      "transcript": "Winter, without end.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_ursa_ursa_death_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_18.mp3",
+      "transcript": "Spare my cubs. I beg of you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_ursa_ursa_death_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_20.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_20.mp3",
+      "transcript": "Do not mourn me, children.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_ursa_ursa_death_20.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_22.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_22.mp3",
+      "transcript": "A failed defense.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_ursa_ursa_death_22.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_death_25.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_death_25.mp3",
+      "transcript": "Fuzzy wuzzy had no… hhuu oooh",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_ursa_ursa_death_25.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_01.mp3",
+      "transcript": "I thought I saw my death among the trees.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_ursa_ursa_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_02.mp3",
+      "transcript": "I must not sleep until the threat is gone.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_ursa_ursa_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_03.mp3",
+      "transcript": "With a fierce heart, I rejoin the fray.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_ursa_ursa_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_04.mp3",
+      "transcript": "A short winter's nap.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_ursa_ursa_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_05.mp3",
+      "transcript": "I hear the spirits calling me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_ursa_ursa_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_06.mp3",
+      "transcript": "Does the battle still rage?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ursa_ursa_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_07.mp3",
+      "transcript": "Fear not my kin, for I come to your aid.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_ursa_ursa_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_08.mp3",
+      "transcript": "Ah! Back among friends.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ursa_ursa_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_10.mp3",
+      "transcript": "To be so chosen is an honor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_ursa_ursa_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_11.mp3",
+      "transcript": "My hibernation ends.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_ursa_ursa_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_12.mp3",
+      "transcript": "Is it spring already?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_ursa_ursa_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_14.mp3",
+      "transcript": "Augh, oooooouuugh, hhhw",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_ursa_ursa_respawn_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_15.mp3",
+      "transcript": "Uuuurrough huurgh mtlap mtlap, ourghh hhh uh",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_ursa_ursa_respawn_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_16.mp3",
+      "transcript": "Urrgh hh Urgh hh! Ourgh oourgh! R-r-r ooughhr hr hhr urgh.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_ursa_ursa_respawn_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_respawn_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_respawn_13.mp3",
+      "transcript": "Fuzzy wuzzy returns!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_ursa_ursa_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_laugh_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_laugh_19.mp3",
+      "transcript": "Huh hah hah hah hah hah hah haaah!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_ursa_ursa_laugh_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_fastres_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_fastres_01.mp3",
+      "transcript": "After a little sleep, I rise renewed.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_ursa_ursa_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_fastres_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_fastres_02.mp3",
+      "transcript": "After a little sleep, I rise renewed.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_ursa_ursa_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_bottle_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_bottle_01.mp3",
+      "transcript": "Abide, like a mother in her den.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ursa_ursa_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_bottle_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_bottle_02.mp3",
+      "transcript": "This can wait a bit.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_ursa_ursa_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_bottle_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_bottle_03.mp3",
+      "transcript": "Why use it all at once?",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ursa_ursa_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_overpower_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_overpower_01.mp3",
+      "transcript": "Hrr-r-r-r-r I will rip you apart!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_ursa_ursa_overpower_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_doubdam_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_ursa_ursa_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_doubdam_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_doubdam_02.mp3",
+      "transcript": "Slash and rend once, and then again.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_ursa_ursa_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_haste_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ursa_ursa_haste_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_haste_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_haste_02.mp3",
+      "transcript": "Swiftly, through forest shade.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_ursa_ursa_haste_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_illus_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ursa_ursa_illus_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_illus_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_illus_02.mp3",
+      "transcript": "It is good to be among my kin.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_ursa_ursa_illus_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_invis_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ursa_ursa_invis_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_invis_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_invis_02.mp3",
+      "transcript": "Camouflaged in the forest shade.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_ursa_ursa_invis_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_regen_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_ursa_ursa_regen_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_regen_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_regen_02.mp3",
+      "transcript": "We have a special way of recovering our strength.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_ursa_ursa_regen_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_ursa_ursa_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_ursa_ursa_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_ursa_ursa_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_ursa_ursa_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_ursa_ursa_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ursa_ursa_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_ursa_ursa_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_ursa_ursa_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_notyet_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_ursa_ursa_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ursa_ursa_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_ursa_ursa_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_ursa_ursa_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ursa_ursa_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_ursa_ursa_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_ursa_ursa_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_ursa_ursa_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ursa_ursa_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_nomana_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ursa_ursa_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_01.mp3",
+      "transcript": "Hhr Oouuuurgh! Oooouuaarugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_ursa_ursa_pain_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_02.mp3",
+      "transcript": "Auuurgh! Auuurgh! Auuuuuurgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_ursa_ursa_pain_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_03.mp3",
+      "transcript": "Auuuuurrgh! Ooouurgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_ursa_ursa_pain_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_04.mp3",
+      "transcript": "Ouu-uuugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_ursa_ursa_pain_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_05.mp3",
+      "transcript": "Oouurruh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_ursa_ursa_pain_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_06.mp3",
+      "transcript": "Ooouurgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_ursa_ursa_pain_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_07.mp3",
+      "transcript": "Oooor!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ursa_ursa_pain_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_08.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ursa_ursa_pain_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_09.mp3",
+      "transcript": "Urgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_ursa_ursa_pain_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_10.mp3",
+      "transcript": "Eugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_ursa_ursa_pain_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_11.mp3",
+      "transcript": "Orgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_ursa_ursa_pain_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_12.mp3",
+      "transcript": "Oogh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_ursa_ursa_pain_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_13.mp3",
+      "transcript": "Tchurgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ursa_ursa_pain_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_14.mp3",
+      "transcript": "Tchrr!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_ursa_ursa_pain_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_15.mp3",
+      "transcript": "Urr!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_ursa_ursa_pain_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_16.mp3",
+      "transcript": "Ufgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_ursa_ursa_pain_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_17.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_ursa_ursa_pain_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_18.mp3",
+      "transcript": "Urfgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_ursa_ursa_pain_18.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_19.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_19.mp3",
+      "transcript": "Ough!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ursa_ursa_pain_19.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_20.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_20.mp3",
+      "transcript": "Ua!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_ursa_ursa_pain_20.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_21.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_21.mp3",
+      "transcript": "Augh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_ursa_ursa_pain_21.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_22.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_22.mp3",
+      "transcript": "Uugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_ursa_ursa_pain_22.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_23.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_23.mp3",
+      "transcript": "Oough!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_ursa_ursa_pain_23.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_24.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_24.mp3",
+      "transcript": "Aaagh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_ursa_ursa_pain_24.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_25.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_25.mp3",
+      "transcript": "Uuurgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_ursa_ursa_pain_25.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_26.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_26.mp3",
+      "transcript": "Oouurrgh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_ursa_ursa_pain_26.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_27.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_27.mp3",
+      "transcript": "Urff!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_ursa_ursa_pain_27.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_28.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_28.mp3",
+      "transcript": "Harr rruff",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_ursa_ursa_pain_28.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_pain_29.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_pain_29.mp3",
+      "transcript": "Hrrrr",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_ursa_ursa_pain_29.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_underattack_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_ursa_ursa_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_levelup_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_levelup_02.mp3",
+      "transcript": "Huuuu oouuu h-huuugh. Mtlap mtlap Hrrruugh r-r-r-r.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_ursa_ursa_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_thanks_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_thanks_01.mp3",
+      "transcript": "My thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ursa_ursa_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_thanks_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_thanks_02.mp3",
+      "transcript": "That was kind of you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_ursa_ursa_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_win_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ursa_ursa_win_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_win_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_ursa_ursa_win_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_win_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_win_03.mp3",
+      "transcript": "Our dens are safe again from strife!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_ursa_ursa_win_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lose_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lose_01.mp3",
+      "transcript": "No! It can't be!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ursa_ursa_lose_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lose_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_ursa_ursa_lose_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_lose_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_lose_03.mp3",
+      "transcript": "No! We shall be slaughtered in our dens!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ursa_ursa_lose_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_01.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_ursa_ursa_happy_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_04.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_04.mp3",
+      "transcript": "Hoorhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_ursa_ursa_happy_04.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_05.mp3",
+      "transcript": "Hoouuh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_ursa_ursa_happy_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_failure_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_failure_01.mp3",
+      "transcript": "My claws are dulled.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_ursa_ursa_failure_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_failure_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_failure_02.mp3",
+      "transcript": "A poor defense.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_ursa_ursa_failure_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_failure_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_failure_03.mp3",
+      "transcript": "I deserve to go feral.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_ursa_ursa_failure_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_crumwiz_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_crumwiz_01.mp3",
+      "transcript": "Crummy wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ursa_ursa_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_shiwiz_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ursa_ursa_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_01.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_01.mp3",
+      "transcript": "R-r-r-r-r-r-r-r-r-r-r rrrrrrrugh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ursa_ursa_anger_01.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_02.mp3",
+      "transcript": "Hhrrgh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_ursa_ursa_anger_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_03.mp3",
+      "transcript": "Rrrr hh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_ursa_ursa_anger_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_05.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_05.mp3",
+      "transcript": "Urrgh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ursa_ursa_anger_05.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_06.mp3",
+      "transcript": "Tchagh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_ursa_ursa_anger_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_07.mp3",
+      "transcript": "Rrgh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_ursa_ursa_anger_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_08.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_08.mp3",
+      "transcript": "Fff rugh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_ursa_ursa_anger_08.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_09.mp3",
+      "transcript": "Hrr r-r rrgh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_ursa_ursa_anger_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_10.mp3",
+      "transcript": "Hhhhrgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_ursa_ursa_anger_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_11.mp3",
+      "transcript": "Tcharr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_ursa_ursa_anger_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_13.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_13.mp3",
+      "transcript": "Hrrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ursa_ursa_anger_13.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_14.mp3",
+      "transcript": "Hr-r-r-r-r-r-r",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ursa_ursa_anger_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_15.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_15.mp3",
+      "transcript": "Hrrrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_ursa_ursa_anger_15.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_anger_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_anger_16.mp3",
+      "transcript": "Hrrrrrr r-r-r-r-r",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_ursa_ursa_anger_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_02.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_02.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_ursa_ursa_happy_02.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_03.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_03.mp3",
+      "transcript": "houh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_ursa_ursa_happy_03.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_06.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_06.mp3",
+      "transcript": "Hhuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_ursa_ursa_happy_06.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_07.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_07.mp3",
+      "transcript": "Oah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ursa_ursa_happy_07.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_09.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_09.mp3",
+      "transcript": "Ouah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_ursa_ursa_happy_09.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_10.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_10.mp3",
+      "transcript": "Better.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_ursa_ursa_happy_10.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_11.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_11.mp3",
+      "transcript": "Hhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_ursa_ursa_happy_11.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_12.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_12.mp3",
+      "transcript": "Euaaah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ursa_ursa_happy_12.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_14.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_14.mp3",
+      "transcript": "Ooaaah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_ursa_ursa_happy_14.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_16.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_16.mp3",
+      "transcript": "Haaaah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_ursa_ursa_happy_16.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_17.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_17.mp3",
+      "transcript": "Hoooh-uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ursa_ursa_happy_17.mp3"
+    },
+    {
+      "file": "Vo_ursa_ursa_happy_18.mp3",
+      "key": "dota2/ursa/Vo_ursa_ursa_happy_18.mp3",
+      "transcript": "Hbmmm haah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ursa_ursa_happy_18.mp3"
+    }
+  ]
+}

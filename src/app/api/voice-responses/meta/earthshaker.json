@@ -1,0 +1,2501 @@
+{
+  "hero": "Earthshaker",
+  "slug": "earthshaker",
+  "source": "https://liquipedia.net/dota2/Earthshaker/Responses",
+  "scrapedAt": "2026-06-17T13:22:22.425Z",
+  "count": 247,
+  "voicelines": [
+    {
+      "file": "Vo_earthshaker_erth_spawn_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_01.mp3",
+      "transcript": "Earthshaker!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_earthshaker_erth_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_spawn_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_02.mp3",
+      "transcript": "Earthshaker here!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_earthshaker_erth_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_spawn_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_03.mp3",
+      "transcript": "Feel the earth shake!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_earthshaker_erth_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_spawn_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_04.mp3",
+      "transcript": "Quiver and quake!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_earthshaker_erth_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_spawn_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_05.mp3",
+      "transcript": "Shake it!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_earthshaker_erth_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_spawn_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_spawn_06.mp3",
+      "transcript": "Grounded!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_earthshaker_erth_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_battlebegins_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_battlebegins_01.mp3",
+      "transcript": "Time to shake things up and see where they settle.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_earthshaker_erth_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_06.mp3",
+      "transcript": "Let's shake things up!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_earthshaker_erth_move_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_09.mp3",
+      "transcript": "The earth moves under my feet!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_earthshaker_erth_move_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_03.mp3",
+      "transcript": "Shake it and take it!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_earthshaker_erth_attack_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_07.mp3",
+      "transcript": "Feel the Earth move!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_earthshaker_erth_attack_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_08.mp3",
+      "transcript": "I'm gonna pound you!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_earthshaker_erth_attack_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_02.mp3",
+      "transcript": "Ya!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_earthshaker_erth_anger_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_inthebag_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_earthshaker_erth_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_inthebag_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_inthebag_02.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_earthshaker_erth_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_inthebag_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_inthebag_03.mp3",
+      "transcript": "It's never been more in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_earthshaker_erth_inthebag_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_cast_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_cast_01.mp3",
+      "transcript": "It's shake-time!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_earthshaker_erth_cast_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_01.mp3",
+      "transcript": "Oh yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_earthshaker_erth_move_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_02.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_earthshaker_erth_move_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_03.mp3",
+      "transcript": "Move it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_earthshaker_erth_move_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_04.mp3",
+      "transcript": "Onward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_earthshaker_erth_move_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_05.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_earthshaker_erth_move_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_07.mp3",
+      "transcript": "Covering ground.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_earthshaker_erth_move_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_10.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_earthshaker_erth_move_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_11.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_11.mp3",
+      "transcript": "Oh yes…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_earthshaker_erth_move_11.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_12.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_12.mp3",
+      "transcript": "Moving…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_earthshaker_erth_move_12.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_13.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_13.mp3",
+      "transcript": "Let's roll…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_earthshaker_erth_move_13.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_14.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_14.mp3",
+      "transcript": "Yes indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_earthshaker_erth_move_14.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_15.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_15.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_earthshaker_erth_move_15.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_16.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_16.mp3",
+      "transcript": "Bass and tremble!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_earthshaker_erth_move_16.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_move_17.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_move_17.mp3",
+      "transcript": "Very good.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_earthshaker_erth_move_17.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_01.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_earthshaker_erth_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_02.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_earthshaker_erth_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_03.mp3",
+      "transcript": "Uh huh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_earthshaker_erth_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_04.mp3",
+      "transcript": "Yeh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_earthshaker_erth_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_05.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_earthshaker_erth_acknow_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_06.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_earthshaker_erth_acknow_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_acknow_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_acknow_07.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_earthshaker_erth_acknow_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_earthshaker_erth_attack_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_02.mp3",
+      "transcript": "Let the earth quake!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_earthshaker_erth_attack_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_04.mp3",
+      "transcript": "Tremble!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_earthshaker_erth_attack_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_05.mp3",
+      "transcript": "Shakedown!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_earthshaker_erth_attack_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_attack_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_attack_06.mp3",
+      "transcript": "Down you go!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_earthshaker_erth_attack_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_cast_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_cast_02.mp3",
+      "transcript": "It's my time.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_earthshaker_erth_cast_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_cast_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_cast_03.mp3",
+      "transcript": "The time has come.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_earthshaker_erth_cast_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_cast_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_cast_04.mp3",
+      "transcript": "The time you've all been waiting for.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_earthshaker_erth_cast_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_cast_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_cast_05.mp3",
+      "transcript": "The time has come.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_earthshaker_erth_cast_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_01.mp3",
+      "transcript": "Quake and crack!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_earthshaker_erth_ability_fissure_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_02.mp3",
+      "transcript": "Earth, gape!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_earthshaker_erth_ability_fissure_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_03.mp3",
+      "transcript": "They call me the Fissure Man!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_earthshaker_erth_ability_fissure_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_earthshaker_erth_ability_fissure_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_05.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_earthshaker_erth_ability_fissure_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_06.mp3",
+      "transcript": "Mmoh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_earthshaker_erth_ability_fissure_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_07.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_earthshaker_erth_ability_fissure_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_08.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_earthshaker_erth_ability_fissure_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_09.mp3",
+      "transcript": "Fissure!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_earthshaker_erth_ability_fissure_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_10.mp3",
+      "transcript": "Fissure!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_earthshaker_erth_ability_fissure_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_fissure_11.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_fissure_11.mp3",
+      "transcript": "Fissure!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_earthshaker_erth_ability_fissure_11.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_enchant_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_enchant_01.mp3",
+      "transcript": "Enchant!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_earthshaker_erth_ability_enchant_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_enchant_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_enchant_02.mp3",
+      "transcript": "Ground pound!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_earthshaker_erth_ability_enchant_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_06.mp3",
+      "transcript": "Slammin'…?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_earthshaker_erth_ability_echo_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_07.mp3",
+      "transcript": "Echo Slam…?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_earthshaker_erth_ability_echo_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_01.mp3",
+      "transcript": "Slammin'!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_earthshaker_erth_ability_echo_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_02.mp3",
+      "transcript": "Echo Slam!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_earthshaker_erth_ability_echo_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_04.mp3",
+      "transcript": "Slammin'!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_earthshaker_erth_ability_echo_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_05.mp3",
+      "transcript": "Slammin'!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_earthshaker_erth_ability_echo_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_ability_echo_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_ability_echo_03.mp3",
+      "transcript": "Chaos Dunk!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_earthshaker_erth_ability_echo_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_01.mp3",
+      "transcript": "Stronger by an order of magnitude!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_earthshaker_erth_level_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_02.mp3",
+      "transcript": "My strength increases!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_earthshaker_erth_level_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_03.mp3",
+      "transcript": "More power to me!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_earthshaker_erth_level_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_04.mp3",
+      "transcript": "And the earth moves.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_earthshaker_erth_level_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_05.mp3",
+      "transcript": "I'll shake them to their cores!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_earthshaker_erth_level_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_06.mp3",
+      "transcript": "I am greatly moved.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_earthshaker_erth_level_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_07.mp3",
+      "transcript": "My heart is pounding.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_earthshaker_erth_level_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_08.mp3",
+      "transcript": "Did you feel that?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_earthshaker_erth_level_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_level_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_level_09.mp3",
+      "transcript": "I quake with power.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_earthshaker_erth_level_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_invis_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_invis_02.mp3",
+      "transcript": "No one sees an earthquake coming.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_earthshaker_erth_invis_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_01.mp3",
+      "transcript": "Back to earth!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_earthshaker_erth_kill_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_02.mp3",
+      "transcript": "Earth take you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_earthshaker_erth_kill_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_03.mp3",
+      "transcript": "To the dust return.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_earthshaker_erth_kill_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_04.mp3",
+      "transcript": "Shake-down!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_earthshaker_erth_kill_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_05.mp3",
+      "transcript": "Return to the earth.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_earthshaker_erth_kill_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_06.mp3",
+      "transcript": "Be still…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_earthshaker_erth_kill_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_07.mp3",
+      "transcript": "You're no great shakes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_earthshaker_erth_kill_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_08.mp3",
+      "transcript": "It was your own damn fault.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_earthshaker_erth_kill_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_09.mp3",
+      "transcript": "That was no shock.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_earthshaker_erth_kill_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_10.mp3",
+      "transcript": "It's a matter of Magnitude.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_earthshaker_erth_kill_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_kill_11.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_kill_11.mp3",
+      "transcript": "Don't take that magnitude with me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_earthshaker_erth_kill_11.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_01.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_earthshaker_erth_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_02.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_earthshaker_erth_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_earthshaker_erth_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_04.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_earthshaker_erth_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_05.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_earthshaker_erth_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_06.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_earthshaker_erth_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_07.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_earthshaker_erth_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_09.mp3",
+      "transcript": "Hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_earthshaker_erth_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_10.mp3",
+      "transcript": "Hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_earthshaker_erth_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_01.mp3",
+      "transcript": "Tiny, your name is still too big for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_earthshaker_erth_rival_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_02.mp3",
+      "transcript": "I broke you into little bits.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_earthshaker_erth_rival_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_03.mp3",
+      "transcript": "Was the soil too rocky to hold your roots?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_earthshaker_erth_rival_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_04.mp3",
+      "transcript": "You'll find no safe soil here.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_earthshaker_erth_rival_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_05.mp3",
+      "transcript": "Who gave you permission to prance across the earth?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_earthshaker_erth_rival_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_06.mp3",
+      "transcript": "No longer will your hooves dig into my hide.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_earthshaker_erth_rival_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_07.mp3",
+      "transcript": "This is no place for a mother.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_earthshaker_erth_rival_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_08.mp3",
+      "transcript": "Pick a different place to raise a family next time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_earthshaker_erth_rival_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_09.mp3",
+      "transcript": "I'll not bow to you, Sand King, but I liked your style.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_earthshaker_erth_rival_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_10.mp3",
+      "transcript": "A shaken clock will soon stop ticking.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_earthshaker_erth_rival_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_11.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_11.mp3",
+      "transcript": "The only good clock is a stopped clock.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_earthshaker_erth_rival_11.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_12.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_12.mp3",
+      "transcript": "Clockworks…and then it doesn't.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_earthshaker_erth_rival_12.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_13.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_13.mp3",
+      "transcript": "Clock-blocked!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_earthshaker_erth_rival_13.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_14.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_14.mp3",
+      "transcript": "Worship that!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_earthshaker_erth_rival_14.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_15.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_15.mp3",
+      "transcript": "Stop clogging the lanes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_earthshaker_erth_rival_15.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_16.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_16.mp3",
+      "transcript": "Thus I confound the Prophet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_earthshaker_erth_rival_16.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_17.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_17.mp3",
+      "transcript": "It was time to clear the underbrush.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_earthshaker_erth_rival_17.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_18.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_18.mp3",
+      "transcript": "I didn't need a contract to hunt you down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_earthshaker_erth_rival_18.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_19.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_19.mp3",
+      "transcript": "Respect the earth…shaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_earthshaker_erth_rival_19.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_20.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_20.mp3",
+      "transcript": "It was getting far too crowded.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_earthshaker_erth_rival_20.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_21.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_21.mp3",
+      "transcript": "Phantom Lancer, I hate all of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_earthshaker_erth_rival_21.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_22.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_22.mp3",
+      "transcript": "Divided you fell.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_earthshaker_erth_rival_22.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rival_23.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rival_23.mp3",
+      "transcript": "Dark Seer, you shouldn't be seen in such company.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_earthshaker_erth_rival_23.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_firstblood_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_firstblood_01.mp3",
+      "transcript": "First Blood…and you had better get used to it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_earthshaker_erth_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_earthshaker_erth_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_02.mp3",
+      "transcript": "All mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_earthshaker_erth_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_03.mp3",
+      "transcript": "Paydirt!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_earthshaker_erth_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_04.mp3",
+      "transcript": "Shake it off.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_earthshaker_erth_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_05.mp3",
+      "transcript": "Hm, a few pence.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_earthshaker_erth_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_06.mp3",
+      "transcript": "Grant me this.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_earthshaker_erth_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lasthit_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lasthit_07.mp3",
+      "transcript": "I'm saving up.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_earthshaker_erth_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_deny_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_earthshaker_erth_deny_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_deny_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_deny_02.mp3",
+      "transcript": "Not this time.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_earthshaker_erth_deny_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_deny_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_deny_03.mp3",
+      "transcript": "Earth first!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_earthshaker_erth_deny_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_deny_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_deny_04.mp3",
+      "transcript": "Earthshaker first!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_earthshaker_erth_deny_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_deny_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_deny_05.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_earthshaker_erth_deny_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_purch_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_purch_01.mp3",
+      "transcript": "I've been saving up for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_earthshaker_erth_purch_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_purch_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_purch_02.mp3",
+      "transcript": "Mine at last.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_earthshaker_erth_purch_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_purch_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_purch_03.mp3",
+      "transcript": "Inherit the earth.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_earthshaker_erth_purch_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_scepter_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_earthshaker_erth_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_scepter_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_scepter_02.mp3",
+      "transcript": "I'll give them such a pounding!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_earthshaker_erth_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_blink_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_blink_01.mp3",
+      "transcript": "Oh, my blink dagger…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_earthshaker_erth_blink_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_blink_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_blink_02.mp3",
+      "transcript": "Blink Dagger: Now it's on!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_earthshaker_erth_blink_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_blink_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_blink_04.mp3",
+      "transcript": "From here to there in the blink of an eye…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_earthshaker_erth_blink_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_blink_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_blink_05.mp3",
+      "transcript": "In the blink of an eye…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_earthshaker_erth_blink_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_blink_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_blink_06.mp3",
+      "transcript": "Don't blink or you'll miss it!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_earthshaker_erth_blink_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_01.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_earthshaker_erth_item_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_02.mp3",
+      "transcript": "Necronomicon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_earthshaker_erth_item_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_03.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_earthshaker_erth_item_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_04.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_earthshaker_erth_item_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_05.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_earthshaker_erth_item_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_item_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_item_06.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_earthshaker_erth_item_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_immort_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_immort_01.mp3",
+      "transcript": "Immortality, hmmph!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_earthshaker_erth_immort_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_immort_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_immort_02.mp3",
+      "transcript": "The grave will have to wait.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_earthshaker_erth_immort_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_01.mp3",
+      "transcript": "Ugh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_earthshaker_erth_death_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_02.mp3",
+      "transcript": "Bury me here.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_earthshaker_erth_death_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_03.mp3",
+      "transcript": "Back to dust…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_earthshaker_erth_death_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_04.mp3",
+      "transcript": "All fall down…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_earthshaker_erth_death_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_05.mp3",
+      "transcript": "Down I go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_earthshaker_erth_death_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_06.mp3",
+      "transcript": "Not my fault…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_earthshaker_erth_death_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_07.mp3",
+      "transcript": "So still…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_earthshaker_erth_death_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_08.mp3",
+      "transcript": "Stop shaking…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_earthshaker_erth_death_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_death_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_death_09.mp3",
+      "transcript": "Shocking…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_earthshaker_erth_death_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_01.mp3",
+      "transcript": "Shake it off!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_earthshaker_erth_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_02.mp3",
+      "transcript": "Back for more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_earthshaker_erth_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_03.mp3",
+      "transcript": "Reduce, reuse, respawn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_earthshaker_erth_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_04.mp3",
+      "transcript": "You can't keep me down.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_earthshaker_erth_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_05.mp3",
+      "transcript": "I'll hold my ground.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_earthshaker_erth_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_06.mp3",
+      "transcript": "Whoa… Aftershocks…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_earthshaker_erth_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_07.mp3",
+      "transcript": "The Earth needs me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_earthshaker_erth_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_08.mp3",
+      "transcript": "The Earth calls…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_earthshaker_erth_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_respawn_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_respawn_09.mp3",
+      "transcript": "The Earth and I rise as one.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_earthshaker_erth_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_fastres_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_fastres_01.mp3",
+      "transcript": "Shake well and destroy!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_earthshaker_erth_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_laugh_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_earthshaker_erth_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_bottle_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_bottle_01.mp3",
+      "transcript": "I'll save this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_earthshaker_erth_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_bottle_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_bottle_02.mp3",
+      "transcript": "For later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_earthshaker_erth_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_bottle_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_bottle_03.mp3",
+      "transcript": "This is not yet the time.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_earthshaker_erth_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_bottle_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_bottle_04.mp3",
+      "transcript": "A better time will present itself.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_earthshaker_erth_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_happy_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_happy_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_earthshaker_erth_happy_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_04.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_earthshaker_erth_win_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_doubdam_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_earthshaker_erth_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_doubdam_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_doubdam_02.mp3",
+      "transcript": "Turn up the tremble!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_earthshaker_erth_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_doubdam_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_doubdam_03.mp3",
+      "transcript": "Order of Magnitude.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_earthshaker_erth_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_haste_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_earthshaker_erth_haste_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_haste_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_haste_02.mp3",
+      "transcript": "My tremors travel faster.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_earthshaker_erth_haste_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_illus_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_earthshaker_erth_illus_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_illus_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_illus_02.mp3",
+      "transcript": "I'm a shatter of my former self.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_earthshaker_erth_illus_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_illus_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_illus_03.mp3",
+      "transcript": "My spirit echoes.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_earthshaker_erth_illus_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_illus_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_illus_04.mp3",
+      "transcript": "Aftershock. Afterimage.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_earthshaker_erth_illus_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_invis_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_earthshaker_erth_invis_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_regen_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_earthshaker_erth_regen_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_regen_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_regen_02.mp3",
+      "transcript": "The Earth heals me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_earthshaker_erth_regen_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_regen_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_regen_03.mp3",
+      "transcript": "A gift from the earth.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_earthshaker_erth_regen_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_earthshaker_erth_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_06.mp3",
+      "transcript": "It's not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_earthshaker_erth_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_earthshaker_erth_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_earthshaker_erth_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_earthshaker_erth_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_notyet_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_notyet_03.mp3",
+      "transcript": "It's not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_earthshaker_erth_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_earthshaker_erth_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_earthshaker_erth_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_earthshaker_erth_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_earthshaker_erth_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_earthshaker_erth_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_nomana_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_earthshaker_erth_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_earthshaker_erth_pain_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_earthshaker_erth_pain_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_earthshaker_erth_pain_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_04.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_earthshaker_erth_pain_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_05.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_earthshaker_erth_pain_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_06.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_earthshaker_erth_pain_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_07.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_earthshaker_erth_pain_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_08.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_earthshaker_erth_pain_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_09.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_earthshaker_erth_pain_09.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_pain_10.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_pain_10.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_earthshaker_erth_pain_10.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_underattack_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_earthshaker_erth_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rare_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rare_01.mp3",
+      "transcript": "Did the earth move for you, too?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_earthshaker_erth_rare_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rare_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rare_03.mp3",
+      "transcript": "I miss my gargoyle friends back in Nishai. Everyone here is so soft.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_earthshaker_erth_rare_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rare_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rare_04.mp3",
+      "transcript": "Strange creatures, knights…hard shells, with a liquid center.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_earthshaker_erth_rare_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_rare_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_rare_05.mp3",
+      "transcript": "There may be many earths, but there's only one Earthshaker.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_earthshaker_erth_rare_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lane_missing_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lane_missing_01.mp3",
+      "transcript": "Missing Top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_earthshaker_erth_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lane_missing_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lane_missing_02.mp3",
+      "transcript": "Missing Middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_earthshaker_erth_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lane_missing_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lane_missing_03.mp3",
+      "transcript": "Missing Bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_earthshaker_erth_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_thanks_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_thanks_01.mp3",
+      "transcript": "My thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_earthshaker_erth_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_thanks_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_thanks_02.mp3",
+      "transcript": "The earth thanks you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_earthshaker_erth_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_thanks_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_thanks_03.mp3",
+      "transcript": "Let me shake your hand.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_earthshaker_erth_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_earthshaker_erth_win_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_03.mp3",
+      "transcript": "The Earth is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_earthshaker_erth_win_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_05.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_earthshaker_erth_win_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_06.mp3",
+      "transcript": "The Earth is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_earthshaker_erth_win_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_earthshaker_erth_lose_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_earthshaker_erth_lose_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_03.mp3",
+      "transcript": "Unhallowed ground…",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_earthshaker_erth_lose_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_04.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_earthshaker_erth_lose_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_05.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_earthshaker_erth_lose_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_06.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_earthshaker_erth_lose_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_lose_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_lose_07.mp3",
+      "transcript": "Defeated! No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_earthshaker_erth_lose_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_happy_02.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_happy_02.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_earthshaker_erth_happy_02.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_happy_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_happy_01.mp3",
+      "transcript": "Mmm hmmm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_earthshaker_erth_happy_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_win_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_earthshaker_erth_win_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_shitwiz_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_earthshaker_erth_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_crumwiz_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_earthshaker_erth_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_01.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_01.mp3",
+      "transcript": "Raaaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_earthshaker_erth_anger_01.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_03.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_03.mp3",
+      "transcript": "Raa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_earthshaker_erth_anger_03.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_04.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_04.mp3",
+      "transcript": "Aarraa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_earthshaker_erth_anger_04.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_05.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_earthshaker_erth_anger_05.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_06.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_06.mp3",
+      "transcript": "Raaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_earthshaker_erth_anger_06.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_07.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_07.mp3",
+      "transcript": "Aaaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_earthshaker_erth_anger_07.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_08.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_08.mp3",
+      "transcript": "Raaaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_earthshaker_erth_anger_08.mp3"
+    },
+    {
+      "file": "Vo_earthshaker_erth_anger_09.mp3",
+      "key": "dota2/earthshaker/Vo_earthshaker_erth_anger_09.mp3",
+      "transcript": "Ruh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_earthshaker_erth_anger_09.mp3"
+    }
+  ]
+}

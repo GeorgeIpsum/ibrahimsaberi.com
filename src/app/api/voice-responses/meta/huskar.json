@@ -1,0 +1,2515 @@
+{
+  "hero": "Huskar",
+  "slug": "huskar",
+  "source": "https://liquipedia.net/dota2/Huskar/Responses",
+  "scrapedAt": "2026-06-17T13:23:24.617Z",
+  "count": 248,
+  "voicelines": [
+    {
+      "file": "Vo_huskar_husk_spawn_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_spawn_01.mp3",
+      "transcript": "Huskar!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_huskar_husk_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_spawn_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_spawn_02.mp3",
+      "transcript": "I know what life is worth.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_huskar_husk_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_spawn_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_spawn_03.mp3",
+      "transcript": "It's a sacred trust.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_huskar_husk_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_spawn_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_spawn_04.mp3",
+      "transcript": "My life is in your hands.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_huskar_husk_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_spawn_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_spawn_05.mp3",
+      "transcript": "To the Nothl Realm, I give my all.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_huskar_husk_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_02.mp3",
+      "transcript": "Ah, the potential for sacrifice is great!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_huskar_husk_level_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_01.mp3",
+      "transcript": "You must learn to sacrifice.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_huskar_husk_kill_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_11.mp3",
+      "transcript": "Great honors await you in the Nothl Realm.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_huskar_husk_kill_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_12.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_12.mp3",
+      "transcript": "I'll give it my all.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_huskar_husk_move_12.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_07.mp3",
+      "transcript": "The hunt is on.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_huskar_husk_attack_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_09.mp3",
+      "transcript": "There can never be too much sacrifice.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_huskar_husk_level_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rare_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rare_01.mp3",
+      "transcript": "I walk the sacred path to my promised destiny.",
+      "categories": [
+        "Loadout",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_huskar_husk_rare_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_03.mp3",
+      "transcript": "Errrgh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_huskar_husk_anger_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_inthebag_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_inthebag_01.mp3",
+      "transcript": "The gods themselves must agree. It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_huskar_husk_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_battlebegins_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_battlebegins_01.mp3",
+      "transcript": "Show me where I can do the most good.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_huskar_husk_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_huskar_husk_move_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_huskar_husk_move_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_huskar_husk_move_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_04.mp3",
+      "transcript": "Erh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_huskar_husk_move_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_05.mp3",
+      "transcript": "Ehoew.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_huskar_husk_move_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_06.mp3",
+      "transcript": "Earheh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_huskar_husk_move_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_07.mp3",
+      "transcript": "Ehum.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_huskar_husk_move_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_08.mp3",
+      "transcript": "Duty calls.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_huskar_husk_move_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_09.mp3",
+      "transcript": "An honor.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_huskar_husk_move_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_10.mp3",
+      "transcript": "Willingly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_huskar_husk_move_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_11.mp3",
+      "transcript": "For the greater good.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_huskar_husk_move_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_13.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_13.mp3",
+      "transcript": "Swiftly now.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_huskar_husk_move_13.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_14.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_14.mp3",
+      "transcript": "Time is short.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_huskar_husk_move_14.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_15.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_15.mp3",
+      "transcript": "At once.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_huskar_husk_move_15.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_16.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_16.mp3",
+      "transcript": "With a will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_huskar_husk_move_16.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_move_17.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_move_17.mp3",
+      "transcript": "With all my heart.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_huskar_husk_move_17.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_huskar_husk_attack_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_02.mp3",
+      "transcript": "With all my will.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_huskar_husk_attack_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_03.mp3",
+      "transcript": "Steady on.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_huskar_husk_attack_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_04.mp3",
+      "transcript": "Tis vital.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_huskar_husk_attack_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_05.mp3",
+      "transcript": "Weigh your fate.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_huskar_husk_attack_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_06.mp3",
+      "transcript": "Crimson!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_huskar_husk_attack_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_08.mp3",
+      "transcript": "In fate's hands.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_huskar_husk_attack_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_09.mp3",
+      "transcript": "I'll risk it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_huskar_husk_attack_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_10.mp3",
+      "transcript": "I'd stake my life on it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_huskar_husk_attack_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_attack_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_attack_11.mp3",
+      "transcript": "Give it up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_huskar_husk_attack_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_06.mp3",
+      "transcript": "In pain is power.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_huskar_husk_ability_brnspear_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_07.mp3",
+      "transcript": "Know my pain.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_huskar_husk_ability_brnspear_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brskrblood_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brskrblood_01.mp3",
+      "transcript": "A quickening!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_huskar_husk_ability_brskrblood_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brskrblood_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brskrblood_02.mp3",
+      "transcript": "Sacred speed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_huskar_husk_ability_brskrblood_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_cast_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_cast_01.mp3",
+      "transcript": "No reprieve!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_huskar_husk_cast_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_cast_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_cast_02.mp3",
+      "transcript": "I'll take all you have to give!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_huskar_husk_cast_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_cast_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_cast_03.mp3",
+      "transcript": "Offer your life.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_huskar_husk_cast_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_02.mp3",
+      "transcript": "Agony seeks you out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_huskar_husk_ability_brnspear_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_01.mp3",
+      "transcript": "Araegh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_huskar_husk_anger_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_02.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_huskar_husk_anger_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_04.mp3",
+      "transcript": "Arragh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_huskar_husk_anger_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_05.mp3",
+      "transcript": "Wogh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_huskar_husk_anger_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_06.mp3",
+      "transcript": "Heeehhhhr.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_huskar_husk_anger_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_anger_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_anger_07.mp3",
+      "transcript": "Herreh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_huskar_husk_anger_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_01.mp3",
+      "transcript": "Heh heh heh heh heh!",
+      "categories": [
+        "Abilities",
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_huskar_husk_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_05.mp3",
+      "transcript": "Hahahahhaha!",
+      "categories": [
+        "Abilities",
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_huskar_husk_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_05.mp3",
+      "transcript": "The pike found its place.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_huskar_husk_ability_brnspear_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_01.mp3",
+      "transcript": "My blood boils!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_huskar_husk_ability_brnspear_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brskrblood_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brskrblood_03.mp3",
+      "transcript": "A fair trade!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_huskar_husk_ability_brskrblood_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brskrblood_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brskrblood_04.mp3",
+      "transcript": "Pain into gain.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_huskar_husk_ability_brskrblood_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_01.mp3",
+      "transcript": "Draw upon your strength.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_huskar_husk_ability_innervit_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_02.mp3",
+      "transcript": "In strength is healing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_huskar_husk_ability_innervit_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_03.mp3",
+      "transcript": "Feel stronger.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_huskar_husk_ability_innervit_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_04.mp3",
+      "transcript": "Tap your intellect.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_huskar_husk_ability_innervit_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_05.mp3",
+      "transcript": "Wisdom knows no pain.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_huskar_husk_ability_innervit_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_06.mp3",
+      "transcript": "Healed by cunning.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_huskar_husk_ability_innervit_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_07.mp3",
+      "transcript": "Speed your healing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_huskar_husk_ability_innervit_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_08.mp3",
+      "transcript": "Agile and unhurt.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_huskar_husk_ability_innervit_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_09.mp3",
+      "transcript": "Spared by swiftness.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_huskar_husk_ability_innervit_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_innervit_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_innervit_10.mp3",
+      "transcript": "Swift healing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_huskar_husk_ability_innervit_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_01.mp3",
+      "transcript": "More to give!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_huskar_husk_level_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_03.mp3",
+      "transcript": "The gods wish more of me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_huskar_husk_level_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_04.mp3",
+      "transcript": "This power will not go to waste.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_huskar_husk_level_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_05.mp3",
+      "transcript": "The gods grant me life, nor shall I waste it.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_huskar_husk_level_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_06.mp3",
+      "transcript": "All I'm given, I will give back.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_huskar_husk_level_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_07.mp3",
+      "transcript": "A stronger sacrifice.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_huskar_husk_level_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_08.mp3",
+      "transcript": "To the Nothl Realm, my gratitude!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_huskar_husk_level_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_10.mp3",
+      "transcript": "Ha ha har har har har.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_huskar_husk_level_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_level_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_level_11.mp3",
+      "transcript": "Hah hah he hah heh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_huskar_husk_level_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_03.mp3",
+      "transcript": "You made a worthy target.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_huskar_husk_ability_brnspear_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_04.mp3",
+      "transcript": "You were spear worthy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_huskar_husk_ability_brnspear_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_brnspear_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_brnspear_08.mp3",
+      "transcript": "Spear cushion.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_huskar_husk_ability_brnspear_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_01.mp3",
+      "transcript": "Well worth it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_huskar_husk_ability_lifebrk_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_02.mp3",
+      "transcript": "The ultimate sacrifice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_huskar_husk_ability_lifebrk_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_03.mp3",
+      "transcript": "Life's hard, I know.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_huskar_husk_ability_lifebrk_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_04.mp3",
+      "transcript": "The value of a life.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_huskar_husk_ability_lifebrk_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_06.mp3",
+      "transcript": "Blood for blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_huskar_husk_ability_lifebrk_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_02.mp3",
+      "transcript": "I share my pain.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_huskar_husk_kill_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_03.mp3",
+      "transcript": "A sacred trust is broken.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_huskar_husk_kill_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_04.mp3",
+      "transcript": "You gave all you could give but it was not enough.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_huskar_husk_kill_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_05.mp3",
+      "transcript": "You're holding back, aren't you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_huskar_husk_kill_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_06.mp3",
+      "transcript": "Another life squandered.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_huskar_husk_kill_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_07.mp3",
+      "transcript": "Vitality was wasted on you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_huskar_husk_kill_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_08.mp3",
+      "transcript": "Give it up for Huskar.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_huskar_husk_kill_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_09.mp3",
+      "transcript": "Honor your sacrifice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_huskar_husk_kill_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_10.mp3",
+      "transcript": "A pitiful offering.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_huskar_husk_kill_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_12.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_12.mp3",
+      "transcript": "My gods are pleased.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_huskar_husk_kill_12.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_13.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_13.mp3",
+      "transcript": "You ascend!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_huskar_husk_kill_13.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_kill_14.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_kill_14.mp3",
+      "transcript": "Heh heh heh he heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_huskar_husk_kill_14.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_02.mp3",
+      "transcript": "Ho hah heh heh hah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_huskar_husk_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_03.mp3",
+      "transcript": "Heh heah hah hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_huskar_husk_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_04.mp3",
+      "transcript": "Hehe hahah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_huskar_husk_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_06.mp3",
+      "transcript": "Heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_huskar_husk_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_07.mp3",
+      "transcript": "Howeh heh heh he heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_huskar_husk_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_08.mp3",
+      "transcript": "Eogh heh heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_huskar_husk_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_09.mp3",
+      "transcript": "Heh heh heeh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_huskar_husk_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_laugh_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_laugh_10.mp3",
+      "transcript": "Heh, heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_huskar_husk_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_02.mp3",
+      "transcript": "Your time in the shade of Nothl must have blinded you, Dazzle.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_huskar_husk_rival_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_03.mp3",
+      "transcript": "This pains me, Doctor, for we honor the same vitality.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_huskar_husk_rival_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_04.mp3",
+      "transcript": "Anti-Mage, your dependence on mana is unholy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_huskar_husk_rival_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_05.mp3",
+      "transcript": "You take and you take, Anti-Mage; learn to give!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_huskar_husk_rival_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_06.mp3",
+      "transcript": "Perhaps you'll value life now, Necrolyte.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_huskar_husk_rival_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_07.mp3",
+      "transcript": "Necrolyte, you beget rot without worth.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_huskar_husk_rival_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_08.mp3",
+      "transcript": "Respect, Bloodseeker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_huskar_husk_rival_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_10.mp3",
+      "transcript": "The tide of life sweeps away the hunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_huskar_husk_rival_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_11.mp3",
+      "transcript": "The oceans see more life without the Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_huskar_husk_rival_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_12.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_12.mp3",
+      "transcript": "Pudge, you should value life for more than just its flavor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_huskar_husk_rival_12.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_13.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_13.mp3",
+      "transcript": "Pudge, you were an unsavory morsel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_huskar_husk_rival_13.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_14.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_14.mp3",
+      "transcript": "Pudge, your existence wastes more life than you know.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_huskar_husk_rival_14.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_15.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_15.mp3",
+      "transcript": "Fearlessly into the fray, Axe, in this we are alike.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_huskar_husk_rival_15.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_firstblood_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_firstblood_01.mp3",
+      "transcript": "First blood! The gods were right to place their trust in me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_huskar_husk_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_01.mp3",
+      "transcript": "For a good cause.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_huskar_husk_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_02.mp3",
+      "transcript": "Debt repaid.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_huskar_husk_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_03.mp3",
+      "transcript": "Thank you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_huskar_husk_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_04.mp3",
+      "transcript": "A meager offering.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_huskar_husk_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_05.mp3",
+      "transcript": "Twas worth it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_huskar_husk_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_06.mp3",
+      "transcript": "Tis good to give.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_huskar_husk_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_07.mp3",
+      "transcript": "Is that all?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_huskar_husk_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_08.mp3",
+      "transcript": "Offering accepted.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_huskar_husk_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_09.mp3",
+      "transcript": "Heh heh heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_huskar_husk_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lasthit_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lasthit_10.mp3",
+      "transcript": "Small offering.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_huskar_husk_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_huskar_husk_deny_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_huskar_husk_deny_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_huskar_husk_deny_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_04.mp3",
+      "transcript": "Uhhh uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_huskar_husk_deny_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_05.mp3",
+      "transcript": "Oh no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_huskar_husk_deny_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_06.mp3",
+      "transcript": "That is not yours to offer.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_huskar_husk_deny_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_07.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_huskar_husk_deny_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_08.mp3",
+      "transcript": "I'll take it!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_huskar_husk_deny_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_deny_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_deny_09.mp3",
+      "transcript": "He he heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_huskar_husk_deny_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_purch_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_purch_01.mp3",
+      "transcript": "Ahh, this will please the gods.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_huskar_husk_purch_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_purch_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_purch_02.mp3",
+      "transcript": "Sacrifice comes in many forms.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_huskar_husk_purch_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_purch_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_purch_03.mp3",
+      "transcript": "Impoverished in pocket but not in spirit.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_huskar_husk_purch_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_blink_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_huskar_husk_blink_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_blink_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_blink_02.mp3",
+      "transcript": "Blink and I'll cut you.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_huskar_husk_blink_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_scepter_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_scepter_01.mp3",
+      "transcript": "Ah, Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_huskar_husk_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_scepter_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_scepter_02.mp3",
+      "transcript": "This will break them.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_huskar_husk_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_item_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_item_01.mp3",
+      "transcript": "Divine Rapier for a sacred warrior.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_huskar_husk_item_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_item_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_item_02.mp3",
+      "transcript": "Heart of Tarrasque. A tribute of worth.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_huskar_husk_item_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_item_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_item_03.mp3",
+      "transcript": "Vanguard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_huskar_husk_item_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_immort_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_huskar_husk_immort_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_immort_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_immort_02.mp3",
+      "transcript": "I will risk my life again and again.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_huskar_husk_immort_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_huskar_husk_death_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_02.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_huskar_husk_death_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_03.mp3",
+      "transcript": "I give willingly.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_huskar_husk_death_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_04.mp3",
+      "transcript": "An honor, even so.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_huskar_husk_death_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_05.mp3",
+      "transcript": "In death is duty.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_huskar_husk_death_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_06.mp3",
+      "transcript": "A wasted sacrifice.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_huskar_husk_death_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_07.mp3",
+      "transcript": "Not for naught.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_huskar_husk_death_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_08.mp3",
+      "transcript": "My life comes to nothing.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_huskar_husk_death_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_09.mp3",
+      "transcript": "I have no more to give.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_huskar_husk_death_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_10.mp3",
+      "transcript": "I'll never live this down.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_huskar_husk_death_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_11.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_11.mp3",
+      "transcript": "Gods, avert your gaze.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_huskar_husk_death_11.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_12.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_12.mp3",
+      "transcript": "A martyr's gift.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_huskar_husk_death_12.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_13.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_13.mp3",
+      "transcript": "I offer myself.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_huskar_husk_death_13.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_14.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_14.mp3",
+      "transcript": "Not yet! Owe!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_huskar_husk_death_14.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_death_15.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_death_15.mp3",
+      "transcript": "I return to the Nothl Realm.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_huskar_husk_death_15.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_01.mp3",
+      "transcript": "Dazzle, is that any way to treat your cousin?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_huskar_husk_rival_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rival_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rival_09.mp3",
+      "transcript": "Bloodseeker, that was well done.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_huskar_husk_rival_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_01.mp3",
+      "transcript": "I will learn from that death.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_huskar_husk_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_02.mp3",
+      "transcript": "From the Nothl Realm, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_huskar_husk_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_03.mp3",
+      "transcript": "Another chance to offer all I have.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_huskar_husk_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_04.mp3",
+      "transcript": "I thank you for this second chance at sacrifice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_huskar_husk_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_05.mp3",
+      "transcript": "This life, I swear I shall not squander.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_huskar_husk_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_06.mp3",
+      "transcript": "Was I not worthy?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_huskar_husk_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_07.mp3",
+      "transcript": "The rites have yet to run their course.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_huskar_husk_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_08.mp3",
+      "transcript": "I have so much more to give.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_huskar_husk_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_09.mp3",
+      "transcript": "Praise the power that lets me offer my life again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_huskar_husk_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_respawn_10.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_respawn_10.mp3",
+      "transcript": "New life for old.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_huskar_husk_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_fastres_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_fastres_01.mp3",
+      "transcript": "The sacred warrior falls, ahg, but not for long.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_huskar_husk_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_fastres_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_fastres_02.mp3",
+      "transcript": "I have still more to give.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_huskar_husk_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_bottle_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_bottle_01.mp3",
+      "transcript": "I shall spare thee for now.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_huskar_husk_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_bottle_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_bottle_02.mp3",
+      "transcript": "There will be a time for this.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_huskar_husk_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_bottle_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_bottle_03.mp3",
+      "transcript": "Soon, soon!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_huskar_husk_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_healthup_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_healthup_03.mp3",
+      "transcript": "Who can say what I will do with this power.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_huskar_husk_healthup_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_doubdam_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_huskar_husk_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_doubdam_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_doubdam_02.mp3",
+      "transcript": "A prick of the finger for a river of blood.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_huskar_husk_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_haste_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_huskar_husk_haste_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_haste_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_haste_02.mp3",
+      "transcript": "Swiftly to my sacrifice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_huskar_husk_haste_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_illus_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_huskar_husk_illus_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_illus_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_illus_02.mp3",
+      "transcript": "If I had three lives, I would give them all!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_huskar_husk_illus_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_invis_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_huskar_husk_invis_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_invis_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_invis_02.mp3",
+      "transcript": "Unseen might!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_huskar_husk_invis_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_regen_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_huskar_husk_regen_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_regen_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_regen_02.mp3",
+      "transcript": "Rune most dear to me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_huskar_husk_regen_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_huskar_husk_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_huskar_husk_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_huskar_husk_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_huskar_husk_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_huskar_husk_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_huskar_husk_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_huskar_husk_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_huskar_husk_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_notyet_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_huskar_husk_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_huskar_husk_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_huskar_husk_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_huskar_husk_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_huskar_husk_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_huskar_husk_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_huskar_husk_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_huskar_husk_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_huskar_husk_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_nomana_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_huskar_husk_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_01.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_huskar_husk_pain_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_02.mp3",
+      "transcript": "Agh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_huskar_husk_pain_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_03.mp3",
+      "transcript": "Ough!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_huskar_husk_pain_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_04.mp3",
+      "transcript": "Argh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_huskar_husk_pain_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_05.mp3",
+      "transcript": "Agh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_huskar_husk_pain_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_06.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_06.mp3",
+      "transcript": "Oogh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_huskar_husk_pain_06.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_07.mp3",
+      "transcript": "Aragh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_huskar_husk_pain_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_08.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_08.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_huskar_husk_pain_08.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_pain_09.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_pain_09.mp3",
+      "transcript": "Oooogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_huskar_husk_pain_09.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_underattack_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_huskar_husk_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_07.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_07.mp3",
+      "transcript": "Power from the Nothl Realm.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_huskar_husk_ability_lifebrk_07.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rare_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rare_02.mp3",
+      "transcript": "As my body falls, my spirit rises up like the smoke of offerings, pleasing to the gods.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_huskar_husk_rare_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_rare_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_rare_03.mp3",
+      "transcript": "Those who are given more in life must not cling to it but risk it all at every moment.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_huskar_husk_rare_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_thanks_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_huskar_husk_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_thanks_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_thanks_02.mp3",
+      "transcript": "Divinely given.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_huskar_husk_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_win_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_huskar_husk_win_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_win_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_huskar_husk_win_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_win_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_win_03.mp3",
+      "transcript": "All my sacrifices have secured our triumph!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_huskar_husk_win_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_win_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_win_04.mp3",
+      "transcript": "Ho hah hah!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_huskar_husk_win_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lose_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lose_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_huskar_husk_lose_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lose_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_huskar_husk_lose_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lose_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lose_03.mp3",
+      "transcript": "I spilled my life for nothing!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_huskar_husk_lose_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_lose_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_lose_04.mp3",
+      "transcript": "I gave it…my all.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_huskar_husk_lose_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_happy_03.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_happy_03.mp3",
+      "transcript": "Eahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_huskar_husk_happy_03.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_happy_04.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_happy_04.mp3",
+      "transcript": "Heh heh he heh heh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_huskar_husk_happy_04.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_happy_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_happy_02.mp3",
+      "transcript": "Eahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_huskar_husk_happy_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_lifebrk_05.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_lifebrk_05.mp3",
+      "transcript": "My life now has meaning!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_huskar_husk_ability_lifebrk_05.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_failure_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_failure_01.mp3",
+      "transcript": "A waste of life.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_huskar_husk_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_ability_failure_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_ability_failure_02.mp3",
+      "transcript": "The holy chalice, spilled.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_huskar_husk_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_shitwiz_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_huskar_husk_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_crumwiz_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_huskar_husk_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_happy_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_happy_01.mp3",
+      "transcript": "Hemm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_huskar_husk_happy_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_healthup_01.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_healthup_01.mp3",
+      "transcript": "So much more to give!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_huskar_husk_healthup_01.mp3"
+    },
+    {
+      "file": "Vo_huskar_husk_healthup_02.mp3",
+      "key": "dota2/huskar/Vo_huskar_husk_healthup_02.mp3",
+      "transcript": "My sacrifice shall be great indeed.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_huskar_husk_healthup_02.mp3"
+    }
+  ]
+}

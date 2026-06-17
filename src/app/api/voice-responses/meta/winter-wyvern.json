@@ -1,0 +1,3262 @@
+{
+  "hero": "Winter Wyvern",
+  "slug": "winter-wyvern",
+  "source": "https://liquipedia.net/dota2/Winter_Wyvern/Responses",
+  "scrapedAt": "2026-06-17T14:47:15.539Z",
+  "count": 323,
+  "voicelines": [
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_01.mp3",
+      "transcript": "Winter Wyvern!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_winter_wyvern_winwyv_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_02.mp3",
+      "transcript": "In I fly on wings of winter.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_winter_wyvern_winwyv_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_03.mp3",
+      "transcript": "From the roost of winter.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_winter_wyvern_winwyv_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_04.mp3",
+      "transcript": "I'll chase away the autumn.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_winter_wyvern_winwyv_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_05.mp3",
+      "transcript": "Some breathe fire. I breathe ice.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_winter_wyvern_winwyv_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_07.mp3",
+      "transcript": "I carry winter wherever I go!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_winter_wyvern_winwyv_attack_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_07.mp3",
+      "transcript": "I'll chase away the autumn.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_winter_wyvern_winwyv_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_09.mp3",
+      "transcript": "A wyvern's breath!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_winter_wyvern_winwyv_attack_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_cast_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_cast_03.mp3",
+      "transcript": "You've called winter down upon you!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_winter_wyvern_winwyv_cast_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_02.mp3",
+      "transcript": "I bring the breath of winter to the field of war.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_winter_wyvern_winwyv_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_09.mp3",
+      "transcript": "In on wings of winter!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_winter_wyvern_winwyv_move_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_coldembrace_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_coldembrace_03.mp3",
+      "transcript": "In cold there is comfort.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_winter_wyvern_winwyv_coldembrace_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_07.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_winter_wyvern_winwyv_anger_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_spawn_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_spawn_06.mp3",
+      "transcript": "Auroth.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_winter_wyvern_winwyv_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_inthebag_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_inthebag_01.mp3",
+      "transcript": "This must be the battle sung of in the Eldwurm's Edda: the battle that was truly in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_winter_wyvern_winwyv_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_battlebegins_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_battlebegins_01.mp3",
+      "transcript": "Let them all fall still beneath my shadow!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_winter_wyvern_winwyv_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_winter_wyvern_winwyv_move_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_winter_wyvern_winwyv_move_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_03.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_winter_wyvern_winwyv_move_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_04.mp3",
+      "transcript": "You know, I think I just might.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_winter_wyvern_winwyv_move_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_05.mp3",
+      "transcript": "Mm mm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_winter_wyvern_winwyv_move_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_06.mp3",
+      "transcript": "You know I will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_winter_wyvern_winwyv_move_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_08.mp3",
+      "transcript": "Wings beating!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_winter_wyvern_winwyv_move_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_10.mp3",
+      "transcript": "Have patience, child.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_winter_wyvern_winwyv_move_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_11.mp3",
+      "transcript": "I know the way to go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_winter_wyvern_winwyv_move_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_12.mp3",
+      "transcript": "Trouble yourself not.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_winter_wyvern_winwyv_move_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_13.mp3",
+      "transcript": "Have a care!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_winter_wyvern_winwyv_move_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_14.mp3",
+      "transcript": "Watch for winter.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_winter_wyvern_winwyv_move_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_15.mp3",
+      "transcript": "Ah, that seems wise.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_winter_wyvern_winwyv_move_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_16.mp3",
+      "transcript": "Understood.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_winter_wyvern_winwyv_move_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_17.mp3",
+      "transcript": "Watch yourself.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_winter_wyvern_winwyv_move_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_18.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_18.mp3",
+      "transcript": "Yes, child.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_winter_wyvern_winwyv_move_18.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_20.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_20.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_winter_wyvern_winwyv_move_20.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_21.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_21.mp3",
+      "transcript": "Understood.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_winter_wyvern_winwyv_move_21.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_winter_wyvern_winwyv_attack_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_02.mp3",
+      "transcript": "Swiftly!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_winter_wyvern_winwyv_attack_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_03.mp3",
+      "transcript": "I'll cook you with coldness!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_winter_wyvern_winwyv_attack_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_04.mp3",
+      "transcript": "In a frozen blast!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_winter_wyvern_winwyv_attack_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_05.mp3",
+      "transcript": "Freeze where you are!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_winter_wyvern_winwyv_attack_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_06.mp3",
+      "transcript": "Fly before me!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_winter_wyvern_winwyv_attack_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_08.mp3",
+      "transcript": "You'll catch your death!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_winter_wyvern_winwyv_attack_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_10.mp3",
+      "transcript": "Cold winds carry me!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_winter_wyvern_winwyv_attack_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_11.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_winter_wyvern_winwyv_attack_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_attack_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_attack_12.mp3",
+      "transcript": "Swiftly!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_winter_wyvern_winwyv_attack_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_move_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_move_07.mp3",
+      "transcript": "On a cold gust.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_winter_wyvern_winwyv_move_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_articburn_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_articburn_01.mp3",
+      "transcript": "Burns like ice!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_winter_wyvern_winwyv_articburn_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_articburn_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_articburn_02.mp3",
+      "transcript": "Wyvern's kiss.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_winter_wyvern_winwyv_articburn_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_articburn_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_articburn_03.mp3",
+      "transcript": "Burned!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_winter_wyvern_winwyv_articburn_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_articburn_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_articburn_04.mp3",
+      "transcript": "Arctic burn!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_winter_wyvern_winwyv_articburn_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_coldembrace_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_coldembrace_01.mp3",
+      "transcript": "Sleep and heal.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_winter_wyvern_winwyv_coldembrace_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_coldembrace_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_coldembrace_02.mp3",
+      "transcript": "Cold wings keep you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_winter_wyvern_winwyv_coldembrace_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_coldembrace_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_coldembrace_04.mp3",
+      "transcript": "Cold comfort.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_winter_wyvern_winwyv_coldembrace_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_coldembrace_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_coldembrace_05.mp3",
+      "transcript": "Sleep and heal.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_winter_wyvern_winwyv_coldembrace_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_01.mp3",
+      "transcript": "Fall upon your friend.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_winter_wyvern_winwyv_winterscurse_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_02.mp3",
+      "transcript": "Winter's curse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_winter_wyvern_winwyv_winterscurse_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_04.mp3",
+      "transcript": "Fear your friends!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_winter_wyvern_winwyv_winterscurse_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_05.mp3",
+      "transcript": "Curse of winter on you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_winter_wyvern_winwyv_winterscurse_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_06.mp3",
+      "transcript": "Eldwurm's bane!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_winter_wyvern_winwyv_winterscurse_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_12.mp3",
+      "transcript": "Winter's curse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_winter_wyvern_winwyv_winterscurse_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_03.mp3",
+      "transcript": "Foul weather friends!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_winter_wyvern_winwyv_winterscurse_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_13.mp3",
+      "transcript": "Foul weather friends!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_winter_wyvern_winwyv_winterscurse_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_07.mp3",
+      "transcript": "Beautiful!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_winter_wyvern_winwyv_winterscurse_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_08.mp3",
+      "transcript": "How fitting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_winter_wyvern_winwyv_winterscurse_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_09.mp3",
+      "transcript": "Well deserved!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_winter_wyvern_winwyv_winterscurse_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_11.mp3",
+      "transcript": "Well deserved!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_winter_wyvern_winwyv_winterscurse_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_winterscurse_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_winterscurse_14.mp3",
+      "transcript": "Ah! Beautiful!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_winter_wyvern_winwyv_winterscurse_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_01.mp3",
+      "transcript": "Ah, I haven't felt this young in a dragon's age.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_winter_wyvern_winwyv_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_02.mp3",
+      "transcript": "By the sweep of my wings, that feels good!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_winter_wyvern_winwyv_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_03.mp3",
+      "transcript": "My old wings beat with youthful strength!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_winter_wyvern_winwyv_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_04.mp3",
+      "transcript": "What wyvern can resist such power?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_winter_wyvern_winwyv_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_06.mp3",
+      "transcript": "A coldness grows in my breast. Delicious!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_winter_wyvern_winwyv_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_07.mp3",
+      "transcript": "I've not felt this fresh since I sprang from the egg!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_winter_wyvern_winwyv_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_08.mp3",
+      "transcript": "Ah, I've never felt this good! Ah ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_winter_wyvern_winwyv_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_09.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_winter_wyvern_winwyv_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_10.mp3",
+      "transcript": "Ah! Ah ha ha ha ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_winter_wyvern_winwyv_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_levelup_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_levelup_11.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_winter_wyvern_winwyv_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_cast_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_cast_01.mp3",
+      "transcript": "You have tangled with an Eldwurm!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_winter_wyvern_winwyv_cast_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_01.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_winter_wyvern_winwyv_kill_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_02.mp3",
+      "transcript": "Mewling brat.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_winter_wyvern_winwyv_kill_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_03.mp3",
+      "transcript": "Never ask a wyvern why.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_winter_wyvern_winwyv_kill_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_04.mp3",
+      "transcript": "Was that wise?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_winter_wyvern_winwyv_kill_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_05.mp3",
+      "transcript": "You let my cold wings shadow you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_winter_wyvern_winwyv_kill_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_06.mp3",
+      "transcript": "I was wise to you all along.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_winter_wyvern_winwyv_kill_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_07.mp3",
+      "transcript": "A wyvern's wisdom is not to be questioned.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_winter_wyvern_winwyv_kill_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_08.mp3",
+      "transcript": "You were expecting fire?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_winter_wyvern_winwyv_kill_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_09.mp3",
+      "transcript": "I'll not be trifled with.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_winter_wyvern_winwyv_kill_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_10.mp3",
+      "transcript": "You'll never touch my treasure now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_winter_wyvern_winwyv_kill_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_11.mp3",
+      "transcript": "Windchill factor minus hero.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_winter_wyvern_winwyv_kill_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_12.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_winter_wyvern_winwyv_kill_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_13.mp3",
+      "transcript": "Hm. I killed you with coldness.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_winter_wyvern_winwyv_kill_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_kill_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_kill_14.mp3",
+      "transcript": "Ah, ah ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_winter_wyvern_winwyv_kill_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_07.mp3",
+      "transcript": "Oh, catch a chill",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_winter_wyvern_winwyv_deny_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_02.mp3",
+      "transcript": "Ah ha! Oh ho ho ho ho hm!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_winter_wyvern_winwyv_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_03.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_winter_wyvern_winwyv_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_04.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_winter_wyvern_winwyv_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_06.mp3",
+      "transcript": "Ah ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_winter_wyvern_winwyv_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_07.mp3",
+      "transcript": "Mm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_winter_wyvern_winwyv_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_08.mp3",
+      "transcript": "Mm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_winter_wyvern_winwyv_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_09.mp3",
+      "transcript": "Hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_winter_wyvern_winwyv_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_laugh_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_laugh_10.mp3",
+      "transcript": "Oh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_winter_wyvern_winwyv_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_02.mp3",
+      "transcript": "He had a bad case of the vapors.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_winter_wyvern_winwyv_rival_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_03.mp3",
+      "transcript": "I've got your number, Lich.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_winter_wyvern_winwyv_rival_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_04.mp3",
+      "transcript": "Now I'm the numb-er one!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_winter_wyvern_winwyv_rival_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_05.mp3",
+      "transcript": "I knew Slyrak, Dragon Knight. You're no Slyrak.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_winter_wyvern_winwyv_rival_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_06.mp3",
+      "transcript": "All your dragons came home to roost.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_winter_wyvern_winwyv_rival_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_07.mp3",
+      "transcript": "These are unfriendly skies for a viper.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_winter_wyvern_winwyv_rival_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_08.mp3",
+      "transcript": "Uh, furry wings? Unnatural.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_winter_wyvern_winwyv_rival_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_09.mp3",
+      "transcript": "Ah ha! That was unequal combat.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_winter_wyvern_winwyv_rival_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_10.mp3",
+      "transcript": "I should have crushed you in the nest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_winter_wyvern_winwyv_rival_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_11.mp3",
+      "transcript": "I'm an Eldwurm now, but I was once a Maidenwurm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_winter_wyvern_winwyv_rival_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_12.mp3",
+      "transcript": "I thought Io would add a nice glimmer to my hoard.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_winter_wyvern_winwyv_rival_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_13.mp3",
+      "transcript": "Lina, I don't find you hot at all.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_winter_wyvern_winwyv_rival_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_14.mp3",
+      "transcript": "Stone wings?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_winter_wyvern_winwyv_rival_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_16.mp3",
+      "transcript": "Stone wings? An abomination!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_winter_wyvern_winwyv_rival_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_17.mp3",
+      "transcript": "That'll teach you to hunt dragons.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_winter_wyvern_winwyv_rival_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_18.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_18.mp3",
+      "transcript": "You only wear your wings when none can see them!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_winter_wyvern_winwyv_rival_18.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_19.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_19.mp3",
+      "transcript": "Was that ice you were shooting? I hardly noticed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_winter_wyvern_winwyv_rival_19.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_firstblood_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_firstblood_01.mp3",
+      "transcript": "First blood comes with the first breath of winter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_winter_wyvern_winwyv_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rival_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rival_01.mp3",
+      "transcript": "You're the ice cold wind beneath my wings.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_winter_wyvern_winwyv_rival_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_01.mp3",
+      "transcript": "Feathered wings, Skywrath Mage? Is that really wise?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_winter_wyvern_winwyv_ally_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_04.mp3",
+      "transcript": "Abaddon, your presence helps dispel the fog of war.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_winter_wyvern_winwyv_ally_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_05.mp3",
+      "transcript": "Let's talk tactics another time, Tresdin.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_winter_wyvern_winwyv_ally_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_06.mp3",
+      "transcript": "Ah, Tusk. Let's show them the chill of home.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_winter_wyvern_winwyv_ally_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_07.mp3",
+      "transcript": "The sky is on fire, Phoenix!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_winter_wyvern_winwyv_ally_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_08.mp3",
+      "transcript": "Plant your mines where you will, Techies. I'll just fly over them.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_winter_wyvern_winwyv_ally_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_09.mp3",
+      "transcript": "Let us keep to the path of terror!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_winter_wyvern_winwyv_ally_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_10.mp3",
+      "transcript": "Arc Warden, you have such a magnetic personality.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_winter_wyvern_winwyv_ally_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_11.mp3",
+      "transcript": "Not so close, Ember Spirit. You're warming my wings.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_winter_wyvern_winwyv_ally_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_12.mp3",
+      "transcript": "Your disruptive influence is most welcome.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_winter_wyvern_winwyv_ally_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_13.mp3",
+      "transcript": "Hello Maiden, and how fare the wolves of Icewrack.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_winter_wyvern_winwyv_ally_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_14.mp3",
+      "transcript": "Ah, child, your eyes shine like the Blueheart Glacier.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_winter_wyvern_winwyv_ally_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_15.mp3",
+      "transcript": "Lina, you could learn a lot from your sister.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_winter_wyvern_winwyv_ally_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_17.mp3",
+      "transcript": "Greetings Io! Let's get up to some mischief together, shall we?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_winter_wyvern_winwyv_ally_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_18.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_18.mp3",
+      "transcript": "Dark Seer, you can vacuum up the mess I make.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_winter_wyvern_winwyv_ally_18.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_19.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_19.mp3",
+      "transcript": "In this world, nothing is certain but ice and axes.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_winter_wyvern_winwyv_ally_19.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_20.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_20.mp3",
+      "transcript": "Dear Axe, you and I go together like cold and steel.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_winter_wyvern_winwyv_ally_20.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_21.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_21.mp3",
+      "transcript": "Well, Storm Spirit. Isn't this a wintry mix?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_winter_wyvern_winwyv_ally_21.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_02.mp3",
+      "transcript": "Oh Elder Titan, you make me feel young.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_winter_wyvern_winwyv_ally_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_ally_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_ally_03.mp3",
+      "transcript": "Keep your flames under control in my presence.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_winter_wyvern_winwyv_ally_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_01.mp3",
+      "transcript": "For the Eldwurm.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_winter_wyvern_winwyv_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_02.mp3",
+      "transcript": "One for my hoard.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_winter_wyvern_winwyv_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_03.mp3",
+      "transcript": "Huh. Such a little one.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_winter_wyvern_winwyv_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_05.mp3",
+      "transcript": "What a mite.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_winter_wyvern_winwyv_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_06.mp3",
+      "transcript": "A tiny increase.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_winter_wyvern_winwyv_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_07.mp3",
+      "transcript": "Poor dear.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_winter_wyvern_winwyv_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_08.mp3",
+      "transcript": "Last and least.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_winter_wyvern_winwyv_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_09.mp3",
+      "transcript": "A winter wish.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_winter_wyvern_winwyv_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_10.mp3",
+      "transcript": "Don't mind if I do.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_winter_wyvern_winwyv_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_11.mp3",
+      "transcript": "Why ever not? Hm hm hm hm hm hm hm hm hm hm!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_winter_wyvern_winwyv_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_12.mp3",
+      "transcript": "Cool.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_winter_wyvern_winwyv_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_13.mp3",
+      "transcript": "Very cool.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_winter_wyvern_winwyv_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_14.mp3",
+      "transcript": "For the Eldwurm.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_winter_wyvern_winwyv_lasthit_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_15.mp3",
+      "transcript": "Poor dear.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_winter_wyvern_winwyv_lasthit_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_16.mp3",
+      "transcript": "Poor dear.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_winter_wyvern_winwyv_lasthit_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lasthit_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lasthit_17.mp3",
+      "transcript": "That's cool.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_winter_wyvern_winwyv_lasthit_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_winter_wyvern_winwyv_deny_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_winter_wyvern_winwyv_deny_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_03.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_winter_wyvern_winwyv_deny_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_04.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_winter_wyvern_winwyv_deny_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_05.mp3",
+      "transcript": "You think I'm cold?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_winter_wyvern_winwyv_deny_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_06.mp3",
+      "transcript": "Nothing for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_winter_wyvern_winwyv_deny_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_08.mp3",
+      "transcript": "Chill, baby.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_winter_wyvern_winwyv_deny_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_09.mp3",
+      "transcript": "Not cool.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_winter_wyvern_winwyv_deny_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_10.mp3",
+      "transcript": "No, child.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_winter_wyvern_winwyv_deny_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_11.mp3",
+      "transcript": "Mm mm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_winter_wyvern_winwyv_deny_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_12.mp3",
+      "transcript": "Wyvern's will.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_winter_wyvern_winwyv_deny_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_13.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_winter_wyvern_winwyv_deny_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_14.mp3",
+      "transcript": "Hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_winter_wyvern_winwyv_deny_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_15.mp3",
+      "transcript": "Zero for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_winter_wyvern_winwyv_deny_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_16.mp3",
+      "transcript": "Uh ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_winter_wyvern_winwyv_deny_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_17.mp3",
+      "transcript": "Oh hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_winter_wyvern_winwyv_deny_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_18.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_18.mp3",
+      "transcript": "Oh ho ho ho hm",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_winter_wyvern_winwyv_deny_18.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_19.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_19.mp3",
+      "transcript": "Oh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_winter_wyvern_winwyv_deny_19.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_20.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_20.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_winter_wyvern_winwyv_deny_20.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_21.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_21.mp3",
+      "transcript": "Oh, nothing for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_winter_wyvern_winwyv_deny_21.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_22.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_22.mp3",
+      "transcript": "Ah! Ah ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_winter_wyvern_winwyv_deny_22.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_deny_23.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_deny_23.mp3",
+      "transcript": "Mm mm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_winter_wyvern_winwyv_deny_23.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_purch_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_purch_01.mp3",
+      "transcript": "Twas worth a wyvern's hoard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_winter_wyvern_winwyv_purch_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_purch_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_purch_02.mp3",
+      "transcript": "This Eldwurm knows a bargain when she sees one.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_winter_wyvern_winwyv_purch_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_purch_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_purch_03.mp3",
+      "transcript": "Mine, all mine.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_winter_wyvern_winwyv_purch_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_scepter_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_winter_wyvern_winwyv_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_scepter_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_scepter_02.mp3",
+      "transcript": "Winter's wand.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_winter_wyvern_winwyv_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_blink_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_winter_wyvern_winwyv_blink_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_blink_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_blink_02.mp3",
+      "transcript": "Why fly when I can blink?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_winter_wyvern_winwyv_blink_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_01.mp3",
+      "transcript": "Urn of Shadows!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_winter_wyvern_winwyv_items_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_02.mp3",
+      "transcript": "Shadow Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_winter_wyvern_winwyv_items_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_03.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_winter_wyvern_winwyv_items_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_04.mp3",
+      "transcript": "Scepter of Divinity!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_winter_wyvern_winwyv_items_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_05.mp3",
+      "transcript": "Orchid Malevolence!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_winter_wyvern_winwyv_items_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_06.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_winter_wyvern_winwyv_items_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_07.mp3",
+      "transcript": "Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_winter_wyvern_winwyv_items_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_17.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_17.mp3",
+      "transcript": "Mm! Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_winter_wyvern_winwyv_items_17.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_08.mp3",
+      "transcript": "Pipe of Insight!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_winter_wyvern_winwyv_items_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_11.mp3",
+      "transcript": "Refresher!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_winter_wyvern_winwyv_items_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_12.mp3",
+      "transcript": "Mm, Force Staff!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_winter_wyvern_winwyv_items_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_13.mp3",
+      "transcript": "Eye of Skadi!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_winter_wyvern_winwyv_items_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_14.mp3",
+      "transcript": "Divine Rapier!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_winter_wyvern_winwyv_items_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_15.mp3",
+      "transcript": "Mm, Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_winter_wyvern_winwyv_items_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_16.mp3",
+      "transcript": "Mmhmm! Mjollnir!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_winter_wyvern_winwyv_items_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_immort_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_winter_wyvern_winwyv_immort_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_items_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_items_10.mp3",
+      "transcript": "Pipe of Inflight!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_winter_wyvern_winwyv_items_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_immort_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_immort_02.mp3",
+      "transcript": "An Eldwurm never tells her age.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_winter_wyvern_winwyv_immort_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_winter_wyvern_winwyv_death_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_02.mp3",
+      "transcript": "Why oh why!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_winter_wyvern_winwyv_death_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_03.mp3",
+      "transcript": "Fall into the fire!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_winter_wyvern_winwyv_death_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_04.mp3",
+      "transcript": "You'll never find my hoard!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_winter_wyvern_winwyv_death_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_05.mp3",
+      "transcript": "The last of the Eldwurms!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_winter_wyvern_winwyv_death_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_06.mp3",
+      "transcript": "So far from my roost!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_winter_wyvern_winwyv_death_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_09.mp3",
+      "transcript": "That was not wise!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_winter_wyvern_winwyv_death_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_10.mp3",
+      "transcript": "Fancy that, huh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_winter_wyvern_winwyv_death_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_11.mp3",
+      "transcript": "Who will keep the Eldwurm's Edda now?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_winter_wyvern_winwyv_death_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_12.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_winter_wyvern_winwyv_death_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_13.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_winter_wyvern_winwyv_death_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_15.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_15.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_winter_wyvern_winwyv_death_15.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_16.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_16.mp3",
+      "transcript": "Why oh why!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_winter_wyvern_winwyv_death_16.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_07.mp3",
+      "transcript": "Winds of winter carry me home!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_winter_wyvern_winwyv_death_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_08.mp3",
+      "transcript": "I'm melting!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_winter_wyvern_winwyv_death_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_death_14.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_death_14.mp3",
+      "transcript": "Winds of winter carry me home!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_winter_wyvern_winwyv_death_14.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_01.mp3",
+      "transcript": "An Eldwurm keeps her promise to return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_winter_wyvern_winwyv_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_03.mp3",
+      "transcript": "War and winter travel wing in wing.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_winter_wyvern_winwyv_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_04.mp3",
+      "transcript": "I'll not abandon my friends to a world without winter.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_winter_wyvern_winwyv_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_05.mp3",
+      "transcript": "Back to the roost well rested.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_winter_wyvern_winwyv_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_06.mp3",
+      "transcript": "The winter wurm has turned.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_winter_wyvern_winwyv_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_07.mp3",
+      "transcript": "That gave me a little time to work on the Edda.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_winter_wyvern_winwyv_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_10.mp3",
+      "transcript": "Cold wings, warm heart.!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_winter_wyvern_winwyv_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_11.mp3",
+      "transcript": "Who's been at my hoard?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_winter_wyvern_winwyv_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_12.mp3",
+      "transcript": "Let me just quickly count my treasure and I'll be off.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_winter_wyvern_winwyv_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_fastres_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_fastres_01.mp3",
+      "transcript": "In a cold blast, I'm back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_winter_wyvern_winwyv_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_bottle_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_bottle_01.mp3",
+      "transcript": "I'll keep this on ice.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_winter_wyvern_winwyv_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_bottle_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_bottle_02.mp3",
+      "transcript": "A cold flask.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_winter_wyvern_winwyv_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_bottle_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_bottle_03.mp3",
+      "transcript": "Mm, patience.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_winter_wyvern_winwyv_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_doubdam_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_winter_wyvern_winwyv_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_doubdam_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_doubdam_02.mp3",
+      "transcript": "Twin wings of damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_winter_wyvern_winwyv_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_haste_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_haste_01.mp3",
+      "transcript": "Haste",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_winter_wyvern_winwyv_haste_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_haste_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_haste_02.mp3",
+      "transcript": "Cold wings carry me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_winter_wyvern_winwyv_haste_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_illus_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_winter_wyvern_winwyv_illus_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_illus_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_illus_02.mp3",
+      "transcript": "Winter comes three times this year.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_winter_wyvern_winwyv_illus_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_invis_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_winter_wyvern_winwyv_invis_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_invis_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_invis_02.mp3",
+      "transcript": "I'll cloud their minds.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_winter_wyvern_winwyv_invis_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_regen_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_winter_wyvern_winwyv_regen_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_regen_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_regen_02.mp3",
+      "transcript": "An icy chill restores me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_winter_wyvern_winwyv_regen_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_winter_wyvern_winwyv_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_winter_wyvern_winwyv_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_winter_wyvern_winwyv_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_winter_wyvern_winwyv_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_winter_wyvern_winwyv_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_winter_wyvern_winwyv_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_02.mp3",
+      "transcript": "Not yet",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_winter_wyvern_winwyv_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_winter_wyvern_winwyv_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_notyet_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_winter_wyvern_winwyv_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_winter_wyvern_winwyv_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_winter_wyvern_winwyv_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_winter_wyvern_winwyv_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_winter_wyvern_winwyv_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_winter_wyvern_winwyv_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_winter_wyvern_winwyv_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_winter_wyvern_winwyv_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_winter_wyvern_winwyv_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_nomana_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_winter_wyvern_winwyv_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_winter_wyvern_winwyv_pain_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_winter_wyvern_winwyv_pain_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_winter_wyvern_winwyv_pain_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_04.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_winter_wyvern_winwyv_pain_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_05.mp3",
+      "transcript": "Hh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_winter_wyvern_winwyv_pain_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_06.mp3",
+      "transcript": "Hh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_winter_wyvern_winwyv_pain_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_07.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_winter_wyvern_winwyv_pain_07.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_08.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_winter_wyvern_winwyv_pain_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_winter_wyvern_winwyv_pain_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_10.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_winter_wyvern_winwyv_pain_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_11.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_winter_wyvern_winwyv_pain_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_12.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_12.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_winter_wyvern_winwyv_pain_12.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_pain_13.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_pain_13.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_winter_wyvern_winwyv_pain_13.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_underattack_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_winter_wyvern_winwyv_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_cast_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_cast_02.mp3",
+      "transcript": "I'm not just an Eldwurm, I'm the eldest wurm!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_winter_wyvern_winwyv_cast_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rare_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rare_01.mp3",
+      "transcript": "Spring dare not show its face when I'm around.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_winter_wyvern_winwyv_rare_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rare_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rare_02.mp3",
+      "transcript": "Winter is coming. Winter wyvern that is.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_winter_wyvern_winwyv_rare_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rare_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rare_03.mp3",
+      "transcript": "Wyvern? Why not.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_winter_wyvern_winwyv_rare_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rare_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rare_04.mp3",
+      "transcript": "I saw this field from where the Eldwurms roost and knew one day it would cool beneath my shadow.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_winter_wyvern_winwyv_rare_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_rare_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_rare_05.mp3",
+      "transcript": "How old am I? We speak of sage dragons. Not of a dragon's age.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_winter_wyvern_winwyv_rare_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_01.mp3",
+      "transcript": "Missing top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_winter_wyvern_winwyv_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_02.mp3",
+      "transcript": "Top is missing",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_winter_wyvern_winwyv_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_03.mp3",
+      "transcript": "Missing middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_winter_wyvern_winwyv_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_04.mp3",
+      "transcript": "Middle is missing",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_winter_wyvern_winwyv_lanemissing_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_05.mp3",
+      "transcript": "Missing bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_winter_wyvern_winwyv_lanemissing_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lanemissing_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lanemissing_06.mp3",
+      "transcript": "Bottom is missing",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_winter_wyvern_winwyv_lanemissing_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_thanks_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_thanks_01.mp3",
+      "transcript": "Wonderful!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_winter_wyvern_winwyv_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_thanks_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_thanks_02.mp3",
+      "transcript": "You've earned a wyvern's gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_winter_wyvern_winwyv_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_thanks_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_thanks_03.mp3",
+      "transcript": "Thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_winter_wyvern_winwyv_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_thanks_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_thanks_04.mp3",
+      "transcript": "You're wonderful.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_winter_wyvern_winwyv_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_respawn_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_respawn_09.mp3",
+      "transcript": "From subzero to hero.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_winter_wyvern_winwyv_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_win_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_winter_wyvern_winwyv_win_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_win_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_winter_wyvern_winwyv_win_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_win_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_win_03.mp3",
+      "transcript": "This day shall be hailed in the Eldwurm Eddas!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_winter_wyvern_winwyv_win_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lose_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_winter_wyvern_winwyv_lose_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lose_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lose_02.mp3",
+      "transcript": "Ah! Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_winter_wyvern_winwyv_lose_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_lose_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_lose_03.mp3",
+      "transcript": "You have made an Eldwurm very disappointed!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_winter_wyvern_winwyv_lose_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_itemcommon_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_itemcommon_01.mp3",
+      "transcript": "Mm, a shiny for my ever-growing hoard!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_winter_wyvern_winwyv_itemcommon_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_itemmoderate_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_itemmoderate_01.mp3",
+      "transcript": "The fates have been kind to this frosty old Eldwurm!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_winter_wyvern_winwyv_itemmoderate_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_itemrare_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_itemrare_01.mp3",
+      "transcript": "I'm putting this on the very tip top of my mountainous hoard!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_winter_wyvern_winwyv_itemrare_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_failure_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_failure_01.mp3",
+      "transcript": "Bah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_winter_wyvern_winwyv_failure_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_failure_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_failure_02.mp3",
+      "transcript": "Oh no.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_winter_wyvern_winwyv_failure_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_failure_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_failure_03.mp3",
+      "transcript": "Oh, bah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_winter_wyvern_winwyv_failure_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_failure_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_failure_04.mp3",
+      "transcript": "Nuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_winter_wyvern_winwyv_failure_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_failure_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_failure_05.mp3",
+      "transcript": "I froze up.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_winter_wyvern_winwyv_failure_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_crumwiz_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_crumwiz_01.mp3",
+      "transcript": "Crummy wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_winter_wyvern_winwyv_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_shiwiz_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_shiwiz_01.mp3",
+      "transcript": "Ugh. Shitty wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_winter_wyvern_winwyv_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_01.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_winter_wyvern_winwyv_anger_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_02.mp3",
+      "transcript": "Uugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_winter_wyvern_winwyv_anger_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_03.mp3",
+      "transcript": "Nnmmgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_winter_wyvern_winwyv_anger_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_04.mp3",
+      "transcript": "Oohumm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_winter_wyvern_winwyv_anger_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_05.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_winter_wyvern_winwyv_anger_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_06.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_winter_wyvern_winwyv_anger_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_08.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_08.mp3",
+      "transcript": "Hhh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_winter_wyvern_winwyv_anger_08.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_09.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_09.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_winter_wyvern_winwyv_anger_09.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_10.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_10.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_winter_wyvern_winwyv_anger_10.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_anger_11.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_anger_11.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_winter_wyvern_winwyv_anger_11.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_01.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_01.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_winter_wyvern_winwyv_happy_01.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_02.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_02.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_winter_wyvern_winwyv_happy_02.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_03.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_03.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_winter_wyvern_winwyv_happy_03.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_04.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_04.mp3",
+      "transcript": "Ohh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_winter_wyvern_winwyv_happy_04.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_05.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_05.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_winter_wyvern_winwyv_happy_05.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_06.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_06.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_winter_wyvern_winwyv_happy_06.mp3"
+    },
+    {
+      "file": "Vo_winter_wyvern_winwyv_happy_07.mp3",
+      "key": "dota2/winter-wyvern/Vo_winter_wyvern_winwyv_happy_07.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_winter_wyvern_winwyv_happy_07.mp3"
+    }
+  ]
+}

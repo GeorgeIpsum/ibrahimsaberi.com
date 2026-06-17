@@ -23,7 +23,7 @@ export const pipe = <T = any>(...fns: ((...args: any[]) => Promise<T>)[]) => {
 };
 
 export const passForward = <T>(
-  asyncFn: () => Promise<unknown> | unknown,
+  asyncFn: (...args: unknown[]) => Promise<unknown> | unknown,
 ): ((t: T) => Promise<T>) => {
   return async (t: T) => {
     await asyncFn();

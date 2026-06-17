@@ -1,0 +1,2726 @@
+{
+  "hero": "Silencer",
+  "slug": "silencer",
+  "source": "https://liquipedia.net/dota2/Silencer/Responses",
+  "scrapedAt": "2026-06-17T14:43:57.882Z",
+  "count": 269,
+  "voicelines": [
+    {
+      "file": "Vo_silencer_silen_spawn_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_spawn_01.mp3",
+      "transcript": "Silencer!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_silencer_silen_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_spawn_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_spawn_02.mp3",
+      "transcript": "There is purity in silence.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_silencer_silen_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_spawn_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_spawn_03.mp3",
+      "transcript": "I bear the gift of silence.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_silencer_silen_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_spawn_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_spawn_04.mp3",
+      "transcript": "Silencer comes to war.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_silencer_silen_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_battlebegins_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_battlebegins_01.mp3",
+      "transcript": "A hush falls on the battlefield.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_silencer_silen_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_glaive_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_glaive_02.mp3",
+      "transcript": "The glaives will silence you.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_silencer_silen_ability_glaive_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_02.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_silencer_silen_ability_silence_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_06.mp3",
+      "transcript": "The silence deepens.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_silencer_silen_level_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_03.mp3",
+      "transcript": "Silence is virtue.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_silencer_silen_kill_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_10.mp3",
+      "transcript": "Silence, mere mortal.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_silencer_silen_kill_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_03.mp3",
+      "transcript": "I'll cut you down.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_silencer_silen_attack_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_04.mp3",
+      "transcript": "Hush now. I'm here.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_silencer_silen_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_07.mp3",
+      "transcript": "Urrrrr.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_silencer_silen_anger_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_inthebag_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_inthebag_01.mp3",
+      "transcript": "It goes without saying, this one is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_silencer_silen_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_silencer_silen_move_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_02.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_silencer_silen_move_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_03.mp3",
+      "transcript": "Silently.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_silencer_silen_move_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_04.mp3",
+      "transcript": "I make my move.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_silencer_silen_move_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_05.mp3",
+      "transcript": "Onward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_silencer_silen_move_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_06.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_silencer_silen_move_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_07.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_silencer_silen_move_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_08.mp3",
+      "transcript": "Silently.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_silencer_silen_move_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_09.mp3",
+      "transcript": "I cut a path.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_silencer_silen_move_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_10.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_silencer_silen_move_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_11.mp3",
+      "transcript": "With quickness.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_silencer_silen_move_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_12.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_12.mp3",
+      "transcript": "Silent running.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_silencer_silen_move_12.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_13.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_13.mp3",
+      "transcript": "A step ahead.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_silencer_silen_move_13.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_move_14.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_move_14.mp3",
+      "transcript": "Not a whisper.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_silencer_silen_move_14.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_01.mp3",
+      "transcript": "I strike.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_silencer_silen_attack_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_02.mp3",
+      "transcript": "Spinning blade.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_silencer_silen_attack_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_04.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_silencer_silen_attack_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_05.mp3",
+      "transcript": "Hear me out.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_silencer_silen_attack_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_06.mp3",
+      "transcript": "I wouldn't hear of it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_silencer_silen_attack_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_07.mp3",
+      "transcript": "Shut up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_silencer_silen_attack_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_08.mp3",
+      "transcript": "Catch this.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_silencer_silen_attack_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_09.mp3",
+      "transcript": "Sh.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_silencer_silen_attack_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_10.mp3",
+      "transcript": "Shush.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_silencer_silen_attack_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_11.mp3",
+      "transcript": "Shhh.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_silencer_silen_attack_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_12.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_12.mp3",
+      "transcript": "Shut it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_silencer_silen_attack_12.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_13.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_13.mp3",
+      "transcript": "I don't even want to hear it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_silencer_silen_attack_13.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_14.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_14.mp3",
+      "transcript": "Any last words?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_silencer_silen_attack_14.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_attack_15.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_attack_15.mp3",
+      "transcript": "As the blades fly.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_silencer_silen_attack_15.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_cast_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_cast_01.mp3",
+      "transcript": "Soon you die.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_silencer_silen_cast_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_cast_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_cast_02.mp3",
+      "transcript": "Cut to the chase.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_silencer_silen_cast_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_cast_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_cast_03.mp3",
+      "transcript": "Speak your last.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_silencer_silen_cast_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_01.mp3",
+      "transcript": "Dare to speak?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_silencer_silen_ability_curse_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_02.mp3",
+      "transcript": "Silence, fool!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_silencer_silen_ability_curse_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_03.mp3",
+      "transcript": "Curse you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_silencer_silen_ability_curse_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_04.mp3",
+      "transcript": "Hold your tongue.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_silencer_silen_ability_curse_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_05.mp3",
+      "transcript": "Your silence betrays you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_silencer_silen_ability_curse_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_06.mp3",
+      "transcript": "None as quiet as the dead.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_silencer_silen_ability_curse_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_07.mp3",
+      "transcript": "Fear the quiet.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_silencer_silen_ability_curse_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_08.mp3",
+      "transcript": "As good as mute.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_silencer_silen_ability_curse_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_09.mp3",
+      "transcript": "Now we see what you really are.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_silencer_silen_ability_curse_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_curse_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_curse_10.mp3",
+      "transcript": "Your power evaporated.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_silencer_silen_ability_curse_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_glaive_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_glaive_03.mp3",
+      "transcript": "The steel flies.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_silencer_silen_ability_glaive_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_01.mp3",
+      "transcript": "Once a warrior, now a fool.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_silencer_silen_ability_intsteal_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_02.mp3",
+      "transcript": "Your intelligence flows to me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_silencer_silen_ability_intsteal_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_03.mp3",
+      "transcript": "My intelligence grows.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_silencer_silen_ability_intsteal_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_04.mp3",
+      "transcript": "Have you forgotten something?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_silencer_silen_ability_intsteal_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_05.mp3",
+      "transcript": "Can you feel your grasp slipping?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_silencer_silen_ability_intsteal_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_06.mp3",
+      "transcript": "Ha! How about a little brain damage?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_silencer_silen_ability_intsteal_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_intsteal_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_intsteal_07.mp3",
+      "transcript": "Your mind is mine! Not like you were using it anyway.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_silencer_silen_ability_intsteal_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_12.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_12.mp3",
+      "transcript": "Like wheat before my blade.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_silencer_silen_kill_12.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_13.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_13.mp3",
+      "transcript": "I take, you give.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_silencer_silen_kill_13.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_03.mp3",
+      "transcript": "Time for a little brain drain.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_silencer_silen_rival_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_01.mp3",
+      "transcript": "I can hear a pin drop.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_silencer_silen_ability_silence_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_05.mp3",
+      "transcript": "Calm yourselves.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_silencer_silen_ability_silence_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_06.mp3",
+      "transcript": "You shall not cast.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_silencer_silen_ability_silence_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_07.mp3",
+      "transcript": "None shall cast.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_silencer_silen_ability_silence_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_08.mp3",
+      "transcript": "Cast not.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_silencer_silen_ability_silence_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_09.mp3",
+      "transcript": "Speak not.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_silencer_silen_ability_silence_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_01.mp3",
+      "transcript": "My edge grows sharper.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_silencer_silen_level_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_02.mp3",
+      "transcript": "There is less to be heard.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_silencer_silen_level_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_silencer_silen_level_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_04.mp3",
+      "transcript": "Ah ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_silencer_silen_level_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_05.mp3",
+      "transcript": "Absolutely! Ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_silencer_silen_level_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_07.mp3",
+      "transcript": "Advancement!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_silencer_silen_level_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_08.mp3",
+      "transcript": "Exaltation!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_silencer_silen_level_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_09.mp3",
+      "transcript": "Let no sound escape!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_silencer_silen_level_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_level_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_level_10.mp3",
+      "transcript": "Ha ha ha ha ha ah ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_silencer_silen_level_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_glaive_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_glaive_01.mp3",
+      "transcript": "Shhh!",
+      "categories": [
+        "Killing an enemy",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_silencer_silen_ability_glaive_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_04.mp3",
+      "transcript": "Silence.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_silencer_silen_ability_silence_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_10.mp3",
+      "transcript": "Be still.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_silencer_silen_ability_silence_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_01.mp3",
+      "transcript": "Enemies should be seen and not heard.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_silencer_silen_kill_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_02.mp3",
+      "transcript": "Sh now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_silencer_silen_kill_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_04.mp3",
+      "transcript": "Your mind flows to me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_silencer_silen_kill_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_05.mp3",
+      "transcript": "Your lips are sealed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_silencer_silen_kill_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_06.mp3",
+      "transcript": "My mind grows stronger with every kill.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_silencer_silen_kill_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_07.mp3",
+      "transcript": "Quiet as the grave.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_silencer_silen_kill_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ah ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_silencer_silen_kill_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_09.mp3",
+      "transcript": "Reduced you to silence.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_silencer_silen_kill_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_11.mp3",
+      "transcript": "I don't even want to hear it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_silencer_silen_kill_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_14.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_14.mp3",
+      "transcript": "This will shut you up.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_silencer_silen_kill_14.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_15.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_15.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_silencer_silen_kill_15.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_16.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_16.mp3",
+      "transcript": "That will shut you up.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_silencer_silen_kill_16.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_17.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_17.mp3",
+      "transcript": "Shhhhhhhhh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_silencer_silen_kill_17.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_kill_18.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_kill_18.mp3",
+      "transcript": "Shhhhhhhhh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_silencer_silen_kill_18.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_01.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_silencer_silen_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_02.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_silencer_silen_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_silencer_silen_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_silencer_silen_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_silencer_silen_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_06.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_silencer_silen_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_07.mp3",
+      "transcript": "Ah ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_silencer_silen_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_silencer_silen_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_09.mp3",
+      "transcript": "Ah ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_silencer_silen_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_10.mp3",
+      "transcript": "Ah ah ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_silencer_silen_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_11.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_silencer_silen_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_12.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_12.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_silencer_silen_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_13.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_13.mp3",
+      "transcript": "Ah ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_silencer_silen_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_laugh_14.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_laugh_14.mp3",
+      "transcript": "Ah ha ah ha ah ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_silencer_silen_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_01.mp3",
+      "transcript": "What's wrong, Queenie? Cat got your tongue?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_silencer_silen_rival_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_04.mp3",
+      "transcript": "Zeus, I'll steal your thunder.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_silencer_silen_rival_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_05.mp3",
+      "transcript": "You're not worth a tinker's dam.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_silencer_silen_rival_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_06.mp3",
+      "transcript": "I clipped your wings.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_silencer_silen_rival_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_07.mp3",
+      "transcript": "I silenced that annoying tongue.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_silencer_silen_rival_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_02.mp3",
+      "transcript": "You make me want to hurl.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_silencer_silen_rival_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_first_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_first_01.mp3",
+      "transcript": "First blood, last words. Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_silencer_silen_first_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_08.mp3",
+      "transcript": "I would hear your words, Death Prophet.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_silencer_silen_rival_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_09.mp3",
+      "transcript": "Teach them your quiet, Drow.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_silencer_silen_rival_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_10.mp3",
+      "transcript": "Help me season their minds, Puck.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_silencer_silen_rival_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_rival_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_rival_11.mp3",
+      "transcript": "Always pleased to ally myself with the Anti-Mage.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_silencer_silen_rival_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_01.mp3",
+      "transcript": "Silence is golden.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_silencer_silen_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_02.mp3",
+      "transcript": "A small price.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_silencer_silen_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_03.mp3",
+      "transcript": "Shut your mouth.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_silencer_silen_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_04.mp3",
+      "transcript": "Shut it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_silencer_silen_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_05.mp3",
+      "transcript": "Gold for steel.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_silencer_silen_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_06.mp3",
+      "transcript": "I'm paid for your silence.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_silencer_silen_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lasthit_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lasthit_07.mp3",
+      "transcript": "Coin for me.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_silencer_silen_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_silencer_silen_deny_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_02.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_silencer_silen_deny_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_03.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_silencer_silen_deny_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_04.mp3",
+      "transcript": "Too bad for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_silencer_silen_deny_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_05.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_silencer_silen_deny_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_06.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_silencer_silen_deny_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_07.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_silencer_silen_deny_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_08.mp3",
+      "transcript": "Too bad for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_silencer_silen_deny_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_09.mp3",
+      "transcript": "You almost had that too.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_silencer_silen_deny_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_10.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_silencer_silen_deny_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_deny_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_deny_11.mp3",
+      "transcript": "You almost had that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_silencer_silen_deny_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_purch_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_purch_01.mp3",
+      "transcript": "Worth its weight in gold.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_silencer_silen_purch_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_purch_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_purch_02.mp3",
+      "transcript": "Long have I saved.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_silencer_silen_purch_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_purch_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_purch_03.mp3",
+      "transcript": "A fair price!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_silencer_silen_purch_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_blink_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_silencer_silen_blink_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_blink_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_blink_02.mp3",
+      "transcript": "Quiet dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_silencer_silen_blink_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_blink_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_blink_03.mp3",
+      "transcript": "Ah, a mute point.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_silencer_silen_blink_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_scepter_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_silencer_silen_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_scepter_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_scepter_02.mp3",
+      "transcript": "Silent scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_silencer_silen_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_01.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_silencer_silen_item_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_02.mp3",
+      "transcript": "Scythe of Vyse.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_silencer_silen_item_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_03.mp3",
+      "transcript": "Orchid Malevolence.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_silencer_silen_item_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_04.mp3",
+      "transcript": "Scepter of Divinity!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_silencer_silen_item_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_05.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_silencer_silen_item_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_06.mp3",
+      "transcript": "Necronomicon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_silencer_silen_item_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_07.mp3",
+      "transcript": "Assault cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_silencer_silen_item_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_item_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_item_08.mp3",
+      "transcript": "Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_silencer_silen_item_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_immort_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_silencer_silen_immort_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_immort_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_immort_02.mp3",
+      "transcript": "You haven't heard the last of me.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_silencer_silen_immort_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_silencer_silen_death_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_02.mp3",
+      "transcript": "The silence is broken.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_silencer_silen_death_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_03.mp3",
+      "transcript": "All is silence.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_silencer_silen_death_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_04.mp3",
+      "transcript": "You'll hear no more from me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_silencer_silen_death_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_05.mp3",
+      "transcript": "Can't hear myself think.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_silencer_silen_death_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_06.mp3",
+      "transcript": "My heart beats no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_silencer_silen_death_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_07.mp3",
+      "transcript": "My edge dulls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_silencer_silen_death_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_08.mp3",
+      "transcript": "I'll never hear the end of this.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_silencer_silen_death_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_09.mp3",
+      "transcript": "Bury me with my glaives.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_silencer_silen_death_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_10.mp3",
+      "transcript": "All for naught.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_silencer_silen_death_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_death_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_death_11.mp3",
+      "transcript": "I've got my ear to the ground.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_silencer_silen_death_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_01.mp3",
+      "transcript": "From the ultimate silence, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_silencer_silen_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_02.mp3",
+      "transcript": "Shhh, did you hear something?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_silencer_silen_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_03.mp3",
+      "transcript": "Quietly, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_silencer_silen_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_05.mp3",
+      "transcript": "I hear the call once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_silencer_silen_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_06.mp3",
+      "transcript": "The grave was too quiet.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_silencer_silen_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_07.mp3",
+      "transcript": "Look who's back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_silencer_silen_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_08.mp3",
+      "transcript": "My glaives will run red.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_silencer_silen_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_09.mp3",
+      "transcript": "My glaives will answer this disrespect.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_silencer_silen_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_respawn_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_respawn_10.mp3",
+      "transcript": "I'll hear their screams, nothing more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_silencer_silen_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_fastres_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_fastres_01.mp3",
+      "transcript": "You'll hear from me soon!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_silencer_silen_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_fastres_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_fastres_02.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha. Ah ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_silencer_silen_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_bottle_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_bottle_01.mp3",
+      "transcript": "Is that soundproof glass?",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_silencer_silen_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_bottle_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_bottle_02.mp3",
+      "transcript": "For another time.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_silencer_silen_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_bottle_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_bottle_03.mp3",
+      "transcript": "For when it suits me.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_silencer_silen_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_bottle_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_bottle_04.mp3",
+      "transcript": "Into the soundproof glass.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_silencer_silen_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_bottle_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_bottle_05.mp3",
+      "transcript": "You haven't heard the last of this.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_silencer_silen_bottle_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_silence_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_silence_03.mp3",
+      "transcript": "Behold.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_silencer_silen_ability_silence_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_doubdam_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_silencer_silen_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_doubdam_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_doubdam_02.mp3",
+      "transcript": "I cut two ways.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_silencer_silen_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_haste_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_silencer_silen_haste_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_haste_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_haste_02.mp3",
+      "transcript": "I run!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_silencer_silen_haste_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_illus_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_silencer_silen_illus_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_illus_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_illus_02.mp3",
+      "transcript": "Three times the cutting power.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_silencer_silen_illus_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_invis_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_silencer_silen_invis_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_invis_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_invis_02.mp3",
+      "transcript": "Not seen and not heard.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_silencer_silen_invis_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_regen_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_silencer_silen_regen_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_regen_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_regen_02.mp3",
+      "transcript": "My blade is new again.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_silencer_silen_regen_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_01.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_silencer_silen_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_02.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_silencer_silen_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_03.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_silencer_silen_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_04.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_silencer_silen_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_05.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_silencer_silen_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_06.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_silencer_silen_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_silencer_silen_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_silencer_silen_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_notyet_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_silencer_silen_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_01.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_silencer_silen_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_02.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_silencer_silen_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_03.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_silencer_silen_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_04.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_silencer_silen_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_silencer_silen_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_06.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_silencer_silen_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_silencer_silen_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_silencer_silen_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_nomana_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_silencer_silen_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_silencer_silen_pain_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_silencer_silen_pain_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_03.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_silencer_silen_pain_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_04.mp3",
+      "transcript": "Buh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_silencer_silen_pain_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_silencer_silen_pain_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_06.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_silencer_silen_pain_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_07.mp3",
+      "transcript": "Uh ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_silencer_silen_pain_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_silencer_silen_pain_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_09.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_silencer_silen_pain_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_10.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_silencer_silen_pain_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_11.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_11.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_silencer_silen_pain_11.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_12.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_12.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_silencer_silen_pain_12.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_13.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_13.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_silencer_silen_pain_13.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_14.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_14.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_silencer_silen_pain_14.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_15.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_15.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_silencer_silen_pain_15.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_16.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_16.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_silencer_silen_pain_16.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_17.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_17.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_silencer_silen_pain_17.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_pain_18.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_pain_18.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_silencer_silen_pain_18.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_underattack_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_silencer_silen_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_thanks_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_silencer_silen_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_thanks_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_thanks_02.mp3",
+      "transcript": "I'm in your debt.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_silencer_silen_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_thanks_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_thanks_03.mp3",
+      "transcript": "Why thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_silencer_silen_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_thanks_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_thanks_04.mp3",
+      "transcript": "Thank you. I am speechless.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_silencer_silen_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_win_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_silencer_silen_win_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_win_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_silencer_silen_win_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_win_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_win_03.mp3",
+      "transcript": "Silence shall reign forever!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_silencer_silen_win_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lose_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_silencer_silen_lose_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lose_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_silencer_silen_lose_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lose_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lose_03.mp3",
+      "transcript": "Such noise!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_silencer_silen_lose_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_lose_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_lose_04.mp3",
+      "transcript": "What is that horrible noise?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_silencer_silen_lose_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_01.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_silencer_silen_happy_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_02.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_silencer_silen_happy_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_09.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_silencer_silen_happy_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_failure_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_failure_01.mp3",
+      "transcript": "Arrh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_silencer_silen_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_failure_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_failure_02.mp3",
+      "transcript": "Missed.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_silencer_silen_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_failure_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_failure_03.mp3",
+      "transcript": "So close.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_silencer_silen_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_ability_failure_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_ability_failure_04.mp3",
+      "transcript": "What a racket.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_silencer_silen_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_shitwiz_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_silencer_silen_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_crumwiz_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_silencer_silen_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_01.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_01.mp3",
+      "transcript": "Nuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_silencer_silen_anger_01.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_02.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_02.mp3",
+      "transcript": "Urrh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_silencer_silen_anger_02.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_03.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_silencer_silen_anger_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_silencer_silen_anger_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_05.mp3",
+      "transcript": "Get off me!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_silencer_silen_anger_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_06.mp3",
+      "transcript": "Mmmmnnh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_silencer_silen_anger_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_08.mp3",
+      "transcript": "Grrrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_silencer_silen_anger_08.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_09.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_09.mp3",
+      "transcript": "Urrrrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_silencer_silen_anger_09.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_anger_10.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_anger_10.mp3",
+      "transcript": "Arr rrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_silencer_silen_anger_10.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_03.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_03.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_silencer_silen_happy_03.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_04.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_04.mp3",
+      "transcript": "Shh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_silencer_silen_happy_04.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_05.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_05.mp3",
+      "transcript": "Ah ha ha hah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_silencer_silen_happy_05.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_06.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_06.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_silencer_silen_happy_06.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_07.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_07.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_silencer_silen_happy_07.mp3"
+    },
+    {
+      "file": "Vo_silencer_silen_happy_08.mp3",
+      "key": "dota2/silencer/Vo_silencer_silen_happy_08.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_silencer_silen_happy_08.mp3"
+    }
+  ]
+}

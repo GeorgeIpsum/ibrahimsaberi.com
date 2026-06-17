@@ -1,0 +1,4044 @@
+{
+  "hero": "Arc Warden",
+  "slug": "arc-warden",
+  "source": "https://liquipedia.net/dota2/Arc_Warden/Responses",
+  "scrapedAt": "2026-06-17T14:51:46.061Z",
+  "count": 402,
+  "voicelines": [
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_01.mp3",
+      "transcript": "Arc Warden.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_arc_warden_arcwar_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_02.mp3",
+      "transcript": "Zet is the Self, and the Self is Zet.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_arc_warden_arcwar_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_03.mp3",
+      "transcript": "The Self seeks to end the great schism.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_arc_warden_arcwar_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_04.mp3",
+      "transcript": "Matter has been split from its intended form. These must be made to unite.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_arc_warden_arcwar_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_05.mp3",
+      "transcript": "Splinter of the Primordial Origin.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_arc_warden_arcwar_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_06.mp3",
+      "transcript": "Self unites with Radiant self. For now.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_arc_warden_arcwar_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_07.mp3",
+      "transcript": "A radiant alliance.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_arc_warden_arcwar_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_08.mp3",
+      "transcript": "Self bonds with Dire self. For the moment.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_arc_warden_arcwar_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spawn_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spawn_09.mp3",
+      "transcript": "A Dire unification indeed.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_arc_warden_arcwar_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_03.mp3",
+      "transcript": "The Self arrives at last.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_arc_warden_arcwar_battlebegins_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_05.mp3",
+      "transcript": "Self will crush the Dire.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_arc_warden_arcwar_battlebegins_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_04.mp3",
+      "transcript": "The Self knows this power.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_arc_warden_arcwar_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_10.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_arc_warden_arcwar_anger_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_inthebag_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_inthebag_01.mp3",
+      "transcript": "Selves are in agreement: this one is in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_arc_warden_arcwar_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_01.mp3",
+      "transcript": "This disharmony must resolve, or be crushed.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_arc_warden_arcwar_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_02.mp3",
+      "transcript": "Diruulth and Radinthul, your conflict must be ended.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_arc_warden_arcwar_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_04.mp3",
+      "transcript": "The destruction of the Ancients begins.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_arc_warden_arcwar_battlebegins_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_06.mp3",
+      "transcript": "Their Ancient must shatter and burn.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_arc_warden_arcwar_battlebegins_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_07.mp3",
+      "transcript": "Self will destroy the Radiant.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_arc_warden_arcwar_battlebegins_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_battlebegins_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_battlebegins_08.mp3",
+      "transcript": "Great upheaval shall lay their Ancient to waste.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_arc_warden_arcwar_battlebegins_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_arc_warden_arcwar_move_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_02.mp3",
+      "transcript": "The Self seeks.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_arc_warden_arcwar_move_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_03.mp3",
+      "transcript": "Patrolling.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_arc_warden_arcwar_move_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_04.mp3",
+      "transcript": "Coursing.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_arc_warden_arcwar_move_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_05.mp3",
+      "transcript": "Phasing.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_arc_warden_arcwar_move_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_06.mp3",
+      "transcript": "Primordial will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_arc_warden_arcwar_move_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_07.mp3",
+      "transcript": "It will be.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_arc_warden_arcwar_move_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_08.mp3",
+      "transcript": "The Self moves.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_arc_warden_arcwar_move_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_11.mp3",
+      "transcript": "The Self roams.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_arc_warden_arcwar_move_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_12.mp3",
+      "transcript": "In unison.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_arc_warden_arcwar_move_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_13.mp3",
+      "transcript": "Toward synthesis.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_arc_warden_arcwar_move_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_14.mp3",
+      "transcript": "Seeking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_arc_warden_arcwar_move_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_15.mp3",
+      "transcript": "Always aware.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_arc_warden_arcwar_move_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_16.mp3",
+      "transcript": "Unity must be achieved.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_arc_warden_arcwar_move_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_17.mp3",
+      "transcript": "Ever closer.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_arc_warden_arcwar_move_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_18.mp3",
+      "transcript": "All must proceed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_arc_warden_arcwar_move_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_19.mp3",
+      "transcript": "Ever forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_arc_warden_arcwar_move_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_20.mp3",
+      "transcript": "Ahead.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_arc_warden_arcwar_move_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_21.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_arc_warden_arcwar_move_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_22.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_22.mp3",
+      "transcript": "Hounding.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_arc_warden_arcwar_move_22.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_23.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_23.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_arc_warden_arcwar_move_23.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_24.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_24.mp3",
+      "transcript": "So it must be.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_arc_warden_arcwar_move_24.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_25.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_25.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_arc_warden_arcwar_move_25.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_26.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_26.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_arc_warden_arcwar_move_26.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_move_27.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_move_27.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_arc_warden_arcwar_move_27.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_01.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_arc_warden_arcwar_attack_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_02.mp3",
+      "transcript": "Halt.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_arc_warden_arcwar_attack_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_03.mp3",
+      "transcript": "You will cease.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_arc_warden_arcwar_attack_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_04.mp3",
+      "transcript": "Alarm.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_arc_warden_arcwar_attack_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_05.mp3",
+      "transcript": "None escape the Self.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_arc_warden_arcwar_attack_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_06.mp3",
+      "transcript": "The warden strikes.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_arc_warden_arcwar_attack_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_07.mp3",
+      "transcript": "Striken.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_arc_warden_arcwar_attack_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_08.mp3",
+      "transcript": "Abide, if you dare.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_arc_warden_arcwar_attack_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_09.mp3",
+      "transcript": "Action.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_arc_warden_arcwar_attack_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_10.mp3",
+      "transcript": "Disunion.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_arc_warden_arcwar_attack_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_11.mp3",
+      "transcript": "Concede.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_arc_warden_arcwar_attack_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_12.mp3",
+      "transcript": "Submit.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_arc_warden_arcwar_attack_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_13.mp3",
+      "transcript": "Suffer.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_arc_warden_arcwar_attack_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_14.mp3",
+      "transcript": "Justice.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_arc_warden_arcwar_attack_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_15.mp3",
+      "transcript": "Doggedly.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_arc_warden_arcwar_attack_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_16.mp3",
+      "transcript": "You shall be scoured.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_arc_warden_arcwar_attack_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_attack_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_attack_17.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_arc_warden_arcwar_attack_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_cast_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_cast_01.mp3",
+      "transcript": "Unity is nigh.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_arc_warden_arcwar_cast_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_cast_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_cast_02.mp3",
+      "transcript": "The Self comes for you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_arc_warden_arcwar_cast_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_cast_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_cast_03.mp3",
+      "transcript": "The Arc approaches.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_arc_warden_arcwar_cast_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_01.mp3",
+      "transcript": "Flux!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_arc_warden_arcwar_flux_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_02.mp3",
+      "transcript": "Sizzle and sear!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_arc_warden_arcwar_flux_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_03.mp3",
+      "transcript": "Vile voltage!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_arc_warden_arcwar_flux_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_04.mp3",
+      "transcript": "Arcing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_arc_warden_arcwar_flux_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_05.mp3",
+      "transcript": "Electric arc!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_arc_warden_arcwar_flux_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_07.mp3",
+      "transcript": "Caught!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_arc_warden_arcwar_flux_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_09.mp3",
+      "transcript": "Flux!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_arc_warden_arcwar_flux_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_10.mp3",
+      "transcript": "Arcing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_arc_warden_arcwar_flux_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_11.mp3",
+      "transcript": "Caught!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_arc_warden_arcwar_flux_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_12.mp3",
+      "transcript": "Caught!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_arc_warden_arcwar_flux_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_06.mp3",
+      "transcript": "Lone suffering.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_arc_warden_arcwar_flux_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_flux_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_flux_08.mp3",
+      "transcript": "Busted.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_arc_warden_arcwar_flux_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_01.mp3",
+      "transcript": "Magnetic field.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_arc_warden_arcwar_magnetic_field_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_02.mp3",
+      "transcript": "Stand firm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_arc_warden_arcwar_magnetic_field_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_03.mp3",
+      "transcript": "Dynamic charge.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_arc_warden_arcwar_magnetic_field_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_04.mp3",
+      "transcript": "Power conduits.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_arc_warden_arcwar_magnetic_field_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_05.mp3",
+      "transcript": "Field of power.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_arc_warden_arcwar_magnetic_field_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_06.mp3",
+      "transcript": "Now is the time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_arc_warden_arcwar_magnetic_field_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_07.mp3",
+      "transcript": "Strengthen!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_arc_warden_arcwar_magnetic_field_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_magnetic_field_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_magnetic_field_08.mp3",
+      "transcript": "Quantum flicker.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_arc_warden_arcwar_magnetic_field_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_01.mp3",
+      "transcript": "Spark Wraith.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_arc_warden_arcwar_spark_wraith_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_02.mp3",
+      "transcript": "Guard this ground.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_arc_warden_arcwar_spark_wraith_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_03.mp3",
+      "transcript": "Let no foe come near.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_arc_warden_arcwar_spark_wraith_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_04.mp3",
+      "transcript": "Hold here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_arc_warden_arcwar_spark_wraith_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_05.mp3",
+      "transcript": "Wraith of sparks.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_arc_warden_arcwar_spark_wraith_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_06.mp3",
+      "transcript": "Stand firm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_arc_warden_arcwar_spark_wraith_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_07.mp3",
+      "transcript": "Sentinel.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_arc_warden_arcwar_spark_wraith_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_08.mp3",
+      "transcript": "Fragment of Self.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_arc_warden_arcwar_spark_wraith_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_09.mp3",
+      "transcript": "Be watchful.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_arc_warden_arcwar_spark_wraith_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_10.mp3",
+      "transcript": "Stand firm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_arc_warden_arcwar_spark_wraith_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_spark_wraith_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_spark_wraith_11.mp3",
+      "transcript": "Stand firm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_arc_warden_arcwar_spark_wraith_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_01.mp3",
+      "transcript": "Disunity!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_arc_warden_arcwar_tempest_double_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_02.mp3",
+      "transcript": "The Self splinters!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_arc_warden_arcwar_tempest_double_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_03.mp3",
+      "transcript": "Tempest of Self!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_arc_warden_arcwar_tempest_double_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_04.mp3",
+      "transcript": "Self becomes selves!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_arc_warden_arcwar_tempest_double_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_05.mp3",
+      "transcript": "Disjunction of Self!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_arc_warden_arcwar_tempest_double_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_06.mp3",
+      "transcript": "Division of labor.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_arc_warden_arcwar_tempest_double_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_01.mp3",
+      "transcript": "Whole again.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_arc_warden_arcwar_tempest_double_end_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_02.mp3",
+      "transcript": "Disunity ends.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_arc_warden_arcwar_tempest_double_end_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_03.mp3",
+      "transcript": "Self once more.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_arc_warden_arcwar_tempest_double_end_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_04.mp3",
+      "transcript": "Rejoined.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_arc_warden_arcwar_tempest_double_end_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_05.mp3",
+      "transcript": "Complete.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_arc_warden_arcwar_tempest_double_end_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_06.mp3",
+      "transcript": "Fused anew.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_arc_warden_arcwar_tempest_double_end_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_07.mp3",
+      "transcript": "Coherence.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_arc_warden_arcwar_tempest_double_end_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_08.mp3",
+      "transcript": "Arc welded.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_arc_warden_arcwar_tempest_double_end_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_end_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_end_09.mp3",
+      "transcript": "Self prime.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_arc_warden_arcwar_tempest_double_end_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_killed_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_killed_01.mp3",
+      "transcript": "Primary Self remains.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_arc_warden_arcwar_tempest_double_killed_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_killed_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_killed_02.mp3",
+      "transcript": "Futile effort.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_arc_warden_arcwar_tempest_double_killed_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_killed_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_killed_03.mp3",
+      "transcript": "Easily fooled.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_arc_warden_arcwar_tempest_double_killed_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_killed_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_killed_04.mp3",
+      "transcript": "A mere diversion.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_arc_warden_arcwar_tempest_double_killed_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_tempest_double_killed_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_tempest_double_killed_05.mp3",
+      "transcript": "You fools were easily fooled.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_arc_warden_arcwar_tempest_double_killed_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_01.mp3",
+      "transcript": "Power emergent.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_arc_warden_arcwar_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_02.mp3",
+      "transcript": "Primordial strength re-found.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_arc_warden_arcwar_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_03.mp3",
+      "transcript": "The Self, and yet moreso.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_arc_warden_arcwar_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_05.mp3",
+      "transcript": "Sparkling infusion.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_arc_warden_arcwar_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_06.mp3",
+      "transcript": "Greater glory.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_arc_warden_arcwar_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_07.mp3",
+      "transcript": "Arc to power.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_arc_warden_arcwar_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_08.mp3",
+      "transcript": "The Self expands.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_arc_warden_arcwar_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_09.mp3",
+      "transcript": "Higher unity.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_arc_warden_arcwar_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_10.mp3",
+      "transcript": "All comes together.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_arc_warden_arcwar_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_12.mp3",
+      "transcript": "The arc grows brighter.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_arc_warden_arcwar_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_13.mp3",
+      "transcript": "From fragments into fuller unities.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_arc_warden_arcwar_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_14.mp3",
+      "transcript": "A charged reconciliation.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_arc_warden_arcwar_levelup_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_15.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_arc_warden_arcwar_levelup_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_16.mp3",
+      "transcript": "The Self grows in Radiance.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_arc_warden_arcwar_levelup_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_19.mp3",
+      "transcript": "The way grows Dire.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_arc_warden_arcwar_levelup_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_20.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_arc_warden_arcwar_levelup_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_levelup_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_levelup_21.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_arc_warden_arcwar_levelup_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_01.mp3",
+      "transcript": "A thing of pity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_arc_warden_arcwar_kill_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_02.mp3",
+      "transcript": "Your hope fades.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_arc_warden_arcwar_kill_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_03.mp3",
+      "transcript": "Mercy is yours, for the end comes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_arc_warden_arcwar_kill_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_04.mp3",
+      "transcript": "Escape, and find absolution.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_arc_warden_arcwar_kill_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_05.mp3",
+      "transcript": "Embrace your end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_arc_warden_arcwar_kill_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_07.mp3",
+      "transcript": "No one to blame but yourself.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_arc_warden_arcwar_kill_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_08.mp3",
+      "transcript": "You are now the ward of death itself.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_arc_warden_arcwar_kill_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_09.mp3",
+      "transcript": "You meet your true self at last.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_arc_warden_arcwar_kill_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_10.mp3",
+      "transcript": "Your self is no more.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_arc_warden_arcwar_kill_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_11.mp3",
+      "transcript": "Life is prison. You are free.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_arc_warden_arcwar_kill_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_12.mp3",
+      "transcript": "You will just have to accept this, and move on.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_arc_warden_arcwar_kill_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_13.mp3",
+      "transcript": "Into Ancient embrace.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_arc_warden_arcwar_kill_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_14.mp3",
+      "transcript": "You will be back.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_arc_warden_arcwar_kill_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_15.mp3",
+      "transcript": "Rest from your enslavement.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_arc_warden_arcwar_kill_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_16.mp3",
+      "transcript": "Selfie.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_arc_warden_arcwar_kill_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_17.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm hm hm hm hm hm!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_arc_warden_arcwar_kill_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_18.mp3",
+      "transcript": "Another Dire falls.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_arc_warden_arcwar_kill_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_19.mp3",
+      "transcript": "Dire extinguished.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_arc_warden_arcwar_kill_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_20.mp3",
+      "transcript": "Dire filth.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_arc_warden_arcwar_kill_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_21.mp3",
+      "transcript": "Another Radiant falls.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_arc_warden_arcwar_kill_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_22.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_22.mp3",
+      "transcript": "All that is green returns to dust.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_arc_warden_arcwar_kill_22.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_23.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_23.mp3",
+      "transcript": "Radiant scum.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_arc_warden_arcwar_kill_23.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_24.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_24.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_arc_warden_arcwar_kill_24.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_kill_25.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_kill_25.mp3",
+      "transcript": "Resist and perish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_arc_warden_arcwar_kill_25.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_01.mp3",
+      "transcript": "Hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_arc_warden_arcwar_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_02.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_arc_warden_arcwar_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_03.mp3",
+      "transcript": "Hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_arc_warden_arcwar_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_04.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_arc_warden_arcwar_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_05.mp3",
+      "transcript": "Hm hm hm hm ho ho ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_arc_warden_arcwar_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_laugh_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_laugh_06.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_arc_warden_arcwar_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_01.mp3",
+      "transcript": "Thine own self, be gone.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_arc_warden_arcwar_rival_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_02.mp3",
+      "transcript": "You are silenced.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_arc_warden_arcwar_rival_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_03.mp3",
+      "transcript": "World breaker, this is justice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_arc_warden_arcwar_rival_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_06.mp3",
+      "transcript": "The traveler returns to darkness.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_arc_warden_arcwar_rival_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_07.mp3",
+      "transcript": "The last of your light is cast.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_arc_warden_arcwar_rival_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_08.mp3",
+      "transcript": "In all things you were. In nothing you become.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_arc_warden_arcwar_rival_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_10.mp3",
+      "transcript": "May your disunity end with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_arc_warden_arcwar_rival_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_11.mp3",
+      "transcript": "It seems time has finally caught up to you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_arc_warden_arcwar_rival_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_12.mp3",
+      "transcript": "Your vigil ends.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_arc_warden_arcwar_rival_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_13.mp3",
+      "transcript": "You devour your last.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_arc_warden_arcwar_rival_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_15.mp3",
+      "transcript": "Short circuit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_arc_warden_arcwar_rival_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_16.mp3",
+      "transcript": "Your conduit is no more.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_arc_warden_arcwar_rival_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_17.mp3",
+      "transcript": "Such a feeble spark.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_arc_warden_arcwar_rival_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_18.mp3",
+      "transcript": "You meddle with powers you cannot comprehend.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_arc_warden_arcwar_rival_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_19.mp3",
+      "transcript": "For all your claims, you are still a fool.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_arc_warden_arcwar_rival_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_20.mp3",
+      "transcript": "Inferior form.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_arc_warden_arcwar_rival_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_21.mp3",
+      "transcript": "Apex predator, you are not.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_arc_warden_arcwar_rival_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_05.mp3",
+      "transcript": "You do not have to be mad.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_arc_warden_arcwar_rival_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_09.mp3",
+      "transcript": "Gravity alone cannot achieve unity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_arc_warden_arcwar_rival_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_14.mp3",
+      "transcript": "Flame is no match for the Arc.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_arc_warden_arcwar_rival_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_04.mp3",
+      "transcript": "Perhaps death will put you in a better mood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_arc_warden_arcwar_rival_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rival_22.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rival_22.mp3",
+      "transcript": "Self knows what you once were.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_arc_warden_arcwar_rival_22.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_firstblood_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_firstblood_01.mp3",
+      "transcript": "First blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_arc_warden_arcwar_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_firstblood_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_firstblood_02.mp3",
+      "transcript": "First blood. And so the Great Unification commences.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_arc_warden_arcwar_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_firstblood_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_firstblood_03.mp3",
+      "transcript": "The Dire have shed first blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_arc_warden_arcwar_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_firstblood_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_firstblood_04.mp3",
+      "transcript": "The first blood of the Radiant is shed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_arc_warden_arcwar_firstblood_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_firstblood_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_firstblood_05.mp3",
+      "transcript": "First blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_arc_warden_arcwar_firstblood_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_ally_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_ally_01.mp3",
+      "transcript": "Titan, let us unify what has been torn apart.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_arc_warden_arcwar_ally_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_ally_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_ally_03.mp3",
+      "transcript": "Phoenix, your light glittered from afar as Self traveled the cosmos.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_arc_warden_arcwar_ally_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_ally_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_ally_04.mp3",
+      "transcript": "Timeless one, perhaps the end finally draws nigh.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_arc_warden_arcwar_ally_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_ally_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_ally_02.mp3",
+      "transcript": "The aid of a Fundamental is most welcome.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_arc_warden_arcwar_ally_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_01.mp3",
+      "transcript": "Recycled soul.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_arc_warden_arcwar_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_02.mp3",
+      "transcript": "Pitysome fragment.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_arc_warden_arcwar_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_03.mp3",
+      "transcript": "Rest for now.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_arc_warden_arcwar_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_04.mp3",
+      "transcript": "Lowly pawn.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_arc_warden_arcwar_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_05.mp3",
+      "transcript": "The gift of death.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_arc_warden_arcwar_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_06.mp3",
+      "transcript": "Return to your master.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_arc_warden_arcwar_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_07.mp3",
+      "transcript": "Gold claimed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_arc_warden_arcwar_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_08.mp3",
+      "transcript": "A timely reward.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_arc_warden_arcwar_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lasthit_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lasthit_09.mp3",
+      "transcript": "Futile creature.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_arc_warden_arcwar_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_arc_warden_arcwar_deny_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_02.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_arc_warden_arcwar_deny_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_03.mp3",
+      "transcript": "By Self right.",
+      "categories": [
+        "Denying",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_arc_warden_arcwar_deny_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_04.mp3",
+      "transcript": "It is no use.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_arc_warden_arcwar_deny_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_05.mp3",
+      "transcript": "Pointless effort.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_arc_warden_arcwar_deny_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_06.mp3",
+      "transcript": "Resistance serves nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_arc_warden_arcwar_deny_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_07.mp3",
+      "transcript": "That gold is claimed.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_arc_warden_arcwar_deny_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_08.mp3",
+      "transcript": "Seek elsewhere.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_arc_warden_arcwar_deny_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_09.mp3",
+      "transcript": "No farm for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_arc_warden_arcwar_deny_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_10.mp3",
+      "transcript": "Do not be selfish.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_arc_warden_arcwar_deny_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_11.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_arc_warden_arcwar_deny_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_12.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_arc_warden_arcwar_deny_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_13.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_arc_warden_arcwar_deny_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_arc_warden_arcwar_deny_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_15.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_arc_warden_arcwar_deny_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_16.mp3",
+      "transcript": "Sorry.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_arc_warden_arcwar_deny_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_17.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_arc_warden_arcwar_deny_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_18.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_arc_warden_arcwar_deny_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_19.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_arc_warden_arcwar_deny_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_deny_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_deny_20.mp3",
+      "transcript": "Mm-mm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_arc_warden_arcwar_deny_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_01.mp3",
+      "transcript": "Worth its weight in gold.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_arc_warden_arcwar_items_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_02.mp3",
+      "transcript": "This will change the course of battle.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_arc_warden_arcwar_items_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_03.mp3",
+      "transcript": "What was paid with gold, the Dire shall pay with lives.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_arc_warden_arcwar_items_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_04.mp3",
+      "transcript": "The Radiant shall regret this turn.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_arc_warden_arcwar_items_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_scepter_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_arc_warden_arcwar_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_scepter_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_scepter_02.mp3",
+      "transcript": "The Self makes use of the scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_arc_warden_arcwar_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_blink_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_arc_warden_arcwar_blink_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_blink_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_blink_02.mp3",
+      "transcript": "Arc dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_arc_warden_arcwar_blink_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_05.mp3",
+      "transcript": "Scythe of Vyse.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_arc_warden_arcwar_items_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_06.mp3",
+      "transcript": "Desolator.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_arc_warden_arcwar_items_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_07.mp3",
+      "transcript": "Ethereal Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_arc_warden_arcwar_items_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_08.mp3",
+      "transcript": "Hand of Midas.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_arc_warden_arcwar_items_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_09.mp3",
+      "transcript": "Orchid Malevolence.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_arc_warden_arcwar_items_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_10.mp3",
+      "transcript": "Shiva's Guard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_arc_warden_arcwar_items_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_11.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_arc_warden_arcwar_items_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_12.mp3",
+      "transcript": "Boots of Travel.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_arc_warden_arcwar_items_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_13.mp3",
+      "transcript": "Divine Rapier.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_arc_warden_arcwar_items_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_14.mp3",
+      "transcript": "Daedalus.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_arc_warden_arcwar_items_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_15.mp3",
+      "transcript": "Drum of Endurance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_arc_warden_arcwar_items_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_16.mp3",
+      "transcript": "Linken's Sphere.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_arc_warden_arcwar_items_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_17.mp3",
+      "transcript": "Refresher Orb.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_arc_warden_arcwar_items_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_18.mp3",
+      "transcript": "Rod of Atos.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_arc_warden_arcwar_items_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_19.mp3",
+      "transcript": "Scepter of Divinity.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_arc_warden_arcwar_items_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_20.mp3",
+      "transcript": "Shadow Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_arc_warden_arcwar_items_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_21.mp3",
+      "transcript": "Butterfly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_arc_warden_arcwar_items_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_22.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_22.mp3",
+      "transcript": "Diffusal Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_arc_warden_arcwar_items_22.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_23.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_23.mp3",
+      "transcript": "Eye of Skadi.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_arc_warden_arcwar_items_23.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_24.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_24.mp3",
+      "transcript": "Force Staff.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_arc_warden_arcwar_items_24.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_25.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_25.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_arc_warden_arcwar_items_25.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_26.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_26.mp3",
+      "transcript": "Helm of the Dominator.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_arc_warden_arcwar_items_26.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_27.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_27.mp3",
+      "transcript": "Mask of Madness.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_arc_warden_arcwar_items_27.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_28.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_28.mp3",
+      "transcript": "Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_arc_warden_arcwar_items_28.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_29.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_29.mp3",
+      "transcript": "Veil of Discord.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_arc_warden_arcwar_items_29.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_30.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_30.mp3",
+      "transcript": "Yasha",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_arc_warden_arcwar_items_30.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_31.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_31.mp3",
+      "transcript": "Sange & Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_arc_warden_arcwar_items_31.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_32.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_32.mp3",
+      "transcript": "Manta Style.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_arc_warden_arcwar_items_32.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_35.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_35.mp3",
+      "transcript": "Lotus Orb.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_arc_warden_arcwar_items_35.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_36.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_36.mp3",
+      "transcript": "Silver Edge.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_arc_warden_arcwar_items_36.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_37.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_37.mp3",
+      "transcript": "Glimmer Cape.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_arc_warden_arcwar_items_37.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_38.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_38.mp3",
+      "transcript": "Solar Crest.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_arc_warden_arcwar_items_38.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_39.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_39.mp3",
+      "transcript": "Necronomicon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_arc_warden_arcwar_items_39.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_40.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_40.mp3",
+      "transcript": "Dagon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_arc_warden_arcwar_items_40.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_41.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_41.mp3",
+      "transcript": "Mjollnir.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_arc_warden_arcwar_items_41.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_43.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_43.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_arc_warden_arcwar_items_43.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_immort_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_arc_warden_arcwar_immort_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_immort_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_immort_02.mp3",
+      "transcript": "Unity eternal.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_arc_warden_arcwar_immort_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_33.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_33.mp3",
+      "transcript": "So many more selves.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_arc_warden_arcwar_items_33.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_42.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_42.mp3",
+      "transcript": "Mjollnir. The arc shudders with power.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_arc_warden_arcwar_items_42.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_44.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_44.mp3",
+      "transcript": "Pretty Butterfly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_arc_warden_arcwar_items_44.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_items_34.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_items_34.mp3",
+      "transcript": "Warding Warden.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_arc_warden_arcwar_items_34.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_01.mp3",
+      "transcript": "No…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_arc_warden_arcwar_death_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_02.mp3",
+      "transcript": "What have you done?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_arc_warden_arcwar_death_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_03.mp3",
+      "transcript": "You fool.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_arc_warden_arcwar_death_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_04.mp3",
+      "transcript": "The Self is shattered.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_arc_warden_arcwar_death_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_05.mp3",
+      "transcript": "The Self sees the origin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_arc_warden_arcwar_death_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_06.mp3",
+      "transcript": "The Self has lost its self.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_arc_warden_arcwar_death_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_07.mp3",
+      "transcript": "The Self is no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_arc_warden_arcwar_death_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_08.mp3",
+      "transcript": "You know not what you do.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_arc_warden_arcwar_death_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_09.mp3",
+      "transcript": "The entity dies.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_arc_warden_arcwar_death_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_10.mp3",
+      "transcript": "Two becomes none.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_arc_warden_arcwar_death_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_11.mp3",
+      "transcript": "Into Ancient embrace…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_arc_warden_arcwar_death_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_death_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_death_13.mp3",
+      "transcript": "No…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_arc_warden_arcwar_death_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_01.mp3",
+      "transcript": "Victory walks upon a wire. The Self must not fail.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_arc_warden_arcwar_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_02.mp3",
+      "transcript": "These fools must learn what they stand against.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_arc_warden_arcwar_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_03.mp3",
+      "transcript": "Such life is and can be when it is given by a foe.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_arc_warden_arcwar_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_04.mp3",
+      "transcript": "One divided against its Self cannot stand.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_arc_warden_arcwar_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_05.mp3",
+      "transcript": "Splintered once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_arc_warden_arcwar_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_06.mp3",
+      "transcript": "What was none becomes one again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_arc_warden_arcwar_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_07.mp3",
+      "transcript": "The Self is because it believes it is.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_arc_warden_arcwar_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_08.mp3",
+      "transcript": "The Self stirs once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_arc_warden_arcwar_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_respawn_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_respawn_09.mp3",
+      "transcript": "Returned from Ancient darkness.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_arc_warden_arcwar_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_fastres_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_fastres_01.mp3",
+      "transcript": "Life is a cycle that knows no end.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_arc_warden_arcwar_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_fastres_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_fastres_02.mp3",
+      "transcript": "The Self cannot be extinguished.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_arc_warden_arcwar_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_fastres_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_fastres_03.mp3",
+      "transcript": "The Self shall radiate back to life.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_arc_warden_arcwar_fastres_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_fastres_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_fastres_04.mp3",
+      "transcript": "This dire force cannot die.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_arc_warden_arcwar_fastres_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_bottle_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_bottle_01.mp3",
+      "transcript": "Selfishly claimed.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_arc_warden_arcwar_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_bottle_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_bottle_02.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_arc_warden_arcwar_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_bottle_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_bottle_03.mp3",
+      "transcript": "Bottled.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_arc_warden_arcwar_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_bounty_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_bounty_01.mp3",
+      "transcript": "Balance the scale.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_arc_warden_arcwar_bounty_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_doubledamage_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_doubledamage_01.mp3",
+      "transcript": "Double damage.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_arc_warden_arcwar_doubledamage_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_doubledamage_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_doubledamage_02.mp3",
+      "transcript": "Self crackles with power.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_arc_warden_arcwar_doubledamage_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_haste_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_haste_01.mp3",
+      "transcript": "Haste.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_arc_warden_arcwar_haste_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_haste_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_haste_02.mp3",
+      "transcript": "A red rune.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_arc_warden_arcwar_haste_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_illus_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_arc_warden_arcwar_illus_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_illus_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_illus_02.mp3",
+      "transcript": "So many selves.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_arc_warden_arcwar_illus_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_illus_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_illus_03.mp3",
+      "transcript": "So many selves, so little time.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_arc_warden_arcwar_illus_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_invis_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_invis_01.mp3",
+      "transcript": "Invisibility.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_arc_warden_arcwar_invis_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_invis_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_invis_02.mp3",
+      "transcript": "Subtle self.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_arc_warden_arcwar_invis_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_regen_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_regen_01.mp3",
+      "transcript": "Regeneration.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_arc_warden_arcwar_regen_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_regen_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_regen_02.mp3",
+      "transcript": "The Self is made whole.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_arc_warden_arcwar_regen_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_arc_warden_arcwar_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_04.mp3",
+      "transcript": "The Self is not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_arc_warden_arcwar_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_07.mp3",
+      "transcript": "It is not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_arc_warden_arcwar_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_arc_warden_arcwar_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_05.mp3",
+      "transcript": "The Self is not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_arc_warden_arcwar_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_08.mp3",
+      "transcript": "It is not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_arc_warden_arcwar_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_arc_warden_arcwar_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_06.mp3",
+      "transcript": "The Self is not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_arc_warden_arcwar_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_notyet_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_notyet_09.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_arc_warden_arcwar_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_arc_warden_arcwar_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_arc_warden_arcwar_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_arc_warden_arcwar_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_arc_warden_arcwar_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_arc_warden_arcwar_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_arc_warden_arcwar_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_arc_warden_arcwar_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_06.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_arc_warden_arcwar_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_nomana_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_arc_warden_arcwar_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_01.mp3",
+      "transcript": "Ouch.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_arc_warden_arcwar_pain_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_02.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_arc_warden_arcwar_pain_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_03.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_arc_warden_arcwar_pain_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_04.mp3",
+      "transcript": "Err.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_arc_warden_arcwar_pain_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_05.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_arc_warden_arcwar_pain_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_06.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_arc_warden_arcwar_pain_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_07.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_arc_warden_arcwar_pain_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_08.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_arc_warden_arcwar_pain_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_09.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_arc_warden_arcwar_pain_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_10.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_10.mp3",
+      "transcript": "Oof.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_arc_warden_arcwar_pain_10.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_11.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_arc_warden_arcwar_pain_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_12.mp3",
+      "transcript": "Eugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_arc_warden_arcwar_pain_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_13.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_13.mp3",
+      "transcript": "Er!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_arc_warden_arcwar_pain_13.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_14.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_14.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_arc_warden_arcwar_pain_14.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_15.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_15.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_arc_warden_arcwar_pain_15.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_16.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_16.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_arc_warden_arcwar_pain_16.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_17.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_17.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_arc_warden_arcwar_pain_17.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_18.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_18.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_arc_warden_arcwar_pain_18.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_19.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_19.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_arc_warden_arcwar_pain_19.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_20.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_20.mp3",
+      "transcript": "Eugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_arc_warden_arcwar_pain_20.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_21.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_21.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_arc_warden_arcwar_pain_21.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_pain_22.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_pain_22.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_arc_warden_arcwar_pain_22.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_underattack_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_underattack_01.mp3",
+      "transcript": "Self is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_arc_warden_arcwar_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rare_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rare_01.mp3",
+      "transcript": "From the Primordial Consciousness all came. Return to it, all must.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_arc_warden_arcwar_rare_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rare_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rare_02.mp3",
+      "transcript": "It is not to aid the Ancients that this war is joined, but to destroy them both. This disunity must end.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_arc_warden_arcwar_rare_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rare_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rare_03.mp3",
+      "transcript": "There can be no hesitation. Dire must be extinguished just as the Radiant.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_arc_warden_arcwar_rare_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_rare_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_rare_04.mp3",
+      "transcript": "Radiant aids its enemy, but does not yet know it.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_arc_warden_arcwar_rare_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lanemissing_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lanemissing_01.mp3",
+      "transcript": "Top is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_arc_warden_arcwar_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lanemissing_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lanemissing_02.mp3",
+      "transcript": "Middle is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_arc_warden_arcwar_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lanemissing_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lanemissing_03.mp3",
+      "transcript": "Bottom is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_arc_warden_arcwar_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_thanks_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_arc_warden_arcwar_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_thanks_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_thanks_02.mp3",
+      "transcript": "Your grace is noted.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_arc_warden_arcwar_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_thanks_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_thanks_03.mp3",
+      "transcript": "A selfless act.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_arc_warden_arcwar_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_01.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_arc_warden_arcwar_win_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_02.mp3",
+      "transcript": "One Ancient is destroyed. One remains.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_arc_warden_arcwar_win_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_03.mp3",
+      "transcript": "The Dire has gone down in flames.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_arc_warden_arcwar_win_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_04.mp3",
+      "transcript": "The Dire are no more. Yet there is still much to be done.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_arc_warden_arcwar_win_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_05.mp3",
+      "transcript": "The first upheaval has come.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_arc_warden_arcwar_win_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_win_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_win_06.mp3",
+      "transcript": "The Radiant are ended. Yet this is not over.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_arc_warden_arcwar_win_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lose_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lose_01.mp3",
+      "transcript": "This is not the end.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_arc_warden_arcwar_lose_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lose_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lose_02.mp3",
+      "transcript": "All is part of the plan.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_arc_warden_arcwar_lose_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_lose_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_lose_03.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_arc_warden_arcwar_lose_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_itemdrop_common_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_itemdrop_common_01.mp3",
+      "transcript": "What is this?",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_arc_warden_arcwar_itemdrop_common_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_itemdrop_moderate_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_itemdrop_moderate_01.mp3",
+      "transcript": "This is an unexpected find.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_arc_warden_arcwar_itemdrop_moderate_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_itemdrop_rare_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_itemdrop_rare_01.mp3",
+      "transcript": "The Self shall treasure this.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_arc_warden_arcwar_itemdrop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_failure_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_failure_01.mp3",
+      "transcript": "Disharmony in thought and deed.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_arc_warden_arcwar_failure_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_failure_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_failure_02.mp3",
+      "transcript": "Discord.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_arc_warden_arcwar_failure_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_failure_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_failure_03.mp3",
+      "transcript": "Frowny face.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_arc_warden_arcwar_failure_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_crumwiz_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_crumwiz_01.mp3",
+      "transcript": "Crummy wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_arc_warden_arcwar_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_shiwiz_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_shiwiz_01.mp3",
+      "transcript": "Shitty wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_arc_warden_arcwar_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_01.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_arc_warden_arcwar_anger_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_02.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_arc_warden_arcwar_anger_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_03.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_arc_warden_arcwar_anger_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_04.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_arc_warden_arcwar_anger_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_05.mp3",
+      "transcript": "Er.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_arc_warden_arcwar_anger_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_06.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_arc_warden_arcwar_anger_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_07.mp3",
+      "transcript": "Mmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_arc_warden_arcwar_anger_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_08.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_08.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_arc_warden_arcwar_anger_08.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_09.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_09.mp3",
+      "transcript": "Rrrrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_arc_warden_arcwar_anger_09.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_11.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_11.mp3",
+      "transcript": "Errr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_arc_warden_arcwar_anger_11.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_anger_12.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_anger_12.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_arc_warden_arcwar_anger_12.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_01.mp3",
+      "transcript": "Hhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_arc_warden_arcwar_happy_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_02.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_arc_warden_arcwar_happy_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_03.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_arc_warden_arcwar_happy_03.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_04.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_04.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_arc_warden_arcwar_happy_04.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_05.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_05.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_arc_warden_arcwar_happy_05.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_06.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_06.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_arc_warden_arcwar_happy_06.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_happy_07.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_happy_07.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_arc_warden_arcwar_happy_07.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_exert_01.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_exert_01.mp3",
+      "transcript": "Eugh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_arc_warden_arcwar_exert_01.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_exert_02.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_exert_02.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_arc_warden_arcwar_exert_02.mp3"
+    },
+    {
+      "file": "Vo_arc_warden_arcwar_exert_03.mp3",
+      "key": "dota2/arc-warden/Vo_arc_warden_arcwar_exert_03.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_arc_warden_arcwar_exert_03.mp3"
+    }
+  ]
+}

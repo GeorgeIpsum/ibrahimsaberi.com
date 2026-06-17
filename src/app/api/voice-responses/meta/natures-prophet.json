@@ -1,0 +1,2557 @@
+{
+  "hero": "Nature's Prophet",
+  "slug": "natures-prophet",
+  "source": "https://liquipedia.net/dota2/Nature's_Prophet/Responses",
+  "scrapedAt": "2026-06-17T15:00:01.378Z",
+  "count": 253,
+  "voicelines": [
+    {
+      "file": "Vo_furion_furi_spawn_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_spawn_01.mp3",
+      "transcript": "I speak for the trees….",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_furion_furi_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_spawn_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_spawn_02.mp3",
+      "transcript": "I summon the forces of nature.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_furion_furi_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_spawn_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_spawn_03.mp3",
+      "transcript": "I guard the wooded ways.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_furion_furi_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_10.mp3",
+      "transcript": "Nature calls.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_furion_furi_move_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_cast_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_cast_03.mp3",
+      "transcript": "I answer the wild's call!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_furion_furi_cast_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_teleport_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_teleport_04.mp3",
+      "transcript": "Wild is my way!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_furion_furi_ability_teleport_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_04.mp3",
+      "transcript": "Warriors of the wood!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_furion_furi_ability_force_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_02.mp3",
+      "transcript": "Ah, the sun in my leaves.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_furion_furi_level_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_11.mp3",
+      "transcript": "Nature's guardian returns.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_furion_furi_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_11.mp3",
+      "transcript": "With a wild spirit.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_furion_furi_move_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_02.mp3",
+      "transcript": "For the trees!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_furion_furi_attack_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_07.mp3",
+      "transcript": "Nature's ferocity.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_furion_furi_attack_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_anger_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_anger_02.mp3",
+      "transcript": "Grrruuuuh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_furion_furi_anger_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_inthebag_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_furion_furi_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_battlebegins_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_battlebegins_01.mp3",
+      "transcript": "The season arrives!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_furion_furi_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_furion_furi_move_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_furion_furi_move_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_03.mp3",
+      "transcript": "Leaving.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_furion_furi_move_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_04.mp3",
+      "transcript": "By my shaggy bark.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_furion_furi_move_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_05.mp3",
+      "transcript": "Through shady lanes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_furion_furi_move_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_06.mp3",
+      "transcript": "On my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_furion_furi_move_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_07.mp3",
+      "transcript": "By hidden paths.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_furion_furi_move_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_08.mp3",
+      "transcript": "Naturally.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_furion_furi_move_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_09.mp3",
+      "transcript": "So I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_furion_furi_move_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_12.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_12.mp3",
+      "transcript": "In sylvan shade.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_furion_furi_move_12.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_13.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_13.mp3",
+      "transcript": "In green I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_furion_furi_move_13.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_14.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_14.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_furion_furi_move_14.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_15.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_15.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_furion_furi_move_15.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_move_16.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_move_16.mp3",
+      "transcript": "Hm hm hm hm hm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_furion_furi_move_16.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_teleport_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_teleport_01.mp3",
+      "transcript": "En route!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_furion_furi_ability_teleport_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_furion_furi_attack_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_03.mp3",
+      "transcript": "Branch out!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_furion_furi_attack_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_04.mp3",
+      "transcript": "By leaf and limb!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_furion_furi_attack_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_05.mp3",
+      "transcript": "Uproot the foe!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_furion_furi_attack_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_06.mp3",
+      "transcript": "By the wilds.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_furion_furi_attack_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_08.mp3",
+      "transcript": "The wild is calling.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_furion_furi_attack_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_09.mp3",
+      "transcript": "Go green!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_furion_furi_attack_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_10.mp3",
+      "transcript": "Verdant fury!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_furion_furi_attack_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_attack_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_attack_11.mp3",
+      "transcript": "Green wrath!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_furion_furi_attack_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_cast_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_cast_01.mp3",
+      "transcript": "With a wild will!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_furion_furi_cast_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_cast_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_cast_02.mp3",
+      "transcript": "Nature's wrath upon you!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_furion_furi_cast_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_01.mp3",
+      "transcript": "Sprout!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_furion_furi_ability_sprout_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_02.mp3",
+      "transcript": "Sprout!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_furion_furi_ability_sprout_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_03.mp3",
+      "transcript": "Sacred grove!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_furion_furi_ability_sprout_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_04.mp3",
+      "transcript": "Oh dismal grove!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_furion_furi_ability_sprout_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_05.mp3",
+      "transcript": "Stand fast!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_furion_furi_ability_sprout_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_sprout_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_sprout_06.mp3",
+      "transcript": "Stay where I plant you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_furion_furi_ability_sprout_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_teleport_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_teleport_02.mp3",
+      "transcript": "Hm hm hm growing in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_furion_furi_ability_teleport_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_01.mp3",
+      "transcript": "Pull roots and run!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_furion_furi_ability_force_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_02.mp3",
+      "transcript": "Uproot ye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_furion_furi_ability_force_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_03.mp3",
+      "transcript": "Uproot and after them!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_furion_furi_ability_force_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_05.mp3",
+      "transcript": "Come, come!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_furion_furi_ability_force_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_06.mp3",
+      "transcript": "Come to me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_furion_furi_ability_force_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_07.mp3",
+      "transcript": "With me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_furion_furi_ability_force_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_force_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_force_08.mp3",
+      "transcript": "After them!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_furion_furi_ability_force_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_01.mp3",
+      "transcript": "Zhoam!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_furion_furi_ability_wrath_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_02.mp3",
+      "transcript": "Dho lo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_furion_furi_ability_wrath_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_03.mp3",
+      "transcript": "Nai yo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_furion_furi_ability_wrath_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_04.mp3",
+      "transcript": "Yaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_furion_furi_ability_wrath_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_05.mp3",
+      "transcript": "Yahaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_furion_furi_ability_wrath_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_08.mp3",
+      "transcript": "Grow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_furion_furi_ability_wrath_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_09.mp3",
+      "transcript": "Grow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_furion_furi_ability_wrath_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_06.mp3",
+      "transcript": "Feel nature's wrath!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_furion_furi_ability_wrath_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_wrath_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_wrath_07.mp3",
+      "transcript": "Nature's wrath!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_furion_furi_ability_wrath_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_01.mp3",
+      "transcript": "How sweetly the sap flows.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_furion_furi_level_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_03.mp3",
+      "transcript": "Limber up.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_furion_furi_level_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_04.mp3",
+      "transcript": "Branching out.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_furion_furi_level_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_05.mp3",
+      "transcript": "Power wells up from within.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_furion_furi_level_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_06.mp3",
+      "transcript": "Ah, what golden greening.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_furion_furi_level_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_07.mp3",
+      "transcript": "Mm hm ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_furion_furi_level_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_08.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_furion_furi_level_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_level_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_level_09.mp3",
+      "transcript": "Ah ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_furion_furi_level_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_01.mp3",
+      "transcript": "Feed the trees.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_furion_furi_kill_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_02.mp3",
+      "transcript": "To mulch with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_furion_furi_kill_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_03.mp3",
+      "transcript": "I'll tear you limb from limb.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_furion_furi_kill_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_04.mp3",
+      "transcript": "Pruned!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_furion_furi_kill_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_05.mp3",
+      "transcript": "Leaving so soon?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_furion_furi_kill_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_06.mp3",
+      "transcript": "Leave us.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_furion_furi_kill_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_07.mp3",
+      "transcript": "Timber!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_furion_furi_kill_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_08.mp3",
+      "transcript": "You've gone green, I see.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_furion_furi_kill_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_09.mp3",
+      "transcript": "You'll make a fine humus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_furion_furi_kill_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_10.mp3",
+      "transcript": "Now you're tree food.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_furion_furi_kill_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_11.mp3",
+      "transcript": "New life will make its home amongst your bones.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_furion_furi_kill_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_12.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_12.mp3",
+      "transcript": "Lie fallow in your grave.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_furion_furi_kill_12.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_13.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_13.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_furion_furi_kill_13.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_14.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_14.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_furion_furi_kill_14.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_kill_15.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_kill_15.mp3",
+      "transcript": "Hm hm hu hu hu hu huh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_furion_furi_kill_15.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_03.mp3",
+      "transcript": "Ma ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_furion_furi_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_furion_furi_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_furion_furi_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rival_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rival_01.mp3",
+      "transcript": "Treant, I cut you down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_furion_furi_rival_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rival_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rival_02.mp3",
+      "transcript": "Treant, logging season is open.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_furion_furi_rival_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rival_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rival_03.mp3",
+      "transcript": "Treant, you log.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_furion_furi_rival_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rival_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rival_04.mp3",
+      "transcript": "Leshrac, now the earth splits you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_furion_furi_rival_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rival_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rival_05.mp3",
+      "transcript": "Into the pit with you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_furion_furi_rival_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_firstblood_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_firstblood_01.mp3",
+      "transcript": "First blood, hahahahaah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_furion_furi_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_01.mp3",
+      "transcript": "The seeds of fortune.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_furion_furi_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_02.mp3",
+      "transcript": "I'll just take a cutting.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_furion_furi_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_03.mp3",
+      "transcript": "Snipped.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_furion_furi_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_04.mp3",
+      "transcript": "Nipped in the bud.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_furion_furi_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_05.mp3",
+      "transcript": "Pruned.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_furion_furi_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_06.mp3",
+      "transcript": "A bit of green.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_furion_furi_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_07.mp3",
+      "transcript": "Green is good.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_furion_furi_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_08.mp3",
+      "transcript": "Nature's way.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_furion_furi_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_09.mp3",
+      "transcript": "Hm hm hm hm!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_furion_furi_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lasthit_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lasthit_10.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_furion_furi_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_furion_furi_deny_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_furion_furi_deny_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_furion_furi_deny_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_04.mp3",
+      "transcript": "This is ours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_furion_furi_deny_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_05.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_furion_furi_deny_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_06.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_furion_furi_deny_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_07.mp3",
+      "transcript": "Aww… Too bad.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_furion_furi_deny_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_furion_furi_deny_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_09.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_furion_furi_deny_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_10.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_furion_furi_deny_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_furion_furi_deny_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_deny_12.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_deny_12.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_furion_furi_deny_12.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_purch_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_purch_01.mp3",
+      "transcript": "I've long waited.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_furion_furi_purch_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_purch_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_purch_02.mp3",
+      "transcript": "At long last.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_furion_furi_purch_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_purch_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_purch_03.mp3",
+      "transcript": "They'll be green with envy.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_furion_furi_purch_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_blink_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_furion_furi_blink_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_scepter_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_furion_furi_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_scepter_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_scepter_02.mp3",
+      "transcript": "Sacred scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_furion_furi_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_01.mp3",
+      "transcript": "Orchid malevolence.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_furion_furi_item_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_02.mp3",
+      "transcript": "Necronomicon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_furion_furi_item_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_03.mp3",
+      "transcript": "This book gets around more than I do.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_furion_furi_item_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_04.mp3",
+      "transcript": "Sheepstick.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_furion_furi_item_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_05.mp3",
+      "transcript": "Dagon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_furion_furi_item_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_item_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_item_06.mp3",
+      "transcript": "Mjollnir.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_furion_furi_item_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_immort_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_furion_furi_immort_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_immort_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_immort_02.mp3",
+      "transcript": "Life goes on and on.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_furion_furi_immort_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_immort_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_immort_03.mp3",
+      "transcript": "Nature never ends.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_furion_furi_immort_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_furion_furi_death_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_furion_furi_death_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_03.mp3",
+      "transcript": "The sacred grove awaits.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_furion_furi_death_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_04.mp3",
+      "transcript": "Who fells me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_furion_furi_death_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_05.mp3",
+      "transcript": "Weak as a sapling.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_furion_furi_death_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_06.mp3",
+      "transcript": "Autumn comes too soon.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_furion_furi_death_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_07.mp3",
+      "transcript": "Who uproots me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_furion_furi_death_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_08.mp3",
+      "transcript": "I will rise next season.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_furion_furi_death_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_09.mp3",
+      "transcript": "Can't see the forest.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_furion_furi_death_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_10.mp3",
+      "transcript": "You fence me in.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_furion_furi_death_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_death_11.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_death_11.mp3",
+      "transcript": "Green turns to grey.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_furion_furi_death_11.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_01.mp3",
+      "transcript": "Again the sun warms my limbs!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_furion_furi_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_02.mp3",
+      "transcript": "Ah, the sun's pale sister shines upon my leaves.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_furion_furi_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_03.mp3",
+      "transcript": "Is it spring already?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_furion_furi_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_04.mp3",
+      "transcript": "Green and gold, I see my woods again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_furion_furi_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_05.mp3",
+      "transcript": "I could not bear to be away from the sacred woods.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_furion_furi_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_06.mp3",
+      "transcript": "I do not care to see that dark grey place again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_furion_furi_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_07.mp3",
+      "transcript": "Light, air and water—I have seen the world without them.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_furion_furi_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_08.mp3",
+      "transcript": "I am glad to leave that place.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_furion_furi_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_09.mp3",
+      "transcript": "The glens are calling.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_furion_furi_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_respawn_10.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_respawn_10.mp3",
+      "transcript": "I sprout anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_furion_furi_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_fastres_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_fastres_01.mp3",
+      "transcript": "I'll spring right back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_furion_furi_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_fastres_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_fastres_02.mp3",
+      "transcript": "I'm a perennial!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_furion_furi_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_bottle_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_bottle_01.mp3",
+      "transcript": "For when seasons change.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_furion_furi_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_bottle_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_bottle_02.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_furion_furi_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_bottle_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_bottle_03.mp3",
+      "transcript": "Bottled for the long winter.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_furion_furi_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_bottle_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_bottle_04.mp3",
+      "transcript": "Put by for next season.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_furion_furi_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_05.mp3",
+      "transcript": "Hmhmhm. Well, well.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_furion_furi_equipping_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_04.mp3",
+      "transcript": "Hm hm hm, I will be the talk of the lanes.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_furion_furi_set_complete_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_doubdam_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_furion_furi_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_doubdam_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_doubdam_02.mp3",
+      "transcript": "Double degradation.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_furion_furi_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_haste_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_furion_furi_haste_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_haste_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_haste_02.mp3",
+      "transcript": "Swift comes the season.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_furion_furi_haste_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_illus_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_furion_furi_illus_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_illus_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_illus_02.mp3",
+      "transcript": "Leaves of three, let them be.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_furion_furi_illus_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_invis_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_furion_furi_invis_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_invis_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_invis_02.mp3",
+      "transcript": "Unseen in a forest shade.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_furion_furi_invis_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_regen_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_furion_furi_regen_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_regen_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_regen_03.mp3",
+      "transcript": "I sprout anew.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_furion_furi_regen_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_regen_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_regen_02.mp3",
+      "transcript": "Green sprouts on grey wood.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_furion_furi_regen_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_furion_furi_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_furion_furi_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_furion_furi_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_furion_furi_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_furion_furi_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_furion_furi_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_furion_furi_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_furion_furi_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_notyet_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_furion_furi_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_furion_furi_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_furion_furi_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_furion_furi_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_furion_furi_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_furion_furi_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_furion_furi_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_furion_furi_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_furion_furi_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_nomana_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_furion_furi_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_01.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_furion_furi_pain_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_02.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_furion_furi_pain_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_03.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_furion_furi_pain_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_04.mp3",
+      "transcript": "Ra!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_furion_furi_pain_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_05.mp3",
+      "transcript": "Gah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_furion_furi_pain_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_06.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_furion_furi_pain_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_pain_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_pain_07.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_furion_furi_pain_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_underattack_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_furion_furi_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rare_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rare_01.mp3",
+      "transcript": "Who dares to bring an axe into my sacred groves, will find themselves cut down.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_furion_furi_rare_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_rare_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_rare_02.mp3",
+      "transcript": "I woke within the seed and saw my destiny, and many were its branches.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_furion_furi_rare_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_missing_lane_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_missing_lane_01.mp3",
+      "transcript": "Top is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_furion_furi_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_missing_lane_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_missing_lane_02.mp3",
+      "transcript": "Bottom is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_furion_furi_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_missing_lane_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_missing_lane_03.mp3",
+      "transcript": "Middle is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_furion_furi_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_thanks_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_furion_furi_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_thanks_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_thanks_02.mp3",
+      "transcript": "Thanks be to you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_furion_furi_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_01.mp3",
+      "transcript": "Ma ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_furion_furi_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_02.mp3",
+      "transcript": "Mo oh ho ho ho ho ho ho!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_furion_furi_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_furion_furi_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_furion_furi_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_laugh_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_furion_furi_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_win_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_furion_furi_win_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_win_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_furion_furi_win_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_win_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_win_03.mp3",
+      "transcript": "The forest preserved!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_furion_furi_win_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lose_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_furion_furi_lose_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lose_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_furion_furi_lose_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_lose_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_lose_03.mp3",
+      "transcript": "Cut down in my prime!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_furion_furi_lose_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_happy_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_happy_03.mp3",
+      "transcript": "Aaah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_furion_furi_happy_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_drop_common.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_drop_common.mp3",
+      "transcript": "Ah, something new has sprouted.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_furion_furi_drop_common.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_drop_medium.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_drop_medium.mp3",
+      "transcript": "My perseverance bears fruit.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_furion_furi_drop_medium.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_ability_teleport_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_ability_teleport_03.mp3",
+      "transcript": "Ha ha ha ha! Wild!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_furion_furi_ability_teleport_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_drop_rare.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_drop_rare.mp3",
+      "transcript": "By my shaggy bark, what rarity is mine!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_furion_furi_drop_rare.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_shitwiz_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_furion_furi_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_crumwiz_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_furion_furi_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_anger_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_anger_01.mp3",
+      "transcript": "Uhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_furion_furi_anger_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_anger_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_anger_03.mp3",
+      "transcript": "Uhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_furion_furi_anger_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_happy_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_happy_01.mp3",
+      "transcript": "Aaah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_furion_furi_happy_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_happy_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_happy_02.mp3",
+      "transcript": "Aaah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_furion_furi_happy_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_01.mp3",
+      "transcript": "The seeds of victory have been sown.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_furion_furi_taunt_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_02.mp3",
+      "transcript": "And the groves were full of weeping.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_furion_furi_taunt_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_03.mp3",
+      "transcript": "We will beat you with your own limbs.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_furion_furi_taunt_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_04.mp3",
+      "transcript": "I will abide no treason.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_furion_furi_taunt_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_05.mp3",
+      "transcript": "Ha ha ha ha, may the world be overgrown completely.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_furion_furi_taunt_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_06.mp3",
+      "transcript": "If you fall in the forest, who will hear you cry?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_furion_furi_taunt_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_07.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_07.mp3",
+      "transcript": "I'm surrounded by saps!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_furion_furi_taunt_07.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_08.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_08.mp3",
+      "transcript": "Kill a hero, save a tree.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_furion_furi_taunt_08.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_taunt_09.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_taunt_09.mp3",
+      "transcript": "Why don't you make like a tree and get out of here?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_furion_furi_taunt_09.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_victory_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_victory_01.mp3",
+      "transcript": "Hm hm hm, I grew a little that day.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_furion_furi_view_victory_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_victory_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_victory_02.mp3",
+      "transcript": "A verdant campaign.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_furion_furi_view_victory_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_victory_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_victory_03.mp3",
+      "transcript": "Hahahah, ah, I was in full leaf for that one.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_furion_furi_view_victory_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_defeat_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_defeat_01.mp3",
+      "transcript": "A gloomy recollection.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_furion_furi_view_defeat_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_defeat_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_defeat_02.mp3",
+      "transcript": "Why dwell on such losses?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_furion_furi_view_defeat_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_view_defeat_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_view_defeat_03.mp3",
+      "transcript": "Bah, I had leaf rot that day.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_furion_furi_view_defeat_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_01.mp3",
+      "transcript": "Huh huh, a verdant nobility.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_furion_furi_set_complete_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_02.mp3",
+      "transcript": "Ah, in all my leafy splendor.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_furion_furi_set_complete_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_03.mp3",
+      "transcript": "The glories of the woods are mine.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_furion_furi_set_complete_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_05.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_05.mp3",
+      "transcript": "From root to limb I am replete.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_furion_furi_set_complete_05.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_set_complete_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_set_complete_06.mp3",
+      "transcript": "I am well and truly equipped.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_furion_furi_set_complete_06.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_01.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_01.mp3",
+      "transcript": "Oh, yes to that; HmHm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_furion_furi_equipping_01.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_02.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_02.mp3",
+      "transcript": "Very nice.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_furion_furi_equipping_02.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_03.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_03.mp3",
+      "transcript": "Hm, splendid.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_furion_furi_equipping_03.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_04.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_04.mp3",
+      "transcript": "Admirable.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_furion_furi_equipping_04.mp3"
+    },
+    {
+      "file": "Vo_furion_furi_equipping_06.mp3",
+      "key": "dota2/natures-prophet/Vo_furion_furi_equipping_06.mp3",
+      "transcript": "Hm, seems suitable.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_furion_furi_equipping_06.mp3"
+    }
+  ]
+}

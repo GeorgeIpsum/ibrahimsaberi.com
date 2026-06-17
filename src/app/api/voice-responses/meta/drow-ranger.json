@@ -1,0 +1,2499 @@
+{
+  "hero": "Drow Ranger",
+  "slug": "drow-ranger",
+  "source": "https://liquipedia.net/dota2/Drow_Ranger/Responses",
+  "scrapedAt": "2026-06-17T13:44:21.899Z",
+  "count": 247,
+  "voicelines": [
+    {
+      "file": "Vo_drowranger_dro_spawn_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_01.mp3",
+      "transcript": "Traxex!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_drowranger_dro_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_02.mp3",
+      "transcript": "Traxex here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_drowranger_dro_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_03.mp3",
+      "transcript": "Drow Ranger!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_drowranger_dro_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_04.mp3",
+      "transcript": "My quiver and bow are ready!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_drowranger_dro_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_05.mp3",
+      "transcript": "I quiver with anticipation!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_drowranger_dro_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_06.mp3",
+      "transcript": "Beware the bite of frost.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_drowranger_dro_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_spawn_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_spawn_07.mp3",
+      "transcript": "Let the battle begin!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_drowranger_dro_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_02.mp3",
+      "transcript": "I go in silence.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_drowranger_dro_move_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_03.mp3",
+      "transcript": "My bow is drawn!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_drowranger_dro_move_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_03.mp3",
+      "transcript": "Arrow, find your target!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_drowranger_dro_attack_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_04.mp3",
+      "transcript": "Death comes silently.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_drowranger_dro_attack_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_03.mp3",
+      "transcript": "Pride of the Drow!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_drowranger_drow_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_anger_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_anger_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_drowranger_dro_anger_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_inthebag_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_drowranger_dro_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_battlebegins_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_battlebegins_01.mp3",
+      "transcript": "I'm notched, I'm taut, I'm ready to fly.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_drowranger_drow_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_cast_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_cast_01.mp3",
+      "transcript": "I have waited for this moment…",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_drowranger_dro_cast_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_01.mp3",
+      "transcript": "To battle!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_drowranger_dro_move_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_04.mp3",
+      "transcript": "Silent as mist…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_drowranger_dro_move_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_05.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_drowranger_dro_move_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_06.mp3",
+      "transcript": "That was my thought.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_drowranger_dro_move_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_07.mp3",
+      "transcript": "Way ahead of you.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_drowranger_dro_move_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_08.mp3",
+      "transcript": "My sentiments as well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_drowranger_dro_move_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_09.mp3",
+      "transcript": "Agreed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_drowranger_dro_move_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_10.mp3",
+      "transcript": "Good enough.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_drowranger_dro_move_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_11.mp3",
+      "transcript": "So be it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_drowranger_dro_move_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_12.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_12.mp3",
+      "transcript": "Forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_drowranger_dro_move_12.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_13.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_13.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_drowranger_dro_move_13.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_move_14.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_move_14.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_drowranger_dro_move_14.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_drowranger_dro_attack_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_02.mp3",
+      "transcript": "Into the fray!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_drowranger_dro_attack_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_05.mp3",
+      "transcript": "Feel the frost!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_drowranger_dro_attack_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_06.mp3",
+      "transcript": "Arrow, fly!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_drowranger_dro_attack_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_07.mp3",
+      "transcript": "Feel the bite of frost!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_drowranger_dro_attack_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_08.mp3",
+      "transcript": "Ice shall nip my enemies!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_drowranger_dro_attack_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_09.mp3",
+      "transcript": "Bite, frost!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_drowranger_dro_attack_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_10.mp3",
+      "transcript": "Quiver!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_drowranger_dro_attack_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_attack_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_attack_11.mp3",
+      "transcript": "Arrow, fly!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_drowranger_dro_attack_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_01.mp3",
+      "transcript": "I'll cut a notch with your name on it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_drowranger_dro_kill_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_03.mp3",
+      "transcript": "Feel my cold embrace.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_drowranger_dro_kill_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_04.mp3",
+      "transcript": "Your fate is sealed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_drowranger_dro_kill_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_cast_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_cast_02.mp3",
+      "transcript": "I thought you'd never ask.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_drowranger_dro_cast_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_cast_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_cast_03.mp3",
+      "transcript": "At last….",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_drowranger_dro_cast_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_cast_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_cast_04.mp3",
+      "transcript": "Finally…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_drowranger_dro_cast_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_02.mp3",
+      "transcript": "Uh huh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_drowranger_dro_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_07.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_drowranger_dro_acknow_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_01.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_drowranger_dro_ability_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_02.mp3",
+      "transcript": "Silence afflict thee!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_drowranger_dro_ability_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_03.mp3",
+      "transcript": "Silence, all!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_drowranger_dro_ability_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_04.mp3",
+      "transcript": "Silence seal you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_drowranger_dro_ability_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_05.mp3",
+      "transcript": "I seal you all in silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_drowranger_dro_ability_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_06.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_drowranger_dro_ability_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_ability_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_ability_07.mp3",
+      "transcript": "Shhhh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_drowranger_dro_ability_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_01.mp3",
+      "transcript": "My bow is strung!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_drowranger_drow_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_02.mp3",
+      "transcript": "As deep as forest shade.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_drowranger_drow_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_05.mp3",
+      "transcript": "My time has come!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_drowranger_drow_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_06.mp3",
+      "transcript": "The secrets of the wood are mine!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_drowranger_drow_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_07.mp3",
+      "transcript": "Hm hm hm hm hm ha ha ha ha ha ha hm hm hm hm hm hm!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_drowranger_drow_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_08.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm hm!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_drowranger_drow_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_03.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_drowranger_dro_happy_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_05.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_drowranger_dro_happy_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_07.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_drowranger_dro_happy_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_01.mp3",
+      "transcript": "Heh heh.",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_drowranger_dro_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_03.mp3",
+      "transcript": "Ah ha ha ha ha ha.",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_drowranger_dro_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_levelup_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_levelup_04.mp3",
+      "transcript": "Rangers with candy.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_drowranger_drow_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_02.mp3",
+      "transcript": "Bullseye!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_drowranger_dro_kill_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_05.mp3",
+      "transcript": "You die alone.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_drowranger_dro_kill_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_06.mp3",
+      "transcript": "Chill out!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_drowranger_dro_kill_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_kill_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_kill_07.mp3",
+      "transcript": "A lonely death…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_drowranger_dro_kill_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_08.mp3",
+      "transcript": "I thought they warned you not to speak with rangers.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_drowranger_drow_kill_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_09.mp3",
+      "transcript": "The lanes are lined with the likes of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_drowranger_drow_kill_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_10.mp3",
+      "transcript": "Many a grave is hidden in these woods.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_drowranger_drow_kill_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_11.mp3",
+      "transcript": "The Drow have one less enemy now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_drowranger_drow_kill_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_12.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_12.mp3",
+      "transcript": "Let me get my arrows back, and then you can die.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_drowranger_drow_kill_12.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_13.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_13.mp3",
+      "transcript": "You were too noisy to live.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_drowranger_drow_kill_13.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_14.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_14.mp3",
+      "transcript": "There are some things you weren't meant to see. Such as tomorrow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_drowranger_drow_kill_14.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_15.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_15.mp3",
+      "transcript": "We hardly knew you. Just as well.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_drowranger_drow_kill_15.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_16.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_16.mp3",
+      "transcript": "I know I should respect the dead, but first you have to earn it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_drowranger_drow_kill_16.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_kill_17.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_kill_17.mp3",
+      "transcript": "Now that you're dead, I find it easy to respect you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_drowranger_drow_kill_17.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_13.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_13.mp3",
+      "transcript": "Amateur.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_drowranger_drow_rival_13.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_04.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_drowranger_dro_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_drowranger_dro_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_drowranger_dro_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_01.mp3",
+      "transcript": "Don't quit your day job, Luna.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_drowranger_drow_rival_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_03.mp3",
+      "transcript": "My arrow found your arrow's mark.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_drowranger_drow_rival_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_04.mp3",
+      "transcript": "Took you down a notch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_drowranger_drow_rival_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_05.mp3",
+      "transcript": "Don't knock me, Windrunner.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_drowranger_drow_rival_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_06.mp3",
+      "transcript": "You lost that one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_drowranger_drow_rival_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_07.mp3",
+      "transcript": "I heard your bones rattle with fear.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_drowranger_drow_rival_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_08.mp3",
+      "transcript": "Clinkz, were you named after chattering teeth?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_drowranger_drow_rival_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_09.mp3",
+      "transcript": "You met your match today, Clinkz.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_drowranger_drow_rival_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_10.mp3",
+      "transcript": "The olden ways are best, Sniper.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_drowranger_drow_rival_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_11.mp3",
+      "transcript": "Sniper, you're shot.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_drowranger_drow_rival_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_12.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_12.mp3",
+      "transcript": "The hot shot, got shot.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_drowranger_drow_rival_12.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_14.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_14.mp3",
+      "transcript": "You're not out of the woods yet, Enchantress.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_drowranger_drow_rival_14.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_15.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_15.mp3",
+      "transcript": "Silly doe.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_drowranger_drow_rival_15.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_16.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_16.mp3",
+      "transcript": "I was hiding in your shadow the whole time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_drowranger_drow_rival_16.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_17.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_17.mp3",
+      "transcript": "The woods have spoken, and they chose me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_drowranger_drow_rival_17.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_18.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_18.mp3",
+      "transcript": "Let's put it to a vote.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_drowranger_drow_rival_18.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_19.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_19.mp3",
+      "transcript": "Cold made you hard, but ice made you brittle.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_drowranger_drow_rival_19.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_22.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_22.mp3",
+      "transcript": "Even wisps fear my frost.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_drowranger_drow_rival_22.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_02.mp3",
+      "transcript": "Oh good, some genuine cat gut.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_drowranger_drow_rival_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_20.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_20.mp3",
+      "transcript": "There's more than one hunter in these woods.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_drowranger_drow_rival_20.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_rival_21.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_rival_21.mp3",
+      "transcript": "No bear can stand to my bow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_drowranger_drow_rival_21.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_firstblood_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_firstblood_01.mp3",
+      "transcript": "First blood, and a point well taken.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_drowranger_drow_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_ally_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_ally_01.mp3",
+      "transcript": "Chase them down, Windrunner.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_drowranger_drow_ally_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_ally_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_ally_02.mp3",
+      "transcript": "Prophet, you and I will reclaim these woods.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_drowranger_drow_ally_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_ally_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_ally_03.mp3",
+      "transcript": "That's quite the arrow, Mirana.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_drowranger_drow_ally_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_ally_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_ally_04.mp3",
+      "transcript": "Burn them down, Clinkz.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_drowranger_drow_ally_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_ally_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_ally_05.mp3",
+      "transcript": "Enchantress, will you be prancing our enemy to death?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_drowranger_drow_ally_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lasthit_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lasthit_01.mp3",
+      "transcript": "Tastes so sweet…",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_drowranger_dro_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lasthit_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lasthit_02.mp3",
+      "transcript": "Every little bit counts!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_drowranger_dro_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lasthit_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lasthit_03.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_drowranger_dro_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_04.mp3",
+      "transcript": "Fair trade!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_drowranger_drow_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_05.mp3",
+      "transcript": "A day's wage!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_drowranger_drow_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_06.mp3",
+      "transcript": "Stand and deliver.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_drowranger_drow_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_07.mp3",
+      "transcript": "Your money or you're dead.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_drowranger_drow_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_08.mp3",
+      "transcript": "Arrow fodder.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_drowranger_drow_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_09.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_drowranger_drow_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_lasthit_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_lasthit_10.mp3",
+      "transcript": "The price you pay.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_drowranger_drow_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_05.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Last hitting",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_drowranger_dro_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_06.mp3",
+      "transcript": "Huh huh huh huh ha huh.",
+      "categories": [
+        "Last hitting",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_drowranger_dro_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_deny_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_drowranger_dro_deny_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_deny_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_deny_02.mp3",
+      "transcript": "You'll have to do better than that!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_drowranger_dro_deny_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_deny_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_deny_03.mp3",
+      "transcript": "Weep some more…",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_drowranger_dro_deny_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_deny_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_deny_04.mp3",
+      "transcript": "Are you even trying?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_drowranger_dro_deny_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_deny_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_deny_05.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_drowranger_dro_deny_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_06.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_drowranger_drow_deny_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_07.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_drowranger_drow_deny_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_08.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_drowranger_drow_deny_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_09.mp3",
+      "transcript": "Not this time.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_drowranger_drow_deny_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_10.mp3",
+      "transcript": "Not this time.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_drowranger_drow_deny_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_11.mp3",
+      "transcript": "That belongs to me.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_drowranger_drow_deny_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_12.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_12.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_drowranger_drow_deny_12.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_13.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_13.mp3",
+      "transcript": "Put it out of your mind.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_drowranger_drow_deny_13.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_14.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_14.mp3",
+      "transcript": "Don't you dare.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_drowranger_drow_deny_14.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_15.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_15.mp3",
+      "transcript": "Don't you dare.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_drowranger_drow_deny_15.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_16.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_16.mp3",
+      "transcript": "Heh heh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_drowranger_drow_deny_16.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_deny_17.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_deny_17.mp3",
+      "transcript": "Hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_drowranger_drow_deny_17.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_purch_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_purch_01.mp3",
+      "transcript": "Mine at last!",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_drowranger_dro_purch_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_purch_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_purch_02.mp3",
+      "transcript": "I've been saving for so long…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_drowranger_dro_purch_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_purch_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_purch_03.mp3",
+      "transcript": "Sometimes you just have to splurge…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_drowranger_dro_purch_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_sceptor_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_sceptor_01.mp3",
+      "transcript": "Ah! Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_drowranger_drow_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_sceptor_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_sceptor_02.mp3",
+      "transcript": "I'll need a hand free for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_drowranger_drow_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_blink_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_blink_01.mp3",
+      "transcript": "Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_drowranger_drow_blink_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_blink_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_blink_02.mp3",
+      "transcript": "The arrow stabs from afar. Blink Dagger brings me closer.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_drowranger_drow_blink_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_01.mp3",
+      "transcript": "Manta Style!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_drowranger_drow_item_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_02.mp3",
+      "transcript": "Shadow Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_drowranger_drow_item_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_03.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_drowranger_drow_item_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_04.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_drowranger_drow_item_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_05.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_drowranger_drow_item_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_06.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_drowranger_drow_item_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_item_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_item_07.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_drowranger_drow_item_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_immort_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_drowranger_dro_immort_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_immort_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_immort_02.mp3",
+      "transcript": "Death cannot hold me now!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_drowranger_dro_immort_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_01.mp3",
+      "transcript": "Icy death…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_drowranger_dro_death_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_02.mp3",
+      "transcript": "The rest is silence…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_drowranger_dro_death_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_03.mp3",
+      "transcript": "I die alone…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_drowranger_dro_death_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_04.mp3",
+      "transcript": "Death's cold embrace…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_drowranger_dro_death_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_05.mp3",
+      "transcript": "So cold…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_drowranger_dro_death_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_06.mp3",
+      "transcript": "How can this be?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_drowranger_dro_death_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_death_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_death_08.mp3",
+      "transcript": "Uh huh…huh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_drowranger_dro_death_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_09.mp3",
+      "transcript": "Weep not for me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_drowranger_drow_death_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_10.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_10.mp3",
+      "transcript": "A foundlings life is all a gift.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_drowranger_drow_death_10.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_11.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_11.mp3",
+      "transcript": "It was worth it.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_drowranger_drow_death_11.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_12.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_12.mp3",
+      "transcript": "Blown out on a cold wind.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_drowranger_drow_death_12.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_13.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_13.mp3",
+      "transcript": "Autumn leaves for a deathbed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_drowranger_drow_death_13.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_death_14.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_death_14.mp3",
+      "transcript": "I range afar.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_drowranger_drow_death_14.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_01.mp3",
+      "transcript": "I'll just retrieve my arrows.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_drowranger_dro_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_02.mp3",
+      "transcript": "Faster than an arrow's flight.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_drowranger_dro_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_03.mp3",
+      "transcript": "Back into the fray!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_drowranger_dro_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_04.mp3",
+      "transcript": "What's this?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_drowranger_dro_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_05.mp3",
+      "transcript": "Here again?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_drowranger_dro_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_06.mp3",
+      "transcript": "How came I here?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_drowranger_dro_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_respawn_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_respawn_07.mp3",
+      "transcript": "That was just a warm-up.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_drowranger_dro_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_fastres_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_fastres_01.mp3",
+      "transcript": "I'm back before the arrow fired has fallen!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_drowranger_drow_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_bottle_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_bottle_01.mp3",
+      "transcript": "You might come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_drowranger_dro_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_bottle_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_bottle_02.mp3",
+      "transcript": "I'll save you for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_drowranger_dro_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_doubdam_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_doubdam_01.mp3",
+      "transcript": "Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_drowranger_dro_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_doubdam_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_doubdam_02.mp3",
+      "transcript": "My damage redoubled!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_drowranger_dro_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_haste_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_drowranger_dro_haste_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_haste_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_haste_02.mp3",
+      "transcript": "Swiftly now!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_drowranger_dro_haste_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_illus_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_drowranger_dro_illus_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_illus_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_illus_02.mp3",
+      "transcript": "Which of us is which?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_drowranger_dro_illus_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_invis_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_drowranger_dro_invis_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_invis_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_invis_02.mp3",
+      "transcript": "I am concealed.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_drowranger_dro_invis_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_regen_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_drowranger_dro_regen_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_regen_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_regen_02.mp3",
+      "transcript": "I can feel the healing.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_drowranger_dro_regen_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_drowranger_drow_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_drowranger_drow_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_drowranger_drow_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_drowranger_drow_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_drowranger_drow_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_drowranger_drow_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_drowranger_drow_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_drowranger_drow_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_notyet_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_drowranger_drow_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_drowranger_drow_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_drowranger_drow_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_drowranger_drow_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_drowranger_drow_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_drowranger_drow_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_drowranger_drow_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_drowranger_drow_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_08.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_drowranger_drow_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_nomana_09.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_drowranger_drow_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_drowranger_dro_pain_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_02.mp3",
+      "transcript": "Huh ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_drowranger_dro_pain_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_03.mp3",
+      "transcript": "Uhhhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_drowranger_dro_pain_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_04.mp3",
+      "transcript": "Uhh uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_drowranger_dro_pain_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_drowranger_dro_pain_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_06.mp3",
+      "transcript": "Uhh ahh ahh h",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_drowranger_dro_pain_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_pain_07.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_drowranger_dro_pain_07.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_underattack_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_drowranger_drow_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_rare_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_rare_01.mp3",
+      "transcript": "The mist that chills you keeps me warm.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_drowranger_dro_rare_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_rare_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_rare_02.mp3",
+      "transcript": "I walk alone, but the shadows are company enough.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_drowranger_dro_rare_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_rare_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_rare_03.mp3",
+      "transcript": "The only sin is an ungodly racket.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_drowranger_dro_rare_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_rare_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_rare_04.mp3",
+      "transcript": "Follow me into the forest shade, and none may spy on us.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_drowranger_dro_rare_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_missing_lane_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_missing_lane_01.mp3",
+      "transcript": "Top is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_drowranger_drow_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_missing_lane_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_missing_lane_02.mp3",
+      "transcript": "Middle is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_drowranger_drow_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_missing_lane_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_missing_lane_03.mp3",
+      "transcript": "Bottom is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_drowranger_drow_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_thanks_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_thanks_01.mp3",
+      "transcript": "My thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_drowranger_drow_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_thanks_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_thanks_02.mp3",
+      "transcript": "May the Drow keep you safe.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_drowranger_drow_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_laugh_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_laugh_02.mp3",
+      "transcript": "Huh huh huh huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_drowranger_dro_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_win_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_win_01.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_drowranger_dro_win_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_win_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_win_02.mp3",
+      "transcript": "Another triumph!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_drowranger_dro_win_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_win_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_win_03.mp3",
+      "transcript": "This couldn't have ended any other way.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_drowranger_dro_win_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_win_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_win_04.mp3",
+      "transcript": "Another triumph!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_drowranger_dro_win_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_win_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_win_05.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_drowranger_dro_win_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lose_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lose_01.mp3",
+      "transcript": "We've been crushed…",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_drowranger_dro_lose_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lose_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lose_02.mp3",
+      "transcript": "Fate is so cruel.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_drowranger_dro_lose_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_lose_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_lose_03.mp3",
+      "transcript": "How so?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_drowranger_dro_lose_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_drop_common_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_drop_common_01.mp3",
+      "transcript": "I found a secret.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_drowranger_drow_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_drop_medium_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_drop_medium_01.mp3",
+      "transcript": "Something glimmers in the shade.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_drowranger_drow_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_drow_drop_rare_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_drow_drop_rare_01.mp3",
+      "transcript": "A treasure true as an arrow's flight!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_drowranger_drow_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_shitwiz_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_drowranger_dro_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_crumwiz_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_drowranger_dro_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_anger_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_anger_02.mp3",
+      "transcript": "Uhhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_drowranger_dro_anger_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_anger_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_anger_03.mp3",
+      "transcript": "Huuuh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_drowranger_dro_anger_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_01.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_drowranger_dro_happy_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_02.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_02.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_drowranger_dro_happy_02.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_drowranger_dro_happy_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_happy_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_happy_06.mp3",
+      "transcript": "Aah mmmhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_drowranger_dro_happy_06.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_01.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_drowranger_dro_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_03.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_03.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_drowranger_dro_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_04.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_04.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_drowranger_dro_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_05.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_05.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_drowranger_dro_acknow_05.mp3"
+    },
+    {
+      "file": "Vo_drowranger_dro_acknow_06.mp3",
+      "key": "dota2/drow-ranger/Vo_drowranger_dro_acknow_06.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_drowranger_dro_acknow_06.mp3"
+    }
+  ]
+}

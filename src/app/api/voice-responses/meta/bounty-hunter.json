@@ -1,0 +1,2885 @@
+{
+  "hero": "Bounty Hunter",
+  "slug": "bounty-hunter",
+  "source": "https://liquipedia.net/dota2/Bounty_Hunter/Responses",
+  "scrapedAt": "2026-06-17T13:42:51.327Z",
+  "count": 285,
+  "voicelines": [
+    {
+      "file": "Vo_bounty_hunter_bount_spawn_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_spawn_01.mp3",
+      "transcript": "Bounty Hunter!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_bounty_hunter_bount_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_spawn_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_spawn_02.mp3",
+      "transcript": "There's a price on all their heads.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_bounty_hunter_bount_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_spawn_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_spawn_03.mp3",
+      "transcript": "For the right price, anything.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bounty_hunter_bount_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_spawn_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_spawn_04.mp3",
+      "transcript": "I'll take the job.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_bounty_hunter_bount_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_battlebegins_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_battlebegins_01.mp3",
+      "transcript": "No job is too big, no fee is too big.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_bounty_hunter_bount_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_06.mp3",
+      "transcript": "My blades will do the talking.",
+      "categories": [
+        "Loadout",
+        "Moving",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bounty_hunter_bount_move_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_08.mp3",
+      "transcript": "I've come to collect.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bounty_hunter_bount_attack_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_09.mp3",
+      "transcript": "They'll tell tales of this.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_bounty_hunter_bount_level_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_04.mp3",
+      "transcript": "By authority of the realm, I shall hunt them down.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_bounty_hunter_bount_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_win_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_win_03.mp3",
+      "transcript": "Time to collect my bounty!",
+      "categories": [
+        "Loadout",
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_bounty_hunter_bount_win_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_blink_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_blink_03.mp3",
+      "transcript": "Now there's nowhere left to hide.",
+      "categories": [
+        "Loadout",
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bounty_hunter_bount_blink_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_02.mp3",
+      "transcript": "You can run but you can't hide.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_bounty_hunter_bount_ability_track_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_04.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_bounty_hunter_bount_anger_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_inthebag_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_inthebag_01.mp3",
+      "transcript": "Payday! This one is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_bounty_hunter_bount_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_01.mp3",
+      "transcript": "The hunt is on.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bounty_hunter_bount_ability_track_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_01.mp3",
+      "transcript": "On the hunt.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_bounty_hunter_bount_move_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_02.mp3",
+      "transcript": "Five enemies, five bounties.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_bounty_hunter_bount_move_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bounty_hunter_bount_move_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_04.mp3",
+      "transcript": "I follow the trail.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bounty_hunter_bount_move_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_05.mp3",
+      "transcript": "Over there.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_bounty_hunter_bount_move_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_07.mp3",
+      "transcript": "This way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_bounty_hunter_bount_move_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_08.mp3",
+      "transcript": "My blades grow thirsty.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_bounty_hunter_bount_move_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_09.mp3",
+      "transcript": "I'll find them.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_bounty_hunter_bount_move_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_10.mp3",
+      "transcript": "Footprints.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bounty_hunter_bount_move_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_12.mp3",
+      "transcript": "Repositioning.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_bounty_hunter_bount_move_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_13.mp3",
+      "transcript": "On the move.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_bounty_hunter_bount_move_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_14.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_14.mp3",
+      "transcript": "Stalking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_bounty_hunter_bount_move_14.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_15.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_15.mp3",
+      "transcript": "Is that a broken twig I spy?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bounty_hunter_bount_move_15.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_16.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_16.mp3",
+      "transcript": "A lead.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_bounty_hunter_bount_move_16.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_17.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_17.mp3",
+      "transcript": "I'll find them.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_bounty_hunter_bount_move_17.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_11.mp3",
+      "transcript": "Fi'ir!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_bounty_hunter_bount_move_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_18.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_18.mp3",
+      "transcript": "Itam 'gro.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_bounty_hunter_bount_move_18.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_move_19.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_move_19.mp3",
+      "transcript": "Ahgo 'prira.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_bounty_hunter_bount_move_19.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_bounty_hunter_bount_attack_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_02.mp3",
+      "transcript": "Found you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bounty_hunter_bount_attack_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_03.mp3",
+      "transcript": "Dead or alive!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_bounty_hunter_bount_attack_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_04.mp3",
+      "transcript": "You're through!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_bounty_hunter_bount_attack_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_05.mp3",
+      "transcript": "With pleasure.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_bounty_hunter_bount_attack_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_06.mp3",
+      "transcript": "You won't get far.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_bounty_hunter_bount_attack_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_07.mp3",
+      "transcript": "Closing in.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_bounty_hunter_bount_attack_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_09.mp3",
+      "transcript": "Cut em up.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_bounty_hunter_bount_attack_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_11.mp3",
+      "transcript": "I'll enjoy this.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bounty_hunter_bount_attack_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_12.mp3",
+      "transcript": "The realm's justice.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_bounty_hunter_bount_attack_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_13.mp3",
+      "transcript": "As long as I get paid.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bounty_hunter_bount_attack_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_10.mp3",
+      "transcript": "Fi' a mont.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_bounty_hunter_bount_attack_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_attack_14.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_attack_14.mp3",
+      "transcript": "Fi'rah!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_bounty_hunter_bount_attack_14.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_cast_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_cast_01.mp3",
+      "transcript": "The chase is on.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_bounty_hunter_bount_cast_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_cast_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_cast_02.mp3",
+      "transcript": "Dead or alive, you're coming with me.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_bounty_hunter_bount_cast_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_cast_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_cast_03.mp3",
+      "transcript": "Let me introduce you to my blade.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_bounty_hunter_bount_cast_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_shur_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_shur_02.mp3",
+      "transcript": "Watch your head!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bounty_hunter_bount_ability_shur_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_shur_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_shur_03.mp3",
+      "transcript": "Slice is nice.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bounty_hunter_bount_ability_shur_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_01.mp3",
+      "transcript": "Fade my blade.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bounty_hunter_bount_ability_windwalk_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_02.mp3",
+      "transcript": "Blending in.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bounty_hunter_bount_ability_windwalk_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_03.mp3",
+      "transcript": "Unseen.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_bounty_hunter_bount_ability_windwalk_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_04.mp3",
+      "transcript": "You can't fight what you can't see.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_bounty_hunter_bount_ability_windwalk_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_05.mp3",
+      "transcript": "Long time no see.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_bounty_hunter_bount_ability_windwalk_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_06.mp3",
+      "transcript": "I fade from sight.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_bounty_hunter_bount_ability_windwalk_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_07.mp3",
+      "transcript": "He he he he he he he he he.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bounty_hunter_bount_ability_windwalk_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_windwalk_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_windwalk_08.mp3",
+      "transcript": "He he he he he he he he he he.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_bounty_hunter_bount_ability_windwalk_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_wind_attack_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_wind_attack_01.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_bounty_hunter_bount_ability_wind_attack_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_wind_attack_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_wind_attack_02.mp3",
+      "transcript": "Take that!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_bounty_hunter_bount_ability_wind_attack_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_wind_attack_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_wind_attack_03.mp3",
+      "transcript": "How's that feel?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_bounty_hunter_bount_ability_wind_attack_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_wind_attack_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_wind_attack_04.mp3",
+      "transcript": "Stings, don't it?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_bounty_hunter_bount_ability_wind_attack_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_wind_attack_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_wind_attack_05.mp3",
+      "transcript": "Tothi?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_bounty_hunter_bount_ability_wind_attack_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_jinada_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_jinada_01.mp3",
+      "transcript": "Hold it right there!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_bounty_hunter_bount_ability_jinada_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_jinada_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_jinada_03.mp3",
+      "transcript": "Hold still!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_bounty_hunter_bount_ability_jinada_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_03.mp3",
+      "transcript": "See you soon.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_bounty_hunter_bount_ability_track_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_kill_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_kill_01.mp3",
+      "transcript": "Equal shares.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_bounty_hunter_bount_ability_track_kill_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_kill_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_kill_02.mp3",
+      "transcript": "My allies have earned their keep.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_bounty_hunter_bount_ability_track_kill_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_kill_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_kill_03.mp3",
+      "transcript": "We'll split it.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_bounty_hunter_bount_ability_track_kill_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_kill_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_kill_04.mp3",
+      "transcript": "Inflation.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bounty_hunter_bount_ability_track_kill_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_01.mp3",
+      "transcript": "You can't buy this kind of power!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_bounty_hunter_bount_level_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_02.mp3",
+      "transcript": "My fees have doubled!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bounty_hunter_bount_level_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_04.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_bounty_hunter_bount_level_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_05.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_bounty_hunter_bount_level_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_bounty_hunter_bount_level_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_07.mp3",
+      "transcript": "The trail is clearer.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_bounty_hunter_bount_level_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_08.mp3",
+      "transcript": "Bountiful.",
+      "categories": [
+        "Leveling up",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_bounty_hunter_bount_level_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_10.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bounty_hunter_bount_level_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_11.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_bounty_hunter_bount_level_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_level_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_level_03.mp3",
+      "transcript": "Rohz oti!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_bounty_hunter_bount_level_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_jinada_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_jinada_02.mp3",
+      "transcript": "Got you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_bounty_hunter_bount_ability_jinada_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_jinada_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_jinada_04.mp3",
+      "transcript": "Bet that hurt!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_bounty_hunter_bount_ability_jinada_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_track_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_track_04.mp3",
+      "transcript": "Where do you think you're going?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_bounty_hunter_bount_ability_track_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_01.mp3",
+      "transcript": "There was a price on your head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bounty_hunter_bount_kill_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_02.mp3",
+      "transcript": "Bounty collected.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bounty_hunter_bount_kill_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_03.mp3",
+      "transcript": "They did say alive or dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_bounty_hunter_bount_kill_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_04.mp3",
+      "transcript": "Just another notch on my pommel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_bounty_hunter_bount_kill_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_05.mp3",
+      "transcript": "You'll fetch a high price.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_bounty_hunter_bount_kill_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_06.mp3",
+      "transcript": "Ka-ching! Your bounty is mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_bounty_hunter_bount_kill_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_07.mp3",
+      "transcript": "A bargain basement bounty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_bounty_hunter_bount_kill_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_10.mp3",
+      "transcript": "Ah ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_bounty_hunter_bount_kill_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_11.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_bounty_hunter_bount_kill_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_12.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_bounty_hunter_bount_kill_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_13.mp3",
+      "transcript": "Another fugitive brought to justice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_bounty_hunter_bount_kill_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_14.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_14.mp3",
+      "transcript": "Just business, nothing personal.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_bounty_hunter_bount_kill_14.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_15.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_15.mp3",
+      "transcript": "Trophy kill.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_bounty_hunter_bount_kill_15.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_16.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_16.mp3",
+      "transcript": "Nice doing business with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_bounty_hunter_bount_kill_16.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_17.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_17.mp3",
+      "transcript": "I didn't come here to see my enemies grow rich.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_bounty_hunter_bount_kill_17.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_19.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_19.mp3",
+      "transcript": "He he he he he he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_bounty_hunter_bount_kill_19.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_20.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_20.mp3",
+      "transcript": "He he he he he he he he he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_bounty_hunter_bount_kill_20.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_01.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_bounty_hunter_bount_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_02.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_bounty_hunter_bount_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_03.mp3",
+      "transcript": "He he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_bounty_hunter_bount_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_04.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_bounty_hunter_bount_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_05.mp3",
+      "transcript": "He he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_bounty_hunter_bount_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_06.mp3",
+      "transcript": "Ah he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bounty_hunter_bount_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_07.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_bounty_hunter_bount_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_08.mp3",
+      "transcript": "Ah ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_bounty_hunter_bount_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_09.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_bounty_hunter_bount_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_laugh_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_laugh_10.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_bounty_hunter_bount_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_08.mp3",
+      "transcript": "Lamtef.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bounty_hunter_bount_kill_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_09.mp3",
+      "transcript": "Mont ahgo.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_bounty_hunter_bount_kill_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_kill_18.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_kill_18.mp3",
+      "transcript": "Mont he'em rato.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_bounty_hunter_bount_kill_18.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_02.mp3",
+      "transcript": "See, Huskar, no need to rush it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_bounty_hunter_bount_rival_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_03.mp3",
+      "transcript": "My blades made you sing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_bounty_hunter_bount_rival_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_04.mp3",
+      "transcript": "Only cowards hunt from a distance.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_bounty_hunter_bount_rival_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_05.mp3",
+      "transcript": "The price on a god's head is immeasurable.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_bounty_hunter_bount_rival_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_06.mp3",
+      "transcript": "Alive or dead, Skeleton King. Pick one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_bounty_hunter_bount_rival_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_07.mp3",
+      "transcript": "You're wanted dead or alive. I don't know which you are but I'll collect your bounty all the same.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_bounty_hunter_bount_rival_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_08.mp3",
+      "transcript": "No more hiding behind your friends, Vengeful.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bounty_hunter_bount_rival_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_09.mp3",
+      "transcript": "I'll cut your bowstring, Drow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_bounty_hunter_bount_rival_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_10.mp3",
+      "transcript": "Ah, Spectre, my toughest bounty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_bounty_hunter_bount_rival_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_11.mp3",
+      "transcript": "Two bounties for one!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bounty_hunter_bount_rival_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_12.mp3",
+      "transcript": "Assassin, your ways have earned you a bounty on your head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_bounty_hunter_bount_rival_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_13.mp3",
+      "transcript": "Nyx, you've disposed of your last victim.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_bounty_hunter_bount_rival_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_01.mp3",
+      "transcript": "I've collected all five bounties!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_bounty_hunter_bount_rival_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_14.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_14.mp3",
+      "transcript": "Hold still, Geomancer!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_bounty_hunter_bount_rival_14.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_15.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_15.mp3",
+      "transcript": "How many of you do I have to kill?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bounty_hunter_bount_rival_15.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_16.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_16.mp3",
+      "transcript": "You may fool others, but not me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_bounty_hunter_bount_rival_16.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_17.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_17.mp3",
+      "transcript": "Riki, I've always known you were a backstabber.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_bounty_hunter_bount_rival_17.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_18.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_18.mp3",
+      "transcript": "Impressive technique, Riki, but not enough.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_bounty_hunter_bount_rival_18.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_23.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_23.mp3",
+      "transcript": "See, two can play at that game.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_bounty_hunter_bount_rival_23.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_19.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_19.mp3",
+      "transcript": "Not stealthy enough, Mirana.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bounty_hunter_bount_rival_19.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_20.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_20.mp3",
+      "transcript": "The Tidehunter becomes the hunted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_bounty_hunter_bount_rival_20.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_22.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_22.mp3",
+      "transcript": "You can't hide in your web forever.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_bounty_hunter_bount_rival_22.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_rival_21.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_rival_21.mp3",
+      "transcript": "Let me do that for you, Phoenix.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bounty_hunter_bount_rival_21.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_firstblood_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_firstblood_01.mp3",
+      "transcript": "First Blood, bagged and tagged.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_bounty_hunter_bount_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_01.mp3",
+      "transcript": "Ah, subtle Mirana.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_bounty_hunter_bount_ally_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_02.mp3",
+      "transcript": "Help me seek them out, Drow.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_bounty_hunter_bount_ally_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_03.mp3",
+      "transcript": "Tidehunter, let us hunt together.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_bounty_hunter_bount_ally_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_04.mp3",
+      "transcript": "Rikimaru, I didn't see you join us.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_bounty_hunter_bount_ally_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_05.mp3",
+      "transcript": "Riki, let's sneak up on them together.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bounty_hunter_bount_ally_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_06.mp3",
+      "transcript": "Cover me, Sniper.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_bounty_hunter_bount_ally_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_07.mp3",
+      "transcript": "Lay the trap, Templar Assassin.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bounty_hunter_bount_ally_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ally_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ally_08.mp3",
+      "transcript": "Nyx, show me what you can do.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_bounty_hunter_bount_ally_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_01.mp3",
+      "transcript": "Pocket change.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_bounty_hunter_bount_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_02.mp3",
+      "transcript": "Barely worth the effort.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_bounty_hunter_bount_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_03.mp3",
+      "transcript": "A few gold more.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_bounty_hunter_bount_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_05.mp3",
+      "transcript": "Payday.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bounty_hunter_bount_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_06.mp3",
+      "transcript": "I come to collect.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bounty_hunter_bount_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_07.mp3",
+      "transcript": "Transaction complete.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_bounty_hunter_bount_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_08.mp3",
+      "transcript": "Your loss, my gain.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_bounty_hunter_bount_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_09.mp3",
+      "transcript": "Meet your maker.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bounty_hunter_bount_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_10.mp3",
+      "transcript": "Bargain hunting.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bounty_hunter_bount_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lasthit_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lasthit_04.mp3",
+      "transcript": "Thix.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_bounty_hunter_bount_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_bounty_hunter_bount_deny_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_02.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_bounty_hunter_bount_deny_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_03.mp3",
+      "transcript": "This bounty is not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_bounty_hunter_bount_deny_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_04.mp3",
+      "transcript": "Not yours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_bounty_hunter_bount_deny_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_05.mp3",
+      "transcript": "I don't think so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_bounty_hunter_bount_deny_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_06.mp3",
+      "transcript": "Too bad, so sad.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_bounty_hunter_bount_deny_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_08.mp3",
+      "transcript": "He he he he he he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_bounty_hunter_bount_deny_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_09.mp3",
+      "transcript": "Ah he he he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_bounty_hunter_bount_deny_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_10.mp3",
+      "transcript": "He he he he he he he he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_bounty_hunter_bount_deny_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_11.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_bounty_hunter_bount_deny_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_12.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_bounty_hunter_bount_deny_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_13.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_bounty_hunter_bount_deny_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_deny_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_deny_07.mp3",
+      "transcript": "Tena 'hateh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_bounty_hunter_bount_deny_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_purch_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_purch_01.mp3",
+      "transcript": "Expenses, expenses.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_bounty_hunter_bount_purch_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_purch_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_purch_02.mp3",
+      "transcript": "Highway robbery.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_bounty_hunter_bount_purch_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_purch_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_purch_03.mp3",
+      "transcript": "Tool of my trade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_bounty_hunter_bount_purch_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_blink_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_blink_01.mp3",
+      "transcript": "Ah, Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_bounty_hunter_bount_blink_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_blink_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_blink_02.mp3",
+      "transcript": "Another blade for my repertoire.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_bounty_hunter_bount_blink_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_scepter_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_bounty_hunter_bount_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_scepter_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_scepter_02.mp3",
+      "transcript": "Worth every penny.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bounty_hunter_bount_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_01.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_bounty_hunter_bount_item_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_02.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_bounty_hunter_bount_item_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_03.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_bounty_hunter_bount_item_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_04.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bounty_hunter_bount_item_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_05.mp3",
+      "transcript": "Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_bounty_hunter_bount_item_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_06.mp3",
+      "transcript": "Vladmir!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bounty_hunter_bount_item_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_07.mp3",
+      "transcript": "Demon Edge! Another edge for my collection.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_bounty_hunter_bount_item_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_item_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_item_08.mp3",
+      "transcript": "Divine Rapier.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_bounty_hunter_bount_item_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_immort_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_bounty_hunter_bount_immort_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_immort_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_immort_02.mp3",
+      "transcript": "Good luck stopping me now.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_bounty_hunter_bount_immort_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bounty_hunter_bount_death_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_02.mp3",
+      "transcript": "Cashing out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_bounty_hunter_bount_death_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_03.mp3",
+      "transcript": "The trail grows cold.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bounty_hunter_bount_death_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_04.mp3",
+      "transcript": "I gambled and lost.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_bounty_hunter_bount_death_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_05.mp3",
+      "transcript": "My target eludes me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_bounty_hunter_bount_death_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_06.mp3",
+      "transcript": "The tables turn.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_bounty_hunter_bount_death_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_07.mp3",
+      "transcript": "That didn't pay off.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_bounty_hunter_bount_death_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_08.mp3",
+      "transcript": "Was there a bounty on me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_bounty_hunter_bount_death_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_09.mp3",
+      "transcript": "I fall in service to the realm.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_bounty_hunter_bount_death_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_10.mp3",
+      "transcript": "I had it coming.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bounty_hunter_bount_death_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_death_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_death_11.mp3",
+      "transcript": "Fim sa 'ek.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_bounty_hunter_bount_death_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_01.mp3",
+      "transcript": "Back on the hunt.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_bounty_hunter_bount_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_02.mp3",
+      "transcript": "I've never lost a mark, I'm not going to start now.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_bounty_hunter_bount_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_03.mp3",
+      "transcript": "Gonna need to do better than that to shake me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_bounty_hunter_bount_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_05.mp3",
+      "transcript": "That's going to come out of my pay, isn't it?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bounty_hunter_bount_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_06.mp3",
+      "transcript": "They'll pay for that.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_bounty_hunter_bount_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_07.mp3",
+      "transcript": "Bounty Hunter is back on the trail.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_bounty_hunter_bount_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_08.mp3",
+      "transcript": "My blades will answer for this injustice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_bounty_hunter_bount_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_09.mp3",
+      "transcript": "Look who's just made bail.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_bounty_hunter_bount_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_10.mp3",
+      "transcript": "It was just business before. Now it's personal.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_bounty_hunter_bount_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_11.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_11.mp3",
+      "transcript": "Okay, now it's personal.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_bounty_hunter_bount_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_12.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_12.mp3",
+      "transcript": "Screw business. It just got personal.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_bounty_hunter_bount_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_respawn_13.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_respawn_13.mp3",
+      "transcript": "I had planned to take them in alive. But now…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_bounty_hunter_bount_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_fastres_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_fastres_01.mp3",
+      "transcript": "The hunt's not over yet.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_bounty_hunter_bount_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_fastres_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_fastres_02.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_bounty_hunter_bount_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_fastres_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_fastres_03.mp3",
+      "transcript": "Ah ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bounty_hunter_bount_fastres_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_fastres_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_fastres_04.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_bounty_hunter_bount_fastres_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_bottle_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_bottle_01.mp3",
+      "transcript": "A wise hunter knows patience.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_bounty_hunter_bount_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_bottle_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_bottle_02.mp3",
+      "transcript": "Saved until the trap is set.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_bounty_hunter_bount_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_bottle_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_bottle_03.mp3",
+      "transcript": "A prudent hunter knows when to strike.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_bounty_hunter_bount_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_doubdam_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_bounty_hunter_bount_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_doubdam_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_doubdam_02.mp3",
+      "transcript": "Never doubt my blades' resolve.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_bounty_hunter_bount_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_doubdam_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_doubdam_03.mp3",
+      "transcript": "Twice the cutting power.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_bounty_hunter_bount_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_haste_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_bounty_hunter_bount_haste_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_haste_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_haste_02.mp3",
+      "transcript": "This chase will be short lived.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_bounty_hunter_bount_haste_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_illus_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_bounty_hunter_bount_illus_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_illus_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_illus_02.mp3",
+      "transcript": "More of me? Practical.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_bounty_hunter_bount_illus_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_illus_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_illus_03.mp3",
+      "transcript": "Does that mean I split the bounty three ways?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_bounty_hunter_bount_illus_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_invis_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_bounty_hunter_bount_invis_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_invis_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_invis_03.mp3",
+      "transcript": "Now that is failure to appear in court.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_bounty_hunter_bount_invis_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_invis_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_invis_02.mp3",
+      "transcript": "Just try and find me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_bounty_hunter_bount_invis_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_regen_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_bounty_hunter_bount_regen_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_regen_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_regen_02.mp3",
+      "transcript": "I'm on the mend.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_bounty_hunter_bount_regen_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_bounty_hunter_bount_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_bounty_hunter_bount_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_bounty_hunter_bount_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bounty_hunter_bount_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_bounty_hunter_bount_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_bounty_hunter_bount_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_bounty_hunter_bount_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bounty_hunter_bount_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_notyet_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_bounty_hunter_bount_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bounty_hunter_bount_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_bounty_hunter_bount_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_bounty_hunter_bount_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_bounty_hunter_bount_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_bounty_hunter_bount_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_bounty_hunter_bount_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_bounty_hunter_bount_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_bounty_hunter_bount_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_nomana_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_bounty_hunter_bount_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_01.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_bounty_hunter_bount_pain_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_bounty_hunter_bount_pain_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_bounty_hunter_bount_pain_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_bounty_hunter_bount_pain_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_05.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_bounty_hunter_bount_pain_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_06.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_bounty_hunter_bount_pain_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_07.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_bounty_hunter_bount_pain_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_08.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_bounty_hunter_bount_pain_08.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_09.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_09.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_bounty_hunter_bount_pain_09.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_pain_10.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_pain_10.mp3",
+      "transcript": "Wah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_bounty_hunter_bount_pain_10.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_underattack_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_bounty_hunter_bount_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_thanks_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_bounty_hunter_bount_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_thanks_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_thanks_02.mp3",
+      "transcript": "I owe you one.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_bounty_hunter_bount_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_win_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_bounty_hunter_bount_win_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_win_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_bounty_hunter_bount_win_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_win_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_win_04.mp3",
+      "transcript": "The Ancient has the biggest bounty of them all.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bounty_hunter_bount_win_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_win_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_win_05.mp3",
+      "transcript": "I'm rich!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_bounty_hunter_bount_win_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lose_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_bounty_hunter_bount_lose_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lose_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_bounty_hunter_bount_lose_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_lose_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_lose_03.mp3",
+      "transcript": "My quarry has eluded me!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_bounty_hunter_bount_lose_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_happy_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_happy_01.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_bounty_hunter_bount_happy_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_happy_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_happy_02.mp3",
+      "transcript": "Hmmmm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bounty_hunter_bount_happy_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_happy_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_happy_03.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_bounty_hunter_bount_happy_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_happy_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_happy_04.mp3",
+      "transcript": "Hm hm hm hm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_bounty_hunter_bount_happy_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_01.mp3",
+      "transcript": "Blew my cover.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_bounty_hunter_bount_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_02.mp3",
+      "transcript": "Just out of reach.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_bounty_hunter_bount_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_bounty_hunter_bount_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_04.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_04.mp3",
+      "transcript": "Fi mal ta'a.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_bounty_hunter_bount_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_05.mp3",
+      "transcript": "Damn, I've lost the scent.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_bounty_hunter_bount_ability_failure_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_bounty_hunter_bount_ability_failure_06.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_ability_failure_07.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_ability_failure_07.mp3",
+      "transcript": "Damn it!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_bounty_hunter_bount_ability_failure_07.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_shitwiz_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_bounty_hunter_bount_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_crumwiz_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_bounty_hunter_bount_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_01.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_01.mp3",
+      "transcript": "Heeee!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_bounty_hunter_bount_anger_01.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_02.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_02.mp3",
+      "transcript": "Hmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_bounty_hunter_bount_anger_02.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_03.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_03.mp3",
+      "transcript": "Eehhhaahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_bounty_hunter_bount_anger_03.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_05.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_05.mp3",
+      "transcript": "Haaaa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_bounty_hunter_bount_anger_05.mp3"
+    },
+    {
+      "file": "Vo_bounty_hunter_bount_anger_06.mp3",
+      "key": "dota2/bounty-hunter/Vo_bounty_hunter_bount_anger_06.mp3",
+      "transcript": "Hsssshhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_bounty_hunter_bount_anger_06.mp3"
+    }
+  ]
+}

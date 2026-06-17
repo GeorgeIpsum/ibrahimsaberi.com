@@ -1,0 +1,2967 @@
+{
+  "hero": "Tinker",
+  "slug": "tinker",
+  "source": "https://liquipedia.net/dota2/Tinker/Responses",
+  "scrapedAt": "2026-06-17T14:46:17.421Z",
+  "count": 293,
+  "voicelines": [
+    {
+      "file": "Vo_tinker_tink_spawn_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_01.mp3",
+      "transcript": "Tinker!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_tinker_tink_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_02.mp3",
+      "transcript": "I am perfectly suited for this environment.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_tinker_tink_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_03.mp3",
+      "transcript": "Ready, willing and fully enabled!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_tinker_tink_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_04.mp3",
+      "transcript": "Sometimes I think you only want me for my hazard suit!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_tinker_tink_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_05.mp3",
+      "transcript": "I have several theories I'd like to put into practice.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_tinker_tink_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_06.mp3",
+      "transcript": "Clinker… I mean, Tinker!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_tinker_tink_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_07.mp3",
+      "transcript": "Greetings!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_tinker_tink_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_08.mp3",
+      "transcript": "Dr. Clinker!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_tinker_tink_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_spawn_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_spawn_09.mp3",
+      "transcript": "Gaaa, Dr. Tinker.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_tinker_tink_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_begin_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_begin_01.mp3",
+      "transcript": "Conditions could hardly be more ideal!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_tinker_tink_begin_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_03.mp3",
+      "transcript": "Into the fray!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_tinker_tink_attack_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_04.mp3",
+      "transcript": "I carry a charge!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_tinker_tink_attack_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_10.mp3",
+      "transcript": "Rarr!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tinker_tink_anger_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_inthebag_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_inthebag_01.mp3",
+      "transcript": "My friends, this one is indubitably in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tinker_tink_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_01.mp3",
+      "transcript": "Absolutely!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_tinker_tink_move_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_02.mp3",
+      "transcript": "Positively!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_tinker_tink_move_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_03.mp3",
+      "transcript": "Very Well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tinker_tink_move_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_04.mp3",
+      "transcript": "Indeed!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_tinker_tink_move_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_05.mp3",
+      "transcript": "I should say so!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_tinker_tink_move_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_06.mp3",
+      "transcript": "Proceed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_tinker_tink_move_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_07.mp3",
+      "transcript": "I'm in complete agreement.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_tinker_tink_move_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_08.mp3",
+      "transcript": "My sentiments, exactly!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_tinker_tink_move_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_09.mp3",
+      "transcript": "No argument there!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_tinker_tink_move_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_10.mp3",
+      "transcript": "Then it's settled.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tinker_tink_move_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_11.mp3",
+      "transcript": "Tinkering about!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_tinker_tink_move_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_move_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_move_12.mp3",
+      "transcript": "Are you thinking what I'm thinking?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_tinker_tink_move_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_01.mp3",
+      "transcript": "If I must!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_tinker_tink_attack_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_02.mp3",
+      "transcript": "You leave me no choice!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_tinker_tink_attack_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_05.mp3",
+      "transcript": "Get away from the beam!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_tinker_tink_attack_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_06.mp3",
+      "transcript": "Oh… Dear!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_tinker_tink_attack_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_07.mp3",
+      "transcript": "Is this really necessary?!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_tinker_tink_attack_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_08.mp3",
+      "transcript": "Oh, this is perilous!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_tinker_tink_attack_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_09.mp3",
+      "transcript": "A great adventure!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_tinker_tink_attack_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_10.mp3",
+      "transcript": "Science! In Action!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_tinker_tink_attack_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_13.mp3",
+      "transcript": "Oh dear!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_tinker_tink_attack_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_14.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_14.mp3",
+      "transcript": "Oh dear.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_tinker_tink_attack_14.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_15.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_15.mp3",
+      "transcript": "Oh dear!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_tinker_tink_attack_15.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_cast_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_cast_01.mp3",
+      "transcript": "This ought to be interesting!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_tinker_tink_cast_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_cast_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_cast_02.mp3",
+      "transcript": "You leave me no choice!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tinker_tink_cast_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_cast_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_cast_03.mp3",
+      "transcript": "Oh look! A guinea pig.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_tinker_tink_cast_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_heatseekingmissile_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_heatseekingmissile_04.mp3",
+      "transcript": "I wonder what.. This does?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_tinker_tink_ability_heatseekingmissile_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_11.mp3",
+      "transcript": "Get away from the beam!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_tinker_tink_attack_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_laser_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_laser_01.mp3",
+      "transcript": "You can keep your magic, I have laser beams!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_tinker_tink_ability_laser_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_laser_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_laser_03.mp3",
+      "transcript": "Pew, pew, pew pew pew!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_tinker_tink_ability_laser_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_laser_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_laser_04.mp3",
+      "transcript": "Blinded you, with Science!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_tinker_tink_ability_laser_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_heatseekingmissile_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_heatseekingmissile_01.mp3",
+      "transcript": "Seek the heat!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_tinker_tink_ability_heatseekingmissile_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_heatseekingmissile_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_heatseekingmissile_02.mp3",
+      "transcript": "Incoming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_tinker_tink_ability_heatseekingmissile_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_heatseekingmissile_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_heatseekingmissile_03.mp3",
+      "transcript": "Heads up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_tinker_tink_ability_heatseekingmissile_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_heatseekingmissile_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_heatseekingmissile_05.mp3",
+      "transcript": "Ooh! They never miss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_tinker_tink_ability_heatseekingmissile_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_03.mp3",
+      "transcript": "March, March!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_tinker_tink_ability_marchofthemachines_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_04.mp3",
+      "transcript": "Go my little friends! Go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_tinker_tink_ability_marchofthemachines_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_05.mp3",
+      "transcript": "Look at them go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_tinker_tink_ability_marchofthemachines_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_07.mp3",
+      "transcript": "Ha ha, ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_tinker_tink_ability_marchofthemachines_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_08.mp3",
+      "transcript": "Aha… ah ha ha ha ha ha.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_tinker_tink_ability_marchofthemachines_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_09.mp3",
+      "transcript": "March, March! March! March!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_tinker_tink_ability_marchofthemachines_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_10.mp3",
+      "transcript": "March! March! March!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_tinker_tink_ability_marchofthemachines_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_11.mp3",
+      "transcript": "They'll tear you apart!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_tinker_tink_ability_marchofthemachines_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_01.mp3",
+      "transcript": "Ree-arming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_tinker_tink_ability_rearm_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_02.mp3",
+      "transcript": "I can't wait!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_tinker_tink_ability_rearm_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_04.mp3",
+      "transcript": "Now, this goes here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_tinker_tink_ability_rearm_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_05.mp3",
+      "transcript": "Where did that come from?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_tinker_tink_ability_rearm_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_06.mp3",
+      "transcript": "Oh dear!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_tinker_tink_ability_rearm_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_07.mp3",
+      "transcript": "What was this for again?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_tinker_tink_ability_rearm_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_08.mp3",
+      "transcript": "That shouldn't be there.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_tinker_tink_ability_rearm_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_09.mp3",
+      "transcript": "The massless field flux should self-limit.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_tinker_tink_ability_rearm_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_10.mp3",
+      "transcript": "I've clamped the manifold parameters to… CY base and LG orbifold… Hilbert inclusive.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_tinker_tink_ability_rearm_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_11.mp3",
+      "transcript": "Initializing in… 3..2..1!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tinker_tink_ability_rearm_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_01.mp3",
+      "transcript": "Energized!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_tinker_tink_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_02.mp3",
+      "transcript": "Enhance!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tinker_tink_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_03.mp3",
+      "transcript": "I built it myself!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_tinker_tink_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_04.mp3",
+      "transcript": "Hazard suits me! He he he",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_tinker_tink_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_05.mp3",
+      "transcript": "My experiment was an unqualified success!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_tinker_tink_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_06.mp3",
+      "transcript": "Well isn't that something!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_tinker_tink_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_07.mp3",
+      "transcript": "Stupendous!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_tinker_tink_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_08.mp3",
+      "transcript": "Consider my curiosity, piqued!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_tinker_tink_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_09.mp3",
+      "transcript": "I've discovered some new materials!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_tinker_tink_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_10.mp3",
+      "transcript": "That's odd.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_tinker_tink_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_11.mp3",
+      "transcript": "Fascinating!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_tinker_tink_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_12.mp3",
+      "transcript": "A ha, ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_tinker_tink_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_levelup_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_levelup_13.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_tinker_tink_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_first_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_first_03.mp3",
+      "transcript": "I'd love to get this under a microscope!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_tinker_tink_first_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_attack_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_attack_12.mp3",
+      "transcript": "Oh… Dear!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_tinker_tink_attack_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_02.mp3",
+      "transcript": "And they said I was crazy!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_tinker_tink_ability_marchofthemachines_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_rearm_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_rearm_03.mp3",
+      "transcript": "Excellent!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tinker_tink_ability_rearm_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_01.mp3",
+      "transcript": "Now that's just shoddy construction.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_tinker_tink_kill_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_02.mp3",
+      "transcript": "You just proved my theory.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_tinker_tink_kill_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_03.mp3",
+      "transcript": "That was genius!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_tinker_tink_kill_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_04.mp3",
+      "transcript": "Science, and you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_tinker_tink_kill_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_05.mp3",
+      "transcript": "Victory is 10% inspiration, 90% decapitation!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tinker_tink_kill_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_06.mp3",
+      "transcript": "In every meeting of minds, there must be a loser.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_tinker_tink_kill_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_07.mp3",
+      "transcript": "Now that's bleeding edge technology!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_tinker_tink_kill_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_08.mp3",
+      "transcript": "I'm building a future without you in it!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_tinker_tink_kill_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_09.mp3",
+      "transcript": "I really should patent that effect.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_tinker_tink_kill_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_10.mp3",
+      "transcript": "Contraptionated!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_tinker_tink_kill_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_11.mp3",
+      "transcript": "Next time, try a crowbar!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_tinker_tink_kill_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_12.mp3",
+      "transcript": "Ahh… you've been wounded.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_tinker_tink_kill_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_13.mp3",
+      "transcript": "I hope it's clear which of us, has the degree!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_tinker_tink_kill_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_14.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_14.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_tinker_tink_kill_14.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_15.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_15.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tinker_tink_kill_15.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_kill_16.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_kill_16.mp3",
+      "transcript": "ahem, uh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tinker_tink_kill_16.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_01.mp3",
+      "transcript": "E ha e ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tinker_tink_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_02.mp3",
+      "transcript": "Aha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_tinker_tink_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_03.mp3",
+      "transcript": "U ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tinker_tink_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_04.mp3",
+      "transcript": "U ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_tinker_tink_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_05.mp3",
+      "transcript": "U ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_tinker_tink_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_06.mp3",
+      "transcript": "Ahaha haha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_tinker_tink_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tinker_tink_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_08.mp3",
+      "transcript": "U hck.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_tinker_tink_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_09.mp3",
+      "transcript": "Oho Oha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_tinker_tink_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_10.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_tinker_tink_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_11.mp3",
+      "transcript": "He heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tinker_tink_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_12.mp3",
+      "transcript": "Aha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_tinker_tink_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_13.mp3",
+      "transcript": "Ah ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_tinker_tink_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_laugh_14.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_laugh_14.mp3",
+      "transcript": "Aha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tinker_tink_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_01.mp3",
+      "transcript": "Rattletrap, all your parts are out of stock!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_tinker_tink_rival_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_02.mp3",
+      "transcript": "Letting me out of your sight was your first mistake, Sniper!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_tinker_tink_rival_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_03.mp3",
+      "transcript": "Gyro, that craft of yours has made you dizzy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_tinker_tink_rival_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_04.mp3",
+      "transcript": "What sort of loon believes in Alchemy?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tinker_tink_rival_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_05.mp3",
+      "transcript": "Science: One. Nature's Prophet: Nothing!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_tinker_tink_rival_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_06.mp3",
+      "transcript": "Nature's profit, your loss!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_tinker_tink_rival_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_07.mp3",
+      "transcript": "Anti-Mage, your efforts against magic do not go unappreciated, I assure you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_tinker_tink_rival_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_08.mp3",
+      "transcript": "What you see before you, Chen, is truly intelligent design!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_tinker_tink_rival_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_09.mp3",
+      "transcript": "Warlock, you should put down your spell book and pick up a textbook!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_tinker_tink_rival_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_10.mp3",
+      "transcript": "Well, Lina, fire vs. laser beams, it's a timeless struggle.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_tinker_tink_rival_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_11.mp3",
+      "transcript": "We have established the melting point of Crystal Maiden!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_tinker_tink_rival_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rival_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rival_12.mp3",
+      "transcript": "Should have taken up science, Invoker, magic's long term prospects are dim!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_tinker_tink_rival_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_first_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_first_01.mp3",
+      "transcript": "First blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_tinker_tink_first_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_first_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_first_02.mp3",
+      "transcript": "First blood! He he ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_tinker_tink_first_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_01.mp3",
+      "transcript": "Money for parts!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_tinker_tink_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_02.mp3",
+      "transcript": "R and D.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_tinker_tink_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_03.mp3",
+      "transcript": "I'll build a new lab with this!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_tinker_tink_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_04.mp3",
+      "transcript": "Don't mind if I do!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_tinker_tink_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_05.mp3",
+      "transcript": "This will come in handy!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_tinker_tink_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_06.mp3",
+      "transcript": "I'll take that!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_tinker_tink_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_07.mp3",
+      "transcript": "Smart money!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_tinker_tink_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_08.mp3",
+      "transcript": "A research grant!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_tinker_tink_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lasthit_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lasthit_09.mp3",
+      "transcript": "A fellow scientist!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_tinker_tink_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_07.mp3",
+      "transcript": "Lamarr, is that you?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_tinker_tink_rare_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_08.mp3",
+      "transcript": "Lamarr?!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tinker_tink_rare_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_09.mp3",
+      "transcript": "They're debeaked and completely harmless!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tinker_tink_rare_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_10.mp3",
+      "transcript": "I've seen these things somewhere before.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_tinker_tink_rare_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_01.mp3",
+      "transcript": "I… Think not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tinker_tink_deny_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_02.mp3",
+      "transcript": "Oh no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_tinker_tink_deny_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_03.mp3",
+      "transcript": "Certainly not!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_tinker_tink_deny_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_04.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tinker_tink_deny_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_05.mp3",
+      "transcript": "Fixored!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_tinker_tink_deny_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_06.mp3",
+      "transcript": "Not while I'm around!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_tinker_tink_deny_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_07.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_tinker_tink_deny_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_08.mp3",
+      "transcript": "Not for you!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_tinker_tink_deny_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_09.mp3",
+      "transcript": "Ah ha ha ha he he he",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_tinker_tink_deny_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_10.mp3",
+      "transcript": "He he he he",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_tinker_tink_deny_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_11.mp3",
+      "transcript": "U huh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tinker_tink_deny_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_12.mp3",
+      "transcript": "Ha ha ha ha ha",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_tinker_tink_deny_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_13.mp3",
+      "transcript": "Uhuh uhuh…",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tinker_tink_deny_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_14.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_14.mp3",
+      "transcript": "Not for the likes of you!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_tinker_tink_deny_14.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_15.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_15.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_tinker_tink_deny_15.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_deny_16.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_deny_16.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_tinker_tink_deny_16.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_purch_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_purch_01.mp3",
+      "transcript": "There goes my grant money!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_tinker_tink_purch_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_purch_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_purch_02.mp3",
+      "transcript": "Time to restock the lab!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tinker_tink_purch_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_purch_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_purch_03.mp3",
+      "transcript": "More parts to play with!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tinker_tink_purch_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_blink_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_tinker_tink_blink_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_scepter_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_tinker_tink_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_scepter_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_scepter_02.mp3",
+      "transcript": "Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_tinker_tink_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_01.mp3",
+      "transcript": "Boots of Travel!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tinker_tink_travel_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_02.mp3",
+      "transcript": "Let's see if I can't make a real nuisance of myself!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tinker_tink_travel_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_03.mp3",
+      "transcript": "By my bootstraps, here's where I earn my keep!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_tinker_tink_travel_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_04.mp3",
+      "transcript": "I intend to be a travelling pain!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_tinker_tink_travel_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_05.mp3",
+      "transcript": "I predict these boots will leave a mark on the enemy's backside!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_tinker_tink_travel_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_travel_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_travel_06.mp3",
+      "transcript": "Time to reboot and kick butt!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_tinker_tink_travel_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_relic_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_relic_01.mp3",
+      "transcript": "Oh, Sheepstick!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_tinker_tink_relic_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_relic_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_relic_02.mp3",
+      "transcript": "Shiva? Indeed!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tinker_tink_relic_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_relic_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_relic_03.mp3",
+      "transcript": "My very own soulring!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_tinker_tink_relic_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_immort_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_tinker_tink_immort_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_immort_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_immort_02.mp3",
+      "transcript": "A well-oiled machine ought to run forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_tinker_tink_immort_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_bottle_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_bottle_02.mp3",
+      "transcript": "I wish this was a Kleiner bottle!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_tinker_tink_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_relic_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_relic_04.mp3",
+      "transcript": "Why, it's a magic beaker!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_tinker_tink_relic_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_01.mp3",
+      "transcript": "Oh fie!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_tinker_tink_death_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_02.mp3",
+      "transcript": "Oh dear!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_tinker_tink_death_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_03.mp3",
+      "transcript": "Oh, fiddlesticks, what now?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_tinker_tink_death_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_04.mp3",
+      "transcript": "It's probably not a problem, probably.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_tinker_tink_death_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_05.mp3",
+      "transcript": "Beyond repair.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_tinker_tink_death_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_06.mp3",
+      "transcript": "A malfunction.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_tinker_tink_death_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_07.mp3",
+      "transcript": "So this is wits, end.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_tinker_tink_death_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_08.mp3",
+      "transcript": "The machine, stops.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_tinker_tink_death_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_09.mp3",
+      "transcript": "Patent pending.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tinker_tink_death_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_10.mp3",
+      "transcript": "Tinker, failure…Soldier…Fie…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_tinker_tink_death_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_11.mp3",
+      "transcript": "I can't take much more of this.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_tinker_tink_death_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_12.mp3",
+      "transcript": "That was an unqualified, failure.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_tinker_tink_death_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_death_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_death_13.mp3",
+      "transcript": "OH! Dear…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tinker_tink_death_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_01.mp3",
+      "transcript": "I predicted all of this you know, all of it!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_tinker_tink_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_02.mp3",
+      "transcript": "Thank goodness. My relief is almost palpable.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_tinker_tink_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_03.mp3",
+      "transcript": "I'm going to call that experiment, a failure.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_tinker_tink_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_04.mp3",
+      "transcript": "I'm in good repair.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_tinker_tink_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_05.mp3",
+      "transcript": "The fix is in!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_tinker_tink_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_06.mp3",
+      "transcript": "Completely refurbished!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_tinker_tink_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_07.mp3",
+      "transcript": "Good thing I bought that extended warranty!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tinker_tink_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_08.mp3",
+      "transcript": "I Tink! Therefore I am!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_tinker_tink_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_09.mp3",
+      "transcript": "Hmm… Something else that needs tinkering with.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_tinker_tink_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_10.mp3",
+      "transcript": "Got anything needs fixin?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_tinker_tink_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_11.mp3",
+      "transcript": "Must have put that last plan together out of spare parts!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tinker_tink_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_12.mp3",
+      "transcript": "This is starting to remind me of the Seven Minute War!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_tinker_tink_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_respawn_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_respawn_13.mp3",
+      "transcript": "I encountered unexpected interference.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tinker_tink_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_fastres_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_fastres_01.mp3",
+      "transcript": "I've got a lifetime warranty!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tinker_tink_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_bottle_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_bottle_01.mp3",
+      "transcript": "I'll prudently put this aside.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_tinker_tink_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_01.mp3",
+      "transcript": "Ha ha ha, it's working!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_tinker_tink_ability_marchofthemachines_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_doubdam_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_tinker_tink_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_doubdam_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_doubdam_02.mp3",
+      "transcript": "Can one ever do too much damage?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_tinker_tink_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_haste_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_tinker_tink_haste_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_haste_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_haste_02.mp3",
+      "transcript": "Perpetual motion.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_tinker_tink_haste_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_illus_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_tinker_tink_illus_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_illus_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_illus_02.mp3",
+      "transcript": "I'm of three minds on the subject.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tinker_tink_illus_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_invis_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tinker_tink_invis_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_invis_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_invis_02.mp3",
+      "transcript": "It's the unseen mysteries that hold my gaze.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_tinker_tink_invis_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_regen_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_tinker_tink_regen_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_regen_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_regen_02.mp3",
+      "transcript": "This will fix me right up!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_tinker_tink_regen_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tinker_tink_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_tinker_tink_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_tinker_tink_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_02.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_tinker_tink_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_05.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tinker_tink_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_08.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_tinker_tink_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_tinker_tink_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tinker_tink_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_notyet_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_tinker_tink_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_tinker_tink_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_tinker_tink_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_03.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_tinker_tink_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tinker_tink_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_tinker_tink_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_06.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_tinker_tink_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_tinker_tink_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_tinker_tink_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_nomana_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_tinker_tink_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_01.mp3",
+      "transcript": "uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_tinker_tink_pain_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_02.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_tinker_tink_pain_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_tinker_tink_pain_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_04.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_tinker_tink_pain_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_tinker_tink_pain_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_tinker_tink_pain_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_07.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_tinker_tink_pain_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_08.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_tinker_tink_pain_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_09.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_tinker_tink_pain_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_10.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_tinker_tink_pain_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_11.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_tinker_tink_pain_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_12.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_tinker_tink_pain_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_pain_13.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_pain_13.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_tinker_tink_pain_13.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_underattack_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_underattack_01.mp3",
+      "transcript": "I'm under attack over here!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_tinker_tink_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_underattack_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_underattack_02.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_tinker_tink_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_01.mp3",
+      "transcript": "My suit should keep me comfortable through all of this.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_tinker_tink_rare_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_02.mp3",
+      "transcript": "With my brains and your brawn, we'll make an excellent team!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_tinker_tink_rare_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_03.mp3",
+      "transcript": "Someone has hidden my glasses again!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_tinker_tink_rare_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_04.mp3",
+      "transcript": "Well. I think it's rather stimulating, don't you?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_tinker_tink_rare_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_05.mp3",
+      "transcript": "I'm the one man who knows everything!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_tinker_tink_rare_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_rare_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_rare_06.mp3",
+      "transcript": "I hope someday I'll run into another survivor of the Violet Plateau Incident, but it's not looking promising.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_tinker_tink_rare_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_thanks_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tinker_tink_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_thanks_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_thanks_02.mp3",
+      "transcript": "Why, thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tinker_tink_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_thanks_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_thanks_03.mp3",
+      "transcript": "Your talents surpass your loveliness.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_tinker_tink_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_win_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_tinker_tink_win_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_win_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_tinker_tink_win_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_win_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_win_03.mp3",
+      "transcript": "The brains behind the victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tinker_tink_win_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_win_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_win_04.mp3",
+      "transcript": "This is a red-letter day!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_tinker_tink_win_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lose_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_tinker_tink_lose_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lose_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_tinker_tink_lose_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lose_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lose_03.mp3",
+      "transcript": "I lay down my tools forever!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_tinker_tink_lose_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_lose_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_lose_04.mp3",
+      "transcript": "Oh my gods, we're doomed!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_tinker_tink_lose_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_08.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tinker_tink_happy_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_10.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_10.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_tinker_tink_happy_10.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_laser_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_laser_02.mp3",
+      "transcript": "Highly stimulating!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_tinker_tink_ability_laser_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_ability_marchofthemachines_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_ability_marchofthemachines_06.mp3",
+      "transcript": "Ha, ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_tinker_tink_ability_marchofthemachines_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_shiwiz_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tinker_tink_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_crumwiz_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tinker_tink_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_01.mp3",
+      "transcript": "meh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_tinker_tink_anger_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_02.mp3",
+      "transcript": "ruhuh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tinker_tink_anger_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_03.mp3",
+      "transcript": "Wah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_tinker_tink_anger_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_04.mp3",
+      "transcript": "Rarr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_tinker_tink_anger_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_05.mp3",
+      "transcript": "Ree!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_tinker_tink_anger_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_06.mp3",
+      "transcript": "Rarr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_tinker_tink_anger_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_07.mp3",
+      "transcript": "Rarr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_tinker_tink_anger_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_08.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_08.mp3",
+      "transcript": "Rowrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_tinker_tink_anger_08.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_09.mp3",
+      "transcript": "Reh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_tinker_tink_anger_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_11.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_11.mp3",
+      "transcript": "Rar.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_tinker_tink_anger_11.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_anger_12.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_anger_12.mp3",
+      "transcript": "Blar!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_tinker_tink_anger_12.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_01.mp3",
+      "transcript": "Nah",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_tinker_tink_happy_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_02.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_tinker_tink_happy_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_03.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_tinker_tink_happy_03.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_04.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_04.mp3",
+      "transcript": "Haa.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_tinker_tink_happy_04.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_05.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_05.mp3",
+      "transcript": "Ohh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tinker_tink_happy_05.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_06.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_06.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_tinker_tink_happy_06.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_07.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_07.mp3",
+      "transcript": "Ehh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_tinker_tink_happy_07.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_happy_09.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_happy_09.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_tinker_tink_happy_09.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_taunt_01.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_taunt_01.mp3",
+      "transcript": "If you were a genius like me, you'd be running for cover right now!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_tinker_tink_taunt_01.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_taunt_02.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_taunt_02.mp3",
+      "transcript": "I've got a theory I'd like to test out, on your skull!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_tinker_tink_taunt_02.mp3"
+    },
+    {
+      "file": "Vo_tinker_tink_taunt_03.mp3",
+      "key": "dota2/tinker/Vo_tinker_tink_taunt_03.mp3",
+      "transcript": "Try to outsmart me, and you'll just end up, smarting.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_tinker_tink_taunt_03.mp3"
+    }
+  ]
+}

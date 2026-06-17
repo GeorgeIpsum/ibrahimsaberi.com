@@ -1,0 +1,2385 @@
+{
+  "hero": "Puck",
+  "slug": "puck",
+  "source": "https://liquipedia.net/dota2/Puck/Responses",
+  "scrapedAt": "2026-06-17T14:35:23.282Z",
+  "count": 236,
+  "voicelines": [
+    {
+      "file": "Vo_puck_puck_spawn_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_01.mp3",
+      "transcript": "Puck!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_puck_puck_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_02.mp3",
+      "transcript": "In your tongue, I am known as Puck.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_puck_puck_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_03.mp3",
+      "transcript": "This might prove a sport of some interest.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_puck_puck_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_04.mp3",
+      "transcript": "Interesting.",
+      "categories": [
+        "Loadout",
+        "Entering battle",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_puck_puck_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_05.mp3",
+      "transcript": "What is this, a game of some sort?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_puck_puck_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_06.mp3",
+      "transcript": "A likely way to pass a fraction of an eon.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_puck_puck_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_07.mp3",
+      "transcript": "Ah, gambits and exploits await.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_puck_puck_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_spawn_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_spawn_08.mp3",
+      "transcript": "This should be less tiresome than another age in chrysalis.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_puck_puck_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_08.mp3",
+      "transcript": "With alacrity.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_puck_puck_move_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_11.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_11.mp3",
+      "transcript": "Stay and amuse me!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_puck_puck_attack_11.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_01.mp3",
+      "transcript": "Here I am!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_puck_puck_ability_orb_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_01.mp3",
+      "transcript": "A metamorphosis!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_puck_puck_level_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_anger_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_anger_02.mp3",
+      "transcript": "Huff!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_puck_puck_anger_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_inthebag_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_puck_puck_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_battlebegins_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_battlebegins_01.mp3",
+      "transcript": "I find myself strangely drawn to this odd configuration of activity.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_puck_puck_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_01.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_puck_puck_move_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_02.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_puck_puck_move_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_03.mp3",
+      "transcript": "My move.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_puck_puck_move_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_04.mp3",
+      "transcript": "Commendable notion.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_puck_puck_move_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_05.mp3",
+      "transcript": "Just so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_puck_puck_move_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_06.mp3",
+      "transcript": "Exactly so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_puck_puck_move_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_07.mp3",
+      "transcript": "I venture forth.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_puck_puck_move_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_09.mp3",
+      "transcript": "I go at will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_puck_puck_move_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_10.mp3",
+      "transcript": "We are in accord.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_puck_puck_move_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_11.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_11.mp3",
+      "transcript": "I proceed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_puck_puck_move_11.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_move_12.mp3",
+      "key": "dota2/puck/Vo_puck_puck_move_12.mp3",
+      "transcript": "Absolutely.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_puck_puck_move_12.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_01.mp3",
+      "transcript": "Fair game.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_puck_puck_attack_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_02.mp3",
+      "transcript": "After them!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_puck_puck_attack_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_03.mp3",
+      "transcript": "In pursuit!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_puck_puck_attack_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_05.mp3",
+      "transcript": "They deserve no less.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_puck_puck_attack_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_06.mp3",
+      "transcript": "Destroy!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_puck_puck_attack_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_07.mp3",
+      "transcript": "They shall regret this!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_puck_puck_attack_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_08.mp3",
+      "transcript": "My turn!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_puck_puck_attack_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_09.mp3",
+      "transcript": "I have much to impart!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_puck_puck_attack_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_10.mp3",
+      "transcript": "Don't run!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_puck_puck_attack_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_12.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_12.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_puck_puck_attack_12.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_cast_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_cast_01.mp3",
+      "transcript": "I have time in abundance.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_puck_puck_cast_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_cast_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_cast_02.mp3",
+      "transcript": "Ahead of the game.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_puck_puck_cast_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_cast_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_cast_03.mp3",
+      "transcript": "Tarry no longer.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_puck_puck_cast_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_02.mp3",
+      "transcript": "Behold!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_puck_puck_ability_orb_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_03.mp3",
+      "transcript": "Greetings!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_puck_puck_ability_orb_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_04.mp3",
+      "transcript": "Look around you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_puck_puck_ability_orb_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_06.mp3",
+      "transcript": "Tag!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_puck_puck_ability_orb_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_08.mp3",
+      "transcript": "You're it!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_puck_puck_ability_orb_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_rift_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_rift_01.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_puck_puck_ability_rift_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_rift_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_rift_02.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_puck_puck_ability_rift_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_rift_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_rift_03.mp3",
+      "transcript": "Silence!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_puck_puck_ability_rift_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_01.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_puck_puck_ability_phase_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_02.mp3",
+      "transcript": "Dooo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_puck_puck_ability_phase_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_03.mp3",
+      "transcript": "Bye-bye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_puck_puck_ability_phase_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_04.mp3",
+      "transcript": "I'm out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_puck_puck_ability_phase_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_05.mp3",
+      "transcript": "Boop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_puck_puck_ability_phase_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_06.mp3",
+      "transcript": "See ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_puck_puck_ability_phase_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_phase_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_phase_07.mp3",
+      "transcript": "Puck out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_puck_puck_ability_phase_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_dreamcoil_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_dreamcoil_01.mp3",
+      "transcript": "Stay near!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_puck_puck_ability_dreamcoil_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_dreamcoil_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_dreamcoil_02.mp3",
+      "transcript": "Gather round!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_puck_puck_ability_dreamcoil_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_dreamcoil_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_dreamcoil_03.mp3",
+      "transcript": "Well stung!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_puck_puck_ability_dreamcoil_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_dreamcoil_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_dreamcoil_04.mp3",
+      "transcript": "Stings, yes?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_puck_puck_ability_dreamcoil_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_dreamcoil_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_dreamcoil_05.mp3",
+      "transcript": "Was that smart?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_puck_puck_ability_dreamcoil_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_02.mp3",
+      "transcript": "A welcome transformation.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_puck_puck_level_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_03.mp3",
+      "transcript": "Less larva, more nymph!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_puck_puck_level_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_04.mp3",
+      "transcript": "Strength out of season!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_puck_puck_level_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_05.mp3",
+      "transcript": "Elevation!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_puck_puck_level_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_06.mp3",
+      "transcript": "I raise my game!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_puck_puck_level_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_07.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_puck_puck_level_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_attack_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_attack_04.mp3",
+      "transcript": "Short-lived creatures.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_puck_puck_attack_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_07.mp3",
+      "transcript": "Did you mean to elude me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_puck_puck_ability_orb_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_01.mp3",
+      "transcript": "Get up if you can.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_puck_puck_kill_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_02.mp3",
+      "transcript": "What ingratitude!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_puck_puck_kill_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_03.mp3",
+      "transcript": "Will you not rise in my presence?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_puck_puck_kill_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_04.mp3",
+      "transcript": "Presumably a pity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_puck_puck_kill_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_05.mp3",
+      "transcript": "See you in the Spring!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_puck_puck_kill_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_06.mp3",
+      "transcript": "A strange time to hibernate.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_puck_puck_kill_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_07.mp3",
+      "transcript": "That's for your impertinence.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_puck_puck_kill_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_08.mp3",
+      "transcript": "You took that jape too far.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_puck_puck_kill_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_09.mp3",
+      "transcript": "You might wish to retract your last move.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_puck_puck_kill_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_kill_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_kill_10.mp3",
+      "transcript": "May you ride on nether zephyrs!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_puck_puck_kill_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_laugh_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_laugh_01.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_puck_puck_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_01.mp3",
+      "transcript": "Green you may be, but I find you tiresome.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_puck_puck_rival_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_02.mp3",
+      "transcript": "You are a sluggish creature, Slardar.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_puck_puck_rival_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_03.mp3",
+      "transcript": "We two did sport, but in the end she tired.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_puck_puck_rival_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_04.mp3",
+      "transcript": "What is this nature you speak of?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_puck_puck_rival_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_05.mp3",
+      "transcript": "Wisp, you are like a thought I once had but dismissed out of hand.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_puck_puck_rival_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_17.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_17.mp3",
+      "transcript": "Wisp, I think you are too bold.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_puck_puck_rival_17.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_18.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_18.mp3",
+      "transcript": "Wisp, I disagree with your alliance, yet you do make a compelling argument.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_puck_puck_rival_18.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_06.mp3",
+      "transcript": "I remember that one from some time long past.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_puck_puck_rival_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_07.mp3",
+      "transcript": "That one admired my wings but could not be trusted to care for her own.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_puck_puck_rival_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_08.mp3",
+      "transcript": "It would seem that almost anything can call itself a dragon in this age.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_puck_puck_rival_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_09.mp3",
+      "transcript": "If you are truly some sort of dragon, you must be a juvenile form.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_puck_puck_rival_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_10.mp3",
+      "transcript": "I sense this book of yours may be full of erroneous information.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_puck_puck_rival_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_11.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_11.mp3",
+      "transcript": "A poor specimen, not worthy of being mounted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_puck_puck_rival_11.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_12.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_12.mp3",
+      "transcript": "I learned nothing from close observation of Tinker's demise.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_puck_puck_rival_12.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_13.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_13.mp3",
+      "transcript": "Again, Tinker's death yields no interesting conclusions.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_puck_puck_rival_13.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_14.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_14.mp3",
+      "transcript": "Unnerving. I understood every word.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_puck_puck_rival_14.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_15.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_15.mp3",
+      "transcript": "Your comments cut me to the quick.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_puck_puck_rival_15.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rival_16.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rival_16.mp3",
+      "transcript": "I have been to Claszureme. They still speak of their relief at being rid of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_puck_puck_rival_16.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_firstblood_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_firstblood_01.mp3",
+      "transcript": "What's this? A fascinating substance.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_puck_puck_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_firstblood_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_firstblood_02.mp3",
+      "transcript": "First Blood! It shall be duly noted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_puck_puck_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_01.mp3",
+      "transcript": "Ah, Wisp, your mordant wit is wasted on these gross beings.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_puck_puck_ally_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_02.mp3",
+      "transcript": "Excellent, an apparition of exceptional age. What I wonder can it teach me.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_puck_puck_ally_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_03.mp3",
+      "transcript": "Rumor speaks of the Lone Druid as an ancient one, yet here I see barely a sprat.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_puck_puck_ally_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_04.mp3",
+      "transcript": "What the Outworld represents, and why one would destroy it, is now a quandary that intrigues me.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_puck_puck_ally_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_05.mp3",
+      "transcript": "To be a true enigma, it would be best to style oneself on something less studied than gravity.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_puck_puck_ally_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_06.mp3",
+      "transcript": "From what primordial eon does the rock of Tiny hail?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_puck_puck_ally_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ally_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ally_07.mp3",
+      "transcript": "Were you a bud of the Undertree? We could be no better companions.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_puck_puck_ally_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_01.mp3",
+      "transcript": "For me?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_puck_puck_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_02.mp3",
+      "transcript": "Mine, yes?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_puck_puck_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_03.mp3",
+      "transcript": "A prize.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_puck_puck_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_04.mp3",
+      "transcript": "What's this?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_puck_puck_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_05.mp3",
+      "transcript": "Very nice.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_puck_puck_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_06.mp3",
+      "transcript": "How fitting.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_puck_puck_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_07.mp3",
+      "transcript": "I accept.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_puck_puck_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lasthit_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lasthit_08.mp3",
+      "transcript": "For me!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_puck_puck_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_puck_puck_deny_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_puck_puck_deny_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_03.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_puck_puck_deny_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_04.mp3",
+      "transcript": "No no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_puck_puck_deny_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_05.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_puck_puck_deny_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_06.mp3",
+      "transcript": "I think not!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_puck_puck_deny_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_07.mp3",
+      "transcript": "You shall not!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_puck_puck_deny_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_08.mp3",
+      "transcript": "Don't mind me!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_puck_puck_deny_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_09.mp3",
+      "transcript": "Not yours!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_puck_puck_deny_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_deny_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_deny_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_puck_puck_deny_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_purch_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_purch_01.mp3",
+      "transcript": "An item to be prized!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_puck_puck_purch_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_purch_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_purch_02.mp3",
+      "transcript": "I measure the cost in lives.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_puck_puck_purch_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_purch_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_purch_03.mp3",
+      "transcript": "So this is gold's purpose.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_puck_puck_purch_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_scepter_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_scepter_01.mp3",
+      "transcript": "Ah, Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_puck_puck_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_scepter_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_scepter_02.mp3",
+      "transcript": "Ah, Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_puck_puck_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_scepter_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_scepter_03.mp3",
+      "transcript": "I wield this scepter with authority.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_puck_puck_scepter_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_blink_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_blink_01.mp3",
+      "transcript": "Blink Dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_puck_puck_blink_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_blink_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_blink_02.mp3",
+      "transcript": "I do enjoy an occasional blink.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_puck_puck_blink_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_01.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_puck_puck_item_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_02.mp3",
+      "transcript": "Scythe of Vyse?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_puck_puck_item_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_03.mp3",
+      "transcript": "Eye of Skadi.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_puck_puck_item_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_04.mp3",
+      "transcript": "Necronomicon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_puck_puck_item_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_05.mp3",
+      "transcript": "Orchid Malevolence!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_puck_puck_item_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_06.mp3",
+      "transcript": "Dagon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_puck_puck_item_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_item_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_item_07.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_puck_puck_item_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_immort_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_puck_puck_immort_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_immort_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_immort_02.mp3",
+      "transcript": "Life can never be too long!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_puck_puck_immort_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_01.mp3",
+      "transcript": "Strange transformation…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_puck_puck_death_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_02.mp3",
+      "transcript": "Taken before my time.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_puck_puck_death_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_03.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_puck_puck_death_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_04.mp3",
+      "transcript": "Let the world end now, it matters not to me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_puck_puck_death_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_05.mp3",
+      "transcript": "Your actions are without merit.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_puck_puck_death_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_06.mp3",
+      "transcript": "I do not comprehend.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_puck_puck_death_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_07.mp3",
+      "transcript": "Grievous misunderstanding!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_puck_puck_death_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_08.mp3",
+      "transcript": "Why?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_puck_puck_death_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_09.mp3",
+      "transcript": "This changes nothing.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_puck_puck_death_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_10.mp3",
+      "transcript": "A midsummer nightmare.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_puck_puck_death_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_death_11.mp3",
+      "key": "dota2/puck/Vo_puck_puck_death_11.mp3",
+      "transcript": "It is no great matter.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_puck_puck_death_11.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_01.mp3",
+      "transcript": "Fresh from death's chrysalis!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_puck_puck_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_02.mp3",
+      "transcript": "That was an exceedingly odd metamorphosis.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_puck_puck_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_03.mp3",
+      "transcript": "I had not expected to be reborn for another million years.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_puck_puck_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_04.mp3",
+      "transcript": "Ah, nothing like the feel of a fresh molt.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_puck_puck_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_05.mp3",
+      "transcript": "Someone chose a poor time to put me out of commission.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_puck_puck_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_06.mp3",
+      "transcript": "I am done contemplating imponderables.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_puck_puck_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_07.mp3",
+      "transcript": "I return to the active world.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_puck_puck_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_08.mp3",
+      "transcript": "Another transformation.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_puck_puck_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_09.mp3",
+      "transcript": "I pupate anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_puck_puck_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_respawn_10.mp3",
+      "key": "dota2/puck/Vo_puck_puck_respawn_10.mp3",
+      "transcript": "Turnabout is fair play.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_puck_puck_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_level_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_level_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_puck_puck_level_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_fastres_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_fastres_01.mp3",
+      "transcript": "A dark interval, and now a bright one.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_puck_puck_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_bottle_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_bottle_01.mp3",
+      "transcript": "I may require this at some point.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_puck_puck_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_bottle_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_bottle_02.mp3",
+      "transcript": "Patience, my prize.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_puck_puck_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_bottle_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_bottle_03.mp3",
+      "transcript": "The vessel proves useful.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_puck_puck_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_doubdam_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_puck_puck_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_doubdam_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_doubdam_02.mp3",
+      "transcript": "Double harm shall I deal.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_puck_puck_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_haste_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_puck_puck_haste_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_haste_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_haste_02.mp3",
+      "transcript": "Quickly as I go.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_puck_puck_haste_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_illus_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_puck_puck_illus_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_illus_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_illus_02.mp3",
+      "transcript": "Three can play at this game.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_puck_puck_illus_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_illus_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_illus_03.mp3",
+      "transcript": "One Puck, two Puck, three Puck more!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_puck_puck_illus_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_illus_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_illus_04.mp3",
+      "transcript": "One and one and one is three!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_puck_puck_illus_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_invis_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_puck_puck_invis_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_invis_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_invis_02.mp3",
+      "transcript": "Regrettably, I remove myself from sight.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_puck_puck_invis_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_regen_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_puck_puck_regen_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_regen_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_regen_02.mp3",
+      "transcript": "Why, this is as good as a continual molt!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_puck_puck_regen_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_puck_puck_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_02.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_puck_puck_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_puck_puck_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_puck_puck_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_05.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_puck_puck_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_puck_puck_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_puck_puck_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_08.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_puck_puck_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_notyet_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_puck_puck_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_puck_puck_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_puck_puck_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_puck_puck_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_puck_puck_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_puck_puck_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_06.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_puck_puck_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_07.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_puck_puck_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_08.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_puck_puck_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_nomana_09.mp3",
+      "key": "dota2/puck/Vo_puck_puck_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_puck_puck_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_pain_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_pain_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_puck_puck_pain_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_pain_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_pain_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_puck_puck_pain_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_pain_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_pain_03.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_puck_puck_pain_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_pain_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_pain_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_puck_puck_pain_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_pain_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_puck_puck_pain_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_underattack_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_underattack_01.mp3",
+      "transcript": "I am under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_puck_puck_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_underattack_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_underattack_02.mp3",
+      "transcript": "I am under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_puck_puck_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rare_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rare_01.mp3",
+      "transcript": "The Scrolls of Haize are concise on this matter: with youth comes grave responsibility. A thousand years of youth have fallen behind, and still I fill the time with games.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_puck_puck_rare_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_rare_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_rare_02.mp3",
+      "transcript": "Hatched on a frond of the Undertree, I devoured leaf, stalk, root and all of my sibs. Yet, only halfway through this Eon, I already hunger for more!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_puck_puck_rare_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_missing_lane_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_missing_lane_01.mp3",
+      "transcript": "Top is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_puck_puck_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_missing_lane_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_missing_lane_02.mp3",
+      "transcript": "Middle is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_puck_puck_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_missing_lane_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_missing_lane_03.mp3",
+      "transcript": "Bottom is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_puck_puck_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_thanks_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_thanks_01.mp3",
+      "transcript": "That was most welcome.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_puck_puck_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_thanks_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_thanks_02.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_puck_puck_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_thanks_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_thanks_03.mp3",
+      "transcript": "And you are?",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_puck_puck_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_win_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_puck_puck_win_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_win_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_puck_puck_win_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_win_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_win_03.mp3",
+      "transcript": "Transformative victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_puck_puck_win_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_win_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_win_04.mp3",
+      "transcript": "I am unfamiliar with this feeling. Is it joy?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_puck_puck_win_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lose_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_puck_puck_lose_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lose_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_puck_puck_lose_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lose_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lose_03.mp3",
+      "transcript": "Inconceivable loss!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_puck_puck_lose_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_lose_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_lose_04.mp3",
+      "transcript": "The greatest tragedy of our eon.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_puck_puck_lose_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_happy_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_happy_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_puck_puck_happy_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_happy_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_puck_puck_happy_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_drop_common_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_drop_common_01.mp3",
+      "transcript": "An item of no small merit.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_puck_puck_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_happy_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_happy_03.mp3",
+      "transcript": "Hm!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_puck_puck_happy_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_happy_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_happy_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_puck_puck_happy_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_drop_medium_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_drop_medium_01.mp3",
+      "transcript": "The worth of this gift is mine to plumb.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_puck_puck_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_orb_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_orb_05.mp3",
+      "transcript": "What's this?",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_puck_puck_ability_orb_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_happy_05.mp3",
+      "key": "dota2/puck/Vo_puck_puck_happy_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_puck_puck_happy_05.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_drop_rare_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_drop_rare_01.mp3",
+      "transcript": "My pleasure at this finding fractures the lenses of the real.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_puck_puck_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_failure_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_failure_01.mp3",
+      "transcript": "Most distressing!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_puck_puck_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_failure_02.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_failure_02.mp3",
+      "transcript": "A disturbing lapse!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_puck_puck_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_failure_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_failure_03.mp3",
+      "transcript": "Aw!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_puck_puck_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_ability_failure_04.mp3",
+      "key": "dota2/puck/Vo_puck_puck_ability_failure_04.mp3",
+      "transcript": "Aw!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_puck_puck_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_shitwiz_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_puck_puck_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_crumwiz_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_puck_puck_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_anger_01.mp3",
+      "key": "dota2/puck/Vo_puck_puck_anger_01.mp3",
+      "transcript": "Mmmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_puck_puck_anger_01.mp3"
+    },
+    {
+      "file": "Vo_puck_puck_anger_03.mp3",
+      "key": "dota2/puck/Vo_puck_puck_anger_03.mp3",
+      "transcript": "Chhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_puck_puck_anger_03.mp3"
+    }
+  ]
+}

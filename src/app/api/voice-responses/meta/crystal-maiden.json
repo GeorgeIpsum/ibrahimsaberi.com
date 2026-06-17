@@ -1,0 +1,3593 @@
+{
+  "hero": "Crystal Maiden",
+  "slug": "crystal-maiden",
+  "source": "https://liquipedia.net/dota2/Crystal_Maiden/Responses",
+  "scrapedAt": "2026-06-17T14:12:22.286Z",
+  "count": 357,
+  "voicelines": [
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_01.mp3",
+      "transcript": "Crystal Maiden!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_crystalmaiden_cm_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_02.mp3",
+      "transcript": "Who calls the Crystal Maiden?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_crystalmaiden_cm_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_04.mp3",
+      "transcript": "Ice is nice!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_crystalmaiden_cm_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_05.mp3",
+      "transcript": "Feel the chill!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_crystalmaiden_cm_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_06.mp3",
+      "transcript": "Behold the scourge of Icewrack!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_crystalmaiden_cm_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_07.mp3",
+      "transcript": "Let it begin!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_crystalmaiden_cm_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_08.mp3",
+      "transcript": "The battle begins!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_crystalmaiden_cm_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_battlebegins_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_battlebegins_01.mp3",
+      "transcript": "It's all fun and games until someone's frozen solid.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_crystalmaiden_cm_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_03.mp3",
+      "transcript": "Is it cold in here or is it just me?",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_crystalmaiden_cm_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_crystalmaiden_cm_anger_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_inthebag_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_crystalmaiden_cm_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_01.mp3",
+      "transcript": "To battle!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_crystalmaiden_cm_move_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_02.mp3",
+      "transcript": "Swiftly!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_crystalmaiden_cm_move_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_03.mp3",
+      "transcript": "I move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_crystalmaiden_cm_move_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_04.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_crystalmaiden_cm_move_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_05.mp3",
+      "transcript": "Agreed!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_crystalmaiden_cm_move_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_06.mp3",
+      "transcript": "I thought as much!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_crystalmaiden_cm_move_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_07.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_crystalmaiden_cm_move_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_08.mp3",
+      "transcript": "On!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_crystalmaiden_cm_move_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_09.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_crystalmaiden_cm_move_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_10.mp3",
+      "transcript": "Faster!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_crystalmaiden_cm_move_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_12.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_crystalmaiden_cm_move_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_13.mp3",
+      "transcript": "Into the breach!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_crystalmaiden_cm_move_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_14.mp3",
+      "transcript": "I'll not argue.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_crystalmaiden_cm_move_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_15.mp3",
+      "transcript": "Indeed!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_crystalmaiden_cm_move_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_move_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_move_11.mp3",
+      "transcript": "Swift as the wolves of Icewrack...",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_crystalmaiden_cm_move_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_crystalmaiden_cm_attack_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_02.mp3",
+      "transcript": "Ice take you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_crystalmaiden_cm_attack_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_03.mp3",
+      "transcript": "My ice bites deep!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_crystalmaiden_cm_attack_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_04.mp3",
+      "transcript": "Here's ice in your eye!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_crystalmaiden_cm_attack_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_06.mp3",
+      "transcript": "The ice wolves bite!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_crystalmaiden_cm_attack_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_07.mp3",
+      "transcript": "Fangs of ice!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_crystalmaiden_cm_attack_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_05.mp3",
+      "transcript": "Die!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_crystalmaiden_cm_attack_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_08.mp3",
+      "transcript": "Down you go!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_crystalmaiden_cm_attack_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_attack_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_attack_09.mp3",
+      "transcript": "I'll freeze you fast!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_crystalmaiden_cm_attack_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_01.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_crystalmaiden_cm_lina_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_02.mp3",
+      "transcript": "You!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_crystalmaiden_cm_lina_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_03.mp3",
+      "transcript": "You again!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_crystalmaiden_cm_lina_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_13.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_crystalmaiden_cm_lina_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_14.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_crystalmaiden_cm_lina_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_15.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_crystalmaiden_cm_lina_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_cast_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_cast_02.mp3",
+      "transcript": "I've been waiting for this...",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_crystalmaiden_cm_cast_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_cast_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_cast_03.mp3",
+      "transcript": "I'm ready!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_crystalmaiden_cm_cast_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_cast_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_cast_04.mp3",
+      "transcript": "This is my chance.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_crystalmaiden_cm_cast_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_cast_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_cast_05.mp3",
+      "transcript": "Thought you'd never ask...",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_crystalmaiden_cm_cast_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_01.mp3",
+      "transcript": "My temperature's dropping.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_crystalmaiden_cm_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_02.mp3",
+      "transcript": "I feel colder already!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_crystalmaiden_cm_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_04.mp3",
+      "transcript": "I've got goosebumps!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_crystalmaiden_cm_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_05.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_crystalmaiden_cm_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_06.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_crystalmaiden_cm_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_levelup_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_levelup_07.mp3",
+      "transcript": "Brrr, that's nice.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_crystalmaiden_cm_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_crystalmaiden_cm_happy_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_03.mp3",
+      "transcript": "Ah ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_crystalmaiden_cm_happy_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_crystalmaiden_cm_happy_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_crystalmaiden_cm_happy_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_06.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_crystalmaiden_cm_happy_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_02.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_crystalmaiden_cm_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_03.mp3",
+      "transcript": "Uh he he he.",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_crystalmaiden_cm_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_01.mp3",
+      "transcript": "Down into the deepfreeze...",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_crystalmaiden_cm_kill_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_02.mp3",
+      "transcript": "Frostfire take you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_crystalmaiden_cm_kill_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_03.mp3",
+      "transcript": "Burns, doesn't it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_crystalmaiden_cm_kill_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_04.mp3",
+      "transcript": "To the Frozen Waste with you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_crystalmaiden_cm_kill_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_05.mp3",
+      "transcript": "You move like a Blueheart Glacier!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_crystalmaiden_cm_kill_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_06.mp3",
+      "transcript": "Cool it!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_crystalmaiden_cm_kill_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_07.mp3",
+      "transcript": "Guess you didn't know a little game of freeze tag could turn lethal.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_crystalmaiden_cm_kill_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_08.mp3",
+      "transcript": "Ice is not always nice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_crystalmaiden_cm_kill_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_09.mp3",
+      "transcript": "You'll make a nice snow angel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_crystalmaiden_cm_kill_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_10.mp3",
+      "transcript": "I can't see your breath anymore.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_crystalmaiden_cm_kill_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_11.mp3",
+      "transcript": "Your fate was always crystal clear.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_crystalmaiden_cm_kill_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_12.mp3",
+      "transcript": "Dress warmer next time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_crystalmaiden_cm_kill_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_13.mp3",
+      "transcript": "You're dead and that's a cold hard fact.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_crystalmaiden_cm_kill_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_14.mp3",
+      "transcript": "Your blood froze.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_crystalmaiden_cm_kill_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_15.mp3",
+      "transcript": "Cold hand in mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_crystalmaiden_cm_kill_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_16.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_16.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_crystalmaiden_cm_kill_16.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_17.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_17.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_crystalmaiden_cm_kill_17.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_18.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_18.mp3",
+      "transcript": "Hm hm hm hm ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_crystalmaiden_cm_kill_18.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_19.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_19.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_crystalmaiden_cm_kill_19.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_kill_20.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_kill_20.mp3",
+      "transcript": "Heh heh heh heh heh heh heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_crystalmaiden_cm_kill_20.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_05.mp3",
+      "transcript": "Uh hu ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_crystalmaiden_cm_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_08.mp3",
+      "transcript": "Ah ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_crystalmaiden_cm_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_04.mp3",
+      "transcript": "Ice trumps fire!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_crystalmaiden_cm_lina_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_05.mp3",
+      "transcript": "Hellfire...",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_crystalmaiden_cm_lina_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_06.mp3",
+      "transcript": "Hellbitch...",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_crystalmaiden_cm_lina_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_07.mp3",
+      "transcript": "My heart will never thaw toward you, sister!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_crystalmaiden_cm_lina_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_08.mp3",
+      "transcript": "My heart will never thaw toward you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_crystalmaiden_cm_lina_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_09.mp3",
+      "transcript": "Lina, you hellfire bitch!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_crystalmaiden_cm_lina_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_11.mp3",
+      "transcript": "I'm sorry, Sister. I always was the good one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_crystalmaiden_cm_lina_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_12.mp3",
+      "transcript": "Sorry, Sis.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_crystalmaiden_cm_lina_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_01.mp3",
+      "transcript": "Frost beats fire.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_crystalmaiden_cm_rival_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_02.mp3",
+      "transcript": "That's enough, Lina, you're melting my stuff.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_crystalmaiden_cm_rival_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_03.mp3",
+      "transcript": "This time, Lina, it ends in ice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_crystalmaiden_cm_rival_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_04.mp3",
+      "transcript": "Such an old grouch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_crystalmaiden_cm_rival_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_05.mp3",
+      "transcript": "You'd think all that ice would make him nice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_crystalmaiden_cm_rival_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_06.mp3",
+      "transcript": "Sorry, Lich, you're doing it wrong.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_crystalmaiden_cm_rival_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_07.mp3",
+      "transcript": "You think you can snow me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_crystalmaiden_cm_rival_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_08.mp3",
+      "transcript": "Your wind was messing up my snowflakes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_crystalmaiden_cm_rival_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_09.mp3",
+      "transcript": "Too much bluster, not enough snow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_crystalmaiden_cm_rival_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_10.mp3",
+      "transcript": "That storm sort of fizzled out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_crystalmaiden_cm_rival_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_11.mp3",
+      "transcript": "That was a test, Tinker. And you failed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_crystalmaiden_cm_rival_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_12.mp3",
+      "transcript": "Tinker, your equations aren't half as cold as they could be.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_crystalmaiden_cm_rival_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_13.mp3",
+      "transcript": "Take your own temperature next time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_crystalmaiden_cm_rival_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_14.mp3",
+      "transcript": "No more hoofin' it in my snow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_crystalmaiden_cm_rival_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_15.mp3",
+      "transcript": "Hey, Queenie, you might wanna put a little ice on that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_crystalmaiden_cm_rival_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_16.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_16.mp3",
+      "transcript": "Queen of Pain? She left me numb.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_crystalmaiden_cm_rival_16.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_17.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_17.mp3",
+      "transcript": "I almost liked half of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_crystalmaiden_cm_rival_17.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_18.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_18.mp3",
+      "transcript": "Old, cold and busted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_crystalmaiden_cm_rival_18.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_19.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_19.mp3",
+      "transcript": "I miss our snowball fights.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_crystalmaiden_cm_rival_19.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_20.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_20.mp3",
+      "transcript": "I miss our snowball fights, Tuskarr.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_crystalmaiden_cm_rival_20.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rival_21.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rival_21.mp3",
+      "transcript": "I miss our snowball fights, Ymir.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_crystalmaiden_cm_rival_21.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_10.mp3",
+      "transcript": "Lina, you hellfire hellbitch!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_crystalmaiden_cm_lina_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_firstblood_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_firstblood_01.mp3",
+      "transcript": "First Blood, and it's already icing over!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_crystalmaiden_cm_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_01.mp3",
+      "transcript": "See if you can keep up, sis!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_crystalmaiden_cm_ally_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_02.mp3",
+      "transcript": "I'll freeze them and you shatter, Phoenix.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_crystalmaiden_cm_ally_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_03.mp3",
+      "transcript": "This'll be like old times, Tuskarr.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_crystalmaiden_cm_ally_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_04.mp3",
+      "transcript": "This'll be like old times, Ymir.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_crystalmaiden_cm_ally_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_05.mp3",
+      "transcript": "That's a lovely shade of blue, Sven.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_crystalmaiden_cm_ally_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_06.mp3",
+      "transcript": "Sven, are you still so blue under that armor?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_crystalmaiden_cm_ally_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ally_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ally_07.mp3",
+      "transcript": "Juggernaut, let them feel the cool of your blade!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_crystalmaiden_cm_ally_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_spawn_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_spawn_03.mp3",
+      "transcript": "Ice Maiden!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_crystalmaiden_cm_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_01.mp3",
+      "transcript": "This one is all mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_crystalmaiden_cm_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_02.mp3",
+      "transcript": "What could be better?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_crystalmaiden_cm_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_03.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_crystalmaiden_cm_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_04.mp3",
+      "transcript": "Ooh, frosty.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_crystalmaiden_cm_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_05.mp3",
+      "transcript": "Nice.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_crystalmaiden_cm_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_06.mp3",
+      "transcript": "Nice.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_crystalmaiden_cm_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_07.mp3",
+      "transcript": "Aren't you nice.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_crystalmaiden_cm_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_08.mp3",
+      "transcript": "That's cold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_crystalmaiden_cm_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_09.mp3",
+      "transcript": "Cold cash.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_crystalmaiden_cm_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_10.mp3",
+      "transcript": "Drop it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_crystalmaiden_cm_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_11.mp3",
+      "transcript": "Drop it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_crystalmaiden_cm_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_12.mp3",
+      "transcript": "Claimed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_crystalmaiden_cm_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lasthit_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lasthit_13.mp3",
+      "transcript": "Frost bites.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_crystalmaiden_cm_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_crystalmaiden_cm_deny_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_02.mp3",
+      "transcript": "Now nobody wins!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_crystalmaiden_cm_deny_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_03.mp3",
+      "transcript": "I won't give them the satisfaction...",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_crystalmaiden_cm_deny_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_04.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_crystalmaiden_cm_deny_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_05.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_crystalmaiden_cm_deny_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_06.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_crystalmaiden_cm_deny_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_07.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_crystalmaiden_cm_deny_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_08.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_crystalmaiden_cm_deny_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_09.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_crystalmaiden_cm_deny_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_10.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_crystalmaiden_cm_deny_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_11.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_crystalmaiden_cm_deny_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_12.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_crystalmaiden_cm_deny_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_13.mp3",
+      "transcript": "No way!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_crystalmaiden_cm_deny_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_14.mp3",
+      "transcript": "No way.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_crystalmaiden_cm_deny_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_15.mp3",
+      "transcript": "Frozen out.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_crystalmaiden_cm_deny_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_16.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_16.mp3",
+      "transcript": "I'm cold, I know.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_crystalmaiden_cm_deny_16.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_17.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_17.mp3",
+      "transcript": "Mm mm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_crystalmaiden_cm_deny_17.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_18.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_18.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_crystalmaiden_cm_deny_18.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_deny_19.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_deny_19.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_crystalmaiden_cm_deny_19.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_purch_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_purch_01.mp3",
+      "transcript": "Finally, it's mine!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_crystalmaiden_cm_purch_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_purch_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_purch_02.mp3",
+      "transcript": "Sometimes you just have to splurge...",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_crystalmaiden_cm_purch_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_purch_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_purch_03.mp3",
+      "transcript": "Worth every copper.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_crystalmaiden_cm_purch_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_sceptor_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_sceptor_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_crystalmaiden_cm_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_sceptor_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_sceptor_02.mp3",
+      "transcript": "A nice, icy scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_crystalmaiden_cm_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_blink_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_crystalmaiden_cm_blink_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_blink_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_blink_02.mp3",
+      "transcript": "Oh the cold, how it cuts.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_crystalmaiden_cm_blink_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_01.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_crystalmaiden_cm_item_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_02.mp3",
+      "transcript": "Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_crystalmaiden_cm_item_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_03.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_crystalmaiden_cm_item_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_04.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_crystalmaiden_cm_item_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_05.mp3",
+      "transcript": "Force Staff!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_crystalmaiden_cm_item_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_06.mp3",
+      "transcript": "Divine Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_crystalmaiden_cm_item_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_item_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_item_07.mp3",
+      "transcript": "Veil of Discord!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_crystalmaiden_cm_item_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_immort_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_crystalmaiden_cm_immort_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_immort_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_immort_02.mp3",
+      "transcript": "No grave can hold me!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_crystalmaiden_cm_immort_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_01.mp3",
+      "transcript": "Cold as death...",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_crystalmaiden_cm_death_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_crystalmaiden_cm_death_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_03.mp3",
+      "transcript": "Can't...feel...a thing...",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_crystalmaiden_cm_death_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_04.mp3",
+      "transcript": "I'm burning up!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_crystalmaiden_cm_death_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_05.mp3",
+      "transcript": "Burned...",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_crystalmaiden_cm_death_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_06.mp3",
+      "transcript": "My heart...thaws...",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_crystalmaiden_cm_death_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_death_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_death_07.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_crystalmaiden_cm_death_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_16.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_16.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_crystalmaiden_cm_lina_16.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_17.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_17.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_crystalmaiden_cm_lina_17.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_18.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_18.mp3",
+      "transcript": "I always was the good one.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_crystalmaiden_cm_lina_18.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lina_19.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lina_19.mp3",
+      "transcript": "I always was the good one.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_crystalmaiden_cm_lina_19.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_01.mp3",
+      "transcript": "Miss me?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_crystalmaiden_cm_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_02.mp3",
+      "transcript": "Ice never dies.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_crystalmaiden_cm_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_03.mp3",
+      "transcript": "You only live ice...",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_crystalmaiden_cm_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_04.mp3",
+      "transcript": "Once burned, ice shy...",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_crystalmaiden_cm_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_05.mp3",
+      "transcript": "I didn't see that coming.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_crystalmaiden_cm_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_06.mp3",
+      "transcript": "It just keeps getting better.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_crystalmaiden_cm_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_respawn_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_respawn_07.mp3",
+      "transcript": "Nothing like a little cool down...",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_crystalmaiden_cm_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_fastres_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_fastres_01.mp3",
+      "transcript": "I hope you weren't waiting for a thaw!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_crystalmaiden_cm_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_bottle_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_bottle_01.mp3",
+      "transcript": "This will keep.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_crystalmaiden_cm_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_bottle_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_bottle_02.mp3",
+      "transcript": "I'll put this aside for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_crystalmaiden_cm_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_bottle_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_bottle_03.mp3",
+      "transcript": "This'll come in handy.",
+      "categories": [
+        "Bottling Runes",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_crystalmaiden_cm_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_acknow_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_acknow_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_crystalmaiden_cm_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_doubdam_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_doubdam_01.mp3",
+      "transcript": "Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_crystalmaiden_cm_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_doubdam_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_doubdam_02.mp3",
+      "transcript": "Twice the harm!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_crystalmaiden_cm_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_haste_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_crystalmaiden_cm_haste_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_haste_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_haste_02.mp3",
+      "transcript": "Pour on the speed!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_crystalmaiden_cm_haste_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_illus_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_crystalmaiden_cm_illus_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_illus_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_illus_02.mp3",
+      "transcript": "One to many, many to one!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_crystalmaiden_cm_illus_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_invis_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_crystalmaiden_cm_invis_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_invis_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_invis_02.mp3",
+      "transcript": "I shall be well hid!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_crystalmaiden_cm_invis_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_invis_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_invis_03.mp3",
+      "transcript": "I'm going into hiding!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_crystalmaiden_cm_invis_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_regen_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_crystalmaiden_cm_regen_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_regen_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_regen_02.mp3",
+      "transcript": "Waves of healing....",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_crystalmaiden_cm_regen_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_01.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_crystalmaiden_cm_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_02.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_crystalmaiden_cm_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_crystalmaiden_cm_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_04.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_crystalmaiden_cm_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_05.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_crystalmaiden_cm_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_crystalmaiden_cm_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_crystalmaiden_cm_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_crystalmaiden_cm_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_notyet_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_crystalmaiden_cm_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_01.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_crystalmaiden_cm_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_02.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_crystalmaiden_cm_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_03.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_crystalmaiden_cm_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_04.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_crystalmaiden_cm_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_crystalmaiden_cm_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_06.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_crystalmaiden_cm_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_crystalmaiden_cm_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_crystalmaiden_cm_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_nomana_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_crystalmaiden_cm_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_pain_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_crystalmaiden_cm_pain_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_pain_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_pain_02.mp3",
+      "transcript": "Ohh! Ah-ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_crystalmaiden_cm_pain_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_pain_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_pain_03.mp3",
+      "transcript": "Oh! Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_crystalmaiden_cm_pain_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_pain_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_pain_04.mp3",
+      "transcript": "Ah-ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_crystalmaiden_cm_pain_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_pain_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_crystalmaiden_cm_pain_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_03.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_crystalmaiden_cm_anger_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_crystalmaiden_cm_anger_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_crystalmaiden_cm_anger_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_14.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_crystalmaiden_cm_anger_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_scream_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_scream_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_crystalmaiden_cm_scream_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_underattack_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_crystalmaiden_cm_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rare_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rare_01.mp3",
+      "transcript": "When Hell freezes over, I'll start calling it Heaven.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_crystalmaiden_cm_rare_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rare_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rare_02.mp3",
+      "transcript": "Can you guess my favorite poet?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_crystalmaiden_cm_rare_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rare_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rare_03.mp3",
+      "transcript": "Someday I'll return to the Blueheart Glacier and sleep for a thousand years.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_crystalmaiden_cm_rare_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_rare_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_rare_04.mp3",
+      "transcript": "You can burn my body but you'll never thaw my soul.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_crystalmaiden_cm_rare_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_missing_lane_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_missing_lane_01.mp3",
+      "transcript": "Missing Top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_crystalmaiden_cm_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_missing_lane_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_missing_lane_02.mp3",
+      "transcript": "Missing Middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_crystalmaiden_cm_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_missing_lane_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_missing_lane_03.mp3",
+      "transcript": "Missing Bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_crystalmaiden_cm_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_thanks_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_thanks_01.mp3",
+      "transcript": "Hey, thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_crystalmaiden_cm_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_thanks_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_thanks_02.mp3",
+      "transcript": "Very cool of you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_crystalmaiden_cm_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_01.mp3",
+      "transcript": "Ah he he he.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_crystalmaiden_cm_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_04.mp3",
+      "transcript": "Hm hm hee hee.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_crystalmaiden_cm_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_06.mp3",
+      "transcript": "Ah ha ha ha ha ha ha",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_crystalmaiden_cm_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_07.mp3",
+      "transcript": "Ah ha ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_crystalmaiden_cm_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_09.mp3",
+      "transcript": "Ah ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_crystalmaiden_cm_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_10.mp3",
+      "transcript": "Uh ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_crystalmaiden_cm_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_11.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_crystalmaiden_cm_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_12.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_crystalmaiden_cm_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_13.mp3",
+      "transcript": "Ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_crystalmaiden_cm_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_14.mp3",
+      "transcript": "Hee hee.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_crystalmaiden_cm_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_laugh_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_laugh_15.mp3",
+      "transcript": "Oh ho ho.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_crystalmaiden_cm_laugh_15.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_win_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_win_01.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_crystalmaiden_cm_win_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_win_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_win_02.mp3",
+      "transcript": "Victory is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_crystalmaiden_cm_win_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_win_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_win_03.mp3",
+      "transcript": "Of course we won! How could it be otherwise?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_crystalmaiden_cm_win_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_win_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_win_04.mp3",
+      "transcript": "A winner is me!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_crystalmaiden_cm_win_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_win_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_win_05.mp3",
+      "transcript": "We won! We won!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_crystalmaiden_cm_win_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lose_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lose_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_crystalmaiden_cm_lose_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lose_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lose_02.mp3",
+      "transcript": "This can't be happening...",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_crystalmaiden_cm_lose_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lose_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lose_03.mp3",
+      "transcript": "What happened?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_crystalmaiden_cm_lose_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lose_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lose_04.mp3",
+      "transcript": "I don't believe it!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_crystalmaiden_cm_lose_04.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_lose_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_lose_05.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_crystalmaiden_cm_lose_05.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_drop_common_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_drop_common_01.mp3",
+      "transcript": "Sweet as icicles.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_crystalmaiden_cm_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_drop_medium_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_drop_medium_01.mp3",
+      "transcript": "This'll keep me cool on a hot day.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_crystalmaiden_cm_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_cast_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_cast_01.mp3",
+      "transcript": "This will be a blast!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_crystalmaiden_cm_cast_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_drop_rare_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_drop_rare_01.mp3",
+      "transcript": "A treasure rare as a glacier's heart!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_crystalmaiden_cm_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_shitwiz_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_crystalmaiden_cm_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_crumwiz_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_crystalmaiden_cm_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_crystalmaiden_cm_anger_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_02.mp3",
+      "transcript": "Uhhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_crystalmaiden_cm_anger_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_06.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_crystalmaiden_cm_anger_06.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_07.mp3",
+      "transcript": "Tsk.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_crystalmaiden_cm_anger_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_crystalmaiden_cm_anger_09.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_10.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_crystalmaiden_cm_anger_10.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_11.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_crystalmaiden_cm_anger_11.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_12.mp3",
+      "transcript": "Uh ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_crystalmaiden_cm_anger_12.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_anger_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_anger_13.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_crystalmaiden_cm_anger_13.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_scream_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_scream_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_crystalmaiden_cm_scream_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_scream_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_scream_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_crystalmaiden_cm_scream_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_01.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_crystalmaiden_cm_happy_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_07.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_crystalmaiden_cm_happy_07.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_happy_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_happy_08.mp3",
+      "transcript": "Hm-mm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_crystalmaiden_cm_happy_08.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_acknow_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_acknow_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_crystalmaiden_cm_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ice_acknow_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ice_acknow_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_crystalmaiden_cm_ice_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_acknow_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_acknow_02.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_crystalmaiden_cm_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ice_acknow_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ice_acknow_02.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_crystalmaiden_cm_ice_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_acknow_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_acknow_03.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_crystalmaiden_cm_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ice_acknow_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ice_acknow_03.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_crystalmaiden_cm_ice_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_crystalmaiden_cm_ice_acknow_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_crystalmaiden_cm_ice_acknow_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_crystalmaiden_cm_ice_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_01.mp3",
+      "transcript": "Welcome to Rylai's Wishing-It-Were-Winter Blessing!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_econ_crystal_maiden_cm_cmgame_wel_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_02.mp3",
+      "transcript": "Welcome to Rylai's Winter Blessing!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_econ_crystal_maiden_cm_cmgame_wel_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_03.mp3",
+      "transcript": "Welcome to the wheel of random rewards!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_econ_crystal_maiden_cm_cmgame_wel_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_04.mp3",
+      "transcript": "Welcome to the crystal wheel of random rewards!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_econ_crystal_maiden_cm_cmgame_wel_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_05.mp3",
+      "transcript": "Step right up! Maybe it's your lucky day!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_econ_crystal_maiden_cm_cmgame_wel_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_06.mp3",
+      "transcript": "Step right up! The greatest attraction in all of Icewrack!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_econ_crystal_maiden_cm_cmgame_wel_06.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_07.mp3",
+      "transcript": "Welcome to our–safely nondescript–Wheel of Random Rewards!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_econ_crystal_maiden_cm_cmgame_wel_07.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_08.mp3",
+      "transcript": "Spin the wheel for an avalanche of prizes!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_econ_crystal_maiden_cm_cmgame_wel_08.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_09.mp3",
+      "transcript": "Behold! The crystal wheel!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_econ_crystal_maiden_cm_cmgame_wel_09.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_10.mp3",
+      "transcript": "Today's theme is... cool treats!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_econ_crystal_maiden_cm_cmgame_wel_10.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_11.mp3",
+      "transcript": "A flurry of rewards awaits you!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_econ_crystal_maiden_cm_cmgame_wel_11.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_wel_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_wel_12.mp3",
+      "transcript": "Lina!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_econ_crystal_maiden_cm_cmgame_wel_12.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_01.mp3",
+      "transcript": "This is gonna be a blast!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_econ_crystal_maiden_cm_cmgame_spin_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_02.mp3",
+      "transcript": "Well whose fault was that?",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_econ_crystal_maiden_cm_cmgame_spin_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_03.mp3",
+      "transcript": "Spin to win!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_econ_crystal_maiden_cm_cmgame_spin_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_04.mp3",
+      "transcript": "Stoppit! This was supposed to be my thing!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_econ_crystal_maiden_cm_cmgame_spin_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_05.mp3",
+      "transcript": "Maybe the wheel got frosted.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_econ_crystal_maiden_cm_cmgame_spin_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_06.mp3",
+      "transcript": "I like it this way.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_econ_crystal_maiden_cm_cmgame_spin_06.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_07.mp3",
+      "transcript": "I reinvented this wheel personally.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_econ_crystal_maiden_cm_cmgame_spin_07.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_08.mp3",
+      "transcript": "It's my turn to say it!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_econ_crystal_maiden_cm_cmgame_spin_08.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_09.mp3",
+      "transcript": "Let's spin the wheel!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_econ_crystal_maiden_cm_cmgame_spin_09.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_10.mp3",
+      "transcript": "Do you ever have deja vu?",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_econ_crystal_maiden_cm_cmgame_spin_10.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_12.mp3",
+      "transcript": "Swift as the Blueheart glacier!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_econ_crystal_maiden_cm_cmgame_spin_12.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_13.mp3",
+      "transcript": "*Gasp* It's talking now?",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_econ_crystal_maiden_cm_cmgame_spin_13.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_spin_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_spin_14.mp3",
+      "transcript": "Magic talking wheel?!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_econ_crystal_maiden_cm_cmgame_spin_14.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_01.mp3",
+      "transcript": "Could you repeat that? I was thinking of all the sisters I've plotted to kill.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_econ_crystal_maiden_cm_cmgame_rew_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_02.mp3",
+      "transcript": "Could you repeat that? I was thinking of all the Slayers I've plotted to kill.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_econ_crystal_maiden_cm_cmgame_rew_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_04.mp3",
+      "transcript": "Congratulations! You won!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_econ_crystal_maiden_cm_cmgame_rew_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_05.mp3",
+      "transcript": "You did it!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_econ_crystal_maiden_cm_cmgame_rew_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_06.mp3",
+      "transcript": "You won!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_econ_crystal_maiden_cm_cmgame_rew_06.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_07.mp3",
+      "transcript": "Cool!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_econ_crystal_maiden_cm_cmgame_rew_07.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_08.mp3",
+      "transcript": "Frosty!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_econ_crystal_maiden_cm_cmgame_rew_08.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_09.mp3",
+      "transcript": "Jackpot!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_econ_crystal_maiden_cm_cmgame_rew_09.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_10.mp3",
+      "transcript": "All the wards in the world didn't see that coming!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_econ_crystal_maiden_cm_cmgame_rew_10.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_11.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_11.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_econ_crystal_maiden_cm_cmgame_rew_11.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_12.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_12.mp3",
+      "transcript": "Hey! This is a family show!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_econ_crystal_maiden_cm_cmgame_rew_12.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_13.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_13.mp3",
+      "transcript": "It's perfect!",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_econ_crystal_maiden_cm_cmgame_rew_13.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_14.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_14.mp3",
+      "transcript": "Time to go find a wheel salesman.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_econ_crystal_maiden_cm_cmgame_rew_14.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_15.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_15.mp3",
+      "transcript": "Like your face.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_econ_crystal_maiden_cm_cmgame_rew_15.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_cmgame_rew_16.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_cmgame_rew_16.mp3",
+      "transcript": "Hm. That's not supposed to happen.",
+      "categories": [
+        "Rylai's Battle Blessing"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_econ_crystal_maiden_cm_cmgame_rew_16.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_wel_res_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_wel_res_03.mp3",
+      "transcript": "I like my wheel!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_econ_crystal_maiden_cm_lngame_wel_res_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_spin_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_spin_01.mp3",
+      "transcript": "Ew. I'd rather not.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_econ_crystal_maiden_cm_lngame_spin_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_spin_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_spin_02.mp3",
+      "transcript": "Melting expectations as always, sis.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_econ_crystal_maiden_cm_lngame_spin_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_spin_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_spin_03.mp3",
+      "transcript": "Didn't you just ask me that?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_econ_crystal_maiden_cm_lngame_spin_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_prob_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_prob_01.mp3",
+      "transcript": "I think it's busted.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_econ_crystal_maiden_cm_lngame_prob_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_prob_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_prob_02.mp3",
+      "transcript": "Tilt!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_econ_crystal_maiden_cm_lngame_prob_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_prob_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_prob_03.mp3",
+      "transcript": "What?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_econ_crystal_maiden_cm_lngame_prob_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_prob_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_prob_04.mp3",
+      "transcript": "It wasn't me.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_econ_crystal_maiden_cm_lngame_prob_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_01.mp3",
+      "transcript": "You're the only one who thinks human combustion is fun, Lina.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_econ_crystal_maiden_cm_lngame_rew_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_02.mp3",
+      "transcript": "Why would I want that?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_econ_crystal_maiden_cm_lngame_rew_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_03.mp3",
+      "transcript": "Is that supposed to be a good thing?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_econ_crystal_maiden_cm_lngame_rew_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_04.mp3",
+      "transcript": "That's not so bad!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_econ_crystal_maiden_cm_lngame_rew_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_05.mp3",
+      "transcript": "Do you think they'll like it?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_econ_crystal_maiden_cm_lngame_rew_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_06.mp3",
+      "transcript": "What a terrible phrase!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_econ_crystal_maiden_cm_lngame_rew_06.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_07.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_07.mp3",
+      "transcript": "I think it's great!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_econ_crystal_maiden_cm_lngame_rew_07.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_08.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_08.mp3",
+      "transcript": "You don't even mean it.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_econ_crystal_maiden_cm_lngame_rew_08.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_09.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_09.mp3",
+      "transcript": "It was supposed to be your lucky day.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_econ_crystal_maiden_cm_lngame_rew_09.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_lngame_rew_10.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_lngame_rew_10.mp3",
+      "transcript": "You're too generous.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_econ_crystal_maiden_cm_lngame_rew_10.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_wel_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_wel_01.mp3",
+      "transcript": "Fire and ice play nice!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_econ_crystal_maiden_cm_bpgame_wel_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_wel_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_wel_05.mp3",
+      "transcript": "Double the fun!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_econ_crystal_maiden_cm_bpgame_wel_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_wel_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_wel_06.mp3",
+      "transcript": "Just don't screw it up.",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_econ_crystal_maiden_cm_bpgame_wel_06.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_rew_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_rew_01.mp3",
+      "transcript": "Freeze!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_econ_crystal_maiden_cm_bpgame_rew_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_rew_02.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_rew_02.mp3",
+      "transcript": "What's it going to be...?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_econ_crystal_maiden_cm_bpgame_rew_02.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_rew_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_rew_03.mp3",
+      "transcript": "Almost there!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_econ_crystal_maiden_cm_bpgame_rew_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_rew_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_rew_04.mp3",
+      "transcript": "I can't believe it!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_econ_crystal_maiden_cm_bpgame_rew_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_bye_01.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_bye_01.mp3",
+      "transcript": "That's all the time we have. Turn in next time when you could be the big winner!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_econ_crystal_maiden_cm_bpgame_bye_01.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_bye_03.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_bye_03.mp3",
+      "transcript": "Remember, help control the creep population. Farm efficiently, and have your creep slain or dominated!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_econ_crystal_maiden_cm_bpgame_bye_03.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_bye_04.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_bye_04.mp3",
+      "transcript": "Your... what?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_econ_crystal_maiden_cm_bpgame_bye_04.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_bye_05.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_bye_05.mp3",
+      "transcript": "Trail who where now?",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_econ_crystal_maiden_cm_bpgame_bye_05.mp3"
+    },
+    {
+      "file": "Vo_econ_crystal_maiden_cm_bpgame_bye_06.mp3",
+      "key": "dota2/crystal-maiden/Vo_econ_crystal_maiden_cm_bpgame_bye_06.mp3",
+      "transcript": "*Gasp* No!",
+      "categories": [
+        "Lina's Battle Blaze"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_econ_crystal_maiden_cm_bpgame_bye_06.mp3"
+    }
+  ]
+}

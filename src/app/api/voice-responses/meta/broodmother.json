@@ -1,0 +1,2545 @@
+{
+  "hero": "Broodmother",
+  "slug": "broodmother",
+  "source": "https://liquipedia.net/dota2/Broodmother/Responses",
+  "scrapedAt": "2026-06-17T13:43:21.899Z",
+  "count": 251,
+  "voicelines": [
+    {
+      "file": "Vo_broodmother_broo_spawn_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_spawn_01.mp3",
+      "transcript": "Broodmother.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_broodmother_broo_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_spawn_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_spawn_02.mp3",
+      "transcript": "My broodcase opens.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_broodmother_broo_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_spawn_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_spawn_03.mp3",
+      "transcript": "The spider comes.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_broodmother_broo_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_spawn_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_spawn_04.mp3",
+      "transcript": "My kind are legion.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_broodmother_broo_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_spawn_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_spawn_05.mp3",
+      "transcript": "Mother of all evil.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_broodmother_broo_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_battlebegins_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_battlebegins_01.mp3",
+      "transcript": "The hunt starts now.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_broodmother_broo_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_10.mp3",
+      "transcript": "My brood needs food.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_broodmother_broo_attack_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_11.mp3",
+      "transcript": "Mother is angry.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_broodmother_broo_attack_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_08.mp3",
+      "transcript": "Like mother, like spiders.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_broodmother_broo_ability_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_01.mp3",
+      "transcript": "You're not afraid of spiders, are you?",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_broodmother_broo_kill_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_01.mp3",
+      "transcript": "Mother knows best.",
+      "categories": [
+        "Loadout",
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_broodmother_broo_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_03.mp3",
+      "transcript": "Feeding time.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_broodmother_broo_ability_hunger_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_01.mp3",
+      "transcript": "Muh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_broodmother_broo_anger_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_inthebag_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_inthebag_01.mp3",
+      "transcript": "Oh my children, it’s in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_broodmother_broo_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_broodmother_broo_move_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_broodmother_broo_move_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_broodmother_broo_move_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_04.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_broodmother_broo_move_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_05.mp3",
+      "transcript": "Skittering.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_broodmother_broo_move_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_06.mp3",
+      "transcript": "I stalk my prey.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_broodmother_broo_move_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_07.mp3",
+      "transcript": "A silken path.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_broodmother_broo_move_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_08.mp3",
+      "transcript": "Yes indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_broodmother_broo_move_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_09.mp3",
+      "transcript": "Mother comes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_broodmother_broo_move_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_10.mp3",
+      "transcript": "Smooth as silk.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_broodmother_broo_move_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_11.mp3",
+      "transcript": "Stretching my legs.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_broodmother_broo_move_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_12.mp3",
+      "transcript": "Quickly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_broodmother_broo_move_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_13.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_broodmother_broo_move_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_14.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_14.mp3",
+      "transcript": "The silk road beckons.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_broodmother_broo_move_14.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_15.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_15.mp3",
+      "transcript": "I advance.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_broodmother_broo_move_15.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_move_16.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_move_16.mp3",
+      "transcript": "Was that a twitch on my web?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_broodmother_broo_move_16.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_07.mp3",
+      "transcript": "Go, my sweetlings.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_broodmother_broo_ability_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_09.mp3",
+      "transcript": "More mouths to feed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_broodmother_broo_ability_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_broodmother_broo_attack_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_02.mp3",
+      "transcript": "Oh my prey!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_broodmother_broo_attack_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_03.mp3",
+      "transcript": "Feel my fangs.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_broodmother_broo_attack_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_04.mp3",
+      "transcript": "Puncture.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_broodmother_broo_attack_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_05.mp3",
+      "transcript": "Spider bite.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_broodmother_broo_attack_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_06.mp3",
+      "transcript": "My palps are all atingle.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_broodmother_broo_attack_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_07.mp3",
+      "transcript": "My web twitches.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_broodmother_broo_attack_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_08.mp3",
+      "transcript": "Entangled.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_broodmother_broo_attack_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_09.mp3",
+      "transcript": "None shall spy the spider.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_broodmother_broo_attack_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_12.mp3",
+      "transcript": "Motherless cur.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_broodmother_broo_attack_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_attack_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_attack_13.mp3",
+      "transcript": "Who dares tug my web?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_broodmother_broo_attack_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_10.mp3",
+      "transcript": "Don't die, my darlings.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_broodmother_broo_ability_spawn_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_11.mp3",
+      "transcript": "Feast, my babies.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_broodmother_broo_ability_spawn_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_12.mp3",
+      "transcript": "Save some for mother.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_broodmother_broo_ability_spawn_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_cast_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_cast_01.mp3",
+      "transcript": "You're in my web.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_broodmother_broo_cast_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_cast_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_cast_02.mp3",
+      "transcript": "No escape.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_broodmother_broo_cast_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_cast_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_cast_03.mp3",
+      "transcript": "Ensnared.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_broodmother_broo_cast_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_cast_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_cast_04.mp3",
+      "transcript": "You're in need of mothering.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_broodmother_broo_cast_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_02.mp3",
+      "transcript": "I've promised you to my children.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_broodmother_broo_ability_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_04.mp3",
+      "transcript": "I'll drink you dry.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_broodmother_broo_ability_hunger_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_05.mp3",
+      "transcript": "Come to mother!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_broodmother_broo_ability_hunger_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_06.mp3",
+      "transcript": "I'm coming for your life!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_broodmother_broo_ability_hunger_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_01.mp3",
+      "transcript": "A mother's love.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_broodmother_broo_ability_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_03.mp3",
+      "transcript": "'Twill hatch when the time is ripe.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_broodmother_broo_ability_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_04.mp3",
+      "transcript": "My brood hatches.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_broodmother_broo_ability_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_05.mp3",
+      "transcript": "What a lovely brood.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_broodmother_broo_ability_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_01.mp3",
+      "transcript": "I cast my web.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_broodmother_broo_ability_spin_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_02.mp3",
+      "transcript": "Web of lies.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_broodmother_broo_ability_spin_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_03.mp3",
+      "transcript": "In my web your eyes deceive you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_broodmother_broo_ability_spin_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_04.mp3",
+      "transcript": "See no evil.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_broodmother_broo_ability_spin_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_05.mp3",
+      "transcript": "I pull the web over your eyes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_broodmother_broo_ability_spin_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spin_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spin_06.mp3",
+      "transcript": "Home sweet home.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_broodmother_broo_ability_spin_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_incap_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_incap_01.mp3",
+      "transcript": "Sticky bola!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_broodmother_broo_ability_incap_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_02.mp3",
+      "transcript": "My hunger burns.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_broodmother_broo_ability_hunger_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rare_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rare_02.mp3",
+      "transcript": "Some pig!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_broodmother_broo_rare_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_01.mp3",
+      "transcript": "A leg up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_broodmother_broo_level_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_02.mp3",
+      "transcript": "My silk strengthens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_broodmother_broo_level_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_03.mp3",
+      "transcript": "My web grows stickier.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_broodmother_broo_level_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_04.mp3",
+      "transcript": "I felt that.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_broodmother_broo_level_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_05.mp3",
+      "transcript": "Legs to spare.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_broodmother_broo_level_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_06.mp3",
+      "transcript": "My power grows.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_broodmother_broo_level_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_07.mp3",
+      "transcript": "My brood increases.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_broodmother_broo_level_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_08.mp3",
+      "transcript": "He he he he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_broodmother_broo_level_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_09.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_broodmother_broo_level_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_10.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_broodmother_broo_level_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_11.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_broodmother_broo_level_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_12.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_broodmother_broo_level_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_level_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_level_13.mp3",
+      "transcript": "He he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_broodmother_broo_level_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_incap_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_incap_02.mp3",
+      "transcript": "Take that!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_broodmother_broo_ability_incap_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_incap_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_incap_03.mp3",
+      "transcript": "You feel me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_broodmother_broo_ability_incap_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_incap_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_incap_04.mp3",
+      "transcript": "Once bitten.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_broodmother_broo_ability_incap_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_02.mp3",
+      "transcript": "I'll drink your pulp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_broodmother_broo_kill_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_03.mp3",
+      "transcript": "Heh, liquified innards, my favorite.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_broodmother_broo_kill_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_04.mp3",
+      "transcript": "Digested from the inside out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_broodmother_broo_kill_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_05.mp3",
+      "transcript": "Nothing to brood about.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_broodmother_broo_kill_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_06.mp3",
+      "transcript": "Don't brood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_broodmother_broo_kill_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_07.mp3",
+      "transcript": "You'll need more eyes to catch me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_broodmother_broo_kill_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_08.mp3",
+      "transcript": "You never see what gets you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_broodmother_broo_kill_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_09.mp3",
+      "transcript": "I only have eyes for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_broodmother_broo_kill_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_10.mp3",
+      "transcript": "We never did see eye to eye.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_broodmother_broo_kill_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_11.mp3",
+      "transcript": "I could kill you with five eyes closed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_broodmother_broo_kill_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_12.mp3",
+      "transcript": "Kiss of death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_broodmother_broo_kill_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_13.mp3",
+      "transcript": "So stuck up!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_broodmother_broo_kill_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_14.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_14.mp3",
+      "transcript": "You were hardly the banquet you're made out to be.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_broodmother_broo_kill_14.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_15.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_15.mp3",
+      "transcript": "Pathetic insect.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_broodmother_broo_kill_15.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_16.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_16.mp3",
+      "transcript": "Delicious.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_broodmother_broo_kill_16.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_17.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_17.mp3",
+      "transcript": "Sss-sss-ssslurp!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_broodmother_broo_kill_17.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_kill_18.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_kill_18.mp3",
+      "transcript": "Along came your killer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_broodmother_broo_kill_18.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_01.mp3",
+      "transcript": "He he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_broodmother_broo_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_02.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_broodmother_broo_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_03.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_broodmother_broo_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_04.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_broodmother_broo_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_05.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_broodmother_broo_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_broodmother_broo_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_broodmother_broo_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_broodmother_broo_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_09.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_broodmother_broo_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_laugh_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_laugh_10.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_broodmother_broo_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_01.mp3",
+      "transcript": "Why Weave when you can spin?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_broodmother_broo_rival_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_02.mp3",
+      "transcript": "Nyx Assassin, I've some of your cousins in my larder.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_broodmother_broo_rival_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_03.mp3",
+      "transcript": "You're not the King of me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_broodmother_broo_rival_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_04.mp3",
+      "transcript": "You should be careful who you go looking for, Slardar.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_broodmother_broo_rival_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_05.mp3",
+      "transcript": "Night Stalker, that's a face even a mother couldn't love.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_broodmother_broo_rival_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_06.mp3",
+      "transcript": "Shame there's no bounty on you, Bounty Hunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_broodmother_broo_rival_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_07.mp3",
+      "transcript": "With you gone, Earthshaker, the world is safer for my babies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_broodmother_broo_rival_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_08.mp3",
+      "transcript": "Kunkka, that was for all the spider crabs you've boiled.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_broodmother_broo_rival_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rival_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rival_09.mp3",
+      "transcript": "Enigma, your little ones aren't half as precious as mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_broodmother_broo_rival_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_firstblood_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_firstblood_01.mp3",
+      "transcript": "First blood, first bite!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_broodmother_broo_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_firstblood_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_firstblood_02.mp3",
+      "transcript": "First blood goes to mother!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_broodmother_broo_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_02.mp3",
+      "transcript": "Gold for my brood.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_broodmother_broo_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_03.mp3",
+      "transcript": "Caught.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_broodmother_broo_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_04.mp3",
+      "transcript": "Easy prey.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_broodmother_broo_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_05.mp3",
+      "transcript": "Ulp!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_broodmother_broo_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_06.mp3",
+      "transcript": "Aalp!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_broodmother_broo_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_07.mp3",
+      "transcript": "Prey food.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_broodmother_broo_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_08.mp3",
+      "transcript": "Barely a snack.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_broodmother_broo_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_09.mp3",
+      "transcript": "I'm still hungry.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_broodmother_broo_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_10.mp3",
+      "transcript": "A fly in my web.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_broodmother_broo_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_11.mp3",
+      "transcript": "Browsing the web.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_broodmother_broo_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_12.mp3",
+      "transcript": "Come to mother.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_broodmother_broo_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lasthit_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lasthit_13.mp3",
+      "transcript": "Come to mother!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_broodmother_broo_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_broodmother_broo_deny_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_broodmother_broo_deny_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_03.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_broodmother_broo_deny_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_04.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_broodmother_broo_deny_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_05.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_broodmother_broo_deny_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_06.mp3",
+      "transcript": "Mother says no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_broodmother_broo_deny_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_07.mp3",
+      "transcript": "Dear me, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_broodmother_broo_deny_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_08.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_broodmother_broo_deny_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_09.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_broodmother_broo_deny_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_10.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_broodmother_broo_deny_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_11.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Denying",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_broodmother_broo_deny_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_deny_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_deny_12.mp3",
+      "transcript": "Empty calories.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_broodmother_broo_deny_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_purch_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_purch_01.mp3",
+      "transcript": "Worth its weight in web.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_broodmother_broo_purch_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_purch_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_purch_02.mp3",
+      "transcript": "A bargain price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_broodmother_broo_purch_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_purch_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_purch_03.mp3",
+      "transcript": "Long I have waited for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_broodmother_broo_purch_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_blink_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_broodmother_broo_blink_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_scepter_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_broodmother_broo_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_scepter_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_scepter_02.mp3",
+      "transcript": "Sweet scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_broodmother_broo_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_01.mp3",
+      "transcript": "Vladmir's Offering!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_broodmother_broo_item_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_02.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_broodmother_broo_item_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_03.mp3",
+      "transcript": "Butterfly… delicious.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_broodmother_broo_item_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_04.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_broodmother_broo_item_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_05.mp3",
+      "transcript": "Oh my Heart!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_broodmother_broo_item_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_item_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_item_06.mp3",
+      "transcript": "Radiance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_broodmother_broo_item_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_immort_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_broodmother_broo_immort_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_immort_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_immort_02.mp3",
+      "transcript": "Death means nothing.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_broodmother_broo_immort_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_broodmother_broo_death_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_02.mp3",
+      "transcript": "Noo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_broodmother_broo_death_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_03.mp3",
+      "transcript": "No no!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_broodmother_broo_death_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_04.mp3",
+      "transcript": "On my last legs!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_broodmother_broo_death_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_05.mp3",
+      "transcript": "My life ends.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_broodmother_broo_death_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_06.mp3",
+      "transcript": "The food web takes me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_broodmother_broo_death_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_07.mp3",
+      "transcript": "The predator is prey.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_broodmother_broo_death_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_08.mp3",
+      "transcript": "This is matricide.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_broodmother_broo_death_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_09.mp3",
+      "transcript": "What would your mother say?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_broodmother_broo_death_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_10.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_10.mp3",
+      "transcript": "My brood will avenge me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_broodmother_broo_death_10.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_11.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_11.mp3",
+      "transcript": "My eyes were bigger than my belly.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_broodmother_broo_death_11.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_12.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_12.mp3",
+      "transcript": "These eyes cannot cry.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_broodmother_broo_death_12.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_13.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_13.mp3",
+      "transcript": "The silken cord is cut.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_broodmother_broo_death_13.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_death_14.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_death_14.mp3",
+      "transcript": "The spider…crushed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_broodmother_broo_death_14.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_01.mp3",
+      "transcript": "I have more lives than legs.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_broodmother_broo_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_02.mp3",
+      "transcript": "I spin my web anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_broodmother_broo_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_03.mp3",
+      "transcript": "The spider comes round again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_broodmother_broo_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_04.mp3",
+      "transcript": "I step again onto life's fragile web.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_broodmother_broo_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_05.mp3",
+      "transcript": "I return to the silken road.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_broodmother_broo_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_06.mp3",
+      "transcript": "My enemies will pay with their liquified guts.",
+      "categories": [
+        "Respawning",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_broodmother_broo_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_07.mp3",
+      "transcript": "I escape death's sticky web.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_broodmother_broo_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_08.mp3",
+      "transcript": "Death wrapped me up but not for long.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_broodmother_broo_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_respawn_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_respawn_09.mp3",
+      "transcript": "Time to return the favor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_broodmother_broo_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_fastres_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_fastres_01.mp3",
+      "transcript": "This cord cannot be cut.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_broodmother_broo_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_bottle_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_bottle_01.mp3",
+      "transcript": "I'll just wrap this up for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_broodmother_broo_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_bottle_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_bottle_02.mp3",
+      "transcript": "Put aside.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_broodmother_broo_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_bottle_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_bottle_03.mp3",
+      "transcript": "I might need this eventually.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_broodmother_broo_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_spawn_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_spawn_06.mp3",
+      "transcript": "Oh so beautiful.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_broodmother_broo_ability_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_doubdam_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_broodmother_broo_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_doubdam_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_doubdam_02.mp3",
+      "transcript": "My fangs pierce deep.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_broodmother_broo_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_haste_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_broodmother_broo_haste_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_haste_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_haste_02.mp3",
+      "transcript": "Death comes in on little spider feet.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_broodmother_broo_haste_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_illus_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_broodmother_broo_illus_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_illus_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_illus_02.mp3",
+      "transcript": "My brood triples.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_broodmother_broo_illus_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_invis_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_broodmother_broo_invis_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_invis_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_invis_02.mp3",
+      "transcript": "I need this like I need another pair of legs.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_broodmother_broo_invis_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_regen_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_broodmother_broo_regen_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_regen_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_regen_02.mp3",
+      "transcript": "A mother's love ever renewing.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_broodmother_broo_regen_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_broodmother_broo_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_broodmother_broo_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_broodmother_broo_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_broodmother_broo_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_broodmother_broo_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_broodmother_broo_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_broodmother_broo_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_broodmother_broo_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_notyet_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_broodmother_broo_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_broodmother_broo_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_broodmother_broo_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_broodmother_broo_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_broodmother_broo_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_broodmother_broo_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_broodmother_broo_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_broodmother_broo_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_broodmother_broo_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_nomana_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_broodmother_broo_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_broodmother_broo_pain_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_02.mp3",
+      "transcript": "Ruh-ruh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_broodmother_broo_pain_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_03.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_broodmother_broo_pain_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_broodmother_broo_pain_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_05.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_broodmother_broo_pain_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_06.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_broodmother_broo_pain_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_07.mp3",
+      "transcript": "Enh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_broodmother_broo_pain_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_08.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_broodmother_broo_pain_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_pain_09.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_pain_09.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_broodmother_broo_pain_09.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_underattack_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_broodmother_broo_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_rare_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_rare_01.mp3",
+      "transcript": "Six eyes, eight legs and one burning desire.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_broodmother_broo_rare_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_ability_hunger_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_ability_hunger_01.mp3",
+      "transcript": "My belly burns with hunger.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_broodmother_broo_ability_hunger_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_thanks_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_thanks_01.mp3",
+      "transcript": "You have a mother's gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_broodmother_broo_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_thanks_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_thanks_02.mp3",
+      "transcript": "Many thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_broodmother_broo_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_win_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_broodmother_broo_win_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_win_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_broodmother_broo_win_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_win_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_win_03.mp3",
+      "transcript": "We shall feast!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_broodmother_broo_win_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lose_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_broodmother_broo_lose_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lose_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_broodmother_broo_lose_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_lose_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_lose_03.mp3",
+      "transcript": "My web is ruined!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_broodmother_broo_lose_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_02.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_broodmother_broo_happy_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_04.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_broodmother_broo_happy_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_05.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_broodmother_broo_happy_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_08.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_broodmother_broo_happy_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_01.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_broodmother_broo_happy_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_broodmother_broo_happy_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_shitwiz_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_broodmother_broo_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_crumwiz_01.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_broodmother_broo_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_02.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_02.mp3",
+      "transcript": "Nai!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_broodmother_broo_anger_02.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_03.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_broodmother_broo_anger_03.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_04.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_broodmother_broo_anger_04.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_05.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_05.mp3",
+      "transcript": "Crraw!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_broodmother_broo_anger_05.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_broodmother_broo_anger_06.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_07.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_07.mp3",
+      "transcript": "Aaah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_broodmother_broo_anger_07.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_anger_08.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_anger_08.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_broodmother_broo_anger_08.mp3"
+    },
+    {
+      "file": "Vo_broodmother_broo_happy_06.mp3",
+      "key": "dota2/broodmother/Vo_broodmother_broo_happy_06.mp3",
+      "transcript": "Ah ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_broodmother_broo_happy_06.mp3"
+    }
+  ]
+}

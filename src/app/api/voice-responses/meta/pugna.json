@@ -1,0 +1,2650 @@
+{
+  "hero": "Pugna",
+  "slug": "pugna",
+  "source": "https://liquipedia.net/dota2/Pugna/Responses",
+  "scrapedAt": "2026-06-17T14:35:55.749Z",
+  "count": 262,
+  "voicelines": [
+    {
+      "file": "Vo_pugna_pugna_spawn_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_spawn_01.mp3",
+      "transcript": "Pugna!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_pugna_pugna_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_spawn_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_spawn_02.mp3",
+      "transcript": "I'll take all you have and more.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_pugna_pugna_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_spawn_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_spawn_03.mp3",
+      "transcript": "Who dare cross my path?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_pugna_pugna_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_spawn_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_spawn_04.mp3",
+      "transcript": "I bring oblivion.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_pugna_pugna_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_spawn_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_spawn_05.mp3",
+      "transcript": "I channel the power of the Nether Reaches.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_pugna_pugna_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_battlebegins_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_battlebegins_01.mp3",
+      "transcript": "Time to earn myself a bad reputation.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_pugna_pugna_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_09.mp3",
+      "transcript": "By the Nether Reaches.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_pugna_pugna_move_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_02.mp3",
+      "transcript": "Oblivion's power infuses.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_level_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_03.mp3",
+      "transcript": "Who needs a blade when you have oblivion?",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_pugna_pugna_level_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_06.mp3",
+      "transcript": "A new age of dark magic starts now.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_pugna_pugna_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_17.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_17.mp3",
+      "transcript": "Oblivion comes.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_pugna_pugna_move_17.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_13.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_13.mp3",
+      "transcript": "Nether sorceries.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_pugna_pugna_attack_13.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_anger_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_anger_01.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_pugna_pugna_anger_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_inthebag_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_pugna_pugna_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_01.mp3",
+      "transcript": "Oh yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_pugna_pugna_move_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_02.mp3",
+      "transcript": "Why not.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_pugna_pugna_move_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_03.mp3",
+      "transcript": "I'm going.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_pugna_pugna_move_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_04.mp3",
+      "transcript": "Already there.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_pugna_pugna_move_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_05.mp3",
+      "transcript": "On my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_pugna_pugna_move_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_06.mp3",
+      "transcript": "A little jaunt.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_pugna_pugna_move_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_07.mp3",
+      "transcript": "I'll take a crack at it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_pugna_pugna_move_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_08.mp3",
+      "transcript": "Heh, you wish.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_pugna_pugna_move_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_10.mp3",
+      "transcript": "Try me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_pugna_pugna_move_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_11.mp3",
+      "transcript": "Oh, I'm gone.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_pugna_pugna_move_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_12.mp3",
+      "transcript": "I was headed that way myself.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_pugna_pugna_move_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_13.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_13.mp3",
+      "transcript": "Yonder I wander.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_pugna_pugna_move_13.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_14.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_14.mp3",
+      "transcript": "Out of my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_pugna_pugna_move_14.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_15.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_15.mp3",
+      "transcript": "Out of my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_pugna_pugna_move_15.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_16.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_16.mp3",
+      "transcript": "Netherly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_pugna_pugna_move_16.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_move_18.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_move_18.mp3",
+      "transcript": "Wandering.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_pugna_pugna_move_18.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_pugna_pugna_attack_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_pugna_pugna_attack_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_03.mp3",
+      "transcript": "A real blast!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_pugna_pugna_attack_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_04.mp3",
+      "transcript": "Feel my reach.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_pugna_pugna_attack_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_05.mp3",
+      "transcript": "To the nether hells.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_pugna_pugna_attack_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_06.mp3",
+      "transcript": "Take that!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_pugna_pugna_attack_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_07.mp3",
+      "transcript": "Take it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_pugna_pugna_attack_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_08.mp3",
+      "transcript": "Just try me.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_pugna_pugna_attack_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_09.mp3",
+      "transcript": "How vile.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_pugna_pugna_attack_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_10.mp3",
+      "transcript": "I'll do you violence.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_pugna_pugna_attack_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_11.mp3",
+      "transcript": "Stricken!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_pugna_pugna_attack_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_12.mp3",
+      "transcript": "Oblivion.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_pugna_pugna_attack_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_14.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_14.mp3",
+      "transcript": "Don't cross my path.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_pugna_pugna_attack_14.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_attack_15.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_attack_15.mp3",
+      "transcript": "Rage of a mage.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_pugna_pugna_attack_15.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_01.mp3",
+      "transcript": "Get ready, here I come.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_pugna_pugna_cast_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_02.mp3",
+      "transcript": "I take and I take. Here, let me give back!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_pugna_pugna_cast_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_03.mp3",
+      "transcript": "I take and I take.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_pugna_pugna_cast_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_04.mp3",
+      "transcript": "Don't make me chase you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_pugna_pugna_cast_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_05.mp3",
+      "transcript": "You're only making it worse.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_pugna_pugna_cast_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_cast_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_cast_06.mp3",
+      "transcript": "The Nether's reach is long!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_pugna_pugna_cast_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_01.mp3",
+      "transcript": "Nether Blast!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_pugna_pugna_ability_nblast_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_02.mp3",
+      "transcript": "From the Nether Reaches!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_pugna_pugna_ability_nblast_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_04.mp3",
+      "transcript": "Blasted tower!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_pugna_pugna_ability_nblast_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_05.mp3",
+      "transcript": "Aw, did I do that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_pugna_pugna_ability_nblast_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_06.mp3",
+      "transcript": "Tower, meet power!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_pugna_pugna_ability_nblast_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_07.mp3",
+      "transcript": "Blasted that tower to smithereens.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_pugna_pugna_ability_nblast_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_08.mp3",
+      "transcript": "No tower can stand up to the Nether Blast!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_pugna_pugna_ability_nblast_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_09.mp3",
+      "transcript": "Smithereens.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_pugna_pugna_ability_nblast_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nblast_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nblast_03.mp3",
+      "transcript": "Blast you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_pugna_pugna_ability_nblast_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_01.mp3",
+      "transcript": "Get thee gone!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_pugna_pugna_ability_decrep_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_02.mp3",
+      "transcript": "First, do no harm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_pugna_pugna_ability_decrep_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_03.mp3",
+      "transcript": "Harm none!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_pugna_pugna_ability_decrep_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_04.mp3",
+      "transcript": "Render you harmless.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_pugna_pugna_ability_decrep_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_05.mp3",
+      "transcript": "Weak sauce.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_pugna_pugna_ability_decrep_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_06.mp3",
+      "transcript": "You're out of reach.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_pugna_pugna_ability_decrep_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_07.mp3",
+      "transcript": "Out of harm's way.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_pugna_pugna_ability_decrep_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_08.mp3",
+      "transcript": "Saaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_pugna_pugna_ability_decrep_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_09.mp3",
+      "transcript": "Taah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_pugna_pugna_ability_decrep_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_10.mp3",
+      "transcript": "Ta!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_pugna_pugna_ability_decrep_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_11.mp3",
+      "transcript": "Paa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_pugna_pugna_ability_decrep_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_12.mp3",
+      "transcript": "Banished!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_pugna_pugna_ability_decrep_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_13.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_13.mp3",
+      "transcript": "Banished!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_pugna_pugna_ability_decrep_13.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_15.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_15.mp3",
+      "transcript": "Banished!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_pugna_pugna_ability_decrep_15.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_16.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_16.mp3",
+      "transcript": "Banished!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_pugna_pugna_ability_decrep_16.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_decrep_17.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_decrep_17.mp3",
+      "transcript": "Banished!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_pugna_pugna_ability_decrep_17.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_01.mp3",
+      "transcript": "Try it now.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_pugna_pugna_ability_nward_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_02.mp3",
+      "transcript": "Go ahead, cast a spell!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_pugna_pugna_ability_nward_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_03.mp3",
+      "transcript": "Try your magic now.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_pugna_pugna_ability_nward_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_04.mp3",
+      "transcript": "My wicked wards.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_pugna_pugna_ability_nward_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_09.mp3",
+      "transcript": "It's on your head.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_pugna_pugna_ability_nward_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_05.mp3",
+      "transcript": "You should know better than that.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_pugna_pugna_ability_nward_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_07.mp3",
+      "transcript": "You did that to yourself.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_pugna_pugna_ability_nward_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_08.mp3",
+      "transcript": "That one's all on you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_pugna_pugna_ability_nward_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_10.mp3",
+      "transcript": "Don't blame me for your incompetence.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_pugna_pugna_ability_nward_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_11.mp3",
+      "transcript": "I'll bet you feel like a fool.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_pugna_pugna_ability_nward_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_01.mp3",
+      "transcript": "Give it up.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_pugna_pugna_ability_life_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_02.mp3",
+      "transcript": "Hand it over.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_pugna_pugna_ability_life_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_04.mp3",
+      "transcript": "More life for me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_pugna_pugna_ability_life_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_06.mp3",
+      "transcript": "I'll take that life if you're not using it, he he he.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_pugna_pugna_ability_life_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_07.mp3",
+      "transcript": "Roll over and show me your belly.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_pugna_pugna_ability_life_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_08.mp3",
+      "transcript": "You're wasting your life.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_pugna_pugna_ability_life_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_03.mp3",
+      "transcript": "Down the drain.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_pugna_pugna_ability_life_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_life_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_life_05.mp3",
+      "transcript": "Your life is mine.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_pugna_pugna_ability_life_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_01.mp3",
+      "transcript": "The inner light doth evil shine.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_pugna_pugna_level_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_04.mp3",
+      "transcript": "Ah, a darker power fills me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_pugna_pugna_level_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_05.mp3",
+      "transcript": "I'll put my powers to no good use.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_pugna_pugna_level_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_06.mp3",
+      "transcript": "Ah, this is going to be good.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_pugna_pugna_level_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_07.mp3",
+      "transcript": "Ah, what's good for me is bad for thee.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_pugna_pugna_level_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_08.mp3",
+      "transcript": "He he ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_pugna_pugna_level_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_09.mp3",
+      "transcript": "Hu hu hu hu ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_pugna_pugna_level_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_10.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_pugna_pugna_level_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_level_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_level_11.mp3",
+      "transcript": "He he he he ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_pugna_pugna_level_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_01.mp3",
+      "transcript": "You're banished!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_pugna_pugna_kill_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_02.mp3",
+      "transcript": "You crossed my path.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_pugna_pugna_kill_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_03.mp3",
+      "transcript": "Crossed you off my list.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_pugna_pugna_kill_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_04.mp3",
+      "transcript": "Wish I could say that I'll miss you, but I won't.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_pugna_pugna_kill_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_05.mp3",
+      "transcript": "Did I do that to you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_pugna_pugna_kill_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_06.mp3",
+      "transcript": "Life exits through the eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_pugna_pugna_kill_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_07.mp3",
+      "transcript": "You were oblivious, now you're mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_pugna_pugna_kill_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_08.mp3",
+      "transcript": "Enter oblivion!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_pugna_pugna_kill_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_09.mp3",
+      "transcript": "The first time I saw you, I knew where you were headed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_pugna_pugna_kill_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_10.mp3",
+      "transcript": "Life is wasted on the living.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_pugna_pugna_kill_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_pugna_pugna_kill_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_12.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_pugna_pugna_kill_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_13.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_13.mp3",
+      "transcript": "We're finally getting somewhere.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_pugna_pugna_kill_13.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_14.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_14.mp3",
+      "transcript": "Oh don't take it personally.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_pugna_pugna_kill_14.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_15.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_15.mp3",
+      "transcript": "You were just taking up space.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_pugna_pugna_kill_15.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_16.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_16.mp3",
+      "transcript": "He he ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_pugna_pugna_kill_16.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_17.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_17.mp3",
+      "transcript": "Hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_pugna_pugna_kill_17.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_kill_18.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_kill_18.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_pugna_pugna_kill_18.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_01.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_pugna_pugna_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_02.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_pugna_pugna_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_09.mp3",
+      "transcript": "Uh ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_pugna_pugna_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_10.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_pugna_pugna_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_01.mp3",
+      "transcript": "Ah Viper, my erstwhile pet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_pugna_pugna_rival_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_02.mp3",
+      "transcript": "Viper! I wondered where you had gotten to.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_pugna_pugna_rival_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_03.mp3",
+      "transcript": "What was it, Viper? Nether Reaches lost their charm?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_pugna_pugna_rival_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_04.mp3",
+      "transcript": "Back to the Nether Reaches with you, Viper!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_pugna_pugna_rival_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_05.mp3",
+      "transcript": "Viper, here you fly where below you crawled.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_pugna_pugna_rival_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_06.mp3",
+      "transcript": "I am the anti Anti-Mage.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_pugna_pugna_rival_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_07.mp3",
+      "transcript": "To Anti-Mage, with my compliments.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_pugna_pugna_rival_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_08.mp3",
+      "transcript": "Anti-Mage, it's like looking in a broken mirror.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_pugna_pugna_rival_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_09.mp3",
+      "transcript": "The real enigma is why you thought you could go up against me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_pugna_pugna_rival_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_10.mp3",
+      "transcript": "Shadow Shaman, I cast you out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_pugna_pugna_rival_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rival_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rival_11.mp3",
+      "transcript": "Obsidian Destroyer, your wards can't keep me away.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_pugna_pugna_rival_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_firstblood_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_firstblood_01.mp3",
+      "transcript": "Ah, first blood to Pugna.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_firstblood_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_firstblood_02.mp3",
+      "transcript": "Ah ha! First Blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_pugna_pugna_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_01.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_pugna_pugna_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_02.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_pugna_pugna_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_03.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_pugna_pugna_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_04.mp3",
+      "transcript": "More for me.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_pugna_pugna_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_05.mp3",
+      "transcript": "A small price to pay.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_pugna_pugna_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_06.mp3",
+      "transcript": "Nether toll.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_pugna_pugna_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_07.mp3",
+      "transcript": "You're finished.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_pugna_pugna_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_08.mp3",
+      "transcript": "Oblivious.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_pugna_pugna_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_09.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_pugna_pugna_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lasthit_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lasthit_10.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_pugna_pugna_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_pugna_pugna_deny_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_pugna_pugna_deny_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_03.mp3",
+      "transcript": "Let's not and say you did.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_pugna_pugna_deny_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_04.mp3",
+      "transcript": "Not on my watch.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_pugna_pugna_deny_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_05.mp3",
+      "transcript": "You're welcome.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_pugna_pugna_deny_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_06.mp3",
+      "transcript": "I don't think so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_pugna_pugna_deny_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_07.mp3",
+      "transcript": "Try again.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_pugna_pugna_deny_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_08.mp3",
+      "transcript": "No no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_deny_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_09.mp3",
+      "transcript": "Not while I'm around.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_pugna_pugna_deny_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_10.mp3",
+      "transcript": "Hu hu hu hu ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_pugna_pugna_deny_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_pugna_pugna_deny_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_deny_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_deny_12.mp3",
+      "transcript": "Ah ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_pugna_pugna_deny_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_purch_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_purch_01.mp3",
+      "transcript": "Seems like a solid investment.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_pugna_pugna_purch_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_purch_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_purch_02.mp3",
+      "transcript": "Not a bad price for making my enemies weep.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_pugna_pugna_purch_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_purch_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_purch_03.mp3",
+      "transcript": "Always wanted one of these.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_pugna_pugna_purch_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_blink_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_pugna_pugna_blink_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_blink_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_blink_02.mp3",
+      "transcript": "The only blade I'll ever need.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_pugna_pugna_blink_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_scepter_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_pugna_pugna_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_scepter_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_scepter_02.mp3",
+      "transcript": "I hereby banish any need for patience.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_pugna_pugna_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_scepter_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_scepter_03.mp3",
+      "transcript": "Life Drain - no waiting.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_pugna_pugna_scepter_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_item_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_item_01.mp3",
+      "transcript": "Mekansm it is, then.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_pugna_pugna_item_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_item_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_item_02.mp3",
+      "transcript": "Black King Bar, you are mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_pugna_pugna_item_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_immort_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_pugna_pugna_immort_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_immort_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_immort_02.mp3",
+      "transcript": "Deathless.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_pugna_pugna_immort_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_pugna_pugna_death_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_02.mp3",
+      "transcript": "The Nether Reaches take me…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_pugna_pugna_death_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_03.mp3",
+      "transcript": "I had hoped otherwise.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_pugna_pugna_death_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_04.mp3",
+      "transcript": "I should have known.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_pugna_pugna_death_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_05.mp3",
+      "transcript": "My reach exceeds my grasp.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_pugna_pugna_death_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_06.mp3",
+      "transcript": "I reach the end.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_pugna_pugna_death_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_07.mp3",
+      "transcript": "Ohhhh…blivion.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_pugna_pugna_death_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_08.mp3",
+      "transcript": "Child of oblivion.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_pugna_pugna_death_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_09.mp3",
+      "transcript": "I return to the Nether Reaches.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_pugna_pugna_death_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_10.mp3",
+      "transcript": "Nether again.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_pugna_pugna_death_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_11.mp3",
+      "transcript": "I can't say I'll miss this place.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_pugna_pugna_death_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_12.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_12.mp3",
+      "transcript": "This wasn't part of the plan.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_pugna_pugna_death_12.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_death_13.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_death_13.mp3",
+      "transcript": "I was ahead of my time.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_pugna_pugna_death_13.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_01.mp3",
+      "transcript": "I was just looking in on the Nether Reaches.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_pugna_pugna_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_02.mp3",
+      "transcript": "I'm back for more malice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_pugna_pugna_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_03.mp3",
+      "transcript": "Anyone miss me?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_pugna_pugna_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_04.mp3",
+      "transcript": "Oblivion ahead. He he he.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_pugna_pugna_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_05.mp3",
+      "transcript": "Ah, expelled from the Nether Reaches.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_pugna_pugna_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_07.mp3",
+      "transcript": "I renew my vows to cause the most possible suffering.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_pugna_pugna_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_08.mp3",
+      "transcript": "It's not like you're going to get anywhere without me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_pugna_pugna_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_09.mp3",
+      "transcript": "Ah, let's see if I can make the worst of a bad situation.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_pugna_pugna_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_10.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_10.mp3",
+      "transcript": "I'm back, and I've got a few ideas for some new headstones.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_pugna_pugna_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_respawn_11.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_respawn_11.mp3",
+      "transcript": "Ah, I'm not sure what happened back there, but I'm not going to let it happen again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_pugna_pugna_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_fastres_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_fastres_01.mp3",
+      "transcript": "You'll have to kill me twice!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_pugna_pugna_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_bottle_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_bottle_01.mp3",
+      "transcript": "I'll uncork this when the time is right.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_pugna_pugna_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_bottle_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_bottle_02.mp3",
+      "transcript": "A forethought of malice.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_pugna_pugna_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_bottle_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_bottle_03.mp3",
+      "transcript": "A nether vial.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_pugna_pugna_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_ability_nward_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_ability_nward_06.mp3",
+      "transcript": "The Nether reaches out!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_pugna_pugna_ability_nward_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_doubdam_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_pugna_pugna_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_doubdam_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_doubdam_02.mp3",
+      "transcript": "Doubly damned.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_pugna_pugna_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_haste_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_pugna_pugna_haste_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_haste_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_haste_02.mp3",
+      "transcript": "Swift sorceries.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_pugna_pugna_haste_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_illus_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_pugna_pugna_illus_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_illus_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_illus_02.mp3",
+      "transcript": "Sorcerers three are we.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_pugna_pugna_illus_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_invis_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_pugna_pugna_invis_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_invis_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_invis_02.mp3",
+      "transcript": "Oblivious to oblivion.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_pugna_pugna_invis_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_regen_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_regen_01.mp3",
+      "transcript": "Freegeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_pugna_pugna_regen_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_regen_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_regen_02.mp3",
+      "transcript": "Nether rejuvenation.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_pugna_pugna_regen_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_pugna_pugna_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_pugna_pugna_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_pugna_pugna_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_pugna_pugna_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_pugna_pugna_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_pugna_pugna_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_pugna_pugna_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_pugna_pugna_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_notyet_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_pugna_pugna_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_pugna_pugna_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_pugna_pugna_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_pugna_pugna_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_pugna_pugna_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_pugna_pugna_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_pugna_pugna_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_pugna_pugna_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_pugna_pugna_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_nomana_09.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_pugna_pugna_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_01.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_pugna_pugna_pain_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_pugna_pugna_pain_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_pugna_pugna_pain_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_pugna_pugna_pain_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_05.mp3",
+      "transcript": "Mh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_pugna_pugna_pain_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_pugna_pugna_pain_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_pugna_pugna_pain_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_pain_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_pain_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_pugna_pugna_pain_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_underattack_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_pugna_pugna_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rare_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rare_01.mp3",
+      "transcript": "All sorceries have their source in the Nether Reaches.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_pugna_pugna_rare_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rare_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rare_02.mp3",
+      "transcript": "Do you know why they call it the Nether Reaches? Because it reaches into you.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_pugna_pugna_rare_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rare_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rare_03.mp3",
+      "transcript": "As bad as things get, I can always come up with a way to make them a little worse.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_pugna_pugna_rare_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_rare_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_rare_04.mp3",
+      "transcript": "To master oblivion, you must become oblivion. Look into my eyes and you will see what I'm talking about.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_pugna_pugna_rare_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_thanks_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_pugna_pugna_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_thanks_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_thanks_02.mp3",
+      "transcript": "In your debt.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_pugna_pugna_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_03.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_pugna_pugna_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_pugna_pugna_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_05.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_pugna_pugna_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_06.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_06.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_07.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_07.mp3",
+      "transcript": "Huh ha ha ha huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_pugna_pugna_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_laugh_08.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_pugna_pugna_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_win_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_win_01.mp3",
+      "transcript": "Ha, yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_pugna_pugna_win_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_win_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_win_02.mp3",
+      "transcript": "Victory.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_pugna_pugna_win_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_win_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_win_03.mp3",
+      "transcript": "Let Oblivion ring with Pugna's endless victories!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_win_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lose_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_pugna_pugna_lose_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lose_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_pugna_pugna_lose_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_lose_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_lose_03.mp3",
+      "transcript": "Victory slips out of reach!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_pugna_pugna_lose_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_happy_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_happy_01.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_pugna_pugna_happy_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_happy_04.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_happy_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_pugna_pugna_happy_04.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_happy_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_happy_03.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_pugna_pugna_happy_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_shitwiz_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_pugna_pugna_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_crumwiz_01.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_pugna_pugna_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_anger_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_anger_02.mp3",
+      "transcript": "Huuhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_pugna_pugna_anger_02.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_anger_03.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_anger_03.mp3",
+      "transcript": "Grrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_pugna_pugna_anger_03.mp3"
+    },
+    {
+      "file": "Vo_pugna_pugna_happy_02.mp3",
+      "key": "dota2/pugna/Vo_pugna_pugna_happy_02.mp3",
+      "transcript": "Oh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_pugna_pugna_happy_02.mp3"
+    }
+  ]
+}

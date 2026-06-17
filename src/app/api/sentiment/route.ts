@@ -16,6 +16,7 @@ export const POST = async (request: NextRequest) => {
   try {
     const classifier = await pipeline("sentiment-analysis");
     const classifierResult = await classifier(text);
+
     return NextResponse.json({
       sentiment: classifierResult,
     });

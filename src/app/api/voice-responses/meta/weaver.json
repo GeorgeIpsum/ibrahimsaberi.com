@@ -1,0 +1,2273 @@
+{
+  "hero": "Weaver",
+  "slug": "weaver",
+  "source": "https://liquipedia.net/dota2/Weaver/Responses",
+  "scrapedAt": "2026-06-17T14:10:36.487Z",
+  "count": 224,
+  "voicelines": [
+    {
+      "file": "Vo_weaver_weav_spawn_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_spawn_01.mp3",
+      "transcript": "Weaver!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_weaver_weav_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_spawn_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_spawn_02.mp3",
+      "transcript": "Darkness weaves.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_weaver_weav_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_spawn_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_spawn_03.mp3",
+      "transcript": "The threads of fate are mine to weave.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_weaver_weav_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_spawn_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_spawn_04.mp3",
+      "transcript": "The loom weaves and a new pattern appears.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_weaver_weav_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_spawn_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_spawn_05.mp3",
+      "transcript": "I enter the pattern.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_weaver_weav_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_battlebegins_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_battlebegins_01.mp3",
+      "transcript": "Let's weave a battle plan.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_weaver_weav_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_11.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_11.mp3",
+      "transcript": "Cut and weave!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_weaver_weav_move_11.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_15.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_15.mp3",
+      "transcript": "Scuttling in.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_weaver_weav_move_15.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_16.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_16.mp3",
+      "transcript": "Skitter on.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_weaver_weav_move_16.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_01.mp3",
+      "transcript": "I weave your fate!",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_weaver_weav_kill_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_03.mp3",
+      "transcript": "A feast for my beetles.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_weaver_weav_kill_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_04.mp3",
+      "transcript": "More fates for me to weave.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_weaver_weav_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_01.mp3",
+      "transcript": "Eeeeheh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_weaver_weav_anger_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_inthebag_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_weaver_weav_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_weaver_weav_move_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_weaver_weav_move_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_03.mp3",
+      "transcript": "Yehehes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_weaver_weav_move_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_04.mp3",
+      "transcript": "Hehehcheehchessses.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_weaver_weav_move_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_05.mp3",
+      "transcript": "Yehessess.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_weaver_weav_move_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_06.mp3",
+      "transcript": "Yeehehehess.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_weaver_weav_move_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_07.mp3",
+      "transcript": "Checklichicklilehechiaz.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_weaver_weav_move_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_08.mp3",
+      "transcript": "Checklichicklileh",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_weaver_weav_move_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_09.mp3",
+      "transcript": "Tichedricheaph.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_weaver_weav_move_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_10.mp3",
+      "transcript": "Ticheticherateh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_weaver_weav_move_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_12.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_12.mp3",
+      "transcript": "I loom.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_weaver_weav_move_12.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_13.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_13.mp3",
+      "transcript": "Shutlle off.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_weaver_weav_move_13.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_14.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_14.mp3",
+      "transcript": "I am compelled.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_weaver_weav_move_14.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_17.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_17.mp3",
+      "transcript": "Creep and crawl.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_weaver_weav_move_17.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_18.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_18.mp3",
+      "transcript": "Bitter pattern.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_weaver_weav_move_18.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_19.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_19.mp3",
+      "transcript": "Clickity click.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_weaver_weav_move_19.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_move_20.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_move_20.mp3",
+      "transcript": "I must.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_weaver_weav_move_20.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_weaver_weav_attack_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_02.mp3",
+      "transcript": "Rend you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_weaver_weav_attack_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_03.mp3",
+      "transcript": "Strike!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_weaver_weav_attack_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_04.mp3",
+      "transcript": "Slash!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_weaver_weav_attack_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_05.mp3",
+      "transcript": "Infest.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_weaver_weav_attack_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_06.mp3",
+      "transcript": "Tear the threads.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_weaver_weav_attack_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_07.mp3",
+      "transcript": "Snip snip.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_weaver_weav_attack_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_08.mp3",
+      "transcript": "Cut you down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_weaver_weav_attack_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_09.mp3",
+      "transcript": "Out of time's weave.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_weaver_weav_attack_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_10.mp3",
+      "transcript": "Into the fray!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_weaver_weav_attack_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_attack_11.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_attack_11.mp3",
+      "transcript": "Scatter.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_weaver_weav_attack_11.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_gemin_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_gemin_01.mp3",
+      "transcript": "Chechechheh.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_weaver_weav_ability_gemin_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_gemin_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_gemin_02.mp3",
+      "transcript": "Dedjchedeh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_weaver_weav_ability_gemin_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_gemin_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_gemin_03.mp3",
+      "transcript": "dhehe!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_weaver_weav_ability_gemin_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_gemin_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_gemin_04.mp3",
+      "transcript": "Hechechechecha.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_weaver_weav_ability_gemin_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_gemin_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_gemin_05.mp3",
+      "transcript": "Hechehchchehka!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_weaver_weav_ability_gemin_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_cast_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_cast_01.mp3",
+      "transcript": "I fall upon you!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_weaver_weav_cast_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_cast_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_cast_02.mp3",
+      "transcript": "Caught in your own life's thread.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_weaver_weav_cast_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_cast_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_cast_03.mp3",
+      "transcript": "Your life unspools!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_weaver_weav_cast_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_01.mp3",
+      "transcript": "Feed the swarm!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_weaver_weav_ability_swarm_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_02.mp3",
+      "transcript": "We've been waiting.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_weaver_weav_ability_swarm_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_03.mp3",
+      "transcript": "Swarm them!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_weaver_weav_ability_swarm_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_04.mp3",
+      "transcript": "Swarm them!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_weaver_weav_ability_swarm_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_05.mp3",
+      "transcript": "After them!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_weaver_weav_ability_swarm_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_swarm_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_swarm_06.mp3",
+      "transcript": "Skitter scatter!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_weaver_weav_ability_swarm_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_shukuchi_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_shukuchi_01.mp3",
+      "transcript": "Passing through.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_weaver_weav_ability_shukuchi_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_shukuchi_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_shukuchi_03.mp3",
+      "transcript": "Phasing in.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_weaver_weav_ability_shukuchi_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_shukuchi_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_shukuchi_02.mp3",
+      "transcript": "Don't mind me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_weaver_weav_ability_shukuchi_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_shukuchi_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_shukuchi_04.mp3",
+      "transcript": "Your fate is mine.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_weaver_weav_ability_shukuchi_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_01.mp3",
+      "transcript": "Skitter back!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_weaver_weav_ability_timelap_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_02.mp3",
+      "transcript": "Recoil!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_weaver_weav_ability_timelap_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_03.mp3",
+      "transcript": "Relapse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_weaver_weav_ability_timelap_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_04.mp3",
+      "transcript": "Stitch in time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_weaver_weav_ability_timelap_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_05.mp3",
+      "transcript": "You thought you had me, didn't you?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_weaver_weav_ability_timelap_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_timelap_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_timelap_06.mp3",
+      "transcript": "It's not my time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_weaver_weav_ability_timelap_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_01.mp3",
+      "transcript": "Ah, I see more of the pattern.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_weaver_weav_level_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_02.mp3",
+      "transcript": "The great loom weaves.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_weaver_weav_level_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_03.mp3",
+      "transcript": "A tighter weave!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_weaver_weav_level_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_04.mp3",
+      "transcript": "A taut thread.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_weaver_weav_level_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_05.mp3",
+      "transcript": "Nyehah ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_weaver_weav_level_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_06.mp3",
+      "transcript": "Snick nik nok.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_weaver_weav_level_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_07.mp3",
+      "transcript": "Snk nk nk nk scknt.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_weaver_weav_level_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_level_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_level_08.mp3",
+      "transcript": "Heha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_weaver_weav_level_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_02.mp3",
+      "transcript": "Your vital thread is broken.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_weaver_weav_kill_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_04.mp3",
+      "transcript": "You've been spooled.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_weaver_weav_kill_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_05.mp3",
+      "transcript": "I'll thread the needle through your eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_weaver_weav_kill_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_06.mp3",
+      "transcript": "Shuttle and loom, I weave your doom.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_weaver_weav_kill_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_07.mp3",
+      "transcript": "I'm sensing a pattern here.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_weaver_weav_kill_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_08.mp3",
+      "transcript": "Your life's in tatters.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_weaver_weav_kill_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_09.mp3",
+      "transcript": "To the loom with you, to be rewoven.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_weaver_weav_kill_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_10.mp3",
+      "transcript": "A snag in your timeline.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_weaver_weav_kill_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_11.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_11.mp3",
+      "transcript": "Heyehenyeahah.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_weaver_weav_kill_11.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_kill_12.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_kill_12.mp3",
+      "transcript": "Hooweheowhow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_weaver_weav_kill_12.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rival_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rival_04.mp3",
+      "transcript": "So vulnerable.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_weaver_weav_rival_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_01.mp3",
+      "transcript": "Hehehheeh",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_weaver_weav_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_02.mp3",
+      "transcript": "Whooechecheche.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_weaver_weav_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_03.mp3",
+      "transcript": "Thslkfsljhe eheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_weaver_weav_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_04.mp3",
+      "transcript": "Hehehhehah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_weaver_weav_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_05.mp3",
+      "transcript": "Hehhah hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_weaver_weav_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_06.mp3",
+      "transcript": "Hehahahheehha haha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_weaver_weav_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_07.mp3",
+      "transcript": "Heha ha hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_weaver_weav_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_08.mp3",
+      "transcript": "Hehe hah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_weaver_weav_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_09.mp3",
+      "transcript": "Whohoha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_weaver_weav_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_laugh_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_laugh_10.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_weaver_weav_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rival_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rival_01.mp3",
+      "transcript": "Who puts their skeleton on the inside?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_weaver_weav_rival_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rival_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rival_02.mp3",
+      "transcript": "That's no way to protect your vitals.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_weaver_weav_rival_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rival_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rival_03.mp3",
+      "transcript": "You're inside out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_weaver_weav_rival_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rival_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rival_05.mp3",
+      "transcript": "What sort of bug are you, Assassin?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_weaver_weav_rival_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_firstblood_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_firstblood_01.mp3",
+      "transcript": "First blood, heha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_weaver_weav_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_firstblood_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_firstblood_02.mp3",
+      "transcript": "The first thread is cut.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_weaver_weav_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_01.mp3",
+      "transcript": "Snik-snack.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_weaver_weav_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_02.mp3",
+      "transcript": "Waste nothing.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_weaver_weav_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_03.mp3",
+      "transcript": "Snared.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_weaver_weav_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_04.mp3",
+      "transcript": "Caught.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_weaver_weav_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_05.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_weaver_weav_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_06.mp3",
+      "transcript": "A golden thread.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_weaver_weav_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_07.mp3",
+      "transcript": "Ho, snap!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_weaver_weav_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_08.mp3",
+      "transcript": "A bit threadbare.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_weaver_weav_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_09.mp3",
+      "transcript": "Hehe heh heeeh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_weaver_weav_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lasthit_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lasthit_10.mp3",
+      "transcript": "Sting!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_weaver_weav_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_weaver_weav_deny_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_weaver_weav_deny_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_03.mp3",
+      "transcript": "Better not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_weaver_weav_deny_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_04.mp3",
+      "transcript": "Sni, snoo.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_weaver_weav_deny_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_05.mp3",
+      "transcript": "Cut off.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_weaver_weav_deny_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_06.mp3",
+      "transcript": "Clipped.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_weaver_weav_deny_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_07.mp3",
+      "transcript": "nyah hah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_weaver_weav_deny_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_08.mp3",
+      "transcript": "Yeheh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_weaver_weav_deny_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_09.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_weaver_weav_deny_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_deny_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_deny_10.mp3",
+      "transcript": "Hohaeh he heh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_weaver_weav_deny_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_purch_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_purch_01.mp3",
+      "transcript": "My pattern demands it.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_weaver_weav_purch_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_purch_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_purch_02.mp3",
+      "transcript": "It's all part of the pattern.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_weaver_weav_purch_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_purch_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_purch_03.mp3",
+      "transcript": "I've been weaving my way toward this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_weaver_weav_purch_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_blink_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_blink_01.mp3",
+      "transcript": "Ahu, blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_weaver_weav_blink_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_blink_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_blink_02.mp3",
+      "transcript": "I'll cut their threads with this dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_weaver_weav_blink_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_scepter_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_weaver_weav_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_scepter_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_scepter_02.mp3",
+      "transcript": "Weave your spell on me, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_weaver_weav_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_item_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_item_01.mp3",
+      "transcript": "Glorious radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_weaver_weav_item_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_item_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_item_02.mp3",
+      "transcript": "Ahh, Linken's Sphere.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_weaver_weav_item_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_item_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_item_03.mp3",
+      "transcript": "Vanguard, you are mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_weaver_weav_item_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_immort_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_weaver_weav_immort_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_immort_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_immort_02.mp3",
+      "transcript": "Oh, pattern eternal.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_weaver_weav_immort_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_01.mp3",
+      "transcript": "Noooohoho!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_weaver_weav_death_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_02.mp3",
+      "transcript": "Our fates were woven from the first.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_weaver_weav_death_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_03.mp3",
+      "transcript": "The weft is sundered.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_weaver_weav_death_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_04.mp3",
+      "transcript": "My soul unspools.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_weaver_weav_death_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_05.mp3",
+      "transcript": "I'm…frayed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_weaver_weav_death_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_06.mp3",
+      "transcript": "I hate this pattern.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_weaver_weav_death_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_07.mp3",
+      "transcript": "Well, that's a snag.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_weaver_weav_death_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_08.mp3",
+      "transcript": "My timeline snaps.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_weaver_weav_death_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_09.mp3",
+      "transcript": "Caught in the mesh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_weaver_weav_death_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_10.mp3",
+      "transcript": "A tear in the pattern.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_weaver_weav_death_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_death_11.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_death_11.mp3",
+      "transcript": "I hate to leave loose ends.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_weaver_weav_death_11.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_01.mp3",
+      "transcript": "It was just a phase.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_weaver_weav_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_02.mp3",
+      "transcript": "A pattern repeats.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_weaver_weav_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_03.mp3",
+      "transcript": "I'll weave a brighter pattern this time.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_weaver_weav_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_05.mp3",
+      "transcript": "The Loom weaves my life anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_weaver_weav_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_06.mp3",
+      "transcript": "My life's pattern reworked!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_weaver_weav_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_07.mp3",
+      "transcript": "Respooled.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_weaver_weav_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_08.mp3",
+      "transcript": "I must repair what came undone.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_weaver_weav_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_09.mp3",
+      "transcript": "I'll avoid any further entanglements.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_weaver_weav_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_10.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_10.mp3",
+      "transcript": "My life by the Loom rewoven.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_weaver_weav_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_respawn_11.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_respawn_11.mp3",
+      "transcript": "I spring from the Loom.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_weaver_weav_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_fastres_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_fastres_01.mp3",
+      "transcript": "There's a snag in your plans.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_weaver_weav_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_bottle_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_bottle_01.mp3",
+      "transcript": "You'll have a place in the pattern.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_weaver_weav_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_bottle_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_bottle_02.mp3",
+      "transcript": "Packed away.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_weaver_weav_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_bottle_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_bottle_03.mp3",
+      "transcript": "I wove this bottle myself.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_weaver_weav_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_shukuchi_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_shukuchi_05.mp3",
+      "transcript": "Relentless.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_weaver_weav_ability_shukuchi_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_doubdam_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_weaver_weav_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_doubdam_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_doubdam_02.mp3",
+      "transcript": "Snick snick.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_weaver_weav_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_haste_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_weaver_weav_haste_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_haste_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_haste_02.mp3",
+      "transcript": "The shuttle flies.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_weaver_weav_haste_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_illus_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_weaver_weav_illus_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_illus_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_illus_02.mp3",
+      "transcript": "Cut from the same cloth.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_weaver_weav_illus_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_invis_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_weaver_weav_invis_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_invis_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_invis_02.mp3",
+      "transcript": "See no weaver.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_weaver_weav_invis_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_regen_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_weaver_weav_regen_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_regen_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_regen_02.mp3",
+      "transcript": "The pattern rewoven.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_weaver_weav_regen_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_weaver_weav_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_weaver_weav_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_weaver_weav_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_weaver_weav_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_weaver_weav_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_weaver_weav_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_weaver_weav_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_weaver_weav_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_notyet_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_weaver_weav_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_weaver_weav_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_weaver_weav_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_weaver_weav_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_weaver_weav_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_weaver_weav_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_weaver_weav_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_weaver_weav_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_08.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_weaver_weav_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_nomana_09.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_weaver_weav_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_weaver_weav_pain_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_02.mp3",
+      "transcript": "Ow.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_weaver_weav_pain_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_03.mp3",
+      "transcript": "Oah eh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_weaver_weav_pain_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_04.mp3",
+      "transcript": "Oooh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_weaver_weav_pain_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_05.mp3",
+      "transcript": "Ahw.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_weaver_weav_pain_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_06.mp3",
+      "transcript": "Aahh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_weaver_weav_pain_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_pain_07.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_pain_07.mp3",
+      "transcript": "Oweh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_weaver_weav_pain_07.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_underattack_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_weaver_weav_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rare_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rare_01.mp3",
+      "transcript": "Few know their place in the cosmic weave. Fewer still can lay their claws upon the Loom and influence the pattern.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_weaver_weav_rare_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rare_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rare_02.mp3",
+      "transcript": "Fate weaves the threads of our lives together. Fate also wields the blade that cuts them short.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_weaver_weav_rare_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_rare_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_rare_03.mp3",
+      "transcript": "Here I am.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_weaver_weav_rare_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_thanks_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_weaver_weav_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_thanks_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_thanks_02.mp3",
+      "transcript": "I'm in your debt.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_weaver_weav_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_win_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_win_01.mp3",
+      "transcript": "Yehehehes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_weaver_weav_win_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_win_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_win_02.mp3",
+      "transcript": "Victorehee!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_weaver_weav_win_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_win_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_win_03.mp3",
+      "transcript": "The pattern is complete.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_weaver_weav_win_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_win_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_win_04.mp3",
+      "transcript": "He heh haha!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_weaver_weav_win_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lose_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lose_01.mp3",
+      "transcript": "No ho ho ho!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_weaver_weav_lose_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lose_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lose_02.mp3",
+      "transcript": "Nooooho!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_weaver_weav_lose_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lose_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lose_03.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_weaver_weav_lose_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lose_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lose_04.mp3",
+      "transcript": "The pattern unravels, eh heh.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_weaver_weav_lose_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_lose_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_lose_05.mp3",
+      "transcript": "The Loom…lies…broken!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_weaver_weav_lose_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_happy_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_happy_05.mp3",
+      "transcript": "Hehaahe.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_weaver_weav_happy_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_happy_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_happy_03.mp3",
+      "transcript": "Yeeehess.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_weaver_weav_happy_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_happy_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_happy_04.mp3",
+      "transcript": "Ohoohooho.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_weaver_weav_happy_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_failure_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_failure_01.mp3",
+      "transcript": "Tchehea!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_weaver_weav_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_failure_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_failure_02.mp3",
+      "transcript": "Nyeooeh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_weaver_weav_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_ability_failure_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_ability_failure_03.mp3",
+      "transcript": "nohoho.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_weaver_weav_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_shitwiz_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_weaver_weav_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_crumwiz_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_weaver_weav_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_02.mp3",
+      "transcript": "Heearh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_weaver_weav_anger_02.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_03.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_03.mp3",
+      "transcript": "Aareheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_weaver_weav_anger_03.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_04.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_04.mp3",
+      "transcript": "Weareah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_weaver_weav_anger_04.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_05.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_05.mp3",
+      "transcript": "Owyouheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_weaver_weav_anger_05.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_anger_06.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_anger_06.mp3",
+      "transcript": "Ohweyh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_weaver_weav_anger_06.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_happy_01.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_happy_01.mp3",
+      "transcript": "Ehhheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_weaver_weav_happy_01.mp3"
+    },
+    {
+      "file": "Vo_weaver_weav_happy_02.mp3",
+      "key": "dota2/weaver/Vo_weaver_weav_happy_02.mp3",
+      "transcript": "Heeeh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_weaver_weav_happy_02.mp3"
+    }
+  ]
+}

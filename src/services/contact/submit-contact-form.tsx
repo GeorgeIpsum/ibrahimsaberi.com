@@ -23,7 +23,7 @@ const randomTimeRange = () => clampedNumber(1800, 3600);
 const sleepRandom = () => sleep(randomTimeRange());
 
 const TOAST_ID = "contact-form-subtask";
-const SUBTASK_SUCCESS_CHANCE = 0.6;
+const SUBTASK_SUCCESS_CHANCE = 0.505;
 const MIN_SUBTASKS = 3;
 const MAX_SUBTASKS = 6;
 
@@ -273,6 +273,13 @@ export const attemptContactFormSubmission = async () => {
       excludedSubtasks.push(...chosenSubtasks);
 
       return [
+        async (data: TaskData) => {
+          // jank way to break out of the pipe early if the task is already finished from a previous fallback sequence
+          if (data.finished) {
+            throw new Error("ERR_TASK_COMPLETE_UH_OH");
+          }
+          return data;
+        },
         (data: TaskData) =>
           startSequence({
             ...data,

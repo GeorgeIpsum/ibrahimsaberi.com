@@ -1,0 +1,2295 @@
+{
+  "hero": "Ancient Apparition",
+  "slug": "ancient-apparition",
+  "source": "https://liquipedia.net/dota2/Ancient_Apparition/Responses",
+  "scrapedAt": "2026-06-17T14:11:07.146Z",
+  "count": 226,
+  "voicelines": [
+    {
+      "file": "Vo_ancient_apparition_appa_spawn_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_spawn_01.mp3",
+      "transcript": "Ancient Apparition!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ancient_apparition_appa_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_spawn_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_spawn_02.mp3",
+      "transcript": "The Age of Ice begins!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_ancient_apparition_appa_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_spawn_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_spawn_03.mp3",
+      "transcript": "A cold wind blows.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_ancient_apparition_appa_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_spawn_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_spawn_04.mp3",
+      "transcript": "Ice elemental.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_ancient_apparition_appa_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_10.mp3",
+      "transcript": "I run cold!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_ancient_apparition_appa_move_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_firstblood_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_firstblood_02.mp3",
+      "transcript": "Cold blooded!",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_ancient_apparition_appa_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_04.mp3",
+      "transcript": "In cold blood.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ancient_apparition_appa_attack_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_10.mp3",
+      "transcript": "Behold the apparition.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_ancient_apparition_appa_attack_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_11.mp3",
+      "transcript": "Ancient onslaught.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_ancient_apparition_appa_attack_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_cast_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_cast_02.mp3",
+      "transcript": "I come for you.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_ancient_apparition_appa_cast_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_touch_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_touch_01.mp3",
+      "transcript": "Feel the chill!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_ancient_apparition_appa_ability_touch_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_03.mp3",
+      "transcript": "A dark summons!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_ancient_apparition_appa_ability_iceblast_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_ancient_apparition_appa_anger_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_inthebag_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_ancient_apparition_appa_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_battlebegins_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_battlebegins_01.mp3",
+      "transcript": "Time to break the ice!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_ancient_apparition_appa_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_ancient_apparition_appa_move_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_ancient_apparition_appa_move_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_03.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_ancient_apparition_appa_move_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_04.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_ancient_apparition_appa_move_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_ancient_apparition_appa_move_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_06.mp3",
+      "transcript": "As you will!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ancient_apparition_appa_move_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_07.mp3",
+      "transcript": "Ice flows!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ancient_apparition_appa_move_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_08.mp3",
+      "transcript": "As you say!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ancient_apparition_appa_move_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_09.mp3",
+      "transcript": "Cascade!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_ancient_apparition_appa_move_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_11.mp3",
+      "transcript": "Bitterly!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_ancient_apparition_appa_move_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_12.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_12.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_ancient_apparition_appa_move_12.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_13.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_13.mp3",
+      "transcript": "As you require!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_ancient_apparition_appa_move_13.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_14.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_14.mp3",
+      "transcript": "The spirit moves me!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_ancient_apparition_appa_move_14.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_15.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_15.mp3",
+      "transcript": "Of course!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ancient_apparition_appa_move_15.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_16.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_16.mp3",
+      "transcript": "Onward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_ancient_apparition_appa_move_16.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_17.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_17.mp3",
+      "transcript": "A course disturbed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_ancient_apparition_appa_move_17.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_move_18.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_move_18.mp3",
+      "transcript": "Haunted path.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_ancient_apparition_appa_move_18.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_02.mp3",
+      "transcript": "Hail comes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ancient_apparition_appa_ability_iceblast_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_05.mp3",
+      "transcript": "Blessed ice!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ancient_apparition_appa_ability_iceblast_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_ancient_apparition_appa_attack_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_ancient_apparition_appa_attack_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_03.mp3",
+      "transcript": "Blast you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ancient_apparition_appa_attack_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_05.mp3",
+      "transcript": "Icefog!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_ancient_apparition_appa_attack_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_06.mp3",
+      "transcript": "Cold terror!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_ancient_apparition_appa_attack_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_07.mp3",
+      "transcript": "Hoary frost upon you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_ancient_apparition_appa_attack_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_08.mp3",
+      "transcript": "Permafrost!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ancient_apparition_appa_attack_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_09.mp3",
+      "transcript": "Ancient chill!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ancient_apparition_appa_attack_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_12.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_12.mp3",
+      "transcript": "Break you down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_ancient_apparition_appa_attack_12.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_attack_13.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_attack_13.mp3",
+      "transcript": "Sap your heat.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ancient_apparition_appa_attack_13.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_cast_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_cast_01.mp3",
+      "transcript": "Frozen fast.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ancient_apparition_appa_cast_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_cast_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_cast_03.mp3",
+      "transcript": "Set loose the fog of war.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_ancient_apparition_appa_cast_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_coldfeet_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_coldfeet_01.mp3",
+      "transcript": "Got cold feet?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_ancient_apparition_appa_ability_coldfeet_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_coldfeet_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_coldfeet_02.mp3",
+      "transcript": "Stay where you are!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_ancient_apparition_appa_ability_coldfeet_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_coldfeet_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_coldfeet_03.mp3",
+      "transcript": "Freeze.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_ancient_apparition_appa_ability_coldfeet_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_coldfeet_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_coldfeet_04.mp3",
+      "transcript": "Freeze!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_ancient_apparition_appa_ability_coldfeet_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_ancient_apparition_appa_ability_vortex_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_02.mp3",
+      "transcript": "Ssssss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ancient_apparition_appa_ability_vortex_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_03.mp3",
+      "transcript": "Whoooo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_ancient_apparition_appa_ability_vortex_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_04.mp3",
+      "transcript": "Haaaaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_ancient_apparition_appa_ability_vortex_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_05.mp3",
+      "transcript": "Ice vortex!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_ancient_apparition_appa_ability_vortex_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_vortex_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_vortex_06.mp3",
+      "transcript": "Cold swirl!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_ancient_apparition_appa_ability_vortex_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_touch_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_touch_02.mp3",
+      "transcript": "Ice preserves you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ancient_apparition_appa_ability_touch_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_touch_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_touch_03.mp3",
+      "transcript": "Cold save us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_ancient_apparition_appa_ability_touch_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_touch_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_touch_04.mp3",
+      "transcript": "A preserving cold.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_ancient_apparition_appa_ability_touch_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_01.mp3",
+      "transcript": "Ice blast!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_ancient_apparition_appa_ability_iceblast_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_04.mp3",
+      "transcript": "Spell of ages!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_ancient_apparition_appa_ability_iceblast_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_06.mp3",
+      "transcript": "Blast ice!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ancient_apparition_appa_ability_iceblast_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_07.mp3",
+      "transcript": "Sharded shrapnel!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_ancient_apparition_appa_ability_iceblast_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_08.mp3",
+      "transcript": "Hail of death!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_ancient_apparition_appa_ability_iceblast_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_ability_iceblast_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_ability_iceblast_09.mp3",
+      "transcript": "Shattered!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_ancient_apparition_appa_ability_iceblast_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_01.mp3",
+      "transcript": "Older and wiser.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_ancient_apparition_appa_level_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_02.mp3",
+      "transcript": "Winter grows colder.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_ancient_apparition_appa_level_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_03.mp3",
+      "transcript": "Ice takes all.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_ancient_apparition_appa_level_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_04.mp3",
+      "transcript": "Absolute zero.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ancient_apparition_appa_level_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_05.mp3",
+      "transcript": "Ancient but hardly frail.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ancient_apparition_appa_level_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_ancient_apparition_appa_level_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_ancient_apparition_appa_level_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_level_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_level_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_ancient_apparition_appa_level_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_01.mp3",
+      "transcript": "The frost takes you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_ancient_apparition_appa_kill_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_02.mp3",
+      "transcript": "No shard feelings. Hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ancient_apparition_appa_kill_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_03.mp3",
+      "transcript": "Your blood runs cold.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_ancient_apparition_appa_kill_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_04.mp3",
+      "transcript": "Ice bejewels your corpse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ancient_apparition_appa_kill_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_05.mp3",
+      "transcript": "Embrace cold death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_ancient_apparition_appa_kill_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_06.mp3",
+      "transcript": "From time's cradle I bring death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_ancient_apparition_appa_kill_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_07.mp3",
+      "transcript": "Hm hm hm hm…your summer is over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_ancient_apparition_appa_kill_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_08.mp3",
+      "transcript": "Winter is at hand.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_ancient_apparition_appa_kill_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_09.mp3",
+      "transcript": "Now is the winter of your disembowelment.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_ancient_apparition_appa_kill_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_10.mp3",
+      "transcript": "Pale and trembling.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ancient_apparition_appa_kill_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_11.mp3",
+      "transcript": "Ancient is as ancient does.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_ancient_apparition_appa_kill_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_12.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_12.mp3",
+      "transcript": "You'll grow colder but no older.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_ancient_apparition_appa_kill_12.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_13.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_13.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_ancient_apparition_appa_kill_13.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_14.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_14.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ancient_apparition_appa_kill_14.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_15.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_15.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_ancient_apparition_appa_kill_15.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_16.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_16.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_ancient_apparition_appa_kill_16.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_kill_17.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_kill_17.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_ancient_apparition_appa_kill_17.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_01.mp3",
+      "transcript": "Hm hm hm ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_ancient_apparition_appa_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_02.mp3",
+      "transcript": "Hahahhahahahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_ancient_apparition_appa_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_ancient_apparition_appa_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_04.mp3",
+      "transcript": "Hm hm hm hm ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Activating runes",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_ancient_apparition_appa_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_05.mp3",
+      "transcript": "Hm hm hm hm ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_ancient_apparition_appa_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_06.mp3",
+      "transcript": "Hm hm hm hm ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_ancient_apparition_appa_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_07.mp3",
+      "transcript": "Hm hm ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_ancient_apparition_appa_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ancient_apparition_appa_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_09.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_ancient_apparition_appa_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_laugh_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_laugh_10.mp3",
+      "transcript": "Ha ho ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_ancient_apparition_appa_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rival_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rival_01.mp3",
+      "transcript": "Crystal Maiden, you dare cross ice with me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ancient_apparition_appa_rival_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rival_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rival_02.mp3",
+      "transcript": "Lina, frozen out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_ancient_apparition_appa_rival_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rival_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rival_03.mp3",
+      "transcript": "Pudge, it's the meat locker for you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ancient_apparition_appa_rival_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rival_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rival_04.mp3",
+      "transcript": "Lich, your ice is weak.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_ancient_apparition_appa_rival_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rival_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rival_05.mp3",
+      "transcript": "Enigma, elemental to elemental.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_ancient_apparition_appa_rival_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_firstblood_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_firstblood_01.mp3",
+      "transcript": "First blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_ancient_apparition_appa_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_01.mp3",
+      "transcript": "Cold shard cash.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_ancient_apparition_appa_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_02.mp3",
+      "transcript": "Age before beauty.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_ancient_apparition_appa_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_03.mp3",
+      "transcript": "Senior discount.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_ancient_apparition_appa_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_04.mp3",
+      "transcript": "Interesting.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_ancient_apparition_appa_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_05.mp3",
+      "transcript": "Colder than gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_ancient_apparition_appa_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_06.mp3",
+      "transcript": "Wages of war.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_ancient_apparition_appa_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_07.mp3",
+      "transcript": "A tidy sum.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_ancient_apparition_appa_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lasthit_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lasthit_08.mp3",
+      "transcript": "The cost of frost.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_ancient_apparition_appa_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_01.mp3",
+      "transcript": "Ah, denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_ancient_apparition_appa_deny_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ancient_apparition_appa_deny_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_03.mp3",
+      "transcript": "Huh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_ancient_apparition_appa_deny_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_ancient_apparition_appa_deny_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_05.mp3",
+      "transcript": "I think not!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ancient_apparition_appa_deny_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_06.mp3",
+      "transcript": "Froze you out!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_ancient_apparition_appa_deny_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_07.mp3",
+      "transcript": "Feh, youth today.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_ancient_apparition_appa_deny_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_08.mp3",
+      "transcript": "Not til you're older.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_ancient_apparition_appa_deny_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_09.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_ancient_apparition_appa_deny_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_ancient_apparition_appa_deny_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_deny_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_deny_11.mp3",
+      "transcript": "Hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_ancient_apparition_appa_deny_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_purch_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_purch_01.mp3",
+      "transcript": "Unfroze my assets for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_ancient_apparition_appa_purch_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_purch_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_purch_02.mp3",
+      "transcript": "I waited ages but it was worth it.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_ancient_apparition_appa_purch_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_purch_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_purch_03.mp3",
+      "transcript": "At last I have you.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_ancient_apparition_appa_purch_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_scepter_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_ancient_apparition_appa_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_scepter_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_scepter_02.mp3",
+      "transcript": "Scepter, like a shard of ice.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ancient_apparition_appa_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_blink_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ancient_apparition_appa_blink_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_blink_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_blink_02.mp3",
+      "transcript": "Sharp as winter's teeth.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ancient_apparition_appa_blink_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_item_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_item_01.mp3",
+      "transcript": "Ah, sheepstick!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_ancient_apparition_appa_item_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_item_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_item_02.mp3",
+      "transcript": "Ah, Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_ancient_apparition_appa_item_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_item_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_item_03.mp3",
+      "transcript": "Eye of Skadi!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_ancient_apparition_appa_item_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_immort_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ancient_apparition_appa_immort_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_immort_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_immort_02.mp3",
+      "transcript": "Endless winter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_ancient_apparition_appa_immort_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ancient_apparition_appa_death_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ancient_apparition_appa_death_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_03.mp3",
+      "transcript": "Cold hand, cold heart.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_ancient_apparition_appa_death_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_04.mp3",
+      "transcript": "Out cold.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_ancient_apparition_appa_death_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_05.mp3",
+      "transcript": "I return to time's cradle.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_ancient_apparition_appa_death_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_06.mp3",
+      "transcript": "The heat is on.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_ancient_apparition_appa_death_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_07.mp3",
+      "transcript": "Dispersed to the winds.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ancient_apparition_appa_death_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_08.mp3",
+      "transcript": "A south wind blows.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_ancient_apparition_appa_death_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_09.mp3",
+      "transcript": "I'll come round again.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ancient_apparition_appa_death_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_10.mp3",
+      "transcript": "Warmer climes await.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_ancient_apparition_appa_death_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_11.mp3",
+      "transcript": "Spirited away!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_ancient_apparition_appa_death_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_12.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_12.mp3",
+      "transcript": "The spirit is willing but the ice is weak.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_ancient_apparition_appa_death_12.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_death_13.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_death_13.mp3",
+      "transcript": "I'm too old for this!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ancient_apparition_appa_death_13.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_01.mp3",
+      "transcript": "I return from the cold and the dark!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_ancient_apparition_appa_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_02.mp3",
+      "transcript": "Winter always returns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_ancient_apparition_appa_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_03.mp3",
+      "transcript": "I've been on ice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_ancient_apparition_appa_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_04.mp3",
+      "transcript": "And so I gather.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_ancient_apparition_appa_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_05.mp3",
+      "transcript": "My vapors coalesce.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_ancient_apparition_appa_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_06.mp3",
+      "transcript": "Cold fusion.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ancient_apparition_appa_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_07.mp3",
+      "transcript": "I look again upon the cold light of day.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ancient_apparition_appa_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_08.mp3",
+      "transcript": "Colder than Hell's heart, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_ancient_apparition_appa_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_09.mp3",
+      "transcript": "A new ice age dawns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ancient_apparition_appa_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_10.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_10.mp3",
+      "transcript": "A free spirit!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_ancient_apparition_appa_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_respawn_11.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_respawn_11.mp3",
+      "transcript": "Exempt from time's ablations.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_ancient_apparition_appa_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_fastres_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_fastres_01.mp3",
+      "transcript": "Another ice age is coming. Ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ancient_apparition_appa_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_fastres_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_fastres_02.mp3",
+      "transcript": "Winter will come round again. Hahahaha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_ancient_apparition_appa_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_fastres_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_fastres_03.mp3",
+      "transcript": "I'll be freezing again soon. Hahahahahah!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ancient_apparition_appa_fastres_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_bottle_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_bottle_01.mp3",
+      "transcript": "For a time of need.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_ancient_apparition_appa_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_bottle_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_bottle_02.mp3",
+      "transcript": "Later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_ancient_apparition_appa_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_bottle_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_bottle_03.mp3",
+      "transcript": "I'll put this on ice.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ancient_apparition_appa_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_doubdam_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_ancient_apparition_appa_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_doubdam_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_doubdam_03.mp3",
+      "transcript": "Double digit wind chill.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ancient_apparition_appa_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_doubdam_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_doubdam_02.mp3",
+      "transcript": "Two cold!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_ancient_apparition_appa_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_haste_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_ancient_apparition_appa_haste_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_haste_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_haste_02.mp3",
+      "transcript": "Hm hm couldn't catch a cold.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_ancient_apparition_appa_haste_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_haste_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_haste_03.mp3",
+      "transcript": "Flash freeze!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_ancient_apparition_appa_haste_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_illus_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_ancient_apparition_appa_illus_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_illus_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_illus_02.mp3",
+      "transcript": "Three the shard way!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_ancient_apparition_appa_illus_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_illus_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_illus_03.mp3",
+      "transcript": "Thrice the ice!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_ancient_apparition_appa_illus_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_invis_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_ancient_apparition_appa_invis_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_invis_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_invis_02.mp3",
+      "transcript": "I'll move in a fog of war.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_ancient_apparition_appa_invis_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_invis_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_invis_03.mp3",
+      "transcript": "Clear as ice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_ancient_apparition_appa_invis_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_regen_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_ancient_apparition_appa_regen_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_regen_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_regen_02.mp3",
+      "transcript": "Cold comfort!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_ancient_apparition_appa_regen_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_ancient_apparition_appa_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_ancient_apparition_appa_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_ancient_apparition_appa_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ancient_apparition_appa_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ancient_apparition_appa_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_ancient_apparition_appa_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_ancient_apparition_appa_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_ancient_apparition_appa_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_notyet_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_ancient_apparition_appa_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_ancient_apparition_appa_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_ancient_apparition_appa_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_ancient_apparition_appa_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_ancient_apparition_appa_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_ancient_apparition_appa_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_ancient_apparition_appa_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_07.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_ancient_apparition_appa_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_08.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_ancient_apparition_appa_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_nomana_09.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_ancient_apparition_appa_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_ancient_apparition_appa_pain_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_02.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_ancient_apparition_appa_pain_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_ancient_apparition_appa_pain_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_04.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_ancient_apparition_appa_pain_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_ancient_apparition_appa_pain_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_pain_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ancient_apparition_appa_pain_06.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_underattack_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ancient_apparition_appa_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rare_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rare_01.mp3",
+      "transcript": "One day, ice will cover these lands, and it will be as if this war never happened.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_ancient_apparition_appa_rare_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_rare_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_rare_02.mp3",
+      "transcript": "My spirit may be locked in ice, but my rage still burns.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_ancient_apparition_appa_rare_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_thanks_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_ancient_apparition_appa_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_thanks_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_thanks_02.mp3",
+      "transcript": "My thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_ancient_apparition_appa_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_win_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_ancient_apparition_appa_win_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_win_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ancient_apparition_appa_win_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_win_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_win_03.mp3",
+      "transcript": "A new ice age begins!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_ancient_apparition_appa_win_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lose_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ancient_apparition_appa_lose_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lose_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ancient_apparition_appa_lose_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_lose_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_lose_03.mp3",
+      "transcript": "The ice age ends!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_ancient_apparition_appa_lose_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_happy_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_happy_01.mp3",
+      "transcript": "Ummm ahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_ancient_apparition_appa_happy_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_happy_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_happy_02.mp3",
+      "transcript": "Ahhhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ancient_apparition_appa_happy_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_happy_03.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_happy_03.mp3",
+      "transcript": "Hmm ahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ancient_apparition_appa_happy_03.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_shitwiz_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_ancient_apparition_appa_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_crumwiz_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_ancient_apparition_appa_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_01.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_01.mp3",
+      "transcript": "Uhhh ahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_ancient_apparition_appa_anger_01.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_02.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_02.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_ancient_apparition_appa_anger_02.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_04.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_04.mp3",
+      "transcript": "Uh ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_ancient_apparition_appa_anger_04.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_05.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_05.mp3",
+      "transcript": "Uh ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_ancient_apparition_appa_anger_05.mp3"
+    },
+    {
+      "file": "Vo_ancient_apparition_appa_anger_06.mp3",
+      "key": "dota2/ancient-apparition/Vo_ancient_apparition_appa_anger_06.mp3",
+      "transcript": "Uhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ancient_apparition_appa_anger_06.mp3"
+    }
+  ]
+}

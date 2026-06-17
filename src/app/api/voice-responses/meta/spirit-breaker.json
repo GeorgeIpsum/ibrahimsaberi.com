@@ -1,0 +1,2640 @@
+{
+  "hero": "Spirit Breaker",
+  "slug": "spirit-breaker",
+  "source": "https://liquipedia.net/dota2/Spirit_Breaker/Responses",
+  "scrapedAt": "2026-06-17T13:33:56.569Z",
+  "count": 261,
+  "voicelines": [
+    {
+      "file": "Vo_spirit_breaker_spir_spawn_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_spawn_01.mp3",
+      "transcript": "Spirit Breaker.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_spirit_breaker_spir_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_spawn_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_spawn_02.mp3",
+      "transcript": "My iron will shall break them.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_spirit_breaker_spir_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_spawn_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_spawn_03.mp3",
+      "transcript": "I'll break their spirits and their backs.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_spirit_breaker_spir_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_spawn_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_spawn_04.mp3",
+      "transcript": "This form suits my purpose.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_spirit_breaker_spir_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_battlebegins_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_battlebegins_01.mp3",
+      "transcript": "The peace is broken!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_spirit_breaker_spir_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_07.mp3",
+      "transcript": "Didn't see me coming, did you.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_spirit_breaker_spir_ability_charge_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_10.mp3",
+      "transcript": "Look who's here?",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_spirit_breaker_spir_ability_charge_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_14.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_14.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_spirit_breaker_spir_ability_charge_14.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_15.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_15.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_spirit_breaker_spir_ability_charge_15.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_16.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_16.mp3",
+      "transcript": "Charging in!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_spirit_breaker_spir_ability_charge_16.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_19.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_19.mp3",
+      "transcript": "You're mine now!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_spirit_breaker_spir_ability_charge_19.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_05.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_spirit_breaker_spir_anger_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_inthebag_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_inthebag_01.mp3",
+      "transcript": "Oh, yes, this one, my friends, is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_spirit_breaker_spir_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_inthebag_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_inthebag_02.mp3",
+      "transcript": "All bullshit aside, this one's in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_spirit_breaker_spir_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_spirit_breaker_spir_move_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_spirit_breaker_spir_move_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_03.mp3",
+      "transcript": "Ehem.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_spirit_breaker_spir_move_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_04.mp3",
+      "transcript": "Correct.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_spirit_breaker_spir_move_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_05.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_spirit_breaker_spir_move_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_06.mp3",
+      "transcript": "I will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_spirit_breaker_spir_move_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_07.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_spirit_breaker_spir_move_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_08.mp3",
+      "transcript": "I run rampant.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_spirit_breaker_spir_move_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_09.mp3",
+      "transcript": "The Beast of all Worlds.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_spirit_breaker_spir_move_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_10.mp3",
+      "transcript": "I charge ahead.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_spirit_breaker_spir_move_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_11.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_11.mp3",
+      "transcript": "Look there.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_spirit_breaker_spir_move_11.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_12.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_12.mp3",
+      "transcript": "As suggested.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_spirit_breaker_spir_move_12.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_13.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_13.mp3",
+      "transcript": "Certainly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_spirit_breaker_spir_move_13.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_14.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_14.mp3",
+      "transcript": "Upon this plane.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_spirit_breaker_spir_move_14.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_15.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_15.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_spirit_breaker_spir_move_15.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_16.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_16.mp3",
+      "transcript": "The way is clear.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_spirit_breaker_spir_move_16.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_17.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_17.mp3",
+      "transcript": "hum hum, I have their scent.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_spirit_breaker_spir_move_17.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_18.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_18.mp3",
+      "transcript": "Between the planes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_spirit_breaker_spir_move_18.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_19.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_19.mp3",
+      "transcript": "All paths lead to conflict.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_spirit_breaker_spir_move_19.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_20.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_20.mp3",
+      "transcript": "One world is much like another.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_spirit_breaker_spir_move_20.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_22.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_22.mp3",
+      "transcript": "Hehahrgh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_spirit_breaker_spir_move_22.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_23.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_23.mp3",
+      "transcript": "Hehehaheh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_spirit_breaker_spir_move_23.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_24.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_24.mp3",
+      "transcript": "Heheh. Heh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_spirit_breaker_spir_move_24.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_25.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_25.mp3",
+      "transcript": "Heh eh heh aheh heh ah hach ehh heh heh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_spirit_breaker_spir_move_25.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_01.mp3",
+      "transcript": "Attack is the best defense.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_spirit_breaker_spir_attack_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_02.mp3",
+      "transcript": "Break you down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_spirit_breaker_spir_attack_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_03.mp3",
+      "transcript": "Rampage.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_spirit_breaker_spir_attack_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_04.mp3",
+      "transcript": "With a fury.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_spirit_breaker_spir_attack_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_05.mp3",
+      "transcript": "Brouhaha!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_spirit_breaker_spir_attack_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_06.mp3",
+      "transcript": "What's the fracas?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_spirit_breaker_spir_attack_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_07.mp3",
+      "transcript": "I'll settle this.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_spirit_breaker_spir_attack_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_08.mp3",
+      "transcript": "You've got my dander up.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_spirit_breaker_spir_attack_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_09.mp3",
+      "transcript": "Well met.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_spirit_breaker_spir_attack_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_10.mp3",
+      "transcript": "Confound you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_spirit_breaker_spir_attack_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_11.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_11.mp3",
+      "transcript": "Heh eh heh.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_spirit_breaker_spir_attack_11.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_attack_12.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_attack_12.mp3",
+      "transcript": "Hah hah!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_spirit_breaker_spir_attack_12.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_02.mp3",
+      "transcript": "An eye for an eye, for an eye.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_spirit_breaker_spir_rival_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_01.mp3",
+      "transcript": "I'll trample your bones to dust, skeleton.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_spirit_breaker_spir_rival_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_cast_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_cast_01.mp3",
+      "transcript": "There's no escaping me.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_spirit_breaker_spir_cast_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_cast_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_cast_02.mp3",
+      "transcript": "From this plane to the next.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_spirit_breaker_spir_cast_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_cast_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_cast_03.mp3",
+      "transcript": "You'll be dead before you know it.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_spirit_breaker_spir_cast_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_cast_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_cast_04.mp3",
+      "transcript": "You're not going anywhere.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_spirit_breaker_spir_cast_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_01.mp3",
+      "transcript": "Charge.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_spirit_breaker_spir_ability_charge_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_06.mp3",
+      "transcript": "Long distance runner.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_spirit_breaker_spir_ability_charge_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_02.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_spirit_breaker_spir_ability_charge_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_17.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_17.mp3",
+      "transcript": "Charging in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_spirit_breaker_spir_ability_charge_17.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_08.mp3",
+      "transcript": "Where'd I come from?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_spirit_breaker_spir_ability_charge_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_09.mp3",
+      "transcript": "Here I am.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_spirit_breaker_spir_ability_charge_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_12.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_12.mp3",
+      "transcript": "Look who's here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_spirit_breaker_spir_ability_charge_12.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_18.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_18.mp3",
+      "transcript": "Thought you had me, didn't you?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_spirit_breaker_spir_ability_charge_18.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_03.mp3",
+      "transcript": "Quick sprint.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_spirit_breaker_spir_ability_charge_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_05.mp3",
+      "transcript": "Endurance run.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_spirit_breaker_spir_ability_charge_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_13.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_13.mp3",
+      "transcript": "Rip and run.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_spirit_breaker_spir_ability_charge_13.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_01.mp3",
+      "transcript": "Bashing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_spirit_breaker_spir_ability_bash_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_02.mp3",
+      "transcript": "Bashed you back.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_spirit_breaker_spir_ability_bash_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_03.mp3",
+      "transcript": "Stunning, isn't it.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_spirit_breaker_spir_ability_bash_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_04.mp3",
+      "transcript": "Not so fast.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_spirit_breaker_spir_ability_bash_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_05.mp3",
+      "transcript": "Back off.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_spirit_breaker_spir_ability_bash_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_06.mp3",
+      "transcript": "Bashed to a pulp.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_spirit_breaker_spir_ability_bash_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_07.mp3",
+      "transcript": "Greater bashed.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_spirit_breaker_spir_ability_bash_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_bash_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_bash_08.mp3",
+      "transcript": "And stay bashed.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_spirit_breaker_spir_ability_bash_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_nether_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_nether_01.mp3",
+      "transcript": "Nether strike.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_spirit_breaker_spir_ability_nether_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_nether_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_nether_02.mp3",
+      "transcript": "Between the planes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_spirit_breaker_spir_ability_nether_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_nether_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_nether_03.mp3",
+      "transcript": "Stricken!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_spirit_breaker_spir_ability_nether_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_nether_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_nether_04.mp3",
+      "transcript": "Quick strike.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_spirit_breaker_spir_ability_nether_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_nether_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_nether_05.mp3",
+      "transcript": "Nether strike.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_spirit_breaker_spir_ability_nether_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_26.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_26.mp3",
+      "transcript": "Mooooaaagh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_spirit_breaker_spir_move_26.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_01.mp3",
+      "transcript": "Heha! Augmentation.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_spirit_breaker_spir_level_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_02.mp3",
+      "transcript": "Glorious increase.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_spirit_breaker_spir_level_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_03.mp3",
+      "transcript": "Agh, hemehehheh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_spirit_breaker_spir_level_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_04.mp3",
+      "transcript": "Huh, hehohughehh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_spirit_breaker_spir_level_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_05.mp3",
+      "transcript": "Aggregation!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_spirit_breaker_spir_level_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_06.mp3",
+      "transcript": "Hehah, strong as an ox!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_spirit_breaker_spir_level_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_07.mp3",
+      "transcript": "Hah, it's all coming together!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_spirit_breaker_spir_level_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_level_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_level_08.mp3",
+      "transcript": "Hehehehehehhehh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_spirit_breaker_spir_level_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_04.mp3",
+      "transcript": "That was a scramble.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_spirit_breaker_spir_ability_charge_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_charge_11.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_charge_11.mp3",
+      "transcript": "Ran you down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_spirit_breaker_spir_ability_charge_11.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_01.mp3",
+      "transcript": "I send you beyond this plane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_spirit_breaker_spir_kill_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_02.mp3",
+      "transcript": "You lie broken.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_spirit_breaker_spir_kill_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_03.mp3",
+      "transcript": "Broke your back.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_spirit_breaker_spir_kill_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_04.mp3",
+      "transcript": "Don't fret. Your worries are over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_spirit_breaker_spir_kill_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_05.mp3",
+      "transcript": "Your spirit, like your life, is broken.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_spirit_breaker_spir_kill_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_06.mp3",
+      "transcript": "You were no match for the spirit breaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_spirit_breaker_spir_kill_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_07.mp3",
+      "transcript": "Hehu, I wet my horns in you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_spirit_breaker_spir_kill_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_08.mp3",
+      "transcript": "Cease, fool.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_spirit_breaker_spir_kill_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_09.mp3",
+      "transcript": "Death has many doors; I open one for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_spirit_breaker_spir_kill_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_10.mp3",
+      "transcript": "Mine is the anvil on which your spirit broke.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_spirit_breaker_spir_kill_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_11.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_11.mp3",
+      "transcript": "Today, you are in glory.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_spirit_breaker_spir_kill_11.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_12.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_12.mp3",
+      "transcript": "Now you walk between the planes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_spirit_breaker_spir_kill_12.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_kill_13.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_kill_13.mp3",
+      "transcript": "Hehaha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_spirit_breaker_spir_kill_13.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_01.mp3",
+      "transcript": "Heh eh eg heh heh h heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_spirit_breaker_spir_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_02.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_spirit_breaker_spir_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_03.mp3",
+      "transcript": "Heh heh heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_spirit_breaker_spir_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_04.mp3",
+      "transcript": "Hah he heh hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_spirit_breaker_spir_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_05.mp3",
+      "transcript": "Hehaha hahahahah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_spirit_breaker_spir_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_06.mp3",
+      "transcript": "Whoheheheahahah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_spirit_breaker_spir_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_07.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_spirit_breaker_spir_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_08.mp3",
+      "transcript": "Heh heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_spirit_breaker_spir_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_09.mp3",
+      "transcript": "Hemememeheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_spirit_breaker_spir_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_laugh_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_laugh_10.mp3",
+      "transcript": "Heha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_spirit_breaker_spir_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_08.mp3",
+      "transcript": "Enchantress, did you choose that form yourself?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_spirit_breaker_spir_rival_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_05.mp3",
+      "transcript": "Leshrac, I expected more from a fellow walker between the planes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_spirit_breaker_spir_rival_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_09.mp3",
+      "transcript": "Magnataur, your form offends me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_spirit_breaker_spir_rival_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_06.mp3",
+      "transcript": "Sniper, hunting season is over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_spirit_breaker_spir_rival_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_07.mp3",
+      "transcript": "Choose this plane or the next, Spectre, don't try to live in both.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_spirit_breaker_spir_rival_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_10.mp3",
+      "transcript": "Storm Spirit, I am a storm chaser.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_spirit_breaker_spir_rival_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_firstblood_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_firstblood_01.mp3",
+      "transcript": "First blood! Hehaha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_spirit_breaker_spir_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_firstblood_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_firstblood_02.mp3",
+      "transcript": "The first of many a blooded enemy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_spirit_breaker_spir_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_03.mp3",
+      "transcript": "Earthshaker, time for some shake and break.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_spirit_breaker_spir_rival_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rival_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rival_04.mp3",
+      "transcript": "Leshrac, a fellow walker between the planes.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_spirit_breaker_spir_rival_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_01.mp3",
+      "transcript": "Trampled.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_spirit_breaker_spir_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_02.mp3",
+      "transcript": "Gold for me.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_spirit_breaker_spir_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_03.mp3",
+      "transcript": "Golden opportunity.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_spirit_breaker_spir_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_04.mp3",
+      "transcript": "Overpowered.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_spirit_breaker_spir_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_05.mp3",
+      "transcript": "Gored for gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_spirit_breaker_spir_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_06.mp3",
+      "transcript": "Done and done.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_spirit_breaker_spir_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_07.mp3",
+      "transcript": "That's the spirit.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_spirit_breaker_spir_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_08.mp3",
+      "transcript": "Heha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_spirit_breaker_spir_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_09.mp3",
+      "transcript": "Done and done.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_spirit_breaker_spir_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lasthit_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lasthit_10.mp3",
+      "transcript": "My part to play.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_spirit_breaker_spir_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_spirit_breaker_spir_deny_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_02.mp3",
+      "transcript": "Oh no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_spirit_breaker_spir_deny_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_03.mp3",
+      "transcript": "Say not so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_spirit_breaker_spir_deny_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_04.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_spirit_breaker_spir_deny_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_05.mp3",
+      "transcript": "Don't waste your effort.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_spirit_breaker_spir_deny_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_06.mp3",
+      "transcript": "No coin for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_spirit_breaker_spir_deny_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_07.mp3",
+      "transcript": "You almost had that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_spirit_breaker_spir_deny_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_deny_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_deny_08.mp3",
+      "transcript": "Nu-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_spirit_breaker_spir_deny_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_purch_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_purch_01.mp3",
+      "transcript": "A golden key opens many a war chest.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_spirit_breaker_spir_purch_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_purch_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_purch_02.mp3",
+      "transcript": "At last.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_spirit_breaker_spir_purch_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_purch_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_purch_03.mp3",
+      "transcript": "My patience is rewarded.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_spirit_breaker_spir_purch_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_scepter_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_scepter_01.mp3",
+      "transcript": "Ahh, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_spirit_breaker_spir_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_scepter_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_scepter_02.mp3",
+      "transcript": "Scepter changes everything.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_spirit_breaker_spir_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_blink_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_blink_01.mp3",
+      "transcript": "Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_spirit_breaker_spir_blink_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_blink_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_blink_02.mp3",
+      "transcript": "A dagger sharper than my horns.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_spirit_breaker_spir_blink_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_01.mp3",
+      "transcript": "Mask of Madness!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_spirit_breaker_spir_item_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_02.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_spirit_breaker_spir_item_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_03.mp3",
+      "transcript": "Sange and Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_spirit_breaker_spir_item_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_04.mp3",
+      "transcript": "Basher, this is redundant.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_spirit_breaker_spir_item_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_05.mp3",
+      "transcript": "Armlet.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_spirit_breaker_spir_item_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_06.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_spirit_breaker_spir_item_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_07.mp3",
+      "transcript": "Oh heart of my heart.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_spirit_breaker_spir_item_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_08.mp3",
+      "transcript": "Ah, Planeswalker cloak! The better to walk between the planes.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_spirit_breaker_spir_item_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_item_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_item_09.mp3",
+      "transcript": "Now that's my type of cloak.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_spirit_breaker_spir_item_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_immort_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_spirit_breaker_spir_immort_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_immort_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_immort_02.mp3",
+      "transcript": "My continuation on this plane is assured.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_spirit_breaker_spir_immort_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_spirit_breaker_spir_death_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_02.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_spirit_breaker_spir_death_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_03.mp3",
+      "transcript": "I return between the planes.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_spirit_breaker_spir_death_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_04.mp3",
+      "transcript": "From this plane, I am driven.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_spirit_breaker_spir_death_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_05.mp3",
+      "transcript": "Impossible.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_spirit_breaker_spir_death_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_06.mp3",
+      "transcript": "Death's door swings wide. Ugh.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_spirit_breaker_spir_death_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_07.mp3",
+      "transcript": "I break from life.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_spirit_breaker_spir_death_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_08.mp3",
+      "transcript": "Death is but another dawn.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_spirit_breaker_spir_death_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_09.mp3",
+      "transcript": "My form fails me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_spirit_breaker_spir_death_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_10.mp3",
+      "transcript": "There is help for all things but death.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_spirit_breaker_spir_death_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_11.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_11.mp3",
+      "transcript": "I was unique to this plane.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_spirit_breaker_spir_death_11.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_12.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_12.mp3",
+      "transcript": "I am no more here.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_spirit_breaker_spir_death_12.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_13.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_13.mp3",
+      "transcript": "Put out to pasture.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_spirit_breaker_spir_death_13.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_death_14.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_death_14.mp3",
+      "transcript": "This is bullshit.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_spirit_breaker_spir_death_14.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_01.mp3",
+      "transcript": "I've put myself back together.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_spirit_breaker_spir_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_02.mp3",
+      "transcript": "Hmm, lost my way between the worlds for a moment.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_spirit_breaker_spir_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_03.mp3",
+      "transcript": "Some treachery wrong-footed me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_spirit_breaker_spir_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_04.mp3",
+      "transcript": "I will prove myself worthy.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_spirit_breaker_spir_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_05.mp3",
+      "transcript": "I return to this plane.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_spirit_breaker_spir_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_06.mp3",
+      "transcript": "Back from between the planes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_spirit_breaker_spir_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_07.mp3",
+      "transcript": "Oh, avengement shall be mine.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_spirit_breaker_spir_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_08.mp3",
+      "transcript": "My form takes shape again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_spirit_breaker_spir_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_09.mp3",
+      "transcript": "All is grist for the mill.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_spirit_breaker_spir_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_respawn_10.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_respawn_10.mp3",
+      "transcript": "Back to break their backs.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_spirit_breaker_spir_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_fastres_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_fastres_01.mp3",
+      "transcript": "Death is no obstacle to these horns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_spirit_breaker_spir_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_fastres_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_fastres_02.mp3",
+      "transcript": "And there I go. Psyche!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_spirit_breaker_spir_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_bottle_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_bottle_01.mp3",
+      "transcript": "Put by for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_spirit_breaker_spir_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_bottle_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_bottle_02.mp3",
+      "transcript": "I'll break this out later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_spirit_breaker_spir_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_bottle_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_bottle_03.mp3",
+      "transcript": "Preserved in spirits.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_spirit_breaker_spir_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_doubdam_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_spirit_breaker_spir_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_doubdam_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_doubdam_02.mp3",
+      "transcript": "Ah, I'll gore my foes upon each horn.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_spirit_breaker_spir_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_haste_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_spirit_breaker_spir_haste_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_haste_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_haste_02.mp3",
+      "transcript": "Swiftly to the breaking point.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_spirit_breaker_spir_haste_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_haste_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_haste_03.mp3",
+      "transcript": "Haste your face.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_spirit_breaker_spir_haste_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_illus_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_spirit_breaker_spir_illus_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_illus_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_illus_02.mp3",
+      "transcript": "Ah, thrice the horns.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_spirit_breaker_spir_illus_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_illus_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_illus_03.mp3",
+      "transcript": "Six horns are better than two.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_spirit_breaker_spir_illus_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_invis_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_spirit_breaker_spir_invis_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_invis_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_invis_02.mp3",
+      "transcript": "My form walks between the planes.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_spirit_breaker_spir_invis_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_regen_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_spirit_breaker_spir_regen_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_regen_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_regen_02.mp3",
+      "transcript": "The spirit is strong in this one.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_spirit_breaker_spir_regen_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_spirit_breaker_spir_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_spirit_breaker_spir_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_spirit_breaker_spir_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_spirit_breaker_spir_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_spirit_breaker_spir_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_spirit_breaker_spir_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_spirit_breaker_spir_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_spirit_breaker_spir_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_notyet_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_spirit_breaker_spir_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_spirit_breaker_spir_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_spirit_breaker_spir_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_spirit_breaker_spir_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_spirit_breaker_spir_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_spirit_breaker_spir_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_spirit_breaker_spir_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_spirit_breaker_spir_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_spirit_breaker_spir_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_nomana_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_spirit_breaker_spir_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_01.mp3",
+      "transcript": "Ough.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_spirit_breaker_spir_pain_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_02.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_spirit_breaker_spir_pain_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_03.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_spirit_breaker_spir_pain_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_04.mp3",
+      "transcript": "Cugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_spirit_breaker_spir_pain_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_05.mp3",
+      "transcript": "Ough.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_spirit_breaker_spir_pain_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_06.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_spirit_breaker_spir_pain_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_07.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_07.mp3",
+      "transcript": "Ogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_spirit_breaker_spir_pain_07.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_08.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_08.mp3",
+      "transcript": "Glargh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_spirit_breaker_spir_pain_08.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_pain_09.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_pain_09.mp3",
+      "transcript": "Eama.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_spirit_breaker_spir_pain_09.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_underattack_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_spirit_breaker_spir_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rare_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rare_01.mp3",
+      "transcript": "I'm the beast of many parts; I part enemies from their lives.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_spirit_breaker_spir_rare_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rare_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rare_02.mp3",
+      "transcript": "I do only as I would be done by.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_spirit_breaker_spir_rare_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rare_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rare_03.mp3",
+      "transcript": "I'm a being of many parts.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_spirit_breaker_spir_rare_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rare_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rare_04.mp3",
+      "transcript": "Who's in charge of this plane, anyway?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_spirit_breaker_spir_rare_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_rare_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_rare_05.mp3",
+      "transcript": "I cleave the world.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_spirit_breaker_spir_rare_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_thanks_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_spirit_breaker_spir_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_thanks_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_thanks_02.mp3",
+      "transcript": "Thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_spirit_breaker_spir_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_thanks_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_thanks_03.mp3",
+      "transcript": "Much obliged.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_spirit_breaker_spir_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_win_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_spirit_breaker_spir_win_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_win_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_spirit_breaker_spir_win_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_win_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_win_03.mp3",
+      "transcript": "A golden door thrown wide between the planes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_spirit_breaker_spir_win_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lose_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_spirit_breaker_spir_lose_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lose_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_spirit_breaker_spir_lose_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lose_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lose_03.mp3",
+      "transcript": "I have lost my way between the planes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_spirit_breaker_spir_lose_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lose_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lose_04.mp3",
+      "transcript": "This is bullshit!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_spirit_breaker_spir_lose_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_lose_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_lose_05.mp3",
+      "transcript": "This is complete and utter bullshit!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_spirit_breaker_spir_lose_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_happy_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_happy_03.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_spirit_breaker_spir_happy_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_happy_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_happy_01.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_spirit_breaker_spir_happy_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_move_21.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_move_21.mp3",
+      "transcript": "Ach heh ah ch ehch ehh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_spirit_breaker_spir_move_21.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_failure_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_failure_01.mp3",
+      "transcript": "How unfortunate.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_spirit_breaker_spir_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_failure_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_failure_02.mp3",
+      "transcript": "That did not go as expected.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_spirit_breaker_spir_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_failure_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_failure_03.mp3",
+      "transcript": "Oh, distraction!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_spirit_breaker_spir_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_failure_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_failure_04.mp3",
+      "transcript": "Oh, vexation!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_spirit_breaker_spir_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_ability_failure_05.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_ability_failure_05.mp3",
+      "transcript": "Missed, what?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_spirit_breaker_spir_ability_failure_05.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_shitwiz_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_spirit_breaker_spir_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_crumwiz_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_spirit_breaker_spir_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_01.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_01.mp3",
+      "transcript": "Argh, heh heh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_spirit_breaker_spir_anger_01.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_02.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_spirit_breaker_spir_anger_02.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_03.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_03.mp3",
+      "transcript": "Arhg hoo.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_spirit_breaker_spir_anger_03.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_04.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_04.mp3",
+      "transcript": "Ough heh ehehe he.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_spirit_breaker_spir_anger_04.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_anger_06.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_anger_06.mp3",
+      "transcript": "Ahg who woo.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_spirit_breaker_spir_anger_06.mp3"
+    },
+    {
+      "file": "Vo_spirit_breaker_spir_happy_02.mp3",
+      "key": "dota2/spirit-breaker/Vo_spirit_breaker_spir_happy_02.mp3",
+      "transcript": "Oyeah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_spirit_breaker_spir_happy_02.mp3"
+    }
+  ]
+}

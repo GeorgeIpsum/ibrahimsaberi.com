@@ -1,0 +1,3205 @@
+{
+  "hero": "Clockwerk",
+  "slug": "clockwerk",
+  "source": "https://liquipedia.net/dota2/Clockwerk/Responses",
+  "scrapedAt": "2026-06-17T13:18:54.178Z",
+  "count": 318,
+  "voicelines": [
+    {
+      "file": "Vo_rattletrap_ratt_spawn_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_spawn_01.mp3",
+      "transcript": "Rattletrap!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_rattletrap_ratt_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_spawn_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_spawn_02.mp3",
+      "transcript": "Some assembly required.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_rattletrap_ratt_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_spawn_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_spawn_03.mp3",
+      "transcript": "I've a mind like a steel trap, and the physique to go with it!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_rattletrap_ratt_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_spawn_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_spawn_04.mp3",
+      "transcript": "I'm more than a bit tightly wound.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_rattletrap_ratt_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_spawn_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_spawn_05.mp3",
+      "transcript": "Clockwerk!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_rattletrap_ratt_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_14.mp3",
+      "transcript": "I run like a clock!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_rattletrap_ratt_move_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_15.mp3",
+      "transcript": "My gears turn!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_rattletrap_ratt_move_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_18.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_18.mp3",
+      "transcript": "Rattle and roll!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_rattletrap_ratt_move_18.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_25.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_25.mp3",
+      "transcript": "I'm well oiled.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_rattletrap_ratt_move_25.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_06.mp3",
+      "transcript": "This'll gum your gears!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_rattletrap_ratt_attack_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_08.mp3",
+      "transcript": "Prepare for repairs!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_rattletrap_ratt_attack_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cast_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cast_01.mp3",
+      "transcript": "The gears are in motion!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_rattletrap_ratt_cast_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_06.mp3",
+      "transcript": "Hm!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_rattletrap_ratt_anger_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_inthebag_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_rattletrap_ratt_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_22.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_22.mp3",
+      "transcript": "Much to do!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_rattletrap_ratt_move_22.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_rattletrap_ratt_move_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_02.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_rattletrap_ratt_move_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_rattletrap_ratt_move_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_04.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_rattletrap_ratt_move_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_05.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_rattletrap_ratt_move_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_06.mp3",
+      "transcript": "Hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_rattletrap_ratt_move_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_07.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_rattletrap_ratt_move_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_08.mp3",
+      "transcript": "Yeah huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_rattletrap_ratt_move_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_09.mp3",
+      "transcript": "Ho!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_rattletrap_ratt_move_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_10.mp3",
+      "transcript": "Uh huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_rattletrap_ratt_move_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_11.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_rattletrap_ratt_move_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_12.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_rattletrap_ratt_move_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_13.mp3",
+      "transcript": "Yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_rattletrap_ratt_move_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_16.mp3",
+      "transcript": "Spring forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_rattletrap_ratt_move_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_17.mp3",
+      "transcript": "A fine adjustment.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_rattletrap_ratt_move_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_19.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_19.mp3",
+      "transcript": "Trip-trap!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_rattletrap_ratt_move_19.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_20.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_20.mp3",
+      "transcript": "A traipse for a trap!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_rattletrap_ratt_move_20.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_21.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_21.mp3",
+      "transcript": "Closing in!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_rattletrap_ratt_move_21.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_23.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_23.mp3",
+      "transcript": "I close the distance.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_rattletrap_ratt_move_23.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_24.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_24.mp3",
+      "transcript": "The turtle wins the race.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_rattletrap_ratt_move_24.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_26.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_26.mp3",
+      "transcript": "Spring my trap!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_rattletrap_ratt_move_26.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_move_27.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_move_27.mp3",
+      "transcript": "Armor power!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_rattletrap_ratt_move_27.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_12.mp3",
+      "transcript": "Hey, us little guys gotta stick together, allright, Sniper?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_rattletrap_ratt_cuz_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_15.mp3",
+      "transcript": "Sniper! Got your back, cousin!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_rattletrap_ratt_cuz_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_16.mp3",
+      "transcript": "Tanks, cuz!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_rattletrap_ratt_cuz_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_13.mp3",
+      "transcript": "Hey, cousin!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_rattletrap_ratt_cuz_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_14.mp3",
+      "transcript": "Tinker, simpatico!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_rattletrap_ratt_cuz_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_17.mp3",
+      "transcript": "Tinker, you're a credit to our race!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_rattletrap_ratt_cuz_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_rattletrap_ratt_attack_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_02.mp3",
+      "transcript": "Gnash your gears!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_rattletrap_ratt_attack_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_03.mp3",
+      "transcript": "Practice makes perfect!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_rattletrap_ratt_attack_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_04.mp3",
+      "transcript": "Up close and arsenal!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_rattletrap_ratt_attack_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_05.mp3",
+      "transcript": "You're mine!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_rattletrap_ratt_attack_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_07.mp3",
+      "transcript": "The trap is sprung!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_rattletrap_ratt_attack_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_09.mp3",
+      "transcript": "This'll rattle their cage.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_rattletrap_ratt_attack_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_10.mp3",
+      "transcript": "Armored to the teeth.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_rattletrap_ratt_attack_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_11.mp3",
+      "transcript": "Tin man battle plan.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_rattletrap_ratt_attack_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_12.mp3",
+      "transcript": "Grinding gears.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_rattletrap_ratt_attack_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_attack_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_attack_13.mp3",
+      "transcript": "I am a can of whoop-ass!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_rattletrap_ratt_attack_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_01.mp3",
+      "transcript": "Tinker, this'll gum your gears!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_rattletrap_ratt_cuz_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_02.mp3",
+      "transcript": "Tinker, prepare for repairs.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_rattletrap_ratt_cuz_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_05.mp3",
+      "transcript": "Tinker!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_rattletrap_ratt_cuz_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_03.mp3",
+      "transcript": "Coming for you, Sniper!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_rattletrap_ratt_cuz_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_04.mp3",
+      "transcript": "Sniper!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_rattletrap_ratt_cuz_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_06.mp3",
+      "transcript": "Killing cousins.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_rattletrap_ratt_cuz_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_07.mp3",
+      "transcript": "Blood feud.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_rattletrap_ratt_cuz_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_08.mp3",
+      "transcript": "Blood is thicker than gear oil.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_rattletrap_ratt_cuz_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cast_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cast_02.mp3",
+      "transcript": "I call entrapment!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_rattletrap_ratt_cast_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cast_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cast_03.mp3",
+      "transcript": "I'll rattle ya, Jack!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_rattletrap_ratt_cast_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_01.mp3",
+      "transcript": "Shrapnel shrapnel Rattletrapnel!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_rattletrap_ratt_ability_batt_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_02.mp3",
+      "transcript": "The spring is sprung!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_rattletrap_ratt_ability_batt_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_03.mp3",
+      "transcript": "Sproing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_rattletrap_ratt_ability_batt_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_04.mp3",
+      "transcript": "Yow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_rattletrap_ratt_ability_batt_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_05.mp3",
+      "transcript": "Whoa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_rattletrap_ratt_ability_batt_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_08.mp3",
+      "transcript": "Whoa ho ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_rattletrap_ratt_ability_batt_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_09.mp3",
+      "transcript": "Whoa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_rattletrap_ratt_ability_batt_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_10.mp3",
+      "transcript": "Whew!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_rattletrap_ratt_ability_batt_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_12.mp3",
+      "transcript": "Woah ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_rattletrap_ratt_ability_batt_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_13.mp3",
+      "transcript": "Whew, that tickles!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_rattletrap_ratt_ability_batt_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_14.mp3",
+      "transcript": "Ha, that tickles!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_rattletrap_ratt_ability_batt_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_15.mp3",
+      "transcript": "Hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_rattletrap_ratt_ability_batt_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_16.mp3",
+      "transcript": "Yee heh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_rattletrap_ratt_ability_batt_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_17.mp3",
+      "transcript": "Hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_rattletrap_ratt_ability_batt_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_18.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_18.mp3",
+      "transcript": "Hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_rattletrap_ratt_ability_batt_18.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_01.mp3",
+      "transcript": "Gear up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_rattletrap_ratt_ability_cogs_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_02.mp3",
+      "transcript": "In gear!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_rattletrap_ratt_ability_cogs_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_07.mp3",
+      "transcript": "Cozy in here, isn't it?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_rattletrap_ratt_ability_cogs_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_03.mp3",
+      "transcript": "Get in here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_rattletrap_ratt_ability_cogs_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_04.mp3",
+      "transcript": "Where do you think you're going?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_rattletrap_ratt_ability_cogs_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_05.mp3",
+      "transcript": "A cognitive gauntlet.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_rattletrap_ratt_ability_cogs_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_08.mp3",
+      "transcript": "Oops!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_rattletrap_ratt_ability_cogs_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_09.mp3",
+      "transcript": "Sorry.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_rattletrap_ratt_ability_cogs_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_10.mp3",
+      "transcript": "Caught in my—oh, sorry.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_rattletrap_ratt_ability_cogs_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_11.mp3",
+      "transcript": "That didn't go as I planned.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_rattletrap_ratt_ability_cogs_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_12.mp3",
+      "transcript": "Oops!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_rattletrap_ratt_ability_cogs_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_13.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_rattletrap_ratt_ability_cogs_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_14.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_rattletrap_ratt_ability_cogs_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_15.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_rattletrap_ratt_ability_cogs_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_16.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_rattletrap_ratt_ability_cogs_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_17.mp3",
+      "transcript": "Oh, fancy meeting you here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_rattletrap_ratt_ability_cogs_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_cogs_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_cogs_06.mp3",
+      "transcript": "Zapped like a bug.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_rattletrap_ratt_ability_cogs_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_01.mp3",
+      "transcript": "Do it with flare!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_rattletrap_ratt_ability_flare_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_02.mp3",
+      "transcript": "Flare's here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_rattletrap_ratt_ability_flare_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_03.mp3",
+      "transcript": "Homing in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_rattletrap_ratt_ability_flare_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_04.mp3",
+      "transcript": "Rocket on!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_rattletrap_ratt_ability_flare_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_05.mp3",
+      "transcript": "And it's off!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_rattletrap_ratt_ability_flare_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_06.mp3",
+      "transcript": "Incoming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_rattletrap_ratt_ability_flare_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_07.mp3",
+      "transcript": "Boom, there it goes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_rattletrap_ratt_ability_flare_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_08.mp3",
+      "transcript": "Long range rampage!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_rattletrap_ratt_ability_flare_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_09.mp3",
+      "transcript": "You didn't see that coming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_rattletrap_ratt_ability_flare_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_10.mp3",
+      "transcript": "Where'd that come from, right?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_rattletrap_ratt_ability_flare_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_11.mp3",
+      "transcript": "Long range kill!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_rattletrap_ratt_ability_flare_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_flare_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_flare_12.mp3",
+      "transcript": "Tell me someone saw that!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_rattletrap_ratt_ability_flare_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_06.mp3",
+      "transcript": "Wha hoo hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_rattletrap_ratt_ability_batt_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_07.mp3",
+      "transcript": "Wha ha how!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_rattletrap_ratt_ability_batt_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_batt_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_batt_11.mp3",
+      "transcript": "Whoaw!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_rattletrap_ratt_ability_batt_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_01.mp3",
+      "transcript": "Reel me in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_rattletrap_ratt_ability_hook_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_02.mp3",
+      "transcript": "Hookshot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_rattletrap_ratt_ability_hook_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_06.mp3",
+      "transcript": "Zippin' in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_rattletrap_ratt_ability_hook_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_07.mp3",
+      "transcript": "You stay there, Pudge, I'll come to you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_rattletrap_ratt_ability_hook_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_03.mp3",
+      "transcript": "Hello, boys!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_rattletrap_ratt_ability_hook_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_04.mp3",
+      "transcript": "How's it going?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_rattletrap_ratt_ability_hook_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_05.mp3",
+      "transcript": "In your face!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_rattletrap_ratt_ability_hook_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_08.mp3",
+      "transcript": "Like my hook, Pudge?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_rattletrap_ratt_ability_hook_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_09.mp3",
+      "transcript": "Your place or mine, Pudge?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_rattletrap_ratt_ability_hook_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_11.mp3",
+      "transcript": "Oh hey, Pudge!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_rattletrap_ratt_ability_hook_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_12.mp3",
+      "transcript": "Hey, Pudge!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_rattletrap_ratt_ability_hook_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_13.mp3",
+      "transcript": "Hook, line and Tinker!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_rattletrap_ratt_ability_hook_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_01.mp3",
+      "transcript": "Ratchet up the trap!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_rattletrap_ratt_level_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_02.mp3",
+      "transcript": "Rattle and roll, yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_rattletrap_ratt_level_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_03.mp3",
+      "transcript": "My precision increases.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_rattletrap_ratt_level_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_04.mp3",
+      "transcript": "That oughta rattle em!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_rattletrap_ratt_level_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_05.mp3",
+      "transcript": "Full Metal Jacket!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_rattletrap_ratt_level_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_06.mp3",
+      "transcript": "I shift to a higher gear!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_rattletrap_ratt_level_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_07.mp3",
+      "transcript": "Canned goods!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_rattletrap_ratt_level_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_rattletrap_ratt_level_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_09.mp3",
+      "transcript": "Hee hee hey hey ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_rattletrap_ratt_level_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_10.mp3",
+      "transcript": "Ha ha hee hey ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_rattletrap_ratt_level_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_11.mp3",
+      "transcript": "Ratchet up the trap, yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_rattletrap_ratt_level_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_12.mp3",
+      "transcript": "Yah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_rattletrap_ratt_level_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_13.mp3",
+      "transcript": "That oughta rattle em, yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_rattletrap_ratt_level_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_14.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_rattletrap_ratt_level_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_15.mp3",
+      "transcript": "More tools to play with!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_rattletrap_ratt_level_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_16.mp3",
+      "transcript": "Good for the gadget!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_rattletrap_ratt_level_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_17.mp3",
+      "transcript": "Whoo!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_rattletrap_ratt_level_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_18.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_18.mp3",
+      "transcript": "Hee ya!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_rattletrap_ratt_level_18.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_19.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_19.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_rattletrap_ratt_level_19.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_20.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_20.mp3",
+      "transcript": "Hoo hoo!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_rattletrap_ratt_level_20.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_21.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_21.mp3",
+      "transcript": "Hee hee!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_rattletrap_ratt_level_21.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_level_22.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_level_22.mp3",
+      "transcript": "Yeah, that's nice!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_rattletrap_ratt_level_22.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_01.mp3",
+      "transcript": "I'll torque your innards.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_rattletrap_ratt_kill_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_02.mp3",
+      "transcript": "Worked you over good.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_rattletrap_ratt_kill_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_03.mp3",
+      "transcript": "Both accurate and precise.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_rattletrap_ratt_kill_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_04.mp3",
+      "transcript": "What time is it? It's killing time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_rattletrap_ratt_kill_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_05.mp3",
+      "transcript": "Not the strongest enemy I've grappled with.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_rattletrap_ratt_kill_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_06.mp3",
+      "transcript": "Shut. Your. Trap.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_rattletrap_ratt_kill_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_07.mp3",
+      "transcript": "A little advice. Stay dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_rattletrap_ratt_kill_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_08.mp3",
+      "transcript": "I tested your mettle. And found it wanting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_rattletrap_ratt_kill_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_09.mp3",
+      "transcript": "I'll polish my armor in your blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_rattletrap_ratt_kill_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_10.mp3",
+      "transcript": "I keep my enemies close, and their corpses closer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_rattletrap_ratt_kill_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_11.mp3",
+      "transcript": "Here's steel in your eye!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_rattletrap_ratt_kill_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_12.mp3",
+      "transcript": "If you come back, I'll kill you again.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_rattletrap_ratt_kill_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_13.mp3",
+      "transcript": "Death in a can.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_rattletrap_ratt_kill_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_14.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_rattletrap_ratt_kill_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_15.mp3",
+      "transcript": "He he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_rattletrap_ratt_kill_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_kill_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_kill_16.mp3",
+      "transcript": "Ha. Ha. Ha. That was canned laughter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_rattletrap_ratt_kill_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_10.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_rattletrap_ratt_deny_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_rattletrap_ratt_deny_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_06.mp3",
+      "transcript": "That, my friends, is why metal will never die!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_rattletrap_ratt_win_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_laugh_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_laugh_01.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_rattletrap_ratt_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_laugh_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_laugh_02.mp3",
+      "transcript": "Ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_rattletrap_ratt_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_09.mp3",
+      "transcript": "Who sniped who?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_rattletrap_ratt_cuz_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_25.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_25.mp3",
+      "transcript": "Sniper, calm your beard!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_rattletrap_ratt_cuz_25.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_10.mp3",
+      "transcript": "Tinker's been tanked.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_rattletrap_ratt_cuz_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_11.mp3",
+      "transcript": "Look who tanked Tinker!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_rattletrap_ratt_cuz_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_24.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_24.mp3",
+      "transcript": "Tinker, calm your beard!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_rattletrap_ratt_cuz_24.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_18.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_18.mp3",
+      "transcript": "Pick on somebody your own size!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_rattletrap_ratt_cuz_18.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_firstblood_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_firstblood_01.mp3",
+      "transcript": "First Blood! Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_rattletrap_ratt_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_ability_hook_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_ability_hook_10.mp3",
+      "transcript": "Hey, I got one of those too, Pudge!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_rattletrap_ratt_ability_hook_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_19.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_19.mp3",
+      "transcript": "Leave Tinker alone!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_rattletrap_ratt_cuz_19.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_20.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_20.mp3",
+      "transcript": "Leave Sniper alone!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_rattletrap_ratt_cuz_20.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_01.mp3",
+      "transcript": "What's yours is mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_rattletrap_ratt_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_02.mp3",
+      "transcript": "Gold for parts.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_rattletrap_ratt_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_03.mp3",
+      "transcript": "Coin for me.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_rattletrap_ratt_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_04.mp3",
+      "transcript": "Dead giveaway.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_rattletrap_ratt_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_05.mp3",
+      "transcript": "Coins in a can.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_rattletrap_ratt_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_06.mp3",
+      "transcript": "I like your metal!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_rattletrap_ratt_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_07.mp3",
+      "transcript": "Clocked ya.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_rattletrap_ratt_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_08.mp3",
+      "transcript": "If only money were a shield, eh?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_rattletrap_ratt_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_09.mp3",
+      "transcript": "Jackpot!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_rattletrap_ratt_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lasthit_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lasthit_10.mp3",
+      "transcript": "Hit the jackpot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_rattletrap_ratt_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_rattletrap_ratt_deny_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_rattletrap_ratt_deny_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_03.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_rattletrap_ratt_deny_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_rattletrap_ratt_deny_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_05.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_rattletrap_ratt_deny_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_06.mp3",
+      "transcript": "Unh unh, nope.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_rattletrap_ratt_deny_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_07.mp3",
+      "transcript": "Not gonna happen.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_rattletrap_ratt_deny_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_08.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_rattletrap_ratt_deny_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_09.mp3",
+      "transcript": "Not what you expected?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_rattletrap_ratt_deny_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_12.mp3",
+      "transcript": "He he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_rattletrap_ratt_deny_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_13.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_rattletrap_ratt_deny_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_14.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_rattletrap_ratt_deny_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_deny_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_deny_15.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_rattletrap_ratt_deny_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_purch_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_purch_01.mp3",
+      "transcript": "I've had my eye on that!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_rattletrap_ratt_purch_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_purch_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_purch_02.mp3",
+      "transcript": "Now my enemies pay!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_rattletrap_ratt_purch_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_purch_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_purch_03.mp3",
+      "transcript": "Oh, they're gonna hate this!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_rattletrap_ratt_purch_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_purch_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_purch_04.mp3",
+      "transcript": "Ooh, gadgets!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_rattletrap_ratt_purch_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_purch_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_purch_05.mp3",
+      "transcript": "Hm, more toys!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_rattletrap_ratt_purch_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_blink_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_rattletrap_ratt_blink_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_blink_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_blink_02.mp3",
+      "transcript": "Beware the blade of blink!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_rattletrap_ratt_blink_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_scepter_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_rattletrap_ratt_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_scepter_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_scepter_02.mp3",
+      "transcript": "Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_rattletrap_ratt_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_scepter_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_scepter_03.mp3",
+      "transcript": "Scepter! Just what my hook needed!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_rattletrap_ratt_scepter_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_scepter_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_scepter_04.mp3",
+      "transcript": "Scepter! The perfect accessory for my hookshot!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_rattletrap_ratt_scepter_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_immort_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_rattletrap_ratt_immort_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_immort_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_immort_02.mp3",
+      "transcript": "Lifetime warranty!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_rattletrap_ratt_immort_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_01.mp3",
+      "transcript": "Noooooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_rattletrap_ratt_death_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_02.mp3",
+      "transcript": "Out of tolerance.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_rattletrap_ratt_death_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_03.mp3",
+      "transcript": "Clogged my works…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_rattletrap_ratt_death_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_04.mp3",
+      "transcript": "My armor rusts…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_rattletrap_ratt_death_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_05.mp3",
+      "transcript": "I'm lost…like gears in the rain.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_rattletrap_ratt_death_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_06.mp3",
+      "transcript": "My armor is my coffin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_rattletrap_ratt_death_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_07.mp3",
+      "transcript": "Death…rattle…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_rattletrap_ratt_death_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_08.mp3",
+      "transcript": "I'm mechanically…reclined.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_rattletrap_ratt_death_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_09.mp3",
+      "transcript": "My mechanism lies broken.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_rattletrap_ratt_death_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_10.mp3",
+      "transcript": "A chink in my armor…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_rattletrap_ratt_death_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_11.mp3",
+      "transcript": "My traps…failed…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_rattletrap_ratt_death_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_12.mp3",
+      "transcript": "Death traps me…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_rattletrap_ratt_death_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_13.mp3",
+      "transcript": "Metal fatigue…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_rattletrap_ratt_death_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_14.mp3",
+      "transcript": "That's entrapment!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_rattletrap_ratt_death_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_15.mp3",
+      "transcript": "Must be getting rusty…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_rattletrap_ratt_death_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_death_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_death_16.mp3",
+      "transcript": "Metal will never die…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_rattletrap_ratt_death_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_21.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_21.mp3",
+      "transcript": "Tinker, you were like a brother to me!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_rattletrap_ratt_cuz_21.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_23.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_23.mp3",
+      "transcript": "Tinker, where'd you get those wonderful toys?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_rattletrap_ratt_cuz_23.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_cuz_22.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_cuz_22.mp3",
+      "transcript": "Sniper, you? There's one in every family.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_rattletrap_ratt_cuz_22.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_01.mp3",
+      "transcript": "An escapement mechanism!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_rattletrap_ratt_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_02.mp3",
+      "transcript": "My spring is wound again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_rattletrap_ratt_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_03.mp3",
+      "transcript": "Another lap around the dial.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_rattletrap_ratt_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_04.mp3",
+      "transcript": "Metal man!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_rattletrap_ratt_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_05.mp3",
+      "transcript": "Geared up for revenge!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_rattletrap_ratt_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_06.mp3",
+      "transcript": "Not obsolete quite yet!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_rattletrap_ratt_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_07.mp3",
+      "transcript": "Rebuilt and ready to roll!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_rattletrap_ratt_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_08.mp3",
+      "transcript": "More work to be done!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_rattletrap_ratt_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_09.mp3",
+      "transcript": "Dressed to kill!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_rattletrap_ratt_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_10.mp3",
+      "transcript": "I have a degree in mechanical domineering!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_rattletrap_ratt_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_11.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_11.mp3",
+      "transcript": "Rewound!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_rattletrap_ratt_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_12.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_12.mp3",
+      "transcript": "Powered armor up!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_rattletrap_ratt_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_13.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_13.mp3",
+      "transcript": "I may be canned but I'm no ham.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_rattletrap_ratt_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_14.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_14.mp3",
+      "transcript": "I'm still under warranty!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_rattletrap_ratt_respawn_14.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_15.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_15.mp3",
+      "transcript": "Reeeefurbished!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_rattletrap_ratt_respawn_15.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_16.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_16.mp3",
+      "transcript": "I'm the six million gold piece man!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_rattletrap_ratt_respawn_16.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_17.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_17.mp3",
+      "transcript": "I am the new Mark Two Rattletrap. Ah, just kidding.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_rattletrap_ratt_respawn_17.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_respawn_18.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_respawn_18.mp3",
+      "transcript": "Bleep bloop, I am a robot. Eh, just kidding.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_rattletrap_ratt_respawn_18.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_laugh_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_laugh_03.mp3",
+      "transcript": "Woo hoo!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_rattletrap_ratt_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_bottle_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_rattletrap_ratt_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_bottle_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_bottle_02.mp3",
+      "transcript": "Put this in a can.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_rattletrap_ratt_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_bottle_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_bottle_03.mp3",
+      "transcript": "This'll come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_rattletrap_ratt_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_bottle_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_bottle_04.mp3",
+      "transcript": "Canned goods.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_rattletrap_ratt_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_happy_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_happy_02.mp3",
+      "transcript": "Ho!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_rattletrap_ratt_happy_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_doubdam_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_rattletrap_ratt_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_doubdam_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_doubdam_02.mp3",
+      "transcript": "Twice the torque!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_rattletrap_ratt_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_haste_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_rattletrap_ratt_haste_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_haste_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_haste_02.mp3",
+      "transcript": "Hurry the hands of the clock!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_rattletrap_ratt_haste_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_illus_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_rattletrap_ratt_illus_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_illus_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_illus_02.mp3",
+      "transcript": "Thrice is nice!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_rattletrap_ratt_illus_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_invis_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_rattletrap_ratt_invis_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_invis_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_invis_02.mp3",
+      "transcript": "You can't fight what you can't see!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_rattletrap_ratt_invis_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_regen_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_rattletrap_ratt_regen_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_regen_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_regen_02.mp3",
+      "transcript": "New parts!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_rattletrap_ratt_regen_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_rattletrap_ratt_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_rattletrap_ratt_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_rattletrap_ratt_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_rattletrap_ratt_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_rattletrap_ratt_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_rattletrap_ratt_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_rattletrap_ratt_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_rattletrap_ratt_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_notyet_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_rattletrap_ratt_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_01.mp3",
+      "transcript": "Out of fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_rattletrap_ratt_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_02.mp3",
+      "transcript": "No fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_rattletrap_ratt_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_03.mp3",
+      "transcript": "Not enough fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_rattletrap_ratt_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_04.mp3",
+      "transcript": "Out of fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_rattletrap_ratt_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_05.mp3",
+      "transcript": "No fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_rattletrap_ratt_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_06.mp3",
+      "transcript": "Not enough fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_rattletrap_ratt_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_07.mp3",
+      "transcript": "Out of fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_rattletrap_ratt_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_08.mp3",
+      "transcript": "No fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_rattletrap_ratt_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_nomana_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_nomana_09.mp3",
+      "transcript": "Not enough fuel.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_rattletrap_ratt_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_01.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_rattletrap_ratt_pain_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_rattletrap_ratt_pain_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_03.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_rattletrap_ratt_pain_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_rattletrap_ratt_pain_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_05.mp3",
+      "transcript": "Aw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_rattletrap_ratt_pain_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_06.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_06.mp3",
+      "transcript": "Hey, watch it!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_rattletrap_ratt_pain_06.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_07.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_07.mp3",
+      "transcript": "Ow, whadda ya doing?",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_rattletrap_ratt_pain_07.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_08.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_rattletrap_ratt_pain_08.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_09.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_09.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_rattletrap_ratt_pain_09.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_pain_10.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_pain_10.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_rattletrap_ratt_pain_10.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_underattack_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_rattletrap_ratt_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_rare_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_rare_01.mp3",
+      "transcript": "Hard on the outside, but with a soft delicious center.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_rattletrap_ratt_rare_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_rare_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_rare_02.mp3",
+      "transcript": "A good offense is the best armor. Good armor is also good armor.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_rattletrap_ratt_rare_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_thanks_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_rattletrap_ratt_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_thanks_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_thanks_02.mp3",
+      "transcript": "Much appreciated!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_rattletrap_ratt_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_laugh_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_laugh_04.mp3",
+      "transcript": "Yaa!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_rattletrap_ratt_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_rattletrap_ratt_win_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_rattletrap_ratt_win_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_03.mp3",
+      "transcript": "Some disassembly inspired!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_rattletrap_ratt_win_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_04.mp3",
+      "transcript": "Hoo hoo! Metal!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_rattletrap_ratt_win_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_win_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_win_05.mp3",
+      "transcript": "That is so metal!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_rattletrap_ratt_win_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lose_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_rattletrap_ratt_lose_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lose_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_rattletrap_ratt_lose_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_lose_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_lose_03.mp3",
+      "transcript": "Our mainspring is…sprung!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_rattletrap_ratt_lose_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_happy_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_happy_03.mp3",
+      "transcript": "Mmmm!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_rattletrap_ratt_happy_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_happy_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_happy_04.mp3",
+      "transcript": "Hmm!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_rattletrap_ratt_happy_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_happy_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_happy_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_rattletrap_ratt_happy_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_shitwiz_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_rattletrap_ratt_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_crumwiz_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_rattletrap_ratt_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_01.mp3",
+      "transcript": "Uh druh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_rattletrap_ratt_anger_01.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_02.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_02.mp3",
+      "transcript": "Uhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_rattletrap_ratt_anger_02.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_03.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_03.mp3",
+      "transcript": "Ohhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_rattletrap_ratt_anger_03.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_04.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_04.mp3",
+      "transcript": "Ho…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_rattletrap_ratt_anger_04.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_anger_05.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_anger_05.mp3",
+      "transcript": "Huhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_rattletrap_ratt_anger_05.mp3"
+    },
+    {
+      "file": "Vo_rattletrap_ratt_happy_01.mp3",
+      "key": "dota2/clockwerk/Vo_rattletrap_ratt_happy_01.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_rattletrap_ratt_happy_01.mp3"
+    }
+  ]
+}

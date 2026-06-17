@@ -1,0 +1,3388 @@
+{
+  "hero": "Nyx Assassin",
+  "slug": "nyx-assassin",
+  "source": "https://liquipedia.net/dota2/Nyx_Assassin/Responses",
+  "scrapedAt": "2026-06-17T15:01:04.127Z",
+  "count": 336,
+  "voicelines": [
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_01.mp3",
+      "transcript": "Nyx Assassin.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_nyx_assassin_nyx_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_02.mp3",
+      "transcript": "Nyx Assassin.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_nyx_assassin_nyx_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_03.mp3",
+      "transcript": "Five targets marked for death.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_nyx_assassin_nyx_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_04.mp3",
+      "transcript": "I will fulfill my purpose.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_nyx_assassin_nyx_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_05.mp3",
+      "transcript": "Assassination is inevitable.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_nyx_assassin_nyx_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_begin_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_begin_01.mp3",
+      "transcript": "My purpose is clear, my targets doomed.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_nyx_assassin_nyx_begin_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_10.mp3",
+      "transcript": "Ah, Nyx, Nyx, Nyx, Nyx.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_nyx_assassin_nyx_nyx_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_16.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_16.mp3",
+      "transcript": "I see your fears.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_nyx_assassin_nyx_attack_16.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_03.mp3",
+      "transcript": "Soon you shall perish.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_nyx_assassin_nyx_burn_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_05.mp3",
+      "transcript": "I am the pride of Nyx.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_nyx_assassin_nyx_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_14.mp3",
+      "transcript": "Nyx welcomes you.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_nyx_assassin_nyx_kill_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_10.mp3",
+      "transcript": "Nyx, Nyx, Nyx, Nyx.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_nyx_assassin_nyx_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_12.mp3",
+      "transcript": "Metamorphose.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_nyx_assassin_nyx_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_13.mp3",
+      "transcript": "To better to kill them with.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_nyx_assassin_nyx_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_07.mp3",
+      "transcript": "Neah.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_nyx_assassin_nyx_anger_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spawn_03_alt_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spawn_03_alt_01.mp3",
+      "transcript": "Five targets marked for death.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_nyx_assassin_nyx_spawn_03_alt_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_inthebag_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_inthebag_01.mp3",
+      "transcript": "As the chosen assassin of the greatest goddess Nyx, I can promise you that this one's in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_nyx_assassin_nyx_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_nyx_assassin_nyx_move_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_nyx_assassin_nyx_move_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_03.mp3",
+      "transcript": "I skitter, thththt.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_nyx_assassin_nyx_move_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_04.mp3",
+      "transcript": "On chitinous legs.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_nyx_assassin_nyx_move_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_05.mp3",
+      "transcript": "I have one purpose for being.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_nyx_assassin_nyx_move_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_06.mp3",
+      "transcript": "Nyx, Nyx.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_nyx_assassin_nyx_move_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_07.mp3",
+      "transcript": "My words enter the mind, but not the ear.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_nyx_assassin_nyx_move_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_08.mp3",
+      "transcript": "Hear my thoughts.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_nyx_assassin_nyx_move_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_09.mp3",
+      "transcript": "To my marks.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_nyx_assassin_nyx_move_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_10.mp3",
+      "transcript": "Jaggy-legged, I run.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_nyx_assassin_nyx_move_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_11.mp3",
+      "transcript": "Nyx guides me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_nyx_assassin_nyx_move_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_12.mp3",
+      "transcript": "Mmm, their thoughts draw me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_nyx_assassin_nyx_move_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_13.mp3",
+      "transcript": "I speak without voice.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_nyx_assassin_nyx_move_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_14.mp3",
+      "transcript": "Onerous.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_nyx_assassin_nyx_move_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_15.mp3",
+      "transcript": "I have one purpose.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_nyx_assassin_nyx_move_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_move_16.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_move_16.mp3",
+      "transcript": "As Nyx would have it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_nyx_assassin_nyx_move_16.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_01.mp3",
+      "transcript": "Nyx, aah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_nyx_assassin_nyx_nyx_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_02.mp3",
+      "transcript": "Nyx!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_nyx_assassin_nyx_nyx_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_03.mp3",
+      "transcript": "Nyx, heheheh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_nyx_assassin_nyx_nyx_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_05.mp3",
+      "transcript": "Nyx.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_nyx_assassin_nyx_nyx_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_08.mp3",
+      "transcript": "Nyx, Nyx.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_nyx_assassin_nyx_nyx_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_nyx_assassin_nyx_attack_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_02.mp3",
+      "transcript": "Die.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_nyx_assassin_nyx_attack_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_03.mp3",
+      "transcript": "Ah, die.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_nyx_assassin_nyx_attack_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_04.mp3",
+      "transcript": "I feel their fear.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_nyx_assassin_nyx_attack_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_05.mp3",
+      "transcript": "Yes, bleed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_nyx_assassin_nyx_attack_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_06.mp3",
+      "transcript": "Collapse.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_nyx_assassin_nyx_attack_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_07.mp3",
+      "transcript": "Bleed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_nyx_assassin_nyx_attack_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_08.mp3",
+      "transcript": "Suffer.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_nyx_assassin_nyx_attack_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_09.mp3",
+      "transcript": "Ah, suffer.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_nyx_assassin_nyx_attack_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_10.mp3",
+      "transcript": "Ah, so soft.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_nyx_assassin_nyx_attack_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_11.mp3",
+      "transcript": "Oh, fleshy.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_nyx_assassin_nyx_attack_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_12.mp3",
+      "transcript": "Exposed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_nyx_assassin_nyx_attack_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_13.mp3",
+      "transcript": "By Nyx.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_nyx_assassin_nyx_attack_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_14.mp3",
+      "transcript": "In Nyx name.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_nyx_assassin_nyx_attack_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_attack_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_attack_15.mp3",
+      "transcript": "Your thoughts betray you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_nyx_assassin_nyx_attack_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_cast_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_cast_01.mp3",
+      "transcript": "My purpose draws nigh.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_nyx_assassin_nyx_cast_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_cast_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_cast_02.mp3",
+      "transcript": "Closing in.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_nyx_assassin_nyx_cast_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_cast_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_cast_03.mp3",
+      "transcript": "Impending.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_nyx_assassin_nyx_cast_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_cast_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_cast_04.mp3",
+      "transcript": "Target acquired.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_nyx_assassin_nyx_cast_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_cast_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_cast_05.mp3",
+      "transcript": "Chosen of Nyx.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_nyx_assassin_nyx_cast_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_impale_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_impale_01.mp3",
+      "transcript": "A stony path.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_nyx_assassin_nyx_impale_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_impale_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_impale_03.mp3",
+      "transcript": "Impale.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_nyx_assassin_nyx_impale_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_01.mp3",
+      "transcript": "Mana burn.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_nyx_assassin_nyx_burn_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_02.mp3",
+      "transcript": "Your talents wane.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_nyx_assassin_nyx_burn_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_04.mp3",
+      "transcript": "Talents stolen.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_nyx_assassin_nyx_burn_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_05.mp3",
+      "transcript": "Talentless.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_nyx_assassin_nyx_burn_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_burn_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_burn_06.mp3",
+      "transcript": "Skills erode!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_nyx_assassin_nyx_burn_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_01.mp3",
+      "transcript": "Spiked carapace!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_nyx_assassin_nyx_spikedcarapace_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_02.mp3",
+      "transcript": "Dark reflection.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_nyx_assassin_nyx_spikedcarapace_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_03.mp3",
+      "transcript": "Come now, strike me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_nyx_assassin_nyx_spikedcarapace_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_04.mp3",
+      "transcript": "Fight, coward.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_nyx_assassin_nyx_spikedcarapace_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_05.mp3",
+      "transcript": "Strike me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_nyx_assassin_nyx_spikedcarapace_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_06.mp3",
+      "transcript": "I do not have to hide. Strike me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_nyx_assassin_nyx_spikedcarapace_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_07.mp3",
+      "transcript": "Do it now!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_nyx_assassin_nyx_spikedcarapace_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_01.mp3",
+      "transcript": "Quick and unseen.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_nyx_assassin_nyx_vendetta_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_02.mp3",
+      "transcript": "Hidden from sight.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_nyx_assassin_nyx_vendetta_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_03.mp3",
+      "transcript": "None may see.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_nyx_assassin_nyx_vendetta_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_09.mp3",
+      "transcript": "For Nyx!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_nyx_assassin_nyx_vendetta_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_09.mp3",
+      "transcript": "For Nyx.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_nyx_assassin_nyx_nyx_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_04.mp3",
+      "transcript": "For Nyx.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_nyx_assassin_nyx_nyx_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_05.mp3",
+      "transcript": "I got you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_nyx_assassin_nyx_vendetta_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_06.mp3",
+      "transcript": "Vendetta!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_nyx_assassin_nyx_vendetta_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_07.mp3",
+      "transcript": "Take that.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_nyx_assassin_nyx_vendetta_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_08.mp3",
+      "transcript": "Pain.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_nyx_assassin_nyx_vendetta_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_impale_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_impale_02.mp3",
+      "transcript": "Burrowing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_nyx_assassin_nyx_impale_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_impale_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_impale_04.mp3",
+      "transcript": "I dig, they die.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_nyx_assassin_nyx_impale_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_chitter_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_chitter_01.mp3",
+      "transcript": "Chichifchichi.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_nyx_assassin_nyx_chitter_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_chitter_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_chitter_02.mp3",
+      "transcript": "Nyx chichcichcihcihchi.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_nyx_assassin_nyx_chitter_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_chitter_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_chitter_03.mp3",
+      "transcript": "Hochichchchchichichichi.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_nyx_assassin_nyx_chitter_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_chitter_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_chitter_04.mp3",
+      "transcript": "Hihchchchchichi.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_nyx_assassin_nyx_chitter_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_01.mp3",
+      "transcript": "The better to kill them with.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_nyx_assassin_nyx_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_02.mp3",
+      "transcript": "My caste compels me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_nyx_assassin_nyx_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_03.mp3",
+      "transcript": "Transfigured.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_nyx_assassin_nyx_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_04.mp3",
+      "transcript": "My carapace hardens!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_nyx_assassin_nyx_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_06.mp3",
+      "transcript": "Nyx bestows her grace.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_nyx_assassin_nyx_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_07.mp3",
+      "transcript": "Nehehehahaha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_nyx_assassin_nyx_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_08.mp3",
+      "transcript": "Hehehahahha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_nyx_assassin_nyx_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_09.mp3",
+      "transcript": "Nyhehehahaha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_nyx_assassin_nyx_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_levelup_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_levelup_11.mp3",
+      "transcript": "Nyx, hehahahha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_nyx_assassin_nyx_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_01.mp3",
+      "transcript": "Another head, another dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_nyx_assassin_nyx_kill_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_02.mp3",
+      "transcript": "Ahaha, another body laid to waste.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_nyx_assassin_nyx_kill_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_03.mp3",
+      "transcript": "Target neutralized.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_nyx_assassin_nyx_kill_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_04.mp3",
+      "transcript": "Surcease of thought.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_nyx_assassin_nyx_kill_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_05.mp3",
+      "transcript": "Hear my thoughts, dead one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_nyx_assassin_nyx_kill_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_06.mp3",
+      "transcript": "You are as dead as they come.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_nyx_assassin_nyx_kill_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_07.mp3",
+      "transcript": "You expire.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_nyx_assassin_nyx_kill_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_08.mp3",
+      "transcript": "Go the way of all flesh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_nyx_assassin_nyx_kill_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_09.mp3",
+      "transcript": "I hear your thoughts no more.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_nyx_assassin_nyx_kill_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_10.mp3",
+      "transcript": "Your thoughts are silenced.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_nyx_assassin_nyx_kill_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_11.mp3",
+      "transcript": "You depart this life.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_nyx_assassin_nyx_kill_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_12.mp3",
+      "transcript": "Succumb to your wounds.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_nyx_assassin_nyx_kill_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_13.mp3",
+      "transcript": "Your consciousness disperses.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_nyx_assassin_nyx_kill_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_15.mp3",
+      "transcript": "Heheahah ahaha haha, Nyx, Nyx, Nyx.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_nyx_assassin_nyx_kill_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_16.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_16.mp3",
+      "transcript": "For you, dear Nyx, for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_nyx_assassin_nyx_kill_16.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_kill_17.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_kill_17.mp3",
+      "transcript": "Nyx, Nyx, Nyx, heh heh hah.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_nyx_assassin_nyx_kill_17.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_25.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_25.mp3",
+      "transcript": "Assassinated.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_nyx_assassin_nyx_rival_25.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_01.mp3",
+      "transcript": "Heehehehheheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_nyx_assassin_nyx_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_02.mp3",
+      "transcript": "Hahahahahah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_nyx_assassin_nyx_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_03.mp3",
+      "transcript": "Hehehhehhem.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_nyx_assassin_nyx_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_04.mp3",
+      "transcript": "oo hehheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_nyx_assassin_nyx_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_05.mp3",
+      "transcript": "Eh heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_nyx_assassin_nyx_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_06.mp3",
+      "transcript": "Ahahah, Nyx, Nyx, Nyx, Nyx, Nyx, heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_nyx_assassin_nyx_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_laugh_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_laugh_07.mp3",
+      "transcript": "Heehehheh Nyx, Nyx.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_nyx_assassin_nyx_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_06.mp3",
+      "transcript": "Ah, Nyx, ththththt.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_nyx_assassin_nyx_nyx_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_07.mp3",
+      "transcript": "Ah, ththththt, Nyx, hnn.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_nyx_assassin_nyx_nyx_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nyx_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nyx_11.mp3",
+      "transcript": "Nyx, Nyx, ththt.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_nyx_assassin_nyx_nyx_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_23.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_23.mp3",
+      "transcript": "Ah, you stupid…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_nyx_assassin_nyx_rival_23.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_01.mp3",
+      "transcript": "Neither hot, nor cold, just dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_nyx_assassin_nyx_rival_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_02.mp3",
+      "transcript": "I silence one voice, then the other.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_nyx_assassin_nyx_rival_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_03.mp3",
+      "transcript": "Now you metamorphose into death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_nyx_assassin_nyx_rival_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_04.mp3",
+      "transcript": "Your metamorphosis was impressive, I will admit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_nyx_assassin_nyx_rival_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_05.mp3",
+      "transcript": "Vile insect.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_nyx_assassin_nyx_rival_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_06.mp3",
+      "transcript": "Not an easy bug to kill, but worth the effort.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_nyx_assassin_nyx_rival_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_07.mp3",
+      "transcript": "Caught in your own web, ahe.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_nyx_assassin_nyx_rival_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_08.mp3",
+      "transcript": "I collect your bounty, thththth.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_nyx_assassin_nyx_rival_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_09.mp3",
+      "transcript": "Your exoskeleton couldn't save you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_nyx_assassin_nyx_rival_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_10.mp3",
+      "transcript": "Your exoskeleton was no match for Nyx.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_nyx_assassin_nyx_rival_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_11.mp3",
+      "transcript": "The ogre and his parasite are no more.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_nyx_assassin_nyx_rival_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_12.mp3",
+      "transcript": "Where's your dragon now?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_nyx_assassin_nyx_rival_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_13.mp3",
+      "transcript": "The stealth assassin, not stealthy enough.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_nyx_assassin_nyx_rival_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_14.mp3",
+      "transcript": "Your books couldn't save you, Warlock.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_nyx_assassin_nyx_rival_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_21.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_21.mp3",
+      "transcript": "Hahahaha! Your books couldn't save you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_nyx_assassin_nyx_rival_21.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_22.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_22.mp3",
+      "transcript": "May the silverfish devour your books.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_nyx_assassin_nyx_rival_22.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_15.mp3",
+      "transcript": "Ah, the insects can feast on your corpse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_nyx_assassin_nyx_rival_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_16.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_16.mp3",
+      "transcript": "It seems the insects have been eating you for some time already.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_nyx_assassin_nyx_rival_16.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_26.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_26.mp3",
+      "transcript": "Ahaha, the undying is dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_nyx_assassin_nyx_rival_26.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_17.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_17.mp3",
+      "transcript": "Your life without end comes to an end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_nyx_assassin_nyx_rival_17.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_18.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_18.mp3",
+      "transcript": "Your fire is out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_nyx_assassin_nyx_rival_18.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_19.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_19.mp3",
+      "transcript": "Your demon takes you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_nyx_assassin_nyx_rival_19.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_20.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_20.mp3",
+      "transcript": "Hehehe, you fought well, for a keen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_nyx_assassin_nyx_rival_20.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_27.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_27.mp3",
+      "transcript": "I despised you since the birth of my whole entire caste.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_nyx_assassin_nyx_rival_27.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_firstblood_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_firstblood_01.mp3",
+      "transcript": "First blood, heheah hah heh!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_nyx_assassin_nyx_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_firstblood_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_firstblood_02.mp3",
+      "transcript": "First blood, heheah hah heh! Nyx, Nyx.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_nyx_assassin_nyx_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_firstblood_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_firstblood_03.mp3",
+      "transcript": "In the name of Nyx, the first assassination is complete!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_nyx_assassin_nyx_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_01.mp3",
+      "transcript": "Come, we will spin them into death, Broodmother.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_nyx_assassin_nyx_ally_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_02.mp3",
+      "transcript": "Weaver, their reality shall snap.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_nyx_assassin_nyx_ally_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_03.mp3",
+      "transcript": "Ah, impressive stinger Sand King. Very sharp, yes.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_nyx_assassin_nyx_ally_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_04.mp3",
+      "transcript": "Earth shall shake, I shall kill.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_nyx_assassin_nyx_ally_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_05.mp3",
+      "transcript": "You must earn Nyx's grace, Demon Witch.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_nyx_assassin_nyx_ally_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_ally_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_ally_06.mp3",
+      "transcript": "You must earn Nyx's grace, Lion.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_nyx_assassin_nyx_ally_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_01.mp3",
+      "transcript": "Gold makes soft armor.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_nyx_assassin_nyx_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_02.mp3",
+      "transcript": "What use have I for coin?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_nyx_assassin_nyx_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_03.mp3",
+      "transcript": "You can't buy your life.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_nyx_assassin_nyx_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_04.mp3",
+      "transcript": "Bribe me, shall you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_nyx_assassin_nyx_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_05.mp3",
+      "transcript": "Your bribes won't dissuade me.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_nyx_assassin_nyx_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_06.mp3",
+      "transcript": "Your bribe of coin is wasted on Nyx.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_nyx_assassin_nyx_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_07.mp3",
+      "transcript": "Death and gold are linked.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_nyx_assassin_nyx_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_08.mp3",
+      "transcript": "You cease.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_nyx_assassin_nyx_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_09.mp3",
+      "transcript": "Aheh, Nyx on you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_nyx_assassin_nyx_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lasthit_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lasthit_10.mp3",
+      "transcript": "You've been nyxed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_nyx_assassin_nyx_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_spikedcarapace_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_spikedcarapace_08.mp3",
+      "transcript": "Strike me, coward.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_nyx_assassin_nyx_spikedcarapace_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_vendetta_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_vendetta_04.mp3",
+      "transcript": "You can't run from your thoughts.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_nyx_assassin_nyx_vendetta_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_nyx_assassin_nyx_deny_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_02.mp3",
+      "transcript": "So very denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_nyx_assassin_nyx_deny_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_03.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_nyx_assassin_nyx_deny_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_04.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_nyx_assassin_nyx_deny_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_05.mp3",
+      "transcript": "Close, but no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_nyx_assassin_nyx_deny_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_06.mp3",
+      "transcript": "You almost had it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_nyx_assassin_nyx_deny_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_07.mp3",
+      "transcript": "Nyx on that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_nyx_assassin_nyx_deny_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_08.mp3",
+      "transcript": "Nyx I say.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_nyx_assassin_nyx_deny_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_09.mp3",
+      "transcript": "Nyeaheheh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_nyx_assassin_nyx_deny_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_10.mp3",
+      "transcript": "Heehehehaeh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_nyx_assassin_nyx_deny_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_11.mp3",
+      "transcript": "No, no, no, heh heh, hah.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_nyx_assassin_nyx_deny_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_12.mp3",
+      "transcript": "Hah heh heh hah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_nyx_assassin_nyx_deny_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_13.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_nyx_assassin_nyx_deny_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_nyx_assassin_nyx_deny_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_deny_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_deny_15.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_nyx_assassin_nyx_deny_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_purch_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_purch_01.mp3",
+      "transcript": "For the greater purpose.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_nyx_assassin_nyx_purch_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_purch_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_purch_02.mp3",
+      "transcript": "A means to an end.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_nyx_assassin_nyx_purch_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_purch_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_purch_03.mp3",
+      "transcript": "Th, a tool of the trade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_nyx_assassin_nyx_purch_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_11.mp3",
+      "transcript": "Nice.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_nyx_assassin_nyx_items_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_scepter_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_scepter_01.mp3",
+      "transcript": "Long has this been in my thoughts.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_nyx_assassin_nyx_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_scepter_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_scepter_02.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_nyx_assassin_nyx_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_blink_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_nyx_assassin_nyx_blink_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_blink_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_blink_02.mp3",
+      "transcript": "Nyx dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_nyx_assassin_nyx_blink_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_01.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_nyx_assassin_nyx_items_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_02.mp3",
+      "transcript": "Ring of Aquila.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_nyx_assassin_nyx_items_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_03.mp3",
+      "transcript": "Urn of Shadows.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_nyx_assassin_nyx_items_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_04.mp3",
+      "transcript": "Ah, Ethereal Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_nyx_assassin_nyx_items_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_05.mp3",
+      "transcript": "Diffusal Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_nyx_assassin_nyx_items_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_06.mp3",
+      "transcript": "Orchid of Malevolence.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_nyx_assassin_nyx_items_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_07.mp3",
+      "transcript": "Necronomicon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_nyx_assassin_nyx_items_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_10.mp3",
+      "transcript": "Necronomicon. Nice.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_nyx_assassin_nyx_items_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_08.mp3",
+      "transcript": "Blade mail.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_nyx_assassin_nyx_items_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_12.mp3",
+      "transcript": "Blade mail?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_nyx_assassin_nyx_items_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_items_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_items_09.mp3",
+      "transcript": "Ah, Dagon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_nyx_assassin_nyx_items_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_immort_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_nyx_assassin_nyx_immort_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_immort_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_immort_02.mp3",
+      "transcript": "The Nyx Assassin lives forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_nyx_assassin_nyx_immort_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_nyx_assassin_nyx_death_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_02.mp3",
+      "transcript": "My armor fails me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_nyx_assassin_nyx_death_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_03.mp3",
+      "transcript": "How did this happen?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_nyx_assassin_nyx_death_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_04.mp3",
+      "transcript": "My mission fails.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_nyx_assassin_nyx_death_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_05.mp3",
+      "transcript": "No! Assassinated.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_nyx_assassin_nyx_death_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_06.mp3",
+      "transcript": "The assassin dies.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_nyx_assassin_nyx_death_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_07.mp3",
+      "transcript": "Another will rise in my place.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_nyx_assassin_nyx_death_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_08.mp3",
+      "transcript": "The caste will raise another.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_nyx_assassin_nyx_death_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_09.mp3",
+      "transcript": "With my last thought, I curse you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_nyx_assassin_nyx_death_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_10.mp3",
+      "transcript": "I conclude.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_nyx_assassin_nyx_death_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_11.mp3",
+      "transcript": "Oh, Nyx.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_nyx_assassin_nyx_death_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_12.mp3",
+      "transcript": "My thoughts dissipate.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_nyx_assassin_nyx_death_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_13.mp3",
+      "transcript": "I have failed the goddess Nyx.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_nyx_assassin_nyx_death_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_18.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_18.mp3",
+      "transcript": "I am Nyx, grakillaaghraamghiah! Oi-grayoighaaah… Nyx-aaaagh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_nyx_assassin_nyx_death_18.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_14.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_14.mp3",
+      "transcript": "The dragon freak slays me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_nyx_assassin_nyx_death_14.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rival_24.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rival_24.mp3",
+      "transcript": "Broodmotherfuh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_nyx_assassin_nyx_rival_24.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_15.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_15.mp3",
+      "transcript": "The ogre and his parasite slay me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_nyx_assassin_nyx_death_15.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_16.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_16.mp3",
+      "transcript": "Write my name in the book of the dead.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_nyx_assassin_nyx_death_16.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_death_17.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_death_17.mp3",
+      "transcript": "Curse your vision, Slardar.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_nyx_assassin_nyx_death_17.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_01.mp3",
+      "transcript": "It's always darkest before the spawn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_nyx_assassin_nyx_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_02.mp3",
+      "transcript": "The assassin caste is reborn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_nyx_assassin_nyx_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_03.mp3",
+      "transcript": "My thoughts cohere from the ether.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_nyx_assassin_nyx_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_04.mp3",
+      "transcript": "I resume.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_nyx_assassin_nyx_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_05.mp3",
+      "transcript": "The hunt begins anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_nyx_assassin_nyx_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_06.mp3",
+      "transcript": "Restore to consciousness.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_nyx_assassin_nyx_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_07.mp3",
+      "transcript": "My thoughts again inhabit flesh.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_nyx_assassin_nyx_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_08.mp3",
+      "transcript": "There is always a Nyx.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_nyx_assassin_nyx_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_09.mp3",
+      "transcript": "The new Nyx is risen.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_nyx_assassin_nyx_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_10.mp3",
+      "transcript": "The assassin returns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_nyx_assassin_nyx_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_11.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_11.mp3",
+      "transcript": "The chosen of Nyx knows not failure.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_nyx_assassin_nyx_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_12.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_12.mp3",
+      "transcript": "There is always a Nyx assassin.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_nyx_assassin_nyx_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_respawn_13.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_respawn_13.mp3",
+      "transcript": "The new Nyx assassin is risen.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_nyx_assassin_nyx_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_fastres_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_fastres_01.mp3",
+      "transcript": "In Nyx name I rise!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_nyx_assassin_nyx_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_bottle_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_bottle_01.mp3",
+      "transcript": "Bottled.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_nyx_assassin_nyx_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_bottle_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_bottle_02.mp3",
+      "transcript": "Set aside for now.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_nyx_assassin_nyx_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_bottle_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_bottle_03.mp3",
+      "transcript": "Better later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_nyx_assassin_nyx_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_happy_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_happy_03.mp3",
+      "transcript": "Nyx, neh.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_nyx_assassin_nyx_happy_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_doubdam_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_nyx_assassin_nyx_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_doubdam_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_doubdam_04.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_nyx_assassin_nyx_doubdam_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_doubdam_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_doubdam_02.mp3",
+      "transcript": "I crackle with power!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_nyx_assassin_nyx_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_doubdam_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_doubdam_03.mp3",
+      "transcript": "Oh, they're going to hate this.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_nyx_assassin_nyx_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_haste_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_nyx_assassin_nyx_haste_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_haste_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_haste_02.mp3",
+      "transcript": "Quickly.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_nyx_assassin_nyx_haste_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_illus_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_nyx_assassin_nyx_illus_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_illus_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_illus_02.mp3",
+      "transcript": "We all look alike to you.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_nyx_assassin_nyx_illus_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_invis_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_nyx_assassin_nyx_invis_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_invis_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_invis_02.mp3",
+      "transcript": "They have runes for this?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_nyx_assassin_nyx_invis_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_regen_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_nyx_assassin_nyx_regen_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_regen_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_regen_02.mp3",
+      "transcript": "Invigoration.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_nyx_assassin_nyx_regen_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_nyx_assassin_nyx_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_nyx_assassin_nyx_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_nyx_assassin_nyx_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_nyx_assassin_nyx_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_nyx_assassin_nyx_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_nyx_assassin_nyx_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_03.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_nyx_assassin_nyx_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_06.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_nyx_assassin_nyx_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_notyet_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_nyx_assassin_nyx_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_nyx_assassin_nyx_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_nyx_assassin_nyx_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_nyx_assassin_nyx_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_nyx_assassin_nyx_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_nyx_assassin_nyx_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_nyx_assassin_nyx_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_03.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_nyx_assassin_nyx_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_06.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_nyx_assassin_nyx_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_nomana_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_nyx_assassin_nyx_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_underattack_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_underattack_01.mp3",
+      "transcript": "Quickly, I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_nyx_assassin_nyx_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_01.mp3",
+      "transcript": "Eegh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_nyx_assassin_nyx_pain_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_02.mp3",
+      "transcript": "Ahah.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_nyx_assassin_nyx_pain_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_03.mp3",
+      "transcript": "Ooh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_nyx_assassin_nyx_pain_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_04.mp3",
+      "transcript": "Eooh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_nyx_assassin_nyx_pain_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_05.mp3",
+      "transcript": "Aagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_nyx_assassin_nyx_pain_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_06.mp3",
+      "transcript": "Aghgh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_nyx_assassin_nyx_pain_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_07.mp3",
+      "transcript": "Nyx.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_nyx_assassin_nyx_pain_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_08.mp3",
+      "transcript": "Eegh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_nyx_assassin_nyx_pain_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_09.mp3",
+      "transcript": "Cooh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_nyx_assassin_nyx_pain_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_pain_10.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_pain_10.mp3",
+      "transcript": "Dohh",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_nyx_assassin_nyx_pain_10.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_01.mp3",
+      "transcript": "Armorless beings were not meant for life.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_nyx_assassin_nyx_rare_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_02.mp3",
+      "transcript": "Many are the soldiers, workers and reproductives of my colony. But I am the fourth caste. The assassin caste. The caste of one.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_nyx_assassin_nyx_rare_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_03.mp3",
+      "transcript": "I could have been a lowly grub, but by the grace of Nyx, I have been elevated to the highest state. Nor shall I disappoint her.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_nyx_assassin_nyx_rare_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_06.mp3",
+      "transcript": "I could have been a lowly grub, but by the grace of our goddess Nyx, I have been elevated to the highest state. Nor shall I disappoint her.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_nyx_assassin_nyx_rare_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_04.mp3",
+      "transcript": "The blessing of Nyx gives me all the purpose I require.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_nyx_assassin_nyx_rare_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_rare_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_rare_05.mp3",
+      "transcript": "It is not my fault. The armorless were not meant for life. Look at them.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_nyx_assassin_nyx_rare_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_01.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_nyx_assassin_nyx_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_02.mp3",
+      "transcript": "Ah, missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_nyx_assassin_nyx_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_07.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_nyx_assassin_nyx_lanemissing_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_06.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_nyx_assassin_nyx_lanemissing_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_03.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_nyx_assassin_nyx_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_04.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_nyx_assassin_nyx_lanemissing_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lanemissing_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lanemissing_05.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_nyx_assassin_nyx_lanemissing_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_thanks_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_thanks_01.mp3",
+      "transcript": "I should thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_nyx_assassin_nyx_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_thanks_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_thanks_02.mp3",
+      "transcript": "With thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_nyx_assassin_nyx_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_thanks_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_thanks_03.mp3",
+      "transcript": "I thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_nyx_assassin_nyx_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_win_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_nyx_assassin_nyx_win_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_win_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_nyx_assassin_nyx_win_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_win_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_win_03.mp3",
+      "transcript": "My purpose is fulfilled!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_nyx_assassin_nyx_win_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_win_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_win_04.mp3",
+      "transcript": "Oh, great Nyx, your assassin's life has been fulfilled.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_nyx_assassin_nyx_win_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lose_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_nyx_assassin_nyx_lose_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lose_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lose_02.mp3",
+      "transcript": "I cannot believe this, Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_nyx_assassin_nyx_lose_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lose_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lose_03.mp3",
+      "transcript": "My targets have escaped!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_nyx_assassin_nyx_lose_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_lose_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_lose_04.mp3",
+      "transcript": "Nyx has no use for me now.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_nyx_assassin_nyx_lose_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_itemcommon_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_itemcommon_01.mp3",
+      "transcript": "Who dropped this?",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_nyx_assassin_nyx_itemcommon_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_itemmoderate_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_itemmoderate_01.mp3",
+      "transcript": "Ah, what have we here?",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_nyx_assassin_nyx_itemmoderate_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_itemrare_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_itemrare_01.mp3",
+      "transcript": "Ah, Nyx favors me with a gift.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_nyx_assassin_nyx_itemrare_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_01.mp3",
+      "transcript": "Argh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_nyx_assassin_nyx_failure_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_02.mp3",
+      "transcript": "Feugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_nyx_assassin_nyx_failure_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_03.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_nyx_assassin_nyx_failure_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_04.mp3",
+      "transcript": "So close.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_nyx_assassin_nyx_failure_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_05.mp3",
+      "transcript": "I failed you, Nyx, I was so close.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_nyx_assassin_nyx_failure_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_06.mp3",
+      "transcript": "Almost got you.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_nyx_assassin_nyx_failure_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_07.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_07.mp3",
+      "transcript": "Missed.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_nyx_assassin_nyx_failure_07.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_failure_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_failure_08.mp3",
+      "transcript": "Next time.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_nyx_assassin_nyx_failure_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_crumwiz_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_nyx_assassin_nyx_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_shiwiz_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_nyx_assassin_nyx_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_shiwiz_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_shiwiz_02.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_nyx_assassin_nyx_shiwiz_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_01.mp3",
+      "transcript": "Aghgh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_nyx_assassin_nyx_anger_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_02.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_nyx_assassin_nyx_anger_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_03.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_03.mp3",
+      "transcript": "Eeagh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_nyx_assassin_nyx_anger_03.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_04.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_nyx_assassin_nyx_anger_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_05.mp3",
+      "transcript": "Meeh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_nyx_assassin_nyx_anger_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_06.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_06.mp3",
+      "transcript": "Rooorh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_nyx_assassin_nyx_anger_06.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_08.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_08.mp3",
+      "transcript": "Heeeh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_nyx_assassin_nyx_anger_08.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_anger_09.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_anger_09.mp3",
+      "transcript": "Agghhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_nyx_assassin_nyx_anger_09.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_happy_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_happy_01.mp3",
+      "transcript": "Hah, heh heh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_nyx_assassin_nyx_happy_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_happy_02.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_happy_02.mp3",
+      "transcript": "Eh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_nyx_assassin_nyx_happy_02.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_happy_04.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_happy_04.mp3",
+      "transcript": "Nennn.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_nyx_assassin_nyx_happy_04.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_happy_05.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_happy_05.mp3",
+      "transcript": "Ehhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_nyx_assassin_nyx_happy_05.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_watchyourback_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_watchyourback_01.mp3",
+      "transcript": "Watch your back.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_nyx_assassin_nyx_watchyourback_01.mp3"
+    },
+    {
+      "file": "Vo_nyx_assassin_nyx_waiting_01.mp3",
+      "key": "dota2/nyx-assassin/Vo_nyx_assassin_nyx_waiting_01.mp3",
+      "transcript": "I'm waiting for you.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_nyx_assassin_nyx_waiting_01.mp3"
+    }
+  ]
+}
