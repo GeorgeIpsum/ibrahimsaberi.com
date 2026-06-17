@@ -5,7 +5,7 @@ import {
   countPosts,
   listPosts,
   listTags,
-  loadDropMeta,
+  loadRippleMeta,
 } from "../src/services/basin/load-post";
 
 // React's `cache()` memoizes per request; outside a render there is no request.
@@ -190,23 +190,23 @@ describe("listTags", () => {
 describe("loadPostMeta", () => {
   it("returns slug, basename, and a summer publishedAt instant", async () => {
     setFiles({ "2026-05-20-hello.mdx": mdx({ title: "Hello" }) });
-    const meta = await loadDropMeta("hello");
-    expect(meta.slug).toBe("hello");
-    expect(meta.basename).toBe("2026-05-20-hello");
-    expect(meta.frontmatter.title).toBe("Hello");
+    const meta = await loadRippleMeta("hello");
+    expect(meta?.slug).toBe("hello");
+    expect(meta?.basename).toBe("2026-05-20-hello");
+    expect(meta?.frontmatter.title).toBe("Hello");
     // May → EDT: midnight in New York carries a -04:00 offset.
-    expect(meta.frontmatter.publishedAt).toBe("2026-05-20T00:00:00.000-04:00");
+    expect(meta?.frontmatter.publishedAt).toBe("2026-05-20T00:00:00.000-04:00");
   });
 
   it("resolves a winter date at the EST offset", async () => {
     setFiles({ "2026-01-15-winter.mdx": mdx({ title: "Winter" }) });
-    const meta = await loadDropMeta("winter");
+    const meta = await loadRippleMeta("winter");
     // January → EST: midnight in New York carries a -05:00 offset.
-    expect(meta.frontmatter.publishedAt).toBe("2026-01-15T00:00:00.000-05:00");
+    expect(meta?.frontmatter.publishedAt).toBe("2026-01-15T00:00:00.000-05:00");
   });
 
   it("returns null for an unknown slug", async () => {
     setFiles({ "2026-05-20-hello.mdx": mdx({ title: "Hello" }) });
-    await expect(loadDropMeta("ghost")).resolves.toBeNull();
+    await expect(loadRippleMeta("ghost")).resolves.toBeNull();
   });
 });

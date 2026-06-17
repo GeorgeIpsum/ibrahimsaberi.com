@@ -10,10 +10,12 @@ import { FrontmatterSchema, type Post, type PostListEntry } from "./types";
 
 const BASIN_REL_PATH = "src/basin";
 const BASIN_DIR = path.join(process.cwd(), BASIN_REL_PATH);
-const DROP_DIR = path.join(BASIN_DIR, "drops");
-const DROP_IMPORT_PREFIX = "@/basin/drops/";
-const DROPLET_DIR = path.join(BASIN_DIR, "droplets");
-const DROPLET_IMPORT_PREFIX = "@/basin/droplets/";
+const RIPPLE = "ripples";
+const RIPPLE_DIR = path.join(BASIN_DIR, RIPPLE);
+const RIPPLE_IMPORT_PREFIX = `@/basin/${RIPPLE}/`;
+const DROPLET = "droplets";
+const DROPLET_DIR = path.join(BASIN_DIR, DROPLET);
+const DROPLET_IMPORT_PREFIX = `@/basin/${DROPLET}/`;
 
 // All bare YAML dates (`publishedAt: 2026-05-18`) and filename-encoded dates
 // are interpreted as midnight in this timezone. TZDate carries its tz with it
@@ -62,7 +64,7 @@ function warnDuplicateSlugs(entries: FileEntry[]): void {
 
 const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
   "use cache";
-  const paths = await readdir(DROP_DIR, { recursive: true });
+  const paths = await readdir(RIPPLE_DIR, { recursive: true });
   const entries: FileEntry[] = [];
   const invalid: { file: string; reason: string }[] = [];
 
@@ -93,7 +95,7 @@ const _listFileEntries = cache(async (): Promise<FileEntry[]> => {
 });
 
 async function parseEntry(entry: FileEntry): Promise<PostListEntry> {
-  const raw = await readFile(path.join(DROP_DIR, entry.file), "utf-8");
+  const raw = await readFile(path.join(RIPPLE_DIR, entry.file), "utf-8");
   const { attributes } = frontMatter<Record<string, unknown>>(raw);
   return {
     slug: entry.slug,
@@ -183,13 +185,13 @@ export type PostMeta = {
   basename: string;
 };
 
-export async function loadDropMeta(slug: string): Promise<PostMeta | null> {
+export async function loadRippleMeta(slug: string): Promise<PostMeta | null> {
   "use cache";
   const entries = await _listFileEntries();
   const entry = entries.find((e) => e.slug === slug);
   if (!entry) return null;
 
-  const raw = await readFile(path.join(DROP_DIR, entry.file), "utf-8");
+  const raw = await readFile(path.join(RIPPLE_DIR, entry.file), "utf-8");
   const { attributes } = frontMatter<Record<string, unknown>>(raw);
   const frontmatter = FrontmatterSchema.assert(
     normalizeAttributes(attributes, entry.dateStr),
@@ -198,11 +200,11 @@ export async function loadDropMeta(slug: string): Promise<PostMeta | null> {
   return { slug, frontmatter, basename };
 }
 
-export const loadDrop = cache(async (slug: string): Promise<Post> => {
-  const meta = await loadDropMeta(slug);
+export const loadRipple = cache(async (slug: string): Promise<Post> => {
+  const meta = await loadRippleMeta(slug);
   if (!meta) notFound();
   try {
-    const mod = await import(`${DROP_IMPORT_PREFIX}${meta.basename}.mdx`);
+    const mod = await import(`${RIPPLE_IMPORT_PREFIX}${meta.basename}.mdx`);
     return { slug, frontmatter: meta.frontmatter, Content: mod.default };
   } catch (e) {
     if (
