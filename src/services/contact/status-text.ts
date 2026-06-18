@@ -18,6 +18,7 @@ export const fallbackSequences = [
   "Attempting angel summoning",
   "Attempting to blow the horn",
   "Attempting universal compression",
+  "Attempting to send a fax",
 ] as const;
 export type FallbackSequence = (typeof fallbackSequences)[number];
 

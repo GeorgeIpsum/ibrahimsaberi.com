@@ -23,11 +23,9 @@ const randomTimeRange = () => clampedNumber(1800, 3600);
 const sleepRandom = () => sleep(randomTimeRange());
 
 const TOAST_ID = "contact-form-subtask";
-// IM GOING BACK TO
-// const SUBTASK_SUCCESS_CHANCE = 0.505;
-// unfortunately 0.505^3 is only about a ~12% chance of success, which is a little too low for my liking. 0.6^3 is ~22%, which is a bit more reasonable while still feeling suitably punishi- I mean challenging for the user
-// making this random array access changes the success bounds to be between 0.5^6 (~1.6%) and 0.7^3 (~34%) which is sufficiently ev- good enough
-const SUBTASK_SUCCESS_CHANCE = [0.5, 0.6, 0.7];
+// making this random array access changes the success bounds to be between 0.404^6 (~0.4%) and 0.7^3 (~34%) which is sufficiently evi- good enough
+// and now i can stuff meme numbers in here
+const SUBTASK_SUCCESS_CHANCE = [0.505, 0.666, 0.6, 0.7, 0.404, 0.69];
 const MIN_SUBTASKS = 3;
 const MAX_SUBTASKS = 6;
 
@@ -301,12 +299,28 @@ export const attemptContactFormSubmission = async () => {
             audio.fade(1, 0, 5000);
             audio.once("fade", () => {
               audio.stop().unload();
+              playOnce("/api/audio/self/success");
             });
           }
           return data;
         },
         passForward<TaskData>(sleepRandom),
       ];
+    }),
+    passForward(() => {
+      audio.fade(1, 0, 5000);
+      audio.once("fade", () => {
+        audio.stop().unload();
+        playOnce("/api/audio/self/error");
+      });
+      toastManager.add({
+        id: "ALL_FALLBACKS_FAILED",
+        type: "error",
+        title: "All submission attempts failed.",
+        description:
+          "Try again later maybe. If this keeps happening, let me know via the contact form. Thanks.",
+        timeout: 0,
+      });
     }),
   );
 
