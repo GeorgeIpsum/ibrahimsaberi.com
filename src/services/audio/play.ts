@@ -1,9 +1,10 @@
-import { Howl, type HowlOptions } from "howler";
+import { Howl, Howler, type HowlOptions } from "howler";
 
-export const createAudio = (
-  src: `/${string}`,
-  options?: Omit<HowlOptions, "src">,
-) => {
+Howler.autoUnlock = true;
+
+export type AudioLink = `/${string}` | `https://${string}`;
+
+export const createAudio = (src: AudioLink, options?: AudioOptions) => {
   const audio = new Howl({
     src: [src],
     format: ["mp3"],
@@ -13,7 +14,7 @@ export const createAudio = (
   return audio;
 };
 
-export const playOnce = async (src: `/${string}`) => {
+export const playOnce = async (src: AudioLink) => {
   try {
     const audio = createAudio(src, {
       autoplay: true,
@@ -27,3 +28,6 @@ export const playOnce = async (src: `/${string}`) => {
     }
   }
 };
+
+export type { Howl };
+export type AudioOptions = Omit<HowlOptions, "src">;

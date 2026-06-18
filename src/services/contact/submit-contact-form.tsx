@@ -1,4 +1,5 @@
 import { toastManager } from "@/components/atoms/toast";
+import { createAudio, playOnce } from "@/services/audio";
 import { passForward, pipe, sleep } from "@/utils/async";
 import {
   clampedNumber,
@@ -6,7 +7,6 @@ import {
   randomArrayMembers,
   randomLessThan,
 } from "@/utils/rand";
-import { createAudio, playOnce } from "../audio/play";
 import {
   type ErrorMessage,
   errorMessages,

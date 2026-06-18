@@ -1,0 +1,15 @@
+import {
+  ZodiacAquarius,
+  ZodiacAries,
+  ZodiacCancer,
+  ZodiacCapricorn,
+  ZodiacGemini,
+  ZodiacLeo,
+  ZodiacLibra,
+  ZodiacOphiuchus,
+  ZodiacPisces,
+  ZodiacSagittarius,
+  ZodiacScorpio,
+  ZodiacTaurus,
+  ZodiacVirgo,
+} from "lucide-react";

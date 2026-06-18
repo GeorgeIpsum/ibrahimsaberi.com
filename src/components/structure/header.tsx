@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Button } from "@/components/atoms/button";
 import {
   Menu,
-  MenuItem,
   MenuLinkItem,
   MenuPopup,
   MenuTrigger,

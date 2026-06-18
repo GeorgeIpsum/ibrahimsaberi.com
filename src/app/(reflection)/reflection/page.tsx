@@ -1,8 +1,19 @@
 import type { Metadata, Viewport } from "next";
+import { LightRays } from "@/components/special/light-rays";
+import { NoiseTexture } from "@/components/special/noise";
+import { Reflect_ } from "./reflect";
 
 export default function Page() {
   return (
-    <article className="h-screen w-screen animate-pulse bg-black shadow-amber-100 [box-shadow:inset_0_0_30px_1px_var(--color-amber-950)]"></article>
+    <article className="flex h-screen w-screen items-center justify-center bg-black">
+      <LightRays className="isolate" color="rgba(70, 25, 1, 0.67)" />
+      <div className="absolute inset-0 animate-pulse shadow-amber-100 [box-shadow:inset_0_0_30px_1px_var(--color-amber-950)]">
+        <NoiseTexture frequency={0.7} noiseOpacity={0.2} />
+      </div>
+      <div className="isolate">
+        <Reflect_ />
+      </div>
+    </article>
   );
 }
 
