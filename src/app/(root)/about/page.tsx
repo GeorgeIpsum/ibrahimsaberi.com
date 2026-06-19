@@ -16,8 +16,7 @@ import {
   PreviewCardPopup,
   PreviewCardTrigger,
 } from "@/components/atoms/preview-card";
-import { GradientTextReveal } from "@/components/special/gradient-text-reveal";
-import { Hello } from "@/components/special/hello";
+import { GradientTextReveal, Hello } from "@/components/text";
 
 const CURRENT_YEAR = new Date().getFullYear();
 

@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { Suspense, useEffect, useState } from "react";
-import { TokenStream } from "@/components/special/token-stream";
+import { TokenStream } from "@/components/text/token-stream";
 import { cn } from "@/css/lib";
 import {
   getReflection,
@@ -22,7 +22,9 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
     null,
   );
 
-  const start = () => setStarted(true);
+  const start = () => {
+    setStarted(true);
+  };
 
   useEffect(() => {
     getReflection()
@@ -49,32 +51,13 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
             initial="initial"
             animate={started ? "started" : "starting"}
           >
-            <motion.div
-              layout
-              className={cn(
-                "transform-3d flex transform-gpu items-center justify-center",
-                started && "absolute top-1 left-1 cursor-help",
-              )}
-              transition={{
-                duration: 0.1,
-                type: "spring",
-                damping: 100,
-                stiffness: 500,
-                ease: "linear",
-              }}
-              title={
-                started
-                  ? "EFFIGY OF THE SELF: your reflection.\n\ta basis.\n\ta basin.\n\ta mirror.\n\ta mold."
-                  : undefined
-              }
-            >
-              <Alignment onClick={start} disabled={started} />
-            </motion.div>
+            <Alignment onClick={start} started={started} />
             <AnimatePresence>
               {started && (
                 <motion.div className="w-full text-wrap p-4 px-8 text-center md:w-1/2 md:px-4">
                   <TokenStream
                     text="Welcome to my swamp. its a nice swamp. dont you think?"
+                    className="font-mono text-amber-50 lowercase"
                     hideCaret
                     delayMs={2000}
                     speedMs={[40, 120]}

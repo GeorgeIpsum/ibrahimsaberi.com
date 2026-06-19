@@ -1,4 +1,5 @@
 import { use } from "react";
+import { Wave } from "@/components/text";
 
 const reasonMap = {
   penance: "Reflect before you proceed.",
@@ -16,8 +17,12 @@ export const Penance: React.FC<PenanceProps> = ({ searchParams }) => {
   }
 
   return (
-    <div className="fade-in pointer-events-none fixed right-0 bottom-2 left-0 flex h-10 w-screen animate-in select-none items-center justify-center text-center duration-3000 md:bottom-4">
-      {reasonMap[reason as keyof typeof reasonMap] ?? "You are unworthy."}
+    <div className="fade-in pointer-events-none fixed right-0 bottom-2 left-0 flex h-10 w-screen animate-in select-none items-center justify-center whitespace-break-spaces text-center duration-3000 md:bottom-4">
+      <Wave
+        text={
+          reasonMap[reason as keyof typeof reasonMap] ?? "You are unworthy."
+        }
+      />
     </div>
   );
 };

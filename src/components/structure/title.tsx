@@ -1,10 +1,7 @@
 "use client";
 
 import { Suspense, useState } from "react";
-import {
-  type AsciiArtPlacement,
-  AsciiHero,
-} from "@/components/special/ascii-hero";
+import { type AsciiArtPlacement, AsciiHero } from "@/components/backgrounds";
 import { cn } from "@/css/lib";
 import { useTheme } from "@/theme";
 import { useControl } from "@/utils/control-panel/use-control";

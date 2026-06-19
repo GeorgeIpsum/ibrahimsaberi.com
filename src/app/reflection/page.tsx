@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { LightRays } from "@/components/special/light-rays";
-import { NoiseTexture } from "@/components/special/noise";
+import { LightRays, NoiseTexture } from "@/components/backgrounds";
 import { Reflect_ } from "../../services/reflection/components/reflect";
 
 export default async function Page({

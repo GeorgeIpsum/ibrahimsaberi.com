@@ -13,6 +13,7 @@ import { NavSwap } from "@/services/reflection/components/nav-swap";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
 import { type NavItem, navItems } from "../navigation/nav-items";
+import { Wave } from "../text";
 
 export const Header: React.FC = () => {
   return (
@@ -47,21 +48,11 @@ export const Header: React.FC = () => {
                 ))}
               </span>{" "}
               <span className="inline-block whitespace-pre">
-                {Array.from("a wave.").map((ch, i) => (
-                  <span
-                    key={ch + i.toString()}
-                    className="transform-3d inline-block origin-center leading-none group-hover/title:animate-wave-travel"
-                    style={
-                      {
-                        animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
-                        "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
-                        "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
-                      } as React.CSSProperties
-                    }
-                  >
-                    {ch}
-                  </span>
-                ))}
+                <Wave
+                  text="a wave."
+                  animateOnHover
+                  className="group-hover/title:animate-wave-travel"
+                />
               </span>
             </span>
           </Link>
@@ -131,29 +122,16 @@ export const Header: React.FC = () => {
                       ) : (
                         <item.icon className="size-4" />
                       )}
-                      <span
-                        className={cn(
-                          item.private &&
-                            "group-hover/asdf:animate-wave-travel",
+                      <span>
+                        {item.private ? (
+                          <Wave
+                            text={item.title}
+                            animateOnHover
+                            className="group-hover/asdf:animate-wave-travel"
+                          />
+                        ) : (
+                          item.title
                         )}
-                      >
-                        {item.private
-                          ? Array.from(item.title).map((ch, i) => (
-                              <span
-                                key={ch + i.toString()}
-                                className="transform-3d inline-block origin-center leading-none group-hover/asdf:animate-wave-travel"
-                                style={
-                                  {
-                                    animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
-                                    "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
-                                    "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
-                                  } as React.CSSProperties
-                                }
-                              >
-                                {ch}
-                              </span>
-                            ))
-                          : item.title}
                       </span>
                     </MenuLinkItem>
                   ))}

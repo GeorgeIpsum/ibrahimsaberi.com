@@ -35,6 +35,8 @@ import { Icon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/button";
+import { Wave } from "@/components/text";
+import { cn } from "@/css/lib";
 import { playOnce } from "@/services/audio";
 import { useReflectContext } from "../context";
 
@@ -72,10 +74,10 @@ export const ALIGNMENTS = {
 
 interface AlignmentProps {
   onClick: () => void;
-  disabled?: boolean;
+  started?: boolean;
 }
-export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
-  const { alignment } = useReflectContext();
+export const Alignment: React.FC<AlignmentProps> = ({ onClick, started }) => {
+  const { alignment, started_at } = useReflectContext();
   const [showClickMe, setShowClickMe] = useState(false);
   const { name, icon } = ALIGNMENTS[alignment as keyof typeof ALIGNMENTS] || {};
 
@@ -87,13 +89,31 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
   }, []);
 
   return (
-    <>
+    <motion.div
+      layout
+      className={cn(
+        "transform-3d flex transform-gpu items-center justify-center",
+        started && "absolute top-1 left-1 cursor-help",
+      )}
+      transition={{
+        duration: 0.1,
+        type: "spring",
+        damping: 100,
+        stiffness: 500,
+        ease: "linear",
+      }}
+      title={
+        started
+          ? "EFFIGY OF THE SELF: your reflection.\n\ta basis.\n\ta basin.\n\ta mirror.\n\ta mold."
+          : undefined
+      }
+    >
       <Button
         title={`BECOME: ${name}`}
         aria-label={name}
         variant="ghost"
         size="icon-xl"
-        disabled={disabled}
+        disabled={started}
         onClick={() => {
           onClick();
           playOnce("/audio/reflection/start.mp3");
@@ -102,7 +122,7 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
       >
         <Icon iconNode={icon} />
         <AnimatePresence>
-          {!disabled && showClickMe && (
+          {!started && showClickMe && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -110,27 +130,16 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
               className="absolute top-full left-1/2 mt-2 -translate-x-1/2 transform"
               transition={{ duration: 1.5 }}
             >
-              {Array.from("start").map((ch, i) => (
-                <span
-                  key={ch + i.toString()}
-                  className="transform-3d inline-block origin-center animate-wave-travel font-mono leading-none"
-                  style={
-                    {
-                      animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
-                      "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
-                      "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
-                    } as React.CSSProperties
-                  }
-                >
-                  {ch}
-                </span>
-              ))}
+              <Wave
+                text={started_at ? "continue" : "start"}
+                className="font-mono"
+              />
             </motion.div>
           )}
         </AnimatePresence>
       </Button>
       <AnimatePresence>
-        {disabled && (
+        {started && (
           <motion.div
             className="pointer-events-none select-none font-mono text-xs"
             initial={{ opacity: 0 }}
@@ -142,6 +151,6 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </motion.div>
   );
 };

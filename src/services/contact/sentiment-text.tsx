@@ -3,7 +3,7 @@
 import { LensConvex } from "lucide-react";
 import { useState } from "react";
 import { BotMessageSquare } from "@/components/icons/bot-message-square";
-import { TokenStream } from "@/components/special/token-stream";
+import { TokenStream } from "@/components/text";
 import { cn } from "@/css/lib";
 import { randomArrayMember, range } from "@/utils/rand";
 import type { Sentiment } from "../sentiment/types";

@@ -1,5 +1,5 @@
-"use client";
 // unceremoniously yoinked from performative-ui: https://github.com/vorpus/performativeUI/blob/main/src/components/AsciiHero.tsx
+"use client";
 
 import {
   type ComponentPropsWithoutRef,

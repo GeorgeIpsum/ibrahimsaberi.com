@@ -1,6 +1,6 @@
 import { connection } from "next/server";
 import { Suspense } from "react";
-import { Title } from "../structure/title";
+import { Title } from "../../structure/title";
 import { randomAsciiArt, randomGreeting } from "./hello.greetings";
 
 interface HelloProps {
