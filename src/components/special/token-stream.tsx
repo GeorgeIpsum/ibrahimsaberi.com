@@ -16,6 +16,8 @@ export interface UseTokenStreamOptions {
   speedMs?: number | [number, number];
   /** Tokenizer: split text into atoms. Default: words+whitespace. */
   tokenize?: (text: string) => string[];
+  /** ms to wait before starting the stream. */
+  delayMs?: number;
   loop?: boolean;
   /** ms to wait after a full pass before clearing & restarting. */
   loopDelayMs?: number;
@@ -39,6 +41,7 @@ export function useTokenStream({
   tokenize = defaultTokenize,
   loop = false,
   loopDelayMs = 6000,
+  delayMs = 0,
   onComplete,
 }: UseTokenStreamOptions): UseTokenStreamResult {
   const [output, setOutput] = useState("");
@@ -82,10 +85,16 @@ export function useTokenStream({
       };
       tick();
     };
-    run();
+    let initialTimer: ReturnType<typeof setTimeout> | null = null;
+    if (delayMs) {
+      initialTimer = setTimeout(run, delayMs);
+    } else {
+      run();
+    }
     return () => {
       cancelled = true;
       if (timer) clearTimeout(timer);
+      if (initialTimer) clearTimeout(initialTimer);
     };
   }, []);
 
@@ -113,6 +122,7 @@ export const TokenStream = forwardRef<HTMLSpanElement, TokenStreamProps>(
       text,
       speedMs,
       tokenize,
+      delayMs,
       loop,
       loopDelayMs,
       onComplete,
@@ -126,6 +136,7 @@ export const TokenStream = forwardRef<HTMLSpanElement, TokenStreamProps>(
       text,
       speedMs,
       tokenize,
+      delayMs,
       loop,
       loopDelayMs,
       onComplete,

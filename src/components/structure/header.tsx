@@ -9,6 +9,7 @@ import {
   MenuTrigger,
 } from "@/components/atoms/menu";
 import { cn } from "@/css/lib";
+import { NavSwap } from "@/services/reflection/components/nav-swap";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
 import { type NavItem, navItems } from "../navigation/nav-items";
@@ -114,13 +115,22 @@ export const Header: React.FC = () => {
                           className={cn(
                             "group/asdf cursor-pointer text-primary/80 text-sm ease-out focus-within:text-foreground-high-contrast hover:text-foreground-high-contrast focus:text-foreground-high-contrast focus-visible:text-foreground-high-contrast data-highlighted:text-foreground-high-contrast",
                             item.private
-                              ? "blur-[3px] hue-rotate-360 transition-all duration-1000 hover:blur-[0px] hover:hue-rotate-0"
-                              : "transition-colors duration-300",
+                              ? "blur-[3px] hue-rotate-360 transition-all hover:blur-[0px] hover:hue-rotate-0"
+                              : "transition-colors",
+                            // Literally just to silence dumb tailwind intellisense warning if placed in above ternary
+                            {
+                              "duration-1000": item.private,
+                              "duration-300": !item.private,
+                            },
                           )}
                         />
                       }
                     >
-                      <item.icon className="size-4" />
+                      {item.title === "reflection" ? (
+                        <NavSwap className="group-hover/asdf:animate-pulse" />
+                      ) : (
+                        <item.icon className="size-4" />
+                      )}
                       <span
                         className={cn(
                           item.private &&

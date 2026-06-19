@@ -12,6 +12,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/atoms/drawer";
+import { NavSwap } from "@/services/reflection/components/nav-swap";
 import { navItems } from "./nav-items";
 
 export const MobileMenu: React.FC = () => {
@@ -38,7 +39,11 @@ export const MobileMenu: React.FC = () => {
                   />
                 }
               >
-                <item.icon className="size-4 transition-colors group-hover/menu-link:text-foreground-high-contrast" />
+                {item.title === "reflection" ? (
+                  <NavSwap className="group-hover/menu-link:text-foreground-high-contrast" />
+                ) : (
+                  <item.icon className="size-4 transition-colors group-hover/menu-link:text-foreground-high-contrast" />
+                )}
                 {item.title}
               </DrawerClose>
             ))}

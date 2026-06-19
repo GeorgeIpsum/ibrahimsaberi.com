@@ -1,6 +1,6 @@
 import { ArkErrors } from "arktype";
 import { type NextRequest, NextResponse } from "next/server";
-import { reflectSchema } from "@/app/(reflection)/reflection/schema";
+import { reflectSchema } from "@/services/reflection/schema";
 import { clampedNumber, randomArrayMember } from "@/utils/rand";
 
 const reflect = (alignment: number, it: string) => {
@@ -28,6 +28,14 @@ export const GET = async (request: NextRequest) => {
   const reflectionCookie = request.cookies.get("reflection");
 
   if (!reflectionCookie) {
+    const noSet = request.headers.get("x-skip-set") === "true";
+
+    if (noSet) {
+      return NextResponse.json({
+        it: "has no reflection",
+      });
+    }
+
     const whisperer = request.headers.get("x-whisper") === process.env.WISP;
     const waver = request.headers.get("x-waver") === process.env.WAV;
     const alignment = whisperer ? 28 : waver ? 29 : clampedNumber(1, 27, true);
@@ -55,4 +63,9 @@ export const GET = async (request: NextRequest) => {
   }
 };
 
-export const POST = async (request: NextRequest) => {};
+export const POST = async (request: NextRequest) => {
+  const body = await request.json();
+  if (body) {
+    //
+  }
+};

@@ -5,6 +5,7 @@ import {
   Earth,
   type LucideIcon,
   MessageCircleHeart,
+  MirrorRectangular,
   PersonStanding,
   Radio,
   WavesHorizontal,
@@ -35,6 +36,12 @@ export const navItems = [
     icon: MessageCircleHeart,
     mobileOnly: true,
     footerItem: true,
+  },
+  {
+    title: "reflection",
+    href: "/reflection",
+    icon: MirrorRectangular,
+    mobileOnly: true,
   },
   {
     title: "droplets",

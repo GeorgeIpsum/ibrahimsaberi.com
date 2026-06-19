@@ -1,9 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import { LightRays } from "@/components/special/light-rays";
 import { NoiseTexture } from "@/components/special/noise";
-import { Reflect_ } from "./reflect";
+import { Reflect_ } from "../../services/reflection/components/reflect";
 
-export default function Page() {
+export default async function Page({
+  searchParams,
+}: {
+  searchParams: Promise<{ reason?: string }>;
+}) {
   return (
     <article className="flex h-screen w-screen items-center justify-center bg-black">
       <LightRays className="isolate" color="rgba(70, 25, 1, 0.67)" />
@@ -11,7 +15,7 @@ export default function Page() {
         <NoiseTexture frequency={0.7} noiseOpacity={0.2} />
       </div>
       <div className="isolate">
-        <Reflect_ />
+        <Reflect_ searchParams={searchParams} />
       </div>
     </article>
   );

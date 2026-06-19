@@ -38,7 +38,7 @@ import { Button } from "@/components/atoms/button";
 import { playOnce } from "@/services/audio";
 import { useReflectContext } from "../context";
 
-const ALIGNMENTS = {
+export const ALIGNMENTS = {
   1: { name: "THE DEVOURER", icon: bearFace },
   2: { name: "THE COLLECTOR", icon: bee },
   3: { name: "THE WITNESS", icon: beetleScarab },
@@ -72,8 +72,9 @@ const ALIGNMENTS = {
 
 interface AlignmentProps {
   onClick: () => void;
+  disabled?: boolean;
 }
-export const Alignment: React.FC<AlignmentProps> = ({ onClick }) => {
+export const Alignment: React.FC<AlignmentProps> = ({ onClick, disabled }) => {
   const { alignment } = useReflectContext();
   const [showClickMe, setShowClickMe] = useState(false);
   const { name, icon } = ALIGNMENTS[alignment as keyof typeof ALIGNMENTS] || {};
@@ -86,45 +87,61 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick }) => {
   }, []);
 
   return (
-    <Button
-      title={name}
-      aria-label={name}
-      variant="ghost"
-      size="icon-xl"
-      onClick={() => {
-        onClick();
-        playOnce("/audio/reflection/start.mp3");
-      }}
-      className="relative hover:bg-amber-500/20"
-    >
-      <Icon iconNode={icon} />
+    <>
+      <Button
+        title={`BECOME: ${name}`}
+        aria-label={name}
+        variant="ghost"
+        size="icon-xl"
+        disabled={disabled}
+        onClick={() => {
+          onClick();
+          playOnce("/audio/reflection/start.mp3");
+        }}
+        className="relative hover:bg-amber-500/20"
+      >
+        <Icon iconNode={icon} />
+        <AnimatePresence>
+          {!disabled && showClickMe && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0, transition: { duration: 0.3 } }}
+              className="absolute top-full left-1/2 mt-2 -translate-x-1/2 transform"
+              transition={{ duration: 1.5 }}
+            >
+              {Array.from("start").map((ch, i) => (
+                <span
+                  key={ch + i.toString()}
+                  className="transform-3d inline-block origin-center animate-wave-travel font-mono leading-none"
+                  style={
+                    {
+                      animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
+                      "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
+                      "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
+                    } as React.CSSProperties
+                  }
+                >
+                  {ch}
+                </span>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </Button>
       <AnimatePresence>
-        {showClickMe && (
+        {disabled && (
           <motion.div
+            className="pointer-events-none select-none font-mono text-xs"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute top-full left-1/2 mt-2 -translate-x-1/2 transform"
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 2, delay: 1 }}
           >
-            {Array.from("start").map((ch, i) => (
-              <span
-                key={ch + i.toString()}
-                className="transform-3d inline-block origin-center animate-wave-travel font-mono leading-none"
-                style={
-                  {
-                    animationDelay: `${i * 100 - Math.exp((i + 1) / 5)}ms`,
-                    "--ebb": `${-8 - Math.exp((i + 1) / 10) - Math.log(25 * (i + 2))}%`,
-                    "--flow": `${4.5 + Math.log1p(i + 1) + Math.log10(50 * (i + 1))}%`,
-                  } as React.CSSProperties
-                }
-              >
-                {ch}
-              </span>
-            ))}
+            {name}
           </motion.div>
         )}
       </AnimatePresence>
-    </Button>
+    </>
   );
 };

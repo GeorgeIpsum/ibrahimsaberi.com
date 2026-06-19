@@ -19,6 +19,7 @@ const getReflectSchema = type({
   it: "string",
   value: "string.base64",
 });
+type GetReflect = typeof getReflectSchema.infer;
 
 const toReflectContext = (value: string): ReflectContext => {
   const decoded = Buffer.from(value, "base64").toString("utf-8");
@@ -34,9 +35,10 @@ const toReflectContext = (value: string): ReflectContext => {
   return parsedSchema;
 };
 
-export const getReflection = async () => {
+export const getReflection = async (noSet = false) => {
   const res = await fetch("/api/reflection", {
     cache: "no-store",
+    ...(noSet && { headers: { "x-skip-set": "true" } }),
   });
   if (!res.ok) {
     throw new Error("Something is TRULY rotten in the state of Denmark.");
@@ -45,11 +47,15 @@ export const getReflection = async () => {
   const data = await res.json();
   const parsedGetReflect = getReflectSchema(data);
   if (parsedGetReflect instanceof type.errors) {
-    console.error(
-      "Failed to parse reflection data:",
-      parsedGetReflect.flatProblemsByPath,
-    );
-    throw new Error("Failed to parse reflection data.");
+    if ((data as GetReflect)?.it === "has no reflection") {
+      console.info("it has not yet begun");
+    } else {
+      console.warn(
+        "Failed to parse reflection data:",
+        parsedGetReflect.flatProblemsByPath,
+      );
+    }
+    return null;
   }
 
   console.info("it", parsedGetReflect.it);
