@@ -147,7 +147,7 @@ later upgrade.
 const ytdlp = createYtDlp({
   wispUrl: "wss://…",                   // required — your Wisp server
   ytDlpSource?: "micropip" | { url },   // default micropip/PyPI
-  pyodideIndexURL?, ffmpegCoreURL?,     // default: self-hosted asset paths
+  pyodideIndexURL?, ffmpegCoreURL?,     // default: jsDelivr CDN (configurable → self-host/R2)
   core?: "mt" | "st",                   // default "mt"
 });
 
@@ -172,13 +172,31 @@ of the MEMFS working dir (`/work`) after the run and returned as `{ name, data }
 - **Cross-origin isolation** — `next.config.ts` must send `COOP: same-origin` +
   `COEP: require-corp` on pages using the package (for SAB + the MT core). Can
   break third-party embeds/images on those pages unless they're CORP/CORS-clean.
-- **Asset hosting under COEP** — Pyodide, the ffmpeg MT core, and the yt-dlp wheel
-  must each be CORP/CORS-loadable. Recommendation: **self-host Pyodide + ffmpeg
-  core** under same-origin `public/`; yt-dlp via micropip from jsDelivr (sends
-  CORP) with a self-host fallback via `ytDlpSource`.
-- **A Wisp server** — libcurl.js needs one. Vercel can't host a persistent
-  WebSocket server, so this must be an external/self-hosted Wisp endpoint
-  (`wispUrl`).
+- **Assets load from jsDelivr CDN by default** (verified to work under
+  `COEP: require-corp`):
+  - **Pyodide** via `loadPyodide({ indexURL: "https://cdn.jsdelivr.net/pyodide/v<ver>/full/" })`
+    — jsDelivr sends `Access-Control-Allow-Origin: *`, so Pyodide's CORS-mode
+    fetches satisfy COEP.
+  - **ffmpeg MT core** via `@ffmpeg/util`'s `toBlobURL()` against
+    `cdn.jsdelivr.net/npm/@ffmpeg/core-mt@<ver>/dist/...`. `toBlobURL` fetches the
+    core `.js`/`.wasm`/`.worker.js` over CORS and hands ffmpeg a same-origin
+    `blob:` URL, which is **COEP-exempt** — so require-corp never bites the core
+    files. (This is the documented ffmpeg.wasm pattern.)
+  - **yt-dlp wheel** via micropip from jsDelivr (same CORS story).
+  - `pyodideIndexURL` / `ffmpegCoreURL` / `ytDlpSource` stay configurable so assets
+    can be mirrored to R2/self-hosted later (caching, version-pinning, offline).
+    Pin exact versions; first-load availability then depends only on jsDelivr +
+    browser cache.
+- **A Wisp server — separate standalone service; site stays on Vercel.** libcurl.js
+  needs a Wisp endpoint, and Vercel hosts neither custom servers nor persistent
+  WebSockets. So Wisp runs as a small standalone Node app (e.g. `wisp-server-node`)
+  on a WS-capable host (Fly.io / Railway / Render); `wispUrl` points at it.
+  WebSockets are **COEP/CORP-exempt**, so a cross-origin Wisp endpoint works fine
+  under cross-origin isolation — no same-origin requirement. The `/wisp` endpoint
+  proxies arbitrary TCP (effectively an open proxy), so it needs
+  auth / origin-allowlisting / rate-limiting. (Co-hosting Wisp in a custom Next.js
+  server is possible but would force the whole site off Vercel onto a Node host —
+  explicitly not chosen.)
 
 ## Build & deps
 
