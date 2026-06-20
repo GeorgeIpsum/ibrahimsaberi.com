@@ -15,13 +15,7 @@ const options = {
   splitting: false,
   sourcemap: true,
   loader: { ".py": "text" },
-  external: [
-    "pyodide",
-    "@ffmpeg/ffmpeg",
-    "@ffmpeg/util",
-    "@ffmpeg/core-mt",
-    "libcurl.js",
-  ],
+  external: ["pyodide", "@ffmpeg/core-mt", "libcurl.js"],
 };
 
 if (process.argv.includes("--watch")) {
