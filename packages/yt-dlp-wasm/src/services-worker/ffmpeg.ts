@@ -50,6 +50,9 @@ export async function runFfmpeg(
   let code: number;
   try {
     code = await ff.exec(argv);
+  } catch (err) {
+    code = 1;
+    stderr += err instanceof Error ? err.message : String(err);
   } finally {
     ff.off("log", onLog);
   }
