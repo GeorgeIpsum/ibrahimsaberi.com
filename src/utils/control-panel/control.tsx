@@ -7,6 +7,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/atoms/select";
+import { Switch } from "@/components/atoms/switch";
 import {
   type Control,
   type ControlType,
@@ -60,6 +61,26 @@ export const ControlSelect: React.FC<ControlFieldProps<"select">> = observer(
   },
 );
 
+export const ControlSwitch: React.FC<ControlFieldProps<"switch">> = observer(
+  ({ controlKey, control, disabled }) => {
+    // Implement a switch control (e.g., a toggle button) as needed
+    return (
+      <Switch
+        style={
+          {
+            "--thumb-size": "0.75rem",
+          } as React.CSSProperties
+        }
+        checked={control.value?.get() ?? false}
+        onCheckedChange={(value) =>
+          controlContext.setControlValue(controlKey, value)
+        }
+        disabled={disabled}
+      />
+    );
+  },
+);
+
 export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
   controlKey,
   control,
@@ -83,8 +104,20 @@ export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
           disabled={disabled}
         />
       );
+    case "switch":
+      return (
+        <ControlSwitch
+          controlKey={controlKey}
+          control={control as Control<"switch">}
+          disabled={disabled}
+        />
+      );
     // Implement other control types (color, number, switch) as needed
     default:
-      return <div className="uppercase">unsupported: {control.type}</div>;
+      return (
+        <div className="text-center text-[10px] uppercase">
+          unsupported: {control.type}
+        </div>
+      );
   }
 };
