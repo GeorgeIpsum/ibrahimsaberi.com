@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { TokenStream } from "@/components/text";
 import { cn } from "@/css/lib";
+import { useReflectionAudio } from "../audio-context";
 
 interface TextSequenceProps {
   tokens: string[];
@@ -18,6 +19,7 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState<number | [number, number]>([40, 120]);
   const [currentlyPlayingToken, setCurrentlyPlayingToken] = useState(0);
+  const { nextAudio } = useReflectionAudio();
 
   const onComplete = () => {
     setTimeout(() => {
@@ -37,6 +39,7 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
       return;
     }
     setCurrentlyPlayingToken(nextToken);
+    nextAudio?.play();
     onNextStart?.(nextToken);
     setPlaying(true);
   };
