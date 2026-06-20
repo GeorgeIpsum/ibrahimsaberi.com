@@ -2,10 +2,12 @@
 
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { Suspense, useEffect, useState } from "react";
-import { TokenStream } from "@/components/text/token-stream";
+import { toastManager } from "@/components/atoms/toast";
 import { cn } from "@/css/lib";
+import { playOnce } from "@/services/audio/play";
 import { sleep } from "@/utils/async";
 import { useControl } from "@/utils/control-panel/use-control";
+import { randomArrayMember } from "@/utils/rand";
 import { ReflectionAudioProvider } from "../audio-context";
 import {
   getReflection,
@@ -16,25 +18,6 @@ import { ALIGNMENTS, Alignment } from "../steps/alignment";
 import { Penance } from "./penance";
 import { ReflectionAudio } from "./reflection-audio";
 import { TextSequence } from "./text-sequence";
-
-const _DEBUG_RESET_ALIGNMENT = async (
-  reflectKey: string,
-  alignment: number,
-) => {
-  const [res] = await Promise.all([
-    fetch("/api/reflection", {
-      method: "POST",
-      body: JSON.stringify({ alignment }),
-      headers: {
-        "Content-Type": "application/json",
-        "x-reflect": reflectKey,
-      },
-    }),
-    // just to make the change feel less jank
-    sleep(250),
-  ]);
-  return res;
-};
 
 interface ReflectProps {
   searchParams: Promise<{ reason?: string }>;
@@ -87,7 +70,7 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
         if (!entry) return false;
         const reflectKey = ctx.get("reflect key") as string;
         const res = await _DEBUG_RESET_ALIGNMENT(reflectKey, Number(entry[0]));
-        return Boolean(res?.ok);
+        return Boolean(res.ok);
       },
       // Committed: mirror the new alignment locally so the panel stays in sync.
       onChange: (value) => {
@@ -166,4 +149,57 @@ const variants: Variants = {
     width: "calc(100vw - 1rem)",
     height: "calc(100vh - 8rem)",
   },
+};
+
+const toastFailures = [
+  ["AN EFFIGY OF THE SELF", "do you deny it? and wouldst deny fate itself?"],
+  ["...", "..."],
+  ["MALEVOLENT FUTURES", "destiny awaits us all"],
+  ["Hmm...", "all action is reaction"],
+  ["An end to an end", "what must be discovered?"],
+  ["Decay treats one poorly", "the stalwart flame flickers"],
+  ["Again", "wrapped in ember fire"],
+  ["And?", "what did you learn?"],
+  ["Once more...", "discover what lies beyond"],
+  ["With feeling now.", "fire flies, fire falls"],
+  ["❤️‍🔥", "your spirit alone continues"],
+] as const;
+
+const _DEBUG_RESET_ALIGNMENT = async (
+  reflectKey: string,
+  alignment: number,
+) => {
+  const [res] = await Promise.all([
+    fetch("/api/reflection", {
+      method: "POST",
+      body: JSON.stringify({ alignment }),
+      headers: {
+        "Content-Type": "application/json",
+        "x-reflect": reflectKey,
+      },
+    }),
+    // just to make the change feel less jank
+    sleep(333),
+  ]);
+
+  if (!res.ok) {
+    const [title, description] = randomArrayMember(toastFailures);
+
+    if (Math.random() <= 0.1) {
+      const searchParams = new URLSearchParams({
+        hero: "ember spirit",
+        voiceline: description,
+      });
+      playOnce(`/api/audio/voice-responses?${searchParams.toString()}`);
+    }
+
+    toastManager.add({
+      type: "error",
+      title,
+      description,
+      timeout: 2500,
+    });
+  }
+
+  return res;
 };
