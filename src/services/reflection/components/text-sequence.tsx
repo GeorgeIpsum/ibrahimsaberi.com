@@ -1,3 +1,4 @@
+import { fastIsEqual } from "fast-is-equal";
 import { ChevronsDown } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
@@ -24,13 +25,13 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
   const onComplete = () => {
     setTimeout(() => {
       setPlaying(false);
-      setSpeed([40, 120]);
+      if (!fastIsEqual(speed, [40, 120])) setSpeed([40, 120]);
     }, 500);
   };
 
   const moveToNextToken = () => {
     if (playing) {
-      setSpeed([10, 15]);
+      if (!fastIsEqual(speed, [10, 15])) setSpeed([10, 15]);
       return;
     }
     const nextToken = currentlyPlayingToken + 1;
