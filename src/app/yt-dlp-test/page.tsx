@@ -6,6 +6,9 @@ type YtDlpHandle = {
   load: () => Promise<{ ytDlpVersion: string }>;
   ping: (text: string) => Promise<string>;
   pyEcho: (text: string) => Promise<string>;
+  ffmpegSelfTest: (
+    wavBase64: string,
+  ) => Promise<{ code: number; outSize: number; probe: string }>;
   terminate: () => void;
 };
 
@@ -27,6 +30,34 @@ async function loadYtDlp(): Promise<YtDlpModule> {
   )) as YtDlpModule;
 }
 
+function makeSilentWavBase64(): string {
+  const sampleRate = 8000;
+  const seconds = 0.2;
+  const n = Math.floor(sampleRate * seconds);
+  const buf = new ArrayBuffer(44 + n * 2);
+  const view = new DataView(buf);
+  const wr = (o: number, s: string) => {
+    for (let i = 0; i < s.length; i++) view.setUint8(o + i, s.charCodeAt(i));
+  };
+  wr(0, "RIFF");
+  view.setUint32(4, 36 + n * 2, true);
+  wr(8, "WAVE");
+  wr(12, "fmt ");
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  wr(36, "data");
+  view.setUint32(40, n * 2, true);
+  const bytes = new Uint8Array(buf);
+  let s = "";
+  for (let i = 0; i < bytes.length; i++) s += String.fromCharCode(bytes[i]);
+  return btoa(s);
+}
+
 type RunState =
   | { kind: "idle" }
   | { kind: "running" }
@@ -43,6 +74,12 @@ export default function YtDlpTestPage() {
   const [text, setText] = useState("hello world");
   const [state, setState] = useState<RunState>({ kind: "idle" });
   const [boot, setBoot] = useState<BootState>({ kind: "idle" });
+  const [ff, setFf] = useState<
+    | { kind: "idle" }
+    | { kind: "running" }
+    | { kind: "ok"; outSize: number; probe: string; ms: number }
+    | { kind: "error"; message: string }
+  >({ kind: "idle" });
 
   async function run() {
     setState({ kind: "running" });
@@ -89,6 +126,40 @@ export default function YtDlpTestPage() {
       setBoot({ kind: "ok", version: ytDlpVersion, echo, ms });
     } catch (err) {
       setBoot({
+        kind: "error",
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  async function ffmpegTest() {
+    setFf({ kind: "running" });
+    try {
+      if (!self.crossOriginIsolated) {
+        throw new Error(
+          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
+        );
+      }
+      const manifest = await (
+        await fetch("/yt-dlp-wheels/manifest.json")
+      ).json();
+      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
+      const { createYtDlp } = await loadYtDlp();
+      const ytdlp = createYtDlp({ ytDlpSource: { url: wheelUrl } });
+      const start = performance.now();
+      await ytdlp.load();
+      const r = await ytdlp.ffmpegSelfTest(makeSilentWavBase64());
+      const ms = performance.now() - start;
+      ytdlp.terminate();
+      if (r.outSize > 0)
+        setFf({ kind: "ok", outSize: r.outSize, probe: r.probe, ms });
+      else
+        setFf({
+          kind: "error",
+          message: `ffmpeg produced no output (code ${r.code})`,
+        });
+    } catch (err) {
+      setFf({
         kind: "error",
         message: err instanceof Error ? err.message : String(err),
       });
@@ -168,6 +239,35 @@ export default function YtDlpTestPage() {
           {boot.kind === "error" && (
             <span className="text-red-600 dark:text-red-400">
               ✗ {boot.message}
+            </span>
+          )}
+        </output>
+      </section>
+
+      <section className="mt-4 flex flex-col gap-2 border-neutral-500 border-t pt-4">
+        <h2 className="font-semibold">ffmpeg self-test (WAV → MP3)</h2>
+        <p className="text-neutral-500 text-xs dark:text-neutral-400">
+          Synthesizes a tiny silent WAV in-browser and transcodes it to MP3 via
+          the ffmpeg.wasm bridge, then probes the output with ffprobe_compat.
+        </p>
+        <button
+          type="button"
+          onClick={ffmpegTest}
+          disabled={ff.kind === "running"}
+          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
+        >
+          {ff.kind === "running" ? "Running…" : "Run ffmpeg self-test"}
+        </button>
+        <output className="block min-h-6">
+          {ff.kind === "ok" && (
+            <span className="text-green-600 dark:text-green-400">
+              ✓ out.mp3 {ff.outSize} bytes · probe {ff.probe} (
+              {(ff.ms / 1000).toFixed(1)}s)
+            </span>
+          )}
+          {ff.kind === "error" && (
+            <span className="text-red-600 dark:text-red-400">
+              ✗ {ff.message}
             </span>
           )}
         </output>

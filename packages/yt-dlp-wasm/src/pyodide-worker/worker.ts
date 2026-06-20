@@ -31,8 +31,34 @@ self.onmessage = (e: MessageEvent) => {
     });
   } else if (msg?.type === "py-echo") {
     void handlePyEcho(msg.text as string);
+  } else if (msg?.type === "ffmpeg-self-test") {
+    void handleFfmpegSelfTest(msg.wavBase64 as string);
   }
 };
+
+async function handleFfmpegSelfTest(wavBase64: string): Promise<void> {
+  try {
+    if (!runtime) throw new Error("ffmpeg-self-test before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_wav_b64", wavBase64);
+    const result = pyodide.runPython(`
+import base64, json, subprocess, os
+with open("/tmp/in.wav", "wb") as _f:
+    _f.write(base64.b64decode(_wav_b64))
+_cp = subprocess.run(["ffmpeg", "-y", "-i", "/tmp/in.wav", "/tmp/out.mp3"])
+_out_size = os.path.getsize("/tmp/out.mp3") if os.path.exists("/tmp/out.mp3") else 0
+import ffprobe_compat
+_code, _probe_json, _ = ffprobe_compat.run(["ffprobe", "/tmp/out.mp3"])
+json.dumps({"code": _cp.returncode, "outSize": _out_size, "probe": _probe_json.decode()})
+`) as string;
+    self.postMessage({ type: "ffmpeg-self-test-result", text: result });
+  } catch (err) {
+    self.postMessage({
+      type: "ffmpeg-self-test-result",
+      error: messageOf(err),
+    });
+  }
+}
 
 async function handlePyEcho(text: string): Promise<void> {
   try {

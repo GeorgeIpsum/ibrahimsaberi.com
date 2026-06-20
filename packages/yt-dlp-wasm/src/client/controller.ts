@@ -1,7 +1,8 @@
 import { createSab } from "../bridge/sab";
 import type { PyodideBootConfig } from "../pyodide-worker/config";
+import type { FfmpegConfig } from "../services-worker/config";
 
-export interface YtDlpConfig extends PyodideBootConfig {
+export interface YtDlpConfig extends PyodideBootConfig, FfmpegConfig {
   /** SAB data-region capacity in bytes. Default 16 MiB. */
   dataCapacity?: number;
 }
@@ -15,6 +16,10 @@ export interface YtDlp {
   ytDlpVersion(): Promise<string>;
   /** ECHO round-trip routed THROUGH Python (proves the Python->bridge path). */
   pyEcho(text: string): Promise<string>;
+  /** Self-test: transcode a base64 WAV to MP3 through the ffmpeg bridge. */
+  ffmpegSelfTest(
+    wavBase64: string,
+  ): Promise<{ code: number; outSize: number; probe: string }>;
   terminate(): void;
 }
 
@@ -53,9 +58,10 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
     { type: "init", sab, wakePort: channel.port1, config: bootConfig },
     [channel.port1],
   );
-  servicesWorker.postMessage({ type: "init", sab, wakePort: channel.port2 }, [
-    channel.port2,
-  ]);
+  servicesWorker.postMessage(
+    { type: "init", sab, wakePort: channel.port2, ffmpegConfig: bootConfig },
+    [channel.port2],
+  );
 
   // NOTE: single-in-flight only. Concurrent calls awaiting the same reply type
   // would both resolve to the first reply received; add a request id / queue
@@ -92,6 +98,13 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
         "py-echo-result",
         () => pyodideWorker.postMessage({ type: "py-echo", text }),
         (d) => d.text as string,
+      ),
+    ffmpegSelfTest: (wavBase64) =>
+      once(
+        "ffmpeg-self-test-result",
+        () =>
+          pyodideWorker.postMessage({ type: "ffmpeg-self-test", wavBase64 }),
+        (d) => JSON.parse(d.text as string),
       ),
     terminate() {
       pyodideWorker.terminate();
