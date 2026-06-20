@@ -1,9 +1,10 @@
 import { decodeFrame, encodeFrame } from "../bridge/frame";
 import { SabResponder } from "../bridge/sab";
 import { OP } from "../client/protocol";
-import type { FfmpegConfig } from "./config";
+import type { FfmpegConfig, NetConfig } from "./config";
 import { type FfmpegExecMeta, runFfmpeg } from "./ffmpeg";
 import { FileStore } from "./file-store";
+import { type NetSendMeta, netSend } from "./net";
 
 /**
  * Build the SAB responder. Despite the `services-worker/` directory name, this
@@ -15,7 +16,7 @@ import { FileStore } from "./file-store";
  */
 export function createResponder(
   sab: SharedArrayBuffer,
-  ffmpegConfig: FfmpegConfig = {},
+  config: FfmpegConfig & NetConfig = {},
 ): SabResponder {
   const store = new FileStore();
 
@@ -51,10 +52,12 @@ export function createResponder(
         return encodeFrame({ ok: true });
       }
       case OP.FFMPEG_EXEC:
-        return runFfmpeg(
+        return runFfmpeg(store, decodeFrame<FfmpegExecMeta>(payload), config);
+      case OP.NET_SEND:
+        return netSend(
           store,
-          decodeFrame<FfmpegExecMeta>(payload),
-          ffmpegConfig,
+          decodeFrame<NetSendMeta>(payload),
+          config.wispUrl ?? "",
         );
       default:
         throw new Error(`unknown op ${op}`);

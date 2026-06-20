@@ -10,6 +10,11 @@ export interface FfmpegConfig {
   ffmpegClassWorkerURL?: string;
 }
 
+export interface NetConfig {
+  /** Wisp WebSocket proxy URL for libcurl.js (required for networking). */
+  wispUrl?: string;
+}
+
 export interface FfmpegCoreUrls {
   coreURL: string;
   wasmURL: string;

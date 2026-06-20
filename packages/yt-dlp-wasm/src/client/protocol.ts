@@ -29,6 +29,7 @@ export const OP = {
   FS_STAT: 4,
   FS_DELETE: 5,
   FFMPEG_EXEC: 6,
+  NET_SEND: 7,
 } as const;
 
 export type Op = (typeof OP)[keyof typeof OP];
