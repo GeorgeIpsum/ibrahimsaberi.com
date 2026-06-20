@@ -70,7 +70,6 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
   useControl({
     "reflect key": {
       value: reflectKey,
-      log: true,
       onChange: (value) => setReflectKey(value as string),
     },
     effigy: {

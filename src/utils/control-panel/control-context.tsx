@@ -1,5 +1,6 @@
 import { fastIsEqual as equals } from "fast-is-equal";
 import { type IObservableValue, observable, runInAction } from "mobx";
+import { isLogImg, l, pL, pR, s } from "@/utils/log";
 
 export type ControlType = "select" | "text" | "color" | "number" | "switch";
 export type ControlValue = string | number | boolean;
@@ -201,7 +202,10 @@ export function createControlContext<K extends string>() {
     const guard = guards.get(key);
     const log = (msg: string, ...args: unknown[]) => {
       if (logFlags.get(key)) {
-        console.debug(`[control:${key}] ${msg}`, ...args);
+        l`${isLogImg} ${pL("CONTROL", { backgroundColor: "springgreen", color: "darkgreen", borderBottomLeftRadius: 0 })}${pR(key.toUpperCase(), { color: "wheat", backgroundColor: "darkgreen", borderLeft: "2px solid seagreen" })}\n${s(msg, { marginLeft: 29.5, lineHeight: 20, backgroundColor: "springgreen", paddingLeft: 6, paddingRight: 6, color: "black", borderBottomLeftRadius: "0.5em", borderBottomRightRadius: "0.5em", fontFamily: "system-ui", marginBottom: 4 })}`.debug(
+          "\n",
+          ...args,
+        );
       }
     };
 
