@@ -21,9 +21,14 @@ export const STATE = {
   ERROR: 3,
 } as const;
 
-/** Bridge opcodes. Phase 1 needs only ECHO; later phases add NET_SEND, FFMPEG_EXEC, FS_READ. */
+/** Bridge opcodes. */
 export const OP = {
   ECHO: 1,
+  FS_PUT: 2,
+  FS_GET: 3,
+  FS_STAT: 4,
+  FS_DELETE: 5,
+  FFMPEG_EXEC: 6,
 } as const;
 
 export type Op = (typeof OP)[keyof typeof OP];
