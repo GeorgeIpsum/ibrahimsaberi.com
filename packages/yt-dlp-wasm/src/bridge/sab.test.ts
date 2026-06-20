@@ -88,4 +88,25 @@ describe("SabRequester / SabResponder", () => {
     const requester = new SabRequester(sab, () => responder.handleSync());
     expect(() => requester.callText(OP.ECHO, "x")).toThrow("nope");
   });
+
+  it("clamps an oversized error message instead of deadlocking", () => {
+    const sab = createSab(8); // tiny data region
+    const responder = new SabResponder(sab, () => {
+      throw new Error("x".repeat(100));
+    });
+    const requester = new SabRequester(sab, () => responder.handleSync());
+    // Should THROW a (truncated) error, NOT hang.
+    expect(() => requester.callText(OP.ECHO, "a")).toThrow();
+  });
+
+  it("downgrades an oversized success payload to an error frame", () => {
+    // SAB must be large enough to hold the RangeError message (~32 chars) but
+    // smaller than the handler's 100-byte return value to trigger the overflow path.
+    const sab = createSab(64);
+    const responder = new SabResponder(sab, () => new Uint8Array(100));
+    const requester = new SabRequester(sab, () => responder.handleSync());
+    expect(() => requester.call(OP.ECHO, new Uint8Array([1]))).toThrow(
+      /exceeds capacity/,
+    );
+  });
 });

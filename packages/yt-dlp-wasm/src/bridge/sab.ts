@@ -1,4 +1,4 @@
-import { CTRL_BYTES, SLOT, STATE } from "../client/protocol";
+import { CTRL_BYTES, CTRL_SLOTS, SLOT, STATE } from "../client/protocol";
 
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
@@ -10,7 +10,7 @@ export function createSab(dataCapacity: number): SharedArrayBuffer {
 
 function views(sab: SharedArrayBuffer): { ctrl: Int32Array; data: Uint8Array } {
   return {
-    ctrl: new Int32Array(sab, 0, CTRL_BYTES / 4),
+    ctrl: new Int32Array(sab, 0, CTRL_SLOTS),
     data: new Uint8Array(sab, CTRL_BYTES),
   };
 }
@@ -94,7 +94,7 @@ export class SabRequester {
     private readonly sab: SharedArrayBuffer,
     private readonly wake: (reqId: number) => void,
   ) {
-    this.ctrl = new Int32Array(sab, 0, CTRL_BYTES / 4);
+    this.ctrl = new Int32Array(sab, 0, CTRL_SLOTS);
   }
 
   call(op: number, payload: Uint8Array): Uint8Array {
@@ -123,25 +123,50 @@ export class SabResponder {
   ) {}
 
   async handle(): Promise<void> {
-    const { op, payload } = readRequest(this.sab);
     try {
-      writeResponse(this.sab, await this.handler(op, payload), false);
+      const { op, payload } = readRequest(this.sab);
+      this.respond(await this.handler(op, payload));
     } catch (err) {
-      writeResponse(this.sab, encoder.encode(messageOf(err)), true);
+      this.fail(err);
     }
   }
 
+  /**
+   * Synchronous variant of `handle`. If an async handler is passed, the caller
+   * receives an error frame, but the handler's async body still runs as a background
+   * microtask (its result is discarded).
+   */
   handleSync(): void {
-    const { op, payload } = readRequest(this.sab);
     try {
+      const { op, payload } = readRequest(this.sab);
       const resp = this.handler(op, payload);
       if (resp instanceof Promise) {
         throw new TypeError("handleSync requires a synchronous handler");
       }
-      writeResponse(this.sab, resp, false);
+      this.respond(resp);
     } catch (err) {
-      writeResponse(this.sab, encoder.encode(messageOf(err)), true);
+      this.fail(err);
     }
+  }
+
+  /** Write a success frame; if the payload overflows the data region, downgrade to an error frame. */
+  private respond(payload: Uint8Array): void {
+    try {
+      writeResponse(this.sab, payload, false);
+    } catch (err) {
+      this.fail(err);
+    }
+  }
+
+  /** Write an error frame, clamping the message to the data region so this never throws. */
+  private fail(err: unknown): void {
+    const cap = this.sab.byteLength - CTRL_BYTES;
+    const raw = encoder.encode(messageOf(err));
+    writeResponse(
+      this.sab,
+      raw.length <= cap ? raw : raw.subarray(0, cap),
+      true,
+    );
   }
 }
 
