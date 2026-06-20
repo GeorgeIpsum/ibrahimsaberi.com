@@ -12,7 +12,9 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "node build.mjs --watch",
     "build": "node build.mjs && tsc --emitDeclarationOnly",
