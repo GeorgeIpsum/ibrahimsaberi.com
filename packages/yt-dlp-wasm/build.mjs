@@ -14,6 +14,7 @@ const options = {
   target: "es2022",
   splitting: false,
   sourcemap: true,
+  loader: { ".py": "text" },
   external: [
     "pyodide",
     "@ffmpeg/ffmpeg",
