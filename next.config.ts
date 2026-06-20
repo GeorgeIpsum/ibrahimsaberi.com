@@ -51,6 +51,25 @@ const config: NextConfig = {
   async rewrites() {
     return [];
   },
+  async headers() {
+    // Cross-origin isolation is required for SharedArrayBuffer, which the
+    // @local/yt-dlp-wasm sync bridge depends on. Scope it to ONLY the test
+    // route and its published assets so the rest of the site is unaffected.
+    const coi = [
+      { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+      { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
+    ];
+    return [
+      { source: "/yt-dlp-test", headers: coi },
+      {
+        source: "/yt-dlp-wasm/:path*",
+        headers: [
+          ...coi,
+          { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
+        ],
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "i.scdn.co" }, // album art
