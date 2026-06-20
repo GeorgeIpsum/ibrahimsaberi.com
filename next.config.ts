@@ -3,10 +3,14 @@ import { FPECipher, SHA_256 } from "feistel-cipher";
 import type { NextConfig } from "next";
 import { version } from "./package.json";
 
-const cipher = new FPECipher(SHA_256, process.env.REFLECT ?? "", 128);
+const cipher = new FPECipher(
+  SHA_256,
+  process.env.REFLECT ?? "a reflection.",
+  128,
+);
 const reflectSha = {
-  wisp: encodeURIComponent(cipher.encrypt(process.env.WISP ?? "")),
-  wav: encodeURIComponent(cipher.encrypt(process.env.WAV ?? "")),
+  wisp: encodeURIComponent(cipher.encrypt(process.env.WISP ?? "a whisper.")),
+  wav: encodeURIComponent(cipher.encrypt(process.env.WAV ?? "a wave.")),
 };
 const DEPLOY_TIME = new Date().toISOString();
 

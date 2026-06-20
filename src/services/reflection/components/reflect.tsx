@@ -76,6 +76,7 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
       value: Object.entries(ALIGNMENTS).find(
         ([key]) => Number(key) === debugAlignment,
       )?.[1].name,
+      log: true,
       options: Object.values(ALIGNMENTS).map((a) => a.name),
       beforeChange: async (value, _prev, ctx) => {
         const entry = Object.entries(ALIGNMENTS).find(

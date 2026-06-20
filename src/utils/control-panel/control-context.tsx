@@ -202,7 +202,7 @@ export function createControlContext<K extends string>() {
     const guard = guards.get(key);
     const log = (msg: string, ...args: unknown[]) => {
       if (logFlags.get(key)) {
-        l`${isLogImg} ${pL("CONTROL", { backgroundColor: "springgreen", color: "darkgreen", borderBottomLeftRadius: 0 })}${pR(key.toUpperCase(), { color: "wheat", backgroundColor: "darkgreen", borderLeft: "2px solid seagreen" })}\n${s(msg, { marginLeft: 29.5, lineHeight: 20, backgroundColor: "springgreen", paddingLeft: 6, paddingRight: 6, color: "black", borderBottomLeftRadius: "0.5em", borderBottomRightRadius: "0.5em", fontFamily: "system-ui", marginBottom: 4 })}`.debug(
+        l`${isLogImg} ${pL("CONTROL", { backgroundColor: "darkolivegreen", color: "white", borderBottomLeftRadius: 0 })}${pR(key.toUpperCase(), { paddingLeft: 16, paddingRight: 16, color: "wheat", backgroundColor: "darkgreen", borderLeft: "2px solid darkseagreen" })}\n${s(msg, { marginLeft: 29.5, lineHeight: 20, backgroundColor: "darkolivegreen", paddingLeft: 12, paddingRight: 12, color: "oldlace", borderBottomLeftRadius: "0.5em", borderBottomRightRadius: "0.5em", fontFamily: "system-ui", marginBottom: 4 })}`.debug(
           "\n",
           ...args,
         );

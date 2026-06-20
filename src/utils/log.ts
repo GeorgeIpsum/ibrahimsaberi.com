@@ -336,14 +336,12 @@ export const pL = (str: string, style: LogCSSProperties = {}) =>
   s(str, {
     backgroundColor: "rebeccapurple",
     paddingLeft: 6,
-    paddingTop: 2,
     paddingRight: 6,
-    paddingBottom: 2,
     borderTopLeftRadius: "0.5em",
     borderBottomLeftRadius: "0.5em",
     fontFamily: "monospace",
     lineHeight: 16,
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "bold",
     ...style,
   });
@@ -351,15 +349,13 @@ export const pR = (str: string, style: LogCSSProperties = {}) =>
   s(str, {
     backgroundColor: "rebeccapurple",
     paddingLeft: 6,
-    paddingTop: 2,
     paddingRight: 6,
-    paddingBottom: 2,
     borderLeft: "2px solid purple",
     borderTopRightRadius: "0.5em",
     borderBottomRightRadius: "0.5em",
     fontFamily: "monospace",
     lineHeight: 16,
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: "bold",
     ...style,
   });
