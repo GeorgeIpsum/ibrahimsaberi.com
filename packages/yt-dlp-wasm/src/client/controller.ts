@@ -43,6 +43,10 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
     else if (e.data?.type === "boot-error")
       rejectReady(new Error(e.data.message));
   });
+  // Keep an observer on `ready` so a boot failure never becomes an unhandled
+  // rejection if the caller creates an instance but never awaits load(). Real
+  // callers attach their own handler via load()/ytDlpVersion() and still get it.
+  void ready.catch(() => {});
 
   const channel = new MessageChannel();
   pyodideWorker.postMessage(
