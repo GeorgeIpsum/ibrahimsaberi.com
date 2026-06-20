@@ -36,7 +36,8 @@ self.onmessage = (e: MessageEvent) => {
 
 async function handlePyEcho(text: string): Promise<void> {
   try {
-    const { pyodide } = await runtime!;
+    if (!runtime) throw new Error("py-echo received before init");
+    const { pyodide } = await runtime;
     pyodide.globals.set("_echo_in", text);
     const result = pyodide.runPython("echo(_echo_in)") as string;
     self.postMessage({ type: "py-echo-result", text: result });

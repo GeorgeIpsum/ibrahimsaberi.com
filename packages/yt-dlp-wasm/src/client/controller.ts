@@ -53,10 +53,13 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
     channel.port2,
   ]);
 
+  // NOTE: single-in-flight only. Concurrent calls awaiting the same reply type
+  // would both resolve to the first reply received; add a request id / queue
+  // before exposing concurrent use. (Phase 1 review tracked this invariant.)
   function once<T>(
     type: string,
     post: () => void,
-    pick: (data: any) => T,
+    pick: (data: Record<string, unknown>) => T,
   ): Promise<T> {
     return new Promise((resolve, reject) => {
       const onMsg = (e: MessageEvent) => {
@@ -78,13 +81,13 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
       once<string>(
         "pong",
         () => pyodideWorker.postMessage({ type: "ping", text }),
-        (d) => d.text,
+        (d) => d.text as string,
       ),
     pyEcho: (text) =>
       once<string>(
         "py-echo-result",
         () => pyodideWorker.postMessage({ type: "py-echo", text }),
-        (d) => d.text,
+        (d) => d.text as string,
       ),
     terminate() {
       pyodideWorker.terminate();
