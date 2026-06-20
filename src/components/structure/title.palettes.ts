@@ -253,6 +253,7 @@ export const palettes = {
       //   "#2F9744",
       // ],
       light: {
+        canvasOpacity: 0.9,
         colors: [
           "#242424",
           "#B7372B",
@@ -265,6 +266,7 @@ export const palettes = {
         ],
       },
       dark: {
+        canvasOpacity: 0.9,
         colors: [
           "#242424",
           "#B7372B",
