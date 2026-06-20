@@ -1,0 +1,30 @@
+{
+  "name": "@local/yt-dlp-wasm",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Run yt-dlp in the browser via Pyodide + ffmpeg.wasm.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "node build.mjs --watch",
+    "build": "node build.mjs && tsc --emitDeclarationOnly",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.4",
+    "esbuild": "^0.25.0",
+    "typescript": "6.0.3",
+    "vitest": "^4.1.7"
+  }
+}
