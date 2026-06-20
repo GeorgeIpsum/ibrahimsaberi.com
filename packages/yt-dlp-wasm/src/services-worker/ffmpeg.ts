@@ -9,13 +9,11 @@ let instance: FFmpeg | undefined;
 
 async function ensureFfmpeg(config: FfmpegConfig): Promise<FFmpeg> {
   if (instance) return instance;
-  const { coreURL, wasmURL, workerURL, classWorkerURL } =
-    resolveFfmpegCore(config);
+  const { coreURL, wasmURL, classWorkerURL } = resolveFfmpegCore(config);
   const ff = new FFmpeg();
   await ff.load({
     coreURL: await toBlobURL(coreURL, "text/javascript"),
     wasmURL: await toBlobURL(wasmURL, "application/wasm"),
-    workerURL: await toBlobURL(workerURL, "text/javascript"),
     classWorkerURL: await toBlobURL(classWorkerURL, "text/javascript"),
   });
   instance = ff;

@@ -2,13 +2,13 @@ import { describe, expect, it } from "vitest";
 import { FFMPEG_CORE_VERSION, resolveFfmpegCore } from "./config";
 
 describe("resolveFfmpegCore", () => {
-  it("defaults to the jsDelivr core-mt esm dir for the pinned version", () => {
+  it("defaults to the jsDelivr core esm dir for the pinned version", () => {
     const r = resolveFfmpegCore();
     expect(r.coreURL).toBe(
-      `https://cdn.jsdelivr.net/npm/@ffmpeg/core-mt@${FFMPEG_CORE_VERSION}/dist/esm/ffmpeg-core.js`,
+      `https://cdn.jsdelivr.net/npm/@ffmpeg/core@${FFMPEG_CORE_VERSION}/dist/esm/ffmpeg-core.js`,
     );
     expect(r.wasmURL).toMatch(/ffmpeg-core\.wasm$/);
-    expect(r.workerURL).toMatch(/ffmpeg-core\.worker\.js$/);
+    expect(r.classWorkerURL).toContain("@ffmpeg/ffmpeg@");
   });
 
   it("honors a base override", () => {
