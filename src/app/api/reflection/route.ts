@@ -24,6 +24,16 @@ const reflect = (alignment: number, it: string) => {
   return response;
 };
 
+const parseReflectionBody = async (request: NextRequest) => {
+  const body = await request.json();
+  const parsed = reflectSchema(body);
+  if (parsed instanceof ArkErrors) {
+    console.warn("Failed to parse reflection body:", parsed.flatProblemsByPath);
+    throw new Error("Failed to parse reflection body.");
+  }
+  return parsed;
+};
+
 export const GET = async (request: NextRequest) => {
   const reflectionCookie = request.cookies.get("reflection");
 
@@ -63,9 +73,28 @@ export const GET = async (request: NextRequest) => {
   }
 };
 
+export const PUT = async (request: NextRequest) => {
+  try {
+    const reflection = await parseReflectionBody(request);
+  } catch {
+    return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
+  }
+
+  return NextResponse.json({ it: "lacks definition" }, { status: 400 });
+};
+
 export const POST = async (request: NextRequest) => {
-  const body = await request.json();
-  if (body) {
-    //
+  const reflectHeader = request.headers.get("x-reflect");
+  if (reflectHeader !== process.env.REFLECT) {
+    return NextResponse.json({ it: "is not you" }, { status: 403 });
+  }
+
+  try {
+    const reflection = await parseReflectionBody(request);
+    const newAlignment = reflection.alignment;
+
+    return reflect(newAlignment, "is renewed");
+  } catch {
+    return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
   }
 };
