@@ -1,5 +1,14 @@
 import createMDX from "@next/mdx";
+import { FPECipher, SHA_256 } from "feistel-cipher";
 import type { NextConfig } from "next";
+import { version } from "./package.json";
+
+const cipher = new FPECipher(SHA_256, process.env.REFLECT ?? "", 128);
+const reflectSha = {
+  wisp: encodeURIComponent(cipher.encrypt(process.env.WISP ?? "")),
+  wav: encodeURIComponent(cipher.encrypt(process.env.WAV ?? "")),
+};
+const DEPLOY_TIME = new Date().toISOString();
 
 const config: NextConfig = {
   cacheComponents: true,
@@ -51,6 +60,42 @@ const config: NextConfig = {
   async rewrites() {
     return [];
   },
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: "x-version",
+            value: version,
+          },
+          {
+            key: "x-deployment",
+            value: process.env.VERCEL_DEPLOYMENT_ID ?? "local",
+          },
+          {
+            key: "x-commit-sha",
+            value:
+              process.env.VERCEL_GIT_COMMIT_SHA ??
+              process.env.VERCEL_GIT_PREVIOUS_SHA ??
+              "unknown",
+          },
+          {
+            key: "x-deploy-time",
+            value: DEPLOY_TIME,
+          },
+          {
+            key: "x-wisp-sha",
+            value: reflectSha.wisp,
+          },
+          {
+            key: "x-wav-sha",
+            value: reflectSha.wav,
+          },
+        ],
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "i.scdn.co" }, // album art
@@ -73,6 +118,9 @@ const config: NextConfig = {
       "./next.config.ts",
       "./packages/**", // local workspace packages NFT pulled in
     ],
+  },
+  experimental: {
+    optimizePackageImports: ["@base-ui/react"],
   },
   poweredByHeader: false,
   devIndicators: false,
