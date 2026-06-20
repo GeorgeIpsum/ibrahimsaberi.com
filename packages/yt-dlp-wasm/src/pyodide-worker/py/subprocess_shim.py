@@ -24,7 +24,7 @@ def _kind(args) -> str | None:
 def _run_ffmpeg(args) -> tuple[int, bytes, bytes]:
     rest = [str(a) for a in args[1:]]
     if "-version" in rest:
-        return 0, b"", b"ffmpeg version wasm-yt-dlp\nbuilt with ffmpeg.wasm\n"
+        return 0, b"ffmpeg version wasm-yt-dlp\nbuilt with ffmpeg.wasm\n", b""
 
     inputs: list[tuple[str, str]] = []
     out_argv: list[str] = []
@@ -41,9 +41,11 @@ def _run_ffmpeg(args) -> tuple[int, bytes, bytes]:
         out_argv.append(a)
         i += 1
 
-    out_src = fs.strip_file_prefix(rest[-1]) if rest else ""
-    out_base = os.path.basename(out_src)
-    if out_argv:
+    out_src = ""
+    out_base = ""
+    if out_argv and not out_argv[-1].startswith("-"):
+        out_src = fs.strip_file_prefix(out_argv[-1])
+        out_base = os.path.basename(out_src)
         out_argv[-1] = out_base
 
     in_bases: list[str] = []
