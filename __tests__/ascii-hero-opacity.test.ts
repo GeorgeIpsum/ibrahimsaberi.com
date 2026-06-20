@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   type AsciiGradientDirection,
   makeArtOpacity,
-} from "@/components/special/ascii-hero";
+} from "@/components/backgrounds/ascii-hero";
 
 // A 3x3 block: local cells run lx,ly ∈ {0,1,2}, so fx,fy ∈ {0, 0.5, 1}.
 const COLS = 3;

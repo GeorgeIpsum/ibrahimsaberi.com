@@ -201,7 +201,7 @@ export function createControlContext<K extends string>() {
     const guard = guards.get(key);
     const log = (msg: string, ...args: unknown[]) => {
       if (logFlags.get(key)) {
-        console.log(`[control:${key}] ${msg}`, ...args);
+        console.debug(`[control:${key}] ${msg}`, ...args);
       }
     };
 
