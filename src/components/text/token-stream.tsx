@@ -1,6 +1,7 @@
 // absolutely 100% stolen from performative UI https://github.com/vorpus/performativeUI/blob/main/src/components/TokenStream.tsx
 "use client";
 
+import { fastIsEqual } from "fast-is-equal";
 import {
   type ComponentPropsWithoutRef,
   forwardRef,
@@ -9,6 +10,7 @@ import {
   useState,
 } from "react";
 import { cn } from "@/css/lib";
+import { clampedNumber } from "@/utils/rand";
 
 export interface UseTokenStreamOptions {
   text: string;
@@ -48,55 +50,62 @@ export function useTokenStream({
   const [isComplete, setIsComplete] = useState(false);
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
+  const outputRef = useRef(output);
+  const speedRef = useRef(speedMs);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: if tokenize changes while streaming, that would be... weird. Don't do it.
   useEffect(() => {
     let cancelled = false;
     let timer: ReturnType<typeof setTimeout> | null = null;
+    let initialTimer: ReturnType<typeof setTimeout> | null = null;
     const tokens = tokenize(text);
 
+    const speedChanged = !fastIsEqual(speedRef.current, speedMs);
+    speedRef.current = speedMs;
     const pickDelay = () =>
-      Array.isArray(speedMs)
-        ? speedMs[0] + Math.random() * (speedMs[1] - speedMs[0])
-        : speedMs;
+      Array.isArray(speedRef.current)
+        ? clampedNumber(speedRef.current[0], speedRef.current[1])
+        : speedRef.current;
 
-    const run = () => {
-      let i = 0;
-      let buf = "";
-      const tick = () => {
-        if (cancelled) return;
-        if (i >= tokens.length) {
-          setIsComplete(true);
-          onCompleteRef.current?.();
-          if (loop) {
-            timer = setTimeout(() => {
-              if (cancelled) return;
-              setIsComplete(false);
-              setOutput("");
-              run();
-            }, loopDelayMs);
+    if (outputRef.current.length < text.length && !loop) {
+      const run = () => {
+        let i = speedChanged ? Math.max(outputRef.current.length - 1, 0) : 0;
+        let buf = speedChanged ? outputRef.current : "";
+        const tick = () => {
+          if (cancelled) return;
+          if (i >= tokens.length) {
+            setIsComplete(true);
+            onCompleteRef.current?.();
+            if (loop) {
+              timer = setTimeout(() => {
+                if (cancelled) return;
+                setIsComplete(false);
+                setOutput("");
+                run();
+              }, loopDelayMs);
+            }
+            return;
           }
-          return;
-        }
-        buf += tokens[i];
-        i += 1;
-        setOutput(buf);
-        timer = setTimeout(tick, pickDelay());
+          buf += tokens[i];
+          i += 1;
+          setOutput(buf);
+          outputRef.current = buf;
+          timer = setTimeout(tick, pickDelay());
+        };
+        tick();
       };
-      tick();
-    };
-    let initialTimer: ReturnType<typeof setTimeout> | null = null;
-    if (delayMs) {
-      initialTimer = setTimeout(run, delayMs);
-    } else {
-      run();
+      if (delayMs && !speedChanged) {
+        initialTimer = setTimeout(run, delayMs);
+      } else {
+        run();
+      }
     }
     return () => {
       cancelled = true;
       if (timer) clearTimeout(timer);
       if (initialTimer) clearTimeout(initialTimer);
     };
-  }, []);
+  }, [speedMs]);
 
   return { output, isStreaming: !isComplete, isComplete };
 }
