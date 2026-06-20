@@ -14,10 +14,8 @@ OP_ECHO = 1
 
 def call(op: int, data: bytes) -> bytes:
     result = ytdlp_bridge_js.call(op, to_js(data))
-    try:
-        return bytes(result.to_py())
-    finally:
-        result.destroy()
+    converted = result.to_py() if hasattr(result, "to_py") else result
+    return bytes(converted)
 
 
 def echo(text: str) -> str:
