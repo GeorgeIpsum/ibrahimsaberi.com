@@ -124,7 +124,7 @@ const config: NextConfig = {
     ],
   },
   experimental: {
-    optimizePackageImports: ["@base-ui/react"],
+    optimizePackageImports: ["@base-ui/react", "@lucide/lab"],
   },
   poweredByHeader: false,
   devIndicators: false,

@@ -21,9 +21,9 @@ export default async function Page({
 }
 
 export const metadata: Metadata = {
-  title: "effigy of the inside",
+  title: "whois",
   description:
-    "look inward. wait stop rolling your eyes upward. that's bad for you",
+    "look inward. wait why are you rolling your eyes upward. that's bad for you",
 };
 
 export const viewport: Viewport = {
