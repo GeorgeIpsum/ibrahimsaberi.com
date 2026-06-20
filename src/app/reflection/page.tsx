@@ -20,7 +20,11 @@ export default async function Page({
   );
 }
 
-export const metadata: Metadata = {};
+export const metadata: Metadata = {
+  title: "effigy of the inside",
+  description:
+    "look inward. wait stop rolling your eyes upward. that's bad for you",
+};
 
 export const viewport: Viewport = {
   colorScheme: "dark",

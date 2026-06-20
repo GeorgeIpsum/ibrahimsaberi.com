@@ -52,6 +52,7 @@ export default function RootLayout({
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.BASE_URL ?? "https://ibrahimsaberi.com"),
   title: "a whisper",
   description: "a wave",
   authors: [
