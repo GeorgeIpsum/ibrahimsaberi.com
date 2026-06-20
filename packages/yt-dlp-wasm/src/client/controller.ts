@@ -1,6 +1,7 @@
 import { createSab } from "../bridge/sab";
 import type { PyodideBootConfig } from "../pyodide-worker/config";
 import type { FfmpegConfig } from "../services-worker/config";
+import { createResponder } from "../services-worker/responder";
 
 export interface YtDlpConfig extends PyodideBootConfig, FfmpegConfig {
   /** SAB data-region capacity in bytes. Default 16 MiB. */
@@ -23,17 +24,28 @@ export interface YtDlp {
   terminate(): void;
 }
 
-function spawnWorker(name: "pyodide-worker" | "services-worker"): Worker {
+function spawnPyodideWorker(): Worker {
+  // Computed segment keeps the bundler from statically resolving/rewriting the
+  // URL; it resolves at runtime to dist/pyodide-worker/worker.js.
+  const name = "pyodide-worker";
   const url = new URL(`./${name}/worker.js`, import.meta.url);
   return new Worker(url, { type: "module" });
 }
 
 export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
-  const { dataCapacity, ...bootConfig } = config;
+  const { dataCapacity, ...rest } = config;
   const sab = createSab(dataCapacity ?? 16 * 1024 * 1024);
 
-  const pyodideWorker = spawnWorker("pyodide-worker");
-  const servicesWorker = spawnWorker("services-worker");
+  const pyodideWorker = spawnPyodideWorker();
+
+  // The SAB responder runs on the MAIN THREAD: it never blocks (only the
+  // Pyodide requester parks on Atomics.wait), so ffmpeg.wasm runs here, where
+  // it's reliable, instead of nested inside a worker. The Pyodide worker posts
+  // a "wake" message per bridge call; we run the responder in reply.
+  const responder = createResponder(sab, rest);
+  pyodideWorker.addEventListener("message", (e: MessageEvent) => {
+    if (e.data?.type === "wake") void responder.handle();
+  });
 
   // Attach the readiness listener BEFORE posting init so `ready` can't race us.
   let resolveReady: (v: { ytDlpVersion: string }) => void;
@@ -49,19 +61,10 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
       rejectReady(new Error(e.data.message));
   });
   // Keep an observer on `ready` so a boot failure never becomes an unhandled
-  // rejection if the caller creates an instance but never awaits load(). Real
-  // callers attach their own handler via load()/ytDlpVersion() and still get it.
+  // rejection if the caller creates an instance but never awaits load().
   void ready.catch(() => {});
 
-  const channel = new MessageChannel();
-  pyodideWorker.postMessage(
-    { type: "init", sab, wakePort: channel.port1, config: bootConfig },
-    [channel.port1],
-  );
-  servicesWorker.postMessage(
-    { type: "init", sab, wakePort: channel.port2, ffmpegConfig: bootConfig },
-    [channel.port2],
-  );
+  pyodideWorker.postMessage({ type: "init", sab, config: rest });
 
   // NOTE: single-in-flight only. Concurrent calls awaiting the same reply type
   // would both resolve to the first reply received; add a request id / queue
@@ -108,7 +111,6 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
       ),
     terminate() {
       pyodideWorker.terminate();
-      servicesWorker.terminate();
     },
   };
 }

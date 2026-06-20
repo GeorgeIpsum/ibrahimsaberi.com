@@ -5,7 +5,6 @@ const options = {
   entryPoints: {
     index: "src/index.ts",
     "pyodide-worker/worker": "src/pyodide-worker/worker.ts",
-    "services-worker/worker": "src/services-worker/worker.ts",
   },
   outdir: "dist",
   bundle: true,

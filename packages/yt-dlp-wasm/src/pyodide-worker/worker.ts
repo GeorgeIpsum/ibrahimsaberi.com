@@ -12,9 +12,8 @@ let runtime: Promise<PyodideRuntime> | undefined;
 self.onmessage = (e: MessageEvent) => {
   const msg = e.data;
   if (msg?.type === "init") {
-    const wakePort: MessagePort = msg.wakePort;
     requester = new SabRequester(msg.sab as SharedArrayBuffer, (reqId) =>
-      wakePort.postMessage(reqId),
+      self.postMessage({ type: "wake", reqId }),
     );
     runtime = bootPyodide((msg.config ?? {}) as PyodideBootConfig, requester);
     runtime.then(
