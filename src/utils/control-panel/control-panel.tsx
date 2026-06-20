@@ -38,7 +38,8 @@ const PanelBody: React.FC = observer(() => (
                 <h5
                   className={cn(
                     "ml-auto text-right font-mono font-thin text-[10px] uppercase",
-                    control.pending && "opacity-50",
+                    (control.pending || control.disabled?.get()) &&
+                      "opacity-50",
                   )}
                 >
                   {key}
@@ -48,7 +49,7 @@ const PanelBody: React.FC = observer(() => (
                 <ControlRenderer
                   controlKey={key}
                   control={control}
-                  disabled={control.pending}
+                  disabled={control.pending || control.disabled?.get()}
                 />
               </div>
             </div>

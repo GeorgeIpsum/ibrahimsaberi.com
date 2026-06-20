@@ -49,13 +49,15 @@ export type Control<T extends ControlType> = {
   log?: boolean;
   /** Internal UI state: `true` while an async `beforeChange` is running. */
   pending?: boolean;
+  disabled?: IObservableValue<boolean>;
 };
 
 export type ControlInput<T extends ControlType> = Omit<
   Control<T>,
-  "value" | "pending"
+  "value" | "pending" | "disabled"
 > & {
   value?: ControlTypeValue<T>;
+  disabled?: boolean;
 };
 
 interface ControlContext<K extends string> {
@@ -137,12 +139,14 @@ export function createControlContext<K extends string>() {
     const type = resolveControlType(control);
     const initial = control.value ?? getDefaultControlValue(type);
     lastProp.set(key, control.value);
+    lastProp.set(`${key}_disabled` as K, control.disabled);
     runInAction(() => {
       context.registeredControls[key] = {
         type,
         options: control.options,
         value: observable.box(initial),
         pending: false,
+        disabled: observable.box(control.disabled ?? false),
       } as Control<ControlType>;
     });
   };
@@ -167,10 +171,19 @@ export function createControlContext<K extends string>() {
       control.value !== undefined &&
       !equals(control.value, lastProp.get(key))
     ) {
+      console.log("????");
       lastProp.set(key, control.value);
       if (!equals(control.value, entry.value?.get())) {
         runInAction(() => entry.value?.set(control.value as ControlValue));
       }
+    }
+
+    if (
+      control.disabled !== lastProp.get(`${key}_disabled` as K) &&
+      !equals(control.disabled, entry.disabled?.get())
+    ) {
+      lastProp.set(`${key}_disabled` as K, control.disabled);
+      runInAction(() => entry.disabled?.set(control.disabled as boolean));
     }
   };
 
@@ -180,6 +193,7 @@ export function createControlContext<K extends string>() {
     handlers.delete(key);
     logFlags.delete(key);
     lastProp.delete(key);
+    lastProp.delete(`${key}_disabled` as K);
     runInAction(() => {
       delete context.registeredControls[key];
     });
@@ -202,10 +216,7 @@ export function createControlContext<K extends string>() {
     const guard = guards.get(key);
     const log = (msg: string, ...args: unknown[]) => {
       if (logFlags.get(key)) {
-        l`${isLogImg} ${pL("CONTROL", { backgroundColor: "darkolivegreen", color: "white", borderBottomLeftRadius: 0 })}${pR(key.toUpperCase(), { paddingLeft: 16, paddingRight: 16, color: "wheat", backgroundColor: "darkgreen", borderLeft: "2px solid darkseagreen" })}\n${s(msg, { marginLeft: 29.5, lineHeight: 20, backgroundColor: "darkolivegreen", paddingLeft: 12, paddingRight: 12, color: "oldlace", borderBottomLeftRadius: "0.5em", borderBottomRightRadius: "0.5em", fontFamily: "system-ui", marginBottom: 4 })}`.debug(
-          "\n",
-          ...args,
-        );
+        l`${isLogImg} ${pl()}${pr(key)}\n${m(msg)}`.debug("\n", ...args);
       }
     };
 
@@ -281,3 +292,32 @@ globalThis.IS_controller =
   globalThis.IS_controller ?? createControlContext<string>();
 
 export const controlContext = globalThis.IS_controller;
+
+// styled log fns
+const pl = () =>
+  pL("CONTROL", {
+    backgroundColor: "darkolivegreen",
+    color: "white",
+    borderBottomLeftRadius: 0,
+  });
+const pr = (key: string) =>
+  pR(key.toUpperCase(), {
+    paddingLeft: 16,
+    paddingRight: 16,
+    color: "wheat",
+    backgroundColor: "darkgreen",
+    borderLeft: "2px solid darkseagreen",
+  });
+const m = (msg: string) =>
+  s(msg, {
+    marginLeft: 29.5,
+    lineHeight: 20,
+    backgroundColor: "darkolivegreen",
+    paddingLeft: 12,
+    paddingRight: 12,
+    color: "oldlace",
+    borderBottomLeftRadius: "0.5em",
+    borderBottomRightRadius: "0.5em",
+    fontFamily: "system-ui",
+    marginBottom: 4,
+  });
