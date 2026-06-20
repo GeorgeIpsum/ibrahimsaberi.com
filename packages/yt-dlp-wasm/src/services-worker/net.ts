@@ -7,12 +7,16 @@ import type { FileStore } from "./file-store";
 const LIBCURL_URL =
   "https://cdn.jsdelivr.net/npm/libcurl.js@0.7.4/libcurl_full.mjs";
 
+type LibcurlFetchOpts = Omit<RequestInit, "body"> & {
+  body?: BodyInit | Uint8Array | null;
+};
+
 interface Libcurl {
   load_wasm: (url?: string) => Promise<void>;
   set_websocket: (url: string) => void;
   fetch: (
     url: string,
-    opts?: unknown,
+    opts?: LibcurlFetchOpts,
   ) => Promise<Response & { raw_headers?: [string, string][] }>;
 }
 
@@ -20,6 +24,9 @@ let libcurlReady: Promise<Libcurl> | undefined;
 
 async function ensureLibcurl(wispUrl: string): Promise<Libcurl> {
   if (!wispUrl) throw new Error("wispUrl is not configured");
+  // libcurl is a process-wide singleton, so `wispUrl` is honored only on the
+  // first init. That's fine here: it comes from one createYtDlp config. The
+  // guard above still rejects an empty wispUrl on the very first call.
   if (!libcurlReady) {
     libcurlReady = (async () => {
       const mod = (await import(
