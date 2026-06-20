@@ -7,6 +7,9 @@ import {
 } from "./config";
 // Inlined at build via esbuild's .py text loader (see build.mjs).
 import bridgePy from "./py/bridge.py";
+import ffprobePy from "./py/ffprobe_compat.py";
+import fsPy from "./py/fs.py";
+import subprocessPy from "./py/subprocess_shim.py";
 
 export interface PyodideRuntime {
   pyodide: PyodideInterface;
@@ -38,6 +41,24 @@ export async function bootPyodide(
       requester.call(op, payload),
   });
   pyodide.runPython(bridgePy);
+
+  // Install the Python shim modules onto sys.path, then patch subprocess so
+  // yt-dlp's ffmpeg/ffprobe calls route into ffmpeg.wasm via the bridge.
+  pyodide.globals.set("_fs_py", fsPy);
+  pyodide.globals.set("_ffprobe_py", ffprobePy);
+  pyodide.globals.set("_subprocess_py", subprocessPy);
+  pyodide.runPython(`
+import os, sys
+_dir = "/tmp/ytdlp_py"
+os.makedirs(_dir, exist_ok=True)
+if _dir not in sys.path:
+    sys.path.insert(0, _dir)
+for _name, _src in (("fs", _fs_py), ("ffprobe_compat", _ffprobe_py), ("subprocess_shim", _subprocess_py)):
+    with open(os.path.join(_dir, _name + ".py"), "w") as _f:
+        _f.write(_src)
+import subprocess_shim
+subprocess_shim.install()
+`);
 
   // Install yt-dlp. micropip from PyPI is the default; a URL source installs a
   // single wheel with deps disabled (enough for `import yt_dlp` + version).
