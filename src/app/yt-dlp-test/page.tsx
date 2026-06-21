@@ -18,6 +18,19 @@ type YtDlpHandle = {
     id: string | null;
     extractor: string | null;
   }>;
+  exec: (argv: string[]) => Promise<{
+    exitCode: number;
+    stdout: string;
+    stderr: string;
+    files: { name: string; size: number }[];
+  }>;
+  download: (
+    url: string,
+    opts?: Record<string, unknown>,
+  ) => Promise<{ files: { name: string; size: number }[] }>;
+  readOutputFile: (name: string) => Promise<Uint8Array>;
+  on: (channel: "log" | "progress", cb: (data: unknown) => void) => void;
+  off: (channel: "log" | "progress", cb: (data: unknown) => void) => void;
   terminate: () => void;
 };
 
@@ -86,6 +99,18 @@ type NetState =
   | { kind: "ok"; result: string; ms: number }
   | { kind: "error"; message: string };
 
+type ExecState =
+  | { kind: "idle" }
+  | { kind: "running" }
+  | { kind: "ok"; exitCode: number; version: string }
+  | { kind: "error"; message: string };
+
+type DlState =
+  | { kind: "idle" }
+  | { kind: "running" }
+  | { kind: "ok"; files: { name: string; size: number }[] }
+  | { kind: "error"; message: string };
+
 export default function YtDlpTestPage() {
   const [text, setText] = useState("hello world");
   const [state, setState] = useState<RunState>({ kind: "idle" });
@@ -98,6 +123,12 @@ export default function YtDlpTestPage() {
   >({ kind: "idle" });
   const [netUrl, setNetUrl] = useState("https://example.com/");
   const [netState, setNetState] = useState<NetState>({ kind: "idle" });
+  const [exec, setExec] = useState<ExecState>({ kind: "idle" });
+  const [dl, setDl] = useState<DlState>({ kind: "idle" });
+  const [logs, setLogs] = useState<string[]>([]);
+  const [dlUrl, setDlUrl] = useState(
+    "https://raw.githubusercontent.com/ffmpegwasm/testdata/master/Big_Buck_Bunny_180_10s.webm",
+  );
 
   async function run() {
     setState({ kind: "running" });
@@ -254,6 +285,70 @@ export default function YtDlpTestPage() {
     }
   }
 
+  async function runVersion() {
+    setExec({ kind: "running" });
+    try {
+      if (!self.crossOriginIsolated)
+        throw new Error("not cross-origin isolated");
+      const manifest = await (
+        await fetch("/yt-dlp-wheels/manifest.json")
+      ).json();
+      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
+      const { createYtDlp } = await loadYtDlp();
+      const ytdlp = createYtDlp({
+        wispUrl: "wss://wisp.mercurywork.shop/",
+        ytDlpSource: { url: wheelUrl },
+      });
+      await ytdlp.load();
+      const r = await ytdlp.exec(["--version"]);
+      ytdlp.terminate();
+      setExec({ kind: "ok", exitCode: r.exitCode, version: r.stdout.trim() });
+    } catch (err) {
+      setExec({
+        kind: "error",
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  async function runDownload() {
+    setDl({ kind: "running" });
+    setLogs([]);
+    try {
+      if (!self.crossOriginIsolated)
+        throw new Error("not cross-origin isolated");
+      const manifest = await (
+        await fetch("/yt-dlp-wheels/manifest.json")
+      ).json();
+      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
+      const { createYtDlp } = await loadYtDlp();
+      const ytdlp = createYtDlp({
+        wispUrl: "wss://wisp.mercurywork.shop/",
+        ytDlpSource: { url: wheelUrl },
+      });
+      const onLog = (l: unknown) =>
+        setLogs((prev) => [...prev.slice(-40), String(l)]);
+      const onProg = (p: unknown) =>
+        setLogs((prev) => [
+          ...prev.slice(-40),
+          `progress ${JSON.stringify(p)}`,
+        ]);
+      ytdlp.on("log", onLog);
+      ytdlp.on("progress", onProg);
+      await ytdlp.load();
+      const r = await ytdlp.download(dlUrl);
+      ytdlp.off("log", onLog);
+      ytdlp.off("progress", onProg);
+      ytdlp.terminate();
+      setDl({ kind: "ok", files: r.files });
+    } catch (err) {
+      setDl({
+        kind: "error",
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 p-8 font-mono text-sm">
       <h1 className="font-semibold text-lg">
@@ -403,6 +498,71 @@ export default function YtDlpTestPage() {
           {netState.kind === "error" && (
             <span className="text-red-600 dark:text-red-400">
               ✗ {netState.message}
+            </span>
+          )}
+        </output>
+      </section>
+
+      <section className="mt-4 flex flex-col gap-2 border-neutral-500 border-t pt-4">
+        <h2 className="font-semibold">CLI &amp; events</h2>
+        <p className="text-neutral-500 text-xs dark:text-neutral-400">
+          Runs <code>yt-dlp --version</code> via <code>exec</code>, then
+          exercises the <code>log</code> and <code>progress</code> event
+          channels with a real download. The log stream proves the event bridge
+          even if the download ultimately errors.
+        </p>
+
+        <button
+          type="button"
+          onClick={runVersion}
+          disabled={exec.kind === "running"}
+          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
+        >
+          {exec.kind === "running" ? "Running…" : "yt-dlp --version"}
+        </button>
+        <output className="block min-h-6">
+          {exec.kind === "ok" && (
+            <span className="text-green-600 dark:text-green-400">
+              ✓ exit {exec.exitCode} · yt-dlp {exec.version}
+            </span>
+          )}
+          {exec.kind === "error" && (
+            <span className="text-red-600 dark:text-red-400">
+              ✗ {exec.message}
+            </span>
+          )}
+        </output>
+
+        <label className="flex flex-col gap-1">
+          <span>Download URL</span>
+          <input
+            className="rounded border border-neutral-500 bg-transparent px-2 py-1"
+            value={dlUrl}
+            onChange={(e) => setDlUrl(e.target.value)}
+          />
+        </label>
+        <button
+          type="button"
+          onClick={runDownload}
+          disabled={dl.kind === "running"}
+          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
+        >
+          {dl.kind === "running" ? "Running…" : "Download (streams events)"}
+        </button>
+        {logs.length > 0 && (
+          <pre className="max-h-48 overflow-y-auto rounded border border-neutral-500 bg-neutral-900 p-2 text-neutral-200 text-xs dark:bg-neutral-950">
+            {logs.join("\n")}
+          </pre>
+        )}
+        <output className="block min-h-6">
+          {dl.kind === "ok" && (
+            <span className="text-green-600 dark:text-green-400">
+              ✓ files: {dl.files.map((f) => f.name).join(", ")}
+            </span>
+          )}
+          {dl.kind === "error" && (
+            <span className="text-red-600 dark:text-red-400">
+              ✗ {dl.message}
             </span>
           )}
         </output>
