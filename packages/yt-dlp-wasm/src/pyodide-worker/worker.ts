@@ -15,7 +15,15 @@ self.onmessage = (e: MessageEvent) => {
     requester = new SabRequester(msg.sab as SharedArrayBuffer, (reqId) =>
       self.postMessage({ type: "wake", reqId }),
     );
-    runtime = bootPyodide((msg.config ?? {}) as PyodideBootConfig, requester);
+    runtime = bootPyodide(
+      (msg.config ?? {}) as PyodideBootConfig,
+      requester,
+    ).then((rt) => {
+      rt.pyodide.globals.set("_emit", (channel: string, data: string) =>
+        self.postMessage({ type: "event", channel, data }),
+      );
+      return rt;
+    });
     runtime.then(
       (rt) =>
         self.postMessage({ type: "ready", ytDlpVersion: rt.ytDlpVersion }),
@@ -36,6 +44,10 @@ self.onmessage = (e: MessageEvent) => {
     void handleNetFetch(msg.url as string);
   } else if (msg?.type === "extract-info") {
     void handleExtractInfo(msg.url as string);
+  } else if (msg?.type === "exec") {
+    void handleExec(msg.argv as string[]);
+  } else if (msg?.type === "read-output") {
+    void handleReadOutput(msg.name as string);
   }
 };
 
@@ -107,6 +119,44 @@ async function handlePyEcho(text: string): Promise<void> {
     self.postMessage({ type: "py-echo-result", text: result });
   } catch (err) {
     self.postMessage({ type: "py-echo-result", error: messageOf(err) });
+  }
+}
+
+async function handleExec(argv: string[]): Promise<void> {
+  try {
+    if (!runtime) throw new Error("exec before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_argv", argv);
+    const result = (await pyodide.runPythonAsync(
+      "import api\napi.run_exec(list(_argv))",
+    )) as string;
+    self.postMessage({ type: "exec-result", text: result });
+  } catch (err) {
+    self.postMessage({ type: "exec-result", error: messageOf(err) });
+  }
+}
+
+async function handleReadOutput(name: string): Promise<void> {
+  try {
+    if (!runtime) throw new Error("read-output before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_out_name", name);
+    const data = pyodide.runPython(
+      'open("/work/" + _out_name, "rb").read()',
+    ) as unknown;
+    const u8 =
+      data instanceof Uint8Array
+        ? data.slice()
+        : new Uint8Array((data as { toJs: () => Uint8Array }).toJs());
+    self.postMessage({ type: "read-output-result", name, bytes: u8 }, [
+      u8.buffer,
+    ]);
+  } catch (err) {
+    self.postMessage({
+      type: "read-output-result",
+      name,
+      error: messageOf(err),
+    });
   }
 }
 

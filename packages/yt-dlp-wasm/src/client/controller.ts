@@ -2,6 +2,9 @@ import { createSab } from "../bridge/sab";
 import type { PyodideBootConfig } from "../pyodide-worker/config";
 import type { FfmpegConfig, NetConfig } from "../services-worker/config";
 import { createResponder } from "../services-worker/responder";
+import { Emitter } from "./events";
+
+export type YtDlpEvents = { progress: Record<string, unknown>; log: string };
 
 export interface YtDlpConfig
   extends PyodideBootConfig,
@@ -35,6 +38,21 @@ export interface YtDlp {
     id: string | null;
     extractor: string | null;
   }>;
+  on<K extends keyof YtDlpEvents>(
+    channel: K,
+    cb: (data: YtDlpEvents[K]) => void,
+  ): void;
+  off<K extends keyof YtDlpEvents>(
+    channel: K,
+    cb: (data: YtDlpEvents[K]) => void,
+  ): void;
+  exec(argv: string[]): Promise<{
+    exitCode: number;
+    stdout: string;
+    stderr: string;
+    files: { name: string; size: number }[];
+  }>;
+  readOutputFile(name: string): Promise<Uint8Array>;
   terminate(): void;
 }
 
@@ -59,6 +77,18 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
   const responder = createResponder(sab, rest);
   pyodideWorker.addEventListener("message", (e: MessageEvent) => {
     if (e.data?.type === "wake") void responder.handle();
+  });
+
+  const events = new Emitter<YtDlpEvents>();
+  pyodideWorker.addEventListener("message", (e: MessageEvent) => {
+    if (e.data?.type === "event") {
+      const ch = e.data.channel as keyof YtDlpEvents;
+      const parsed =
+        ch === "log"
+          ? (e.data.data as string)
+          : JSON.parse(e.data.data as string);
+      events.emit(ch, parsed as never);
+    }
   });
 
   // Attach the readiness listener BEFORE posting init so `ready` can't race us.
@@ -135,6 +165,26 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
         () => pyodideWorker.postMessage({ type: "extract-info", url }),
         (d) => JSON.parse(d.text as string),
       ),
+    on: (channel, cb) => events.on(channel, cb),
+    off: (channel, cb) => events.off(channel, cb),
+    exec: (argv) =>
+      once(
+        "exec-result",
+        () => pyodideWorker.postMessage({ type: "exec", argv }),
+        (d) => JSON.parse(d.text as string),
+      ),
+    readOutputFile: (name) =>
+      new Promise<Uint8Array>((resolve, reject) => {
+        const onMsg = (e: MessageEvent) => {
+          if (e.data?.type === "read-output-result" && e.data.name === name) {
+            pyodideWorker.removeEventListener("message", onMsg);
+            if (e.data.error) reject(new Error(e.data.error));
+            else resolve(e.data.bytes as Uint8Array);
+          }
+        };
+        pyodideWorker.addEventListener("message", onMsg);
+        pyodideWorker.postMessage({ type: "read-output", name });
+      }),
     terminate() {
       pyodideWorker.terminate();
     },

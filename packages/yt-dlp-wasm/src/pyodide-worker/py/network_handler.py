@@ -39,6 +39,16 @@ class WispRH(RequestHandler):
         )
 
 
+def force_global():
+    """Prune yt-dlp's global request-handler registry to ONLY WispRH so internally
+    built YoutubeDL instances (e.g. yt_dlp.main) use Wisp, not CORS-blocked urllib."""
+    from yt_dlp.networking.common import _REQUEST_HANDLERS
+
+    for key in list(_REQUEST_HANDLERS):
+        if _REQUEST_HANDLERS[key] is not WispRH:
+            del _REQUEST_HANDLERS[key]
+
+
 def use_only_wisp(ydl):
     """Force a YoutubeDL instance to route all requests through WispRH.
 

@@ -5,6 +5,7 @@ import {
   resolvePyodideIndexURL,
   resolveYtDlpInstall,
 } from "./config";
+import apiPy from "./py/api.py";
 // Inlined at build via esbuild's .py text loader (see build.mjs).
 import bridgePy from "./py/bridge.py";
 import ffprobePy from "./py/ffprobe_compat.py";
@@ -51,13 +52,14 @@ export async function bootPyodide(
   pyodide.globals.set("_subprocess_py", subprocessPy);
   pyodide.globals.set("_net_py", netPy);
   pyodide.globals.set("_network_handler_py", networkHandlerPy);
+  pyodide.globals.set("_api_py", apiPy);
   pyodide.runPython(`
 import os, sys
 _dir = "/tmp/ytdlp_py"
 os.makedirs(_dir, exist_ok=True)
 if _dir not in sys.path:
     sys.path.insert(0, _dir)
-for _name, _src in (("fs", _fs_py), ("ffprobe_compat", _ffprobe_py), ("subprocess_shim", _subprocess_py), ("net", _net_py), ("network_handler", _network_handler_py)):
+for _name, _src in (("fs", _fs_py), ("ffprobe_compat", _ffprobe_py), ("subprocess_shim", _subprocess_py), ("net", _net_py), ("network_handler", _network_handler_py), ("api", _api_py)):
     with open(os.path.join(_dir, _name + ".py"), "w") as _f:
         _f.write(_src)
 import subprocess_shim
