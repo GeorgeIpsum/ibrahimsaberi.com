@@ -109,7 +109,7 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, started }) => {
       }
     >
       <Button
-        title={`BECOME: ${name}`}
+        title={`ARRIVE: ${name}`}
         aria-label={name}
         variant="ghost"
         size="icon-xl"
