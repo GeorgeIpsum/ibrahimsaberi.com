@@ -169,7 +169,7 @@ async function handleDownload(url: string, opts: string): Promise<void> {
     pyodide.globals.set("_dl_url", url);
     pyodide.globals.set("_dl_opts", opts ?? "");
     const result = (await pyodide.runPythonAsync(
-      "import api\napi.run_download(_dl_url, _dl_opts)",
+      "import api\napi.run_download(_dl_url, _dl_opts, _emit)",
     )) as string;
     self.postMessage({ type: "download-result", text: result });
   } catch (err) {

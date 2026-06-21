@@ -50,7 +50,7 @@ def run_exec(argv) -> str:
     )
 
 
-def run_download(url: str, opts_json: str) -> str:
+def run_download(url: str, opts_json: str, emit) -> str:
     _ensure_work()
     import yt_dlp
     import network_handler
@@ -59,7 +59,7 @@ def run_download(url: str, opts_json: str) -> str:
 
     def _emit_safe(channel, payload):
         try:
-            _emit(channel, payload)  # noqa: F821 (JS global injected by the worker)
+            emit(channel, payload)
         except Exception:
             pass
 
