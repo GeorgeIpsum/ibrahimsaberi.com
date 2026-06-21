@@ -32,11 +32,15 @@ export interface YtDlp {
     url: string,
   ): Promise<{ status: number; size: number; preview: string }>;
   /** Extract video metadata via yt-dlp using the Wisp network handler. */
-  extractInfo(url: string): Promise<{
+  extractInfo(
+    url: string,
+    opts?: Record<string, unknown>,
+  ): Promise<{
     title: string | null;
     ext: string | null;
     id: string | null;
     extractor: string | null;
+    formatCount: number;
   }>;
   on<K extends keyof YtDlpEvents>(
     channel: K,
@@ -163,10 +167,15 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
         () => pyodideWorker.postMessage({ type: "net-fetch", url }),
         (d) => JSON.parse(d.text as string),
       ),
-    extractInfo: (url) =>
+    extractInfo: (url, opts) =>
       once(
         "extract-info-result",
-        () => pyodideWorker.postMessage({ type: "extract-info", url }),
+        () =>
+          pyodideWorker.postMessage({
+            type: "extract-info",
+            url,
+            opts: JSON.stringify(opts ?? {}),
+          }),
         (d) => JSON.parse(d.text as string),
       ),
     on: (channel, cb) => events.on(channel, cb),

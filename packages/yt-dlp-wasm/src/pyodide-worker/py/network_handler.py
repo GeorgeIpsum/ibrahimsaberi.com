@@ -19,24 +19,31 @@ class WispRH(RequestHandler):
         data = request.data
         if data is not None and not isinstance(data, (bytes, bytearray)):
             data = data.read()
+        headers = dict(request.headers)
+        cookie = self._cookie_header(request.url)
+        if cookie:
+            headers["Cookie"] = cookie
         try:
-            status, headers, final_url, body = net.net_send(
-                request.method,
-                request.url,
-                request.headers,
-                data or b"",
+            status, resp_headers, final_url, body = net.net_send(
+                request.method, request.url, headers, data or b"",
             )
         except Exception as e:
             raise TransportError(cause=e) from e
         header_map = {}
-        for name, value in headers:
+        for name, value in resp_headers:
             header_map[name] = value
         return Response(
-            fp=io.BytesIO(body),
-            url=final_url,
-            headers=header_map,
-            status=status,
+            fp=io.BytesIO(body), url=final_url, headers=header_map, status=status,
         )
+
+    def _cookie_header(self, url):
+        try:
+            import urllib.request
+            req = urllib.request.Request(url)
+            self.cookiejar.add_cookie_header(req)
+            return req.get_header("Cookie")
+        except Exception:
+            return None
 
 
 def force_global():

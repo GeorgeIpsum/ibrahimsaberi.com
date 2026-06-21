@@ -43,7 +43,7 @@ self.onmessage = (e: MessageEvent) => {
   } else if (msg?.type === "net-fetch") {
     void handleNetFetch(msg.url as string);
   } else if (msg?.type === "extract-info") {
-    void handleExtractInfo(msg.url as string);
+    void handleExtractInfo(msg.url as string, msg.opts as string);
   } else if (msg?.type === "exec") {
     void handleExec(msg.argv as string[]);
   } else if (msg?.type === "read-output") {
@@ -69,19 +69,15 @@ json.dumps({"status": _status, "size": len(_body), "preview": _body[:200].decode
   }
 }
 
-async function handleExtractInfo(url: string): Promise<void> {
+async function handleExtractInfo(url: string, opts: string): Promise<void> {
   try {
     if (!runtime) throw new Error("extract-info before init");
     const { pyodide } = await runtime;
     pyodide.globals.set("_xi_url", url);
-    const result = (await pyodide.runPythonAsync(`
-import json, yt_dlp, network_handler
-_ydl = yt_dlp.YoutubeDL({"quiet": True, "skip_download": True, "noplaylist": True})
-network_handler.use_only_wisp(_ydl)
-_info = _ydl.extract_info(_xi_url, download=False)
-_clean = _ydl.sanitize_info(_info)
-json.dumps({"title": _clean.get("title"), "ext": _clean.get("ext"), "id": _clean.get("id"), "extractor": _clean.get("extractor")})
-`)) as string;
+    pyodide.globals.set("_xi_opts", opts ?? "");
+    const result = (await pyodide.runPythonAsync(
+      "import api\napi.run_extract_info(_xi_url, _xi_opts)",
+    )) as string;
     self.postMessage({ type: "extract-info-result", text: result });
   } catch (err) {
     self.postMessage({ type: "extract-info-result", error: messageOf(err) });

@@ -20,6 +20,36 @@ def _list_outputs():
     ]
 
 
+def _apply_cookies(opts: dict) -> dict:
+    """If opts carries a raw cookies.txt string, write it and switch to cookiefile."""
+    txt = opts.pop("cookiesTxt", None)
+    if txt:
+        path = "/tmp/cookies.txt"
+        with open(path, "w") as f:
+            f.write(txt)
+        opts["cookiefile"] = path
+    return opts
+
+
+def run_extract_info(url: str, opts_json: str) -> str:
+    import yt_dlp
+    import network_handler
+
+    user_opts = _apply_cookies(json.loads(opts_json) if opts_json else {})
+    opts = {"quiet": True, "skip_download": True, "noplaylist": True, **user_opts}
+    with yt_dlp.YoutubeDL(opts) as ydl:
+        network_handler.use_only_wisp(ydl)
+        info = ydl.extract_info(url, download=False)
+        clean = ydl.sanitize_info(info)
+    return json.dumps({
+        "title": clean.get("title"),
+        "ext": clean.get("ext"),
+        "id": clean.get("id"),
+        "extractor": clean.get("extractor"),
+        "formatCount": len(clean.get("formats") or []),
+    })
+
+
 def run_exec(argv) -> str:
     _ensure_work()
     import network_handler
@@ -55,7 +85,7 @@ def run_download(url: str, opts_json: str, emit) -> str:
     import yt_dlp
     import network_handler
 
-    user_opts = json.loads(opts_json) if opts_json else {}
+    user_opts = _apply_cookies(json.loads(opts_json) if opts_json else {})
 
     def _emit_safe(channel, payload):
         try:
