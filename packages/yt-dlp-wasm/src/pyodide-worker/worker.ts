@@ -48,6 +48,8 @@ self.onmessage = (e: MessageEvent) => {
     void handleExec(msg.argv as string[]);
   } else if (msg?.type === "read-output") {
     void handleReadOutput(msg.name as string);
+  } else if (msg?.type === "download") {
+    void handleDownload(msg.url as string, msg.opts as string);
   }
 };
 
@@ -157,6 +159,21 @@ async function handleReadOutput(name: string): Promise<void> {
       name,
       error: messageOf(err),
     });
+  }
+}
+
+async function handleDownload(url: string, opts: string): Promise<void> {
+  try {
+    if (!runtime) throw new Error("download before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_dl_url", url);
+    pyodide.globals.set("_dl_opts", opts ?? "");
+    const result = (await pyodide.runPythonAsync(
+      "import api\napi.run_download(_dl_url, _dl_opts)",
+    )) as string;
+    self.postMessage({ type: "download-result", text: result });
+  } catch (err) {
+    self.postMessage({ type: "download-result", error: messageOf(err) });
   }
 }
 

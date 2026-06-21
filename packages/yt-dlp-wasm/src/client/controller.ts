@@ -52,6 +52,10 @@ export interface YtDlp {
     stderr: string;
     files: { name: string; size: number }[];
   }>;
+  download(
+    url: string,
+    opts?: Record<string, unknown>,
+  ): Promise<{ files: { name: string; size: number }[] }>;
   readOutputFile(name: string): Promise<Uint8Array>;
   terminate(): void;
 }
@@ -171,6 +175,17 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
       once(
         "exec-result",
         () => pyodideWorker.postMessage({ type: "exec", argv }),
+        (d) => JSON.parse(d.text as string),
+      ),
+    download: (url, opts) =>
+      once(
+        "download-result",
+        () =>
+          pyodideWorker.postMessage({
+            type: "download",
+            url,
+            opts: JSON.stringify(opts ?? {}),
+          }),
         (d) => JSON.parse(d.text as string),
       ),
     readOutputFile: (name) =>
