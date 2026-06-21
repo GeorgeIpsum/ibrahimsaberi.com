@@ -171,7 +171,6 @@ export function createControlContext<K extends string>() {
       control.value !== undefined &&
       !equals(control.value, lastProp.get(key))
     ) {
-      console.log("????");
       lastProp.set(key, control.value);
       if (!equals(control.value, entry.value?.get())) {
         runInAction(() => entry.value?.set(control.value as ControlValue));
