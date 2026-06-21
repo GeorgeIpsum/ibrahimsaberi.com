@@ -46,7 +46,7 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
   };
 
   return (
-    <>
+    <div className="group/sequence relative flex h-full w-full items-center justify-center">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentlyPlayingToken}
@@ -77,11 +77,17 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
           <Button
             variant="ghost"
             size="icon-lg"
+            style={
+              {
+                "--bounce-distance": "-10%",
+                "--animation-duration": "1.5s",
+              } as React.CSSProperties
+            }
             className={cn(
-              "w-full px-auto transition-colors",
+              "w-full px-auto transition-all duration-500",
               playing
                 ? "cursor-not-allowed"
-                : "animate-pulse cursor-e-resize text-amber-50",
+                : "animate-bounce cursor-e-resize text-amber-50",
             )}
             disabled={playing}
             onClick={moveToNextToken}
@@ -93,11 +99,22 @@ export const TextSequence: React.FC<TextSequenceProps> = ({
       <button
         type="button"
         className={cn(
-          "absolute inset-0 z-10 border-none bg-none bg-transparent opacity-0 outline-none",
-          !playing ? "cursor-e-resize" : "cursor-default",
+          "absolute inset-0 z-10 rounded-lg bg-transparent outline-none transition-all",
+          playing
+            ? "cursor-default opacity-0"
+            : "gradient-border cursor-e-resize after:animate-pulse",
         )}
+        style={
+          {
+            "--pulse-from-opacity": "0",
+            "--pulse-to-opacity": "0.3",
+            "--animation-duration": "3s",
+            "--gradient-border-background":
+              "radial-gradient(circle at bottom center, color-mix(in oklab, var(--color-amber-300) 100%, transparent 20%), transparent 80%)",
+          } as React.CSSProperties
+        }
         onClick={moveToNextToken}
       />
-    </>
+    </div>
   );
 };

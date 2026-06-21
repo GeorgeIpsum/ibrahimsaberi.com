@@ -201,6 +201,34 @@
     }
   }
 
+  --animate-bounce: bounce var(--animation-duration, 1s)
+    var(--animation-timing-function, ease-in-out) var(--animation-delay, 0s)
+    var(--animation-iteration, infinite) var(--animation-fill-mode, both);
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    50% {
+      transform: translateY(var(--bounce-distance, -10px));
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+  }
+
+  --animate-pulse: pulse var(--animation-duration, 2s)
+    var(--animation-timing-function, ease-in-out) var(--animation-delay, 0s)
+    var(--animation-iteration, infinite) var(--animation-fill-mode, both);
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: var(--pulse-from-opacity, 1);
+    }
+    50% {
+      opacity: var(--pulse-to-opacity, 0.5);
+    }
+  }
+
   /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;
@@ -659,4 +687,29 @@ html[data-panel="open"] .control-panel-static {
   vertical-align: -2px;
   margin-left: 1px;
   animation: pui-caret 1s steps(2, start) infinite;
+}
+
+.gradient-border::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: var(
+    --gradient-border-background,
+    linear-gradient(
+      90deg,
+      var(--gradient-start, var(--primary)),
+      var(--gradient-middle, var(--secondary)),
+      var(--gradient-end, var(--primary))
+    )
+  );
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }
