@@ -21,7 +21,7 @@ export default async function Page({
 }
 
 export const metadata: Metadata = {
-  title: "whois",
+  title: "whois I",
   description:
     "look inward. wait why are you rolling your eyes upward. that's bad for you",
 };

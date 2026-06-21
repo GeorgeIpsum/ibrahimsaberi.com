@@ -25,7 +25,7 @@
       "react": "recommended"
     },
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "style": {
         "noRestrictedImports": {
           "level": "error",
@@ -93,10 +93,14 @@
       "linter": {
         "rules": {
           "a11y": {
-            "useAltText": "off"
+            "useAltText": "off",
+            "noSvgWithoutTitle": "off"
           },
           "performance": {
             "noImgElement": "off"
+          },
+          "suspicious": {
+            "noExplicitAny": "off"
           }
         }
       }
