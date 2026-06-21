@@ -32,8 +32,47 @@ self.onmessage = (e: MessageEvent) => {
     void handlePyEcho(msg.text as string);
   } else if (msg?.type === "ffmpeg-self-test") {
     void handleFfmpegSelfTest(msg.wavBase64 as string);
+  } else if (msg?.type === "net-fetch") {
+    void handleNetFetch(msg.url as string);
+  } else if (msg?.type === "extract-info") {
+    void handleExtractInfo(msg.url as string);
   }
 };
+
+async function handleNetFetch(url: string): Promise<void> {
+  try {
+    if (!runtime) throw new Error("net-fetch before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_net_url", url);
+    const result = pyodide.runPython(`
+import json, net
+_status, _headers, _final, _body = net.net_send("GET", _net_url, {})
+json.dumps({"status": _status, "size": len(_body), "preview": _body[:200].decode("utf-8", "replace")})
+`) as string;
+    self.postMessage({ type: "net-fetch-result", text: result });
+  } catch (err) {
+    self.postMessage({ type: "net-fetch-result", error: messageOf(err) });
+  }
+}
+
+async function handleExtractInfo(url: string): Promise<void> {
+  try {
+    if (!runtime) throw new Error("extract-info before init");
+    const { pyodide } = await runtime;
+    pyodide.globals.set("_xi_url", url);
+    const result = (await pyodide.runPythonAsync(`
+import json, yt_dlp, network_handler
+_ydl = yt_dlp.YoutubeDL({"quiet": True, "skip_download": True, "noplaylist": True})
+network_handler.use_only_wisp(_ydl)
+_info = _ydl.extract_info(_xi_url, download=False)
+_clean = _ydl.sanitize_info(_info)
+json.dumps({"title": _clean.get("title"), "ext": _clean.get("ext"), "id": _clean.get("id"), "extractor": _clean.get("extractor")})
+`)) as string;
+    self.postMessage({ type: "extract-info-result", text: result });
+  } catch (err) {
+    self.postMessage({ type: "extract-info-result", error: messageOf(err) });
+  }
+}
 
 async function handleFfmpegSelfTest(wavBase64: string): Promise<void> {
   try {

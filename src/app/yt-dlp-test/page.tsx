@@ -9,6 +9,15 @@ type YtDlpHandle = {
   ffmpegSelfTest: (
     wavBase64: string,
   ) => Promise<{ code: number; outSize: number; probe: string }>;
+  netFetch: (
+    url: string,
+  ) => Promise<{ status: number; size: number; preview: string }>;
+  extractInfo: (url: string) => Promise<{
+    title: string | null;
+    ext: string | null;
+    id: string | null;
+    extractor: string | null;
+  }>;
   terminate: () => void;
 };
 
@@ -16,6 +25,7 @@ type YtDlpModule = {
   createYtDlp: (config?: {
     dataCapacity?: number;
     ytDlpSource?: "micropip" | { url: string };
+    wispUrl?: string;
   }) => YtDlpHandle;
 };
 
@@ -70,6 +80,12 @@ type BootState =
   | { kind: "ok"; version: string; echo: string; ms: number }
   | { kind: "error"; message: string };
 
+type NetState =
+  | { kind: "idle" }
+  | { kind: "running" }
+  | { kind: "ok"; result: string; ms: number }
+  | { kind: "error"; message: string };
+
 export default function YtDlpTestPage() {
   const [text, setText] = useState("hello world");
   const [state, setState] = useState<RunState>({ kind: "idle" });
@@ -80,6 +96,8 @@ export default function YtDlpTestPage() {
     | { kind: "ok"; outSize: number; probe: string; ms: number }
     | { kind: "error"; message: string }
   >({ kind: "idle" });
+  const [netUrl, setNetUrl] = useState("https://example.com/");
+  const [netState, setNetState] = useState<NetState>({ kind: "idle" });
 
   async function run() {
     setState({ kind: "running" });
@@ -160,6 +178,76 @@ export default function YtDlpTestPage() {
         });
     } catch (err) {
       setFf({
+        kind: "error",
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  async function netFetchTest() {
+    setNetState({ kind: "running" });
+    try {
+      if (!self.crossOriginIsolated) {
+        throw new Error(
+          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
+        );
+      }
+      const manifest = await (
+        await fetch("/yt-dlp-wheels/manifest.json")
+      ).json();
+      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
+      const { createYtDlp } = await loadYtDlp();
+      const ytdlp = createYtDlp({
+        wispUrl: "wss://wisp.mercurywork.shop/",
+        ytDlpSource: { url: wheelUrl },
+      });
+      const start = performance.now();
+      await ytdlp.load();
+      const r = await ytdlp.netFetch(netUrl);
+      const ms = performance.now() - start;
+      ytdlp.terminate();
+      setNetState({
+        kind: "ok",
+        result: `${r.status} · ${r.size} bytes\n${r.preview}`,
+        ms,
+      });
+    } catch (err) {
+      setNetState({
+        kind: "error",
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  async function extractInfoTest() {
+    setNetState({ kind: "running" });
+    try {
+      if (!self.crossOriginIsolated) {
+        throw new Error(
+          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
+        );
+      }
+      const manifest = await (
+        await fetch("/yt-dlp-wheels/manifest.json")
+      ).json();
+      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
+      const { createYtDlp } = await loadYtDlp();
+      const ytdlp = createYtDlp({
+        wispUrl: "wss://wisp.mercurywork.shop/",
+        ytDlpSource: { url: wheelUrl },
+      });
+      const start = performance.now();
+      await ytdlp.load();
+      const info = await ytdlp.extractInfo(netUrl);
+      const ms = performance.now() - start;
+      ytdlp.terminate();
+      setNetState({
+        kind: "ok",
+        result: `${info.title} [${info.extractor}] id=${info.id} ext=${info.ext}`,
+        ms,
+      });
+    } catch (err) {
+      setNetState({
         kind: "error",
         message: err instanceof Error ? err.message : String(err),
       });
@@ -268,6 +356,53 @@ export default function YtDlpTestPage() {
           {ff.kind === "error" && (
             <span className="text-red-600 dark:text-red-400">
               ✗ {ff.message}
+            </span>
+          )}
+        </output>
+      </section>
+
+      <section className="mt-4 flex flex-col gap-2 border-neutral-500 border-t pt-4">
+        <h2 className="font-semibold">Networking (Wisp)</h2>
+        <p className="text-neutral-500 text-xs dark:text-neutral-400">
+          Tests the Wisp/libcurl network handler from Python. &ldquo;Fetch via
+          Wisp&rdquo; sends a raw GET request; &ldquo;Extract info&rdquo; runs
+          yt-dlp metadata extraction through the same handler.
+        </p>
+        <label className="flex flex-col gap-1">
+          <span>URL</span>
+          <input
+            className="rounded border border-neutral-500 bg-transparent px-2 py-1"
+            value={netUrl}
+            onChange={(e) => setNetUrl(e.target.value)}
+          />
+        </label>
+        <div className="flex gap-2">
+          <button
+            type="button"
+            onClick={netFetchTest}
+            disabled={netState.kind === "running"}
+            className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
+          >
+            {netState.kind === "running" ? "Running…" : "Fetch via Wisp"}
+          </button>
+          <button
+            type="button"
+            onClick={extractInfoTest}
+            disabled={netState.kind === "running"}
+            className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
+          >
+            {netState.kind === "running" ? "Running…" : "Extract info"}
+          </button>
+        </div>
+        <output className="block min-h-6">
+          {netState.kind === "ok" && (
+            <span className="text-green-600 dark:text-green-400">
+              ✓ {netState.result} ({(netState.ms / 1000).toFixed(1)}s)
+            </span>
+          )}
+          {netState.kind === "error" && (
+            <span className="text-red-600 dark:text-red-400">
+              ✗ {netState.message}
             </span>
           )}
         </output>

@@ -1,9 +1,12 @@
 import { createSab } from "../bridge/sab";
 import type { PyodideBootConfig } from "../pyodide-worker/config";
-import type { FfmpegConfig } from "../services-worker/config";
+import type { FfmpegConfig, NetConfig } from "../services-worker/config";
 import { createResponder } from "../services-worker/responder";
 
-export interface YtDlpConfig extends PyodideBootConfig, FfmpegConfig {
+export interface YtDlpConfig
+  extends PyodideBootConfig,
+    FfmpegConfig,
+    NetConfig {
   /** SAB data-region capacity in bytes. Default 16 MiB. */
   dataCapacity?: number;
 }
@@ -21,6 +24,17 @@ export interface YtDlp {
   ffmpegSelfTest(
     wavBase64: string,
   ): Promise<{ code: number; outSize: number; probe: string }>;
+  /** Fetch a URL via the Wisp/libcurl network handler from Python. */
+  netFetch(
+    url: string,
+  ): Promise<{ status: number; size: number; preview: string }>;
+  /** Extract video metadata via yt-dlp using the Wisp network handler. */
+  extractInfo(url: string): Promise<{
+    title: string | null;
+    ext: string | null;
+    id: string | null;
+    extractor: string | null;
+  }>;
   terminate(): void;
 }
 
@@ -107,6 +121,18 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
         "ffmpeg-self-test-result",
         () =>
           pyodideWorker.postMessage({ type: "ffmpeg-self-test", wavBase64 }),
+        (d) => JSON.parse(d.text as string),
+      ),
+    netFetch: (url) =>
+      once(
+        "net-fetch-result",
+        () => pyodideWorker.postMessage({ type: "net-fetch", url }),
+        (d) => JSON.parse(d.text as string),
+      ),
+    extractInfo: (url) =>
+      once(
+        "extract-info-result",
+        () => pyodideWorker.postMessage({ type: "extract-info", url }),
         (d) => JSON.parse(d.text as string),
       ),
     terminate() {
