@@ -13,7 +13,7 @@ export const size = {
 export const contentType = "image/png";
 
 export default async function OpenGraphImage() {
-  const [lightFont, extraBoldFont] = await Promise.all([
+  const [lightFont, extraBoldFont, img] = await Promise.all([
     readFile(
       join(
         process.cwd(),
@@ -34,6 +34,7 @@ export default async function OpenGraphImage() {
         "Platypi-Bold.ttf",
       ),
     ),
+    readFile(join(process.cwd(), "public", "is.svg"), "base64"),
   ]);
 
   return new ImageResponse(
@@ -92,6 +93,18 @@ export default async function OpenGraphImage() {
           <span style={{ fontWeight: 800, color: "#FFFFEE" }}>i</span>
         </div>
         <div style={{ fontSize: 48 }}>look inwards</div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          position: "absolute",
+          bottom: 24,
+          left: 24,
+          width: 48,
+          height: 48,
+        }}
+      >
+        <img src={`data:image/svg+xml;base64,${img}`} width={48} height={48} />
       </div>
     </div>,
     {
