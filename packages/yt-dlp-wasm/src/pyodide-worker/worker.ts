@@ -142,7 +142,7 @@ async function handleReadOutput(name: string): Promise<void> {
     const { pyodide } = await runtime;
     pyodide.globals.set("_out_name", name);
     const data = pyodide.runPython(
-      'open("/work/" + _out_name, "rb").read()',
+      'import pathlib; pathlib.Path("/work/" + _out_name).read_bytes()',
     ) as unknown;
     const u8 =
       data instanceof Uint8Array

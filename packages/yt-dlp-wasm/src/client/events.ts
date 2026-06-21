@@ -18,7 +18,7 @@ export class Emitter<E extends Record<string, unknown>> {
   }
 
   emit<K extends keyof E>(channel: K, data: E[K]): void {
-    for (const cb of this.channels.get(channel) ?? []) {
+    for (const cb of [...(this.channels.get(channel) ?? [])]) {
       try {
         (cb as Listener<E[K]>)(data);
       } catch {
