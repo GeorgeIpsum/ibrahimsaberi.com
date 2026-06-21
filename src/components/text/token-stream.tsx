@@ -51,6 +51,8 @@ export function useTokenStream({
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
   const outputRef = useRef(output);
+  const indexRef = useRef(0);
+  const completedRef = useRef(false);
   const speedRef = useRef(speedMs);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: if tokenize changes while streaming, that would be... weird. Don't do it.
@@ -60,6 +62,7 @@ export function useTokenStream({
     let initialTimer: ReturnType<typeof setTimeout> | null = null;
     const tokens = tokenize(text);
 
+    // Handle speed changes
     const speedChanged = !fastIsEqual(speedRef.current, speedMs);
     speedRef.current = speedMs;
     const pickDelay = () =>
@@ -67,39 +70,46 @@ export function useTokenStream({
         ? clampedNumber(speedRef.current[0], speedRef.current[1])
         : speedRef.current;
 
-    if (outputRef.current.length < text.length && !loop) {
-      const run = () => {
-        let i = speedChanged ? Math.max(outputRef.current.length - 1, 0) : 0;
-        let buf = speedChanged ? outputRef.current : "";
-        const tick = () => {
-          if (cancelled) return;
-          if (i >= tokens.length) {
+    if (completedRef.current && !loop) return;
+
+    const run = () => {
+      const tick = () => {
+        if (cancelled) return;
+        if (indexRef.current >= tokens.length) {
+          if (!completedRef.current) {
+            completedRef.current = true;
             setIsComplete(true);
             onCompleteRef.current?.();
-            if (loop) {
-              timer = setTimeout(() => {
-                if (cancelled) return;
-                setIsComplete(false);
-                setOutput("");
-                run();
-              }, loopDelayMs);
-            }
-            return;
           }
-          buf += tokens[i];
-          i += 1;
-          setOutput(buf);
-          outputRef.current = buf;
-          timer = setTimeout(tick, pickDelay());
-        };
-        tick();
+          if (loop) {
+            timer = setTimeout(() => {
+              if (cancelled) return;
+              indexRef.current = 0;
+              outputRef.current = "";
+              completedRef.current = false;
+              setIsComplete(false);
+              setOutput("");
+              tick();
+            }, loopDelayMs);
+          }
+          return;
+        }
+        const buf = outputRef.current + tokens[indexRef.current];
+        indexRef.current += 1;
+        outputRef.current = buf;
+        setOutput(buf);
+        timer = setTimeout(tick, pickDelay());
       };
-      if (delayMs && !speedChanged) {
-        initialTimer = setTimeout(run, delayMs);
-      } else {
-        run();
-      }
+      tick();
+    };
+
+    // Only delay on first effect run, not on speed changes
+    if (delayMs && !speedChanged) {
+      initialTimer = setTimeout(run, delayMs);
+    } else {
+      run();
     }
+
     return () => {
       cancelled = true;
       if (timer) clearTimeout(timer);
