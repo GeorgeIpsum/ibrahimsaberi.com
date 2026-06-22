@@ -16,6 +16,8 @@
 # production
 /build
 /packages/*/dist
+/services/*/dist
+/services/*/.wrangler
 
 # misc
 .DS_Store
@@ -44,3 +46,8 @@ review-list.txt
 
 # scraped artifacts (regenerable; audio is uploaded to R2)
 scraped/
+
+# built @local/yt-dlp-wasm assets copied for the /yt-dlp-test route
+# (regenerate with `pnpm yt-dlp-wasm:public`)
+/public/yt-dlp-wasm
+/public/yt-dlp-wheels
