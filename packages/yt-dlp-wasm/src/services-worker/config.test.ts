@@ -8,7 +8,6 @@ describe("resolveFfmpegCore", () => {
       `https://cdn.jsdelivr.net/npm/@ffmpeg/core@${FFMPEG_CORE_VERSION}/dist/esm/ffmpeg-core.js`,
     );
     expect(r.wasmURL).toMatch(/ffmpeg-core\.wasm$/);
-    expect(r.classWorkerURL).toContain("@ffmpeg/ffmpeg@");
   });
 
   it("honors a base override", () => {

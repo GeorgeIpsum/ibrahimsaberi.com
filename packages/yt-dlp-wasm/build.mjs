@@ -5,6 +5,10 @@ const options = {
   entryPoints: {
     index: "src/index.ts",
     "pyodide-worker/worker": "src/pyodide-worker/worker.ts",
+    // Self-contained @ffmpeg/ffmpeg class worker (see ffmpeg-worker.ts). Emitted
+    // as a sibling of index.js so it can be served same-origin and loaded
+    // without toBlobURL (which breaks the worker's relative imports).
+    "ffmpeg-worker": "src/services-worker/ffmpeg-worker.ts",
   },
   outdir: "dist",
   bundle: true,

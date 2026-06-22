@@ -26,7 +26,7 @@ yt-dlp is synchronous (`urllib`, `subprocess`), but everything it must reach in 
 
 1. **Cross-origin isolation** — the page must send `COOP: same-origin` + `COEP: require-corp` (SharedArrayBuffer + the ffmpeg MT core need it). See `next.config.ts` `headers()` scoped to `/yt-dlp-test` in this repo.
 2. **A Wisp server** — libcurl.js needs a Wisp WebSocket endpoint (it proxies arbitrary TCP, CORS-free). Use a self-hosted [`wisp-server-node`](https://github.com/MercuryWorkshop/wisp-server-node) (recommended; add auth/rate-limiting — it's effectively an open proxy) or the public demo `wss://wisp.mercurywork.shop/` for testing only. WebSockets are COEP-exempt, so a cross-origin Wisp endpoint is fine.
-3. **Assets** — Pyodide, ffmpeg core, and the yt-dlp wheel load from jsDelivr by default (works under COEP); all are configurable to self-host/R2.
+3. **Assets** — Pyodide, the ffmpeg core+wasm, and the yt-dlp wheel load from jsDelivr by default (works under COEP); all are configurable to self-host/R2. The `@ffmpeg/ffmpeg` class worker is **bundled into the package dist** (`ffmpeg-worker.js`) and must be served **same-origin** beside the package entry (it's resolved relative to `index.js` via `import.meta.url`) — see the caveat below.
 
 ## Usage
 
@@ -88,9 +88,9 @@ pnpm dev                              # then open /yt-dlp-test to exercise every
 
 ## Status & caveats
 
-Verified working in a real browser: the SAB sync bridge, Pyodide + yt-dlp load, libcurl.js-over-Wisp networking (CORS-free fetch + yt-dlp extraction running through it), `exec(["--version"])`, and the live `progress`/`log` event stream.
+Verified working in-browser: the SAB sync bridge, Pyodide + yt-dlp load, libcurl.js-over-Wisp networking (CORS-free fetch + yt-dlp extraction running through it), `exec(["--version"])`, the live `progress`/`log` event stream, and **ffmpeg post-processing** — the WAV→MP3 capstone (Python `subprocess` ffmpeg → `FFMPEG_EXEC` → ffmpeg.wasm → `ffprobe_compat`) runs end-to-end.
 
-- **ffmpeg post-processing** (merge/remux/extract-audio) is implemented but `ffmpeg.wasm`'s `load()` hangs in some automated/headless Chromium builds; it works in normal desktop browsers. Until verified in your target, treat full `download` (which post-processes) as needing a real browser. Networking, extraction, the CLI, and events are independent of this.
+- **ffmpeg class worker must be same-origin.** `@ffmpeg/ffmpeg`'s published ESM worker has relative imports (`./const.js`, `./errors.js`); loading it via `toBlobURL()` makes those resolve against the blob URL and 404, so `FFmpeg.load()` hangs forever with no error. We bundle a self-contained `ffmpeg-worker.js` into the package dist and serve it same-origin (resolved via `import.meta.url`); only the self-contained core + wasm are `toBlobURL`'d. Override with `ffmpegClassWorkerURL` only with another **same-origin** URL.
 - **YouTube** specifically gates shared/datacenter IPs with *"Sign in to confirm you're not a bot"* (an anti-bot arms race independent of this package — yt-dlp hits it everywhere from such IPs). The extractor *runs* fine through the bridge; YouTube rejects the IP. To make it work: pass cookies (`cookiesfrombrowser`/`cookies` opts), use a **residential-IP Wisp server**, and/or PO tokens. Non-YouTube sites and direct media URLs don't have this gate.
 - **Large media** is fully buffered in memory (SAB + MEMFS); response streaming and chunked output reads are future work.
 - The Wisp endpoint proxies arbitrary TCP — secure it (auth, origin allow-list, rate limits) before exposing.
