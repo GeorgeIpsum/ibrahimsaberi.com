@@ -49,7 +49,22 @@ const config: NextConfig = {
     ];
   },
   async rewrites() {
-    return [];
+    // Back the same-origin yt-dlp-wasm asset paths with an external origin
+    // (e.g. an R2 public bucket) when YTDLP_ASSET_ORIGIN is set. Keeping them
+    // same-origin is required: the package spawns module workers, which can't
+    // load cross-origin. COEP headers below still apply to the path.
+    const origin = process.env.YTDLP_ASSET_ORIGIN?.replace(/\/$/, "");
+    if (!origin) return [];
+    return [
+      {
+        source: "/yt-dlp-wasm/:path*",
+        destination: `${origin}/yt-dlp-wasm/:path*`,
+      },
+      {
+        source: "/yt-dlp-wheels/:path*",
+        destination: `${origin}/yt-dlp-wheels/:path*`,
+      },
+    ];
   },
   async headers() {
     // Cross-origin isolation is required for SharedArrayBuffer, which the

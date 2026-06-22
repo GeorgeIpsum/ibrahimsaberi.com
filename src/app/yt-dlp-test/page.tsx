@@ -3,78 +3,12 @@
 import { useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { Input } from "@/components/atoms/input";
-
-type YtDlpHandle = {
-  load: () => Promise<{ ytDlpVersion: string }>;
-  ping: (text: string) => Promise<string>;
-  pyEcho: (text: string) => Promise<string>;
-  ffmpegSelfTest: (
-    wavBase64: string,
-  ) => Promise<{ code: number; outSize: number; probe: string }>;
-  netFetch: (
-    url: string,
-  ) => Promise<{ status: number; size: number; preview: string }>;
-  extractInfo: (
-    url: string,
-    opts?: Record<string, unknown>,
-  ) => Promise<{
-    title: string | null;
-    ext: string | null;
-    id: string | null;
-    extractor: string | null;
-    formatCount: number;
-  }>;
-  exec: (argv: string[]) => Promise<{
-    exitCode: number;
-    stdout: string;
-    stderr: string;
-    files: { name: string; size: number }[];
-  }>;
-  download: (
-    url: string,
-    opts?: Record<string, unknown>,
-  ) => Promise<{ files: { name: string; size: number }[] }>;
-  readOutputFile: (name: string) => Promise<Uint8Array>;
-  on: (channel: "log" | "progress", cb: (data: unknown) => void) => void;
-  off: (channel: "log" | "progress", cb: (data: unknown) => void) => void;
-  terminate: () => void;
-};
-
-type YtDlpModule = {
-  createYtDlp: (config?: {
-    dataCapacity?: number;
-    ytDlpSource?: "micropip" | { url: string };
-    wispUrl?: string;
-  }) => YtDlpHandle;
-};
-
-// Loaded at runtime from /public/yt-dlp-wasm (publish with `pnpm yt-dlp-wasm:public`).
-// A variable specifier + bundler-ignore comments keep Turbopack/webpack from
-// trying to resolve or bundle the prebuilt ESM — its worker URLs must resolve
-// relative to that public path at runtime, not be rewritten by the bundler.
-async function loadYtDlp(): Promise<YtDlpModule> {
-  const specifier = "/yt-dlp-wasm/index.js";
-  return (await import(
-    /* webpackIgnore: true */ /* turbopackIgnore: true */ specifier
-  )) as YtDlpModule;
-}
-
-// Wisp proxy endpoint for libcurl.js networking. Defaults to the public demo
-// (testing only); set NEXT_PUBLIC_WISP_URL to your own server — see
-// services/wisp-server. NEXT_PUBLIC_WISP_TOKEN, if set, is appended as ?token=.
-const WISP_URL: string = (() => {
-  const base =
-    process.env.NEXT_PUBLIC_WISP_URL ?? "wss://wisp.mercurywork.shop/";
-  const token = process.env.NEXT_PUBLIC_WISP_TOKEN;
-  if (!token) return base;
-  try {
-    const url = new URL(base);
-    url.searchParams.set("token", token);
-    return url.toString();
-  } catch {
-    return base;
-  }
-})();
+import {
+  createBridgeClient,
+  createYtDlpClient,
+  isDemoWisp,
+  resolveWispUrl,
+} from "@/services/yt-dlp";
 
 function makeSilentWavBase64(): string {
   const sampleRate = 8000;
@@ -157,13 +91,7 @@ export default function YtDlpTestPage() {
   async function run() {
     setState({ kind: "running" });
     try {
-      if (!self.crossOriginIsolated) {
-        throw new Error(
-          "Page is not cross-origin isolated, so SharedArrayBuffer is unavailable. Check the COOP/COEP headers for /yt-dlp-test.",
-        );
-      }
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({ dataCapacity: 1024 });
+      const ytdlp = await createBridgeClient({ dataCapacity: 1024 });
       const start = performance.now();
       const result = await ytdlp.ping(text);
       const ms = performance.now() - start;
@@ -180,17 +108,7 @@ export default function YtDlpTestPage() {
   async function bootAndTest() {
     setBoot({ kind: "booting" });
     try {
-      if (!self.crossOriginIsolated) {
-        throw new Error(
-          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
-        );
-      }
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({ ytDlpSource: { url: wheelUrl } });
+      const ytdlp = await createYtDlpClient();
       const start = performance.now();
       const { ytDlpVersion } = await ytdlp.load();
       const echo = await ytdlp.pyEcho("hello world");
@@ -208,17 +126,7 @@ export default function YtDlpTestPage() {
   async function ffmpegTest() {
     setFf({ kind: "running" });
     try {
-      if (!self.crossOriginIsolated) {
-        throw new Error(
-          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
-        );
-      }
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({ ytDlpSource: { url: wheelUrl } });
+      const ytdlp = await createYtDlpClient();
       const start = performance.now();
       await ytdlp.load();
       const r = await ytdlp.ffmpegSelfTest(makeSilentWavBase64());
@@ -242,20 +150,7 @@ export default function YtDlpTestPage() {
   async function netFetchTest() {
     setNetState({ kind: "running" });
     try {
-      if (!self.crossOriginIsolated) {
-        throw new Error(
-          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
-        );
-      }
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({
-        wispUrl: WISP_URL,
-        ytDlpSource: { url: wheelUrl },
-      });
+      const ytdlp = await createYtDlpClient();
       const start = performance.now();
       await ytdlp.load();
       const r = await ytdlp.netFetch(netUrl);
@@ -277,20 +172,7 @@ export default function YtDlpTestPage() {
   async function extractInfoTest() {
     setNetState({ kind: "running" });
     try {
-      if (!self.crossOriginIsolated) {
-        throw new Error(
-          "Not cross-origin isolated (SharedArrayBuffer unavailable).",
-        );
-      }
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({
-        wispUrl: WISP_URL,
-        ytDlpSource: { url: wheelUrl },
-      });
+      const ytdlp = await createYtDlpClient();
       const start = performance.now();
       await ytdlp.load();
       const opts: Record<string, unknown> = {
@@ -316,17 +198,7 @@ export default function YtDlpTestPage() {
   async function runVersion() {
     setExec({ kind: "running" });
     try {
-      if (!self.crossOriginIsolated)
-        throw new Error("not cross-origin isolated");
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({
-        wispUrl: WISP_URL,
-        ytDlpSource: { url: wheelUrl },
-      });
+      const ytdlp = await createYtDlpClient();
       await ytdlp.load();
       const r = await ytdlp.exec(["--version"]);
       ytdlp.terminate();
@@ -343,17 +215,7 @@ export default function YtDlpTestPage() {
     setDl({ kind: "running" });
     setLogs([]);
     try {
-      if (!self.crossOriginIsolated)
-        throw new Error("not cross-origin isolated");
-      const manifest = await (
-        await fetch("/yt-dlp-wheels/manifest.json")
-      ).json();
-      const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
-      const { createYtDlp } = await loadYtDlp();
-      const ytdlp = createYtDlp({
-        wispUrl: WISP_URL,
-        ytDlpSource: { url: wheelUrl },
-      });
+      const ytdlp = await createYtDlpClient();
       const onLog = (l: unknown) =>
         setLogs((prev) => [...prev.slice(-40), String(l)]);
       const onProg = (p: unknown) =>
@@ -488,9 +350,8 @@ export default function YtDlpTestPage() {
           yt-dlp metadata extraction through the same handler.
         </p>
         <p className="text-neutral-500 text-xs dark:text-neutral-400">
-          Wisp endpoint: <code>{WISP_URL}</code>{" "}
-          {WISP_URL.includes("mercurywork.shop") &&
-            "(public demo — set NEXT_PUBLIC_WISP_URL)"}
+          Wisp endpoint: <code>{resolveWispUrl()}</code>{" "}
+          {isDemoWisp() && "(public demo — set NEXT_PUBLIC_WISP_URL)"}
         </p>
         <label className="flex flex-col gap-1">
           <span>URL</span>

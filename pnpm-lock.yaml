@@ -43,6 +43,9 @@ importers:
       '@local/rehype-quotes':
         specifier: workspace:*
         version: link:packages/rehype-quotes
+      '@local/yt-dlp-wasm':
+        specifier: workspace:*
+        version: link:packages/yt-dlp-wasm
       '@lucide/lab':
         specifier: ^0.1.2
         version: 0.1.2
