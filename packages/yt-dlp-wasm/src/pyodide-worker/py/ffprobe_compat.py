@@ -1,4 +1,9 @@
-"""Emulate `ffprobe -of json` by parsing `ffmpeg -i <file>` stderr."""
+"""Emulate ffprobe by parsing `ffmpeg -i <file>` stderr.
+
+Emits ffprobe's default flat `[STREAM] key=value [/STREAM]` text (which
+yt-dlp's FFmpegPostProcessor.get_audio_codec parses for `codec_name=` /
+`codec_type=audio`), or JSON when `-of json` / `-print_format json` is given.
+"""
 
 import json
 import os
@@ -32,6 +37,37 @@ def _parse(stderr: str) -> dict:
     return {"streams": streams, "format": fmt}
 
 
+def _wants_json(rest: list[str]) -> bool:
+    for i, tok in enumerate(rest):
+        if tok in ("-of", "-print_format") and i + 1 < len(rest):
+            if rest[i + 1].startswith("json"):
+                return True
+        elif tok.startswith(("-of=json", "-print_format=json")):
+            return True
+    return False
+
+
+def _flat(info: dict) -> str:
+    """ffprobe's default key=value output. codec_name precedes codec_type so
+    yt-dlp's get_audio_codec resolves the right stream."""
+    lines: list[str] = []
+    for idx, st in enumerate(info.get("streams", [])):
+        lines.append("[STREAM]")
+        lines.append(f"index={idx}")
+        lines.append(f"codec_name={st.get('codec_name', '')}")
+        lines.append(f"codec_type={st.get('codec_type', '')}")
+        if "width" in st:
+            lines.append(f"width={st['width']}")
+            lines.append(f"height={st['height']}")
+        lines.append("[/STREAM]")
+    fmt = info.get("format", {})
+    lines.append("[FORMAT]")
+    if "duration" in fmt:
+        lines.append(f"duration={fmt['duration']}")
+    lines.append("[/FORMAT]")
+    return "\n".join(lines) + "\n"
+
+
 def run(args: list[str]) -> tuple[int, bytes, bytes]:
     rest = args[1:]
     if "-version" in rest:
@@ -52,4 +88,5 @@ def run(args: list[str]) -> tuple[int, bytes, bytes]:
     )
     fs.delete_file(base)
     info = _parse(rmeta.get("stderr", ""))
-    return 0, json.dumps(info).encode(), b""
+    out = json.dumps(info) if _wants_json(rest) else _flat(info)
+    return 0, out.encode(), b""

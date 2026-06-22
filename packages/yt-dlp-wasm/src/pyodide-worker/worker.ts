@@ -96,7 +96,7 @@ with open("/tmp/in.wav", "wb") as _f:
 _cp = subprocess.run(["ffmpeg", "-y", "-i", "/tmp/in.wav", "/tmp/out.mp3"])
 _out_size = os.path.getsize("/tmp/out.mp3") if os.path.exists("/tmp/out.mp3") else 0
 import ffprobe_compat
-_code, _probe_json, _ = ffprobe_compat.run(["ffprobe", "/tmp/out.mp3"])
+_code, _probe_json, _ = ffprobe_compat.run(["ffprobe", "-of", "json", "/tmp/out.mp3"])
 json.dumps({"code": _cp.returncode, "outSize": _out_size, "probe": _probe_json.decode()})
 `) as string;
     self.postMessage({ type: "ffmpeg-self-test-result", text: result });
