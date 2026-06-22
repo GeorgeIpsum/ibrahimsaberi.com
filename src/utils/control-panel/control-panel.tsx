@@ -1,4 +1,6 @@
 "use client";
+
+import { LoaderCircle } from "lucide-react";
 import { observer } from "mobx-react-lite";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
@@ -21,7 +23,7 @@ const PanelBody: React.FC = observer(() => (
       <span>control panel</span>
       <Kbd>CTRL+K</Kbd>
     </h4>
-    <ScrollArea className="h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] rounded-lg border border-border bg-secondary/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84">
+    <ScrollArea className="h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] rounded-lg border border-border bg-secondary/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84 lg:w-96">
       <div className="flex flex-col gap-y-1.5">
         {Object.entries(controlContext.context.registeredControls).map(
           ([key, control]) => (
@@ -29,13 +31,26 @@ const PanelBody: React.FC = observer(() => (
               key={key}
               className="relative flex w-full origin-center items-center gap-2 text-xs"
             >
-              <div className="flex w-24 justify-end border-border border-r pr-2">
-                <h5 className="text-right font-mono font-thin text-[10px] uppercase">
+              <div className="flex w-24 items-center justify-end gap-1 border-border border-r pr-2 lg:w-30">
+                {control.pending && (
+                  <LoaderCircle className="size-2.5 shrink-0 animate-spin text-muted-foreground" />
+                )}
+                <h5
+                  className={cn(
+                    "ml-auto text-right font-mono font-thin text-[10px] uppercase",
+                    (control.pending || control.disabled?.get()) &&
+                      "opacity-50",
+                  )}
+                >
                   {key}
                 </h5>
               </div>
               <div className="flex-1">
-                <ControlRenderer control={control} />
+                <ControlRenderer
+                  controlKey={key}
+                  control={control}
+                  disabled={control.pending || control.disabled?.get()}
+                />
               </div>
             </div>
           ),

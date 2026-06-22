@@ -1,4 +1,3 @@
-import { action } from "mobx";
 import { observer } from "mobx-react-lite";
 import { Input } from "@/components/atoms/input";
 import {
@@ -8,60 +7,44 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/atoms/select";
-import type { Control, ControlType } from "./control-context";
+import { Switch } from "@/components/atoms/switch";
+import {
+  type Control,
+  type ControlType,
+  controlContext,
+} from "./control-context";
 
-export const resolveControlType = <T extends ControlType>(
-  control: Control<T>,
-): T => {
-  if (typeof control === "object" && "type" in control) {
-    return control.type as T;
-  } else if (typeof control === "object" && "options" in control) {
-    return "select" as T;
-  } else if (typeof control === "object" && "value" in control) {
-    const value = control.value?.get();
-    if (typeof value === "boolean") {
-      return "switch" as T;
-    } else if (typeof value === "number") {
-      return "number" as T;
-    } else if (typeof value === "string" && value.startsWith("#")) {
-      return "color" as T;
-    }
-  }
+interface ControlFieldProps<T extends ControlType> {
+  controlKey: string;
+  control: Control<T>;
+  disabled?: boolean;
+}
 
-  return "text" as T; // default to text if type can't be inferred
-};
-
-export const ControlInput: React.FC<{ control: Control<"text"> }> = observer(
-  ({ control }) => {
+export const ControlInput: React.FC<ControlFieldProps<"text">> = observer(
+  ({ controlKey, control, disabled }) => {
     return (
       <Input
         size="xs"
-        value={control.value?.get()}
+        disabled={disabled}
+        value={control.value?.get() ?? ""}
         inputClassName="text-[10px]"
-        onValueChange={(value) => {
-          action(() => {
-            control.value?.set(value);
-          })();
-        }}
+        onValueChange={(value) =>
+          controlContext.setControlValue(controlKey, value)
+        }
       />
     );
   },
 );
 
-export const ControlSelect: React.FC<{ control: Control<"select"> }> = observer(
-  ({ control }) => {
+export const ControlSelect: React.FC<ControlFieldProps<"select">> = observer(
+  ({ controlKey, control, disabled }) => {
     return (
       <Select
+        disabled={disabled}
         value={control.value?.get() as string | undefined}
-        onValueChange={(value) => {
-          action(() => {
-            if (value === null) {
-              control.value?.set("");
-            } else {
-              control.value?.set(value);
-            }
-          })();
-        }}
+        onValueChange={(value) =>
+          controlContext.setControlValue(controlKey, value ?? "")
+        }
       >
         <SelectTrigger size="xs" className="w-full">
           <SelectValue className="text-[10px]" placeholder="Select an option" />
@@ -78,18 +61,63 @@ export const ControlSelect: React.FC<{ control: Control<"select"> }> = observer(
   },
 );
 
-export const ControlRenderer: React.FC<{ control: Control<ControlType> }> = ({
-  control,
-}) => {
-  const type = resolveControlType(control);
+export const ControlSwitch: React.FC<ControlFieldProps<"switch">> = observer(
+  ({ controlKey, control, disabled }) => {
+    // Implement a switch control (e.g., a toggle button) as needed
+    return (
+      <Switch
+        style={
+          {
+            "--thumb-size": "0.75rem",
+          } as React.CSSProperties
+        }
+        checked={control.value?.get() ?? false}
+        onCheckedChange={(value) =>
+          controlContext.setControlValue(controlKey, value)
+        }
+        disabled={disabled}
+      />
+    );
+  },
+);
 
-  switch (type) {
+export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
+  controlKey,
+  control,
+  disabled,
+}) => {
+  // `control.type` is resolved once at registration (see `registerControl`).
+  switch (control.type) {
     case "text":
-      return <ControlInput control={control as Control<"text">} />;
+      return (
+        <ControlInput
+          controlKey={controlKey}
+          control={control as Control<"text">}
+          disabled={disabled}
+        />
+      );
     case "select":
-      return <ControlSelect control={control as Control<"select">} />;
+      return (
+        <ControlSelect
+          controlKey={controlKey}
+          control={control as Control<"select">}
+          disabled={disabled}
+        />
+      );
+    case "switch":
+      return (
+        <ControlSwitch
+          controlKey={controlKey}
+          control={control as Control<"switch">}
+          disabled={disabled}
+        />
+      );
     // Implement other control types (color, number, switch) as needed
     default:
-      return <div className="uppercase">unsupported: {type}</div>;
+      return (
+        <div className="text-center text-[10px] uppercase">
+          unsupported: {control.type}
+        </div>
+      );
   }
 };

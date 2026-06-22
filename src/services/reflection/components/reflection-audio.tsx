@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { useAudioWithQuality } from "@/hooks/use-audio";
+import { useControl } from "@/utils/control-panel/use-control";
 
 interface ReflectionAudioProps {
   show?: boolean;
@@ -34,6 +35,17 @@ export const ReflectionAudio: React.FC<ReflectionAudioProps> = ({
       audio.play();
     }
   }, [show, audio]);
+
+  useControl({
+    "bg music": {
+      value: isPlaying,
+      type: "switch",
+      onChange: () => {
+        audio?.playing() ? audio.pause() : audio?.play();
+      },
+      disabled: !audio || !show,
+    },
+  });
 
   return (
     <AnimatePresence>

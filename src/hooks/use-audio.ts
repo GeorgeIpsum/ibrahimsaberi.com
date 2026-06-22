@@ -16,16 +16,36 @@ import {
 export const useAudio = (link: AudioLink, options?: AudioOptions) => {
   const [audio, setAudio] = useState<Howl | null>(null);
 
+  const optionsRef = useRef(options);
+  optionsRef.current = options;
+  if (
+    optionsRef.current?.preload &&
+    !optionsRef.current?.format &&
+    ["mp3", "ogg", "wav"].some((fmt) => link.endsWith(fmt))
+  ) {
+    optionsRef.current.format = [link.split(".").pop() as string];
+  }
+
   useEffect(() => {
-    const audioInstance = createAudio(link, options);
-    audioInstance.on("load", () => {
+    const audioInstance = createAudio(link, optionsRef.current);
+    audioInstance.once("load", () => {
       setAudio(audioInstance);
     });
 
     audioInstance.on("loaderror", (_, error) => {
       console.warn("Audio load error:", error);
     });
-  }, [link, options]);
+
+    if (optionsRef.current?.preload) {
+      audioInstance.load();
+    }
+
+    return () => {
+      audioInstance.off();
+      audioInstance.unload();
+      setAudio(null);
+    };
+  }, [link]);
 
   return audio;
 };
