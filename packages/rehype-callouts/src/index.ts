@@ -211,7 +211,7 @@ export default function rehypeCallouts(
         return;
       }
 
-      // TODO: this will also be a source of weirdness
+      // FIXME: this will also be a source of weirdness
       const displayName = knownCallout.name !== name ? name : knownCallout.name;
 
       const calloutParagraphChildren: ElementContent[] = [];

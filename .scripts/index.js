@@ -27,7 +27,7 @@ const scripts = [];
 for (const file of dirContents) {
   const filePath = resolve(__dirname, file);
   if (filePath === __filename) continue;
-  if (!file.endsWith(".js")) continue;
+  if (!(file.endsWith(".js") || file.endsWith(".mjs"))) continue;
   try {
     const mod = await import(pathToFileURL(filePath).href);
     /** @type {Script | undefined} */

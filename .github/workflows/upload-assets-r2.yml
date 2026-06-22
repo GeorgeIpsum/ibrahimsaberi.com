@@ -18,7 +18,7 @@ on:
     branches: [main]
     paths:
       - "packages/yt-dlp-wasm/**"
-      - "scripts/fetch-yt-dlp-wheel.mjs"
+      - ".scripts/fetch-yt-dlp-wheel.mjs"
       - ".github/workflows/upload-assets-r2.yml"
   schedule:
     # Refresh the yt-dlp wheel weekly (yt-dlp ships often). Mondays 06:00 UTC.

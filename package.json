@@ -13,13 +13,14 @@
     "dev": "next dev",
     "build:packages": "pnpm -F=@local/** build",
     "yt-dlp-wasm:public": "pnpm -F @local/yt-dlp-wasm build && rm -rf public/yt-dlp-wasm && cp -R packages/yt-dlp-wasm/dist public/yt-dlp-wasm",
-    "yt-dlp-wasm:wheel": "node scripts/fetch-yt-dlp-wheel.mjs",
+    "yt-dlp-wasm:wheel": "node .scripts/fetch-yt-dlp-wheel.mjs",
     "build": "pnpm run build:packages && next build",
     "start": "next start",
     "lint": "biome check",
     "lint:fix": "biome format --write && biome check --write --unsafe",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "s": "node .scripts"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",
