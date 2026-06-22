@@ -1,6 +1,6 @@
 # Styled Console Logger — Isolated Segments `r()` (v3) Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Add `r(...)` — an isolated styled segment that, when nested, ignores the ancestor style cascade and renders with only its own css.
 
@@ -42,7 +42,7 @@
   - `applyContent(args: (Part | StyleInput)[], reset: boolean): StyledText` (internal).
   - `export function r(first: Part, ...rest: (Part | StyleInput)[]): StyledText`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append this `describe` block to the end of `__tests__/log.test.ts`:
 
@@ -102,12 +102,12 @@ describe("isolated segments — r()", () => {
 
 Also add `r` to the import at the top of the file (change `import { c, i, l, s } from "@/utils/log";` to `import { c, i, l, r, s } from "@/utils/log";`).
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: FAIL — `r` is not exported (`r is not a function`), and `.reset` is `undefined` on `StyledText`.
 
-- [ ] **Step 3: Add `reset` to the `StyledText` interface**
+- [x] **Step 3: Add `reset` to the `StyledText` interface**
 
 In `src/utils/log.ts`, replace:
 
@@ -133,7 +133,7 @@ export interface StyledText {
 }
 ```
 
-- [ ] **Step 4: Add a `reset` param to `makeStyledText` and a shared `applyContent` helper**
+- [x] **Step 4: Add a `reset` param to `makeStyledText` and a shared `applyContent` helper**
 
 Replace this block:
 
@@ -193,7 +193,7 @@ const applyContent = (
 };
 ```
 
-- [ ] **Step 5: Route `s` apply through `applyContent` and add `r`**
+- [x] **Step 5: Route `s` apply through `applyContent` and add `r`**
 
 First, update the section header — replace:
 
@@ -250,7 +250,7 @@ export function r(first: Part, ...rest: (Part | StyleInput)[]): StyledText {
 }
 ```
 
-- [ ] **Step 6: Honor `reset` in the renderer**
+- [x] **Step 6: Honor `reset` in the renderer**
 
 In `build`, replace:
 
@@ -279,7 +279,7 @@ with:
   };
 ```
 
-- [ ] **Step 7: Run tests + typecheck + lint to verify green**
+- [x] **Step 7: Run tests + typecheck + lint to verify green**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: PASS (all prior cases unchanged; the 5 new `r()` cases pass).
@@ -290,7 +290,7 @@ Expected: `No type errors in log files`
 Run: `pnpm biome check src/utils/log.ts __tests__/log.test.ts`
 Expected: no errors (use `--write` if only formatting differs).
 
-- [ ] **Step 8: Commit** *(checkpoint — only if the user opts in)*
+- [x] **Step 8: Commit** *(checkpoint — only if the user opts in)*
 
 ```bash
 git add src/utils/log.ts __tests__/log.test.ts

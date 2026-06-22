@@ -1,6 +1,6 @@
 # yt-dlp-wasm — Phase 1 Implementation Plan (Foundation + Sync Bridge)
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Stand up the `@local/yt-dlp-wasm` package with its esbuild build and a working `SharedArrayBuffer` + `Atomics` synchronous bridge, proven end-to-end by a real cross-thread ECHO round-trip between two Web Workers under cross-origin isolation.
 
@@ -43,7 +43,7 @@ All paths relative to repo root.
 - Create: `packages/yt-dlp-wasm/biome.jsonc`
 - Create: `packages/yt-dlp-wasm/vitest.config.ts`
 
-- [ ] **Step 1: Write `package.json`**
+- [x] **Step 1: Write `package.json`**
 
 ```json
 {
@@ -78,7 +78,7 @@ All paths relative to repo root.
 }
 ```
 
-- [ ] **Step 2: Write `tsconfig.json`**
+- [x] **Step 2: Write `tsconfig.json`**
 
 ```json
 {
@@ -105,7 +105,7 @@ All paths relative to repo root.
 
 Note: `DOM` and `WebWorker` libs both declare `self`; `skipLibCheck` keeps this from erroring. Worker files below pin the precise `self` type locally.
 
-- [ ] **Step 3: Write `biome.jsonc`** (mirrors `packages/rehype-callouts/biome.jsonc`)
+- [x] **Step 3: Write `biome.jsonc`** (mirrors `packages/rehype-callouts/biome.jsonc`)
 
 ```jsonc
 {
@@ -121,7 +121,7 @@ Note: `DOM` and `WebWorker` libs both declare `self`; `skipLibCheck` keeps this 
 }
 ```
 
-- [ ] **Step 4: Write `vitest.config.ts`**
+- [x] **Step 4: Write `vitest.config.ts`**
 
 ```ts
 import { defineConfig } from "vitest/config";
@@ -134,13 +134,13 @@ export default defineConfig({
 });
 ```
 
-- [ ] **Step 5: Install + verify the workspace sees the package**
+- [x] **Step 5: Install + verify the workspace sees the package**
 
 Run: `pnpm install`
 Then run: `pnpm -F @local/yt-dlp-wasm exec true`
 Expected: install completes; the filtered command resolves the package without "No projects matched the filters".
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/package.json packages/yt-dlp-wasm/tsconfig.json packages/yt-dlp-wasm/biome.jsonc packages/yt-dlp-wasm/vitest.config.ts pnpm-lock.yaml
@@ -154,7 +154,7 @@ git commit -m "feat(yt-dlp-wasm): scaffold package"
 **Files:**
 - Create: `packages/yt-dlp-wasm/src/client/protocol.ts`
 
-- [ ] **Step 1: Write `protocol.ts`**
+- [x] **Step 1: Write `protocol.ts`**
 
 ```ts
 // SAB control-region layout (Int32 slots) and opcodes, shared by all three contexts.
@@ -188,7 +188,7 @@ export const OP = {
 export type Op = (typeof OP)[keyof typeof OP];
 ```
 
-- [ ] **Step 2: Commit**
+- [x] **Step 2: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/client/protocol.ts
@@ -203,7 +203,7 @@ git commit -m "feat(yt-dlp-wasm): define SAB protocol layout"
 - Create: `packages/yt-dlp-wasm/src/bridge/sab.ts`
 - Test: `packages/yt-dlp-wasm/src/bridge/sab.test.ts`
 
-- [ ] **Step 1: Write the failing test for frame round-trip**
+- [x] **Step 1: Write the failing test for frame round-trip**
 
 ```ts
 import { describe, expect, it } from "vitest";
@@ -257,12 +257,12 @@ describe("sab frames", () => {
 });
 ```
 
-- [ ] **Step 2: Run it to confirm it fails**
+- [x] **Step 2: Run it to confirm it fails**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: FAIL — `sab.ts` does not export `createSab`/`writeRequest`/etc.
 
-- [ ] **Step 3: Write the frame helpers in `sab.ts`**
+- [x] **Step 3: Write the frame helpers in `sab.ts`**
 
 ```ts
 import { CTRL_BYTES, SLOT, STATE } from "../client/protocol";
@@ -345,12 +345,12 @@ export function readResponse(sab: SharedArrayBuffer): Uint8Array {
 export { encoder as _encoder, decoder as _decoder };
 ```
 
-- [ ] **Step 4: Run tests to confirm they pass**
+- [x] **Step 4: Run tests to confirm they pass**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: PASS (4 tests).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/bridge/sab.ts packages/yt-dlp-wasm/src/bridge/sab.test.ts
@@ -367,7 +367,7 @@ The requester blocks on `Atomics.wait`; the responder is driven by a wake callba
 - Modify: `packages/yt-dlp-wasm/src/bridge/sab.ts`
 - Modify: `packages/yt-dlp-wasm/src/bridge/sab.test.ts`
 
-- [ ] **Step 1: Add failing tests for `SabRequester`/`SabResponder`**
+- [x] **Step 1: Add failing tests for `SabRequester`/`SabResponder`**
 
 Append to `sab.test.ts`:
 
@@ -406,12 +406,12 @@ describe("SabRequester / SabResponder", () => {
 });
 ```
 
-- [ ] **Step 2: Run to confirm failure**
+- [x] **Step 2: Run to confirm failure**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: FAIL — `SabRequester`/`SabResponder` not exported.
 
-- [ ] **Step 3: Implement the classes in `sab.ts`**
+- [x] **Step 3: Implement the classes in `sab.ts`**
 
 Append to `sab.ts`:
 
@@ -487,17 +487,17 @@ function messageOf(err: unknown): string {
 }
 ```
 
-- [ ] **Step 4: Run tests to confirm all pass**
+- [x] **Step 4: Run tests to confirm all pass**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: PASS (7 tests total).
 
-- [ ] **Step 5: Typecheck**
+- [x] **Step 5: Typecheck**
 
 Run: `pnpm -F @local/yt-dlp-wasm typecheck`
 Expected: no errors.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/bridge/sab.ts packages/yt-dlp-wasm/src/bridge/sab.test.ts
@@ -515,7 +515,7 @@ git commit -m "feat(yt-dlp-wasm): blocking SabRequester + SabResponder"
 - Create: `packages/yt-dlp-wasm/src/index.ts`
 - Create: `packages/yt-dlp-wasm/build.mjs`
 
-- [ ] **Step 1: Write the services worker (responder stub)**
+- [x] **Step 1: Write the services worker (responder stub)**
 
 `src/services-worker/worker.ts`:
 
@@ -542,7 +542,7 @@ self.onmessage = (e: MessageEvent) => {
 };
 ```
 
-- [ ] **Step 2: Write the Pyodide worker (requester stub)**
+- [x] **Step 2: Write the Pyodide worker (requester stub)**
 
 `src/pyodide-worker/worker.ts`:
 
@@ -570,7 +570,7 @@ self.onmessage = (e: MessageEvent) => {
 };
 ```
 
-- [ ] **Step 3: Write the controller**
+- [x] **Step 3: Write the controller**
 
 `src/client/controller.ts`:
 
@@ -629,7 +629,7 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
 }
 ```
 
-- [ ] **Step 4: Write the public entry**
+- [x] **Step 4: Write the public entry**
 
 `src/index.ts`:
 
@@ -639,7 +639,7 @@ export type { YtDlp, YtDlpConfig } from "./client/controller";
 export { OP, STATE } from "./client/protocol";
 ```
 
-- [ ] **Step 5: Write the esbuild build script**
+- [x] **Step 5: Write the esbuild build script**
 
 `build.mjs`:
 
@@ -680,7 +680,7 @@ if (process.argv.includes("--watch")) {
 }
 ```
 
-- [ ] **Step 6: Build + typecheck**
+- [x] **Step 6: Build + typecheck**
 
 Run: `pnpm -F @local/yt-dlp-wasm build`
 Expected: `dist/index.js`, `dist/pyodide-worker/worker.js`, `dist/services-worker/worker.js`, and matching `.d.ts` files exist; no TS errors.
@@ -688,12 +688,12 @@ Expected: `dist/index.js`, `dist/pyodide-worker/worker.js`, `dist/services-worke
 Run: `ls packages/yt-dlp-wasm/dist packages/yt-dlp-wasm/dist/pyodide-worker packages/yt-dlp-wasm/dist/services-worker`
 Expected: the three `.js` files (+ `.js.map`) and `index.d.ts` present.
 
-- [ ] **Step 7: Lint**
+- [x] **Step 7: Lint**
 
 Run: `pnpm -F @local/yt-dlp-wasm lint`
 Expected: Biome reports no errors (formatting already matches; run `biome format --write` from the package dir if needed).
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src packages/yt-dlp-wasm/build.mjs
@@ -710,7 +710,7 @@ Proves the real mechanism: one `SharedArrayBuffer` shared by two Web Workers, wa
 - Create: `packages/yt-dlp-wasm/test-harness/index.html`
 - Create: `packages/yt-dlp-wasm/test-harness/serve.mjs`
 
-- [ ] **Step 1: Write the test page**
+- [x] **Step 1: Write the test page**
 
 `test-harness/index.html`:
 
@@ -741,7 +741,7 @@ Proves the real mechanism: one `SharedArrayBuffer` shared by two Web Workers, wa
 </html>
 ```
 
-- [ ] **Step 2: Write the COOP/COEP static server**
+- [x] **Step 2: Write the COOP/COEP static server**
 
 `test-harness/serve.mjs`:
 
@@ -779,24 +779,24 @@ createServer(async (req, res) => {
 }).listen(PORT, () => console.log(`harness: http://localhost:${PORT}`));
 ```
 
-- [ ] **Step 3: Ensure a fresh build exists**
+- [x] **Step 3: Ensure a fresh build exists**
 
 Run: `pnpm -F @local/yt-dlp-wasm build`
 Expected: build completes.
 
-- [ ] **Step 4: Start the harness server**
+- [x] **Step 4: Start the harness server**
 
 Run (background): `node packages/yt-dlp-wasm/test-harness/serve.mjs`
 Expected: logs `harness: http://localhost:8787`.
 
-- [ ] **Step 5: Drive the page and assert the result**
+- [x] **Step 5: Drive the page and assert the result**
 
 Use the Playwright MCP (or chrome-devtools MCP) to navigate to `http://localhost:8787` and read the `#out` text.
 Expected: `ECHO OK: HELLO WORLD`.
 
 If it instead shows `ERROR: not cross-origin isolated`, the COOP/COEP headers aren't reaching the browser — recheck `serve.mjs` headers. If it hangs on `running…`, the requester is stuck in `Atomics.wait` (responder never notified) — verify both workers received `init` and the `wakePort` is transferred to both.
 
-- [ ] **Step 6: Stop the server and commit**
+- [x] **Step 6: Stop the server and commit**
 
 Stop the background server.
 

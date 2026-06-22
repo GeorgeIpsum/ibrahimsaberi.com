@@ -1,6 +1,6 @@
 # Styled Console Logger — Nested Styles (v2) Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Extend `src/utils/log.ts` so styled segments can nest — a styled region can contain differently-styled sub-regions, with children inheriting the parent style and restoring it afterward.
 
@@ -43,7 +43,7 @@
   - `export function s(...styles: StyleInput[]): Style` / `export function s(first: Part, ...rest: (Part | StyleInput)[]): StyledText`
   - Internal: `isStyledText`, `isContent`, `flattenText`, run-coalescing `build`.
 
-- [ ] **Step 1: Update the two `.text` tests and add v2 tests**
+- [x] **Step 1: Update the two `.text` tests and add v2 tests**
 
 In `__tests__/log.test.ts`, **replace** the test `"s(text, ...styles) applies styles to text → StyledText"` body and the `"calling a style (style(text)) equals s(text, style)"` body so they read `.parts`:
 
@@ -128,12 +128,12 @@ describe("nested / variadic styles", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: FAIL — `.parts` is `undefined` (v1 `StyledText` has `.text`), `s("a", "b", c("red"))` mis-parses the extra content arg, and the nested-render expectations don't match v1's flat output.
 
-- [ ] **Step 3: Rewrite the brands block (tree model + predicates)**
+- [x] **Step 3: Rewrite the brands block (tree model + predicates)**
 
 In `src/utils/log.ts`, replace this block:
 
@@ -187,7 +187,7 @@ const isContent = (v: unknown): v is Part =>
   typeof v === "string" || isStyledText(v);
 ```
 
-- [ ] **Step 4: Rewrite the factories (flatten + tree `makeStyledText` + variadic `makeStyle`)**
+- [x] **Step 4: Rewrite the factories (flatten + tree `makeStyledText` + variadic `makeStyle`)**
 
 Replace this block:
 
@@ -231,7 +231,7 @@ const makeStyle = (css: string): Style => {
 };
 ```
 
-- [ ] **Step 5: Make `s` variadic**
+- [x] **Step 5: Make `s` variadic**
 
 Replace the `s` doc-comment + overloads + implementation:
 
@@ -286,7 +286,7 @@ export function s(...args: (Part | StyleInput)[]): Style | StyledText {
 }
 ```
 
-- [ ] **Step 6: Remove the moved `isStyledText` and rewrite `build`**
+- [x] **Step 6: Remove the moved `isStyledText` and rewrite `build`**
 
 First, delete the now-duplicate predicate from the tag section — replace:
 
@@ -408,7 +408,7 @@ const build = (strings: TemplateStringsArray, slots: unknown[]) => {
 };
 ```
 
-- [ ] **Step 7: Run tests + typecheck + lint to verify green**
+- [x] **Step 7: Run tests + typecheck + lint to verify green**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: PASS (all v1 cases still pass; new nesting/variadic/toString cases pass).
@@ -419,7 +419,7 @@ Expected: `No type errors in log files`
 Run: `pnpm biome check src/utils/log.ts __tests__/log.test.ts`
 Expected: no errors (use `pnpm biome check --write …` if only formatting differs).
 
-- [ ] **Step 8: Commit** *(checkpoint — only if the user opts in)*
+- [x] **Step 8: Commit** *(checkpoint — only if the user opts in)*
 
 ```bash
 git add src/utils/log.ts __tests__/log.test.ts

@@ -1,6 +1,6 @@
 # yt-dlp-wasm — Phase 5 Implementation Plan (public API: exec, events, download)
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Round out the faithful public API the spec described, on top of the proven bridge/Pyodide/networking foundation: a `progress`/`log` **event stream**, `exec(argv)` (the real yt-dlp CLI entrypoint, capturing stdout/stderr + exit code + output files), and a `download(url, opts)` convenience (yt-dlp's `YoutubeDL` with the WispRH networking + the ffmpeg shim, emitting live progress).
 
@@ -42,7 +42,7 @@
 - Create: `src/client/events.ts` + `events.test.ts`
 - Modify: `src/pyodide-worker/worker.ts`, `src/client/controller.ts`
 
-- [ ] **Step 1: `src/client/events.ts` (+ failing test first)** — a tiny typed emitter (unit-testable, pure):
+- [x] **Step 1: `src/client/events.ts` (+ failing test first)** — a tiny typed emitter (unit-testable, pure):
 
 `events.test.ts`:
 ```ts
@@ -107,7 +107,7 @@ export class Emitter<E extends Record<string, unknown>> {
 }
 ```
 
-- [ ] **Step 2: `src/pyodide-worker/worker.ts`** — register `_emit` once the runtime is ready, and add `exec` + `read-output` handlers.
+- [x] **Step 2: `src/pyodide-worker/worker.ts`** — register `_emit` once the runtime is ready, and add `exec` + `read-output` handlers.
   - When creating `runtime`, chain registration of the emit bridge:
 ```ts
     runtime = bootPyodide((msg.config ?? {}) as PyodideBootConfig, requester).then(
@@ -168,7 +168,7 @@ async function handleReadOutput(name: string): Promise<void> {
 ```
   (Note: `pyodide.runPython("open(...).read()")` returns Python `bytes`; Pyodide converts a returned `bytes` to a JS `Uint8Array` (or memoryview-backed) — `.slice()` makes a transferable copy. If the conversion yields a PyProxy, call `.toJs()`; the smoke confirms.)
 
-- [ ] **Step 3: `src/client/controller.ts`** — add the event channel + methods.
+- [x] **Step 3: `src/client/controller.ts`** — add the event channel + methods.
   - Import the `Emitter`. Define the event type and add an internal emitter; route `{type:"event"}` messages to it:
 ```ts
 import { Emitter } from "./events";
@@ -211,7 +211,7 @@ export type YtDlpEvents = { progress: Record<string, unknown>; log: string };
       }),
 ```
 
-- [ ] **Step 4: `src/pyodide-worker/py/api.py`** (the `run_exec` half; `run_download` added in Task 2):
+- [x] **Step 4: `src/pyodide-worker/py/api.py`** (the `run_exec` half; `run_download` added in Task 2):
 ```python
 """Public API entrypoints run inside Pyodide."""
 
@@ -278,11 +278,11 @@ def force_global():
 ```
   (Verify `_REQUEST_HANDLERS` exists in the installed wheel's `yt_dlp/networking/common.py`; if the name differs, adjust. The `--version` smoke does not depend on this.)
 
-- [ ] **Step 5: `boot.ts`** — write `api.py` to `/tmp/ytdlp_py` (add `apiPy` import + a `pyodide.globals.set("_api_py", apiPy)` + include `("api", _api_py)` in the write-loop, after `network_handler`). Do NOT import it at boot (it imports yt_dlp lazily).
+- [x] **Step 5: `boot.ts`** — write `api.py` to `/tmp/ytdlp_py` (add `apiPy` import + a `pyodide.globals.set("_api_py", apiPy)` + include `("api", _api_py)` in the write-loop, after `network_handler`). Do NOT import it at boot (it imports yt_dlp lazily).
 
-- [ ] **Step 6: Gates** — `pnpm -F @local/yt-dlp-wasm test` (events.test.ts passes + prior 22 = 24+), typecheck/lint/build clean; `grep -c "run_exec" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
+- [x] **Step 6: Gates** — `pnpm -F @local/yt-dlp-wasm test` (events.test.ts passes + prior 22 = 24+), typecheck/lint/build clean; `grep -c "run_exec" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 ```bash
 git add packages/yt-dlp-wasm/src/client/events.ts packages/yt-dlp-wasm/src/client/events.test.ts packages/yt-dlp-wasm/src/pyodide-worker/worker.ts packages/yt-dlp-wasm/src/client/controller.ts packages/yt-dlp-wasm/src/pyodide-worker/py/api.py packages/yt-dlp-wasm/src/pyodide-worker/py/network_handler.py packages/yt-dlp-wasm/src/pyodide-worker/boot.ts
 git commit -m "feat(yt-dlp-wasm): event stream + exec(argv) + readOutputFile"
@@ -297,7 +297,7 @@ git commit -m "feat(yt-dlp-wasm): event stream + exec(argv) + readOutputFile"
 - Modify: `src/pyodide-worker/worker.ts` (add `download` handler)
 - Modify: `src/client/controller.ts` (add `download`)
 
-- [ ] **Step 1: `api.py` — `run_download`** (emits live `progress`/`log` via the `_emit` global registered in the worker; uses the per-instance `use_only_wisp` — the verified Phase-4 path):
+- [x] **Step 1: `api.py` — `run_download`** (emits live `progress`/`log` via the `_emit` global registered in the worker; uses the per-instance `use_only_wisp` — the verified Phase-4 path):
 ```python
 def run_download(url: str, opts_json: str) -> str:
     _ensure_work()
@@ -341,7 +341,7 @@ def run_download(url: str, opts_json: str) -> str:
     return json.dumps({"files": _list_outputs()})
 ```
 
-- [ ] **Step 2: `worker.ts` — `download` handler** (sibling to `exec`):
+- [x] **Step 2: `worker.ts` — `download` handler** (sibling to `exec`):
 ```ts
   } else if (msg?.type === "download") {
     void handleDownload(msg.url as string, msg.opts as string);
@@ -365,7 +365,7 @@ api.run_download(_dl_url, _dl_opts)
 }
 ```
 
-- [ ] **Step 3: `controller.ts` — `download`** (interface + returned object):
+- [x] **Step 3: `controller.ts` — `download`** (interface + returned object):
 ```ts
   download(url: string, opts?: Record<string, unknown>): Promise<{ files: { name: string; size: number }[] }>;
 ```
@@ -374,9 +374,9 @@ api.run_download(_dl_url, _dl_opts)
       once("download-result", () => pyodideWorker.postMessage({ type: "download", url, opts: JSON.stringify(opts ?? {}) }), (d) => JSON.parse(d.text as string)),
 ```
 
-- [ ] **Step 4: Gates** — typecheck/lint/build/test green; `grep -c "run_download" dist/pyodide-worker/worker.js` ≥ 1.
+- [x] **Step 4: Gates** — typecheck/lint/build/test green; `grep -c "run_download" dist/pyodide-worker/worker.js` ≥ 1.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/py/api.py packages/yt-dlp-wasm/src/pyodide-worker/worker.ts packages/yt-dlp-wasm/src/client/controller.ts
 git commit -m "feat(yt-dlp-wasm): download(url, opts) with live progress/log events"
@@ -388,22 +388,22 @@ git commit -m "feat(yt-dlp-wasm): download(url, opts) with live progress/log eve
 
 **Files:** Modify `src/app/yt-dlp-test/page.tsx`.
 
-- [ ] **Step 1: Update the `YtDlpHandle` cast type** in `loadYtDlp` to add `on`/`off`/`exec`/`readOutputFile`/`download`.
+- [x] **Step 1: Update the `YtDlpHandle` cast type** in `loadYtDlp` to add `on`/`off`/`exec`/`readOutputFile`/`download`.
 
-- [ ] **Step 2: Add a "CLI & events" panel** with:
+- [x] **Step 2: Add a "CLI & events" panel** with:
   - A **`yt-dlp --version`** button: `createYtDlp({ wispUrl: "wss://wisp.mercurywork.shop/", ytDlpSource: { url: wheelUrl } })`, `await load()`, `const r = await ytdlp.exec(["--version"])`; render `✓ exit {r.exitCode} · {r.stdout.trim()}`.
   - An **events** demo: register `ytdlp.on("log", l => append(l))` before a call so the live log shows (e.g. during `exec(["--version", "--verbose"])` or the download attempt). Render the last few log lines.
   - An **output-file** check: a button that runs `await ytdlp.exec(["--version"])` is fileless; instead verify `readOutputFile` via a tiny op — call `ytdlp.exec(["--help"])`? still fileless. So add a dedicated check: after `load()`, write a file through a one-off — simplest is to expose it through `download` (env-gated). For a self-contained output-file proof, the controller can run `exec(["--version"])` (no file) AND separately the smoke (Task 3 Step 4) writes `/work/probe.txt` via a raw `pyEcho`-style path. KEEP the panel simple: a **Download** input + button (`ytdlp.download(url)`), clearly labeled "needs ffmpeg + a real Wisp" — it will stream `progress`/`log` events into the log display even if it ultimately can't finish here.
 
-- [ ] **Step 3: Publish + static checks** — `pnpm yt-dlp-wasm:public`; biome + root `tsc --noEmit` clean; package test (24+) pass.
+- [x] **Step 3: Publish + static checks** — `pnpm yt-dlp-wasm:public`; biome + root `tsc --noEmit` clean; package test (24+) pass.
 
-- [ ] **Step 4: Browser smoke (the gate — controller-driven)** — `pnpm dev`, `/yt-dlp-test`:
+- [x] **Step 4: Browser smoke (the gate — controller-driven)** — `pnpm dev`, `/yt-dlp-test`:
   - **exec:** click **yt-dlp --version** → expect `✓ exit 0 · 2026.06.09` (proves the real CLI entrypoint + stdout/exit capture, no network/ffmpeg).
   - **events:** confirm log lines appear in the events display during a call (proves the worker→controller event channel).
   - **readOutputFile:** drive via the controller — `pyodide` writes `/work/probe.txt` (run `exec(["--version"])` won't; instead evaluate in the page: call a sequence that writes then `readOutputFile("probe.txt")`). Concretely, the controller smoke does: `await ytdlp.load(); /* worker writes a probe via exec or a dedicated path */`. If no clean fileless write exists, assert `readOutputFile` against a file created by a successful `download` only when the env allows — otherwise note readOutputFile as covered by code + the events/exec gates. (Don't fake it.)
   - **download:** attempt with an easy URL; expect live `progress`/`log` events; the final result is env-gated (ffmpeg/Wisp) — record whatever happens honestly.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 ```bash
 git add src/app/yt-dlp-test/page.tsx
 git commit -m "feat(yt-dlp-wasm): CLI/events/download panel on the /yt-dlp-test route"

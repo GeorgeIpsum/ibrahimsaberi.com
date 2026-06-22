@@ -1,6 +1,6 @@
 # yt-dlp-wasm — Phase 4 Implementation Plan (networking: libcurl.js over Wisp)
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** yt-dlp's HTTP(S) requests escape the browser via **libcurl.js over a Wisp WebSocket proxy** — CORS-free. A custom yt-dlp `RequestHandler` routes `_send()` through the SAB bridge to a main-thread libcurl.js adapter, which performs the request over Wisp and returns status + headers + body. This is the piece that makes real extraction work.
 
@@ -139,9 +139,9 @@ export async function netSend(
 ```
   - Keep passing `config` to `runFfmpeg(store, ..., config)` (FfmpegConfig fields still read).
 
-- [ ] **Build/typecheck/lint/test** all green; `pnpm -F @local/yt-dlp-wasm test` still passes (22). Confirm typecheck clean.
+- [x] **Build/typecheck/lint/test** all green; `pnpm -F @local/yt-dlp-wasm test` still passes (22). Confirm typecheck clean.
 
-- [ ] **Commit**
+- [x] **Commit**
 ```bash
 git add packages/yt-dlp-wasm/src/client/protocol.ts packages/yt-dlp-wasm/src/services-worker/config.ts packages/yt-dlp-wasm/src/services-worker/net.ts packages/yt-dlp-wasm/src/services-worker/responder.ts
 git commit -m "feat(yt-dlp-wasm): NET_SEND op + libcurl.js/Wisp adapter"
@@ -232,9 +232,9 @@ def use_only_wisp(ydl):
 
 - Modify: `src/pyodide-worker/boot.ts` — add the two `.py` imports and include them in the shim-install block written to `/tmp/ytdlp_py` (so `import net`, `import network_handler` resolve). i.e. extend the `_mods`/loop that already writes `fs`/`ffprobe_compat`/`subprocess_shim` to ALSO write `net` and `network_handler`. (Do NOT auto-run `use_only_wisp` at boot — it's applied per-YoutubeDL in the extract handler.)
 
-- [ ] **Build/typecheck/lint/test** green; confirm the new modules are inlined: `grep -c "WispRH" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
+- [x] **Build/typecheck/lint/test** green; confirm the new modules are inlined: `grep -c "WispRH" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
 
-- [ ] **Commit**
+- [x] **Commit**
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/py/net.py packages/yt-dlp-wasm/src/pyodide-worker/py/network_handler.py packages/yt-dlp-wasm/src/pyodide-worker/boot.ts
 git commit -m "feat(yt-dlp-wasm): python net bridge + WispRH request handler"
@@ -317,14 +317,14 @@ const ytdlp = createYtDlp({ wispUrl: "wss://wisp.mercurywork.shop/", ytDlpSource
 ```
 (reuse the wheel-manifest fetch from the existing boot panel). Update the `YtDlpHandle` cast type to include `netFetch`/`extractInfo`. Render results: `✓ <status> · <size> bytes` and `✓ <title> [<extractor>]`.
 
-- [ ] **Publish + static checks** — `pnpm yt-dlp-wasm:public`; `biome check` + root `tsc --noEmit` clean; package `test` 22 pass.
+- [x] **Publish + static checks** — `pnpm yt-dlp-wasm:public`; `biome check` + root `tsc --noEmit` clean; package `test` 22 pass.
 
-- [ ] **Browser smoke (the gate)** — `pnpm dev`, open `/yt-dlp-test`:
+- [x] **Browser smoke (the gate)** — `pnpm dev`, open `/yt-dlp-test`:
   - **Primary:** click **Fetch via Wisp** with `https://example.com/` (or a small JSON URL) → expect `✓ 200 · <N> bytes` with a sensible preview. This proves CORS-free networking through libcurl.js/Wisp end-to-end.
   - **Secondary:** click **Extract info** on an easy direct/extractor URL → expect `✓ <title>`. If the RH wiring needs adjustment, the error surfaces here; fix `use_only_wisp` against the live `ydl` (inspect `ydl._request_director` / `build_request_director` in the browser console) and re-publish.
   (Controller drives this. If libcurl.js WASM hangs like ffmpeg did, note it and verify in a real browser.)
 
-- [ ] **Commit**
+- [x] **Commit**
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/worker.ts packages/yt-dlp-wasm/src/client/controller.ts src/app/yt-dlp-test/page.tsx
 git commit -m "feat(yt-dlp-wasm): netFetch + extractInfo via Wisp on the /yt-dlp-test route"

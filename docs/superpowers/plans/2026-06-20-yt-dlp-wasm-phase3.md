@@ -1,6 +1,6 @@
 # yt-dlp-wasm — Phase 3 Implementation Plan (ffmpeg bridge)
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Route yt-dlp's `ffmpeg`/`ffprobe` subprocess calls into ffmpeg.wasm. A Python `subprocess` shim intercepts `Popen`/`run`/`check_output` for ffmpeg/ffprobe, stages input files from Pyodide's MEMFS to the services worker over a chunked SAB transfer, runs `ffmpeg.exec(argv)` in ffmpeg.wasm, stages outputs back, and returns a faithful fake process (returncode + stderr). An ffprobe-compat layer synthesizes `ffprobe -of json` output from `ffmpeg -i` stderr (the core ships no ffprobe).
 
@@ -49,7 +49,7 @@
 - Create: `packages/yt-dlp-wasm/src/services-worker/file-store.ts` + `file-store.test.ts`
 - Create: `packages/yt-dlp-wasm/src/services-worker/config.ts` + `config.test.ts`
 
-- [ ] **Step 1: Extend `OP` in `protocol.ts`** (keep ECHO = 1):
+- [x] **Step 1: Extend `OP` in `protocol.ts`** (keep ECHO = 1):
 
 ```ts
 export const OP = {
@@ -62,7 +62,7 @@ export const OP = {
 } as const;
 ```
 
-- [ ] **Step 2: Write `frame.test.ts`** (failing):
+- [x] **Step 2: Write `frame.test.ts`** (failing):
 
 ```ts
 import { describe, expect, it } from "vitest";
@@ -89,7 +89,7 @@ describe("frame codec", () => {
 });
 ```
 
-- [ ] **Step 3: Write `frame.ts`:**
+- [x] **Step 3: Write `frame.ts`:**
 
 ```ts
 // Length-prefixed bridge frame: [uint32 LE metaLen][meta JSON utf8][raw body].
@@ -124,7 +124,7 @@ export function decodeFrame<M = Record<string, unknown>>(
 }
 ```
 
-- [ ] **Step 4: Write `file-store.test.ts`** (failing):
+- [x] **Step 4: Write `file-store.test.ts`** (failing):
 
 ```ts
 import { describe, expect, it } from "vitest";
@@ -160,7 +160,7 @@ describe("FileStore", () => {
 });
 ```
 
-- [ ] **Step 5: Write `file-store.ts`:**
+- [x] **Step 5: Write `file-store.ts`:**
 
 ```ts
 /** In-memory staging store for files crossing the bridge (offset writes, ranged reads). */
@@ -208,7 +208,7 @@ export class FileStore {
 }
 ```
 
-- [ ] **Step 6: Write `config.test.ts` + `config.ts`** (services-worker config; pure):
+- [x] **Step 6: Write `config.test.ts` + `config.ts`** (services-worker config; pure):
 
 `config.test.ts`:
 ```ts
@@ -269,9 +269,9 @@ export function resolveFfmpegCore(config: FfmpegConfig = {}): FfmpegCoreUrls {
 }
 ```
 
-- [ ] **Step 7: Run tests / typecheck / lint** — `pnpm -F @local/yt-dlp-wasm test` (Phase-1/2 + new pass), `typecheck` clean, `lint` clean.
+- [x] **Step 7: Run tests / typecheck / lint** — `pnpm -F @local/yt-dlp-wasm test` (Phase-1/2 + new pass), `typecheck` clean, `lint` clean.
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/client/protocol.ts packages/yt-dlp-wasm/src/bridge/frame.ts packages/yt-dlp-wasm/src/bridge/frame.test.ts packages/yt-dlp-wasm/src/services-worker/file-store.ts packages/yt-dlp-wasm/src/services-worker/file-store.test.ts packages/yt-dlp-wasm/src/services-worker/config.ts packages/yt-dlp-wasm/src/services-worker/config.test.ts
@@ -290,11 +290,11 @@ No unit test (needs ffmpeg.wasm); verified by the Task-4 smoke.
 - Create: `packages/yt-dlp-wasm/src/services-worker/ffmpeg.ts`
 - Modify: `packages/yt-dlp-wasm/src/services-worker/worker.ts`
 
-- [ ] **Step 1: Add deps** — `pnpm -F @local/yt-dlp-wasm add @ffmpeg/ffmpeg @ffmpeg/util`. Then set `FFMPEG_PKG_VERSION` in `config.ts` to the installed `@ffmpeg/ffmpeg` version (read it: `node -e "console.log(require('./packages/yt-dlp-wasm/node_modules/@ffmpeg/ffmpeg/package.json').version)"`), and confirm `@ffmpeg/core-mt`'s matching version (the FFmpeg pkg's peer/expected core) — set `FFMPEG_CORE_VERSION` to a core-mt version published on jsDelivr (verify `https://cdn.jsdelivr.net/npm/@ffmpeg/core-mt@<v>/dist/esm/ffmpeg-core.js` is reachable).
+- [x] **Step 1: Add deps** — `pnpm -F @local/yt-dlp-wasm add @ffmpeg/ffmpeg @ffmpeg/util`. Then set `FFMPEG_PKG_VERSION` in `config.ts` to the installed `@ffmpeg/ffmpeg` version (read it: `node -e "console.log(require('./packages/yt-dlp-wasm/node_modules/@ffmpeg/ffmpeg/package.json').version)"`), and confirm `@ffmpeg/core-mt`'s matching version (the FFmpeg pkg's peer/expected core) — set `FFMPEG_CORE_VERSION` to a core-mt version published on jsDelivr (verify `https://cdn.jsdelivr.net/npm/@ffmpeg/core-mt@<v>/dist/esm/ffmpeg-core.js` is reachable).
 
-- [ ] **Step 2: `build.mjs`** — change `external` to only `["pyodide", "@ffmpeg/core-mt", "libcurl.js"]` (drop `@ffmpeg/ffmpeg` and `@ffmpeg/util` so they bundle; core-mt stays external as it's only ever loaded via `toBlobURL`).
+- [x] **Step 2: `build.mjs`** — change `external` to only `["pyodide", "@ffmpeg/core-mt", "libcurl.js"]` (drop `@ffmpeg/ffmpeg` and `@ffmpeg/util` so they bundle; core-mt stays external as it's only ever loaded via `toBlobURL`).
 
-- [ ] **Step 3: `src/services-worker/ffmpeg.ts`:**
+- [x] **Step 3: `src/services-worker/ffmpeg.ts`:**
 
 ```ts
 import { FFmpeg } from "@ffmpeg/ffmpeg";
@@ -371,7 +371,7 @@ export async function runFfmpeg(
 }
 ```
 
-- [ ] **Step 4: Rewrite `src/services-worker/worker.ts`** to dispatch by opcode:
+- [x] **Step 4: Rewrite `src/services-worker/worker.ts`** to dispatch by opcode:
 
 ```ts
 /// <reference lib="webworker" />
@@ -432,9 +432,9 @@ self.onmessage = (e: MessageEvent) => {
 };
 ```
 
-- [ ] **Step 5: Build + typecheck + lint** — `pnpm -F @local/yt-dlp-wasm build` completes; `typecheck`/`lint` clean; `test` still green. (Confirm `@ffmpeg/ffmpeg` bundled into `dist/services-worker/worker.js`: `grep -c "FFmpeg" packages/yt-dlp-wasm/dist/services-worker/worker.js` ≥ 1.)
+- [x] **Step 5: Build + typecheck + lint** — `pnpm -F @local/yt-dlp-wasm build` completes; `typecheck`/`lint` clean; `test` still green. (Confirm `@ffmpeg/ffmpeg` bundled into `dist/services-worker/worker.js`: `grep -c "FFmpeg" packages/yt-dlp-wasm/dist/services-worker/worker.js` ≥ 1.)
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/package.json pnpm-lock.yaml packages/yt-dlp-wasm/build.mjs packages/yt-dlp-wasm/src/services-worker/ffmpeg.ts packages/yt-dlp-wasm/src/services-worker/worker.ts packages/yt-dlp-wasm/src/services-worker/config.ts
@@ -453,7 +453,7 @@ No unit test (needs Pyodide + ffmpeg); verified by the Task-4 smoke. This is the
 - Create: `packages/yt-dlp-wasm/src/pyodide-worker/py/ffprobe_compat.py`
 - Modify: `packages/yt-dlp-wasm/src/pyodide-worker/boot.ts` (install the shims; pass ffmpegConfig is in Task 2's worker, not here)
 
-- [ ] **Step 1: `py/fs.py`** — chunked transfer + shared helpers:
+- [x] **Step 1: `py/fs.py`** — chunked transfer + shared helpers:
 
 ```python
 """Chunked file transfer over the JS sync bridge (ytdlp_bridge_js.call)."""
@@ -514,7 +514,7 @@ def delete_file(name: str) -> None:
     call(OP_FS_DELETE, {"name": name})
 ```
 
-- [ ] **Step 2: `py/ffprobe_compat.py`** — synthesize ffprobe JSON:
+- [x] **Step 2: `py/ffprobe_compat.py`** — synthesize ffprobe JSON:
 
 ```python
 """Emulate `ffprobe -of json` by parsing `ffmpeg -i <file>` stderr."""
@@ -572,7 +572,7 @@ def run(args: list[str]) -> tuple[int, bytes, bytes]:
     return 0, json.dumps(info).encode(), b""
 ```
 
-- [ ] **Step 3: `py/subprocess_shim.py`** — patch subprocess:
+- [x] **Step 3: `py/subprocess_shim.py`** — patch subprocess:
 
 ```python
 """Route subprocess ffmpeg/ffprobe calls into ffmpeg.wasm via the bridge."""
@@ -711,7 +711,7 @@ def install() -> None:
     subprocess.check_output = _check_output
 ```
 
-- [ ] **Step 4: Install the shims in `boot.ts`** — after `pyodide.runPython(bridgePy)` and BEFORE the yt-dlp install (so subprocess is patched before yt-dlp could use it). Add imports of the new `.py` files and run them. Insert:
+- [x] **Step 4: Install the shims in `boot.ts`** — after `pyodide.runPython(bridgePy)` and BEFORE the yt-dlp install (so subprocess is patched before yt-dlp could use it). Add imports of the new `.py` files and run them. Insert:
 
 ```ts
 // (top of file, with the other .py imports)
@@ -752,9 +752,9 @@ subprocess_shim.install()
 
 This writes the modules to `/tmp/ytdlp_py`, adds it to `sys.path`, and installs the shim — version-independent.
 
-- [ ] **Step 5: Build + typecheck + lint** — all green. Confirm the shim text is inlined: `grep -c "subprocess.Popen" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
+- [x] **Step 5: Build + typecheck + lint** — all green. Confirm the shim text is inlined: `grep -c "subprocess.Popen" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/py/fs.py packages/yt-dlp-wasm/src/pyodide-worker/py/ffprobe_compat.py packages/yt-dlp-wasm/src/pyodide-worker/py/subprocess_shim.py packages/yt-dlp-wasm/src/pyodide-worker/boot.ts
@@ -772,7 +772,7 @@ Self-contained (no network): synth a tiny WAV in the browser, stage it into Pyod
 - Modify: `packages/yt-dlp-wasm/src/pyodide-worker/worker.ts` (handle `ffmpeg-self-test`)
 - Modify: `src/app/yt-dlp-test/page.tsx` (panel)
 
-- [ ] **Step 1: Add a worker handler** in `pyodide-worker/worker.ts` for `ffmpeg-self-test` (sibling to `py-echo`). It receives a base64 WAV, writes it to MEMFS, runs the shimmed ffmpeg + ffprobe in Python, returns `{ outSize, probe }`:
+- [x] **Step 1: Add a worker handler** in `pyodide-worker/worker.ts` for `ffmpeg-self-test` (sibling to `py-echo`). It receives a base64 WAV, writes it to MEMFS, runs the shimmed ffmpeg + ffprobe in Python, returns `{ outSize, probe }`:
 
 ```ts
   } else if (msg?.type === "ffmpeg-self-test") {
@@ -802,7 +802,7 @@ json.dumps({"code": cp.returncode, "outSize": out_size, "probe": probe_json.deco
 ```
 (Use the same `runtime` guard pattern as `handlePyEcho`: `if (!runtime) throw new Error("ffmpeg-self-test before init")`.)
 
-- [ ] **Step 2: Controller `ffmpegSelfTest`** in `controller.ts` — add to the `YtDlp` interface and the returned object, using the existing `once` helper:
+- [x] **Step 2: Controller `ffmpegSelfTest`** in `controller.ts` — add to the `YtDlp` interface and the returned object, using the existing `once` helper:
 
 ```ts
   ffmpegSelfTest(wavBase64: string): Promise<{ code: number; outSize: number; probe: string }>;
@@ -817,7 +817,7 @@ json.dumps({"code": cp.returncode, "outSize": out_size, "probe": probe_json.deco
 ```
 Also plumb ffmpeg config: in `createYtDlp`, pass `ffmpegConfig` to the SERVICES worker init (`servicesWorker.postMessage({ type: "init", sab, wakePort: channel.port2, ffmpegConfig: bootConfig })`) — the services worker reads `msg.ffmpegConfig`. (`bootConfig` already excludes `dataCapacity`; `FfmpegConfig` fields like `ffmpegCoreBaseURL` live alongside the pyodide ones in `YtDlpConfig` — extend `YtDlpConfig` to also `extends FfmpegConfig`.)
 
-- [ ] **Step 3: Route panel** in `page.tsx` — add an "ffmpeg self-test" section. Synthesize a 0.2 s silent 8 kHz mono 16-bit WAV in the browser, base64-encode it, and call `ffmpegSelfTest`:
+- [x] **Step 3: Route panel** in `page.tsx` — add an "ffmpeg self-test" section. Synthesize a 0.2 s silent 8 kHz mono 16-bit WAV in the browser, base64-encode it, and call `ffmpegSelfTest`:
 
 ```tsx
 function makeSilentWavBase64(): string {
@@ -840,11 +840,11 @@ State + handler analogous to `bootAndTest` (reuse `createYtDlp`, `await load()`,
 
 Update the `YtDlpHandle` cast type in `loadYtDlp` to include `ffmpegSelfTest`.
 
-- [ ] **Step 4: Publish + verify** — `pnpm yt-dlp-wasm:public`; `pnpm exec biome check` (clean) + `pnpm exec tsc --noEmit` (exit 0); `pnpm -F @local/yt-dlp-wasm test` (Task-1 units pass).
+- [x] **Step 4: Publish + verify** — `pnpm yt-dlp-wasm:public`; `pnpm exec biome check` (clean) + `pnpm exec tsc --noEmit` (exit 0); `pnpm -F @local/yt-dlp-wasm test` (Task-1 units pass).
 
-- [ ] **Step 5: Browser smoke (the gate)** — `pnpm dev`, open `/yt-dlp-test`, click "Run ffmpeg self-test", confirm `✓ ffmpeg out.mp3 <N> bytes` with `N > 0` and a probe JSON containing an `mp3`/`audio` stream. (Controller drives this; ~30–60s on first run incl. the ffmpeg core download. Expect smoke-driven fixes in the shim/argv parsing — that is the point of this gate.)
+- [x] **Step 5: Browser smoke (the gate)** — `pnpm dev`, open `/yt-dlp-test`, click "Run ffmpeg self-test", confirm `✓ ffmpeg out.mp3 <N> bytes` with `N > 0` and a probe JSON containing an `mp3`/`audio` stream. (Controller drives this; ~30–60s on first run incl. the ffmpeg core download. Expect smoke-driven fixes in the shim/argv parsing — that is the point of this gate.)
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/client/controller.ts packages/yt-dlp-wasm/src/pyodide-worker/worker.ts src/app/yt-dlp-test/page.tsx

@@ -1,6 +1,6 @@
 # yt-dlp-wasm — Phase 2 Implementation Plan (Pyodide + yt-dlp loader)
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Replace the Pyodide-worker stub with a real Pyodide runtime that loads from the jsDelivr CDN, installs yt-dlp from a configurable source, and proves the synchronous bridge works **from Python** — i.e. Python code calls into the SAB bridge (blocking on `Atomics.wait`) and gets a result back, which is the architectural crux for yt-dlp's blocking `urllib`/`subprocess`.
 
@@ -35,7 +35,7 @@
 | `packages/yt-dlp-wasm/build.mjs` | Add `.py` text loader | changed |
 | `packages/yt-dlp-wasm/package.json` | Add `pyodide` devDependency | changed |
 | `src/app/yt-dlp-test/page.tsx` | Add "Boot Pyodide + yt-dlp" panel | changed |
-| `scripts/fetch-yt-dlp-wheel.mjs` | Download a yt-dlp wheel into `public/` for the smoke | new |
+| `.scripts/fetch-yt-dlp-wheel.mjs` | Download a yt-dlp wheel into `public/` for the smoke | new |
 
 ---
 
@@ -46,14 +46,14 @@
 - Create: `packages/yt-dlp-wasm/src/pyodide-worker/config.ts`
 - Test: `packages/yt-dlp-wasm/src/pyodide-worker/config.test.ts`
 
-- [ ] **Step 1: Add the `pyodide` devDependency**
+- [x] **Step 1: Add the `pyodide` devDependency**
 
 Run: `pnpm -F @local/yt-dlp-wasm add -D pyodide`
 Then read the installed version:
 Run: `node -e "console.log(require('./packages/yt-dlp-wasm/node_modules/pyodide/package.json').version)"`
 Note that exact version — it becomes `PYODIDE_VERSION` below.
 
-- [ ] **Step 2: Write the failing test** — `config.test.ts`
+- [x] **Step 2: Write the failing test** — `config.test.ts`
 
 ```ts
 import { describe, expect, it } from "vitest";
@@ -98,12 +98,12 @@ describe("resolveYtDlpInstall", () => {
 });
 ```
 
-- [ ] **Step 3: Run it to confirm failure**
+- [x] **Step 3: Run it to confirm failure**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: FAIL — `./config` not found.
 
-- [ ] **Step 4: Write `config.ts`** (set `PYODIDE_VERSION` to the version from Step 1)
+- [x] **Step 4: Write `config.ts`** (set `PYODIDE_VERSION` to the version from Step 1)
 
 ```ts
 // Pure configuration helpers for the Pyodide worker. No DOM/worker globals and
@@ -144,12 +144,12 @@ export function resolveYtDlpInstall(
 }
 ```
 
-- [ ] **Step 5: Run tests to confirm pass**
+- [x] **Step 5: Run tests to confirm pass**
 
 Run: `pnpm -F @local/yt-dlp-wasm test`
 Expected: PASS (the Phase-1 tests + 4 new).
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/config.ts packages/yt-dlp-wasm/src/pyodide-worker/config.test.ts packages/yt-dlp-wasm/package.json pnpm-lock.yaml
@@ -167,7 +167,7 @@ No automated test here (requires a live Pyodide runtime); verified by the Task 4
 - Create: `packages/yt-dlp-wasm/src/pyodide-worker/py/bridge.py`
 - Create: `packages/yt-dlp-wasm/src/pyodide-worker/boot.ts`
 
-- [ ] **Step 1: Add the `.py` text loader to `build.mjs`**
+- [x] **Step 1: Add the `.py` text loader to `build.mjs`**
 
 Add `loader: { ".py": "text" }` to the esbuild `options` object (so `import x from "./py/bridge.py"` yields the file contents as a string). The full options object becomes:
 
@@ -196,7 +196,7 @@ const options = {
 };
 ```
 
-- [ ] **Step 2: Write `src/pyodide-worker/py/bridge.py`**
+- [x] **Step 2: Write `src/pyodide-worker/py/bridge.py`**
 
 ```python
 """Bridge between yt-dlp's synchronous Python world and the JS sync bridge.
@@ -222,7 +222,7 @@ def echo(text: str) -> str:
     return call(OP_ECHO, text.encode()).decode()
 ```
 
-- [ ] **Step 3: Write `src/pyodide-worker/boot.ts`**
+- [x] **Step 3: Write `src/pyodide-worker/boot.ts`**
 
 ```ts
 import type { PyodideInterface } from "pyodide";
@@ -287,14 +287,14 @@ export async function bootPyodide(
 
 Marshalling fallback (only if the Task 4 smoke shows a bytes conversion error): in `bridge.py`, replace `bytes(result.to_py())` with `result.to_py().tobytes()` (memoryview → bytes), and/or replace `to_js(data)` with `to_js(data, create_pyproxies=False)`.
 
-- [ ] **Step 4: Build to confirm it compiles and inlines the .py**
+- [x] **Step 4: Build to confirm it compiles and inlines the .py**
 
 Run: `pnpm -F @local/yt-dlp-wasm build`
 Expected: build completes. Confirm the Python source is inlined:
 Run: `grep -c "ytdlp_bridge_js" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js`
 Expected: ≥ 1 once Task 3 wires `worker.ts` to `boot.ts`. (After this task alone, `boot.ts` isn't imported by an entry yet, so it may be 0 — that's fine; the real check is in Task 3.) Also run `pnpm -F @local/yt-dlp-wasm typecheck` → clean.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/build.mjs packages/yt-dlp-wasm/src/pyodide-worker/py/bridge.py packages/yt-dlp-wasm/src/pyodide-worker/boot.ts
@@ -310,7 +310,7 @@ git commit -m "feat(yt-dlp-wasm): pyodide boot + python bridge wrapper"
 - Modify: `packages/yt-dlp-wasm/src/client/controller.ts`
 - Modify: `packages/yt-dlp-wasm/src/index.ts`
 
-- [ ] **Step 1: Rewrite `src/pyodide-worker/worker.ts`**
+- [x] **Step 1: Rewrite `src/pyodide-worker/worker.ts`**
 
 ```ts
 /// <reference lib="webworker" />
@@ -360,7 +360,7 @@ function messageOf(err: unknown): string {
 }
 ```
 
-- [ ] **Step 2: Update `src/client/controller.ts`**
+- [x] **Step 2: Update `src/client/controller.ts`**
 
 Replace the file with:
 
@@ -455,7 +455,7 @@ export function createYtDlp(config: YtDlpConfig = {}): YtDlp {
 }
 ```
 
-- [ ] **Step 3: Update `src/index.ts`**
+- [x] **Step 3: Update `src/index.ts`**
 
 ```ts
 export { createYtDlp } from "./client/controller";
@@ -464,7 +464,7 @@ export type { PyodideBootConfig, YtDlpSource } from "./pyodide-worker/config";
 export { OP, STATE } from "./client/protocol";
 ```
 
-- [ ] **Step 4: Build, typecheck, lint, test**
+- [x] **Step 4: Build, typecheck, lint, test**
 
 Run each; all must be green:
 - `pnpm -F @local/yt-dlp-wasm build` → completes; `grep -c "ytdlp_bridge_js" packages/yt-dlp-wasm/dist/pyodide-worker/worker.js` ≥ 1 (the .py is now inlined into the worker bundle).
@@ -472,7 +472,7 @@ Run each; all must be green:
 - `pnpm -F @local/yt-dlp-wasm lint` → clean
 - `pnpm -F @local/yt-dlp-wasm test` → Phase-1 + Task-1 tests pass
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add packages/yt-dlp-wasm/src/pyodide-worker/worker.ts packages/yt-dlp-wasm/src/client/controller.ts packages/yt-dlp-wasm/src/index.ts
@@ -491,7 +491,7 @@ Proves the whole Phase-2 path in a real browser: Pyodide loads from the CDN, yt-
 - Modify: `.gitignore`
 - Modify: `src/app/yt-dlp-test/page.tsx`
 
-- [ ] **Step 1: Wheel-fetch script** — `scripts/fetch-yt-dlp-wheel.mjs`
+- [x] **Step 1: Wheel-fetch script** — `scripts/fetch-yt-dlp-wheel.mjs`
 
 Downloads the latest pure-Python yt-dlp wheel into `public/yt-dlp-wheels/` (served same-origin so it loads under COEP).
 
@@ -512,7 +512,7 @@ console.log(`wrote ${OUT_DIR}/${wheel.filename} (${bytes.length} bytes)`);
 console.log(`version: ${meta.info.version}`);
 ```
 
-- [ ] **Step 2: Root script + gitignore**
+- [x] **Step 2: Root script + gitignore**
 
 In root `package.json` scripts, after `yt-dlp-wasm:public`, add:
 
@@ -526,7 +526,7 @@ In `.gitignore`, under the existing yt-dlp-wasm asset ignore, add:
 /public/yt-dlp-wheels
 ```
 
-- [ ] **Step 3: Extend the route** — `src/app/yt-dlp-test/page.tsx`
+- [x] **Step 3: Extend the route** — `src/app/yt-dlp-test/page.tsx`
 
 Add a second panel below the existing ECHO panel. Add this state + handler inside the component and render the panel (keep the Phase-1 ECHO panel as-is). The self-hosted wheel under `/yt-dlp-wheels/` requires its filename; the handler discovers it via a directory listing is not available, so the wheel filename is passed through a small manifest written by the script — simplest: have the script ALSO write `public/yt-dlp-wheels/manifest.json` with `{ "wheel": "<filename>", "version": "<v>" }`. Add to the script (Step 1), before the final logs:
 
@@ -613,24 +613,24 @@ type YtDlpHandle = {
 };
 ```
 
-- [ ] **Step 4: Publish assets + fetch the wheel**
+- [x] **Step 4: Publish assets + fetch the wheel**
 
 Run: `pnpm yt-dlp-wasm:public`
 Run: `pnpm yt-dlp-wasm:wheel`
 Expected: `public/yt-dlp-wasm/index.js` exists; `public/yt-dlp-wheels/<...>.whl` + `manifest.json` exist.
 
-- [ ] **Step 5: Verify (lint + typecheck)**
+- [x] **Step 5: Verify (lint + typecheck)**
 
 Run: `pnpm exec biome check src/app/yt-dlp-test/page.tsx scripts/fetch-yt-dlp-wheel.mjs package.json` → clean (auto-fix with `biome check --write` if needed).
 Run: `pnpm exec tsc --noEmit` → exit 0.
 
-- [ ] **Step 6: Browser smoke (the capstone gate)**
+- [x] **Step 6: Browser smoke (the capstone gate)**
 
 Start the dev server (`pnpm dev`), open `/yt-dlp-test`, click **Boot Pyodide + yt-dlp**, and confirm it shows `✓ yt-dlp <version> · python echo "HELLO WORLD"`. (Controller note: this is the de-risk gate proving Pyodide boot + yt-dlp install + the Python→SAB→services-worker round-trip under cross-origin isolation. Allow 20–60s on first run.)
 
 If it shows a bytes error, apply the Task-2 marshalling fallback. If yt-dlp install fails on a missing dep, confirm `deps=False` is in effect for the URL source.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add scripts/fetch-yt-dlp-wheel.mjs package.json .gitignore src/app/yt-dlp-test/page.tsx

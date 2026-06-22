@@ -1,6 +1,6 @@
 # Styled `console` tagged-template logger — Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Build `src/utils/log.ts` into a tagged-template `console` logger where `%c` placement and arg ordering are automatic and styles are reusable, combinable values.
 
@@ -45,7 +45,7 @@
   - `export const i: (svg: string) => string`
   - Internal (module-private), relied on by Task 2: `isStyle(v): v is Style`, the `STYLE`/`STYLED` symbols.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `__tests__/log.test.ts`:
 
@@ -116,12 +116,12 @@ describe("i() svg → data url", () => {
 });
 ```
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: FAIL — the current `s`/`c`/`i` have the old signatures (`s` returns a plain string, `c` returns a string, `i` uses `Buffer`), so `.css`/`.text` are undefined and the `i()` output differs.
 
-- [ ] **Step 3: Rewrite `src/utils/log.ts` (everything except the `l` tag)**
+- [x] **Step 3: Rewrite `src/utils/log.ts` (everything except the `l` tag)**
 
 Replace the entire file contents with:
 
@@ -292,7 +292,7 @@ export const i = (svg: string): string =>
   `url("data:image/svg+xml,${encodeURIComponent(svg)}")`;
 ```
 
-- [ ] **Step 4: Run the tests to verify they pass**
+- [x] **Step 4: Run the tests to verify they pass**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: PASS (all cases in the suite).
@@ -301,7 +301,7 @@ Then lint the touched files:
 Run: `pnpm biome check src/utils/log.ts __tests__/log.test.ts`
 Expected: no errors (run `pnpm biome check --write src/utils/log.ts __tests__/log.test.ts` if only formatting differs).
 
-- [ ] **Step 5: Commit** *(checkpoint — only if the user opts in)*
+- [x] **Step 5: Commit** *(checkpoint — only if the user opts in)*
 
 ```bash
 git add src/utils/log.ts __tests__/log.test.ts
@@ -322,7 +322,7 @@ git commit -m "feat(log): branded combinable styles + css serialization"
   - `export interface LogHolder { log(...a: unknown[]): void; debug(...a: unknown[]): void; info(...a: unknown[]): void; warn(...a: unknown[]): void; error(...a: unknown[]): void }`
   - `export function l(strings: TemplateStringsArray, ...slots: unknown[]): LogHolder`
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append to `__tests__/log.test.ts` (and add `l` to the existing import: `import { c, i, l, s } from "@/utils/log";`):
 
@@ -378,12 +378,12 @@ describe("l tag — slot resolution", () => {
 });
 ```
 
-- [ ] **Step 2: Run the tests to verify they fail**
+- [x] **Step 2: Run the tests to verify they fail**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: FAIL — `l is not a function` / `l(...).error is not a function` (the tag does not exist yet).
 
-- [ ] **Step 3: Append the implementation to `src/utils/log.ts`**
+- [x] **Step 3: Append the implementation to `src/utils/log.ts`**
 
 Add at the end of the file:
 
@@ -470,7 +470,7 @@ export function l(
 }
 ```
 
-- [ ] **Step 4: Run the tests to verify they pass**
+- [x] **Step 4: Run the tests to verify they pass**
 
 Run: `pnpm vitest run __tests__/log.test.ts`
 Expected: PASS (Task 1 + Task 2 cases — the full suite).
@@ -479,7 +479,7 @@ Then lint:
 Run: `pnpm biome check src/utils/log.ts __tests__/log.test.ts`
 Expected: no errors (use `--write` if only formatting differs).
 
-- [ ] **Step 5: Commit** *(checkpoint — only if the user opts in)*
+- [x] **Step 5: Commit** *(checkpoint — only if the user opts in)*
 
 ```bash
 git add src/utils/log.ts __tests__/log.test.ts
