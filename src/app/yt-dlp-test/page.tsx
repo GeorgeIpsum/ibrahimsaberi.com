@@ -12,11 +12,15 @@ type YtDlpHandle = {
   netFetch: (
     url: string,
   ) => Promise<{ status: number; size: number; preview: string }>;
-  extractInfo: (url: string) => Promise<{
+  extractInfo: (
+    url: string,
+    opts?: Record<string, unknown>,
+  ) => Promise<{
     title: string | null;
     ext: string | null;
     id: string | null;
     extractor: string | null;
+    formatCount: number;
   }>;
   exec: (argv: string[]) => Promise<{
     exitCode: number;
@@ -129,6 +133,7 @@ export default function YtDlpTestPage() {
   const [dlUrl, setDlUrl] = useState(
     "https://raw.githubusercontent.com/ffmpegwasm/testdata/master/Big_Buck_Bunny_180_10s.webm",
   );
+  const [cookiesTxt, setCookiesTxt] = useState<string | null>(null);
 
   async function run() {
     setState({ kind: "running" });
@@ -269,12 +274,16 @@ export default function YtDlpTestPage() {
       });
       const start = performance.now();
       await ytdlp.load();
-      const info = await ytdlp.extractInfo(netUrl);
+      const opts: Record<string, unknown> = {
+        extractor_args: { youtube: { player_client: ["android"] } },
+      };
+      if (cookiesTxt) opts.cookiesTxt = cookiesTxt;
+      const info = await ytdlp.extractInfo(netUrl, opts);
       const ms = performance.now() - start;
       ytdlp.terminate();
       setNetState({
         kind: "ok",
-        result: `${info.title} [${info.extractor}] id=${info.id} ext=${info.ext}`,
+        result: `${info.title} [${info.extractor}] id=${info.id} ext=${info.ext} · ${info.formatCount} formats`,
         ms,
       });
     } catch (err) {
@@ -336,7 +345,10 @@ export default function YtDlpTestPage() {
       ytdlp.on("log", onLog);
       ytdlp.on("progress", onProg);
       await ytdlp.load();
-      const r = await ytdlp.download(dlUrl);
+      const r = await ytdlp.download(
+        dlUrl,
+        cookiesTxt ? { cookiesTxt } : undefined,
+      );
       ytdlp.off("log", onLog);
       ytdlp.off("progress", onProg);
       ytdlp.terminate();
@@ -469,6 +481,17 @@ export default function YtDlpTestPage() {
             className="rounded border border-neutral-500 bg-transparent px-2 py-1"
             value={netUrl}
             onChange={(e) => setNetUrl(e.target.value)}
+          />
+        </label>
+        <label className="text-neutral-500 text-xs dark:text-neutral-400">
+          Optional YouTube cookies.txt (stays in your browser):{" "}
+          <input
+            type="file"
+            accept=".txt"
+            onChange={async (e) => {
+              const f = e.target.files?.[0];
+              setCookiesTxt(f ? await f.text() : null);
+            }}
           />
         </label>
         <div className="flex gap-2">
