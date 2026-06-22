@@ -1,7 +1,5 @@
 /** Pinned @ffmpeg/core (single-threaded core) version (CDN assets). Keep in sync with the @ffmpeg/* devDeps. */
 export const FFMPEG_CORE_VERSION = "0.12.10";
-/** Pinned @ffmpeg/ffmpeg version — the class worker we bundle (see ffmpeg-worker.ts) is built from this devDep. */
-export const FFMPEG_PKG_VERSION = "0.12.15";
 
 export interface FfmpegConfig {
   /** Override the core asset base dir (no trailing slash). Default: jsDelivr esm. */

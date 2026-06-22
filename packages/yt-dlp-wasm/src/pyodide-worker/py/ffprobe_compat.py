@@ -69,9 +69,9 @@ def _flat(info: dict) -> str:
 
 
 def run(args: list[str]) -> tuple[int, bytes, bytes]:
+    # Version/info queries (`-version`, `-bsfs`, …) are intercepted by the
+    # subprocess shim before reaching here, so this only handles real probes.
     rest = args[1:]
-    if "-version" in rest:
-        return 0, b"ffprobe version wasm-yt-dlp\n", b""
     infile = None
     for tok in reversed(rest):
         cand = fs.strip_file_prefix(tok)
