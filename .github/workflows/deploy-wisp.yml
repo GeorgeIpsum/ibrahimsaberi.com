@@ -1,0 +1,45 @@
+name: Deploy Wisp server (Cloudflare Worker)
+
+# Deploys services/wisp-server to Cloudflare Workers via wrangler.
+#
+# Required repo secrets:
+#   CLOUDFLARE_API_TOKEN   token with the "Edit Cloudflare Workers" permission
+#   CLOUDFLARE_ACCOUNT_ID  your Cloudflare account id
+# Optional auth for the deployed Worker (set on the Worker, not here):
+#   npx wrangler secret put WISP_TOKEN     # and/or ALLOWED_ORIGINS in wrangler.toml
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "services/wisp-server/**"
+      - ".github/workflows/deploy-wisp.yml"
+
+concurrency:
+  group: deploy-wisp
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Gate the deploy on the worker compiling + the protocol tests passing.
+      - run: pnpm -F wisp-server typecheck
+      - run: pnpm -F wisp-server test
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: services/wisp-server
+          command: deploy

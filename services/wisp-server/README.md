@@ -74,6 +74,8 @@ npx wrangler secret put WISP_TOKEN   # optional auth
 
 Cheapest option (generous free tier, no egress fees), but **TCP only** — UDP CONNECTs are rejected with Wisp close `0x41` — and subject to Workers' CPU/duration/memory limits (large downloads buffer in Worker memory since there's no WS backpressure signal). Use the Node target for heavy or UDP workloads.
 
+**CI:** `.github/workflows/deploy-wisp.yml` typechecks + tests, then deploys on push to `main` (or via manual dispatch). Set the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repo secrets. A companion `upload-assets-r2.yml` builds the browser package + fetches the yt-dlp wheel and syncs both to an R2 bucket (`R2_ACCESS_KEY_ID` / `R2_SECRET_ACCESS_KEY` secrets, `R2_BUCKET` variable).
+
 ## Protocol notes
 
 Implements Wisp **v1**: frames are `[type:u8][streamId:u32 LE][payload]`; `CONNECT 0x01` / `DATA 0x02` / `CONTINUE 0x03` / `CLOSE 0x04`. On connect the server sends `CONTINUE` on stream `0` advertising the window, then replenishes per-stream `CONTINUE`s as TCP DATA flows. Server→client volume respects WebSocket backpressure (Node pauses the destination socket above 1 MiB buffered).
