@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { listPosts } from "@/services/basin/load-post";
+import { listPosts } from "@/features/basin/load-post";
 
 export default async function Page() {
   const posts = await listPosts();

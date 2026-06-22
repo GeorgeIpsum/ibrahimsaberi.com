@@ -9,7 +9,7 @@ import {
   MenuTrigger,
 } from "@/components/atoms/menu";
 import { cn } from "@/css/lib";
-import { NavSwap } from "@/services/reflection/components/nav-swap";
+import { NavSwap } from "@/features/reflection";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
 import { MobileMenu } from "../navigation/mobile-menu";
 import { type NavItem, navItems } from "../navigation/nav-items";

@@ -121,7 +121,7 @@ const PX_PROPS: ReadonlySet<string> = new Set([
   "borderTopRightRadius",
   "borderBottomRightRadius",
   "borderBottomLeftRadius",
-  "lineHeight",
+  // "lineHeight",
 ]);
 
 const toKebab = (key: string) => key.replace(/([A-Z])/g, "-$1").toLowerCase();
@@ -226,7 +226,7 @@ export const i = (svg: string) =>
     backgroundSize: 16,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    lineHeight: 16,
+    lineHeight: "16px",
   });
 
 /* ---------- the l tag ---------- */
@@ -340,7 +340,7 @@ export const pL = (str: string, style: LogCSSProperties = {}) =>
     borderTopLeftRadius: "0.5em",
     borderBottomLeftRadius: "0.5em",
     fontFamily: "monospace",
-    lineHeight: 16,
+    lineHeight: "16px",
     fontSize: 9,
     fontWeight: "bold",
     ...style,
@@ -354,7 +354,7 @@ export const pR = (str: string, style: LogCSSProperties = {}) =>
     borderTopRightRadius: "0.5em",
     borderBottomRightRadius: "0.5em",
     fontFamily: "monospace",
-    lineHeight: 16,
+    lineHeight: "16px",
     fontSize: 9,
     fontWeight: "bold",
     ...style,

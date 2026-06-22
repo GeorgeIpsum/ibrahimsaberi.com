@@ -12,7 +12,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/atoms/drawer";
-import { NavSwap } from "@/services/reflection/components/nav-swap";
+import { NavSwap } from "@/features/reflection";
 import { navItems } from "./nav-items";
 
 export const MobileMenu: React.FC = () => {

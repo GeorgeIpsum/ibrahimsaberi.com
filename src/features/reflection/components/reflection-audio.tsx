@@ -4,8 +4,8 @@ import { Volume2, VolumeOff } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/button";
-import { useAudioWithQuality } from "@/hooks/use-audio";
-import { useControl } from "@/utils/control-panel/use-control";
+import { useAudioWithQuality } from "@/features/audio";
+import { useControl } from "@/features/control-panel";
 
 interface ReflectionAudioProps {
   show?: boolean;

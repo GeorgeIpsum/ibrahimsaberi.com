@@ -1,10 +1,16 @@
 import { ArkErrors } from "arktype";
 import { type NextRequest, NextResponse } from "next/server";
-import { reflectSchema } from "@/services/reflection/schema";
+import { reflectSchema } from "@/features/reflection";
 import { clampedNumber, randomArrayMember } from "@/utils/rand";
 
-const reflect = (alignment: number, it: string) => {
-  const value = Buffer.from(JSON.stringify({ alignment })).toString("base64");
+const reflect = (
+  alignment: number,
+  it: string,
+  values?: Record<string, unknown>,
+) => {
+  const value = Buffer.from(JSON.stringify({ alignment, ...values })).toString(
+    "base64",
+  );
 
   const response = new NextResponse(
     JSON.stringify({
@@ -28,7 +34,11 @@ const parseReflectionBody = async (request: NextRequest) => {
   const body = await request.json();
   const parsed = reflectSchema(body);
   if (parsed instanceof ArkErrors) {
-    console.warn("Failed to parse reflection body:", parsed.flatProblemsByPath);
+    console.warn(
+      "Failed to parse reflection body:",
+      body,
+      parsed.flatProblemsByPath,
+    );
     throw new Error("Failed to parse reflection body.");
   }
   return parsed;
@@ -52,13 +62,13 @@ export const GET = async (request: NextRequest) => {
 
     return reflect(alignment, "begins");
   } else if (reflectionCookie?.value) {
-    const parsed = reflectSchema(
+    const parsedCookie = reflectSchema(
       JSON.parse(
         Buffer.from(reflectionCookie.value, "base64").toString("utf-8"),
       ),
     );
 
-    if (parsed instanceof ArkErrors) {
+    if (parsedCookie instanceof ArkErrors) {
       // YOU WILL BE PUNISHED FOR YOUR SINS
       const sentence = [5, 8, 11, 14, 15, 17, 22, 24, 25];
       const alignment = randomArrayMember(sentence);
@@ -76,11 +86,51 @@ export const GET = async (request: NextRequest) => {
 export const PUT = async (request: NextRequest) => {
   try {
     const reflection = await parseReflectionBody(request);
+    const reflectionCookie = request.cookies.get("reflection");
+    if (!reflectionCookie?.value) {
+      return NextResponse.json({ it: "lacks definition" }, { status: 400 });
+    }
+
+    const parsedCookie = reflectSchema(
+      JSON.parse(
+        Buffer.from(reflectionCookie.value, "base64").toString("utf-8"),
+      ),
+    );
+
+    if (
+      parsedCookie instanceof ArkErrors ||
+      parsedCookie.alignment !== reflection.alignment
+    ) {
+      return NextResponse.json({ it: "is corrupted" }, { status: 400 });
+    }
+
+    const { alignment, ...rest } = parsedCookie;
+    if (reflection.qs) {
+      const misaligned = rest.qs?.some(({ id, a }) => {
+        if (id === "welcome") {
+          return false;
+        }
+        const q = reflection.qs?.find((question) => question.id === id);
+        if (q) {
+          return a !== undefined && q.a !== undefined && q.a !== a;
+        }
+        return false;
+      });
+
+      if (misaligned) {
+        return NextResponse.json({ it: "is misaligned" }, { status: 400 });
+      }
+    }
+
+    return reflect(alignment, "is committed", {
+      ...rest,
+      ...reflection,
+    });
   } catch {
     return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
   }
 
-  return NextResponse.json({ it: "lacks definition" }, { status: 400 });
+  // return NextResponse.json({ it: "breaches the unknown" }, { status: 400 });
 };
 
 export const POST = async (request: NextRequest) => {

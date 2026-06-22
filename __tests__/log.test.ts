@@ -58,7 +58,7 @@ describe("i() svg → styled image", () => {
     const img = i(svg);
     expect(img.parts).toEqual([" "]);
     expect(img.css).toBe(
-      `background-image: url("data:image/svg+xml,${encodeURIComponent(svg)}");`,
+      `padding-left: 16px;background-image: url("data:image/svg+xml;base64,${btoa(svg)}");background-size: 16;background-position: center;background-repeat: no-repeat;line-height: 16px;`,
     );
   });
 });

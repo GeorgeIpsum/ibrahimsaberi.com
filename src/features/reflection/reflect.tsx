@@ -4,46 +4,62 @@ import { AnimatePresence, motion, type Variants } from "motion/react";
 import { Suspense, useEffect, useState } from "react";
 import { toastManager } from "@/components/atoms/toast";
 import { cn } from "@/css/lib";
-import { playOnce } from "@/services/audio/play";
+import { playOnce } from "@/features/audio";
+import { useControl } from "@/features/control-panel";
 import { sleep } from "@/utils/async";
-import { useControl } from "@/utils/control-panel/use-control";
 import { randomArrayMember } from "@/utils/rand";
-import { ReflectionAudioProvider } from "../audio-context";
-import {
-  getReflection,
-  type ReflectContext,
-  ReflectProvider,
-} from "../context";
-import { ALIGNMENTS, Alignment } from "../steps/alignment";
-import { Penance } from "./penance";
-import { ReflectionAudio } from "./reflection-audio";
-import { TextSequence } from "./text-sequence";
+import { ReflectionAudioProvider } from "./audio-context";
+import { buildOrRestoreSteps } from "./build";
+import { ALIGNMENTS, Alignment } from "./components/alignment";
+import { Penance } from "./components/penance";
+import { ReflectionAudio } from "./components/reflection-audio";
+import { type Step, Stepper } from "./components/stepper";
+import { getReflection, type ReflectContext, ReflectProvider } from "./context";
 
 interface ReflectProps {
   searchParams: Promise<{ reason?: string }>;
 }
 export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
-  const [reflectKey, setReflectKey] = useState("");
   const [started, setStarted] = useState(false);
   const [reflectContext, setReflectContext] = useState<ReflectContext | null>(
     null,
   );
+  const [steps, setSteps] = useState<Step[] | null>(null);
+
+  // ctrl panel state
+  const [reflectKey, setReflectKey] = useState("");
   const [debugAlignment, setDebugAlignment] = useState(
     reflectContext?.alignment,
   );
 
   const start = () => {
-    setStarted(true);
+    if (reflectContext?.alignment) {
+      console.log(reflectContext);
+      setStarted(true);
+      setSteps(buildOrRestoreSteps(reflectContext));
+    }
   };
 
-  useEffect(() => {
-    getReflection()
+  const refreshContext = async () => {
+    await getReflection()
       .then(setReflectContext)
       .catch(() => {
         console.error(
           "Considering the circumstances, it's best that you just leave.",
         );
       });
+  };
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: unneeded
+  useEffect(() => {
+    refreshContext();
+
+    if (typeof window !== "undefined") {
+      const storedKey = window.localStorage.getItem("reflectKey");
+      if (storedKey) {
+        setReflectKey(storedKey);
+      }
+    }
   }, []);
 
   useEffect(() => {
@@ -55,7 +71,10 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
   useControl({
     "reflect key": {
       value: reflectKey,
-      onChange: (value) => setReflectKey(value as string),
+      onChange: (value) => {
+        setReflectKey(value as string);
+        window.localStorage.setItem("reflectKey", value as string);
+      },
     },
     effigy: {
       value: Object.entries(ALIGNMENTS).find(
@@ -84,7 +103,71 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
         }
       },
     },
+    "reset qs": {
+      type: "action",
+      value: null,
+      log: true,
+      disabled: !reflectContext?.qs?.some((q) => q.a !== undefined),
+      // TODO: this
+      beforeChange: async () => {
+        await sleep(1000);
+        return false;
+      },
+      onChange: () => {
+        getReflection()
+          .then(setReflectContext)
+          .catch(() => {
+            console.error(
+              "Considering the circumstances, it's best that you just leave.",
+            );
+          });
+      },
+    },
   });
+
+  const showStepper = started && steps;
+
+  const onStepEnd = async (index: number, result?: unknown) => {
+    if (reflectContext && steps) {
+      const resultAsString =
+        typeof result === "string" ? result : JSON.stringify(result);
+      const msgBuffer = new TextEncoder().encode(resultAsString);
+      const hashBuffer = await window.crypto.subtle.digest(
+        "SHA-256",
+        msgBuffer,
+      );
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray
+        .map((b) => b.toString(16).padStart(2, "0"))
+        .join("");
+
+      const res = await fetch("/api/reflection", {
+        method: "PUT",
+        body: JSON.stringify({
+          alignment: reflectContext.alignment,
+          ...(!("started_at" in reflectContext) && {
+            started_at: new Date().toISOString(),
+          }),
+          ...(index === steps.length - 1 && {
+            completed_at: new Date().toISOString(),
+          }),
+          qs: [
+            {
+              id: steps[index].id,
+              a: hashHex,
+            },
+          ],
+        } as Partial<ReflectContext>),
+      });
+
+      const update = await res.json();
+      console.log("it", update.it);
+
+      if (res.ok) {
+        await refreshContext();
+      }
+    }
+  };
 
   return (
     <ReflectProvider value={reflectContext}>
@@ -103,24 +186,7 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
               animate={started ? "started" : "starting"}
             >
               <Alignment onClick={start} started={started} />
-              {started && (
-                <TextSequence
-                  tokens={[
-                    "The room is dimly lit, shadows dancing on the walls as a storm rages outside.",
-                    "In the center of the room, a solitary figure sits at a table, their face obscured by the flickering candlelight.",
-                    "As you approach, they look up, their eyes reflecting a deep well of sorrow and regret.",
-                    "They speak in a voice that is barely above a whisper, recounting the choices they've made and the paths they didn't take.",
-                    "With each word, you can feel the weight of their remorse and the longing for redemption.",
-                    "The air grows heavy with emotion as they share their story, hoping that by confronting their past, they can find a glimmer of hope for the future.",
-                  ]}
-                  onFinish={() => {
-                    console.log("complete");
-                  }}
-                  onNextStart={(step) => {
-                    console.log("next step", step);
-                  }}
-                />
-              )}
+              {showStepper && <Stepper steps={steps} onStepEnd={onStepEnd} />}
             </motion.div>
           )}
         </AnimatePresence>
@@ -163,6 +229,7 @@ const toastFailures = [
   ["Once more...", "discover what lies beyond"],
   ["With feeling now.", "fire flies, fire falls"],
   ["❤️‍🔥", "your spirit alone continues"],
+  ["In all seriousness.", "The reflect key is wrong."],
 ] as const;
 
 const _DEBUG_RESET_ALIGNMENT = async (
@@ -185,7 +252,7 @@ const _DEBUG_RESET_ALIGNMENT = async (
   if (!res.ok) {
     const [title, description] = randomArrayMember(toastFailures);
 
-    if (Math.random() <= 0.1) {
+    if (Math.random() <= 0.15) {
       const searchParams = new URLSearchParams({
         hero: "ember spirit",
         voiceline: description,

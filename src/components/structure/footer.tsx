@@ -3,7 +3,7 @@ import { Rss } from "lucide-react";
 import Link from "next/link";
 import type React from "react";
 import { Separator } from "@/components/atoms/separator";
-import { ThemeButton } from "@/theme";
+import { ThemeButton } from "@/features/theme";
 import { LinkedIn } from "../icons/linkedin";
 import { type NavItem, navItems } from "../navigation/nav-items";
 

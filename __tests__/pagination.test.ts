@@ -5,7 +5,7 @@ import {
   pageHref,
   pageWindow,
   prevHref,
-} from "../src/services/basin/pagination";
+} from "@/features/basin/pagination";
 
 describe("pageHref", () => {
   it("returns the base path for page 1", () => {

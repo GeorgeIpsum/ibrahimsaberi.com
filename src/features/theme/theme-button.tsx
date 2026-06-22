@@ -24,7 +24,6 @@ import {
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
 import { useMediaQuery } from "@/hooks/use-media-query";
-import { useControl } from "@/utils/control-panel/use-control";
 import type { Contrast as ContrastValue, Theme } from "./types";
 import { useTheme } from "./use-theme";
 
@@ -50,19 +49,6 @@ export const ThemeButton: React.FC<ThemeButtonProps> = ({
   const contrastValue = contrast.startsWith("system") ? "system" : contrast;
   const initialTheme = useRef(themeValue).current;
   const initialContrast = useRef(contrastValue).current;
-
-  useControl({
-    theme: {
-      value: theme,
-      options: ["system", "light", "dark"],
-      onChange: (value) => setTheme(value as Theme),
-    },
-    contrast: {
-      value: contrast,
-      options: ["system", "normal", "high"],
-      onChange: (value) => setContrast(value as ContrastValue),
-    },
-  });
 
   return (
     <Popover>

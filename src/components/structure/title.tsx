@@ -3,8 +3,8 @@
 import { Suspense, useState } from "react";
 import { type AsciiArtPlacement, AsciiHero } from "@/components/backgrounds";
 import { cn } from "@/css/lib";
-import { useTheme } from "@/theme";
-import { useControl } from "@/utils/control-panel/use-control";
+import { useControl } from "@/features/control-panel/use-control";
+import { useTheme } from "@/features/theme";
 import {
   findPaletteKey,
   paletteKeys,

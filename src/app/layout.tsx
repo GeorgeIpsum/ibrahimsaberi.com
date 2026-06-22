@@ -7,9 +7,9 @@ import "@/css/prose.css";
 import { AnchoredToastProvider, ToastProvider } from "@/components/atoms/toast";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
-import { ThemeProvider } from "@/theme";
-import { ThemeScript } from "@/theme/theme-script";
-import { ControlPanel } from "@/utils/control-panel/control-panel";
+import { ControlPanel } from "@/features/control-panel/control-panel";
+import { ThemeProvider } from "@/features/theme";
+import { ThemeScript } from "@/features/theme/theme-script";
 
 export default function RootLayout({
   children,

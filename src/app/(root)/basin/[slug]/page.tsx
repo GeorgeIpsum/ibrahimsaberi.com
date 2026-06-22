@@ -9,7 +9,7 @@ import {
   listPosts,
   loadRipple,
   loadRippleMeta,
-} from "@/services/basin/load-post";
+} from "@/features/basin/load-post";
 import { BasinEntranceScript } from "./basin-entrance-script";
 
 type Props = {

@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import {
   createControlContext,
   resolveControlType,
-} from "@/utils/control-panel/control-context";
+} from "@/features/control-panel/control-context";
 
 /** Let queued microtasks/promises settle (for async `beforeChange`). */
 const flush = () => new Promise<void>((resolve) => setTimeout(resolve, 0));

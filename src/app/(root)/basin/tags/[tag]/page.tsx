@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PaginationControls } from "@/services/basin/components/pagination-controls";
-import { PostListItem } from "@/services/basin/components/post-list-item";
-import { countPosts, listPosts, listTags } from "@/services/basin/load-post";
-import { makePageInfo, POSTS_PER_PAGE } from "@/services/basin/pagination";
+import { PaginationControls } from "@/features/basin/components/pagination-controls";
+import { PostListItem } from "@/features/basin/components/post-list-item";
+import { countPosts, listPosts, listTags } from "@/features/basin/load-post";
+import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
 
 type Props = {
   params: Promise<{ tag: string }>;

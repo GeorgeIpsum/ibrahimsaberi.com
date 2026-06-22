@@ -7,7 +7,7 @@ import {
   TooltipTrigger,
 } from "@/components/atoms/tooltip";
 import { cn } from "@/css/lib";
-import { useSentiment } from "@/services/sentiment/use-sentiment";
+import { useSentiment } from "@/features/sentiment";
 import { SentimentIcon } from "./sentiment-icon";
 import { SentimentText } from "./sentiment-text";
 

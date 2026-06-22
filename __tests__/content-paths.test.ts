@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { classifyContentPath } from "../src/services/basin/content-paths";
+import { classifyContentPath } from "@/features/basin/content-paths";
 
 describe("classifyContentPath", () => {
   it("classifies a post at the content root", () => {

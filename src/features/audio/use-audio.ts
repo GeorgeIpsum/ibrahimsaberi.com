@@ -1,17 +1,17 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useNetworkQuality } from "@/hooks/use-network-quality";
 import {
   type AudioLink,
   type AudioOptions,
   createAudio,
   type Howl,
-} from "@/services/audio";
+} from "@/features/audio";
 import {
   type QualitySources,
   selectAudioQuality,
-} from "@/services/audio/select-quality";
+} from "@/features/audio/select-quality";
+import { useNetworkQuality } from "@/hooks/use-network-quality";
 
 export const useAudio = (link: AudioLink, options?: AudioOptions) => {
   const [audio, setAudio] = useState<Howl | null>(null);

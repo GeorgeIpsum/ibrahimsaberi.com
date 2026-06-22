@@ -7,6 +7,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import { useControl } from "@/features/control-panel";
 import { getSystemContrast } from "./get-system-contrast";
 import { getSystemTheme, resolveTheme } from "./get-system-theme";
 import type { Contrast, ResolvedTheme, Theme } from "./types";
@@ -100,6 +101,19 @@ export const ThemeProvider: React.FC<
     mq.addEventListener("change", handler);
     return () => mq.removeEventListener("change", handler);
   }, [contrast]);
+
+  useControl({
+    theme: {
+      value: theme,
+      options: ["system", "light", "dark"],
+      onChange: (value) => setTheme(value as Theme),
+    },
+    contrast: {
+      value: contrast,
+      options: ["system", "normal", "high"],
+      onChange: (value) => setContrast(value as Contrast),
+    },
+  });
 
   return (
     <ThemeContext.Provider

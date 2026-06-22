@@ -12,3 +12,5 @@ export function debounce(func: (...args: any[]) => void, wait: number) {
     }, wait);
   };
 }
+
+export const noop = (): any => {};

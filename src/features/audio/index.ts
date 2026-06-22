@@ -5,3 +5,4 @@ export {
   type Howl,
   playOnce,
 } from "./play";
+export { useAudio, useAudioWithQuality } from "./use-audio";

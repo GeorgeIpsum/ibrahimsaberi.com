@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse, userAgent } from "next/server";
-import { validateReflection } from "./services/reflection/validate";
+import { validateReflection } from "@/features/reflection";
 
 export function proxy(request: NextRequest) {
   const headers = new Headers(request.headers);

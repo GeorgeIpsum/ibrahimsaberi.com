@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 import { NextResponse } from "next/server";
-import { buildFeed, originFromHeaders } from "@/services/basin/build-feed";
+import { buildFeed, originFromHeaders } from "@/features/basin/build-feed";
 
 export async function GET() {
   const origin = originFromHeaders(await headers());

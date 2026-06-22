@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { listPosts, loadRippleMeta } from "@/services/basin/load-post";
+import { listPosts, loadRippleMeta } from "@/features/basin/load-post";
 
 type Props = {
   params: Promise<{ slug: string }>;

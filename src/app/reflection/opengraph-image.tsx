@@ -4,7 +4,7 @@ import { waveCircle } from "@lucide/lab";
 import { ImageResponse } from "next/og";
 import { createElement } from "react";
 
-export const alt = "whois I";
+export const alt = "WHOIS i";
 export const size = {
   width: 1200,
   height: 630,

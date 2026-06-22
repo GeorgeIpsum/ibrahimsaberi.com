@@ -1,10 +1,10 @@
 // import { waveCircle } from "@lucide/lab";
 import { Separator } from "@/components/atoms/separator";
 import { Title } from "@/components/structure/title";
-import { PaginationControls } from "@/services/basin/components/pagination-controls";
-import { PostListItem } from "@/services/basin/components/post-list-item";
-import { countPosts, listPosts } from "@/services/basin/load-post";
-import { makePageInfo, POSTS_PER_PAGE } from "@/services/basin/pagination";
+import { PaginationControls } from "@/features/basin/components/pagination-controls";
+import { PostListItem } from "@/features/basin/components/post-list-item";
+import { countPosts, listPosts } from "@/features/basin/load-post";
+import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
 import { ASCII_WAVE } from "@/utils/ascii";
 
 export default async function BasinIndex() {

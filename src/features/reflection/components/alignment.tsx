@@ -37,7 +37,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { Wave } from "@/components/text";
 import { cn } from "@/css/lib";
-import { playOnce } from "@/services/audio";
+import { playOnce } from "@/features/audio";
 import { useReflectContext } from "../context";
 
 export const ALIGNMENTS = {

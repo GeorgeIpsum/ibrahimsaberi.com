@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { LightRays } from "@/components/backgrounds";
-import { Reflect_ } from "../../services/reflection/components/reflect";
+import { Reflect_ } from "@/features/reflection";
 
 export default async function Page({
   searchParams,
@@ -21,9 +21,11 @@ export default async function Page({
 }
 
 export const metadata: Metadata = {
-  title: "whois I",
+  title: "WHOIS i",
   description:
-    "look inward. wait why are you rolling your eyes upward. that's bad for you",
+    "look inward. wait no not literally with your eyes. stop rolling your eyes like that. that's bad for you",
+  category: "reservoir",
+  keywords: ["effigy", "pmd", "alignment", "personality quiz"],
 };
 
 export const viewport: Viewport = {

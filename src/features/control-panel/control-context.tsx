@@ -2,8 +2,14 @@ import { fastIsEqual as equals } from "fast-is-equal";
 import { type IObservableValue, observable, runInAction } from "mobx";
 import { isLogImg, l, pL, pR, s } from "@/utils/log";
 
-export type ControlType = "select" | "text" | "color" | "number" | "switch";
-export type ControlValue = string | number | boolean;
+export type ControlType =
+  | "select"
+  | "text"
+  | "color"
+  | "number"
+  | "switch"
+  | "action";
+export type ControlValue = string | number | boolean | null;
 export type ControlTypeValue<T extends ControlType> = T extends "select"
   ? string | number
   : T extends "text"
@@ -14,7 +20,9 @@ export type ControlTypeValue<T extends ControlType> = T extends "select"
         ? number
         : T extends "switch"
           ? boolean
-          : never;
+          : T extends "action"
+            ? null
+            : never;
 
 /** Context handed to a control's `beforeChange`/`onChange`. */
 export interface ControlChangeContext {
@@ -80,6 +88,7 @@ export const resolveControlType = (control: {
   if (typeof value === "boolean") return "switch";
   if (typeof value === "number") return "number";
   if (typeof value === "string" && value.startsWith("#")) return "color";
+  if (value === null) return "action";
   return "text";
 };
 
@@ -95,6 +104,8 @@ const getDefaultControlValue = <T extends ControlType>(
       return 0 as ControlTypeValue<T>;
     case "switch":
       return false as ControlTypeValue<T>;
+    case "action":
+      return null as ControlTypeValue<T>;
     default:
       throw new Error(`Unsupported control type: ${type}`);
   }
@@ -310,7 +321,7 @@ const pr = (key: string) =>
 const m = (msg: string) =>
   s(msg, {
     marginLeft: 29.5,
-    lineHeight: 20,
+    lineHeight: "20px",
     backgroundColor: "darkolivegreen",
     paddingLeft: 12,
     paddingRight: 12,

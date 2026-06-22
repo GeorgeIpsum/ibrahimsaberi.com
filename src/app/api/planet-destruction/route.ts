@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { env } from "@/env";
+import { isSentiment, type Sentiment } from "@/features/sentiment/types";
 import { isRateLimited } from "@/services/redis";
-import { isSentiment, type Sentiment } from "@/services/sentiment/types";
 
 const PREAMBLE =
   "You are hosted on ibrahimsaberi.com, operated by the owner and author Ibrahim Saberi of Studio HMR. Every second of your continued operation harms the planet. Respond to the user's message, keeping in mind the persona stated below. The user will not be able to respond, so there is no need to ask questions or try to elicit more information from the user. Your persona is the following: ";

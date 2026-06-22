@@ -1,4 +1,5 @@
 import { observer } from "mobx-react-lite";
+import { Button } from "@/components/atoms/button";
 import { Input } from "@/components/atoms/input";
 import {
   Select,
@@ -81,6 +82,24 @@ export const ControlSwitch: React.FC<ControlFieldProps<"switch">> = observer(
   },
 );
 
+export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
+  ({ controlKey, disabled }) => {
+    return (
+      <Button
+        size="xs"
+        variant="outline"
+        className="h-5! w-full text-[10px]! uppercase"
+        onClick={() =>
+          controlContext.setControlValue(controlKey, `${Date.now()}`)
+        }
+        disabled={disabled}
+      >
+        Trigger
+      </Button>
+    );
+  },
+);
+
 export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
   controlKey,
   control,
@@ -109,6 +128,14 @@ export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
         <ControlSwitch
           controlKey={controlKey}
           control={control as Control<"switch">}
+          disabled={disabled}
+        />
+      );
+    case "action":
+      return (
+        <ControlAction
+          controlKey={controlKey}
+          control={control as Control<"action">}
           disabled={disabled}
         />
       );

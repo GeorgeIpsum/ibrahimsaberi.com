@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext } from "react";
-import { useAudio } from "@/hooks/use-audio";
+import { useAudio } from "@/features/audio";
 
 interface ReflectionAudioContext {
   nextAudio: Howl | null;

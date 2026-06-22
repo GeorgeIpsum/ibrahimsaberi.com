@@ -6,7 +6,7 @@ import {
   listPosts,
   listTags,
   loadRippleMeta,
-} from "../src/services/basin/load-post";
+} from "@/features/basin/load-post";
 
 // React's `cache()` memoizes per request; outside a render there is no request.
 // Make it a passthrough so each call re-reads the (mocked) filesystem.

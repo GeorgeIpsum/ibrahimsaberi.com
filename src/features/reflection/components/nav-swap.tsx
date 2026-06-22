@@ -3,7 +3,7 @@
 import { Icon, MirrorRectangular } from "lucide-react";
 import { useEffect, useState } from "react";
 import { getReflection } from "../context";
-import { ALIGNMENTS } from "../steps/alignment";
+import { ALIGNMENTS } from "./alignment";
 
 interface NavSwapProps {
   className?: string;

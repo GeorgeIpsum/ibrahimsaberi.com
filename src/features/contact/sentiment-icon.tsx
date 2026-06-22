@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { cn } from "@/css/lib";
-import type { Sentiment } from "@/services/sentiment/types";
+import type { Sentiment } from "@/features/sentiment/types";
 export const SentimentIcon: React.FC<{
   sentiment: Sentiment;
   loading?: boolean;

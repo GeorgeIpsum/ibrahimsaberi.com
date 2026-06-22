@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   type QualitySources,
   selectAudioQuality,
-} from "../src/services/audio/select-quality";
+} from "@/features/audio/select-quality";
 
 const sources = {
   hq: "/audio/hq.mp3",

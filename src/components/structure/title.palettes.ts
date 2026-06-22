@@ -1,4 +1,4 @@
-import { resolveTheme, type Theme } from "@/theme";
+import { resolveTheme, type Theme } from "@/features/theme";
 import { coinFlip, randomArrayMember } from "@/utils/rand";
 
 type AsciiPalette = {
