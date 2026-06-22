@@ -1,0 +1,31 @@
+{
+  "name": "wisp-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable Wisp proxy (Node + Cloudflare Worker) for libcurl.js / @local/yt-dlp-wasm.",
+  "main": "dist/node.mjs",
+  "scripts": {
+    "dev": "tsx watch src/node/index.ts",
+    "build": "node build.mjs",
+    "start": "node dist/node.mjs",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.worker.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check",
+    "dev:worker": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4",
+    "@types/node": "22.13.4",
+    "@types/ws": "^8.5.13",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.2",
+    "typescript": "6.0.3",
+    "vitest": "^4.1.7"
+  }
+}

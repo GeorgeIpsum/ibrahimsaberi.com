@@ -1,0 +1,14 @@
+name = "wisp-server"
+main = "src/worker/index.ts"
+compatibility_date = "2024-09-23"
+
+# TCP egress uses `connect()` from cloudflare:sockets (available without extra
+# flags on recent compatibility dates). UDP is not supported on Workers — UDP
+# CONNECT requests are rejected with Wisp close reason 0x41 (invalid info).
+
+# Optional auth/hardening. Origins are a plain var; the token is a secret:
+#   npx wrangler secret put WISP_TOKEN
+# [vars]
+# ALLOWED_ORIGINS = "https://ibrahimsaberi.com"
+# WISP_BUFFER_SIZE = "128"
+# WISP_MAX_STREAMS = "512"
