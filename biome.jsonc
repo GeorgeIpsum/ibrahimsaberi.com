@@ -26,6 +26,14 @@
     },
     "rules": {
       "recommended": true,
+      "a11y": {
+        // The atoms <Input> renders a real <input>; teach the rule so a <label>
+        // wrapping it counts as associated.
+        "noLabelWithoutControl": {
+          "level": "error",
+          "options": { "inputComponents": ["Input"] }
+        }
+      },
       "style": {
         "noRestrictedImports": {
           "level": "error",

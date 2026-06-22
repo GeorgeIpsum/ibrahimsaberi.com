@@ -59,6 +59,23 @@ async function loadYtDlp(): Promise<YtDlpModule> {
   )) as YtDlpModule;
 }
 
+// Wisp proxy endpoint for libcurl.js networking. Defaults to the public demo
+// (testing only); set NEXT_PUBLIC_WISP_URL to your own server — see
+// services/wisp-server. NEXT_PUBLIC_WISP_TOKEN, if set, is appended as ?token=.
+const WISP_URL: string = (() => {
+  const base =
+    process.env.NEXT_PUBLIC_WISP_URL ?? "wss://wisp.mercurywork.shop/";
+  const token = process.env.NEXT_PUBLIC_WISP_TOKEN;
+  if (!token) return base;
+  try {
+    const url = new URL(base);
+    url.searchParams.set("token", token);
+    return url.toString();
+  } catch {
+    return base;
+  }
+})();
+
 function makeSilentWavBase64(): string {
   const sampleRate = 8000;
   const seconds = 0.2;
@@ -236,7 +253,7 @@ export default function YtDlpTestPage() {
       const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
       const { createYtDlp } = await loadYtDlp();
       const ytdlp = createYtDlp({
-        wispUrl: "wss://wisp.mercurywork.shop/",
+        wispUrl: WISP_URL,
         ytDlpSource: { url: wheelUrl },
       });
       const start = performance.now();
@@ -271,7 +288,7 @@ export default function YtDlpTestPage() {
       const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
       const { createYtDlp } = await loadYtDlp();
       const ytdlp = createYtDlp({
-        wispUrl: "wss://wisp.mercurywork.shop/",
+        wispUrl: WISP_URL,
         ytDlpSource: { url: wheelUrl },
       });
       const start = performance.now();
@@ -307,7 +324,7 @@ export default function YtDlpTestPage() {
       const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
       const { createYtDlp } = await loadYtDlp();
       const ytdlp = createYtDlp({
-        wispUrl: "wss://wisp.mercurywork.shop/",
+        wispUrl: WISP_URL,
         ytDlpSource: { url: wheelUrl },
       });
       await ytdlp.load();
@@ -334,7 +351,7 @@ export default function YtDlpTestPage() {
       const wheelUrl = `${location.origin}/yt-dlp-wheels/${manifest.wheel}`;
       const { createYtDlp } = await loadYtDlp();
       const ytdlp = createYtDlp({
-        wispUrl: "wss://wisp.mercurywork.shop/",
+        wispUrl: WISP_URL,
         ytDlpSource: { url: wheelUrl },
       });
       const onLog = (l: unknown) =>
@@ -469,6 +486,11 @@ export default function YtDlpTestPage() {
           Tests the Wisp/libcurl network handler from Python. &ldquo;Fetch via
           Wisp&rdquo; sends a raw GET request; &ldquo;Extract info&rdquo; runs
           yt-dlp metadata extraction through the same handler.
+        </p>
+        <p className="text-neutral-500 text-xs dark:text-neutral-400">
+          Wisp endpoint: <code>{WISP_URL}</code>{" "}
+          {WISP_URL.includes("mercurywork.shop") &&
+            "(public demo — set NEXT_PUBLIC_WISP_URL)"}
         </p>
         <label className="flex flex-col gap-1">
           <span>URL</span>

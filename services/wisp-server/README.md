@@ -27,7 +27,16 @@ pnpm -F wisp-server dev          # tsx watch on :6001
 pnpm -F wisp-server build && pnpm -F wisp-server start
 ```
 
-Point the browser package at it:
+Point the browser at it. For this repo's `/yt-dlp-test` route, set the endpoint
+via env (it defaults to the public demo when unset — see `.env.example`):
+
+```sh
+# .env
+NEXT_PUBLIC_WISP_URL=ws://localhost:6001/
+# NEXT_PUBLIC_WISP_TOKEN=…   # only if the server sets WISP_TOKEN
+```
+
+Or pass it straight to the package anywhere else:
 
 ```ts
 createYtDlp({ wispUrl: "ws://localhost:6001/" /* , ... */ });
