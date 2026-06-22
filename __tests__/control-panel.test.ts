@@ -184,14 +184,14 @@ describe("control panel store", () => {
       ctx.setControlValue("loud", "b");
       ctx.setControlValue("quiet", "b");
 
-      expect(debug).toHaveBeenCalledWith(
-        "[control:loud] committed",
-        expect.anything(),
-      );
-      expect(debug).not.toHaveBeenCalledWith(
-        "[control:quiet] committed",
-        expect.anything(),
-      );
+      // Logging now routes through the styled `l` tag, so the message + key are
+      // baked into a `%c` format string we can't match literally. But it still
+      // lands on console.debug, and the change payload rides along as the final,
+      // un-styled argument — assert the gate via those stable signals.
+      expect(debug).toHaveBeenCalledTimes(1); // only the `log: true` control
+      expect(debug.mock.calls[0].at(-1)).toEqual({ prev: "a", value: "b" });
+      // ...and it's the commit log specifically (the format carries the message)
+      expect(debug.mock.calls[0][0]).toContain("committed");
     } finally {
       debug.mockRestore();
     }
