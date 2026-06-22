@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { Button } from "@/components/atoms/button";
+import { Input } from "@/components/atoms/input";
 
 type YtDlpHandle = {
   load: () => Promise<{ ytDlpVersion: string }>;
@@ -375,21 +377,16 @@ export default function YtDlpTestPage() {
 
       <label className="flex flex-col gap-1">
         <span>Input</span>
-        <input
-          className="rounded border border-neutral-500 bg-transparent px-2 py-1"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-        />
+        <Input value={text} onChange={(e) => setText(e.target.value)} />
       </label>
 
-      <button
-        type="button"
+      <Button
+        className="self-start"
+        loading={state.kind === "running"}
         onClick={run}
-        disabled={state.kind === "running"}
-        className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
       >
-        {state.kind === "running" ? "Running…" : "Run ECHO round-trip"}
-      </button>
+        Run ECHO round-trip
+      </Button>
 
       <output aria-live="polite" className="block min-h-6">
         {state.kind === "ok" && (
@@ -416,14 +413,13 @@ export default function YtDlpTestPage() {
           then runs an ECHO routed through Python. First boot downloads ~10 MB
           and takes a while.
         </p>
-        <button
-          type="button"
+        <Button
+          className="self-start"
+          loading={boot.kind === "booting"}
           onClick={bootAndTest}
-          disabled={boot.kind === "booting"}
-          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
         >
-          {boot.kind === "booting" ? "Booting…" : "Boot Pyodide + yt-dlp"}
-        </button>
+          Boot Pyodide + yt-dlp
+        </Button>
         <output className="block min-h-6">
           {boot.kind === "ok" && (
             <span className="text-green-600 dark:text-green-400">
@@ -445,14 +441,13 @@ export default function YtDlpTestPage() {
           Synthesizes a tiny silent WAV in-browser and transcodes it to MP3 via
           the ffmpeg.wasm bridge, then probes the output with ffprobe_compat.
         </p>
-        <button
-          type="button"
+        <Button
+          className="self-start"
+          loading={ff.kind === "running"}
           onClick={ffmpegTest}
-          disabled={ff.kind === "running"}
-          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
         >
-          {ff.kind === "running" ? "Running…" : "Run ffmpeg self-test"}
-        </button>
+          Run ffmpeg self-test
+        </Button>
         <output className="block min-h-6">
           {ff.kind === "ok" && (
             <span className="text-green-600 dark:text-green-400">
@@ -477,17 +472,15 @@ export default function YtDlpTestPage() {
         </p>
         <label className="flex flex-col gap-1">
           <span>URL</span>
-          <input
-            className="rounded border border-neutral-500 bg-transparent px-2 py-1"
-            value={netUrl}
-            onChange={(e) => setNetUrl(e.target.value)}
-          />
+          <Input value={netUrl} onChange={(e) => setNetUrl(e.target.value)} />
         </label>
         <label className="text-neutral-500 text-xs dark:text-neutral-400">
           Optional YouTube cookies.txt (stays in your browser):{" "}
-          <input
+          <Input
+            nativeInput
             type="file"
             accept=".txt"
+            className="mt-1"
             onChange={async (e) => {
               const f = e.target.files?.[0];
               setCookiesTxt(f ? await f.text() : null);
@@ -495,22 +488,19 @@ export default function YtDlpTestPage() {
           />
         </label>
         <div className="flex gap-2">
-          <button
-            type="button"
+          <Button
+            variant="outline"
+            loading={netState.kind === "running"}
             onClick={netFetchTest}
-            disabled={netState.kind === "running"}
-            className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
           >
-            {netState.kind === "running" ? "Running…" : "Fetch via Wisp"}
-          </button>
-          <button
-            type="button"
+            Fetch via Wisp
+          </Button>
+          <Button
+            loading={netState.kind === "running"}
             onClick={extractInfoTest}
-            disabled={netState.kind === "running"}
-            className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
           >
-            {netState.kind === "running" ? "Running…" : "Extract info"}
-          </button>
+            Extract info
+          </Button>
         </div>
         <output className="block min-h-6">
           {netState.kind === "ok" && (
@@ -535,14 +525,13 @@ export default function YtDlpTestPage() {
           even if the download ultimately errors.
         </p>
 
-        <button
-          type="button"
+        <Button
+          className="self-start"
+          loading={exec.kind === "running"}
           onClick={runVersion}
-          disabled={exec.kind === "running"}
-          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
         >
-          {exec.kind === "running" ? "Running…" : "yt-dlp --version"}
-        </button>
+          yt-dlp --version
+        </Button>
         <output className="block min-h-6">
           {exec.kind === "ok" && (
             <span className="text-green-600 dark:text-green-400">
@@ -558,20 +547,15 @@ export default function YtDlpTestPage() {
 
         <label className="flex flex-col gap-1">
           <span>Download URL</span>
-          <input
-            className="rounded border border-neutral-500 bg-transparent px-2 py-1"
-            value={dlUrl}
-            onChange={(e) => setDlUrl(e.target.value)}
-          />
+          <Input value={dlUrl} onChange={(e) => setDlUrl(e.target.value)} />
         </label>
-        <button
-          type="button"
+        <Button
+          className="self-start"
+          loading={dl.kind === "running"}
           onClick={runDownload}
-          disabled={dl.kind === "running"}
-          className="self-start rounded bg-neutral-800 px-3 py-1.5 text-white disabled:opacity-50 dark:bg-neutral-200 dark:text-black"
         >
-          {dl.kind === "running" ? "Running…" : "Download (streams events)"}
-        </button>
+          Download (streams events)
+        </Button>
         {logs.length > 0 && (
           <pre className="max-h-48 overflow-y-auto rounded border border-neutral-500 bg-neutral-900 p-2 text-neutral-200 text-xs dark:bg-neutral-950">
             {logs.join("\n")}
