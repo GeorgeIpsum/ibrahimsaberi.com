@@ -1,0 +1,27 @@
+{
+  "name": "ui-storybook",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Storybook workshop for the ibrahimsaberi.com UI atoms (src/components/atoms).",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "biome check"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "10.4.6",
+    "@storybook/addon-themes": "10.4.6",
+    "@storybook/nextjs-vite": "10.4.6",
+    "@tailwindcss/vite": "4.3.1",
+    "@types/node": "22.13.4",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "lightningcss": "^1.32.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "storybook": "10.4.6",
+    "vite": "^7.0.0"
+  }
+}

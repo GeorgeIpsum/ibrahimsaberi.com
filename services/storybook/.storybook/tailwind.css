@@ -1,0 +1,23 @@
+/*
+ * Storybook's Tailwind entry. We reuse the app's real stylesheet so every
+ * design token, custom variant and plugin behaves identically to production.
+ */
+@import "../../../src/css/globals.css";
+
+/*
+ * Tailwind v4 auto-detects content relative to this file, but the atoms live
+ * outside this package — point the scanner at the real sources explicitly.
+ */
+@source "../../../src/components";
+@source "../../../src/css";
+@source "../stories";
+
+/*
+ * The preview iframe has no app shell, so paint the themed surface onto the
+ * document itself. `--background`/`--foreground` resolve against the
+ * `color-scheme` that the theme toolbar sets via `data-theme` on <html>.
+ */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
