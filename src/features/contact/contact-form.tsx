@@ -20,7 +20,9 @@ import {
   InputGroupInput,
   InputGroupTextarea,
 } from "@/components/atoms/input-group";
+import { LoadingText } from "@/components/text";
 import { cn } from "@/css/lib";
+import { randomArrayMember } from "@/utils/rand";
 import { type Placeholder, placeholders } from "./placeholders";
 import { SentimentTooltip } from "./sentiment-tooltip";
 import { attemptContactFormSubmission } from "./submit-contact-form";
@@ -35,8 +37,9 @@ interface ContactFormProps {
 export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   const [placeholder, setPlaceholder] = useState<Placeholder>();
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(true);
   const [textAreaValue, setTextAreaValue] = useState("");
+  const [loadingText, setLoadingText] = useState("Submitting");
 
   const textAreaLength = textAreaValue.length;
 
@@ -105,7 +108,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       if (onSubmit) {
         await onSubmit(e);
       }
-      await attemptContactFormSubmission();
+      await attemptContactFormSubmission((done) => {
+        if (!done) {
+          setLoadingText(randomArrayMember(LOADING_TEXT));
+        }
+      });
       console.log("Form submitted successfully");
     } catch (e) {
       if (e instanceof Error && e.message === "ERR_TASK_COMPLETE_UH_OH") {
@@ -113,6 +120,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       }
     } finally {
       setIsSubmitting(false);
+      setLoadingText("Submitting");
     }
     window.removeEventListener("beforeunload", handlePageUnload);
   };
@@ -284,11 +292,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
             <Button
               type="submit"
               size="lg"
-              className="w-full md:max-w-24"
+              className="w-full md:max-w-36"
               loading={isSubmitting}
+              loadingIndicator={<LoadingText>{loadingText}</LoadingText>}
               disabled={isSubmitting}
             >
-              Send
+              Submit
             </Button>
           </CardFooter>
         </Form>
@@ -296,3 +305,22 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
     </>
   );
 };
+
+const LOADING_TEXT = [
+  "Boondongling",
+  "Fortifying",
+  "Synchronizing",
+  "Cranberrying",
+  "Sizzling",
+  "Snacking",
+  "Relaxing",
+  "Contemplating",
+  "Calculating",
+  "Recalculating",
+  "Mailing",
+  "Emailing",
+  "Faxing",
+  "Texting",
+  "Tweeting",
+  "Vimeoing",
+];

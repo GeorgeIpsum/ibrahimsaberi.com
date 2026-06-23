@@ -249,7 +249,9 @@ const subtaskPipe = (numChosenTasks: number) =>
   );
 
 // an "attempt"
-export const attemptContactFormSubmission = async () => {
+export const attemptContactFormSubmission = async (
+  onSequenceDone?: (finished: boolean, index: number) => void,
+) => {
   const excludedSubtasks: Subtask[] = [];
   const audio = createAudio("/api/audio/self/elevator", {
     autoplay: false,
@@ -295,6 +297,7 @@ export const attemptContactFormSubmission = async () => {
         subtaskPipe(chosenSubtasks.length),
         finalizeSubtask,
         async (data: TaskData) => {
+          onSequenceDone?.(data.finished ?? false, index + 1);
           if (data.finished) {
             audio.fade(1, 0, 5000);
             audio.once("fade", () => {

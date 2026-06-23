@@ -30,7 +30,7 @@ export const buttonVariants = cva({
     },
     variant: {
       default:
-        "not-disabled:inset-shadow-[0_1px_--theme(--color-white/16%)] border-primary bg-primary text-primary-foreground shadow-primary/24 shadow-xs hover:bg-primary/90 data-pressed:bg-primary/90 *:data-[slot=button-loading-indicator]:text-primary-foreground [:active,[data-pressed]]:inset-shadow-[0_1px_--theme(--color-black/8%)] [:disabled,:active,[data-pressed]]:shadow-none",
+        "not-disabled:inset-shadow-[0_1px_--theme(--color-white/16%)] border-border bg-primary text-primary-foreground shadow-primary/24 shadow-xs hover:bg-primary/90 data-pressed:bg-primary/90 *:data-[slot=button-loading-indicator]:text-primary-foreground [:active,[data-pressed]]:inset-shadow-[0_1px_--theme(--color-black/8%)] [:disabled,:active,[data-pressed]]:shadow-none",
       destructive:
         "not-disabled:inset-shadow-[0_1px_--theme(--color-white/16%)] border-destructive bg-destructive text-white shadow-destructive/24 shadow-xs hover:bg-destructive/90 data-pressed:bg-destructive/90 *:data-[slot=button-loading-indicator]:text-white [:active,[data-pressed]]:inset-shadow-[0_1px_--theme(--color-black/8%)] [:disabled,:active,[data-pressed]]:shadow-none",
       "destructive-outline":
@@ -50,6 +50,7 @@ export interface ButtonProps extends useRender.ComponentProps<"button"> {
   variant?: VariantProps<typeof buttonVariants>["variant"];
   size?: VariantProps<typeof buttonVariants>["size"];
   loading?: boolean;
+  loadingIndicator?: React.ReactNode;
 }
 
 export function Button({
@@ -59,6 +60,7 @@ export function Button({
   render,
   children,
   loading = false,
+  loadingIndicator,
   disabled: disabledProp,
   ...props
 }: ButtonProps): React.ReactElement {
@@ -69,17 +71,20 @@ export function Button({
   const defaultProps = {
     children: (
       <>
+        {loading &&
+          (loadingIndicator ? (
+            loadingIndicator
+          ) : (
+            <Spinner
+              className="pointer-events-none absolute"
+              data-slot="button-loading-indicator"
+            />
+          ))}
         {children}
-        {loading && (
-          <Spinner
-            className="pointer-events-none absolute"
-            data-slot="button-loading-indicator"
-          />
-        )}
       </>
     ),
     className: cn(buttonVariants({ className, size, variant })),
-    "aria-disabled": loading || undefined,
+    "aria-disabled": isDisabled || undefined,
     "data-loading": loading ? "" : undefined,
     "data-slot": "button",
     disabled: isDisabled,
