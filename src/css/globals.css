@@ -229,6 +229,18 @@
     }
   }
 
+  --animate-spin-background: spin-background var(--animation-duration, 4s)
+    var(--animation-timing-function, linear) var(--animation-delay, 0s)
+    var(--animation-iteration, infinite) var(--animation-fill-mode, both);
+  @keyframes spin-background {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+
   /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;
@@ -276,13 +288,15 @@
 
   --secondary: color-mix(in oklch, var(--background) 90%, var(--primary));
   --secondary-foreground: var(--primary);
+
   --muted: color-mix(in oklch, var(--background) 92%, var(--primary));
   --muted-foreground: color-mix(
     in oklch,
     var(--primary) 95%,
     var(--background)
   );
-  --accent: color-mix(in oklch, var(--background) 88%, var(--primary));
+
+  --accent: --alpha(var(--primary) / 4%);
   --accent-foreground: var(--primary);
 
   --border: color-mix(in oklch, var(--primary) 12%, transparent);
@@ -340,12 +354,10 @@
 
   --primary-foreground: var(--background);
 
-  --secondary: color-mix(
-    in oklch,
-    var(--background) light-dark(90%, 92%),
-    var(--primary)
-  );
+  /* roughly #16175c and #96ace8 */
+  --secondary: light-dark(oklch(0.26 0.12 274), oklch(0.75 0.09 269));
   --secondary-foreground: var(--primary);
+
   --muted: color-mix(
     in oklch,
     var(--background) light-dark(92%, 94%),
@@ -356,11 +368,8 @@
     var(--primary) light-dark(95%, 60%),
     var(--background)
   );
-  --accent: color-mix(
-    in oklch,
-    var(--background) light-dark(88%, 90%),
-    var(--primary)
-  );
+
+  --accent: --alpha(var(--primary) / 4%);
   --accent-foreground: var(--primary);
 
   --border: color-mix(
@@ -433,12 +442,6 @@
   color-scheme: dark;
 }
 
-/*
- * High-contrast versions of each theme: collapse foreground/background onto
- * the per-theme high-contrast endpoints and harden every token that is
- * normally allowed to be subtle. Must cascade after the `:root[data-theme]`
- * blocks above.
- */
 :root[data-contrast="high"],
 :root[data-contrast="system-high"] {
   --primary: var(--foreground-high-contrast);
@@ -558,6 +561,60 @@
   a {
     cursor: pointer;
     font-weight: 500;
+  }
+
+  button[data-loading]::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    padding: 2px;
+    border-radius: inherit;
+    background-image: var(
+      --loading-background,
+      conic-gradient(
+        from var(--loading-angle),
+        var(--loading-start, var(--border)),
+        var(--loading-middle, var(--background)),
+        var(--loading-end, var(--border))
+      )
+    );
+    opacity: 100%;
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+
+    animation:
+      spin-loading-border 1.5s linear infinite,
+      blur-border 6s ease-in-out infinite;
+  }
+
+  @property --loading-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+  }
+
+  @keyframes spin-loading-border {
+    to {
+      --loading-angle: 360deg;
+    }
+  }
+
+  @keyframes blur-border {
+    0% {
+      filter: blur(0px) contrast(100%) brightness(100%);
+    }
+    50% {
+      filter: blur(4px) contrast(150%) brightness(50%);
+    }
+    100% {
+      filter: blur(0px) contrast(100%) brightness(100%);
+    }
   }
 }
 
@@ -695,7 +752,7 @@ html[data-panel="open"] .control-panel-static {
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: var(
+  background-image: var(
     --gradient-border-background,
     linear-gradient(
       90deg,

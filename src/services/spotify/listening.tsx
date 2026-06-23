@@ -93,7 +93,7 @@ export const Listening: React.FC<{ nowPlaying: LiveNowPlaying | null }> = ({
                 loading="lazy"
               />
               {!nowPlaying.isPlaying && (
-                <div className="absolute inset-0 flex size-16 items-center justify-center rounded bg-accent/20 backdrop-blur">
+                <div className="absolute inset-0 flex size-16 items-center justify-center rounded bg-primary/10 backdrop-blur">
                   <Pause size={24} />
                 </div>
               )}

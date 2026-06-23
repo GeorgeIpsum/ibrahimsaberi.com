@@ -19,11 +19,11 @@ const PANEL_CONTAINER_CLASS =
 
 const PanelBody: React.FC = observer(() => (
   <>
-    <h4 className="mb-2 flex w-fit gap-2 rounded border border-border bg-background-high-contrast/10 px-4 py-1 text-right font-mono font-thin text-sm backdrop-blur-lg">
+    <h4 className="mb-2 flex w-fit gap-2 rounded border border-border bg-background-high-contrast/25 px-4 py-1 text-right font-mono font-thin text-sm backdrop-blur-lg">
       <span>control panel</span>
       <Kbd>CTRL+K</Kbd>
     </h4>
-    <ScrollArea className="h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] rounded-lg border border-border bg-secondary/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84 lg:w-96">
+    <ScrollArea className="h-[calc(100vh-14rem)] w-[calc(100vw-2rem)] rounded-lg border border-border bg-background/80 p-4 font-mono backdrop-blur-sm md:h-64 md:w-84 lg:w-96">
       <div className="flex flex-col gap-y-1.5">
         {Object.entries(controlContext.context.registeredControls).map(
           ([key, control]) => (
