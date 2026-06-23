@@ -5,7 +5,7 @@ import {
   heroPageTitle,
   heroSlug,
   parseResponses,
-} from "../scripts/lib/dota2-responses.mjs";
+} from "../.scripts/dota2-voicelines/lib/dota2-responses.mjs";
 
 const axeHtml = readFileSync(
   path.join(import.meta.dirname, "fixtures", "dota2-axe-responses.html"),
