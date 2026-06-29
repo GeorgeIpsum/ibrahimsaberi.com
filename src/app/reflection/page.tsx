@@ -8,9 +8,22 @@ export default async function Page({
   searchParams: Promise<{ reason?: string }>;
 }) {
   return (
-    <article className="flex h-dvh w-screen items-center justify-center bg-black">
-      <LightRays className="isolate" color="rgba(70, 25, 1, 1)" />
-      <div className="absolute inset-0 animate-pulse shadow-amber-50 [box-shadow:inset_0_0_30px_1px_var(--color-amber-950)]">
+    <article className="flex h-dvh w-screen items-center justify-center bg-black text-white">
+      <LightRays
+        className="isolate"
+        color="rgba(70, 25, 1, 1)"
+        // color="rgba(255, 168, 92, 1)"
+      />
+      <div
+        className="absolute inset-0 animate-pulse [box-shadow:inset_0_0_30px_1px_var(--color-amber-500)]"
+        style={
+          {
+            "--pulse-from-opacity": 0.2,
+            "--pulse-to-opacity": 0.1,
+            "--animation-duration": "6s",
+          } as React.CSSProperties
+        }
+      >
         {/* <NoiseTexture frequency={0.7} noiseOpacity={0.2} /> */}
       </div>
       <div className="isolate">

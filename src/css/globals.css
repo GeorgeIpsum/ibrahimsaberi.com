@@ -241,6 +241,24 @@
     }
   }
 
+  --animate-swizzle: swizzle var(--animation-duration, 900ms)
+    var(--animation-timing-function, ease) var(--animation-delay, 0s)
+    var(--animation-iteration, infinite) var(--animation-fill-mode, both);
+  @keyframes swizzle {
+    25% {
+      transform: scale(var(--scale, var(--scale-25, 1.02)))
+        rotateX(var(--rotation, var(--rotation-25, -6deg)));
+    }
+    50% {
+      transform: scale(var(--scale, var(--scale-50, 1)))
+        rotateX(var(--rotation, var(--rotation-50, 6deg)));
+    }
+    75% {
+      transform: scale(var(--scale, var(--scale-75, 0.98)))
+        rotateX(var(--rotation, var(--rotation-75, -6deg)));
+    }
+  }
+
   /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;
@@ -563,11 +581,14 @@
     font-weight: 500;
   }
 
-  button[data-loading]::after {
+  button[data-loading]::after,
+  .loading-border::after,
+  .loading-border-hover:hover::after {
     content: "";
     position: absolute;
     inset: -1px;
     padding: 2px;
+    pointer-events: none;
     border-radius: inherit;
     background-image: var(
       --loading-background,
@@ -589,8 +610,59 @@
     mask-composite: exclude;
 
     animation:
-      spin-loading-border 1.5s linear infinite,
-      blur-border 6s ease-in-out infinite;
+      spin-loading-border var(--loading-duration, 1.5s)
+      var(--loading-timing-function, linear) infinite,
+      blur-border var(--blur-duration, 6s) ease-in-out infinite;
+  }
+
+  .gradient-border::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background-image: var(
+      --gradient-border-background,
+      linear-gradient(
+        90deg,
+        var(--gradient-start, var(--primary)),
+        var(--gradient-middle, var(--secondary)),
+        var(--gradient-end, var(--primary))
+      )
+    );
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+
+  .gradient-border-hover:hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background-image: var(
+      --gradient-border-background,
+      linear-gradient(
+        90deg,
+        var(--gradient-start, var(--primary)),
+        var(--gradient-middle, var(--secondary)),
+        var(--gradient-end, var(--primary))
+      )
+    );
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
   }
 
   @property --loading-angle {
@@ -678,13 +750,6 @@ button.spotify-indicator:focus-visible {
   outline-style: dotted;
 }
 
-/*
- * Control panel: paint the restored-open state before hydration so it never
- * pops in. The bootstrap script sets html[data-panel] from localStorage before
- * first paint; React then swaps this static clone for the interactive panel.
- * visibility:hidden (not just opacity) keeps the fixed, full-height clone out
- * of pointer/tab/AOM until it's actually shown.
- */
 .control-panel-static {
   opacity: 0;
   visibility: hidden;
@@ -744,29 +809,4 @@ html[data-panel="open"] .control-panel-static {
   vertical-align: -2px;
   margin-left: 1px;
   animation: pui-caret 1s steps(2, start) infinite;
-}
-
-.gradient-border::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 1px;
-  border-radius: inherit;
-  background-image: var(
-    --gradient-border-background,
-    linear-gradient(
-      90deg,
-      var(--gradient-start, var(--primary)),
-      var(--gradient-middle, var(--secondary)),
-      var(--gradient-end, var(--primary))
-    )
-  );
-  mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
 }

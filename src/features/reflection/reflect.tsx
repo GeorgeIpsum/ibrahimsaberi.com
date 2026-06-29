@@ -123,6 +123,31 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
           });
       },
     },
+    "reset all": {
+      type: "action",
+      value: null,
+      log: true,
+      // TODO: this
+      beforeChange: async () => {
+        const [res] = await Promise.all([
+          fetch("/api/reflection", {
+            method: "DELETE",
+            headers: { "x-reflect": reflectKey },
+          }),
+          sleep(500),
+        ]);
+        return res.ok;
+      },
+      onChange: () => {
+        getReflection()
+          .then(setReflectContext)
+          .catch(() => {
+            console.error(
+              "Considering the circumstances, it's best that you just leave.",
+            );
+          });
+      },
+    },
   });
 
   const showStepper = started && steps;
@@ -186,7 +211,13 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
               animate={started ? "started" : "starting"}
             >
               <Alignment onClick={start} started={started} />
-              {showStepper && <Stepper steps={steps} onStepEnd={onStepEnd} />}
+              {showStepper && (
+                <Stepper
+                  steps={steps}
+                  onStepEnd={onStepEnd}
+                  canSkip={!!reflectContext?.started_at}
+                />
+              )}
             </motion.div>
           )}
         </AnimatePresence>

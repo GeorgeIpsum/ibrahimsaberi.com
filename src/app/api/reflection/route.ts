@@ -148,3 +148,16 @@ export const POST = async (request: NextRequest) => {
     return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
   }
 };
+
+export const DELETE = async (request: NextRequest) => {
+  const reflectHeader = request.headers.get("x-reflect");
+  if (reflectHeader !== process.env.REFLECT) {
+    return NextResponse.json({ it: "is not you" }, { status: 403 });
+  }
+
+  const response = new NextResponse(JSON.stringify({ it: "is purged" }), {
+    status: 200,
+  });
+  response.cookies.delete("reflection");
+  return response;
+};

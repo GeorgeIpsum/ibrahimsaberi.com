@@ -83,7 +83,8 @@ export const ControlSwitch: React.FC<ControlFieldProps<"switch">> = observer(
 );
 
 export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
-  ({ controlKey, disabled }) => {
+  ({ controlKey, disabled, control }) => {
+    const value = control.value?.get();
     return (
       <Button
         size="xs"
@@ -94,7 +95,9 @@ export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
         }
         disabled={disabled}
       >
-        Trigger
+        {value
+          ? `Last: ${new Date(Number(value)).toLocaleTimeString()}`
+          : "Trigger"}
       </Button>
     );
   },
