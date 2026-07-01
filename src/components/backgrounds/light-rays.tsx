@@ -6,7 +6,7 @@ import { type CSSProperties, useEffect, useState } from "react";
 
 import { cn } from "@/css/lib";
 
-interface LightRaysProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface LightRaysProps extends React.HTMLAttributes<HTMLDivElement> {
   ref?: React.Ref<HTMLDivElement>;
   count?: number;
   color?: string;

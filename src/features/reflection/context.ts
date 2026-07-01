@@ -21,7 +21,7 @@ const getReflectSchema = type({
 });
 type GetReflect = typeof getReflectSchema.infer;
 
-const toReflectContext = (value: string): ReflectContext => {
+const toReflectContext = (value: string, log = false): ReflectContext => {
   const decoded = Buffer.from(value, "base64").toString("utf-8");
   const parsed = JSON.parse(decoded);
   const parsedSchema = reflectSchema(parsed);
@@ -32,10 +32,14 @@ const toReflectContext = (value: string): ReflectContext => {
     );
     throw new Error("Failed to parse reflection context.");
   }
+
+  if (log) {
+    console.log("context:", parsedSchema);
+  }
   return parsedSchema;
 };
 
-export const getReflection = async (noSet = false) => {
+export const getReflection = async (noSet = false, log = true) => {
   const res = await fetch("/api/reflection", {
     cache: "no-store",
     ...(noSet && { headers: { "x-skip-set": "true" } }),
@@ -60,5 +64,5 @@ export const getReflection = async (noSet = false) => {
 
   console.info("it", parsedGetReflect.it);
 
-  return toReflectContext(parsedGetReflect.value);
+  return toReflectContext(parsedGetReflect.value, log);
 };

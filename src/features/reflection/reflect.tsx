@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion, type Variants } from "motion/react";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useCallback, useEffect, useState } from "react";
 import { toastManager } from "@/components/atoms/toast";
 import { cn } from "@/css/lib";
 import { playOnce } from "@/features/audio";
@@ -9,7 +9,7 @@ import { useControl } from "@/features/control-panel";
 import { sleep } from "@/utils/async";
 import { randomArrayMember } from "@/utils/rand";
 import { ReflectionAudioProvider } from "./audio-context";
-import { buildOrRestoreSteps } from "./build";
+import { buildSteps } from "./build";
 import { ALIGNMENTS, Alignment } from "./components/alignment";
 import { Penance } from "./components/penance";
 import { ReflectionAudio } from "./components/reflection-audio";
@@ -24,6 +24,7 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
   const [reflectContext, setReflectContext] = useState<ReflectContext | null>(
     null,
   );
+  const [startLoading, setStartLoading] = useState(false);
   const [steps, setSteps] = useState<Step[] | null>(null);
 
   // ctrl panel state
@@ -32,15 +33,17 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
     reflectContext?.alignment,
   );
 
-  const start = () => {
+  const start = useCallback(async () => {
     if (reflectContext?.alignment) {
-      console.log(reflectContext);
+      setStartLoading(true);
+      const steps = await buildSteps(reflectContext);
+      setSteps(steps);
       setStarted(true);
-      setSteps(buildOrRestoreSteps(reflectContext));
+      setStartLoading(false);
     }
-  };
+  }, [reflectContext]);
 
-  const refreshContext = async () => {
+  const refreshContext = useCallback(async () => {
     await getReflection()
       .then(setReflectContext)
       .catch(() => {
@@ -48,7 +51,7 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
           "Considering the circumstances, it's best that you just leave.",
         );
       });
-  };
+  }, []);
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: unneeded
   useEffect(() => {
@@ -107,27 +110,16 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
       type: "action",
       value: null,
       log: true,
-      disabled: !reflectContext?.qs?.some((q) => q.a !== undefined),
-      // TODO: this
+      disabled: !steps,
       beforeChange: async () => {
-        await sleep(1000);
-        return false;
+        setSteps(await buildSteps(reflectContext as ReflectContext, true));
       },
-      onChange: () => {
-        getReflection()
-          .then(setReflectContext)
-          .catch(() => {
-            console.error(
-              "Considering the circumstances, it's best that you just leave.",
-            );
-          });
-      },
+      onChange: refreshContext,
     },
     "reset all": {
       type: "action",
       value: null,
       log: true,
-      // TODO: this
       beforeChange: async () => {
         const [res] = await Promise.all([
           fetch("/api/reflection", {
@@ -138,19 +130,9 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
         ]);
         return res.ok;
       },
-      onChange: () => {
-        getReflection()
-          .then(setReflectContext)
-          .catch(() => {
-            console.error(
-              "Considering the circumstances, it's best that you just leave.",
-            );
-          });
-      },
+      onChange: refreshContext,
     },
   });
-
-  const showStepper = started && steps;
 
   const onStepEnd = async (index: number, result?: unknown) => {
     if (reflectContext && steps) {
@@ -181,6 +163,9 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
               id: steps[index].id,
               a: hashHex,
             },
+            ...(reflectContext.qs ?? steps)
+              .filter((q) => q.id !== steps[index].id)
+              .map((q) => ({ id: q.id, a: "a" in q && q.a ? q.a : undefined })),
           ],
         } as Partial<ReflectContext>),
       });
@@ -193,6 +178,8 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
       }
     }
   };
+
+  const showStepper = started && !startLoading && !!steps;
 
   return (
     <ReflectProvider value={reflectContext}>
@@ -210,7 +197,11 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
               initial="initial"
               animate={started ? "started" : "starting"}
             >
-              <Alignment onClick={start} started={started} />
+              <Alignment
+                onClick={start}
+                started={started}
+                loading={startLoading}
+              />
               {showStepper && (
                 <Stepper
                   steps={steps}

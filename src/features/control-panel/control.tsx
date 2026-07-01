@@ -1,6 +1,18 @@
+"use client";
+
 import { observer } from "mobx-react-lite";
 import { Button } from "@/components/atoms/button";
 import { Input } from "@/components/atoms/input";
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+} from "@/components/atoms/input-group";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/atoms/popover";
 import {
   Select,
   SelectItem,
@@ -103,6 +115,59 @@ export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
   },
 );
 
+export const ControlColor: React.FC<ControlFieldProps<"color">> = observer(
+  ({ controlKey, disabled, control }) => {
+    const value = control.value?.get();
+    const hexColor = value ? `#${value}` : "#FFFFFF";
+
+    return (
+      <InputGroup className="overflow-hidden">
+        <InputGroupInput
+          size="xs"
+          disabled={disabled}
+          type="text"
+          aria-label="Color input hex"
+          placeholder="#FFFFFF"
+          value={control.value?.get()}
+          className="*:[input]:px-0!"
+          inputClassName="text-[10px]"
+          onValueChange={(value) => {
+            if (!/^([0-9A-Fa-f]{1,6})$/.test(value)) {
+              return;
+            }
+            controlContext.setControlValue(controlKey, value);
+          }}
+        />
+        <InputGroupAddon className="pl-2">
+          <Popover>
+            <PopoverTrigger
+              render={
+                <button
+                  type="button"
+                  className="group/color-control-panel flex h-5 items-center justify-center bg-background px-2"
+                />
+              }
+            >
+              <div
+                className="perspective-near h-3 w-5 rounded-lg border-border border-x border-t-0 border-b group-hover/color-control-panel:-rotate-y-8 group-hover/color-control-panel:border-x-[0.75px] group-hover/color-control-panel:border-b-[0.5px]"
+                style={{ backgroundColor: hexColor }}
+              />
+            </PopoverTrigger>
+            <PopoverContent
+              side="left"
+              align="end"
+              popoverProps={{ className: "p-1" }}
+            >
+              <div className="flex flex-col items-center justify-center"></div>
+            </PopoverContent>
+          </Popover>
+        </InputGroupAddon>
+        <InputGroupAddon className="text-[10px]">#</InputGroupAddon>
+      </InputGroup>
+    );
+  },
+);
+
 export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
   controlKey,
   control,
@@ -131,6 +196,14 @@ export const ControlRenderer: React.FC<ControlFieldProps<ControlType>> = ({
         <ControlSwitch
           controlKey={controlKey}
           control={control as Control<"switch">}
+          disabled={disabled}
+        />
+      );
+    case "color":
+      return (
+        <ControlColor
+          controlKey={controlKey}
+          control={control as Control<"color">}
           disabled={disabled}
         />
       );

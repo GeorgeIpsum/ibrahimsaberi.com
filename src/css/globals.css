@@ -810,3 +810,24 @@ html[data-panel="open"] .control-panel-static {
   margin-left: 1px;
   animation: pui-caret 1s steps(2, start) infinite;
 }
+
+.rgb-spectrum {
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0) 0%,
+    rgb(255, 255, 0) 17%,
+    rgb(0, 255, 0) 33%,
+    rgb(0, 255, 255) 50%,
+    rgb(0, 0, 255) 67%,
+    rgb(255, 0, 255) 83%,
+    rgb(255, 0, 0) 100%
+  );
+}
+
+.srgb-spectrum {
+  background: linear-gradient(
+    in srgb to right,
+    rgb(255, 255, 0),
+    rgb(0, 0, 255)
+  );
+}

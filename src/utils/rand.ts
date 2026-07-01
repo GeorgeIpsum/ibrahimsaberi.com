@@ -57,3 +57,5 @@ export const randomArrayMembers = <T>(
 
   return result;
 };
+
+export const sortArrayRandomly = () => Math.random() - 0.5;

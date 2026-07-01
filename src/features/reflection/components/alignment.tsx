@@ -75,8 +75,13 @@ export const ALIGNMENTS = {
 interface AlignmentProps {
   onClick: () => void;
   started?: boolean;
+  loading?: boolean;
 }
-export const Alignment: React.FC<AlignmentProps> = ({ onClick, started }) => {
+export const Alignment: React.FC<AlignmentProps> = ({
+  onClick,
+  started,
+  loading,
+}) => {
   const { alignment, started_at } = useReflectContext();
   const [showClickMe, setShowClickMe] = useState(false);
   const { name, icon } = ALIGNMENTS[alignment as keyof typeof ALIGNMENTS] || {};
@@ -113,7 +118,8 @@ export const Alignment: React.FC<AlignmentProps> = ({ onClick, started }) => {
         aria-label={name}
         variant="ghost"
         size="icon-xl"
-        disabled={started}
+        disabled={started || loading}
+        loading={loading}
         onClick={() => {
           onClick();
           playOnce("/audio/reflection/start.mp3");

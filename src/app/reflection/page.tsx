@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { LightRays } from "@/components/backgrounds";
+import { ModifiableLightRays } from "@/components/backgrounds";
 import { Reflect_ } from "@/features/reflection";
 
 export default async function Page({
@@ -9,9 +9,13 @@ export default async function Page({
 }) {
   return (
     <article className="flex h-dvh w-screen items-center justify-center bg-black text-white">
-      <LightRays
+      <ModifiableLightRays
         className="isolate"
-        color="rgba(70, 25, 1, 1)"
+        r={70}
+        g={25}
+        b={1}
+        a={1}
+        // color="rgba(70, 25, 1, 1)"
         // color="rgba(255, 168, 92, 1)"
       />
       <div
