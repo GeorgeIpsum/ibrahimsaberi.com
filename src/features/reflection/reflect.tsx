@@ -71,68 +71,74 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
     }
   }, [reflectContext]);
 
-  useControl({
-    "reflect key": {
-      value: reflectKey,
-      onChange: (value) => {
-        setReflectKey(value as string);
-        window.localStorage.setItem("reflectKey", value as string);
+  useControl(
+    {
+      "reflect key": {
+        value: reflectKey,
+        onChange: (value) => {
+          setReflectKey(value as string);
+          window.localStorage.setItem("reflectKey", value as string);
+        },
       },
-    },
-    effigy: {
-      value: Object.entries(ALIGNMENTS).find(
-        ([key]) => Number(key) === debugAlignment,
-      )?.[1].name,
-      log: true,
-      options: Object.values(ALIGNMENTS).map((a) => a.name),
-      beforeChange: async (value, _prev, ctx) => {
-        const entry = Object.entries(ALIGNMENTS).find(
-          ([, a]) => a.name === value,
-        );
-        if (!entry) return false;
-        const reflectKey = ctx.get("reflect key") as string;
-        const res = await _DEBUG_RESET_ALIGNMENT(reflectKey, Number(entry[0]));
-        return Boolean(res.ok);
-      },
-      // Committed: mirror the new alignment locally so the panel stays in sync.
-      onChange: (value) => {
-        const entry = Object.entries(ALIGNMENTS).find(
-          ([, a]) => a.name === value,
-        );
-        if (entry) {
-          setReflectContext((ctx) =>
-            ctx ? { ...ctx, alignment: Number(entry[0]) } : ctx,
+      effigy: {
+        value: Object.entries(ALIGNMENTS).find(
+          ([key]) => Number(key) === debugAlignment,
+        )?.[1].name,
+        log: true,
+        options: Object.values(ALIGNMENTS).map((a) => a.name),
+        beforeChange: async (value, _prev, ctx) => {
+          const entry = Object.entries(ALIGNMENTS).find(
+            ([, a]) => a.name === value,
           );
-        }
+          if (!entry) return false;
+          const reflectKey = ctx.get("reflect key") as string;
+          const res = await _DEBUG_RESET_ALIGNMENT(
+            reflectKey,
+            Number(entry[0]),
+          );
+          return Boolean(res.ok);
+        },
+        // Committed: mirror the new alignment locally so the panel stays in sync.
+        onChange: (value) => {
+          const entry = Object.entries(ALIGNMENTS).find(
+            ([, a]) => a.name === value,
+          );
+          if (entry) {
+            setReflectContext((ctx) =>
+              ctx ? { ...ctx, alignment: Number(entry[0]) } : ctx,
+            );
+          }
+        },
+      },
+      "reset qs": {
+        type: "action",
+        value: null,
+        log: true,
+        disabled: !steps,
+        beforeChange: async () => {
+          setSteps(await buildSteps(reflectContext as ReflectContext, true));
+        },
+        onChange: refreshContext,
+      },
+      "reset all": {
+        type: "action",
+        value: null,
+        log: true,
+        beforeChange: async () => {
+          const [res] = await Promise.all([
+            fetch("/api/reflection", {
+              method: "DELETE",
+              headers: { "x-reflect": reflectKey },
+            }),
+            sleep(500),
+          ]);
+          return res.ok;
+        },
+        onChange: refreshContext,
       },
     },
-    "reset qs": {
-      type: "action",
-      value: null,
-      log: true,
-      disabled: !steps,
-      beforeChange: async () => {
-        setSteps(await buildSteps(reflectContext as ReflectContext, true));
-      },
-      onChange: refreshContext,
-    },
-    "reset all": {
-      type: "action",
-      value: null,
-      log: true,
-      beforeChange: async () => {
-        const [res] = await Promise.all([
-          fetch("/api/reflection", {
-            method: "DELETE",
-            headers: { "x-reflect": reflectKey },
-          }),
-          sleep(500),
-        ]);
-        return res.ok;
-      },
-      onChange: refreshContext,
-    },
-  });
+    { group: "reflection", collapsed: false, order: -1 },
+  );
 
   const onStepEnd = async (index: number, result?: unknown) => {
     if (reflectContext && steps) {

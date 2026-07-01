@@ -102,18 +102,23 @@ export const ThemeProvider: React.FC<
     return () => mq.removeEventListener("change", handler);
   }, [contrast]);
 
-  useControl({
-    theme: {
-      value: theme,
-      options: ["system", "light", "dark"],
-      onChange: (value) => setTheme(value as Theme),
+  useControl(
+    {
+      theme: {
+        value: theme,
+        options: ["system", "light", "dark"],
+        onChange: (value) => setTheme(value as Theme),
+      },
+      contrast: {
+        value: contrast,
+        options: ["system", "normal", "high"],
+        onChange: (value) => setContrast(value as Contrast),
+      },
     },
-    contrast: {
-      value: contrast,
-      options: ["system", "normal", "high"],
-      onChange: (value) => setContrast(value as Contrast),
+    {
+      group: "theme",
     },
-  });
+  );
 
   return (
     <ThemeContext.Provider

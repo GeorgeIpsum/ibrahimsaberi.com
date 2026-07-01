@@ -174,6 +174,191 @@ describe("control panel store", () => {
     expect(ctx.context.registeredControls.foo).toBeUndefined();
   });
 
+  describe("ordering + grouping", () => {
+    /** Register a group's controls, then push its options (as `useControl` does). */
+    const mountGroup = (
+      ctx: ReturnType<typeof createControlContext<string>>,
+      groupId: string,
+      // biome-ignore lint/suspicious/noExplicitAny: test config bag
+      controls: Record<string, any>,
+      // biome-ignore lint/suspicious/noExplicitAny: test options bag
+      options?: any,
+    ) => {
+      for (const [key, config] of Object.entries(controls))
+        ctx.registerControl(key, config, groupId);
+      ctx.setGroupMeta(groupId, options);
+    };
+
+    /** Flatten ordered groups to `[key, ...]` per segment for easy assertions. */
+    const keysByGroup = (
+      ctx: ReturnType<typeof createControlContext<string>>,
+    ) => ctx.orderedGroups().map((g) => g.entries.map(([key]) => key));
+
+    it("defaults to registration order, both across and within groups", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", { a: { value: 1 }, b: { value: 2 } });
+      mountGroup(ctx, "g2", { c: { value: 3 } });
+
+      expect(keysByGroup(ctx)).toEqual([["a", "b"], ["c"]]);
+    });
+
+    it("sorts groups by group weight (lower first)", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", { a: { value: 1 } }, { order: 10 });
+      mountGroup(ctx, "g2", { b: { value: 2 } }, { order: 0 });
+
+      expect(keysByGroup(ctx)).toEqual([["b"], ["a"]]);
+    });
+
+    it("sorts controls within a group by per-control weight", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", {
+        a: { value: 1, order: 5 },
+        b: { value: 2, order: 0 },
+      });
+
+      expect(keysByGroup(ctx)).toEqual([["b", "a"]]);
+    });
+
+    it("keeps a group contiguous even when registrations interleave", () => {
+      const ctx = createControlContext<string>();
+      // a (g1), x (g2), b (g1) — g1's keys must still render together.
+      ctx.registerControl("a", { value: 1 }, "g1");
+      ctx.registerControl("x", { value: 2 }, "g2");
+      ctx.registerControl("b", { value: 3 }, "g1");
+      ctx.setGroupMeta("g1");
+      ctx.setGroupMeta("g2");
+
+      expect(keysByGroup(ctx)).toEqual([["a", "b"], ["x"]]);
+    });
+
+    it("surfaces collapsible metadata (label + collapsed) per group", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(
+        ctx,
+        "g1",
+        { a: { value: 1 } },
+        { group: "Lighting", collapsed: false },
+      );
+
+      const [segment] = ctx.orderedGroups();
+      expect(segment.options.group).toBe("Lighting");
+      expect(segment.options.collapsed).toBe(false);
+    });
+
+    it("re-sorts live when a group's weight changes", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", { a: { value: 1 } }, { order: 0 });
+      mountGroup(ctx, "g2", { b: { value: 2 } }, { order: 1 });
+      expect(keysByGroup(ctx)).toEqual([["a"], ["b"]]);
+
+      ctx.setGroupMeta("g1", { order: 5 }); // sink g1 below g2
+      expect(keysByGroup(ctx)).toEqual([["b"], ["a"]]);
+    });
+
+    it("keeps group order stable if a group re-registers under the same id", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", { a: { value: 1 } });
+      mountGroup(ctx, "g2", { b: { value: 2 } });
+
+      // g1's key set changes: dispose then re-register under the same id.
+      ctx.disposeControl("a");
+      mountGroup(ctx, "g1", { a2: { value: 1 } });
+
+      // g1 must stay ahead of g2 (registration order preserved), not jump to end.
+      expect(keysByGroup(ctx)).toEqual([["a2"], ["b"]]);
+    });
+
+    it("drops group metadata once its last control unmounts", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "g1", { a: { value: 1 } }, { group: "Lighting" });
+      ctx.disposeControl("a");
+
+      expect(ctx.orderedGroups()).toEqual([]);
+    });
+
+    it("merges controls from different instances that share a named group", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(
+        ctx,
+        "inst-a",
+        { theme: { value: "system" } },
+        { group: "theme" },
+      );
+      mountGroup(
+        ctx,
+        "inst-b",
+        { "ray color": { type: "color", value: "ffa85c" } },
+        { group: "theme" },
+      );
+
+      const groups = ctx.orderedGroups();
+      expect(groups).toHaveLength(1);
+      expect(groups[0].options.group).toBe("theme");
+      expect(groups[0].entries.map(([key]) => key)).toEqual([
+        "theme",
+        "ray color",
+      ]);
+    });
+
+    it("orders controls across instances within a shared group by weight", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(
+        ctx,
+        "inst-a",
+        { theme: { value: "x", order: 5 } },
+        { group: "theme" },
+      );
+      mountGroup(
+        ctx,
+        "inst-b",
+        { rays: { value: "y", order: 0 } },
+        { group: "theme" },
+      );
+
+      expect(ctx.orderedGroups()[0].entries.map(([key]) => key)).toEqual([
+        "rays",
+        "theme",
+      ]);
+    });
+
+    it("keeps a shared named group alive until every instance unmounts", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(
+        ctx,
+        "inst-a",
+        { theme: { value: "system" } },
+        { group: "theme" },
+      );
+      mountGroup(
+        ctx,
+        "inst-b",
+        { "ray color": { type: "color", value: "ffa85c" } },
+        { group: "theme" },
+      );
+
+      ctx.disposeControl("theme"); // inst-a unmounts
+
+      const groups = ctx.orderedGroups();
+      expect(groups).toHaveLength(1);
+      expect(groups[0].options.group).toBe("theme");
+      expect(groups[0].entries.map(([key]) => key)).toEqual(["ray color"]);
+    });
+
+    it("does not merge anonymous groups (group: true stays per-instance)", () => {
+      const ctx = createControlContext<string>();
+      mountGroup(ctx, "inst-a", { a: { value: 1 } }, { group: true });
+      mountGroup(ctx, "inst-b", { b: { value: 2 } }, { group: true });
+
+      const groups = ctx.orderedGroups();
+      expect(groups).toHaveLength(2);
+      expect(groups.map((g) => g.entries.map(([key]) => key))).toEqual([
+        ["a"],
+        ["b"],
+      ]);
+    });
+  });
+
   it("logs changes only when log is enabled", () => {
     const ctx = createControlContext<string>();
     const debug = vi.spyOn(console, "debug").mockImplementation(() => {});

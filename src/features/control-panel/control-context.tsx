@@ -58,6 +58,8 @@ export type Control<T extends ControlType> = {
   /** Internal UI state: `true` while an async `beforeChange` is running. */
   pending?: boolean;
   disabled?: IObservableValue<boolean>;
+  /** Sort weight within its group; lower sorts first (default 0). */
+  order?: number;
 };
 
 export type ControlInput<T extends ControlType> = Omit<
@@ -67,6 +69,19 @@ export type ControlInput<T extends ControlType> = Omit<
   value?: ControlTypeValue<T>;
   disabled?: boolean;
 };
+
+/** Options for a `useControl` group — the controls of a single hook call. */
+export interface ControlGroupOptions {
+  /** Group sort weight; lower sorts first (default 0). */
+  order?: number;
+  /**
+   * Render the group's controls in a collapsible section. A string is used as
+   * the section header; `true` uses a generic fallback label.
+   */
+  group?: string | boolean;
+  /** Initial collapse state for a collapsible group (default: collapsed). */
+  collapsed?: boolean;
+}
 
 interface ControlContext<K extends string> {
   registeredControls: { [key in K]: Control<ControlType> };
@@ -121,6 +136,38 @@ export function createControlContext<K extends string>() {
   const logFlags = new Map<K, boolean | undefined>();
   const lastProp = new Map<K, ControlValue | undefined>();
 
+  // --- ordering + grouping bookkeeping ---
+  // A control belongs to a hook *instance* (one `useControl` call). Its visual
+  // *group* is keyed by the group NAME when one is given, so distinct instances
+  // that name the same group merge into a single section; otherwise the group
+  // key is the instance id (unmerged). `seqOf`/`groupSeqOf` capture registration
+  // order for stable tie-breaking and change in lockstep with the reactive
+  // maps, so plain Maps suffice.
+  let seqCounter = 0;
+  let groupSeqCounter = 0;
+  const instanceOf = new Map<K, string>(); // control key -> hook instance id
+  const seqOf = new Map<K, number>(); // control key -> registration seq
+  const groupSeqOf = new Map<string, number>(); // group key -> first-seen seq
+  const orderMap = observable.map<K, number>(); // control key -> sort weight
+  const instanceGroupKey = observable.map<string, string>(); // instance id -> group key
+  const groupMeta = observable.map<string, ControlGroupOptions>(); // group key -> options
+
+  /** Group name (if any) wins over the instance id, merging like-named groups. */
+  const resolveGroupKey = (
+    instanceId: string,
+    options?: ControlGroupOptions,
+  ): string =>
+    typeof options?.group === "string" && options.group.length > 0
+      ? options.group
+      : instanceId;
+
+  /** The group key a live control currently belongs to (via its instance). */
+  const groupKeyOf = (key: K): string => {
+    const instanceId = instanceOf.get(key);
+    if (instanceId === undefined) return "";
+    return instanceGroupKey.get(instanceId) ?? instanceId;
+  };
+
   const makeContext = (fromPanel: boolean): ControlChangeContext => ({
     fromPanel,
     controls: context.registeredControls as {
@@ -142,8 +189,18 @@ export function createControlContext<K extends string>() {
   const registerControl = <T extends ControlType>(
     key: K,
     control: ControlInput<T>,
+    instanceId?: string,
   ): void => {
     syncBehavior(key, control);
+
+    // Bind the control to its hook instance once, capturing registration order.
+    // The group key is resolved later from the instance's options (`setGroupMeta`).
+    if (instanceId !== undefined && !instanceOf.has(key)) {
+      instanceOf.set(key, instanceId);
+      seqOf.set(key, seqCounter++);
+    }
+    runInAction(() => orderMap.set(key, control.order ?? 0));
+
     if (context.registeredControls[key]) return;
 
     // Resolve the type ONCE here; the renderer reads `entry.type` directly.
@@ -174,6 +231,7 @@ export function createControlContext<K extends string>() {
     // lifetime; only the option list can change on re-render.
     runInAction(() => {
       entry.options = control.options as Control<ControlType>["options"];
+      orderMap.set(key, control.order ?? 0);
     });
 
     // Only react to a genuine prop change, so an in-flight optimistic edit
@@ -197,6 +255,37 @@ export function createControlContext<K extends string>() {
     }
   };
 
+  /**
+   * Refresh an instance's group options (order/label/collapsed) — called every
+   * render. Maps the instance to its resolved group key (merging like-named
+   * groups) and stores the options under that key. Last writer wins for a shared
+   * named group, but the write is skipped when nothing changed to avoid churn.
+   */
+  const setGroupMeta = (
+    instanceId: string,
+    options?: ControlGroupOptions,
+  ): void => {
+    const groupKey = resolveGroupKey(instanceId, options);
+    if (!groupSeqOf.has(groupKey)) groupSeqOf.set(groupKey, groupSeqCounter++);
+    const prev = groupMeta.get(groupKey);
+    runInAction(() => {
+      if (instanceGroupKey.get(instanceId) !== groupKey) {
+        instanceGroupKey.set(instanceId, groupKey);
+      }
+      if (
+        prev?.order !== options?.order ||
+        prev?.group !== options?.group ||
+        prev?.collapsed !== options?.collapsed
+      ) {
+        groupMeta.set(groupKey, {
+          order: options?.order,
+          group: options?.group,
+          collapsed: options?.collapsed,
+        });
+      }
+    });
+  };
+
   /** Remove a control from the panel (called when the host unmounts). */
   const disposeControl = (key: K): void => {
     guards.delete(key);
@@ -204,8 +293,28 @@ export function createControlContext<K extends string>() {
     logFlags.delete(key);
     lastProp.delete(key);
     lastProp.delete(`${key}_disabled` as K);
+    const instanceId = instanceOf.get(key);
+    const groupKey = groupKeyOf(key);
+    instanceOf.delete(key);
+    seqOf.delete(key);
     runInAction(() => {
+      orderMap.delete(key);
       delete context.registeredControls[key];
+      const remaining = Object.keys(context.registeredControls) as K[];
+      // Forget the instance once its last control is gone.
+      if (
+        instanceId !== undefined &&
+        !remaining.some((k) => instanceOf.get(k) === instanceId)
+      ) {
+        instanceGroupKey.delete(instanceId);
+      }
+      // Drop group metadata once no live control resolves to this group key —
+      // this keeps a shared named group alive until every contributor unmounts.
+      // `groupSeqOf` is kept (keys are never reused) so a group's tie-break
+      // order stays stable across re-registration.
+      if (!remaining.some((k) => groupKeyOf(k) === groupKey)) {
+        groupMeta.delete(groupKey);
+      }
     });
   };
 
@@ -283,12 +392,62 @@ export function createControlContext<K extends string>() {
     commit();
   };
 
+  /**
+   * Registered controls sorted by `(group weight, group registration order,
+   * control weight, control registration order)` and segmented into contiguous
+   * groups for rendering. Equal weights preserve registration order.
+   */
+  const orderedGroups = (): {
+    id: string;
+    options: ControlGroupOptions;
+    entries: [K, Control<ControlType>][];
+  }[] => {
+    const keys = Object.keys(context.registeredControls) as K[];
+    const sorted = keys.slice().sort((a, b) => {
+      const ga = groupKeyOf(a);
+      const gb = groupKeyOf(b);
+      const goa = groupMeta.get(ga)?.order ?? 0;
+      const gob = groupMeta.get(gb)?.order ?? 0;
+      if (goa !== gob) return goa - gob;
+      const gsa = groupSeqOf.get(ga) ?? 0;
+      const gsb = groupSeqOf.get(gb) ?? 0;
+      if (gsa !== gsb) return gsa - gsb;
+      const oa = orderMap.get(a) ?? 0;
+      const ob = orderMap.get(b) ?? 0;
+      if (oa !== ob) return oa - ob;
+      return (seqOf.get(a) ?? 0) - (seqOf.get(b) ?? 0);
+    });
+
+    const segments: {
+      id: string;
+      options: ControlGroupOptions;
+      entries: [K, Control<ControlType>][];
+    }[] = [];
+    for (const key of sorted) {
+      const id = groupKeyOf(key);
+      const control = context.registeredControls[key];
+      const last = segments[segments.length - 1];
+      if (last && last.id === id) {
+        last.entries.push([key, control]);
+      } else {
+        segments.push({
+          id,
+          options: groupMeta.get(id) ?? {},
+          entries: [[key, control]],
+        });
+      }
+    }
+    return segments;
+  };
+
   return {
     context,
     registerControl,
     updateControl,
     disposeControl,
     setControlValue,
+    setGroupMeta,
+    orderedGroups,
   };
 }
 

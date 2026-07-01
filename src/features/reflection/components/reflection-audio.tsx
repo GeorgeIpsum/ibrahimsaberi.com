@@ -36,16 +36,20 @@ export const ReflectionAudio: React.FC<ReflectionAudioProps> = ({
     }
   }, [show, audio]);
 
-  useControl({
-    "bg music": {
-      value: isPlaying,
-      type: "switch",
-      onChange: () => {
-        audio?.playing() ? audio.pause() : audio?.play();
+  useControl(
+    {
+      "bg music": {
+        value: isPlaying,
+        type: "switch",
+        onChange: () => {
+          audio?.playing() ? audio.pause() : audio?.play();
+        },
+        disabled: !audio || !show,
+        order: 10,
       },
-      disabled: !audio || !show,
     },
-  });
+    { group: "reflection" },
+  );
 
   return (
     <AnimatePresence>
