@@ -350,7 +350,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
         className={cn(
           "absolute inset-0 z-10 rounded-lg bg-transparent outline-none transition-all",
           !canMoveNext
-            ? "pointer-events-none cursor-default opacity-0"
+            ? "pointer-events-none opacity-0"
             : "gradient-border cursor-e-resize after:animate-pulse",
         )}
         style={

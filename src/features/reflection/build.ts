@@ -8,7 +8,7 @@ import { isQuestion, type Question, questions } from "./questions";
 const WELCOME_ID = "welcome" as const;
 const TOTAL_QUESTIONS = 15;
 
-const buildQuestions = async (ctx: ReflectContext, forceRebuild = false) => {
+const buildQuestions = (ctx: ReflectContext, forceRebuild = false) => {
   const steps: Question[] = [];
   let shouldUpdate = false;
 
@@ -36,32 +36,37 @@ const buildQuestions = async (ctx: ReflectContext, forceRebuild = false) => {
     steps.sort(sortArrayRandomly);
   }
 
-  if (shouldUpdate) {
-    const newQs = steps.map((q) => ({ id: q.id }));
-    const welcome = ctx.qs?.find((q) => q.id === WELCOME_ID);
-    if (welcome) {
-      newQs.unshift(welcome);
-    }
-    await fetch("/api/reflection", {
-      method: "PUT",
-      body: JSON.stringify({ ...ctx, qs: newQs }),
-    })
-      .then((r) => r.json())
-      .then((r) => {
-        // if (forceRebuild) {
-        const d = JSON.parse(atob(r.value));
-        console.debug("question-set", d);
-        // }
-      });
-  }
-
-  return steps.map(createQuestionStep);
+  return {
+    steps: steps.map(createQuestionStep),
+    shouldUpdate,
+  };
 };
 
-const buildInteractives = async (
-  ctx: ReflectContext,
-  forceRebuild = false,
-) => {};
+const buildInteractives = (ctx: ReflectContext, forceRebuild = false) => {
+  return {
+    steps: [],
+    shouldUpdate: false,
+  };
+};
+
+// biome-ignore lint/suspicious/noExplicitAny: nope
+const updateSteps = async (ctx: ReflectContext, steps: Step<any>[]) => {
+  const welcomeQ = ctx.qs?.find((q) => q.id === WELCOME_ID);
+  const newQs = steps.map((q) => ({ id: q.id }));
+  if (welcomeQ) {
+    newQs.unshift(welcomeQ);
+  }
+
+  await fetch("/api/reflection", {
+    method: "PUT",
+    body: JSON.stringify({ ...ctx, qs: newQs }),
+  })
+    .then((r) => r.json())
+    .then((r) => {
+      const d = JSON.parse(atob(r.value));
+      console.debug("question-set", d);
+    });
+};
 
 const welcomeBack = [
   "welcome back.",
@@ -71,10 +76,12 @@ const welcomeBack = [
   "ok. let's go.",
 ];
 const welcome = [
-  "welcome",
+  "welcome.",
+  "did you know? there is no outside.",
+  "all that is observed is a reflection of the observer.",
   "be honest. do you know yourself?",
-  "the outside is merely a reflection of the inside.",
-  "are you ready to reflect?",
+  "what shape do you take?",
+  "are you ready to learn?",
   "ok. let's get started.",
 ];
 
@@ -83,9 +90,28 @@ export const buildSteps = async (
   forceRebuild = false,
   // biome-ignore lint/suspicious/noExplicitAny: im NOT sorry
 ): Promise<Step<any>[]> => {
+  if (ctx.completed_at) {
+    return [createTextStep("get lost", ["GET LOST"], true)];
+  }
+
+  const questions = buildQuestions(ctx, forceRebuild);
+  const interactives = buildInteractives(ctx, forceRebuild);
+
+  const interleavedSteps = [...questions.steps, ...interactives.steps].sort(
+    (a, b) => {
+      if (a.id === WELCOME_ID) return -1;
+      if (b.id === WELCOME_ID) return 1;
+      return Math.random() > 0.5 ? 1 : -1;
+    },
+  );
+
+  if (questions.shouldUpdate || interactives.shouldUpdate) {
+    await updateSteps(ctx, interleavedSteps);
+  }
+
   return [
     createTextStep(WELCOME_ID, ctx.started_at ? welcomeBack : welcome),
-    ...(await buildQuestions(ctx, forceRebuild)),
+    ...interleavedSteps,
     createTextStep("goodbye", ["thank you for participating."], true),
   ];
 };

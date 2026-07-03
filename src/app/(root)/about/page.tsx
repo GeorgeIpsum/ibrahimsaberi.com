@@ -392,6 +392,11 @@ const faqs: FAQ[] = [
     id: "basin_vs_reservoir",
   },
   {
+    question: "Wouldn't a reflection of a reflection be the original?",
+    answer: "angles are crazy, man",
+    id: "reflect",
+  },
+  {
     question: 'What does "a whisper, a wave" mean?',
     answer:
       "You can't just ask people what \"a whisper, a wave\" means. Won't anyone think of the children?",
