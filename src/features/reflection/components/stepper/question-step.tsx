@@ -1,10 +1,10 @@
+import chroma from "chroma-js";
 import { ChevronsDown } from "lucide-react";
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { CurvedText, type CurvedTextPhase } from "@/components/text";
 import { cn } from "@/css/lib";
-import { useMediaQuery } from "@/hooks/use-media-query";
 import {
   clampedNumber,
   coinFlip,
@@ -51,11 +51,10 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
   const [showChoices, setShowChoices] = useState(false);
   const [chosenChoice, setChosenChoice] = useState<string[] | null>(null);
   const [phase, setPhase] = useState<CurvedTextPhase>("flat");
-  const [size, setSize] = useState(190);
+  const [size, setSize] = useState(180);
   const [sequenceDone, setSequenceDone] = useState(false);
   const choiceStyle = useRef(pickRandomStyle(question.choose));
   const startTime = useRef(Date.now());
-  const isMobile = useMediaQuery("max-md");
   const [f] = useState(1);
 
   const choices = useRef(
@@ -158,7 +157,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                     }
                     key={choice.c.join("-")}
                     className={cn(
-                      "w-full rounded-md",
+                      "w-full",
                       isChosen
                         ? "fixed z-10 mx-auto mt-6 h-[calc(100%-4rem)] self-center overflow-hidden md:w-1/2"
                         : "relative h-30 md:h-32 md:w-[calc(50%-1rem)]",
@@ -175,7 +174,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                             ? "chosenRing"
                             : "chosen"
                     }
-                    onAnimationComplete={(definition) => {
+                    onAnimationStart={(definition) => {
                       if (definition === "chosen") {
                         setPhase("cylinder");
                       }
@@ -216,15 +215,15 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                             if (!isChosen || completed !== "cylinder") return;
                             ringHold.current = setTimeout(() => {
                               setSize(24);
-                            }, 1500 / speedSettings.speedMultiplier);
+                            }, 3000);
                             setPhase("ring");
                           }}
                           onSizeComplete={() => {
                             if (isChosen) {
                               setSequenceDone(true);
-                              // autoMove.current = setTimeout(() => {
-                              //   moveNext();
-                              // }, 6000);
+                              autoMove.current = setTimeout(() => {
+                                moveNext();
+                              }, 15000);
                             }
                           }}
                         />
@@ -235,12 +234,12 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                           initial={{ opacity: 0, scale: 0.3 }}
                           animate={{ opacity: 1, scale: 1 }}
                           transition={{
-                            opacity: { duration: 3, delay: 1 },
+                            opacity: { delay: 1, duration: 3 },
                             scale: { delay: 0, duration: 3 },
                           }}
                         >
                           <motion.div
-                            className="isolate flex size-12 items-center justify-center rounded-full bg-white"
+                            className="isolate flex size-14 items-center justify-center rounded-full bg-white"
                             style={{
                               backgroundImage: choice.c
                                 .map((c, i, { length }) => {
@@ -248,7 +247,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                                     24,
                                     (i / length) * Math.PI * 2,
                                   );
-                                  return `radial-gradient(at ${66 + x}% ${66 + y}% in oklch, ${carvingColor[c]} 0%, ${carvingColor[c]} 20%, transparent 40%)`;
+                                  return `radial-gradient(at ${66 + x}% ${66 + y}% in srgb, ${carvingColor[c]} 0%, ${carvingColor[c]} 20%, transparent 40%)`;
                                 })
                                 // multiple background images are a comma-separated list
                                 .join(", "),
@@ -258,7 +257,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                             initial={{ backgroundPosition: "0% 0%" }}
                             animate={{
                               backgroundPosition: "66% 66%",
-                              boxShadow: choice.c
+                              boxShadow: `0 0 8px #000000BB, ${choice.c
                                 .map((c, i, { length }) => {
                                   const { x, y } = polarToXY(
                                     42,
@@ -266,11 +265,45 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                                   );
                                   return `${x}px ${y}px 64px 4px ${carvingColor[c]}AA`;
                                 })
-                                .join(", "),
+                                .join(", ")}`,
                             }}
                             transition={{ delay: 3, duration: 3 }}
                           >
-                            <question.Icon className="size-6 bg-clip-content stroke-[url(#gradient)] opacity-100" />
+                            <svg
+                              gradientUnits="userSpaceOnUse"
+                              className="pointer-events-none absolute"
+                              width="0"
+                              height="0"
+                              viewBox="0 0 0 0"
+                            >
+                              <title>IGNORE ME PLS WTF</title>
+                              <defs>
+                                <linearGradient
+                                  id="gradient-asdf"
+                                  gradientUnits="userSpaceOnUse"
+                                  gradientTransform="rotate(36)"
+                                  x1="0"
+                                  y1="0"
+                                  x2="100%"
+                                  y2="100%"
+                                >
+                                  {choice.c.map((c, i, { length }) => {
+                                    return (
+                                      <stop
+                                        key={c}
+                                        offset={`${Math.floor((i / length) * 100)}%`}
+                                        stopColor={chroma(carvingColor[c])
+                                          .set("lch.c", "*4")
+                                          .darken(2)
+                                          .css("oklch")}
+                                        stopOpacity={1}
+                                      />
+                                    );
+                                  })}
+                                </linearGradient>
+                              </defs>
+                            </svg>
+                            <question.Icon className="size-7 bg-clip-content stroke-1 stroke-[url(#gradient-asdf)]" />
                           </motion.div>
                         </motion.div>
                       )}
@@ -331,21 +364,6 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
         }
         onClick={moveNext}
       />
-
-      <svg
-        className="pointer-events-none hidden"
-        width="100"
-        height="100"
-        viewBox="0 0 100 100"
-      >
-        <title>IGNORE ME PLS WTF</title>
-        <defs>
-          <radialGradient id="gradient" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="white" stopOpacity="1" />
-            <stop offset="100%" stopColor="white" stopOpacity="0" />
-          </radialGradient>
-        </defs>
-      </svg>
     </>
   );
 };
@@ -411,6 +429,7 @@ const choiceVariants: Variants = {
     return {
       opacity: 1,
       pointerEvents: "auto",
+      borderRadius: 6,
       top: 0,
       left: 0,
       bottom: 0,
@@ -425,6 +444,7 @@ const choiceVariants: Variants = {
   chosen: ({ speedMultiplier }: VariantParams) => ({
     opacity: 1,
     pointerEvents: "none",
+    borderRadius: 6,
     top: 0,
     left: 0,
     bottom: 0,
@@ -435,9 +455,6 @@ const choiceVariants: Variants = {
       delay: 1.5 / speedMultiplier,
     },
   }),
-  // Runs when the CurvedText phase flips to "ring". Every property waits
-  // 1.5s, matching sizeTransition.delay, so the box shrink, the radius, the
-  // background sweep, and the text collapse all start together.
   chosenRing: ({ speedMultiplier }: VariantParams) => {
     const delay = 1 + 1.5 / Math.max(speedMultiplier * 0.5, 1);
     const duration = 3 + 6 / speedMultiplier;
@@ -451,7 +468,7 @@ const choiceVariants: Variants = {
       right: 0,
       width: "10rem",
       height: "10rem",
-      borderRadius: "10rem",
+      borderRadius: 160,
       backgroundPosition: "0% 100%",
       transition: {
         width: {
@@ -464,7 +481,7 @@ const choiceVariants: Variants = {
         },
         borderRadius: {
           duration: 3,
-          delay: Math.max(duration - 3, 0),
+          delay: duration / 2,
         },
         backgroundPosition: {
           duration,
@@ -476,6 +493,7 @@ const choiceVariants: Variants = {
   exit: ({ speedMultiplier }: VariantParams) => ({
     opacity: 0,
     pointerEvents: "none",
+    borderRadius: 6,
     top: 0,
     left: 0,
     bottom: 0,
