@@ -11,6 +11,7 @@ import {
   SelectValue,
 } from "@/components/atoms/select";
 import { Switch } from "@/components/atoms/switch";
+import { LoadingText } from "@/components/text";
 import { ControlColor } from "./control.color";
 import {
   type Control,
@@ -88,6 +89,7 @@ export const ControlSwitch: React.FC<ControlFieldProps<"switch">> = observer(
 export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
   ({ controlKey, disabled, control }) => {
     const value = control.value?.get();
+    const actionComponents = controlContext.getActionComponents(controlKey);
     return (
       <Button
         size="xs"
@@ -97,10 +99,21 @@ export const ControlAction: React.FC<ControlFieldProps<"action">> = observer(
           controlContext.setControlValue(controlKey, `${Date.now()}`)
         }
         disabled={disabled}
+        loading={control.pending}
+        loadingIndicator={
+          actionComponents?.loadingIndicator ?? (
+            <LoadingText className="text-[10px] text-white/80">
+              Loading
+            </LoadingText>
+          )
+        }
+        {...control.actionProps}
       >
-        {value
-          ? `Last: ${new Date(Number(value)).toLocaleTimeString()}`
-          : "Trigger"}
+        {actionComponents?.children
+          ? actionComponents.children
+          : value
+            ? `Last: ${new Date(Number(value)).toLocaleTimeString()}`
+            : "Trigger"}
       </Button>
     );
   },

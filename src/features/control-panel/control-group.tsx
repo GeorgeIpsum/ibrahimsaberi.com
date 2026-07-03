@@ -54,7 +54,7 @@ export const ControlGroup: React.FC<{
     <Collapsible
       open={open}
       onOpenChange={handleOpenChange}
-      className="flex flex-col gap-y-1.5"
+      className="flex flex-col pb-1.5"
     >
       <div className="flex w-full items-center gap-1.5">
         <div

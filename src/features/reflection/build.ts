@@ -3,10 +3,9 @@ import { createQuestionStep } from "./components/stepper/question-step";
 import { createTextStep } from "./components/stepper/text-step";
 import type { Step } from "./components/stepper/types";
 import type { ReflectContext } from "./context";
-import { type Question, questions } from "./questions";
+import { isQuestion, type Question, questions } from "./questions";
 
 const WELCOME_ID = "welcome" as const;
-const FILTERED_IDS: string[] = [WELCOME_ID];
 const TOTAL_QUESTIONS = 15;
 
 const buildQuestions = async (ctx: ReflectContext, forceRebuild = false) => {
@@ -14,15 +13,12 @@ const buildQuestions = async (ctx: ReflectContext, forceRebuild = false) => {
   let shouldUpdate = false;
 
   if (ctx.qs && !forceRebuild) {
-    const qs = ctx.qs
-      .map((q) =>
-        questions.find((qq) => qq.id === q.id && !FILTERED_IDS.includes(qq.id)),
-      )
-      .filter(Boolean) as Question[];
+    const qs = ctx.qs.filter(({ id }) => isQuestion(id)) as Question[];
     steps.push(
-      ...qs.filter(
-        (q) => ctx.qs?.find((qq) => qq.id === q.id)?.a === undefined,
-      ),
+      ...questions.filter((q) => {
+        const questionExists = ctx.qs?.find((qq) => qq.id === q.id);
+        return questionExists && questionExists.a === undefined;
+      }),
     );
 
     if (qs.length < TOTAL_QUESTIONS) {
@@ -62,19 +58,33 @@ const buildQuestions = async (ctx: ReflectContext, forceRebuild = false) => {
   return steps.map(createQuestionStep);
 };
 
+const buildInteractives = async (
+  ctx: ReflectContext,
+  forceRebuild = false,
+) => {};
+
+const welcomeBack = [
+  "welcome back.",
+  "we hope you've enjoyed your respite.",
+  "let's not forget what we're here for.",
+  "ready to jump back in?",
+  "ok. let's go.",
+];
+const welcome = [
+  "welcome",
+  "be honest. do you know yourself?",
+  "the outside is merely a reflection of the inside.",
+  "are you ready to reflect?",
+  "ok. let's get started.",
+];
+
 export const buildSteps = async (
   ctx: ReflectContext,
   forceRebuild = false,
-  // biome-ignore lint/suspicious/noExplicitAny: im sorry
+  // biome-ignore lint/suspicious/noExplicitAny: im NOT sorry
 ): Promise<Step<any>[]> => {
   return [
-    createTextStep(WELCOME_ID, [
-      ctx.started_at ? "welcome back." : "welcome.",
-      ctx.started_at ? "swag" : "bag",
-      "before we begin, a quick note: this isn't a test. there are no right or wrong answers. just be honest with yourself and have fun.",
-      "are you ready to begin?",
-      "ok. let's get started.",
-    ]),
+    createTextStep(WELCOME_ID, ctx.started_at ? welcomeBack : welcome),
     ...(await buildQuestions(ctx, forceRebuild)),
     createTextStep("goodbye", ["thank you for participating."], true),
   ];

@@ -1,5 +1,6 @@
 import { fastIsEqual as equals } from "fast-is-equal";
 import { type IObservableValue, observable, runInAction } from "mobx";
+import type { Button } from "@/components/atoms/button";
 import { isLogImg, l, pL, pR, s } from "@/utils/log";
 
 export type ControlType =
@@ -51,6 +52,10 @@ export type Control<T extends ControlType> = {
   type?: T;
   value: IObservableValue<ControlTypeValue<T>> | undefined;
   options?: T extends "select" ? string[] | number[] : never;
+  label?: React.ReactElement;
+  actionProps?: T extends "action"
+    ? React.ComponentProps<typeof Button>
+    : never;
   beforeChange?: ControlGuard<T>;
   onChange?: ControlChangeHandler<T>;
   /** Log this control's changes (commit/cancel/pending) to the console. */
@@ -135,6 +140,11 @@ export function createControlContext<K extends string>() {
   const handlers = new Map<K, ControlChangeHandler<ControlType> | undefined>();
   const logFlags = new Map<K, boolean | undefined>();
   const lastProp = new Map<K, ControlValue | undefined>();
+  const actionComponents = new Map<
+    K,
+    | Pick<React.ComponentProps<typeof Button>, "children" | "loadingIndicator">
+    | undefined
+  >();
 
   // --- ordering + grouping bookkeeping ---
   // A control belongs to a hook *instance* (one `useControl` call). Its visual
@@ -184,6 +194,12 @@ export function createControlContext<K extends string>() {
     guards.set(key, control.beforeChange as ControlGuard<ControlType>);
     handlers.set(key, control.onChange as ControlChangeHandler<ControlType>);
     logFlags.set(key, control.log);
+    if (control.actionProps) {
+      actionComponents.set(key, {
+        children: control.actionProps.children,
+        loadingIndicator: control.actionProps.loadingIndicator,
+      });
+    }
   };
 
   const registerControl = <T extends ControlType>(
@@ -208,6 +224,13 @@ export function createControlContext<K extends string>() {
     const initial = control.value ?? getDefaultControlValue(type);
     lastProp.set(key, control.value);
     lastProp.set(`${key}_disabled` as K, control.disabled);
+
+    let actionProps: React.ComponentProps<typeof Button> | undefined;
+    if (type === "action" && control.actionProps) {
+      const { children, loadingIndicator, ...rest } = control.actionProps;
+      actionProps = rest as React.ComponentProps<typeof Button>;
+    }
+
     runInAction(() => {
       context.registeredControls[key] = {
         type,
@@ -215,6 +238,8 @@ export function createControlContext<K extends string>() {
         value: observable.box(initial),
         pending: false,
         disabled: observable.box(control.disabled ?? false),
+        label: control.label,
+        actionProps,
       } as Control<ControlType>;
     });
   };
@@ -252,6 +277,19 @@ export function createControlContext<K extends string>() {
     ) {
       lastProp.set(`${key}_disabled` as K, control.disabled);
       runInAction(() => entry.disabled?.set(control.disabled as boolean));
+    }
+
+    if (control.type === "action" && control.actionProps) {
+      const { children, loadingIndicator, ...rest } = control.actionProps;
+      runInAction(() => {
+        entry.actionProps = rest as React.ComponentProps<typeof Button>;
+      });
+    }
+
+    if (control.label !== entry.label) {
+      runInAction(() => {
+        entry.label = control.label;
+      });
     }
   };
 
@@ -440,6 +478,12 @@ export function createControlContext<K extends string>() {
     return segments;
   };
 
+  const getActionComponents = (
+    key: K,
+  ): React.ComponentProps<typeof Button> | undefined => {
+    return actionComponents.get(key);
+  };
+
   return {
     context,
     registerControl,
@@ -448,6 +492,7 @@ export function createControlContext<K extends string>() {
     setControlValue,
     setGroupMeta,
     orderedGroups,
+    getActionComponents,
   };
 }
 

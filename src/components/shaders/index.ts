@@ -1,3 +1,4 @@
+export * from "./ascii-wave";
 export * from "./balatro";
 export * from "./dither";
 export * from "./evil-eye";

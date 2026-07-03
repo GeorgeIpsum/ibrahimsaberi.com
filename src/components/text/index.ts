@@ -1,5 +1,7 @@
-export * from "./gradient-text-reveal";
-export * from "./hello";
-export * from "./loading-text";
-export * from "./token-stream";
-export * from "./wave";
+export { CircularText } from "./circular-text";
+export * from "./curved-text";
+export { GradientTextReveal } from "./gradient-text-reveal";
+export { Hello } from "./hello";
+export { LoadingText } from "./loading-text";
+export { TokenStream, type TokenStreamProps } from "./token-stream";
+export { Wave } from "./wave";

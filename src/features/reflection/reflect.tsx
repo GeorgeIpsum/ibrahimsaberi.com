@@ -115,6 +115,20 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
         value: null,
         log: true,
         disabled: !steps,
+        actionProps: {
+          children: (
+            <>
+              {steps ? (
+                <span>
+                  {reflectContext?.qs?.map((q) => q.a).filter(Boolean).length}{" "}
+                  done
+                </span>
+              ) : (
+                <span>not started</span>
+              )}
+            </>
+          ),
+        },
         beforeChange: async () => {
           setSteps(await buildSteps(reflectContext as ReflectContext, true));
         },
@@ -124,6 +138,10 @@ export const Reflect_: React.FC<ReflectProps> = ({ searchParams }) => {
         type: "action",
         value: null,
         log: true,
+        disabled: !reflectKey,
+        actionProps: {
+          title: "let it burn",
+        },
         beforeChange: async () => {
           const [res] = await Promise.all([
             fetch("/api/reflection", {
