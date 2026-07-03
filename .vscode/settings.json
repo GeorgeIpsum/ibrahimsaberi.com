@@ -11,13 +11,16 @@
     "strings": "on"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+    "source.fixAll.biome": "explicit"
   },
-  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "files.watcherExclude": {
     "**/node_modules/**": true,
     "**/dist/**": true,
-    "**/.next/**": true
+    "**/.next/**": true,
+    "scraped/**": true
+  },
+  "search.exclude": {
+    "scraped": true
   },
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
