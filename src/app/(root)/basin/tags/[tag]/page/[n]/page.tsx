@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
-import { countPosts, listPosts, listTags } from "@/features/basin/load-post";
+import { countRipples, listRipples, listRippleTags } from "@/features/basin/ripples";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
 
 type Props = {
@@ -11,10 +11,10 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const tags = await listTags();
+  const tags = await listRippleTags();
   const params: { tag: string; n: string }[] = [];
   for (const tag of tags) {
-    const total = await countPosts({ tag });
+    const total = await countRipples({ tag });
     const totalPages = Math.max(1, Math.ceil(total / POSTS_PER_PAGE));
     // Page 1 lives at /basin/tags/<tag>; emit 2…totalPages.
     for (let i = 2; i <= totalPages; i++) {
@@ -49,13 +49,13 @@ export default async function TaggedBasinPaginatedIndex({ params }: Props) {
     notFound();
   }
 
-  const total = await countPosts({ tag });
+  const total = await countRipples({ tag });
   const page = makePageInfo(pageNumber, total);
   if (page.pageNumber !== pageNumber) {
     notFound();
   }
 
-  const posts = await listPosts({
+  const posts = await listRipples({
     tag,
     skip: (pageNumber - 1) * POSTS_PER_PAGE,
     take: POSTS_PER_PAGE,

@@ -3,14 +3,14 @@ import { Separator } from "@/components/atoms/separator";
 import { Title } from "@/components/structure/title";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
-import { countPosts, listPosts } from "@/features/basin/load-post";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
+import { countRipples, listRipples } from "@/features/basin/ripples";
 import { ASCII_WAVE } from "@/utils/ascii";
 
 export default async function BasinIndex() {
   const [posts, total] = await Promise.all([
-    listPosts({ take: POSTS_PER_PAGE }),
-    countPosts(),
+    listRipples({ take: POSTS_PER_PAGE }),
+    countRipples(),
   ]);
   const page = makePageInfo(1, total);
 

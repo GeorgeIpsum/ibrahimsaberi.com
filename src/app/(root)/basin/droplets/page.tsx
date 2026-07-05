@@ -1,50 +1,65 @@
-import { Droplet } from "lucide-react";
-import { UnderConstruction } from "@/components/navigation/under-construction";
+import { Separator } from "@/components/atoms/separator";
 import { Title } from "@/components/structure/title";
+import { DropletStreamItem } from "@/features/basin/components/droplet-stream-item";
+import { PaginationControls } from "@/features/basin/components/pagination-controls";
+import { countDroplets, listDroplets } from "@/features/basin/droplets";
+import { DROPLETS_PER_PAGE, makePageInfo } from "@/features/basin/pagination";
 
-export default function Page() {
+const DROP = `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠃⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡆⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣆⡀⠙⠻⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠶⠶⠶⠾⠿⠛⠋⠀⠀⠀⠀⠀⠀`;
+
+export default async function Page() {
+  const [droplets, total] = await Promise.all([
+    listDroplets({ take: DROPLETS_PER_PAGE }),
+    countDroplets(),
+  ]);
+  const page = makePageInfo(1, total, DROPLETS_PER_PAGE);
+
   return (
     <>
       <Title
         containerClassName="group flex w-auto items-center gap-2"
-        className="relative -left-6 cursor-default"
         title="humming whispers"
-        adornment={
-          <Droplet
-            className="size-12 rounded-full bg-radial from-transparent to-amber-500/10 text-highlight opacity-10 shadow-amber-900/50 shadow-inner blur-[2px] transition-all duration-500 group-hover:opacity-30 group-hover:blur-none"
-            aria-hidden="true"
-          />
-        }
+        art={{
+          ascii: DROP.split("\n")
+            .map((line) => line.repeat(4))
+            .join("\n"),
+          anchor: "bottom-left",
+          offset: { x: 8, y: 0 },
+          opacity: {
+            start: 1,
+            end: 0,
+            direction: "bottom-left-to-top-right",
+          },
+        }}
       >
-        <span className="opacity-50 transition-all duration-500 group-hover:opacity-100">
-          d
-        </span>
-        <span className="opacity-55 transition-all duration-500 group-hover:opacity-100">
-          r
-        </span>
-        <span className="opacity-70 transition-all duration-500 group-hover:opacity-100">
-          o
-        </span>
-        <span className="opacity-85 transition-all duration-500 group-hover:opacity-100">
-          p
-        </span>
-        <span className="opacity-90 transition-all duration-500 group-hover:opacity-100">
-          l
-        </span>
-        <span className="opacity-100 transition-all duration-500 group-hover:opacity-100">
-          e
-        </span>
-        <span className="opacity-100 transition-all duration-500 group-hover:opacity-100">
-          t
-        </span>
-        <span className="opacity-100 transition-all duration-500 group-hover:opacity-100">
-          s
-        </span>
+        droplets
       </Title>
 
-      <UnderConstruction title="Droplets">
-        <p>Journals coming soon...</p>
-      </UnderConstruction>
+      {droplets.length === 0 ? (
+        <p className="text-muted-foreground italic">Nothing yet.</p>
+      ) : (
+        <>
+          <section className="space-y-6">
+            {droplets.map((droplet) => (
+              <DropletStreamItem key={droplet.slug} droplet={droplet} />
+            ))}
+          </section>
+          <Separator className="-mx-2 mt-8 data-[orientation=horizontal]:w-[calc(100%+1rem)] md:-mx-4 md:data-[orientation=horizontal]:w-[calc(100%+2rem)]" />
+          <PaginationControls page={page} basePath="/basin/droplets" />
+        </>
+      )}
     </>
   );
 }

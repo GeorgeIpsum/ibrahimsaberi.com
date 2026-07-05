@@ -1,7 +1,7 @@
 import "server-only";
 import { Feed } from "feed";
 import type { headers as nextHeaders } from "next/headers";
-import { listPosts } from "./load-post";
+import { listRipples } from "./ripples";
 
 const FALLBACK_HOST = "ibrahimsaberi.com";
 const SITE_TITLE = "Don't Drown";
@@ -42,7 +42,7 @@ export async function buildFeed(origin: string): Promise<Feed> {
     },
   });
 
-  const posts = await listPosts();
+  const posts = await listRipples();
   for (const post of posts) {
     if (post.frontmatter.draft) continue;
 

@@ -4,12 +4,8 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
-import {
-  AUTHOR_TIMEZONE,
-  listPosts,
-  loadRipple,
-  loadRippleMeta,
-} from "@/features/basin/load-post";
+import { AUTHOR_TIMEZONE } from "@/features/basin/load-section";
+import { listRipples, loadRipple, loadRippleMeta } from "@/features/basin/ripples";
 import { BasinEntranceScript } from "./basin-entrance-script";
 
 type Props = {
@@ -17,7 +13,7 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const posts = await listPosts();
+  const posts = await listRipples();
   return posts
     .filter(
       (post) =>

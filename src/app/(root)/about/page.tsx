@@ -18,6 +18,7 @@ import {
 } from "@/components/atoms/preview-card";
 import { GradientTextReveal, Hello } from "@/components/text";
 
+// technically only captured at build time, but i can get around this by triggering a force rebuild on new years every year
 const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Page() {
@@ -392,8 +393,8 @@ const faqs: FAQ[] = [
     id: "basin_vs_reservoir",
   },
   {
-    question: "Wouldn't a reflection of a reflection be the original?",
-    answer: "angles are crazy, man",
+    question: "Wouldn't the reflection of a reflection be the original?",
+    answer: "angles, erneh",
     id: "reflect",
   },
   {

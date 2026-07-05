@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { listPosts } from "@/features/basin/load-post";
+import { listRipples } from "@/features/basin/ripples";
 
 export default async function Page() {
-  const posts = await listPosts();
+  const posts = await listRipples();
 
   const tags = posts.reduce(
     (acc, prev) => {

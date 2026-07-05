@@ -16,6 +16,8 @@ export const validateReflection = (cookie: string | undefined) => {
     if (parsed.challenge) {
       // TODO: this needs to actually match the challenge that was set, but for now just check that it's a string
       return true;
+    } else if (parsed.completed_at) {
+      return true;
     }
   } catch {}
 

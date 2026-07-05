@@ -1,4 +1,5 @@
 export const POSTS_PER_PAGE = 8;
+export const DROPLETS_PER_PAGE = 10;
 
 export type PageInfo = {
   pageNumber: number;

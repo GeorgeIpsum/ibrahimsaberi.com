@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
-import { countPosts, listPosts, listTags } from "@/features/basin/load-post";
+import { countRipples, listRipples, listRippleTags } from "@/features/basin/ripples";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 // Only generate routes for tags that actually appear in at least one post.
 export async function generateStaticParams() {
-  const tags = await listTags();
+  const tags = await listRippleTags();
   return tags.map((tag) => ({ tag }));
 }
 
@@ -29,8 +29,8 @@ export default async function TaggedBasinIndex({ params }: Props) {
   const tag = decodeURIComponent(rawTag);
 
   const [posts, total] = await Promise.all([
-    listPosts({ tag, take: POSTS_PER_PAGE }),
-    countPosts({ tag }),
+    listRipples({ tag, take: POSTS_PER_PAGE }),
+    countRipples({ tag }),
   ]);
   const page = makePageInfo(1, total);
 

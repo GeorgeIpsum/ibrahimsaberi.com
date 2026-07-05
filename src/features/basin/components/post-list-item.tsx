@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { cn } from "@/css/lib";
-import { AUTHOR_TIMEZONE } from "../load-post";
+import { AUTHOR_TIMEZONE } from "../load-section";
 import type { PostListEntry } from "../types";
 import { PostTags } from "./post-tag";
 

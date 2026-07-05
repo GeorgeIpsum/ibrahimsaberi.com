@@ -3,6 +3,9 @@ import path from "node:path";
 // Every published post's filename is `YYYY-MM-DD-<slug>.mdx`. The filename
 // date is the source of truth for publishedAt and sort order.
 const FILE_PATTERN = /^(\d{4}-\d{2}-\d{2})-(.+)\.mdx$/;
+// Sections with optional slugs (droplets) also accept bare `YYYY-MM-DD.mdx`;
+// the date doubles as the slug.
+const DATE_ONLY_PATTERN = /^(\d{4}-\d{2}-\d{2})\.mdx$/;
 // A folder counts as a year folder only if it is exactly four digits, and a
 // month folder only if exactly two digits. Numeric-shaped-but-wrong is an
 // invalid placement; non-numeric is an unrecognized location (skipped).
@@ -25,15 +28,28 @@ export type ClassifiedPath =
  * `file` is the path normalized to POSIX separators, safe for both
  * `path.join` and the `import("@/basin/...")` specifier.
  */
-export function classifyContentPath(relativePath: string): ClassifiedPath {
+export function classifyContentPath(
+  relativePath: string,
+  opts: { slugOptional?: boolean } = {},
+): ClassifiedPath {
   const segments = relativePath.split(path.sep);
   const filename = segments[segments.length - 1];
   const dirs = segments.slice(0, -1);
   const file = segments.join("/");
 
+  let dateStr: string;
+  let slug: string;
   const match = filename.match(FILE_PATTERN);
-  if (!match) return { kind: "skip" };
-  const [, dateStr, slug] = match;
+  if (match) {
+    [, dateStr, slug] = match;
+  } else {
+    const dateOnly = opts.slugOptional
+      ? filename.match(DATE_ONLY_PATTERN)
+      : null;
+    if (!dateOnly) return { kind: "skip" };
+    dateStr = dateOnly[1];
+    slug = dateStr;
+  }
   const [year, month] = dateStr.split("-");
 
   if (dirs.length === 0) {

@@ -1,13 +1,14 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { listPosts, loadRippleMeta } from "@/features/basin/load-post";
+import { sectionDir } from "@/features/basin/load-section";
+import { listRipples, loadRippleMeta } from "@/features/basin/ripples";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
-  const posts = await listPosts();
+  const posts = await listRipples();
   return posts.map((p) => ({ slug: p.slug }));
 }
 
@@ -19,7 +20,7 @@ export async function GET(_request: Request, { params }: Props) {
       status: 404,
     });
   const raw = await readFile(
-    path.join(process.cwd(), "src/content", `${meta.basename}.mdx`),
+    path.join(sectionDir("ripples"), `${meta.basename}.mdx`),
     "utf-8",
   );
   return new Response(raw, {
