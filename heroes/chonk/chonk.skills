@@ -14,10 +14,6 @@
   cooldown: 30
   cost: /1
 - name: "Mind's Eye"
-  type: passive
-  effect: ins*1.5
-  desc: "Increases insight by 50%."
+  unique: false
 - name: "Steel Plate"
-  type: passive
-  effect: def*1.2
-  desc: "Increases defense by 20%."
+  unique: false
