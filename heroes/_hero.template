@@ -1,0 +1,9 @@
+hero: <STRING>
+faction: <silver|gold|black>
+attr: <mag|mek|bio|psy>
+base_stats:
+  ///reference:_stat.template
+stat_growth:
+  ///reference:_stat.template
+skills:
+  - ///reference:_skill.template

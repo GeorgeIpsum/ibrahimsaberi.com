@@ -1,0 +1,17 @@
+hero: chonk
+faction: silver
+attr: mag
+base_stats:
+  vit: 12
+  flx: 7
+  def: 8
+  pow: 4
+  ins: 9
+  spd: 5
+stat_growth:
+  vit: [0.9,1.1]
+  flx: [0.2,0.2]
+  def: [0.6,1.0]
+  pow: [0.2,0.6]
+  ins: [1.4,1.9]
+  spd: [0.4,0.6]
