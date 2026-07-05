@@ -6,7 +6,8 @@ import {
   ChevronsUpDownIcon,
 } from "lucide-react";
 import type * as React from "react";
-import { DayPicker } from "react-day-picker";
+import { type CustomComponents, DayPicker } from "react-day-picker";
+import { Button } from "@/components/atoms/button";
 import { cn } from "@/css/lib";
 
 const buttonClassNames =
@@ -70,19 +71,21 @@ export function Calendar({
     { ...defaultClassNames } as typeof defaultClassNames,
   );
 
-  const defaultComponents = {
+  const defaultComponents: Partial<CustomComponents> = {
     Chevron: ({
       className,
       orientation,
+      disabled = false,
       ...props
-    }: {
-      className?: string;
-      orientation?: "left" | "right" | "up" | "down";
     }): React.ReactElement => {
       if (orientation === "left") {
         return (
           <ChevronLeftIcon
-            className={cn(className, "rtl:rotate-180")}
+            className={cn(
+              className,
+              "rtl:rotate-180",
+              disabled && "opacity-50",
+            )}
             {...props}
             aria-hidden="true"
           />
@@ -92,7 +95,11 @@ export function Calendar({
       if (orientation === "right") {
         return (
           <ChevronRightIcon
-            className={cn(className, "rtl:rotate-180")}
+            className={cn(
+              className,
+              "rtl:rotate-180",
+              disabled && "opacity-50",
+            )}
             {...props}
             aria-hidden="true"
           />
@@ -101,12 +108,20 @@ export function Calendar({
 
       return (
         <ChevronsUpDownIcon
-          className={className}
+          className={cn(className, disabled && "opacity-50")}
           {...props}
           aria-hidden="true"
         />
       );
     },
+    NextMonthButton: ({ className, disabled, ...props }) => (
+      <Button
+        variant="ghost"
+        size="icon-lg"
+        className={cn(className, disabled && "cursor-not-allowed")}
+        {...props}
+      />
+    ),
   };
 
   const mergedComponents = {
@@ -125,7 +140,7 @@ export function Calendar({
     formatters: {
       formatMonthDropdown: (date: Date) =>
         date.toLocaleString("default", { month: "short" }),
-    } as React.ComponentProps<typeof DayPicker>["formatters"],
+    } satisfies React.ComponentProps<typeof DayPicker>["formatters"],
     mode,
     showOutsideDays,
     ...props,

@@ -1,24 +1,49 @@
+"use client";
+
 import { useEffect } from "react";
 import { type ColorTokens, tokenVarMap } from "./types";
 
-export const useCustomTheme = (tokens: ColorTokens) => {
-  useEffect(() => {
-    const entries = Object.entries(tokens);
+const customThemeStyleExists = (name: string) =>
+  [...document.styleSheets].some((sheet) =>
+    [...sheet.cssRules].some((css) => {
+      return css.cssText.includes(
+        `:root[data-theme="custom"][data-custom-theme="${name}"]`,
+      );
+    }),
+  );
 
+export const useCustomTheme = (name: string, tokens?: ColorTokens) => {
+  useEffect(() => {
+    const entries = Object.entries(tokens ?? {});
     const originalTheme = document.documentElement.dataset.theme;
-    if (entries.length > 0) {
-      document.documentElement.dataset.theme = "custom";
+    const originalCustomTheme = document.documentElement.dataset.customTheme;
+
+    if (
+      originalCustomTheme === name &&
+      originalTheme === "custom" &&
+      entries.length === 0
+    ) {
+      return;
     }
 
-    entries.forEach(([token, value]) => {
-      const cssVar = tokenVarMap[token as keyof ColorTokens];
-      if (cssVar) {
-        document.documentElement.style.setProperty(cssVar, value);
-      }
-    });
+    if (entries.length > 0 || customThemeStyleExists(name)) {
+      document.documentElement.dataset.theme = "custom";
+      document.documentElement.dataset.customTheme = name;
+      console.log(document.documentElement.dataset.theme);
 
-    return () => {
-      document.documentElement.dataset.theme = originalTheme;
-    };
-  }, [tokens]);
+      entries.forEach(([token, value]) => {
+        const cssVar = tokenVarMap[token as keyof ColorTokens];
+        if (cssVar) {
+          document.documentElement.style.setProperty(cssVar, value);
+        }
+      });
+
+      return () => {
+        document.documentElement.dataset.theme = originalTheme;
+        document.documentElement.dataset.customTheme = originalCustomTheme;
+      };
+    } else {
+      console.warn(`No CSS rules found for custom theme "${name}".`);
+    }
+  }, [name, tokens]);
 };

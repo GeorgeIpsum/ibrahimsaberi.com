@@ -114,6 +114,7 @@ export const Stepper: React.FC<SequencerProps> = ({
         value={{
           currentIndex,
           step: currentStep,
+          steps,
           next,
           speedSettings,
           toggleSpeed,

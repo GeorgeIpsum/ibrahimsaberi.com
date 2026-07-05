@@ -3,6 +3,8 @@ import { ModifiableLightRays } from "@/components/backgrounds";
 import { Reflect_ } from "@/features/reflection";
 import { ReflectTheme } from "@/features/reflection/reflect-theme";
 
+import "./theme.css";
+
 export default async function Page({
   searchParams,
 }: {

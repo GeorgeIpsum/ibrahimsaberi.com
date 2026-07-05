@@ -3,6 +3,7 @@ import type { Step } from "./types";
 
 export interface StepperContextValue {
   currentIndex: number;
+  steps: Step[];
   step: Step;
   next: (result?: unknown) => Promise<boolean>;
   speedSettings: {

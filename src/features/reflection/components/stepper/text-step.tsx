@@ -71,15 +71,13 @@ export const TextStep: React.FC<TextStepProps> = ({ text, isFinal }) => {
           <TextStream
             key={currentIndex}
             text={text[currentIndex]}
-            className="mb-16 font-mono text-amber-50 lowercase"
-            hideCaret
-            delayMs={2000}
-            speedMs={speedSettings.speed as [number, number]}
-            tokenize={(text) => text.split("")}
+            className="mb-16"
             onComplete={onComplete}
           />
         </motion.div>
       </AnimatePresence>
+
+      {/* need to figure out how t ohave the continue component accept multivariant boolean state that doesnt make the API STUPID */}
       {!isFinal && (
         <AnimatePresence>
           <motion.div

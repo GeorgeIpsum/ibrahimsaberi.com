@@ -1,10 +1,10 @@
 import chroma from "chroma-js";
-import { ChevronsDown } from "lucide-react";
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/atoms/button";
 import { CurvedText, type CurvedTextPhase } from "@/components/text";
 import { cn } from "@/css/lib";
+import { polarToCartesian } from "@/utils/math";
 import {
   clampedNumber,
   coinFlip,
@@ -12,6 +12,7 @@ import {
   randomArrayMembers,
 } from "@/utils/rand";
 import { carvingColor, type Question } from "../../questions";
+import { Continue } from "../continue";
 import { TextStream } from "../text-stream";
 import { useStepperContext } from "./context";
 import type { Step } from "./types";
@@ -55,7 +56,6 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
   const [sequenceDone, setSequenceDone] = useState(false);
   const choiceStyle = useRef(pickRandomStyle(question.choose));
   const startTime = useRef(Date.now());
-  const [f] = useState(1);
 
   const choices = useRef(
     (() => {
@@ -124,11 +124,6 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
           <TextStream
             key={question.id}
             text={question.q}
-            className="font-mono text-amber-50 lowercase"
-            hideCaret
-            delayMs={2000}
-            speedMs={speedSettings.speed as [number, number]}
-            tokenize={(text) => text.split("")}
             onComplete={() => setShowChoices(true)}
           />
         </motion.div>
@@ -243,7 +238,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                             style={{
                               backgroundImage: choice.c
                                 .map((c, i, { length }) => {
-                                  const { x, y } = polarToXY(
+                                  const { x, y } = polarToCartesian(
                                     24,
                                     (i / length) * Math.PI * 2,
                                   );
@@ -259,7 +254,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
                               backgroundPosition: "66% 66%",
                               boxShadow: `0 0 8px #000000BB, ${choice.c
                                 .map((c, i, { length }) => {
-                                  const { x, y } = polarToXY(
+                                  const { x, y } = polarToCartesian(
                                     42,
                                     1 + (i / length) * Math.PI * 2,
                                   );
@@ -316,54 +311,7 @@ export const QuestionStep: React.FC<{ question: Question }> = ({
         </AnimatePresence>
       </div>
 
-      <AnimatePresence>
-        {canMoveNext && (
-          <motion.div
-            className="absolute right-2 bottom-2 left-2 flex items-center justify-center"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            {
-              <ChevronsDown
-                className={cn(
-                  "size-5 w-full transition-all duration-500 md:size-4",
-                  !chosenChoice
-                    ? "cursor-not-allowed"
-                    : "animate-bounce cursor-e-resize text-amber-50",
-                )}
-                style={
-                  {
-                    "--bounce-distance": "-10%",
-                    "--animation-duration": "1.5s",
-                  } as React.CSSProperties
-                }
-              />
-            }
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <button
-        disabled={!canMoveNext}
-        type="button"
-        className={cn(
-          "absolute inset-0 z-10 rounded-lg bg-transparent outline-none transition-all",
-          !canMoveNext
-            ? "pointer-events-none opacity-0"
-            : "gradient-border cursor-e-resize after:animate-pulse",
-        )}
-        style={
-          {
-            "--pulse-from-opacity": "0",
-            "--pulse-to-opacity": "0.3",
-            "--animation-duration": "3s",
-            "--gradient-border-background":
-              "radial-gradient(circle at bottom center, color-mix(in oklab, var(--color-amber-300) 100%, transparent 20%), transparent 80%)",
-          } as React.CSSProperties
-        }
-        onClick={moveNext}
-      />
+      <Continue show={canMoveNext} onClick={moveNext} />
     </>
   );
 };
@@ -533,10 +481,4 @@ const shuriken = (index: number) => {
     case 3:
       return { bottom: -10, right: -30 };
   }
-};
-
-const polarToXY = (r: number, theta: number) => {
-  const x = r * Math.cos(theta);
-  const y = r * Math.sin(theta);
-  return { x, y };
 };

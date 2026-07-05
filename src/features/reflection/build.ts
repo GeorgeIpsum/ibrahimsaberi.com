@@ -3,6 +3,8 @@ import { createQuestionStep } from "./components/stepper/question-step";
 import { createTextStep } from "./components/stepper/text-step";
 import type { Step } from "./components/stepper/types";
 import type { ReflectContext } from "./context";
+import { clickStep } from "./interactive-steps/click";
+import { zodiacStep } from "./interactive-steps/zodiac/zodiac";
 import { isQuestion, type Question, questions } from "./questions";
 
 const WELCOME_ID = "welcome" as const;
@@ -43,9 +45,19 @@ const buildQuestions = (ctx: ReflectContext, forceRebuild = false) => {
 };
 
 const buildInteractives = (ctx: ReflectContext, forceRebuild = false) => {
+  const steps: Step[] = [];
+  const shouldUpdate = false;
+  if (
+    !ctx.qs ||
+    ctx.qs?.some(({ id, a }) => id === "click" && a === undefined) ||
+    forceRebuild
+  ) {
+    steps.push(clickStep());
+  }
+
   return {
-    steps: [],
-    shouldUpdate: false,
+    steps: steps,
+    shouldUpdate: shouldUpdate || forceRebuild,
   };
 };
 
@@ -91,7 +103,7 @@ export const buildSteps = async (
   // biome-ignore lint/suspicious/noExplicitAny: im NOT sorry
 ): Promise<Step<any>[]> => {
   if (ctx.completed_at) {
-    return [createTextStep("get lost", ["GET LOST"], true)];
+    return [createTextStep("get-lost", ["GET LOST"], true)];
   }
 
   const questions = buildQuestions(ctx, forceRebuild);
@@ -111,7 +123,9 @@ export const buildSteps = async (
 
   return [
     createTextStep(WELCOME_ID, ctx.started_at ? welcomeBack : welcome),
+    zodiacStep(),
     ...interleavedSteps,
     createTextStep("goodbye", ["thank you for participating."], true),
-  ];
+    // biome-ignore lint/suspicious/noExplicitAny: NO
+  ] satisfies Step<any>[];
 };

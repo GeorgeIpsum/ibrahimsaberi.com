@@ -261,6 +261,19 @@
     }
   }
 
+  --animate-spin: spin var(--animation-duration, 1s)
+    var(--animation-timing-function, linear) var(--animation-delay, 0s)
+    var(--animation-direction, normal) var(--animation-iteration, infinite)
+    var(--animation-fill-mode, both);
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   /* unset this crap */
   --color-red-*: initial;
   --color-orange-*: initial;
