@@ -45,16 +45,7 @@ export default async function Page() {
         <ScrollArea className="py-2" scrollFade scrollbarGutter>
           <div className="flex w-fit gap-3">
             {ripples.map((ripple) => (
-              <div
-                key={ripple.slug}
-                className="gradient-border relative h-30 w-48 rounded px-3 py-1 md:w-64"
-                style={
-                  {
-                    "--gradient-border-background":
-                      "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
-                  } as React.CSSProperties
-                }
-              >
+              <ItemContainer key={ripple.slug}>
                 <Link href={`/basin/${ripple.slug}`}>
                   <h3
                     className="line-clamp-1 text-base transition-colors hover:text-foreground-high-contrast"
@@ -76,24 +67,12 @@ export default async function Page() {
                     },
                   )}
                 </time>
-                <p className="mt-2 text-xs">{ripple.frontmatter.blurb}</p>
-              </div>
+                <p className="mt-2 line-clamp-3 text-xs md:line-clamp-4">
+                  {ripple.frontmatter.blurb}
+                </p>
+              </ItemContainer>
             ))}
-            <div className="flex items-center justify-center">
-              <Link
-                href="/basin"
-                className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
-              >
-                {/* lol. lmao even */}
-                <CurvedText
-                  text="r  e  a  d      m  o  r  e      "
-                  size={36}
-                  phase="ring"
-                  onHover="goBonkers"
-                />
-                <ChevronsRight className="absolute size-4" />
-              </Link>
-            </div>
+            <More text="read more" />
           </div>
         </ScrollArea>
       </section>
@@ -104,16 +83,7 @@ export default async function Page() {
         <ScrollArea className="py-2" scrollFade scrollbarGutter>
           <div className="flex w-fit gap-3">
             {repos.map((repo) => (
-              <div
-                key={repo.name}
-                className="gradient-border relative h-30 w-48 rounded px-3 py-1 md:w-64"
-                style={
-                  {
-                    "--gradient-border-background":
-                      "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
-                  } as React.CSSProperties
-                }
-              >
+              <ItemContainer key={repo.name}>
                 <Link
                   href={repo.href}
                   target="_blank"
@@ -127,23 +97,9 @@ export default async function Page() {
                   </h3>
                 </Link>
                 <p className="mt-2 text-xs">{repo.description}</p>
-              </div>
+              </ItemContainer>
             ))}
-            <div className="flex items-center justify-center">
-              <Link
-                href="/reservoir"
-                className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
-              >
-                {/* lol. lmao even */}
-                <CurvedText
-                  text="s  e  e      m  o  r  e      "
-                  size={36}
-                  phase="ring"
-                  onHover="goBonkers"
-                />
-                <ChevronsRight className="absolute size-4" />
-              </Link>
-            </div>
+            <More text="more repos" />
           </div>
         </ScrollArea>
       </section>
@@ -166,11 +122,46 @@ export default async function Page() {
   );
 }
 
+const ItemContainer: React.FC<React.PropsWithChildren> = ({ children }) => (
+  <div
+    className="gradient-border relative h-30 w-52 rounded px-3 py-1 md:w-64"
+    style={
+      {
+        "--gradient-border-background":
+          "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
+      } as React.CSSProperties
+    }
+  >
+    {children}
+  </div>
+);
+
+const More: React.FC<{ text: string }> = ({ text }) => (
+  <div className="flex items-center justify-center">
+    <Link
+      href="/reservoir"
+      className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
+    >
+      {/* lol. lmao even */}
+      <CurvedText
+        text={`${text
+          .split(" ")
+          .map((word) => word.split("").join("  "))
+          .join("      ")}     `}
+        size={36}
+        phase="ring"
+        onHover="goBonkers"
+      />
+      <ChevronsRight className="absolute size-4" />
+    </Link>
+  </div>
+);
+
 const repos = [
   {
     name: "ibrahimsaberi.com",
     href: "https://github.com/GeorgeIpsum/ibrahimsaberi.com",
-    description: "you are here",
+    description: "YOU ARE HERE 👈",
   },
   {
     name: "prisma-json-field-validate",
