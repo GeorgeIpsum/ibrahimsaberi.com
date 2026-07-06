@@ -117,6 +117,7 @@ export default async function Page() {
       </section>
       <section>
         <h2 className="text-xl">A Whisper. A Wave.</h2>
+        More on this later I promise
       </section>
     </div>
   );
@@ -159,11 +160,6 @@ const More: React.FC<{ text: string }> = ({ text }) => (
 
 const repos = [
   {
-    name: "ibrahimsaberi.com",
-    href: "https://github.com/GeorgeIpsum/ibrahimsaberi.com",
-    description: "YOU ARE HERE 👈",
-  },
-  {
     name: "prisma-json-field-validate",
     href: "https://github.com/GeorgeIpsum/prisma-json-field-validate",
     description:
@@ -173,6 +169,11 @@ const repos = [
     name: "prisma-arktype",
     href: "https://github.com/GeorgeIpsum/prisma-arktype",
     description: "arktype schema generation for prisma schemas",
+  },
+  {
+    name: "ibrahimsaberi.com",
+    href: "https://github.com/GeorgeIpsum/ibrahimsaberi.com",
+    description: "YOU ARE HERE 👈",
   },
   {
     name: "next-color-schema",
