@@ -644,6 +644,7 @@
     inset: 0;
     padding: 1px;
     border-radius: inherit;
+    pointer-events: none;
     background-image: var(
       --gradient-border-background,
       linear-gradient(

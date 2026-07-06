@@ -1,4 +1,9 @@
+import { ChevronsRight } from "lucide-react";
+import Link from "next/link";
+import { ScrollArea } from "@/components/atoms/scroll-area";
 import { Title } from "@/components/structure/title";
+import { CurvedText } from "@/components/text";
+import { listRipples } from "@/features/basin/ripples";
 
 const ASCII_ART = `       _..._
      .::'   \`.
@@ -8,7 +13,9 @@ const ASCII_ART = `       _..._
       \`':..-'
 `;
 
-export default function Page() {
+export default async function Page() {
+  const ripples = await listRipples({ take: 5 });
+
   return (
     <div className="mb-4 flex flex-col gap-4 text-sm">
       <div className="relative -mx-4 overflow-hidden rounded-2xl">
@@ -31,17 +38,126 @@ export default function Page() {
         <h2 className="text-xl">A Website</h2>
         <div>I love hacking. I hate yakking.</div>
       </section>
-      <section>
-        <h2 className="text-xl">A Basin</h2>
+      <section className="w-full overflow-x-hidden">
+        <Link href="/basin" className="hover:text-foreground-high-contrast">
+          <h2 className="text-xl">A Basin</h2>
+        </Link>
+        <ScrollArea className="py-2" scrollFade scrollbarGutter>
+          <div className="flex w-fit gap-3">
+            {ripples.map((ripple) => (
+              <div
+                key={ripple.slug}
+                className="gradient-border relative h-30 w-48 rounded px-3 py-1 md:w-64"
+                style={
+                  {
+                    "--gradient-border-background":
+                      "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
+                  } as React.CSSProperties
+                }
+              >
+                <Link href={`/basin/${ripple.slug}`}>
+                  <h3
+                    className="line-clamp-1 text-base transition-colors hover:text-foreground-high-contrast"
+                    title={`${ripple.frontmatter.title}\n\n${ripple.frontmatter.blurb}`}
+                  >
+                    {ripple.frontmatter.title}
+                  </h3>
+                </Link>
+                <time
+                  dateTime={ripple.frontmatter.publishedAt}
+                  className="text-muted-foreground text-xs"
+                >
+                  {new Date(ripple.frontmatter.publishedAt).toLocaleDateString(
+                    "en-US",
+                    {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
+                    },
+                  )}
+                </time>
+                <p className="mt-2 text-xs">{ripple.frontmatter.blurb}</p>
+              </div>
+            ))}
+            <div className="flex items-center justify-center">
+              <Link
+                href="/basin"
+                className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
+              >
+                {/* lol. lmao even */}
+                <CurvedText
+                  text="r  e  a  d      m  o  r  e      "
+                  size={36}
+                  phase="ring"
+                  onHover="goBonkers"
+                />
+                <ChevronsRight className="absolute size-4" />
+              </Link>
+            </div>
+          </div>
+        </ScrollArea>
       </section>
       <section>
-        <h2 className="text-xl">A Reservoir</h2>
+        <Link href="/reservoir" className="hover:text-foreground-high-contrast">
+          <h2 className="text-xl">A Reservoir</h2>
+        </Link>
+        <ScrollArea className="py-2" scrollFade scrollbarGutter>
+          <div className="flex w-fit gap-3">
+            {repos.map((repo) => (
+              <div
+                key={repo.name}
+                className="gradient-border relative h-30 w-48 rounded px-3 py-1 md:w-64"
+                style={
+                  {
+                    "--gradient-border-background":
+                      "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
+                  } as React.CSSProperties
+                }
+              >
+                <Link
+                  href={repo.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3
+                    className="line-clamp-1 text-base transition-colors hover:text-foreground-high-contrast"
+                    title={`${repo.description}\n\n${repo.sub}`}
+                  >
+                    {repo.name}
+                  </h3>
+                </Link>
+                <p className="mt-2 text-xs">{repo.description}</p>
+              </div>
+            ))}
+            <div className="flex items-center justify-center">
+              <Link
+                href="/reservoir"
+                className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
+              >
+                {/* lol. lmao even */}
+                <CurvedText
+                  text="s  e  e      m  o  r  e      "
+                  size={36}
+                  phase="ring"
+                  onHover="goBonkers"
+                />
+                <ChevronsRight className="absolute size-4" />
+              </Link>
+            </div>
+          </div>
+        </ScrollArea>
       </section>
       <section>
-        <h2 className="text-xl">A Sandbox</h2>
+        <Link href="/sbox" className="hover:text-foreground-high-contrast">
+          <h2 className="text-xl">A Sandbox</h2>
+        </Link>
+        Coming Soon™
       </section>
       <section>
-        <h2 className="text-xl">A Station</h2>
+        <Link href="/fm" className="hover:text-foreground-high-contrast">
+          <h2 className="text-xl">A Station</h2>
+        </Link>
+        Also Coming Soon™
       </section>
       <section>
         <h2 className="text-xl">A Whisper. A Wave.</h2>
@@ -49,3 +165,28 @@ export default function Page() {
     </div>
   );
 }
+
+const repos = [
+  {
+    name: "ibrahimsaberi.com",
+    href: "https://github.com/GeorgeIpsum/ibrahimsaberi.com",
+    description: "you are here",
+  },
+  {
+    name: "prisma-json-field-validate",
+    href: "https://github.com/GeorgeIpsum/prisma-json-field-validate",
+    description:
+      "query/insert native standard schema validation for prisma schema JSON fields",
+  },
+  {
+    name: "prisma-arktype",
+    href: "https://github.com/GeorgeIpsum/prisma-arktype",
+    description: "arktype schema generation for prisma schemas",
+  },
+  {
+    name: "next-color-schema",
+    href: "https://github.com/GeorgeIpsum/next-color-scheme",
+    description: "nextjs SSR-based color scheme detection and management",
+    sub: "note: using this requires opting in to always-ish dynamic rendering, so i wouldn't recommend it",
+  },
+];
