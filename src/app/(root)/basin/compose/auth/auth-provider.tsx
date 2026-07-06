@@ -21,10 +21,11 @@ export const AuthProvider: React.FC<React.PropsWithChildren> = async ({
     },
   }).then((res) => res.json());
 
-  const user = use(userPromise);
+  const user = await userPromise;
+  console.log("user", user);
 
-  if (!user) {
-    return <div>Loading...</div>;
+  if (!user || user.message === "Bad credentials") {
+    redirect("/basin/compose/auth");
   }
 
   return <>{children}</>;
