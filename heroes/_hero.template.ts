@@ -1,5 +1,6 @@
 import { type } from "arktype";
-import { stat, statGrowth } from "./_stat.template";
+import { skill } from "./_skill.template";
+import { baseStats, statGrowth } from "./_stat.template";
 
 export const hero = type({
   hero: "string",
@@ -7,7 +8,8 @@ export const hero = type({
   sub_name: "string",
   faction: `"silver" | "gold" | "black"`,
   attr: `"mag" | "mek" | "bio" | "psy"`,
-  base_stats: stat,
+  base_stats: baseStats,
   stat_growth: statGrowth,
-  skills: stat.array(),
+  skills: skill.array(),
 });
+export type Hero = typeof hero.infer;

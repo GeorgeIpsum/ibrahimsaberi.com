@@ -38,9 +38,26 @@ const delta = type({
   value: "number",
 });
 
+const singlePowerType = type(`"phys" | "magic" | "psych"`);
+const skillPower = type({
+  power: "number",
+  power_type: singlePowerType,
+  "power_type_mix?": "undefined",
+}).or({
+  power: "number",
+  power_type: "'mixed'",
+  power_type_mix: singlePowerType.array().atLeastLength(2),
+});
+
 const baseSkill = type({
   name: "string",
   type: `"active" | "passive"`,
   desc: "string",
   unique: "boolean?",
+  cooldown: "number?",
+  cost: "number?",
+  level_req: "number?",
 });
+
+export const skill = baseSkill.and({});
+export type Skill = typeof skill.infer;

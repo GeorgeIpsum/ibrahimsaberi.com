@@ -1,23 +1,23 @@
 import { type } from "arktype";
 
-const baseStat = type("0 < number < 16");
-
-export const stat = type({
-  vit: baseStat,
-  flx: baseStat,
-  def: baseStat,
-  pow: baseStat,
-  ins: baseStat,
-  spd: baseStat,
+export const stats = type({
+  vit: "number",
+  flx: "number",
+  def: "number",
+  pow: "number",
+  ins: "number",
+  spd: "number",
 });
+export const statKind = stats.keyof();
 
-export const statKind = stat.keyof();
+const baseStat = type("0 < number < 16");
+export const baseStats = stats.map((entry) => ({
+  key: entry.key,
+  value: baseStat,
+}));
 
 const baseStatGrowth = type(["0 < number < 3", "0 < number < 3"]);
-
-export const statGrowth = stat.map((entry) => {
-  return {
-    key: entry.key,
-    value: baseStatGrowth,
-  };
-});
+export const statGrowth = stats.map((entry) => ({
+  key: entry.key,
+  value: baseStatGrowth,
+}));
