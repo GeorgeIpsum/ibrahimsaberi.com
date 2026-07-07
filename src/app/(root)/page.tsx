@@ -125,11 +125,11 @@ export default async function Page() {
 
 const ItemContainer: React.FC<React.PropsWithChildren> = ({ children }) => (
   <div
-    className="gradient-border relative h-30 w-52 rounded bg-accent/40 px-3 py-1 md:w-64"
+    className="gradient-border relative h-30 w-52 rounded-lg bg-card px-3 pt-2 pb-1 md:w-64"
     style={
       {
         "--gradient-border-background":
-          "linear-gradient(300deg, transparent 20%, var(--border) 80%, color-mix(in oklch, var(--border) 80%, var(--primary) 50%))",
+          "linear-gradient(300deg, transparent, var(--border)",
       } as React.CSSProperties
     }
   >
