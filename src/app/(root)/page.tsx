@@ -72,7 +72,7 @@ export default async function Page() {
                 </p>
               </ItemContainer>
             ))}
-            <More text="read more" />
+            <More text="read more" href="/basin" />
           </div>
         </ScrollArea>
       </section>
@@ -90,16 +90,16 @@ export default async function Page() {
                   rel="noopener noreferrer"
                 >
                   <h3
-                    className="line-clamp-1 text-base transition-colors hover:text-foreground-high-contrast"
+                    className="line-clamp-1 font-mono font-thin text-sm transition-colors hover:text-foreground-high-contrast"
                     title={`${repo.description}\n\n${repo.sub}`}
                   >
                     {repo.name}
                   </h3>
                 </Link>
-                <p className="mt-2 text-xs">{repo.description}</p>
+                <p className="mt-2 font-mono text-xs">{repo.description}</p>
               </ItemContainer>
             ))}
-            <More text="more repos" />
+            <More text="more repos" href="/reservoir" />
           </div>
         </ScrollArea>
       </section>
@@ -125,7 +125,7 @@ export default async function Page() {
 
 const ItemContainer: React.FC<React.PropsWithChildren> = ({ children }) => (
   <div
-    className="gradient-border relative h-30 w-52 rounded px-3 py-1 md:w-64"
+    className="gradient-border relative h-30 w-52 rounded bg-accent/40 px-3 py-1 md:w-64"
     style={
       {
         "--gradient-border-background":
@@ -137,10 +137,10 @@ const ItemContainer: React.FC<React.PropsWithChildren> = ({ children }) => (
   </div>
 );
 
-const More: React.FC<{ text: string }> = ({ text }) => (
+const More: React.FC<{ text: string; href: string }> = ({ text, href }) => (
   <div className="flex items-center justify-center">
     <Link
-      href="/reservoir"
+      href={href}
       className="relative flex size-12 items-center justify-center font-bold font-mono text-[10px] text-muted-foreground transition-colors hover:text-foreground-high-contrast"
     >
       {/* lol. lmao even */}
@@ -153,7 +153,7 @@ const More: React.FC<{ text: string }> = ({ text }) => (
         phase="ring"
         onHover="goBonkers"
       />
-      <ChevronsRight className="absolute size-4" />
+      <ChevronsRight className="pointer-events-none absolute size-4" />
     </Link>
   </div>
 );
