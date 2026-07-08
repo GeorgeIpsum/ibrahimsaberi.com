@@ -8,6 +8,7 @@ import {
   MirrorRectangular,
   PersonStanding,
   Radio,
+  Shell,
   WavesHorizontal,
 } from "lucide-react";
 export interface NavItem {
@@ -41,6 +42,12 @@ export const navItems = [
     title: "reflection",
     href: "/reflection",
     icon: MirrorRectangular,
+    mobileOnly: true,
+  },
+  {
+    title: "sandbox",
+    href: "/hsab",
+    icon: Shell,
     mobileOnly: true,
   },
   {

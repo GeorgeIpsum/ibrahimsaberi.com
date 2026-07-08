@@ -5,13 +5,21 @@ import { Title } from "@/components/structure/title";
 import { CurvedText } from "@/components/text";
 import { listRipples } from "@/features/basin/ripples";
 
-const ASCII_ART = `       _..._
-     .::'   \`.
-    :::       :
-    :::       :
-    \`::.     .'
-      \`':..-'
-`;
+const ASCII_ART = `
+⠀⠀⠀⠀⠀⠀⠀⣀⣤⡴⠶⠿⠛⢏⡿⠖⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡴⣞⠯⠉⠈⠀⣠⡶⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⣴⠟⠙⠈⣎⡹⠂⣴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢠⣯⡟⢚⣀⠀⠀⠀⡰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⡿⡃⢋⣌⠂⠈⠆⡠⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣸⢿⠎⢰⡈⠀⠈⠀⣹⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣸⣿⡄⠷⣠⠀⠀⠀⡸⡗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢹⣾⣿⣷⣛⠀⠀⠀⣜⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠸⣿⢻⣏⠸⡃⠀⠀⠈⢹⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢻⣿⡮⣠⣗⠒⠤⠀⠀⠹⣳⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣼⢿⣗⣧⣦⢤⠇⢀⣤⣄⠙⣿⡦⣄⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠄
+⠀⠀⠈⠛⢏⣷⣶⣜⣤⣈⠂⠜⠀⢀⣀⡉⡭⠯⠖⠲⠒⢶⢖⣯⠟⠁⠀
+⠀⠀⠀⠀⠀⠙⠻⣿⣿⣷⣷⣯⣔⡿⣃⠦⡵⣠⠠⢤⣤⠿⠋⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠓⠿⠽⣷⣿⣾⡿⠞⠛⠉⠀⠀⠀⠀⠀⠀⠀`;
 
 export default async function Page() {
   const ripples = await listRipples({ take: 5 });
@@ -24,8 +32,8 @@ export default async function Page() {
             className="text-2xl"
             art={{
               ascii: ASCII_ART,
-              anchor: "right",
-              offset: { x: -6 },
+              anchor: "bottom-right",
+              offset: { x: -12, y: 2 },
               color: "#F8C523",
             }}
           >
@@ -35,8 +43,16 @@ export default async function Page() {
         </div>
       </div>
       <section>
-        <h2 className="text-xl">A Website</h2>
-        <div>I love hacking. I hate yakking.</div>
+        <h2 className="mb-4 text-xl">A Website</h2>
+        <p className="mb-4">
+          I love building things. I firmly believe yak-shaving exists at the
+          center of all real innovation. I think prototyping is an essential and
+          probably lost art. This entire website is really just 20 prototypes
+          embedded in 400 yak-shavings.
+        </p>
+        <p className="mb-2">
+          I <span className="italic">absolutely detest</span> building things.
+        </p>
       </section>
       <section className="w-full overflow-x-hidden">
         <Link href="/basin" className="hover:text-foreground-high-contrast">
