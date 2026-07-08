@@ -113,9 +113,9 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
           setLoadingText(randomArrayMember(LOADING_TEXT));
         }
       });
-      console.log("Form submitted successfully");
     } catch (e) {
       if (e instanceof Error && e.message === "ERR_TASK_COMPLETE_UH_OH") {
+        console.log("Form submitted successfully");
         // TODO: actually submit something idk
       }
     } finally {
