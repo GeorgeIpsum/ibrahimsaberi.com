@@ -2,4 +2,4 @@
 "ibrahimsaberi.com": major
 ---
 
-Initial public release of ibrahimsaberi.com.
+Initial public rerelease of ibrahimsaberi.com.
