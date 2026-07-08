@@ -21,7 +21,13 @@ const components: MDXComponents = {
       );
     }
     return (
-      <a {...props} href={href} target="_blank" rel="noreferrer noopener">
+      <a
+        {...props}
+        className={cn("underline", props.className)}
+        href={href}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         {children}
       </a>
     );
