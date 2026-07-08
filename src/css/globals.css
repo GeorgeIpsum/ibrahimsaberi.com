@@ -609,8 +609,8 @@
   .loading-border-hover:hover::after {
     content: "";
     position: absolute;
-    inset: -1px;
-    padding: 2px;
+    inset: 0px;
+    padding: 1px;
     pointer-events: none;
     border-radius: inherit;
     background-image: var(
