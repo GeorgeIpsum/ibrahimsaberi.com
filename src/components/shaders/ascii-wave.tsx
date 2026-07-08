@@ -1,3 +1,5 @@
+/** biome-ignore-all lint/style/noNonNullAssertion: MEH */
+
 // https://reactbits.dev/text-animations/ascii-text
 // Component ported and enhanced from https://codepen.io/JuanFuentes/pen/eYEeoyE
 
@@ -576,7 +578,7 @@ export default function ASCIIText({
     };
 
     const setup = async () => {
-      const { width, height } = containerRef.current?.getBoundingClientRect();
+      const { width, height } = containerRef.current!.getBoundingClientRect();
 
       if (width === 0 || height === 0) {
         observer = new IntersectionObserver(
