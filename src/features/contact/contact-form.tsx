@@ -37,7 +37,7 @@ interface ContactFormProps {
 export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   const [placeholder, setPlaceholder] = useState<Placeholder>();
-  const [isSubmitting, setIsSubmitting] = useState(true);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [textAreaValue, setTextAreaValue] = useState("");
   const [loadingText, setLoadingText] = useState("Submitting");
 
