@@ -172,7 +172,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                   <FieldError className="text-xs" />
                 </Field>
                 <Field name="phone" disabled={isSubmitting}>
-                  <FieldLabel>Phone Number</FieldLabel>
+                  <FieldLabel className="gap-1">
+                    Phone Number
+                    <span className="self-end text-[10px] text-muted-foreground">
+                      (optional)
+                    </span>
+                  </FieldLabel>
                   <InputGroup>
                     <InputGroupInput
                       type="tel"
