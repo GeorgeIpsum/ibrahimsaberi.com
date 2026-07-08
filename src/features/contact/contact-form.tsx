@@ -31,6 +31,25 @@ const MAX_TEXTAREA_LENGTH = 2048;
 const MIN_TEXTAREA_LENGTH = 16;
 const phoneRegex = /(\+\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}/;
 
+const formatPhoneNumber = (raw: string): string => {
+  // country code detection
+  const hasPlus = raw.replace(/[^\d+]/g, "").startsWith("+");
+  const allDigits = raw.replace(/\D/g, "");
+
+  // check again for country code
+  const ccLength = hasPlus
+    ? Math.max(1, Math.min(2, allDigits.length - 10))
+    : 0;
+  const cc = allDigits.slice(0, ccLength);
+  const digits = allDigits.slice(ccLength, ccLength + 10);
+
+  let out = cc ? `+${cc}` : hasPlus ? "+" : "";
+  if (digits.length > 0) out += `${out ? " " : ""}(${digits.slice(0, 3)}`;
+  if (digits.length > 3) out += `)-${digits.slice(3, 6)}`;
+  if (digits.length > 6) out += `-${digits.slice(6, 10)}`;
+  return out;
+};
+
 interface ContactFormProps {
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void | Promise<void>;
 }
@@ -39,6 +58,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   const [placeholder, setPlaceholder] = useState<Placeholder>();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [textAreaValue, setTextAreaValue] = useState("");
+  const [phoneValue, setPhoneValue] = useState("");
   const [loadingText, setLoadingText] = useState("Submitting");
 
   const textAreaLength = textAreaValue.length;
@@ -184,15 +204,13 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                       inputMode="tel"
                       pattern={phoneRegex.source}
                       autoComplete="tel"
-                      minLength={10}
-                      maxLength={15}
+                      minLength={14}
+                      maxLength={18}
                       placeholder="+1 (opt)-ion-ally"
-                      onBeforeInput={(e) => {
-                        const data = (e.nativeEvent as InputEvent).data;
-                        if (data && phoneRegex.test(data)) {
-                          e.preventDefault();
-                        }
-                      }}
+                      value={phoneValue}
+                      onValueChange={(value) =>
+                        setPhoneValue(formatPhoneNumber(value))
+                      }
                     />
                     <InputGroupAddon>
                       <Phone aria-hidden="true" />

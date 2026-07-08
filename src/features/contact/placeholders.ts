@@ -95,11 +95,12 @@ export const placeholders: Placeholder[] = [
     email: "ben@comfyandeasy.com",
     text: "I like shorts! And I hate the government.",
   },
-  {
-    name: "Ronald Reagan",
-    email: "there is no joke. i hate this guy",
-    text: "AAAAAAAAAAAAAAAAA I'M BURNING IN HELL AAAAAAAAAAAAAAAAAA IT HURTS AAAAAAAAAAAAAAAAAAAAAAAA",
-  },
+  // the snowflakes HATE this one for some reason
+  // {
+  //   name: "Ronald Reagan",
+  //   email: "there is no joke. i hate this guy",
+  //   text: "AAAAAAAAAAAAAAAAA I'M BURNING IN HELL AAAAAAAAAAAAAAAAAA IT HURTS AAAAAAAAAAAAAAAAAAAAAAAA",
+  // },
   {
     name: "Hatsune Miku",
     email: "hmiku@crypton.co.jp",
