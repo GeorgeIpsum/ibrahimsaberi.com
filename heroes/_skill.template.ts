@@ -28,18 +28,18 @@ import { statKind } from "./_stat.template";
 //     power_change?:    <DELTA>
 
 const operator = type(`"+" | "-" | "*" | "/"`);
-const statDelta = type({
+const _statDelta = type({
   stat: statKind,
   op: operator,
   value: "number",
 });
-const delta = type({
+const _delta = type({
   op: operator,
   value: "number",
 });
 
 const singlePowerType = type(`"phys" | "magic" | "psych"`);
-const skillPower = type({
+const _skillPower = type({
   power: "number",
   power_type: singlePowerType,
   "power_type_mix?": "undefined",

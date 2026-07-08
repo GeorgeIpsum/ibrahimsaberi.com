@@ -25,15 +25,11 @@ function loneImage(node: Element): Element | undefined {
 // `!FIGCAP` marker token, return that text node so the caller can strip it.
 function figcapMarkerNode(blockquote: Element): Text | undefined {
   const firstBlock = blockquote.children.find((c) => !whitespace(c));
-  if (
-    !firstBlock ||
-    firstBlock.type !== "element" ||
-    firstBlock.tagName !== "p"
-  ) {
+  if (firstBlock?.type !== "element" || firstBlock.tagName !== "p") {
     return undefined;
   }
   const firstText = firstBlock.children[0];
-  if (!firstText || firstText.type !== "text") return undefined;
+  if (firstText?.type !== "text") return undefined;
   if (!firstText.value.startsWith(FIGCAP_MARKER)) return undefined;
   // The marker must be its own token — followed by whitespace or end of text.
   const after = firstText.value.charAt(FIGCAP_MARKER.length);

@@ -107,8 +107,9 @@ const CurvedLetter = ({
   const transform = useTransform([progress, radius], ([p, r]: number[]) =>
     letterTransform(p, { ...geometry, radius: r }),
   );
-  const opacity = useTransform([progress, spin, radius], ([p, s, r]: number[]) =>
-    letterOpacity(p, s, { ...geometry, radius: r }),
+  const opacity = useTransform(
+    [progress, spin, radius],
+    ([p, s, r]: number[]) => letterOpacity(p, s, { ...geometry, radius: r }),
   );
 
   return (
@@ -220,7 +221,9 @@ export const CurvedText = ({
       sizeSettleArmed.current = true;
     }
     const controls = animate(radius, size / 2, {
-      ...(sizeDuration ? { type: "spring" as const, duration: sizeDuration } : SPRING),
+      ...(sizeDuration
+        ? { type: "spring" as const, duration: sizeDuration }
+        : SPRING),
       delay: sizeDelay,
     });
     return () => controls.stop();

@@ -5,7 +5,11 @@ import { Suspense } from "react";
 import { Badge } from "@/components/atoms/badge";
 import { InlineMarkdown } from "@/components/structure/inline-markdown";
 import { AUTHOR_TIMEZONE } from "@/features/basin/load-section";
-import { listRipples, loadRipple, loadRippleMeta } from "@/features/basin/ripples";
+import {
+  listRipples,
+  loadRipple,
+  loadRippleMeta,
+} from "@/features/basin/ripples";
 import { BasinEntranceScript } from "./basin-entrance-script";
 
 type Props = {

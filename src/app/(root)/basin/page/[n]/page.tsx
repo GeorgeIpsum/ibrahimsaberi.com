@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { Separator } from "@/components/atoms/separator";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
-import { countRipples, listRipples } from "@/features/basin/ripples";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
+import { countRipples, listRipples } from "@/features/basin/ripples";
 
 type Props = {
   params: Promise<{ n: string }>;

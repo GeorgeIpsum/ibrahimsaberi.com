@@ -372,7 +372,7 @@ class CanvAscii {
     try {
       await document.fonts.load('600 200px "IBM Plex Mono"');
       await document.fonts.load('500 12px "IBM Plex Mono"');
-    } catch (e) {}
+    } catch (_e) {}
     await document.fonts.ready;
     this.setMesh();
     this.setRenderer();
@@ -465,7 +465,7 @@ class CanvAscii {
   }
 
   render() {
-    const time = new Date().getTime() * 0.001;
+    const time = Date.now() * 0.001;
 
     this.textCanvas.render();
     this.texture.needsUpdate = true;
@@ -576,7 +576,7 @@ export default function ASCIIText({
     };
 
     const setup = async () => {
-      const { width, height } = containerRef.current!.getBoundingClientRect();
+      const { width, height } = containerRef.current?.getBoundingClientRect();
 
       if (width === 0 || height === 0) {
         observer = new IntersectionObserver(

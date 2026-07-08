@@ -1,5 +1,4 @@
 import YAML from "yamljs";
-import { hero } from "./_hero.template";
 import { skill } from "./_skill.template";
 
 export const loadCommonSkills = () => {
@@ -16,8 +15,8 @@ export const loadCommonSkills = () => {
   });
 };
 
-export const loadHero = (hero_path: string) => {};
+export const loadHero = (_hero_path: string) => {};
 
-export const loadHeroSkills = (hero_path: string) => {};
+export const loadHeroSkills = (_hero_path: string) => {};
 
-export const loadHeroSprites = (hero_path: string) => {};
+export const loadHeroSprites = (_hero_path: string) => {};

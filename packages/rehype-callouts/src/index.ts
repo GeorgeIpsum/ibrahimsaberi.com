@@ -126,11 +126,11 @@ export default function rehypeCallouts(
       const head = node.children[headIndex];
 
       // Must start with a `p`.
-      if (!head || head.type !== "element" || head.tagName !== "p") return;
+      if (head?.type !== "element" || head.tagName !== "p") return;
 
       // Must start with a `![`.
       const text = head.children[0];
-      if (!text || text.type !== "text" || !text.value.startsWith("[!")) return;
+      if (text?.type !== "text" || !text.value.startsWith("[!")) return;
 
       // Must have `]`.
       const end = text.value.indexOf("]");

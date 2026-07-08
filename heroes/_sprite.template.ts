@@ -26,4 +26,4 @@ export const sprites = type("string").pipe((spriteSheet) => {
  * Overworld Spritesheet logic:
  * - 5x5 base grid
  */
-export const overworldSprites = type("string").pipe((spriteSheet) => {});
+export const overworldSprites = type("string").pipe((_spriteSheet) => {});

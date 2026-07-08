@@ -296,7 +296,7 @@ export default function MagicRings({
   return (
     <div
       ref={mountRef}
-      className="w-full h-full"
+      className="h-full w-full"
       style={blur > 0 ? { filter: `blur(${blur}px)` } : undefined}
     />
   );

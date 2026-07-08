@@ -3,8 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
-import { countRipples, listRipples, listRippleTags } from "@/features/basin/ripples";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
+import {
+  countRipples,
+  listRipples,
+  listRippleTags,
+} from "@/features/basin/ripples";
 
 type Props = {
   params: Promise<{ tag: string; n: string }>;
