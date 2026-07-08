@@ -93,3 +93,41 @@ export function selectVoiceline(
   if (pool.length === 0) return { status: 404 };
   return { status: 200, line: pick(pool, rng) };
 }
+
+export function selectVoicelines(
+  dataset: Dataset,
+  params: SelectParams,
+): Voiceline[] {
+  const heroSpecified = Boolean(params.hero?.trim());
+
+  let pool: Voiceline[];
+  if (heroSpecified) {
+    const found = dataset.byHero.get(toHeroSlug(params.hero as string));
+    if (!found?.length) return [];
+    pool = found;
+  } else {
+    pool = dataset.all;
+  }
+
+  const category = params.category?.trim();
+  if (category) {
+    const byCategory = pool.filter((line) =>
+      line.categories.some((c) => c.toLowerCase() === category.toLowerCase()),
+    );
+    if (byCategory.length > 0) pool = byCategory;
+  }
+
+  const voiceline = params.voiceline?.trim();
+  if (voiceline) {
+    const matched = pool.filter((line) =>
+      fuzzyMatches(line.transcript, voiceline),
+    );
+    if (matched.length > 0) {
+      pool = matched;
+    } else if (heroSpecified) {
+      return [];
+    }
+  }
+
+  return pool;
+}
