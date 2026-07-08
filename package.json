@@ -1,6 +1,6 @@
 {
   "name": "ibrahimsaberi.com",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.27.0",
@@ -96,6 +96,7 @@
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.1070.0",
     "@biomejs/biome": "^2.4.15",
+    "@changesets/cli": "^2.31.0",
     "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/typography": "^0.5.19",
     "@testing-library/react": "16.3.2",

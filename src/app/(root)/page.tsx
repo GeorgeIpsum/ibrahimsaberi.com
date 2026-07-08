@@ -104,7 +104,7 @@ export default async function Page() {
         </ScrollArea>
       </section>
       <section>
-        <Link href="/sbox" className="hover:text-foreground-high-contrast">
+        <Link href="/hsab" className="hover:text-foreground-high-contrast">
           <h2 className="text-xl">A Sandbox</h2>
         </Link>
         Coming Soon™
