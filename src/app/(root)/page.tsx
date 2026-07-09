@@ -45,13 +45,23 @@ export default async function Page() {
       <section>
         <h2 className="mb-4 text-xl">A Website</h2>
         <p className="mb-4">
-          I love building things. I firmly believe yak-shaving exists at the
-          center of all real innovation. I think prototyping is an essential and
-          probably lost art. This entire website is really just 20 prototypes
-          embedded in 400 yak-shavings.
+          I love building things (more the process and less the things). I
+          firmly believe yak-shaving exists at the center of all real
+          innovation. I think prototyping is an essential and probably lost art.
+          This website is the culmination of 20 prototypes found in 400 freshly
+          shaven yaks.
         </p>
         <p className="mb-2">
-          I <span className="italic">absolutely detest</span> building things.
+          You can reach out to me at{" "}
+          <Link className="font-bold" href="mailto:ibrahim@studiohmr.com">
+            ibrahim@studiohmr.com
+          </Link>
+          . I have a LinkedIn that I very rarely check, and you really won't
+          find me on social media anywhere. I also have a{" "}
+          <Link className="underline" href="/contact">
+            contact form
+          </Link>{" "}
+          if you think email communication sucks (it does).
         </p>
       </section>
       <section className="w-full overflow-x-hidden">
@@ -190,6 +200,11 @@ const repos = [
     name: "ibrahimsaberi.com",
     href: "https://github.com/GeorgeIpsum/ibrahimsaberi.com",
     description: "YOU ARE HERE 👈",
+  },
+  {
+    name: "speedtest",
+    href: "/speedtest",
+    description: "exactly what you think it is",
   },
   {
     name: "next-color-schema",

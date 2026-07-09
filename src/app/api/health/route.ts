@@ -4,7 +4,7 @@ import { connection, type NextRequest, NextResponse } from "next/server";
 
 const copypastaDir = path.join(process.cwd(), "src/app/api/health/pasta");
 
-const copypasta = readdirSync(copypastaDir)
+export const copypasta = readdirSync(copypastaDir)
   .filter((file) => file.endsWith(".txt"))
   .map((file) => ({
     title: file,

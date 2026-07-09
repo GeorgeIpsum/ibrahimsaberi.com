@@ -1,5 +1,5 @@
-import { UnderConstruction } from "@/components/navigation/under-construction";
+import { Reservoir } from "@/features/reservoir";
 
 export default function Page() {
-  return <UnderConstruction title="Reservoir" />;
+  return <Reservoir />;
 }
