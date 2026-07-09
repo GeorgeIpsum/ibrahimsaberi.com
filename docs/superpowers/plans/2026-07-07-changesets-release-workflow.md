@@ -1,6 +1,6 @@
 # Changesets + Release Workflow Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Changesets-gated releases: PRs from `release/*` into `main` must carry a changeset (enforced by a required status check), and merging runs vitest, bumps the root version, writes CHANGELOG.md, tags `vX.Y.Z`, and creates a GitHub Release.
 
@@ -36,7 +36,7 @@ Make the root package versionable, install the CLI, configure changesets, and st
 **Interfaces:**
 - Produces: root package `ibrahimsaberi.com` recognized by changesets; a pending `major` changeset so `changeset version` yields exactly `1.0.0`. Task 2's gate detects files matching `.changeset/*.md` (excluding `README.md`); Task 3 consumes them.
 
-- [ ] **Step 1: Add the root to the workspace**
+- [x] **Step 1: Add the root to the workspace**
 
 In `pnpm-workspace.yaml`, change:
 
@@ -57,7 +57,7 @@ packages:
   - services/*
 ```
 
-- [ ] **Step 2: Install @changesets/cli and init**
+- [x] **Step 2: Install @changesets/cli and init**
 
 ```bash
 pnpm add -D -w @changesets/cli
@@ -66,7 +66,7 @@ pnpm changeset init
 
 Expected: `@changesets/cli` in root devDependencies; `.changeset/config.json` + `.changeset/README.md` created.
 
-- [ ] **Step 3: Configure changesets**
+- [x] **Step 3: Configure changesets**
 
 Overwrite `.changeset/config.json` (keep the `$schema` line `changeset init` wrote — only the fields below matter):
 
@@ -87,13 +87,13 @@ Overwrite `.changeset/config.json` (keep the `$schema` line `changeset init` wro
 
 `privatePackages.version: true` is load-bearing: every package in this repo is private; without it nothing versions.
 
-- [ ] **Step 4: Reset root version to 0.0.0**
+- [x] **Step 4: Reset root version to 0.0.0**
 
 In root `package.json`, change `"version": "1.0.0"` to `"version": "0.0.0"`.
 
 Why: the root is already at `1.0.0`, but the release hasn't happened. A `major` changeset takes `0.0.0 → 1.0.0` (verified in a fixture 2026-07-07), so the `release/1.0.0` merge releases as exactly `v1.0.0`. Leaving it at `1.0.0` would release as `2.0.0`.
 
-- [ ] **Step 5: Write the 1.0.0 changeset**
+- [x] **Step 5: Write the 1.0.0 changeset**
 
 Create `.changeset/first-light.md`:
 
@@ -107,7 +107,7 @@ Initial public release of ibrahimsaberi.com.
 
 (Ibrahim: edit the notes freely — this text becomes the `## 1.0.0` CHANGELOG entry and the GitHub Release body.)
 
-- [ ] **Step 6: Verify changesets sees the root package**
+- [x] **Step 6: Verify changesets sees the root package**
 
 ```bash
 pnpm changeset status --verbose
@@ -115,7 +115,7 @@ pnpm changeset status --verbose
 
 Expected: lists `ibrahimsaberi.com` bumping `major` to `1.0.0`. Must NOT error with "no packages found" or offer only `@local/*` packages.
 
-- [ ] **Step 7: Verify the workspace change breaks nothing**
+- [x] **Step 7: Verify the workspace change breaks nothing**
 
 ```bash
 pnpm install
@@ -125,7 +125,7 @@ pnpm -F=@local/** exec node -e "console.log(require('./package.json').name)"
 
 Expected: install completes without new warnings about the root; 286 tests pass; the filter prints only the four `@local/*` names (root is not matched by `@local/**`).
 
-- [ ] **Step 8: Hand off for commit**
+- [x] **Step 8: Hand off for commit**
 
 Report changed files to Ibrahim; suggested message: `chore: add changesets (whole-site versioning, staged 1.0.0 release)`.
 
@@ -140,7 +140,7 @@ Report changed files to Ibrahim; suggested message: `chore: add changesets (whol
 - Consumes: `.changeset/*.md` naming convention from Task 1.
 - Produces: status check contexts `test` and `changeset` (the job names — Task 4's ruleset requires these exact strings).
 
-- [ ] **Step 1: Write the workflow**
+- [x] **Step 1: Write the workflow**
 
 Create `.github/workflows/release-gate.yml`:
 
@@ -204,7 +204,7 @@ jobs:
           printf 'Changeset(s) found:\n%s\n' "$added"
 ```
 
-- [ ] **Step 2: Verify the YAML parses**
+- [x] **Step 2: Verify the YAML parses**
 
 ```bash
 pnpm dlx js-yaml .github/workflows/release-gate.yml > /dev/null && echo "yaml ok"
@@ -212,7 +212,7 @@ pnpm dlx js-yaml .github/workflows/release-gate.yml > /dev/null && echo "yaml ok
 
 Expected: `yaml ok` (verified 2026-07-07 that `yaml`/`js-yaml` are NOT requireable from the repo root — pnpm isolates node_modules, hence `dlx`).
 
-- [ ] **Step 3: Verify the gate logic locally (both directions)**
+- [x] **Step 3: Verify the gate logic locally (both directions)**
 
 Simulate the enforcing path on this branch (Task 1 added `.changeset/first-light.md`):
 
@@ -227,7 +227,7 @@ Expected: `PASS: .changeset/first-light.md`. Then confirm the skip path: the sam
 
 Note: `origin/main...HEAD` requires local commits — if Task 1 isn't committed yet, this shows the changeset only after Ibrahim commits. Run this step after his commit.
 
-- [ ] **Step 4: Hand off for commit**
+- [x] **Step 4: Hand off for commit**
 
 Suggested message: `ci: release gate (vitest + changeset check on PRs to main)`.
 
@@ -242,7 +242,7 @@ Suggested message: `ci: release gate (vitest + changeset check on PRs to main)`.
 - Consumes: changeset files from Task 1; `pnpm changeset version` behavior (bumps root, writes root `CHANGELOG.md`, deletes consumed changesets).
 - Produces: on merge — version-bump commit on main, tag `vX.Y.Z`, GitHub Release. Requires Task 4's Actions-app bypass to push to main.
 
-- [ ] **Step 1: Write the workflow**
+- [x] **Step 1: Write the workflow**
 
 Create `.github/workflows/release.yml`:
 
@@ -328,7 +328,7 @@ jobs:
           gh release create "v${version}" --title "v${version}" --notes-file "$RUNNER_TEMP/notes.md"
 ```
 
-- [ ] **Step 2: Verify the YAML parses**
+- [x] **Step 2: Verify the YAML parses**
 
 ```bash
 pnpm dlx js-yaml .github/workflows/release.yml > /dev/null && echo "yaml ok"
@@ -336,7 +336,7 @@ pnpm dlx js-yaml .github/workflows/release.yml > /dev/null && echo "yaml ok"
 
 Expected: `yaml ok`.
 
-- [ ] **Step 3: Verify the changeset counter and awk extraction against a fixture**
+- [x] **Step 3: Verify the changeset counter and awk extraction against a fixture**
 
 ```bash
 S=/private/tmp/claude-501/-Users-g1n-lib-ibrahimsaberi-com/5fff2da6-0fe4-4c0b-9550-6d8d3afd1d77/scratchpad/rel-check
@@ -354,7 +354,7 @@ awk -v ver="1.0.0" '$0 == "## " ver { grab=1; next } /^## / { grab=0 } grab { pr
 
 Expected: `count with only README: 0`, `count with one changeset: 1`, and the awk output is the `### Major Changes` section (without the `## 1.0.0` heading line).
 
-- [ ] **Step 4: Hand off for commit**
+- [x] **Step 4: Hand off for commit**
 
 Suggested message: `ci: release workflow (version + tag + GitHub Release on merge to main)`.
 
@@ -368,7 +368,7 @@ Suggested message: `ci: release workflow (version + tag + GitHub Release on merg
 - Consumes: check contexts `test` and `changeset` (Task 2 job names); GitHub Actions app ID `15368`.
 - Produces: merges to main blocked until both checks pass; the Actions app can push the Task 3 version commit.
 
-- [ ] **Step 1: Add the Actions app as a bypass actor on `protecc`**
+- [x] **Step 1: Add the Actions app as a bypass actor on `protecc`**
 
 ```bash
 cd /private/tmp/claude-501/-Users-g1n-lib-ibrahimsaberi-com/5fff2da6-0fe4-4c0b-9550-6d8d3afd1d77/scratchpad
@@ -379,7 +379,7 @@ gh api -X PUT repos/GeorgeIpsum/ibrahimsaberi.com/rulesets/18571813 --input prot
 
 Expected output: four bypass actors — the existing DeployKey + roles 2 and 5, plus `{"actor_id":15368,"actor_type":"Integration","bypass_mode":"always"}`.
 
-- [ ] **Step 2: Create the `release-gate` ruleset**
+- [x] **Step 2: Create the `release-gate` ruleset**
 
 ```bash
 gh api -X POST repos/GeorgeIpsum/ibrahimsaberi.com/rulesets --input - <<'EOF' --jq '{id, name, enforcement}'
@@ -410,7 +410,7 @@ EOF
 
 Expected: JSON with a new `id`, `"name": "release-gate"`, `"enforcement": "active"`.
 
-- [ ] **Step 3: Verify both rulesets**
+- [x] **Step 3: Verify both rulesets**
 
 ```bash
 gh api repos/GeorgeIpsum/ibrahimsaberi.com/rulesets --jq '.[] | {id, name, enforcement}'
@@ -430,7 +430,7 @@ owner organization" for `{"actor_id": 15368, "actor_type": "Integration"}`
 (confirmed on both the `protecc` PUT and the `release-gate` POST). Revised
 approach (owner-approved):
 
-- [ ] **Step A1: Provision the release deploy key** (in the scratchpad dir, never inside the repo)
+- [x] **Step A1: Provision the release deploy key** (in the scratchpad dir, never inside the repo)
 
 ```bash
 ssh-keygen -t ed25519 -N "" -C "release-workflow" -f ./release_deploy_key
@@ -441,13 +441,13 @@ rm -f release_deploy_key release_deploy_key.pub
 
 Expected: deploy key listed by `gh repo deploy-key list` with read-write; secret listed by `gh secret list`; local key material deleted.
 
-- [ ] **Step A2: Leave `protecc` untouched** — it already has a DeployKey bypass actor.
+- [x] **Step A2: Leave `protecc` untouched** — it already has a DeployKey bypass actor.
 
-- [ ] **Step A3: Create the `release-gate` ruleset with a DeployKey bypass** (same JSON as the original Step 2, but `bypass_actors: [{ "actor_id": null, "actor_type": "DeployKey", "bypass_mode": "always" }]`).
+- [x] **Step A3: Create the `release-gate` ruleset with a DeployKey bypass** (same JSON as the original Step 2, but `bypass_actors: [{ "actor_id": null, "actor_type": "DeployKey", "bypass_mode": "always" }]`).
 
-- [ ] **Step A4: Point release.yml's checkout at the deploy key** — add `ssh-key: ${{ secrets.RELEASE_DEPLOY_KEY }}` to the release job's `actions/checkout@v4` `with:` block, and rewrite the header comment's bypass paragraph to document RELEASE_DEPLOY_KEY (required repo secret, matching deploy-wisp.yml's convention) and the retrigger-then-no-op behavior (deploy-key pushes retrigger workflows; the rerun's `check` job counts zero changesets).
+- [x] **Step A4: Point release.yml's checkout at the deploy key** — add `ssh-key: ${{ secrets.RELEASE_DEPLOY_KEY }}` to the release job's `actions/checkout@v4` `with:` block, and rewrite the header comment's bypass paragraph to document RELEASE_DEPLOY_KEY (required repo secret, matching deploy-wisp.yml's convention) and the retrigger-then-no-op behavior (deploy-key pushes retrigger workflows; the rerun's `check` job counts zero changesets).
 
-- [ ] **Step A5: Verify** — `gh api .../rulesets` shows `protecc` (unchanged, 3 bypass actors) + `release-gate` (active, contexts `test` and `changeset`, DeployKey bypass); release.yml still parses (`pnpm dlx js-yaml`).
+- [x] **Step A5: Verify** — `gh api .../rulesets` shows `protecc` (unchanged, 3 bypass actors) + `release-gate` (active, contexts `test` and `changeset`, DeployKey bypass); release.yml still parses (`pnpm dlx js-yaml`).
 
 Task 5 Step 3's expectation gains one detail: after the release pushes, a second Release run appears and no-ops.
 
@@ -457,7 +457,7 @@ Task 5 Step 3's expectation gains one detail: after the release pushes, a second
 
 No files. Sequenced observations once Tasks 1–4 are committed and pushed.
 
-- [ ] **Step 1: Push `release/1.0.0` and open the PR to `main`.** Expected: `test` passes (286 tests); `changeset` passes, logging `Changeset(s) found: .changeset/first-light.md`.
-- [ ] **Step 2 (optional negative test):** any non-changeset PR from a `release/*` branch shows `changeset` failing and GitHub blocking merge ("Required statuses must pass").
-- [ ] **Step 3: Merge the PR.** Expected on main: `Release` workflow runs — 286 tests, then a `chore(release): v1.0.0` commit by github-actions[bot] (root `package.json` at `1.0.0`, `CHANGELOG.md` created, `.changeset/first-light.md` deleted), tag `v1.0.0`, and a GitHub Release "v1.0.0" whose body is the changelog entry.
-- [ ] **Step 4:** a later trivial merge to main shows `Release` no-op-ing: `check` runs, `release` skipped, notice "No changesets on main; nothing to release."
+- [x] **Step 1: Push `release/1.0.0` and open the PR to `main`.** Expected: `test` passes (286 tests); `changeset` passes, logging `Changeset(s) found: .changeset/first-light.md`.
+- [x] **Step 2 (optional negative test):** any non-changeset PR from a `release/*` branch shows `changeset` failing and GitHub blocking merge ("Required statuses must pass").
+- [x] **Step 3: Merge the PR.** Expected on main: `Release` workflow runs — 286 tests, then a `chore(release): v1.0.0` commit by github-actions[bot] (root `package.json` at `1.0.0`, `CHANGELOG.md` created, `.changeset/first-light.md` deleted), tag `v1.0.0`, and a GitHub Release "v1.0.0" whose body is the changelog entry.
+- [x] **Step 4:** a later trivial merge to main shows `Release` no-op-ing: `check` runs, `release` skipped, notice "No changesets on main; nothing to release."

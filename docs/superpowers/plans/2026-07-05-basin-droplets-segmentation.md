@@ -1,6 +1,6 @@
 # Basin Droplets Segmentation Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Segment basin content into ripples (existing long-form posts) and droplets (a microjournal stream at `/basin/droplets` with permalinks), sharing one generic loader core.
 
@@ -33,7 +33,7 @@
 - Consumes: nothing new (arktype `type`).
 - Produces: `RippleFrontmatterSchema` (the current `FrontmatterSchema`, renamed), `DropletFrontmatterSchema` (optional `title`, `publishedAt: string`, optional `tags`/`draft`), types `RippleFrontmatter`, `DropletFrontmatter`, generic `Post<F = RippleFrontmatter>` and `PostListEntry<F = RippleFrontmatter>`. A temporary alias `FrontmatterSchema = RippleFrontmatterSchema` keeps `load-post.ts` compiling until Task 3 deletes it.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Rewrite `__tests__/frontmatter.test.ts`. Keep every existing `FrontmatterSchema` case, renamed to `RippleFrontmatterSchema` (same inputs/assertions), and add a new describe block:
 
@@ -99,12 +99,12 @@ describe("DropletFrontmatterSchema", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `pnpm exec vitest run __tests__/frontmatter.test.ts`
 Expected: FAIL — `RippleFrontmatterSchema` / `DropletFrontmatterSchema` are not exported.
 
-- [ ] **Step 3: Implement the schema split**
+- [x] **Step 3: Implement the schema split**
 
 Replace `src/features/basin/types.ts` with:
 
@@ -128,7 +128,6 @@ export const DropletFrontmatterSchema = type({
   "draft?": "boolean",
 });
 
-// TODO(task 3): remove once load-post.ts is deleted.
 export const FrontmatterSchema = RippleFrontmatterSchema;
 
 export type RippleFrontmatter = typeof RippleFrontmatterSchema.infer;
@@ -151,12 +150,12 @@ export type PostListEntry<F = RippleFrontmatter> = {
 
 The generic defaults mean `post-list-item.tsx` (which uses `PostListEntry` bare and reads `blurb`/`linkTitle`) compiles unchanged.
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `pnpm exec vitest run __tests__/frontmatter.test.ts`
 Expected: PASS (all ripple + droplet cases).
 
-- [ ] **Step 5: Verify nothing else broke**
+- [x] **Step 5: Verify nothing else broke**
 
 Run: `pnpm exec vitest run && pnpm lint`
 Expected: full suite PASS, lint clean. (`load-post.ts` still compiles via the `FrontmatterSchema` alias.)
@@ -186,7 +185,7 @@ Expected: full suite PASS, lint clean. (`load-post.ts` still compiles via the `F
 
 `load-post.ts` is NOT touched in this task — the app keeps running on it until Task 3 migrates call sites.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `__tests__/load-section.test.ts`. It is the existing `__tests__/load-post.test.ts` adapted to the section API, with a dir-aware mock and new droplet/ENOENT cases:
 
@@ -532,12 +531,12 @@ describe("loadSectionPostMeta", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `pnpm exec vitest run __tests__/load-section.test.ts`
 Expected: FAIL — module `@/features/basin/load-section` does not exist.
 
-- [ ] **Step 3: Implement `load-section.ts`**
+- [x] **Step 3: Implement `load-section.ts`**
 
 Create `src/features/basin/load-section.ts`. This is `load-post.ts` generalized over a section name; the structure (cheap/expensive path split, caching layers, invalid-placement error, duplicate-slug warning) is preserved deliberately:
 
@@ -850,12 +849,12 @@ Implementation notes:
 - `readdir(dir, { recursive: true })` returns `string[]` on Node 20+; keep the `paths` type annotation.
 - `_loadSectionPost` uses React `cache()` WITHOUT `"use cache"` (its return value contains a component, which is not serializable) — same as today's `loadRipple`.
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `pnpm exec vitest run __tests__/load-section.test.ts`
 Expected: PASS, all describes.
 
-- [ ] **Step 5: Verify the full suite and lint**
+- [x] **Step 5: Verify the full suite and lint**
 
 Run: `pnpm exec vitest run && pnpm lint`
 Expected: PASS / clean. (`load-post.test.ts` still exists and still passes — both modules coexist until Task 3.)
@@ -886,7 +885,7 @@ Expected: PASS / clean. (`load-post.test.ts` still exists and still passes — b
   - `ripples.ts`: `listRipples(opts?: ListPostsOptions)`, `countRipples(opts?: Pick<ListPostsOptions, "tag">)`, `listRippleTags()`, `loadRippleMeta(slug: string)`, `loadRipple(slug: string)`.
   - `droplets.ts`: `listDroplets(opts?: ListPostsOptions)`, `countDroplets(opts?: Pick<ListPostsOptions, "tag">)`, `loadDropletMeta(slug: string)`, `loadDroplet(slug: string)`. (Used by Tasks 4–6.)
 
-- [ ] **Step 1: Create the wrappers**
+- [x] **Step 1: Create the wrappers**
 
 `src/features/basin/ripples.ts`:
 
@@ -939,7 +938,7 @@ export const loadDroplet = (slug: string) => loadSectionPost("droplets", slug);
 
 (No `listDropletTags` — droplet tags are stored but not surfaced, per spec.)
 
-- [ ] **Step 2: Migrate every call site**
+- [x] **Step 2: Migrate every call site**
 
 Import changes only — rendering logic stays identical. In each file replace the `@/features/basin/load-post` import and rename calls:
 
@@ -954,7 +953,7 @@ Import changes only — rendering logic stays identical. In each file replace th
 | `src/features/basin/build-feed.ts` | `import { listRipples } from "./ripples";` — `listPosts()` → `listRipples()` |
 | `src/features/basin/components/post-list-item.tsx` | `import { AUTHOR_TIMEZONE } from "../load-section";` |
 
-- [ ] **Step 3: Fix the raw route's stale content path (pre-existing bug)**
+- [x] **Step 3: Fix the raw route's stale content path (pre-existing bug)**
 
 `src/app/(root)/basin/[slug]/raw/route.ts` still reads from `src/content/…`, which no longer exists — the route 500s on every hit today. While migrating its imports, fix the path via `sectionDir`:
 
@@ -990,23 +989,23 @@ export async function GET(_request: Request, { params }: Props) {
 }
 ```
 
-- [ ] **Step 4: Delete the superseded module, test, and alias**
+- [x] **Step 4: Delete the superseded module, test, and alias**
 
 - Delete `src/features/basin/load-post.ts`.
 - Delete `__tests__/load-post.test.ts`.
-- In `src/features/basin/types.ts`, remove the two lines: the `// TODO(task 3)…` comment and `export const FrontmatterSchema = RippleFrontmatterSchema;`.
+- In `src/features/basin/types.ts`, remove the two lines: the `// TOD(task 3)…` comment and `export const FrontmatterSchema = RippleFrontmatterSchema;`.
 
-- [ ] **Step 5: Verify no references remain**
+- [x] **Step 5: Verify no references remain**
 
 Run: `grep -rn "load-post" src __tests__; grep -rnw "listPosts\|countPosts\|listTags\|FrontmatterSchema" src __tests__`
 Expected: no output from either command (`-w` word-matching keeps `listSectionPosts` / `RippleFrontmatterSchema` etc. from matching; both greps exiting non-zero with no lines is the pass condition).
 
-- [ ] **Step 6: Run suite, lint, typecheck**
+- [x] **Step 6: Run suite, lint, typecheck**
 
 Run: `pnpm exec vitest run && pnpm lint && pnpm exec tsc --noEmit`
 Expected: all PASS/clean.
 
-- [ ] **Step 7: Smoke-test ripples in the browser**
+- [x] **Step 7: Smoke-test ripples in the browser**
 
 Run: `pnpm dev` (port 6767), then check `http://localhost:6767/basin`, one post page, `http://localhost:6767/basin/tags`, and `http://localhost:6767/basin/<slug>/raw` (raw should now return markdown instead of erroring).
 Expected: everything renders as before the refactor; raw route works.
@@ -1025,7 +1024,7 @@ Expected: everything renders as before the refactor; raw route works.
 - Consumes: `listDroplets`/`countDroplets`/`loadDroplet` (Task 3), `makePageInfo`/`PaginationControls` (existing, both already accept a custom page size / `basePath`), `PostTags` from `./post-tag`, `AUTHOR_TIMEZONE` from `../load-section`.
 - Produces: `DROPLETS_PER_PAGE = 10`; `DropletStreamItem` — async server component taking `{ droplet: PostListEntry<DropletFrontmatter> }`, rendering the full MDX content inline (also used by Task 5).
 
-- [ ] **Step 1: Add the page-size constant**
+- [x] **Step 1: Add the page-size constant**
 
 In `src/features/basin/pagination.ts`, below `POSTS_PER_PAGE`:
 
@@ -1033,7 +1032,7 @@ In `src/features/basin/pagination.ts`, below `POSTS_PER_PAGE`:
 export const DROPLETS_PER_PAGE = 10;
 ```
 
-- [ ] **Step 2: Create the sample droplet**
+- [x] **Step 2: Create the sample droplet**
 
 Create `src/basin/droplets/2026/07/2026-07-05-first-drop.mdx` (draft, so it can never ship to production; it also guarantees the droplets directory exists in git):
 
@@ -1047,7 +1046,7 @@ draft: true
 the basin gains a second voice. droplets — smaller, quieter, more often.
 ```
 
-- [ ] **Step 3: Create `DropletStreamItem`**
+- [x] **Step 3: Create `DropletStreamItem`**
 
 Create `src/features/basin/components/droplet-stream-item.tsx`:
 
@@ -1103,7 +1102,7 @@ export async function DropletStreamItem({ droplet }: DropletStreamItemProps) {
 }
 ```
 
-- [ ] **Step 4: Replace the stub page**
+- [x] **Step 4: Replace the stub page**
 
 Rewrite `src/app/(root)/basin/droplets/page.tsx`. The `<Title>` block (the letter-by-letter opacity spans and the `Droplet` icon adornment) is kept EXACTLY as it is in the current file — only the `UnderConstruction` block below it is replaced:
 
@@ -1161,13 +1160,13 @@ export default async function Page() {
 
 (The `{/* … */}` markers above are instructions to the implementer, not code to paste — the real file must contain the full existing `<span>` letters. Remove the `UnderConstruction` import; `lucide-react`'s `Droplet` import stays.)
 
-- [ ] **Step 5: Verify in the browser**
+- [x] **Step 5: Verify in the browser**
 
 Run: `pnpm dev`, visit `http://localhost:6767/basin/droplets`.
 Note: the proxy gates `/basin/droplets*` behind a valid `reflection` cookie and redirects to `/reflection` otherwise — pass that gate first if redirected.
 Expected: the title art renders, followed by the sample droplet — "first drop" heading, date "Jul 5, 2026" linking to `/basin/droplets/first-drop` (404 until Task 6), `meta` and `draft` tags, and the body sentence. No pagination controls (single page).
 
-- [ ] **Step 6: Run suite and lint**
+- [x] **Step 6: Run suite and lint**
 
 Run: `pnpm exec vitest run && pnpm lint`
 Expected: PASS / clean.
@@ -1184,7 +1183,7 @@ Expected: PASS / clean.
 - Consumes: `listDroplets`/`countDroplets` (Task 3), `DROPLETS_PER_PAGE`/`makePageInfo` (Task 4), `DropletStreamItem` (Task 4), `PaginationControls`.
 - Produces: routes only.
 
-- [ ] **Step 1: Create the paginated page**
+- [x] **Step 1: Create the paginated page**
 
 Create `src/app/(root)/basin/droplets/page/[n]/page.tsx` — the droplets analog of `src/app/(root)/basin/page/[n]/page.tsx`:
 
@@ -1258,16 +1257,16 @@ export default async function DropletsPaginatedIndex({ params }: Props) {
 }
 ```
 
-- [ ] **Step 2: Create the not-found page**
+- [x] **Step 2: Create the not-found page**
 
 Copy `src/app/(root)/basin/page/[n]/not-found.tsx` to `src/app/(root)/basin/droplets/page/[n]/not-found.tsx` verbatim; if its copy names "basin", adjust wording to "droplets" in the same voice.
 
-- [ ] **Step 3: Verify in the browser**
+- [x] **Step 3: Verify in the browser**
 
 Run: `pnpm dev`, visit `http://localhost:6767/basin/droplets/page/2` and `/basin/droplets/page/1`.
 Expected: page 2 404s (only one droplet exists → sentinel notFound) and page 1 404s (non-canonical). To see a real page 2, temporarily duplicate the sample droplet 10+ times with distinct dates/slugs, verify, then delete the copies.
 
-- [ ] **Step 4: Run suite and lint**
+- [x] **Step 4: Run suite and lint**
 
 Run: `pnpm exec vitest run && pnpm lint`
 Expected: PASS / clean.
@@ -1284,7 +1283,7 @@ Expected: PASS / clean.
 - Consumes: `listDroplets`/`loadDroplet`/`loadDropletMeta` (Task 3), `AUTHOR_TIMEZONE` (Task 2), `Badge` from `@/components/atoms/badge`.
 - Produces: routes only.
 
-- [ ] **Step 1: Create the layout**
+- [x] **Step 1: Create the layout**
 
 Create `src/app/(root)/basin/droplets/[slug]/layout.tsx` — same article shell as ripple posts:
 
@@ -1302,7 +1301,7 @@ export default function DropletLayout({ children }: { children: ReactNode }) {
 }
 ```
 
-- [ ] **Step 2: Create the permalink page**
+- [x] **Step 2: Create the permalink page**
 
 Create `src/app/(root)/basin/droplets/[slug]/page.tsx` — a simplified ripple post page: date is the fallback title, tags are non-linked badges, no blurb, no entrance script:
 
@@ -1400,12 +1399,12 @@ export default async function DropletPage({ params }: Props) {
 
 Note: `notFound()` falls through to the existing `src/app/(root)/basin/not-found.tsx`; no droplet-specific not-found page is needed.
 
-- [ ] **Step 3: Verify in the browser**
+- [x] **Step 3: Verify in the browser**
 
 Run: `pnpm dev`, visit `http://localhost:6767/basin/droplets/first-drop` (via the date link on the stream) and `http://localhost:6767/basin/droplets/ghost`.
 Expected: the permalink renders title "first drop", date, `meta` badge, and body inside the article shell; `ghost` 404s. Also temporarily strip `title:` from the sample droplet and confirm the h1 falls back to "July 5, 2026", then restore it.
 
-- [ ] **Step 4: Run suite and lint**
+- [x] **Step 4: Run suite and lint**
 
 Run: `pnpm exec vitest run && pnpm lint`
 Expected: PASS / clean.
@@ -1416,21 +1415,21 @@ Expected: PASS / clean.
 
 **Files:** none (verification only).
 
-- [ ] **Step 1: Full test suite**
+- [x] **Step 1: Full test suite**
 
 Run: `pnpm exec vitest run`
 Expected: all files PASS, including `frontmatter.test.ts`, `load-section.test.ts`, `content-paths.test.ts`, `pagination.test.ts`, `build-feed.test.ts`. `load-post.test.ts` no longer exists.
 
-- [ ] **Step 2: Lint and typecheck**
+- [x] **Step 2: Lint and typecheck**
 
 Run: `pnpm lint && pnpm exec tsc --noEmit`
 Expected: clean.
 
-- [ ] **Step 3: Production build**
+- [x] **Step 3: Production build**
 
 Run: `pnpm build`
 Expected: build succeeds. Confirm the route list includes `/basin/droplets`, `/basin/droplets/page/[n]`, and `/basin/droplets/[slug]`, and that the ripple routes are unchanged. The draft sample droplet must NOT be emitted as a static droplet page (drafts are excluded in production; the sentinel param covers the empty case).
 
-- [ ] **Step 4: Report**
+- [x] **Step 4: Report**
 
 Summarize for Ibrahim: what changed, the raw-route path fix (pre-existing bug), the temporary sample droplet (draft-only, safe to replace with real entries), and that all changes are uncommitted for him to review and commit.

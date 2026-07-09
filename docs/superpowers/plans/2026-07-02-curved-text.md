@@ -1,6 +1,6 @@
 # CurvedText Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** A `CurvedText` component that morphs text between three phases — flat span → 3D cylinder around the y-axis → flat spinning 2D ring — per the approved spec at `docs/superpowers/specs/2026-07-02-curved-text-design.md`.
 
@@ -44,7 +44,7 @@
   - `tiltTransform(p: number, radius: number): string`
   - `const MIN_BEND: number`, `const REAR_OPACITY: number`
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 Create `__tests__/curved-text-geometry.test.ts`:
 
@@ -152,12 +152,12 @@ describe("tiltTransform", () => {
 });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `pnpm test -- curved-text-geometry`
 Expected: FAIL — cannot resolve `@/components/text/curved-text-geometry`.
 
-- [ ] **Step 3: Write the implementation**
+- [x] **Step 3: Write the implementation**
 
 Create `src/components/text/curved-text-geometry.ts`:
 
@@ -223,7 +223,7 @@ export const tiltTransform = (p: number, radius: number): string => {
 
 Note: `-0` interpolates as `"0"` in template literals, so the `rotateX(0deg)` / `translateZ(0px)` assertions pass without special-casing.
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 
 Run: `pnpm test -- curved-text-geometry`
 Expected: PASS (16 tests).
@@ -231,7 +231,7 @@ Expected: PASS (16 tests).
 Also run the full suite to check nothing else broke: `pnpm test`
 Expected: PASS.
 
-- [ ] **Step 5: Lint**
+- [x] **Step 5: Lint**
 
 Run: `pnpm lint`
 Expected: clean. (No commit — user handles git.)
@@ -248,7 +248,7 @@ Expected: clean. (No commit — user handles git.)
 - Consumes: everything from `./curved-text-geometry` (Task 1 signatures).
 - Produces: `CurvedText` (named export), `CurvedTextProps`, `CurvedTextPhase` — Task 3's story imports `CurvedText`, `CurvedTextPhase`, and `CurvedTextProps` from `@/components/text/curved-text`.
 
-- [ ] **Step 1: Write the component**
+- [x] **Step 1: Write the component**
 
 Create `src/components/text/curved-text.tsx`:
 
@@ -480,7 +480,7 @@ Implementation notes for the engineer:
 - `translate(-50%, -50%)` leads each letter transform; with the default `transform-origin: center` the 3D chain pivots around each glyph's center.
 - Hover speed changes are instantaneous multipliers on the frame-loop velocity (matching CircularText's spirit without restarting tweens); `goBonkers` also spring-scales the whole container to 0.8 like CircularText does.
 
-- [ ] **Step 2: Export from the barrel**
+- [x] **Step 2: Export from the barrel**
 
 In `src/components/text/index.ts`, add (alphabetical position — first line):
 
@@ -488,7 +488,7 @@ In `src/components/text/index.ts`, add (alphabetical position — first line):
 export * from "./curved-text";
 ```
 
-- [ ] **Step 3: Typecheck and lint**
+- [x] **Step 3: Typecheck and lint**
 
 Run: `pnpm exec tsc --noEmit`
 Expected: clean. If `useTransform([progress, spin], ([p, s]: number[]) => ...)` trips motion 12's multi-value overload typing, change the callback to `(latest: number[]) => letterOpacity(latest[0], latest[1], geometry)`.
@@ -509,7 +509,7 @@ Expected: clean. If biome flags the `useLayoutEffect` deps, add the same style o
 - Consumes: `CurvedText`, `CurvedTextPhase`, `CurvedTextProps` from `@/components/text/curved-text` (the storybook Vite config already aliases `@` → repo `src`).
 - Produces: stories `Text/CurvedText` → `Playground` (phase radio control) and `Stepper` (in-canvas phase buttons).
 
-- [ ] **Step 1: Write the story**
+- [x] **Step 1: Write the story**
 
 Create `services/storybook/stories/curved-text.stories.tsx`:
 
@@ -579,12 +579,12 @@ export const Stepper: Story = {
 };
 ```
 
-- [ ] **Step 2: Build storybook to catch compile errors**
+- [x] **Step 2: Build storybook to catch compile errors**
 
 Run: `pnpm --filter ui-storybook build`
 Expected: build succeeds.
 
-- [ ] **Step 3: Visual verification in the browser**
+- [x] **Step 3: Visual verification in the browser**
 
 Run in background: `pnpm --filter ui-storybook dev` (port 6006), then open
 `http://localhost:6006/?path=/story/text-curvedtext--stepper` with the browser tools and verify against this checklist:
