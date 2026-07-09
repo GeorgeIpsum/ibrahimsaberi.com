@@ -12,6 +12,13 @@ export const DEFAULT_DOWNLOAD_MS = 2000;
 export const MIN_DOWNLOAD_MS = 50;
 export const MAX_DOWNLOAD_MS = 30_000;
 
+/** Upload payload bounds. The max stays under Vercel's 4.5 MB request body
+ * limit so a full-size probe never 413s at the platform layer. */
+export const DEFAULT_UPLOAD_BYTES = 3 * 1024 * 1024; // 3 MB
+export const MAX_UPLOAD_BYTES = 4 * 1024 * 1024; // 4 MB
+/** Server-side bound on how long the up route will keep draining a body. */
+export const MAX_UPLOAD_MS = 30_000;
+
 export type NetworkStatus = "checking" | "good" | "slow" | "offline";
 
 export interface NetworkQuality {
@@ -131,6 +138,9 @@ interface MeasureDownloadOptions {
   windowMs: number;
   maxBytes: number;
   now?: () => number;
+  /** Called after each counted chunk with cumulative measured bytes and the
+   * elapsed measurement interval — lets a UI show a live throughput reading. */
+  onProgress?: (bytes: number, elapsedMs: number) => void;
 }
 
 /**
@@ -147,6 +157,7 @@ export const measureDownload = async ({
   windowMs,
   maxBytes,
   now = () => performance.now(),
+  onProgress,
 }: MeasureDownloadOptions): Promise<number> => {
   const fetchStart = now();
   let measuring = false;
@@ -168,6 +179,7 @@ export const measureDownload = async ({
 
     bytes += len;
     const elapsed = now() - start;
+    onProgress?.(bytes, elapsed);
     if (elapsed >= windowMs || bytes >= maxBytes) {
       await reader.cancel();
       return computeMbps(bytes, elapsed);
@@ -177,6 +189,45 @@ export const measureDownload = async ({
   if (bytes > 0) return computeMbps(bytes, now() - start);
   // Degenerate (single chunk / tiny cap): no first-byte-to-last-byte interval.
   return computeMbps(firstChunkBytes, now() - fetchStart);
+};
+
+/** One cumulative upload-progress observation (XHR `upload.onprogress`). */
+export interface UploadSample {
+  /** Cumulative bytes handed to the network so far. */
+  loaded: number;
+  /** Timestamp of the observation, same clock as `startMs`/`endMs`. */
+  at: number;
+}
+
+interface ComputeUploadMbpsOptions {
+  samples: UploadSample[];
+  totalBytes: number;
+  startMs: number;
+  endMs: number;
+}
+
+/**
+ * Upload throughput from progress samples. Mirrors `measureDownload`'s
+ * first-to-last-sample interval: the first sample's bytes are excluded, which
+ * sheds both TCP slow-start and the browser's socket-buffer head (progress
+ * events report bytes buffered, not bytes acked, so the first event lands
+ * "instantly"). With fewer than two samples there is no interval, so it falls
+ * back to whole-transfer timing.
+ */
+export const computeUploadMbps = ({
+  samples,
+  totalBytes,
+  startMs,
+  endMs,
+}: ComputeUploadMbpsOptions): number => {
+  if (samples.length >= 2) {
+    const first = samples[0];
+    const last = samples[samples.length - 1];
+    const bytes = last.loaded - first.loaded;
+    const ms = last.at - first.at;
+    if (bytes > 0 && ms > 0) return computeMbps(bytes, ms);
+  }
+  return computeMbps(totalBytes, endMs - startMs);
 };
 
 interface MeasurePingOptions {

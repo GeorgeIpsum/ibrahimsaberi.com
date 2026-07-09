@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import {
   clampInt,
   computeMbps,
+  computeUploadMbps,
   INITIAL_STATUS_STATE,
   isSlowReading,
   measureDownload,
@@ -273,5 +274,46 @@ describe("measurePing", () => {
     await expect(
       measurePing({ fetchFn, url: "/api/net/ping", samples: 3, now: () => 0 }),
     ).rejects.toThrow();
+  });
+});
+
+describe("computeUploadMbps", () => {
+  it("measures over the first-to-last-sample interval, excluding the first sample's bytes", () => {
+    // First sample (500 KB, buffered "instantly") is the baseline; the
+    // measured interval carries 1,000,000 bytes over 1s = 8 Mbps.
+    const mbps = computeUploadMbps({
+      samples: [
+        { loaded: 500_000, at: 100 },
+        { loaded: 1_000_000, at: 600 },
+        { loaded: 1_500_000, at: 1100 },
+      ],
+      totalBytes: 1_500_000,
+      startMs: 0,
+      endMs: 1200,
+    });
+    expect(mbps).toBe(8);
+  });
+
+  it("falls back to whole-transfer timing with fewer than two samples", () => {
+    const mbps = computeUploadMbps({
+      samples: [{ loaded: 1_000_000, at: 500 }],
+      totalBytes: 1_000_000,
+      startMs: 0,
+      endMs: 1000,
+    });
+    expect(mbps).toBe(8);
+  });
+
+  it("falls back when the sample interval carries no bytes or time", () => {
+    const sameInstant = computeUploadMbps({
+      samples: [
+        { loaded: 1_000_000, at: 500 },
+        { loaded: 1_000_000, at: 500 },
+      ],
+      totalBytes: 1_000_000,
+      startMs: 0,
+      endMs: 1000,
+    });
+    expect(sameInstant).toBe(8);
   });
 });
