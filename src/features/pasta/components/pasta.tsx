@@ -1,5 +1,4 @@
 import { LineSquiggle } from "lucide-react";
-import { Suspense } from "react";
 import {
   Empty,
   EmptyContent,
@@ -13,23 +12,9 @@ import { copypasta } from "../pasta";
 import { CopyThatPasta } from "./copy";
 import { GoToRawPasta } from "./go-to";
 
-export const Pasta: React.FC<{
-  searchParams: Promise<{ noodle?: string }>;
-}> = ({ searchParams }) => {
-  return (
-    <Suspense fallback={<div>Cooking...</div>}>
-      <RawPasta searchParams={searchParams} />
-    </Suspense>
-  );
-};
-
-const RawPasta: React.FC<{
-  searchParams: Promise<{ noodle?: string }>;
-}> = async ({ searchParams }) => {
-  const params = await searchParams;
-
-  if (params.noodle) {
-    return <CookedPasta noodle={params.noodle} />;
+export const Pasta: React.FC<{ noodle?: string }> = ({ noodle }) => {
+  if (noodle) {
+    return <CookedPasta noodle={noodle} />;
   }
 
   return (
@@ -46,7 +31,7 @@ const RawPasta: React.FC<{
   );
 };
 
-const CookedPasta: React.FC<{ noodle: string }> = async ({ noodle }) => {
+const CookedPasta: React.FC<{ noodle: string }> = ({ noodle }) => {
   const pasta = copypasta.find((p) => p.title === `${noodle}.txt`);
 
   if (!pasta) {

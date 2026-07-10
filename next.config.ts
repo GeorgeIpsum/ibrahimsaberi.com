@@ -139,7 +139,11 @@ const config: NextConfig = {
   },
   serverExternalPackages: [],
   outputFileTracingIncludes: {
-    "/api/health": ["./src/app/api/health/pasta/**/*.txt"],
+    "/api/health": ["./src/features/pasta/**/*.txt"],
+    "/api/pasta": ["./src/features/pasta/**/*.txt"],
+    "/api/pasta/list": ["./src/features/pasta/**/*.txt"],
+    "/pasta": ["./src/features/pasta/**/*.txt"],
+    "/pasta/[noodle]": ["./src/features/pasta/**/*.txt"],
     "/api/audio/self/:path*": ["./public/audio/**/*"],
     "/api/audio/voice-responses": [
       "./src/app/api/audio/voice-responses/meta/**/*.json",
