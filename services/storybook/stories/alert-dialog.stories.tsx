@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent, waitFor, within } from "storybook/test";
 import {
   AlertDialog,
   AlertDialogClose,
@@ -14,14 +15,22 @@ import { Button } from "@/components/atoms/button";
 const meta = {
   title: "Atoms/AlertDialog",
   component: AlertDialog,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A modal dialog that interrupts the user to confirm a destructive or otherwise irreversible action.",
+      },
+    },
+  },
 } satisfies Meta<typeof AlertDialog>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  render: () => (
+function DeleteAccountDemo(): React.ReactElement {
+  return (
     <AlertDialog>
       <AlertDialogTrigger
         render={<Button variant="destructive-outline">Delete account</Button>}
@@ -44,7 +53,11 @@ export const Default: Story = {
         </AlertDialogFooter>
       </AlertDialogPopup>
     </AlertDialog>
-  ),
+  );
+}
+
+export const Default: Story = {
+  render: () => <DeleteAccountDemo />,
 };
 
 export const BareFooter: Story = {
@@ -71,4 +84,18 @@ export const BareFooter: Story = {
       </AlertDialogPopup>
     </AlertDialog>
   ),
+};
+
+// Clicking the trigger opens the popup. Base UI renders alert dialogs with
+// role="alertdialog" (a distinct ARIA role from the plain "dialog" role used
+// by Dialog/Drawer), so we assert on that role specifically.
+export const OpensOnClick: Story = {
+  render: () => <DeleteAccountDemo />,
+  play: async ({ canvas }) => {
+    await userEvent.click(
+      canvas.getByRole("button", { name: /delete account/i }),
+    );
+    const screen = within(document.body);
+    await waitFor(() => expect(screen.getByRole("alertdialog")).toBeVisible());
+  },
 };

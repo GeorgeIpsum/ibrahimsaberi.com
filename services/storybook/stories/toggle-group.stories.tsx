@@ -8,6 +8,7 @@ import {
   Italic,
   Underline,
 } from "lucide-react";
+import { expect, userEvent } from "storybook/test";
 import { ToggleGroup, ToggleGroupItem } from "@/components/atoms/toggle-group";
 
 const variants = ["default", "outline"] as const;
@@ -16,12 +17,21 @@ const sizes = ["sm", "default", "lg"] as const;
 const meta = {
   title: "Atoms/ToggleGroup",
   component: ToggleGroup,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A set of toggle buttons where one or more can be pressed, with shared styling context.",
+      },
+    },
+  },
   args: {
     variant: "default",
     size: "default",
     orientation: "horizontal",
     disabled: false,
+    multiple: false,
   },
   argTypes: {
     variant: { control: "select", options: variants },
@@ -31,6 +41,7 @@ const meta = {
       options: ["horizontal", "vertical"],
     },
     disabled: { control: "boolean" },
+    multiple: { control: "boolean" },
   },
 } satisfies Meta<typeof ToggleGroup>;
 
@@ -189,4 +200,34 @@ export const Disabled: Story = {
       </ToggleGroupItem>
     </ToggleGroup>
   ),
+};
+
+// Single-selection group: clicking an item presses it (`aria-pressed`) and
+// releases whichever item was previously active.
+export const SelectsAlignment: Story = {
+  render: (args) => (
+    <ToggleGroup {...args} defaultValue={["left"]}>
+      <ToggleGroupItem value="left" aria-label="Align left">
+        <AlignLeft />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="center" aria-label="Align center">
+        <AlignCenter />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="right" aria-label="Align right">
+        <AlignRight />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  ),
+  play: async ({ canvas }) => {
+    const left = canvas.getByRole("button", { name: "Align left" });
+    const center = canvas.getByRole("button", { name: "Align center" });
+
+    await expect(left).toHaveAttribute("aria-pressed", "true");
+    await expect(center).toHaveAttribute("aria-pressed", "false");
+
+    await userEvent.click(center);
+
+    await expect(center).toHaveAttribute("aria-pressed", "true");
+    await expect(left).toHaveAttribute("aria-pressed", "false");
+  },
 };

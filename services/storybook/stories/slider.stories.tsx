@@ -1,22 +1,35 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent, waitFor } from "storybook/test";
 import { Slider, SliderValue } from "@/components/atoms/slider";
+
+const orientations = ["horizontal", "vertical"] as const;
 
 const meta = {
   title: "Atoms/Slider",
   component: Slider,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A draggable control for selecting one or more numeric values within a range.",
+      },
+    },
+  },
   args: {
     defaultValue: 40,
     min: 0,
     max: 100,
     step: 1,
     disabled: false,
+    orientation: "horizontal",
   },
   argTypes: {
     min: { control: "number" },
     max: { control: "number" },
     step: { control: "number" },
     disabled: { control: "boolean" },
+    orientation: { control: "select", options: orientations },
   },
   decorators: [
     (Story) => (
@@ -75,4 +88,23 @@ export const Percentage: Story = {
 
 export const Disabled: Story = {
   args: { disabled: true, defaultValue: 30 },
+};
+
+export const KeyboardIncrement: Story = {
+  args: { defaultValue: 40 },
+  render: (args) => (
+    <Slider {...args}>
+      <SliderValue />
+    </Slider>
+  ),
+  play: async ({ canvas }) => {
+    const thumb = canvas.getByRole("slider");
+    const before = Number(thumb.getAttribute("aria-valuenow"));
+    thumb.focus();
+    await userEvent.keyboard("{ArrowRight}");
+    await waitFor(() => {
+      const after = Number(thumb.getAttribute("aria-valuenow"));
+      expect(after).toBeGreaterThan(before);
+    });
+  },
 };

@@ -6,11 +6,41 @@ const tags = Array.from({ length: 50 }, (_, i) => `v1.2.0-beta.${i + 1}`);
 const meta = {
   title: "Atoms/ScrollArea",
   component: ScrollArea,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A custom-styled scrollable viewport with auto-hiding scrollbars, built on Base UI.",
+      },
+    },
+  },
+  args: { scrollFade: false, scrollbarGutter: false },
+  argTypes: {
+    scrollFade: { control: "boolean" },
+    scrollbarGutter: { control: "boolean" },
+  },
 } satisfies Meta<typeof ScrollArea>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
+
+export const Playground: Story = {
+  render: (args) => (
+    <div className="h-72 w-56 rounded-md border">
+      <ScrollArea {...args} className="p-4">
+        <div className="mb-2 font-medium text-sm">Tags</div>
+        <div className="flex flex-col gap-2 text-sm">
+          {tags.map((tag) => (
+            <div key={tag} className="text-muted-foreground">
+              {tag}
+            </div>
+          ))}
+        </div>
+      </ScrollArea>
+    </div>
+  ),
+};
 
 export const Vertical: Story = {
   render: () => (

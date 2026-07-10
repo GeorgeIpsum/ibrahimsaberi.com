@@ -5,7 +5,14 @@ import { Kbd, KbdGroup } from "@/components/atoms/kbd";
 const meta = {
   title: "Atoms/Kbd",
   component: Kbd,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component: "Renders a keyboard key or shortcut combination.",
+      },
+    },
+  },
   args: { children: "K" },
   argTypes: { children: { control: "text" } },
 } satisfies Meta<typeof Kbd>;

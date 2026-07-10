@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { Bold, Star } from "lucide-react";
+import { expect, userEvent } from "storybook/test";
 import { Toggle } from "@/components/atoms/toggle";
 
 const variants = ["default", "outline"] as const;
@@ -8,7 +9,14 @@ const sizes = ["sm", "default", "lg"] as const;
 const meta = {
   title: "Atoms/Toggle",
   component: Toggle,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component: "A two-state button that can be pressed on or off.",
+      },
+    },
+  },
   args: {
     children: "Toggle",
     variant: "default",
@@ -82,4 +90,16 @@ export const Disabled: Story = { args: { disabled: true } };
 
 export const DisabledPressed: Story = {
   args: { disabled: true, defaultPressed: true },
+};
+
+// Clicking the toggle flips `aria-pressed` from false to true.
+export const Toggles: Story = {
+  play: async ({ canvas }) => {
+    const toggle = canvas.getByRole("button", { name: "Toggle" });
+    await expect(toggle).toHaveAttribute("aria-pressed", "false");
+
+    await userEvent.click(toggle);
+
+    await expect(toggle).toHaveAttribute("aria-pressed", "true");
+  },
 };

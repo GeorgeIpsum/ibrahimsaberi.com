@@ -12,7 +12,15 @@ import {
 const meta = {
   title: "Atoms/InputGroup",
   component: InputGroup,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Wraps an input or textarea with leading/trailing addons such as icons, text, or buttons.",
+      },
+    },
+  },
 } satisfies Meta<typeof InputGroup>;
 
 export default meta;

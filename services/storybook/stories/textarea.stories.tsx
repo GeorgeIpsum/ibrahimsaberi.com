@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import { Textarea } from "@/components/atoms/textarea";
 
 const sizes = ["sm", "default", "lg"] as const;
@@ -6,7 +7,15 @@ const sizes = ["sm", "default", "lg"] as const;
 const meta = {
   title: "Atoms/Textarea",
   component: Textarea,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A styled multi-line text input that grows with its content.",
+      },
+    },
+  },
   args: {
     placeholder: "Type your message…",
     size: "default",
@@ -53,4 +62,12 @@ export const Disabled: Story = {
 
 export const Invalid: Story = {
   args: { "aria-invalid": true, defaultValue: "Something looks off here." },
+};
+
+export const TypesValue: Story = {
+  play: async ({ canvas }) => {
+    const textarea = canvas.getByRole("textbox");
+    await userEvent.type(textarea, "hello world");
+    await expect(textarea).toHaveValue("hello world");
+  },
 };

@@ -11,7 +11,15 @@ const phases: CurvedTextPhase[] = ["flat", "cylinder", "ring"];
 const meta = {
   title: "Text/CurvedText",
   component: CurvedText,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Text that morphs between a flat line, a wrapped cylinder, and a spinning ring.",
+      },
+    },
+  },
   args: {
     text: "the quick brown fox ",
     phase: "flat",
@@ -24,6 +32,10 @@ const meta = {
   },
   argTypes: {
     phase: { control: "radio", options: phases },
+    size: { control: "number" },
+    spinDuration: { control: "number" },
+    morphDuration: { control: "number" },
+    sizeTransition: { control: "object" },
     onHover: {
       control: "select",
       options: ["slowDown", "speedUp", "pause", "goBonkers"],
@@ -61,4 +73,19 @@ const PhaseStepper = (args: CurvedTextProps) => {
 
 export const Stepper: Story = {
   render: (args) => <PhaseStepper {...args} />,
+};
+
+// All three phases rendered side by side at rest — a static complement to
+// the interactive Stepper above.
+export const Phases: Story = {
+  render: (args) => (
+    <div className="flex flex-wrap items-center justify-center gap-10">
+      {phases.map((phase) => (
+        <div key={phase} className="flex flex-col items-center gap-3">
+          <CurvedText {...args} phase={phase} size={140} />
+          <span className="text-muted-foreground text-xs">{phase}</span>
+        </div>
+      ))}
+    </div>
+  ),
 };

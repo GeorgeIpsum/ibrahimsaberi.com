@@ -17,7 +17,14 @@ const sizes = ["sm", "default", "lg"] as const;
 const meta = {
   title: "Atoms/Badge",
   component: Badge,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component: "A small status/label indicator for counts, tags, or state.",
+      },
+    },
+  },
   args: { children: "Badge", variant: "default", size: "default" },
   argTypes: {
     variant: { control: "select", options: variants },

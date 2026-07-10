@@ -13,7 +13,15 @@ import {
 const meta = {
   title: "Atoms/Empty",
   component: Empty,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A placeholder layout for empty/zero-data states with optional media, title, description and actions.",
+      },
+    },
+  },
 } satisfies Meta<typeof Empty>;
 
 export default meta;

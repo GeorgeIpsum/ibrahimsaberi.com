@@ -12,7 +12,15 @@ const values = [0, 33, 66, 100] as const;
 const meta = {
   title: "Atoms/Progress",
   component: Progress,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A horizontal bar showing determinate or indeterminate task completion.",
+      },
+    },
+  },
   args: {
     value: 66,
     max: 100,

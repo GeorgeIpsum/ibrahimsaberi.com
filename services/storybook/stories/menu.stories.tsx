@@ -9,6 +9,7 @@ import {
   UserPlus,
 } from "lucide-react";
 import * as React from "react";
+import { expect, userEvent, waitFor, within } from "storybook/test";
 import { Button } from "@/components/atoms/button";
 import {
   Menu,
@@ -30,15 +31,33 @@ import {
 const meta = {
   title: "Atoms/Menu",
   component: Menu,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A popup menu of actions or options, triggered by a button and navigable with the mouse, touch or keyboard.",
+      },
+    },
+  },
+  args: { disabled: false, modal: true, orientation: "vertical" },
+  argTypes: {
+    disabled: { control: "boolean" },
+    modal: { control: "boolean" },
+    orientation: { control: "select", options: ["horizontal", "vertical"] },
+  },
 } satisfies Meta<typeof Menu>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  render: () => (
-    <Menu>
+function AccountMenu(props: {
+  disabled?: boolean;
+  modal?: boolean;
+  orientation?: "horizontal" | "vertical";
+}): React.ReactElement {
+  return (
+    <Menu {...props}>
       <MenuTrigger render={<Button variant="outline">Open menu</Button>} />
       <MenuPopup className="w-56">
         <MenuGroup>
@@ -83,7 +102,11 @@ export const Default: Story = {
         </MenuItem>
       </MenuPopup>
     </Menu>
-  ),
+  );
+}
+
+export const Default: Story = {
+  render: (args) => <AccountMenu {...args} />,
 };
 
 function CheckboxRadioMenu(): React.ReactElement {
@@ -118,4 +141,21 @@ function CheckboxRadioMenu(): React.ReactElement {
 
 export const CheckboxAndRadio: Story = {
   render: () => <CheckboxRadioMenu />,
+};
+
+// Clicking the trigger opens the popup (role="menu"). Selecting a plain item
+// (role="menuitem") both fires its action and closes the menu.
+export const OpensAndSelectsItem: Story = {
+  render: () => <AccountMenu />,
+  play: async ({ canvas }) => {
+    await userEvent.click(canvas.getByRole("button", { name: /open menu/i }));
+    const screen = within(document.body);
+    await waitFor(() => expect(screen.getByRole("menu")).toBeVisible());
+
+    await userEvent.click(screen.getByRole("menuitem", { name: /profile/i }));
+
+    await waitFor(() =>
+      expect(screen.queryByRole("menu")).not.toBeInTheDocument(),
+    );
+  },
 };

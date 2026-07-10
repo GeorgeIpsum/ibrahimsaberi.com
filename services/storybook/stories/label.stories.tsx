@@ -6,7 +6,14 @@ import { Label } from "@/components/atoms/label";
 const meta = {
   title: "Atoms/Label",
   component: Label,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component: "An accessible label for form controls.",
+      },
+    },
+  },
   args: { children: "Email address" },
   argTypes: { children: { control: "text" } },
   decorators: [

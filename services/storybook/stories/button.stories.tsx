@@ -18,7 +18,15 @@ const iconSizes = ["icon-xs", "icon-sm", "icon", "icon-lg", "icon-xl"] as const;
 const meta = {
   title: "Atoms/Button",
   component: Button,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "The primary interactive control for triggering actions, with variant, size and loading states.",
+      },
+    },
+  },
   args: {
     children: "Button",
     variant: "default",

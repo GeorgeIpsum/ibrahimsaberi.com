@@ -3,26 +3,35 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "Storybook workshop for the ibrahimsaberi.com UI atoms (src/components/atoms).",
+  "description": "Storybook workshop for the ibrahimsaberi.com UI atoms, backgrounds, shaders and text components (src/components).",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "lint": "biome check"
+    "lint": "biome check",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "10.4.6",
-    "@storybook/addon-themes": "10.4.6",
-    "@storybook/addon-vitest": "^10.5.0",
-    "@storybook/nextjs-vite": "10.4.6",
+    "@storybook/addon-a11y": "^10.5.0",
+    "@storybook/addon-docs": "10.5.0",
+    "@storybook/addon-themes": "10.5.0",
+    "@storybook/addon-vitest": "10.5.0",
+    "@storybook/nextjs-vite": "10.5.0",
     "@tailwindcss/vite": "4.3.1",
     "@types/node": "22.13.4",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "@vitest/browser-playwright": "^4.1.10",
     "lightningcss": "^1.32.0",
     "next": "16.2.6",
+    "playwright": "^1.57.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "storybook": "10.4.6",
-    "vite": "^7.0.0"
+    "storybook": "10.5.0",
+    "vite": "^7.0.0",
+    "vitest": "^4.1.10"
+  },
+  "dependencies": {
+    "@vitest/coverage-v8": "^4.1.10"
   }
 }

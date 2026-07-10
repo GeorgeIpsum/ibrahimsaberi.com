@@ -14,7 +14,15 @@ import { Group, GroupSeparator, GroupText } from "@/components/atoms/group";
 const meta = {
   title: "Atoms/Group",
   component: Group,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Joins adjacent controls (buttons, text) into a single visually connected segment.",
+      },
+    },
+  },
   // `Group` requires `children`; every story below supplies its own via
   // `render`, so this default only satisfies the type and is never shown.
   args: {

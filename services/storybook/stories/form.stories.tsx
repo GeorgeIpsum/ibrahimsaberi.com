@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import { Button } from "@/components/atoms/button";
 import {
   Field,
@@ -11,10 +12,24 @@ import { Fieldset, FieldsetLegend } from "@/components/atoms/fieldset";
 import { Form } from "@/components/atoms/form";
 import { Input } from "@/components/atoms/input";
 
+const validationModes = ["onSubmit", "onBlur", "onChange"] as const;
+
 const meta = {
   title: "Atoms/Form",
   component: Form,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A native form wrapper with consolidated field error handling, built on Base UI's Form primitive.",
+      },
+    },
+  },
+  args: { validationMode: "onSubmit" },
+  argTypes: {
+    validationMode: { control: "select", options: validationModes },
+  },
   decorators: [
     (Story) => (
       <div className="w-80">
@@ -28,8 +43,12 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Playground: Story = {
-  render: () => (
-    <Form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
+  render: (args) => (
+    <Form
+      {...args}
+      className="flex flex-col gap-4"
+      onSubmit={(e) => e.preventDefault()}
+    >
       <Field name="email">
         <FieldLabel>Email address</FieldLabel>
         <FieldControl
@@ -85,6 +104,27 @@ export const WithFieldset: Story = {
       <Button type="submit">Submit</Button>
     </Form>
   ),
+};
+
+export const ShowsValidationError: Story = {
+  render: () => (
+    <Form className="flex flex-col gap-4" onSubmit={(e) => e.preventDefault()}>
+      <Field name="email">
+        <FieldLabel>Email address</FieldLabel>
+        <FieldControl
+          render={<Input type="email" placeholder="you@example.com" required />}
+        />
+        <FieldError match="valueMissing">An email is required.</FieldError>
+      </Field>
+      <Button className="mt-2" type="submit">
+        Sign in
+      </Button>
+    </Form>
+  ),
+  play: async ({ canvas }) => {
+    await userEvent.click(canvas.getByRole("button", { name: /sign in/i }));
+    await expect(await canvas.findByText(/email is required/i)).toBeVisible();
+  },
 };
 
 export const ServerErrors: Story = {

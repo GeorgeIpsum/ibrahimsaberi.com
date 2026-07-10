@@ -7,6 +7,12 @@ import {
   CardContent,
   CardDescription,
   CardFooter,
+  CardFrame,
+  CardFrameAction,
+  CardFrameDescription,
+  CardFrameFooter,
+  CardFrameHeader,
+  CardFrameTitle,
   CardHeader,
   CardTitle,
 } from "@/components/atoms/card";
@@ -14,7 +20,15 @@ import {
 const meta = {
   title: "Atoms/Card",
   component: Card,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A bordered container for grouping related content into header, body and footer sections.",
+      },
+    },
+  },
 } satisfies Meta<typeof Card>;
 
 export default meta;
@@ -57,5 +71,42 @@ export const ContentOnly: Story = {
         <p className="text-sm">A minimal card with only content.</p>
       </CardContent>
     </Card>
+  ),
+};
+
+// `CardFrame` groups several `Card`s into one visually joined stack (shared
+// rounded corners, collapsed borders between items) using the
+// `CardFrame*` slot components instead of the plain `Card*` ones.
+export const FrameOfCards: Story = {
+  render: () => (
+    <CardFrame className="w-96">
+      <Card>
+        <CardFrameHeader>
+          <CardFrameTitle>Pro plan</CardFrameTitle>
+          <CardFrameDescription>
+            $20 / month, billed annually
+          </CardFrameDescription>
+          <CardFrameAction>
+            <Button size="sm" variant="outline">
+              Change
+            </Button>
+          </CardFrameAction>
+        </CardFrameHeader>
+        <CardFrameFooter className="border-t text-muted-foreground text-sm">
+          Renews on Jan 1, 2027
+        </CardFrameFooter>
+      </Card>
+      <Card>
+        <CardFrameHeader>
+          <CardFrameTitle>Payment method</CardFrameTitle>
+          <CardFrameDescription>Visa ending in 4242</CardFrameDescription>
+          <CardFrameAction>
+            <Button size="sm" variant="outline">
+              Edit
+            </Button>
+          </CardFrameAction>
+        </CardFrameHeader>
+      </Card>
+    </CardFrame>
   ),
 };

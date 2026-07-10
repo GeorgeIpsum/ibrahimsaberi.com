@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent, within } from "storybook/test";
 import { Button } from "@/components/atoms/button";
 import { ToastProvider, toastManager } from "@/components/atoms/toast";
 
@@ -9,10 +10,33 @@ const WORKSHOP_TIMEOUT = 60_000;
 const meta = {
   title: "Atoms/Toast",
   component: ToastProvider,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Transient, stacked notifications shown in a corner of the viewport to communicate the outcome of an action.",
+      },
+    },
+  },
+  args: { position: "bottom-right" },
+  argTypes: {
+    // Literal values from `ToastPosition` in src/components/atoms/toast.tsx.
+    position: {
+      control: "select",
+      options: [
+        "top-left",
+        "top-center",
+        "top-right",
+        "bottom-left",
+        "bottom-center",
+        "bottom-right",
+      ],
+    },
+  },
   decorators: [
-    (Story) => (
-      <ToastProvider>
+    (Story, context) => (
+      <ToastProvider position={context.args.position}>
         <Story />
       </ToastProvider>
     ),
@@ -22,8 +46,8 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  render: () => (
+function ToastDemo(): React.ReactElement {
+  return (
     <Button
       variant="outline"
       onClick={() =>
@@ -36,7 +60,11 @@ export const Default: Story = {
     >
       Show toast
     </Button>
-  ),
+  );
+}
+
+export const Default: Story = {
+  render: () => <ToastDemo />,
 };
 
 export const Types: Story = {
@@ -94,6 +122,19 @@ export const Types: Story = {
       >
         Info
       </Button>
+      <Button
+        variant="outline"
+        onClick={() =>
+          toastManager.add({
+            title: "Uploading file",
+            description: "This may take a moment.",
+            type: "loading",
+            timeout: WORKSHOP_TIMEOUT,
+          })
+        }
+      >
+        Loading
+      </Button>
     </div>
   ),
 };
@@ -114,4 +155,16 @@ export const WithAction: Story = {
       Show toast with action
     </Button>
   ),
+};
+
+// Clicking the trigger adds a toast; its content is portaled to
+// `document.body` via `Toast.Portal`, not rendered inside the canvas.
+export const ShowsToastOnClick: Story = {
+  render: () => <ToastDemo />,
+  play: async ({ canvas }) => {
+    await userEvent.click(canvas.getByRole("button", { name: /show toast/i }));
+    await expect(
+      await within(document.body).findByText("Event created"),
+    ).toBeVisible();
+  },
 };

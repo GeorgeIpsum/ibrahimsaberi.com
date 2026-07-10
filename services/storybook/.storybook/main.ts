@@ -10,13 +10,28 @@ const srcDir = resolve(import.meta.dirname, "../../../src");
 const config: StorybookConfig = {
   framework: "@storybook/nextjs-vite",
   stories: ["../stories/**/*.stories.@(ts|tsx)"],
-  addons: ["@storybook/addon-docs", "@storybook/addon-themes"],
+  addons: [
+    "@storybook/addon-docs",
+    "@storybook/addon-themes",
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y"
+  ],
+  // Lets `Hello` (an async server component awaiting `connection()`) render
+  // directly in the browser preview instead of erroring as an unsupported
+  // async component — see hello.stories.tsx.
+  features: { experimentalRSC: true },
   viteFinal: async (cfg) => {
     const { mergeConfig } = await import("vite");
     return mergeConfig(cfg, {
       plugins: [tailwindcss()],
       resolve: {
-        alias: { "@": srcDir },
+        alias: {
+          "@": srcDir,
+          // `Hello` imports `connection()` from `next/server` — a Node-only
+          // module. Swap in a same-signature browser stub so the RSC preview
+          // can import it without pulling in Next's server runtime.
+          "next/server": resolve(import.meta.dirname, "next-server-mock.ts"),
+        },
         // Keep a single copy of React et al. so hooks work across the
         // repo-root atoms and this package's tooling.
         dedupe: ["react", "react-dom", "@base-ui/react"],

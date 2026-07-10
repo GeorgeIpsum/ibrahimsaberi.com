@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import { Label } from "@/components/atoms/label";
 import { RadioGroup, RadioGroupItem } from "@/components/atoms/radio-group";
 
@@ -11,7 +12,15 @@ const options = [
 const meta = {
   title: "Atoms/RadioGroup",
   component: RadioGroup,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Groups mutually exclusive Radio buttons and manages the single selected value.",
+      },
+    },
+  },
   args: { disabled: false },
   argTypes: { disabled: { control: "boolean" } },
   render: (args) => (
@@ -52,4 +61,13 @@ export const DisabledItem: Story = {
       </Label>
     </RadioGroup>
   ),
+};
+
+export const SelectsOption: Story = {
+  play: async ({ canvas }) => {
+    const compact = canvas.getByRole("radio", { name: "Compact" });
+    await expect(compact).not.toBeChecked();
+    await userEvent.click(compact);
+    await expect(compact).toBeChecked();
+  },
 };

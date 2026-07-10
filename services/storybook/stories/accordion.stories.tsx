@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import {
   Accordion,
   AccordionItem,
@@ -29,11 +30,42 @@ const items = [
 const meta = {
   title: "Atoms/Accordion",
   component: Accordion,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A vertically stacked set of interactive headings that each reveal an associated panel of content.",
+      },
+    },
+  },
+  args: { multiple: false, disabled: false },
+  argTypes: {
+    multiple: { control: "boolean" },
+    disabled: { control: "boolean" },
+  },
 } satisfies Meta<typeof Accordion>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
+
+export const Playground: Story = {
+  render: (args) => (
+    <Accordion
+      multiple={args.multiple}
+      disabled={args.disabled}
+      defaultValue={["item-1"]}
+      className="w-96"
+    >
+      {items.map(({ value, question, answer }) => (
+        <AccordionItem key={value} value={value}>
+          <AccordionTrigger>{question}</AccordionTrigger>
+          <AccordionPanel>{answer}</AccordionPanel>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  ),
+};
 
 export const Single: Story = {
   render: () => (
@@ -59,4 +91,40 @@ export const Multiple: Story = {
       ))}
     </Accordion>
   ),
+};
+
+export const Disabled: Story = {
+  render: () => (
+    <Accordion disabled defaultValue={["item-1"]} className="w-96">
+      {items.map(({ value, question, answer }) => (
+        <AccordionItem key={value} value={value}>
+          <AccordionTrigger>{question}</AccordionTrigger>
+          <AccordionPanel>{answer}</AccordionPanel>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  ),
+};
+
+// Clicking a closed trigger expands its panel (Base UI Accordion is
+// uncontrolled here, so no starting value is set).
+export const ExpandsPanel: Story = {
+  render: () => (
+    <Accordion className="w-96">
+      {items.map(({ value, question, answer }) => (
+        <AccordionItem key={value} value={value}>
+          <AccordionTrigger>{question}</AccordionTrigger>
+          <AccordionPanel>{answer}</AccordionPanel>
+        </AccordionItem>
+      ))}
+    </Accordion>
+  ),
+  play: async ({ canvas }) => {
+    await userEvent.click(
+      canvas.getByRole("button", { name: /is it accessible/i }),
+    );
+    await expect(
+      await canvas.findByText(/adheres to the wai-aria design pattern/i),
+    ).toBeVisible();
+  },
 };

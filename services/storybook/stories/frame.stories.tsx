@@ -12,7 +12,15 @@ import {
 const meta = {
   title: "Atoms/Frame",
   component: Frame,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A muted container that groups one or more panels with a soft inset background.",
+      },
+    },
+  },
 } satisfies Meta<typeof Frame>;
 
 export default meta;

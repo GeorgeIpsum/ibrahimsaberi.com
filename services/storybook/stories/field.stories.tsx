@@ -11,7 +11,15 @@ import { Input } from "@/components/atoms/input";
 const meta = {
   title: "Atoms/Field",
   component: Field,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "Groups a label, control, description, and error message for a single form field.",
+      },
+    },
+  },
   args: { name: "email", disabled: false },
   argTypes: {
     name: { control: "text" },

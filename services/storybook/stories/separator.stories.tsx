@@ -6,7 +6,15 @@ const orientations = ["horizontal", "vertical"] as const;
 const meta = {
   title: "Atoms/Separator",
   component: Separator,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A thin visual divider between content, horizontal or vertical.",
+      },
+    },
+  },
   args: { orientation: "horizontal" },
   argTypes: {
     orientation: { control: "inline-radio", options: orientations },

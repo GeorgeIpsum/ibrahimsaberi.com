@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { Settings2 } from "lucide-react";
+import { expect, userEvent, waitFor, within } from "storybook/test";
 import { Button } from "@/components/atoms/button";
 import {
   Popover,
@@ -13,15 +14,29 @@ import {
 const meta = {
   title: "Atoms/Popover",
   component: Popover,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A non-modal popup anchored to a trigger element, used for supplementary content or controls.",
+      },
+    },
+  },
+  args: { modal: false },
+  argTypes: {
+    modal: { control: "select", options: [false, true, "trap-focus"] },
+  },
 } satisfies Meta<typeof Popover>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  render: () => (
-    <Popover>
+function DimensionsDemo(props: {
+  modal?: boolean | "trap-focus";
+}): React.ReactElement {
+  return (
+    <Popover {...props}>
       <PopoverTrigger
         render={<Button variant="outline">Open popover</Button>}
       />
@@ -35,7 +50,11 @@ export const Default: Story = {
         </div>
       </PopoverContent>
     </Popover>
-  ),
+  );
+}
+
+export const Default: Story = {
+  render: (args) => <DimensionsDemo {...args} />,
 };
 
 export const WithIconTrigger: Story = {
@@ -103,4 +122,37 @@ export const Sides: Story = {
       ))}
     </div>
   ),
+};
+
+// `tooltipStyle` shrinks the popup to a compact, tooltip-like appearance
+// while keeping the popover's non-modal, click-to-open behavior.
+export const TooltipStyle: Story = {
+  render: () => (
+    <Popover>
+      <PopoverTrigger
+        render={
+          <Button variant="outline" size="sm">
+            Hover-style popover
+          </Button>
+        }
+      />
+      <PopoverContent tooltipStyle>
+        <PopoverDescription>
+          A compact, tooltip-styled popup.
+        </PopoverDescription>
+      </PopoverContent>
+    </Popover>
+  ),
+};
+
+// Clicking the trigger opens the popup, rendered with role="dialog".
+export const OpensOnClick: Story = {
+  render: () => <DimensionsDemo />,
+  play: async ({ canvas }) => {
+    await userEvent.click(
+      canvas.getByRole("button", { name: /open popover/i }),
+    );
+    const screen = within(document.body);
+    await waitFor(() => expect(screen.getByRole("dialog")).toBeVisible());
+  },
 };

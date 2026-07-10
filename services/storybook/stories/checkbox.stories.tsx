@@ -1,16 +1,33 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import { Checkbox } from "@/components/atoms/checkbox";
 import { Label } from "@/components/atoms/label";
 
 const meta = {
   title: "Atoms/Checkbox",
   component: Checkbox,
-  parameters: { layout: "centered" },
-  args: { disabled: false, defaultChecked: false, indeterminate: false },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A tri-state control (checked, unchecked, or indeterminate) for binary choices, built on Base UI's Checkbox primitive.",
+      },
+    },
+  },
+  args: {
+    disabled: false,
+    defaultChecked: false,
+    indeterminate: false,
+    required: false,
+    readOnly: false,
+  },
   argTypes: {
     disabled: { control: "boolean" },
     defaultChecked: { control: "boolean" },
     indeterminate: { control: "boolean" },
+    required: { control: "boolean" },
+    readOnly: { control: "boolean" },
   },
 } satisfies Meta<typeof Checkbox>;
 
@@ -47,4 +64,13 @@ export const WithLabel: Story = {
       Accept terms and conditions
     </Label>
   ),
+};
+
+export const Toggles: Story = {
+  play: async ({ canvas }) => {
+    const box = canvas.getByRole("checkbox");
+    await expect(box).not.toBeChecked();
+    await userEvent.click(box);
+    await expect(box).toBeChecked();
+  },
 };

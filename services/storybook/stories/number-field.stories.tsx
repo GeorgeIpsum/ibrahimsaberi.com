@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { expect, userEvent } from "storybook/test";
 import { Label } from "@/components/atoms/label";
 import {
   NumberField,
@@ -14,7 +15,15 @@ const sizes = ["sm", "default", "lg"] as const;
 const meta = {
   title: "Atoms/NumberField",
   component: NumberField,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A numeric input with increment/decrement controls, formatting, and an optional scrub area.",
+      },
+    },
+  },
   args: {
     size: "default",
     defaultValue: 5,
@@ -106,4 +115,17 @@ export const WithLabel: Story = {
       </NumberFieldGroup>
     </NumberField>
   ),
+};
+
+export const TypesValueAndIncrements: Story = {
+  play: async ({ canvas }) => {
+    const input = canvas.getByRole("textbox");
+    await userEvent.clear(input);
+    await userEvent.type(input, "42");
+    await expect(input).toHaveValue("42");
+
+    const [, incrementButton] = canvas.getAllByRole("button");
+    await userEvent.click(incrementButton);
+    await expect(input).toHaveValue("43");
+  },
 };

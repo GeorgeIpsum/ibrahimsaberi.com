@@ -6,7 +6,14 @@ const sizes = ["size-3", "size-4", "size-6", "size-8", "size-12"] as const;
 const meta = {
   title: "Atoms/Spinner",
   component: Spinner,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: { description: { component: "An animated loading indicator." } },
+  },
+  argTypes: {
+    size: { control: "number" },
+    strokeWidth: { control: "number" },
+  },
 } satisfies Meta<typeof Spinner>;
 
 export default meta;

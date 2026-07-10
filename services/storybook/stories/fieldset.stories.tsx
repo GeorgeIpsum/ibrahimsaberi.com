@@ -11,7 +11,16 @@ import { Input } from "@/components/atoms/input";
 const meta = {
   title: "Atoms/Fieldset",
   component: Fieldset,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component: "Groups a shared legend with a set of related form fields.",
+      },
+    },
+  },
+  args: { disabled: false },
+  argTypes: { disabled: { control: "boolean" } },
   decorators: [
     (Story) => (
       <div className="w-80">
@@ -25,8 +34,8 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Playground: Story = {
-  render: () => (
-    <Fieldset className="flex flex-col gap-4">
+  render: (args) => (
+    <Fieldset {...args} className="flex flex-col gap-4">
       <FieldsetLegend>Billing details</FieldsetLegend>
       <Field name="name">
         <FieldLabel>Full name</FieldLabel>

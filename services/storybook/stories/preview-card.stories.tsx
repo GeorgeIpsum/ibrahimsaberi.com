@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { CalendarDays } from "lucide-react";
+import { expect, userEvent, waitFor, within } from "storybook/test";
 import {
   PreviewCard,
   PreviewCardPopup,
@@ -9,7 +10,15 @@ import {
 const meta = {
   title: "Atoms/PreviewCard",
   component: PreviewCard,
-  parameters: { layout: "centered" },
+  parameters: {
+    layout: "centered",
+    docs: {
+      description: {
+        component:
+          "A popup that previews linked content when its trigger is hovered, without navigating away from the page.",
+      },
+    },
+  },
 } satisfies Meta<typeof PreviewCard>;
 
 export default meta;
@@ -76,4 +85,44 @@ export const WithDelay: Story = {
       to see it open fast.
     </div>
   ),
+};
+
+// `PreviewCardTrigger`'s open delay defaults to 600ms; passing `delay={0}`
+// keeps this interaction test fast and deterministic.
+export const OpensOnHover: Story = {
+  render: () => (
+    <div className="text-sm">
+      Hover{" "}
+      <PreviewCard>
+        <PreviewCardTrigger
+          delay={0}
+          render={
+            <a
+              href="#preview"
+              className="font-medium text-foreground underline"
+            >
+              this link
+            </a>
+          }
+        />
+        <PreviewCardPopup>
+          <div className="flex flex-col gap-1">
+            <div className="font-semibold">Quick preview</div>
+            <p className="text-muted-foreground">
+              Preview content appears on hover.
+            </p>
+          </div>
+        </PreviewCardPopup>
+      </PreviewCard>
+    </div>
+  ),
+  play: async ({ canvas }) => {
+    await userEvent.hover(canvas.getByRole("link", { name: /this link/i }));
+    const screen = within(document.body);
+    await waitFor(() =>
+      expect(
+        screen.getByText(/preview content appears on hover/i),
+      ).toBeVisible(),
+    );
+  },
 };
