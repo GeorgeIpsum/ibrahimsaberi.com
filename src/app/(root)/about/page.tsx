@@ -48,7 +48,8 @@ export default function Page() {
 
       <h2 className="reveal-top">What sparks joy</h2>
       <p className="reveal-top">
-        I'm a creator/tinkerer at heart. Reading{" "}
+        I'm a creator/tinkerer at heart; to me, the process{" "}
+        <span className="italic">is</span> the pudding. Reading{" "}
         <PreviewCard>
           <PreviewCardTrigger href="https://www.robinsloan.com/notes/home-cooked-app/">
             "An app can be a home-cooked meal"
