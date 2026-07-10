@@ -23,7 +23,7 @@ export const createOgImage = async ({
   backgroundColor,
   color,
 }: CreateOgOpts) => {
-  const [lightFont, extraBoldFont, img] = await Promise.all([
+  const [lightFont, extraBoldFont, img, monoFont] = await Promise.all([
     readFile(
       join(
         process.cwd(),
@@ -45,6 +45,16 @@ export const createOgImage = async ({
       ),
     ),
     readFile(join(process.cwd(), "public", "is.svg"), "base64"),
+    readFile(
+      join(
+        process.cwd(),
+        "public",
+        "fonts",
+        "CascadiaMono",
+        "static",
+        "CascadiaMono-Regular.ttf",
+      ),
+    ),
   ]);
 
   return new ImageResponse(
@@ -132,6 +142,12 @@ export const createOgImage = async ({
           name: "Platypi",
           data: extraBoldFont,
           weight: 600,
+          style: "normal",
+        },
+        {
+          name: "monospace",
+          data: monoFont,
+          weight: 400,
           style: "normal",
         },
       ],
