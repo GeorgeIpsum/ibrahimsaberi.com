@@ -28,7 +28,6 @@ export const AboutControl: React.FC = () => {
           }),
         ),
       );
-      console.log("els.current", els.current);
     }
 
     els.current.forEach((el) => {
@@ -51,6 +50,7 @@ export const AboutControl: React.FC = () => {
       type: "switch",
       value: useScrollReveal,
       onChange: (value) => setUseScrollReveal(value as boolean),
+      persist: true,
     },
   });
 

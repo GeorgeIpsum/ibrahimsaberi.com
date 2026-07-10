@@ -60,6 +60,12 @@ export type Control<T extends ControlType> = {
   onChange?: ControlChangeHandler<T>;
   /** Log this control's changes (commit/cancel/pending) to the console. */
   log?: boolean;
+  /**
+   * Save committed values to localStorage (keyed by control key alone — key
+   * collisions are last-writer-wins) and restore them at registration. A saved
+   * value whose type doesn't match the control is warned about and discarded.
+   */
+  persist?: boolean;
   /** Internal UI state: `true` while an async `beforeChange` is running. */
   pending?: boolean;
   disabled?: IObservableValue<boolean>;
@@ -112,6 +118,25 @@ export const resolveControlType = (control: {
   return "text";
 };
 
+/** Does a (persisted) runtime value actually fit a control type? */
+const valueMatchesType = (value: unknown, type: ControlType): boolean => {
+  switch (type) {
+    case "select":
+      return typeof value === "string" || typeof value === "number";
+    case "text":
+    case "color":
+      return typeof value === "string";
+    case "number":
+      return typeof value === "number";
+    case "switch":
+      return typeof value === "boolean";
+    case "action":
+      return value === null;
+    default:
+      return false;
+  }
+};
+
 const getDefaultControlValue = <T extends ControlType>(
   type: T,
 ): ControlTypeValue<T> => {
@@ -139,6 +164,7 @@ export function createControlContext<K extends string>() {
   const guards = new Map<K, ControlGuard<ControlType> | undefined>();
   const handlers = new Map<K, ControlChangeHandler<ControlType> | undefined>();
   const logFlags = new Map<K, boolean | undefined>();
+  const persistFlags = new Map<K, boolean | undefined>();
   const lastProp = new Map<K, ControlValue | undefined>();
   const actionComponents = new Map<
     K,
@@ -178,6 +204,65 @@ export function createControlContext<K extends string>() {
     return instanceGroupKey.get(instanceId) ?? instanceId;
   };
 
+  // --- localStorage persistence (`persist: true`) ---
+  // Keyed by control key alone; storage is shared across contexts on purpose
+  // ("who accessed this last" wins on collision).
+  const persistStorageKey = (key: K) => `control:${key}`;
+
+  /**
+   * Read the saved `{type, value}` for `key`. Anything malformed or whose type
+   * doesn't match the control's resolved type is warned about and thrown away.
+   * Returns `undefined` when there is nothing (valid) to restore — a real
+   * saved value is never `undefined` since it round-trips through JSON.
+   */
+  const readPersistedValue = (
+    key: K,
+    type: ControlType,
+  ): ControlValue | undefined => {
+    let raw: string | null;
+    try {
+      raw = globalThis.localStorage.getItem(persistStorageKey(key));
+    } catch {
+      return undefined;
+    }
+    if (raw === null) return undefined;
+
+    let stored: { type?: unknown; value?: unknown } | undefined;
+    try {
+      stored = JSON.parse(raw);
+    } catch {
+      /* fall through to the discard below */
+    }
+    if (stored?.type === type && valueMatchesType(stored.value, type)) {
+      return stored.value as ControlValue;
+    }
+
+    console.warn(
+      `[control] discarding persisted value for "${key}": ${raw} does not match control type "${type}"`,
+    );
+    try {
+      globalThis.localStorage.removeItem(persistStorageKey(key));
+    } catch {
+      /* no-op */
+    }
+    return undefined;
+  };
+
+  /** Save a committed value (no-op unless the control opted in via `persist`). */
+  const persistValue = (key: K, value: ControlValue): void => {
+    if (!persistFlags.get(key)) return;
+    const type = context.registeredControls[key]?.type;
+    if (!type) return;
+    try {
+      globalThis.localStorage.setItem(
+        persistStorageKey(key),
+        JSON.stringify({ type, value }),
+      );
+    } catch {
+      /* no-op */
+    }
+  };
+
   const makeContext = (fromPanel: boolean): ControlChangeContext => ({
     fromPanel,
     controls: context.registeredControls as {
@@ -194,6 +279,7 @@ export function createControlContext<K extends string>() {
     guards.set(key, control.beforeChange as ControlGuard<ControlType>);
     handlers.set(key, control.onChange as ControlChangeHandler<ControlType>);
     logFlags.set(key, control.log);
+    persistFlags.set(key, control.persist);
     if (control.actionProps) {
       actionComponents.set(key, {
         children: control.actionProps.children,
@@ -221,7 +307,11 @@ export function createControlContext<K extends string>() {
 
     // Resolve the type ONCE here; the renderer reads `entry.type` directly.
     const type = resolveControlType(control);
-    const initial = control.value ?? getDefaultControlValue(type);
+    const fallback = control.value ?? getDefaultControlValue(type);
+    const restored = control.persist
+      ? readPersistedValue(key, type)
+      : undefined;
+    const initial = restored !== undefined ? restored : fallback;
     lastProp.set(key, control.value);
     lastProp.set(`${key}_disabled` as K, control.disabled);
 
@@ -242,6 +332,12 @@ export function createControlContext<K extends string>() {
         actionProps,
       } as Control<ControlType>;
     });
+
+    // A restored value that differs from the default is a real change from the
+    // host's point of view — let it know so app state tracks the panel.
+    if (restored !== undefined && !equals(restored, fallback)) {
+      handlers.get(key)?.(restored, fallback, makeContext(false));
+    }
   };
 
   const updateControl = <T extends ControlType>(
@@ -268,6 +364,7 @@ export function createControlContext<K extends string>() {
       lastProp.set(key, control.value);
       if (!equals(control.value, entry.value?.get())) {
         runInAction(() => entry.value?.set(control.value as ControlValue));
+        persistValue(key, control.value as ControlValue);
       }
     }
 
@@ -329,6 +426,7 @@ export function createControlContext<K extends string>() {
     guards.delete(key);
     handlers.delete(key);
     logFlags.delete(key);
+    persistFlags.delete(key);
     lastProp.delete(key);
     lastProp.delete(`${key}_disabled` as K);
     const instanceId = instanceOf.get(key);
@@ -379,6 +477,7 @@ export function createControlContext<K extends string>() {
 
     const commit = () => {
       runInAction(() => box.set(value));
+      persistValue(key, value);
       log("committed", { prev, value });
       onChange?.(value, prev, ctx);
     };
@@ -407,6 +506,7 @@ export function createControlContext<K extends string>() {
               box.set(prev);
               log("cancelled", { prev, value });
             } else {
+              persistValue(key, value);
               log("committed", { prev, value });
               onChange?.(value, prev, ctx);
             }

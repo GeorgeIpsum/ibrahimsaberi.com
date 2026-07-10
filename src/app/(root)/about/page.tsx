@@ -48,12 +48,13 @@ export default function Page() {
 
       <h2 className="reveal-top">What sparks joy</h2>
       <p className="reveal-top">
-        I'm a creator/tinkerer at heart. After reading{" "}
+        I'm a creator/tinkerer at heart. Reading{" "}
         <PreviewCard>
           <PreviewCardTrigger href="https://www.robinsloan.com/notes/home-cooked-app/">
             "An app can be a home-cooked meal"
-          </PreviewCardTrigger>
-          , creating for others has become my driving ethos.
+          </PreviewCardTrigger>{" "}
+          changed my life. I firmly believe that software, at its best, is an
+          art form that serves others.
           <PreviewCardPopup>
             <figure className="prose block">
               <blockquote className="text-sm">

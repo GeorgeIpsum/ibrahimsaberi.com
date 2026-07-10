@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   createControlContext,
   resolveControlType,
@@ -356,6 +356,157 @@ describe("control panel store", () => {
         ["a"],
         ["b"],
       ]);
+    });
+  });
+
+  describe("persistence (persist: true)", () => {
+    /** In-memory localStorage stand-in (tests run in a node environment). */
+    const stubStorage = (seed: Record<string, string> = {}) => {
+      const store = new Map<string, string>(Object.entries(seed));
+      vi.stubGlobal("localStorage", {
+        getItem: (k: string) => store.get(k) ?? null,
+        setItem: (k: string, v: string) => void store.set(k, String(v)),
+        removeItem: (k: string) => void store.delete(k),
+      });
+      return store;
+    };
+
+    afterEach(() => {
+      vi.unstubAllGlobals();
+    });
+
+    it("saves type + value under control:<key> on a committed panel edit", () => {
+      const store = stubStorage();
+      const ctx = createControlContext<string>();
+      ctx.registerControl("foo", { value: "a", persist: true });
+
+      ctx.setControlValue("foo", "b");
+
+      expect(JSON.parse(store.get("control:foo") ?? "null")).toEqual({
+        type: "text",
+        value: "b",
+      });
+    });
+
+    it("does not touch localStorage without persist: true", () => {
+      const store = stubStorage();
+      const ctx = createControlContext<string>();
+      ctx.registerControl("foo", { value: "a" });
+
+      ctx.setControlValue("foo", "b");
+
+      expect(store.size).toBe(0);
+    });
+
+    it("saves when the app pushes a new prop value (silent sync)", () => {
+      const store = stubStorage();
+      const ctx = createControlContext<string>();
+      ctx.registerControl("foo", { value: "a", persist: true });
+
+      ctx.updateControl("foo", { value: "z", persist: true });
+
+      expect(JSON.parse(store.get("control:foo") ?? "null")).toEqual({
+        type: "text",
+        value: "z",
+      });
+    });
+
+    it("restores a saved value at registration and fires onChange(restored, default)", () => {
+      stubStorage({
+        "control:foo": JSON.stringify({ type: "switch", value: false }),
+      });
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("foo", { value: true, persist: true, onChange });
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe(false);
+      expect(onChange).toHaveBeenCalledTimes(1);
+      expect(onChange).toHaveBeenCalledWith(false, true, expect.anything());
+    });
+
+    it("does not fire onChange when the saved value equals the default", () => {
+      stubStorage({
+        "control:foo": JSON.stringify({ type: "switch", value: true }),
+      });
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("foo", { value: true, persist: true, onChange });
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe(true);
+      expect(onChange).not.toHaveBeenCalled();
+    });
+
+    it("ignores saved values entirely without persist: true", () => {
+      stubStorage({
+        "control:foo": JSON.stringify({ type: "switch", value: false }),
+      });
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("foo", { value: true, onChange });
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe(true);
+      expect(onChange).not.toHaveBeenCalled();
+    });
+
+    it("warns and discards a saved value whose type doesn't match the control", () => {
+      const store = stubStorage({
+        "control:foo": JSON.stringify({ type: "text", value: "hi" }),
+      });
+      const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+      try {
+        const ctx = createControlContext<string>();
+        const onChange = vi.fn();
+        ctx.registerControl("foo", { value: true, persist: true, onChange });
+
+        expect(ctx.context.registeredControls.foo.value?.get()).toBe(true);
+        expect(onChange).not.toHaveBeenCalled();
+        expect(warn).toHaveBeenCalledTimes(1);
+        expect(store.has("control:foo")).toBe(false);
+      } finally {
+        warn.mockRestore();
+      }
+    });
+
+    it("warns and discards a saved value whose runtime type is tampered", () => {
+      const store = stubStorage({
+        // type claims switch, but the value is a string
+        "control:foo": JSON.stringify({ type: "switch", value: "true" }),
+      });
+      const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+      try {
+        const ctx = createControlContext<string>();
+        ctx.registerControl("foo", { value: true, persist: true });
+
+        expect(ctx.context.registeredControls.foo.value?.get()).toBe(true);
+        expect(warn).toHaveBeenCalledTimes(1);
+        expect(store.has("control:foo")).toBe(false);
+      } finally {
+        warn.mockRestore();
+      }
+    });
+
+    it("warns and discards unparseable garbage", () => {
+      const store = stubStorage({ "control:foo": "not json{" });
+      const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+      try {
+        const ctx = createControlContext<string>();
+        ctx.registerControl("foo", { value: true, persist: true });
+
+        expect(ctx.context.registeredControls.foo.value?.get()).toBe(true);
+        expect(warn).toHaveBeenCalledTimes(1);
+        expect(store.has("control:foo")).toBe(false);
+      } finally {
+        warn.mockRestore();
+      }
+    });
+
+    it("is a no-op when localStorage is unavailable", () => {
+      // No stub: node has no localStorage. Nothing should throw.
+      const ctx = createControlContext<string>();
+      ctx.registerControl("foo", { value: "a", persist: true });
+      ctx.setControlValue("foo", "b");
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe("b");
     });
   });
 
