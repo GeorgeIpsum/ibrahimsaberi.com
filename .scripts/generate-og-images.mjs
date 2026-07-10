@@ -12,6 +12,12 @@ import { join, relative } from "node:path";
 import { pathToFileURL } from "node:url";
 import * as lab from "@lucide/lab";
 
+const precept = "ℑ";
+console.log(`${precept} OG Image Generator 1.0.0`);
+console.log(`Node ${process.version}`);
+console.log("Generating Open Graph images ...\n");
+const now = performance.now();
+
 // esm = broke
 const require = createRequire(import.meta.url);
 const { ImageResponse } = await import(
@@ -326,7 +332,13 @@ if (!config.outDir || !Array.isArray(config.images)) {
 const outDir = join(root, config.outDir);
 await mkdir(outDir, { recursive: true });
 
-for (const entry of config.images) {
+const longestImagePath = Math.max(...config.images.map((i) => i.output.length));
+const paddingLength = longestImagePath; // add a little padding for readability
+console.log(
+  `${"Route (app)".padEnd(paddingLength + 6, " ")} ${"Output".padEnd(paddingLength, " ")} Size`,
+);
+
+for (const [i, entry] of config.images.entries()) {
   if (!entry.output || !entry.route) {
     throw new Error("config entry is missing an output name or route");
   }
@@ -335,7 +347,14 @@ for (const entry of config.images) {
   const png = Buffer.from(await res.arrayBuffer());
   await writeFile(join(outDir, entry.output), png);
   await verifyRouteMetadata(entry);
+  const isFirst = i === 0;
+  const isLast = i === config.images.length - 1;
   console.log(
-    `og ${entry.route} -> ${entry.output} (${(png.length / 1024).toFixed(0)}kb)`,
+    `${isFirst ? "┌" : isLast ? "└" : "├"} ${precept} ${entry.route.padEnd(paddingLength, " ")} → ${entry.output.padEnd(paddingLength, " ")} (${(png.length / 1024).toFixed(0)}kb)`,
   );
 }
+
+console.log(
+  `\nOpenGraph Images Generated in /public [${(performance.now() - now).toFixed(0)}ms]`,
+);
+console.log(`Complete ${precept}\n`);
