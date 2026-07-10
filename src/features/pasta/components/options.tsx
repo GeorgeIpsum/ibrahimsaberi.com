@@ -21,7 +21,7 @@ const handleSelect = async (item: { label: string; value: string } | null) => {
 };
 
 const sauce = allSauce.map((s) => ({
-  label: s.replace(/-/g, " "),
+  label: s.replace(/[-_]/g, " "),
   value: s,
 }));
 

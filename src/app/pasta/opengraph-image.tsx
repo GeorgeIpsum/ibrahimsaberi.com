@@ -1,3 +1,4 @@
+// this is so jank
 import { ligatureSquare } from "@lucide/lab";
 import { createOgImage, size } from "@/features/og/create-og-image";
 

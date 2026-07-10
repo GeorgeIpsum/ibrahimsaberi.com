@@ -109,13 +109,18 @@ export const siteProjects: SiteProject[] = [
   {
     name: "pasta",
     url: "/api/pasta",
-    imageHref: "/img/pages/reservoir/pasta.png",
+    imageHref: "/pasta/opengraph-image",
     imageTitle:
       "i think i took this from some PBS opengraph image. don't remember.",
     description:
       "a simple webpage + API endpoint for retrieving highly-curated copypasta",
     Icon: Copy,
-    roots: ["src/app/api/pasta", "src/app/api/health"],
+    roots: [
+      "src/features/pasta",
+      "src/app/api/pasta",
+      "src/app/api/health",
+      "src/utils/ascii.ts",
+    ],
     notes: [
       "just completely random copypasta that i've compiled. that's it.",
       "also accessible via the /api/health endpoint",
