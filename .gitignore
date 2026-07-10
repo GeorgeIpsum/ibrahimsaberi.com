@@ -52,3 +52,5 @@ scraped/
 # (regenerate with `pnpm yt-dlp-wasm:public`)
 /public/yt-dlp-wasm
 /public/yt-dlp-wheels
+# pre-generated og images (regenerate with `pnpm build:og`, config in .og-image.rc.json)
+/public/og

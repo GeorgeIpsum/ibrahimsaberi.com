@@ -25,6 +25,16 @@ export async function generateMetadata({
     description: result
       ? `↓ ${result.downMbps} Mbps · ↑ ${result.upMbps} Mbps · ${result.pingMs} ms ping`
       : "How fast does the water flow between you and this site?",
+    openGraph: {
+      images: [
+        {
+          url: "/og/speedtest.png",
+          width: 1200,
+          height: 630,
+          alt: "speedtest",
+        },
+      ],
+    },
   };
 }
 

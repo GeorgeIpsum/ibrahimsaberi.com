@@ -50,6 +50,11 @@ export const metadata: Metadata = {
     "look inward. wait no not literally with your eyes. stop rolling your eyes like that. that's bad for you",
   category: "reservoir",
   keywords: ["effigy", "pmd", "alignment", "personality quiz"],
+  openGraph: {
+    images: [
+      { url: "/og/reflection.png", width: 1200, height: 630, alt: "WHOIS i" },
+    ],
+  },
 };
 
 export const viewport: Viewport = {

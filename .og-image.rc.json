@@ -1,0 +1,56 @@
+{
+  "outDir": "public/og",
+  "images": [
+    { "route": "/", "output": "home.png", "template": "home" },
+    {
+      "route": "/reflection",
+      "output": "reflection.png",
+      "title": [
+        { "text": "WHOIS" },
+        { "text": "i", "fontWeight": 800, "color": "#FFFFEE" }
+      ],
+      "subtitle": "look inwards",
+      "icon": "waveCircle",
+      "backgroundColor": "#461901",
+      "color": "#fffbeb"
+    },
+    {
+      "route": "/fm",
+      "output": "fm.png",
+      "title": "99.7 fm",
+      "subtitle": "the peach",
+      "icon": "peach"
+    },
+    {
+      "route": "/hsab",
+      "output": "hsab.png",
+      "title": ">:_",
+      "icon": "featherText"
+    },
+    {
+      "route": "/now-playing",
+      "output": "now-playing.png",
+      "title": "now playing",
+      "icon": "wavesBirds"
+    },
+    {
+      "route": "/speedtest",
+      "output": "speedtest.png",
+      "title": "speedtest",
+      "icon": "watchCheck"
+    },
+    {
+      "route": "/viddles",
+      "output": "viddles.png",
+      "title": "viddles",
+      "icon": "kiwi"
+    },
+    {
+      "route": "/pasta",
+      "output": "pasta.png",
+      "title": "pasta",
+      "subtitle": "some fresh, some stale",
+      "icon": "ligatureSquare"
+    }
+  ]
+}

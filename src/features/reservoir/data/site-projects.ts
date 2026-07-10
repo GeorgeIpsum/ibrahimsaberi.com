@@ -16,7 +16,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "ibrahimsaberi.com",
     url: "/",
-    imageHref: "/opengraph-image",
+    imageHref: "/og/home.png",
     description: "literally this website",
     Icon: Globe,
     roots: [""],
@@ -29,7 +29,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "reflection",
     url: "/reflection",
-    imageHref: "/reflection/opengraph-image",
+    imageHref: "/og/reflection.png",
     description: "a personality quiz a la Pokémon Mystery Dungeon",
     Icon: MirrorRectangular,
     roots: ["src/app/reflection", "src/features/reflection"],
@@ -41,7 +41,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "speedtest",
     url: "/speedtest",
-    imageHref: "/speedtest/opengraph-image",
+    imageHref: "/og/speedtest.png",
     description: "a simple network speed test tool",
     Icon: EthernetPort,
     roots: [
@@ -89,7 +89,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "yt-dlp-wasm",
     url: "/viddles",
-    imageHref: "/viddles/opengraph-image",
+    imageHref: "/og/viddles.png",
     description:
       "yt-dlp compiled to WebAssembly, usable on the web (with some additional but necessary cruft)",
     Icon: TvMinimalPlay,
@@ -109,7 +109,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "pasta",
     url: "/api/pasta",
-    imageHref: "/pasta/opengraph-image",
+    imageHref: "/og/pasta.png",
     imageTitle:
       "i think i took this from some PBS opengraph image. don't remember.",
     description:
@@ -130,7 +130,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "now playing [UNDER CONSTRUCTION]",
     url: "/now-playing",
-    imageHref: "/now-playing/opengraph-image",
+    imageHref: "/og/now-playing.png",
     description:
       "music visualizer + now playing info for my spotify account. currently under construction",
     Icon: Headphones,
@@ -142,7 +142,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "sandbox [UNDER CONSTRUCTION]",
     url: "/hsab",
-    imageHref: "/hsab/opengraph-image",
+    imageHref: "/og/hsab.png",
     description:
       "a terminal emulator for the web. currently under construction",
     Icon: Shell,
@@ -155,7 +155,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "fm [UNDER CONSTRUCTION]",
     url: "/fm",
-    imageHref: "/fm/opengraph-image",
+    imageHref: "/og/fm.png",
     description:
       "a home for my personal radio station. currently under construction",
     Icon: Radio,

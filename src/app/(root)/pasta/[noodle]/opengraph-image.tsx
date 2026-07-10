@@ -18,10 +18,16 @@ export default async function OpenGraphImage({
   const isAscii = noodle.startsWith("ASCII");
 
   let pasta: string | null = null;
+  let fontSize = 12;
   if (isAscii) {
     pasta = copypasta.find((p) => p.title === `${noodle}.txt`)?.content ?? null;
-    if (pasta && pasta.split("\n").length > 60) {
-      pasta = `${pasta.split("\n").slice(20, 60).join("\n")}\nAND MORE :3`;
+    if (pasta) {
+      const lines = pasta.split("\n");
+      if (lines.length > 100) {
+        fontSize = 4;
+      } else if (lines.length > 50) {
+        fontSize = 6;
+      }
     }
     noodle = noodle.replace(/^ASCII/, "");
   }
@@ -34,7 +40,7 @@ export default async function OpenGraphImage({
           fontFamily: "monospace",
           whiteSpace: "pre-wrap",
           lineHeight: 1.1,
-          fontSize: 12,
+          fontSize,
           color: "#FFF",
           backgroundColor: "rgba(0, 0, 0, 0.82)",
           padding: 8,

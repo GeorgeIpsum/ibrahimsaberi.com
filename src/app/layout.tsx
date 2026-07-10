@@ -55,6 +55,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.BASE_URL ?? "https://ibrahimsaberi.com"),
   title: "a whisper",
   description: "a wave",
+  openGraph: {
+    images: [
+      {
+        url: "/og/home.png",
+        width: 1200,
+        height: 630,
+        alt: "a whisper. a wave.",
+      },
+    ],
+  },
   authors: [
     { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
     { name: "G1N", url: "https://github.com/GeorgeIpsum" },
