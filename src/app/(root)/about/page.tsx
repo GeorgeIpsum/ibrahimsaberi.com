@@ -17,6 +17,7 @@ import {
   PreviewCardTrigger,
 } from "@/components/atoms/preview-card";
 import { GradientTextReveal, Hello } from "@/components/text";
+import { AboutControl } from "./control";
 
 // technically only captured at build time, but i can get around this by triggering a force rebuild on new years every year
 const CURRENT_YEAR = new Date().getFullYear();
@@ -340,6 +341,7 @@ export default function Page() {
           );
         })}
       </Accordion>
+      <AboutControl />
     </article>
   );
 }
