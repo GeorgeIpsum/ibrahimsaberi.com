@@ -131,6 +131,14 @@ export const createOgImage = async ({
     </div>,
     {
       ...size,
+      // The route is dynamic (satori renders per request), so caching has to
+      // happen at the HTTP layer: s-maxage lets Vercel's CDN serve the PNG
+      // after the first render, and the deploy-time cache purge keeps it from
+      // ever going stale relative to the committed sauce.
+      headers: {
+        "Cache-Control":
+          "public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400",
+      },
       fonts: [
         {
           name: "Platypi",
