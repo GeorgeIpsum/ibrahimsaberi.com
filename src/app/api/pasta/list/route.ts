@@ -1,9 +1,6 @@
 import { NextResponse } from "next/server";
-import { copypasta } from "../../health/route";
+import { allSauce } from "@/features/pasta";
 
 export const GET = async () => {
-  return NextResponse.json(
-    copypasta.map((item) => item.title.replace(/\.txt$/, "")),
-    {},
-  );
+  return NextResponse.json(allSauce, {});
 };
