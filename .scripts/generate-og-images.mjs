@@ -15,7 +15,7 @@ import * as lab from "@lucide/lab";
 const precept = "ℑ";
 console.log(`${precept} OG Image Generator 1.0.0`);
 console.log(`Node ${process.version}`);
-console.log("Generating Open Graph images ...\n");
+console.log("  Generating Open Graph images ...\n");
 const now = performance.now();
 
 // esm = broke
