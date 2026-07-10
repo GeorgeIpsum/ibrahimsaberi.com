@@ -79,7 +79,7 @@ const CookedPasta: React.FC<{ noodle: string }> = async ({ noodle }) => {
       >
         {pastaText}
       </pre>
-      <div className="absolute right-1/2 -bottom-25 flex items-start justify-center gap-2 max-md:translate-x-1/2 md:-right-26 md:-bottom-4 md:flex-col">
+      <div className="absolute right-0 -bottom-23.5 flex items-stretch justify-center gap-2 bg-background max-md:left-0 max-md:w-1/2 sm:-bottom-22.5 md:-top-4 md:-right-22 md:bottom-0 md:flex-col md:justify-start md:gap-4">
         <GoToRawPasta noodle={noodle} />
         <CopyThatPasta pasta={pastaText} />
       </div>

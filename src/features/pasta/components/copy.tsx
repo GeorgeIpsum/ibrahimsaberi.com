@@ -7,7 +7,7 @@ export const CopyThatPasta: React.FC<{ pasta: string }> = ({ pasta }) => {
   const { copyToClipboard, isCopied } = useCopyToClipboard();
 
   return (
-    <Button variant="outline" onClick={() => copyToClipboard(pasta)}>
+    <Button variant="outline" size="xs" onClick={() => copyToClipboard(pasta)}>
       {isCopied ? <Check /> : <Copy />}
       <span className="ml-0 text-xs">{isCopied ? "Copied!" : "Copy"}</span>
     </Button>

@@ -6,6 +6,7 @@ export const GoToRawPasta: React.FC<{ noodle: string }> = ({ noodle }) => {
   return (
     <Button
       variant="outline"
+      size="xs"
       onClick={() => window.open(`/api/pasta?noodle=${noodle}`, "_blank")}
     >
       <Link />
