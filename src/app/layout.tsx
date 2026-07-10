@@ -77,4 +77,17 @@ export const metadata: Metadata = {
       "application/feed+json": [{ url: "/feed.json", title: "ripples — JSON" }],
     },
   },
+  icons: {
+    icon: [
+      { url: "/is.svg", type: "image/svg+xml" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+    other: [
+      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#064e3b" },
+      { rel: "shortcut icon", url: "/favicon.ico" },
+    ],
+  },
+  other: { "msapplication-config": "/browserconfig.xml" },
 };
