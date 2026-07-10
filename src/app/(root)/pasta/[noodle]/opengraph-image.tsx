@@ -20,6 +20,9 @@ export default async function OpenGraphImage({
   let pasta: string | null = null;
   if (isAscii) {
     pasta = copypasta.find((p) => p.title === `${noodle}.txt`)?.content ?? null;
+    if (pasta && pasta.split("\n").length > 60) {
+      pasta = `${pasta.split("\n").slice(20, 60).join("\n")}\nAND MORE :3`;
+    }
     noodle = noodle.replace(/^ASCII/, "");
   }
 

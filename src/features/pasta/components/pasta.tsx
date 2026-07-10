@@ -52,7 +52,9 @@ const CookedPasta: React.FC<{ noodle: string }> = ({ noodle }) => {
   const pastaText = pasta.content;
   // this is very dumb. it also works.
   const isAsciiArt =
-    /[⣿]|[ඞ]|(?:::)|(?:@@@)|(?:;;;;)|(?:„„)|(?:\s\s\s\s\s)/gu.test(pastaText);
+    /[⣿]|[ඞ]|(?:::)|(?:@@@)|(?:;;;;)|(?:„„)|(?:\s\s\s\s\s)|(?:█)/gu.test(
+      pastaText,
+    );
 
   return (
     <>
