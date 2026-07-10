@@ -40,13 +40,11 @@ export const SiteProjectFrame: React.FC<{ project: SiteProject }> = ({
       </FrameHeader>
       <FramePanel>
         <div className="mb-2 flex items-center gap-5 max-md:flex-col md:mb-6">
-          <div className="flex w-full items-center justify-center md:-mt-3 md:-ml-3 md:w-1/3">
+          <div className="flex w-full items-center justify-center md:w-1/3">
             <Image
               title={project.imageTitle ?? project.imageAlt}
-              src={project.imageHref}
+              src={project.image}
               alt={project.imageAlt ?? project.name}
-              width={1200}
-              height={630}
               className="w-fit rounded-lg"
               placeholder="blur"
             />

@@ -1,3 +1,14 @@
+import controlPanelImage from "@public/img/pages/reservoir/control-panel.png";
+import dota2VoicelinesImage from "@public/img/pages/reservoir/dota2-voicelines.png";
+import fmImage from "@public/og/fm.png";
+import homeImage from "@public/og/home.png";
+import hsabImage from "@public/og/hsab.png";
+import nowPlayingImage from "@public/og/now-playing.png";
+import pastaImage from "@public/og/pasta.png";
+import reflectionImage from "@public/og/reflection.png";
+import speedtestImage from "@public/og/speedtest.png";
+import viddlesImage from "@public/og/viddles.png";
+
 import {
   AudioLines,
   Copy,
@@ -16,7 +27,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "ibrahimsaberi.com",
     url: "/",
-    imageHref: "/og/home.png",
+    image: homeImage,
     description: "literally this website",
     Icon: Globe,
     roots: [""],
@@ -29,7 +40,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "reflection",
     url: "/reflection",
-    imageHref: "/og/reflection.png",
+    image: reflectionImage,
     description: "a personality quiz a la Pokémon Mystery Dungeon",
     Icon: MirrorRectangular,
     roots: ["src/app/reflection", "src/features/reflection"],
@@ -41,7 +52,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "speedtest",
     url: "/speedtest",
-    imageHref: "/og/speedtest.png",
+    image: speedtestImage,
     description: "a simple network speed test tool",
     Icon: EthernetPort,
     roots: [
@@ -58,7 +69,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "control panel",
     url: "/",
-    imageHref: "/img/pages/reservoir/control-panel.png",
+    image: controlPanelImage,
     description: "a drop-in modal control panel",
     Icon: InspectionPanel,
     roots: ["src/features/control-panel"],
@@ -71,7 +82,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "dota2 voicelines",
     url: "/api/audio/voice-responses",
-    imageHref: "/img/pages/reservoir/dota2-voicelines.png",
+    image: dota2VoicelinesImage,
     imageTitle:
       "unceremoniously yoinked from https://www.youtube.com/watch?v=cNubRZduGDs",
     description: "a simple API endpoint for getting dota2 voice lines",
@@ -89,7 +100,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "yt-dlp-wasm",
     url: "/viddles",
-    imageHref: "/og/viddles.png",
+    image: viddlesImage,
     description:
       "yt-dlp compiled to WebAssembly, usable on the web (with some additional but necessary cruft)",
     Icon: TvMinimalPlay,
@@ -109,7 +120,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "pasta",
     url: "/api/pasta",
-    imageHref: "/og/pasta.png",
+    image: pastaImage,
     imageTitle:
       "i think i took this from some PBS opengraph image. don't remember.",
     description:
@@ -130,7 +141,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "now playing [UNDER CONSTRUCTION]",
     url: "/now-playing",
-    imageHref: "/og/now-playing.png",
+    image: nowPlayingImage,
     description:
       "music visualizer + now playing info for my spotify account. currently under construction",
     Icon: Headphones,
@@ -142,7 +153,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "sandbox [UNDER CONSTRUCTION]",
     url: "/hsab",
-    imageHref: "/og/hsab.png",
+    image: hsabImage,
     description:
       "a terminal emulator for the web. currently under construction",
     Icon: Shell,
@@ -155,7 +166,7 @@ export const siteProjects: SiteProject[] = [
   {
     name: "fm [UNDER CONSTRUCTION]",
     url: "/fm",
-    imageHref: "/og/fm.png",
+    image: fmImage,
     description:
       "a home for my personal radio station. currently under construction",
     Icon: Radio,
