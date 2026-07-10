@@ -97,7 +97,10 @@
       }
     },
     {
-      "includes": ["**/opengraph-image.tsx"],
+      "includes": [
+        "**/opengraph-image.tsx",
+        "src/features/og/create-og-image.tsx"
+      ],
       "linter": {
         "rules": {
           "a11y": {

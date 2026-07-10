@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import {
   Tabs,
   TabsContent,
@@ -8,6 +7,8 @@ import {
   TabsTrigger,
 } from "@/components/atoms/tabs";
 import { useIsMobile } from "@/hooks/use-media-query";
+import { SiteProjectFrame } from "./components/site";
+import { siteProjects } from "./data/site-projects";
 
 export const Reservoir: React.FC = () => {
   const isMobile = useIsMobile();
@@ -16,22 +17,20 @@ export const Reservoir: React.FC = () => {
     <Tabs
       className="relative w-full flex-col-reverse pt-2 md:flex-row md:pt-6"
       defaultValue="site"
-      orientation={isMobile ? "horizontal" : "vertical"}
+      orientation={!isMobile ? "vertical" : "horizontal"}
     >
       <TabsContent value="site" className="w-full">
-        <Image
-          width={1200}
-          height={630}
-          src="/reflection/opengraph-image"
-          alt="Description"
-          className="w-fit"
-        />
-        <div className="h-1000"></div>
+        {/* TODO: I can opt a lot of this back into SSR by making this a slot I think */}
+        {siteProjects.map((project) => (
+          <SiteProjectFrame key={project.name} project={project} />
+        ))}
       </TabsContent>
       <TabsContent value="github" className="w-full">
-        asdfasdfasdf
+        <div className="flex w-full items-center justify-center rounded-2xl bg-card p-20">
+          SoonTM
+        </div>
       </TabsContent>
-      <div className="max-md:w-full md:sticky md:left-full">
+      <div className="max-md:w-full">
         <TabsList
           variant="underline"
           className="max-md:border-b md:sticky md:top-20 md:border-s"

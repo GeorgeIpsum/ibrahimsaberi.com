@@ -19,6 +19,9 @@
     "**/.next/**": true,
     "scraped/**": true
   },
+  "files.exclude": {
+    "**/node_modules": true
+  },
   "search.exclude": {
     "scraped": true
   },

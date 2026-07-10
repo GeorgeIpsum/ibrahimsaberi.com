@@ -91,6 +91,7 @@ export const SpotifyIndicator: React.FC = () => {
 
   return (
     <div
+      id="spotify-indicator"
       className={cn(
         "isolate flex size-8 items-center justify-center rounded-full border bg-background/80 transition-colors duration-1000 ease-out",
         {

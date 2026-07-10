@@ -1,15 +1,5 @@
-import { readdirSync, readFileSync } from "node:fs";
-import path from "node:path";
 import { connection, type NextRequest, NextResponse } from "next/server";
-
-const copypastaDir = path.join(process.cwd(), "src/app/api/health/pasta");
-
-export const copypasta = readdirSync(copypastaDir)
-  .filter((file) => file.endsWith(".txt"))
-  .map((file) => ({
-    title: file,
-    content: readFileSync(path.join(copypastaDir, file), "utf8"),
-  }));
+import { copypasta } from "@/features/pasta";
 
 export const GET = async (request: NextRequest) => {
   await connection();
@@ -28,9 +18,19 @@ export const GET = async (request: NextRequest) => {
   if (request.headers.get("X-Pasta")) {
     const title = request.headers.get("X-Pasta");
     pasta = copypasta.find((p) => p.title === title) ?? null;
+  } else if (request.nextUrl.searchParams.has("noodle")) {
+    const noodle = request.nextUrl.searchParams.get("noodle");
+    pasta = copypasta.find((p) => p.title === `${noodle}.txt`) ?? null;
   }
 
-  if (!pasta) {
+  if (!pasta && request.headers.get("X-Required")) {
+    return new NextResponse("No pasta found", {
+      status: 404,
+      headers: {
+        "Content-Type": "text/plain",
+      },
+    });
+  } else if (!pasta) {
     pasta = copypasta[
       Math.floor(Math.random() * copypasta.length)
     ] as (typeof copypasta)[number];
