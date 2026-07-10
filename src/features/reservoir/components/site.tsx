@@ -48,6 +48,7 @@ export const SiteProjectFrame: React.FC<{ project: SiteProject }> = ({
               width={1200}
               height={630}
               className="w-fit rounded-lg"
+              placeholder="blur"
             />
           </div>
           <div className="flex-1 text-xs">
