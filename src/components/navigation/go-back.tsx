@@ -24,13 +24,19 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
     return <ArrowLeft size={18} />;
   };
 
+  const goBack = () => {
+    if (window.history.length > 1) {
+      router.back();
+    } else {
+      router.replace("/");
+    }
+  };
+
   return (
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger
-          render={
-            <Button variant="ghost" size="sm" onClick={() => router.back()} />
-          }
+          render={<Button variant="ghost" size="sm" onClick={goBack} />}
         >
           {renderIcon()}
           {children ?? <span>Go back</span>}
