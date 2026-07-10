@@ -1,5 +1,6 @@
 import { Search } from "lucide-react";
 import { redirect } from "next/navigation";
+import { Suspense } from "react";
 import {
   Combobox,
   ComboboxEmpty,
@@ -25,9 +26,31 @@ const sauce = allSauce.map((s) => ({
   value: s,
 }));
 
-export const PastaOptions: React.FC = () => {
+export const PastaOptions: React.FC<{
+  searchParams: Promise<{ noodle?: string }>;
+}> = ({ searchParams }) => {
   return (
-    <Combobox items={sauce} onValueChange={handleSelect}>
+    <Suspense fallback={<div>Loading options...</div>}>
+      <PastaValue searchParams={searchParams} />
+    </Suspense>
+  );
+};
+
+const PastaValue: React.FC<{
+  searchParams: Promise<{ noodle?: string }>;
+}> = async ({ searchParams }) => {
+  const params = await searchParams;
+
+  return (
+    <Combobox
+      items={sauce}
+      onValueChange={handleSelect}
+      defaultValue={
+        params.noodle
+          ? { label: params.noodle, value: params.noodle }
+          : undefined
+      }
+    >
       <ComboboxTrigger render={<SelectButton />}>
         <ComboboxValue placeholder="The tummy rumbles..." />
       </ComboboxTrigger>

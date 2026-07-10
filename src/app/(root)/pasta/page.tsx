@@ -10,7 +10,7 @@ export default async function Page({
   return (
     <>
       <h1>pasta tiem</h1>
-      <PastaOptions />
+      <PastaOptions searchParams={searchParams} />
       <div className="relative my-4 flex h-[calc(100svh-18rem)] w-full rounded-2xl border border-border bg-card p-4">
         <ScrollArea>
           <Pasta searchParams={searchParams} />
