@@ -25,10 +25,15 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
   };
 
   const goBack = () => {
-    if (window.history.length > 1) {
+    const canGoBack =
+      "navigation" in window
+        ? window.navigation.canGoBack
+        : (window as Window).history.length > 1; // fallback heuristic for older browsers
+
+    if (canGoBack) {
       router.back();
     } else {
-      router.replace("/");
+      router.push("/");
     }
   };
 
