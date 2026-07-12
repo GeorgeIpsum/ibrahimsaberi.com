@@ -1,3 +1,3 @@
 export { Footer } from "./footer";
 export { Header } from "./header";
-export { HFPage } from "./hf-page";
+export { HFLayout as HFPage } from "./hf-layout";

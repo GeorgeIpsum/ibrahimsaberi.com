@@ -5,7 +5,7 @@ import { Header } from "./header";
 interface HFPageProps {
   render?: (props: React.PropsWithChildren) => React.ReactNode;
 }
-export const HFPage: React.FC<React.PropsWithChildren<HFPageProps>> = ({
+export const HFLayout: React.FC<React.PropsWithChildren<HFPageProps>> = ({
   children,
   render,
 }) => {

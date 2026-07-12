@@ -15,7 +15,7 @@ import {
 import { NavSwap } from "@/features/reflection";
 import { navItems } from "./nav-items";
 
-export const MobileMenu: React.FC = () => {
+export const MobileNavMenu: React.FC = () => {
   return (
     <Drawer position="right">
       <DrawerTrigger render={<Button size="icon-xs" variant="outline" />}>

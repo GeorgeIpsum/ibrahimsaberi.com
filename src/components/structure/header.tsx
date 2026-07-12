@@ -1,18 +1,8 @@
-import { WavesArrowDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/atoms/button";
-import {
-  Menu,
-  MenuLinkItem,
-  MenuPopup,
-  MenuTrigger,
-} from "@/components/atoms/menu";
-import { cn } from "@/css/lib";
-import { NavSwap } from "@/features/reflection";
 import { SpotifyIndicator } from "@/services/spotify/spotify-indicator";
-import { MobileMenu } from "../navigation/mobile-menu";
-import { type NavItem, navItems } from "../navigation/nav-items";
+import { MobileNavMenu } from "../navigation/mobile-nav-menu";
+import { NavMenu } from "../navigation/nav-menu";
 import { Wave } from "../text";
 
 export const Header: React.FC = () => {
@@ -58,89 +48,10 @@ export const Header: React.FC = () => {
           </Link>
         </div>
         <div className="z-10 flex w-full flex-1 items-center justify-end gap-4 sm:gap-6">
-          <nav className="hidden w-full flex-1 items-center justify-end gap-4 sm:flex">
-            <ul className="flex w-full items-center justify-end gap-4 text-sm">
-              {navItems
-                .filter((item: NavItem) => !item.mobileOnly && !item.footerItem)
-                .map((item: NavItem) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      className={cn(
-                        "text-primary/80 transition-colors duration-300 ease-out hover:text-foreground-high-contrast",
-                      )}
-                    >
-                      {item.title}
-                    </Link>
-                  </li>
-                ))}
-            </ul>
-            <Menu>
-              <MenuTrigger
-                openOnHover
-                render={
-                  <Button
-                    variant="ghost"
-                    size="icon-xs"
-                    className="transition-all hover:text-foreground-high-contrast"
-                  />
-                }
-              >
-                <WavesArrowDown aria-label="Menu Dropdown" />
-              </MenuTrigger>
-              <MenuPopup side="bottom" align="end">
-                {navItems
-                  .filter(
-                    (item: NavItem) =>
-                      item.mobileOnly &&
-                      !item.footerItem &&
-                      item.title !== "hearth",
-                  )
-                  .map((item: NavItem) => (
-                    <MenuLinkItem
-                      key={item.href}
-                      closeOnClick
-                      render={
-                        <Link
-                          href={item.href}
-                          className={cn(
-                            "group/asdf cursor-pointer text-primary/80 text-sm ease-out focus-within:text-foreground-high-contrast hover:text-foreground-high-contrast focus:text-foreground-high-contrast focus-visible:text-foreground-high-contrast data-highlighted:text-foreground-high-contrast",
-                            item.private
-                              ? "blur-[3px] hue-rotate-360 transition-all hover:blur-[0px] hover:hue-rotate-0"
-                              : "transition-colors",
-                            // Literally just to silence dumb tailwind intellisense warning if placed in above ternary
-                            {
-                              "duration-1000": item.private,
-                              "duration-300": !item.private,
-                            },
-                          )}
-                        />
-                      }
-                    >
-                      {item.title === "reflection" ? (
-                        <NavSwap className="group-hover/asdf:animate-pulse" />
-                      ) : (
-                        <item.icon className="size-4" />
-                      )}
-                      <span>
-                        {item.private ? (
-                          <Wave
-                            text={item.title}
-                            animateOnHover
-                            className="group-hover/asdf:animate-wave-travel"
-                          />
-                        ) : (
-                          item.title
-                        )}
-                      </span>
-                    </MenuLinkItem>
-                  ))}
-              </MenuPopup>
-            </Menu>
-          </nav>
+          <NavMenu />
           <SpotifyIndicator />
           <div className="inline-block sm:hidden">
-            <MobileMenu />
+            <MobileNavMenu />
           </div>
         </div>
       </div>

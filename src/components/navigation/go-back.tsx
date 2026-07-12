@@ -12,10 +12,12 @@ import {
 
 interface GoBackProps {
   icon?: React.ReactNode;
+  side?: "top" | "bottom" | "left" | "right";
 }
 export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
   icon,
   children,
+  side,
 }) => {
   const router = useRouter();
 
@@ -46,7 +48,9 @@ export const GoBack: React.FC<React.PropsWithChildren<GoBackProps>> = ({
           {renderIcon()}
           {children ?? <span>Go back</span>}
         </TooltipTrigger>
-        <TooltipContent side="top">From whence you came</TooltipContent>
+        <TooltipContent side={side ?? "bottom"}>
+          From whence you came
+        </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   );

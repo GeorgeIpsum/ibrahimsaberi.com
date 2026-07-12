@@ -34,9 +34,23 @@ export const Reservoir: React.FC = () => {
         <TabsList
           variant="underline"
           className="max-md:border-b md:sticky md:top-20 md:border-s"
+          noIndicator={!isMobile}
         >
-          <TabsTrigger value="site">On This Site</TabsTrigger>
-          <TabsTrigger value="github">GitHub</TabsTrigger>
+          {/* dumb hacks below - in order to have both sticky position + absolute position we have to ditch the indicator component in desktop and simulate */}
+          <div className="max-md:flex md:absolute md:top-0 md:left-full">
+            <TabsTrigger
+              value="site"
+              className="md:rounded-none md:border-primary md:border-t-0 md:border-r-0 md:border-b-0 md:border-l md:data-active:border-l-2"
+            >
+              On This Site
+            </TabsTrigger>
+            <TabsTrigger
+              value="github"
+              className="md:rounded-none md:border-primary md:border-t-0 md:border-r-0 md:border-b-0 md:border-l md:data-active:border-l-2"
+            >
+              GitHub
+            </TabsTrigger>
+          </div>
         </TabsList>
       </div>
     </Tabs>

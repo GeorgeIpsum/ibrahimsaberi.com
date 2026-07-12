@@ -2,7 +2,7 @@ import controlPanelImage from "@public/img/pages/reservoir/control-panel.png";
 import dota2VoicelinesImage from "@public/img/pages/reservoir/dota2-voicelines.png";
 import fmImage from "@public/og/fm.png";
 import homeImage from "@public/og/home.png";
-import hsabImage from "@public/og/hsab.png";
+// import hsabImage from "@public/og/hsab.png";
 import nowPlayingImage from "@public/og/now-playing.png";
 import pastaImage from "@public/og/pasta.png";
 import reflectionImage from "@public/og/reflection.png";
@@ -18,7 +18,7 @@ import {
   InspectionPanel,
   MirrorRectangular,
   Radio,
-  Shell,
+  // Shell,
   TvMinimalPlay,
 } from "lucide-react";
 import type { SiteProject } from "../types";
@@ -32,7 +32,7 @@ export const siteProjects: SiteProject[] = [
     Icon: Globe,
     roots: [""],
     notes: [
-      "built with nextjs 16 (ppr), tailwind, mdx, coss ui/ base-ui.",
+      "built with nextjs 16 (cc + ppr), tailwind, mdx, coss ui/ base-ui.",
       "supporting cast of lucide-icons, a lot of rehype/ remark plugins (some homegrown), motion, three.js, cva, tsx, and a bunch of others.",
       "if (for whatever reason) you want to open a PR, a good place to start is grepping for `TODO` in the codebase. there are a handful.",
     ],
@@ -150,19 +150,19 @@ export const siteProjects: SiteProject[] = [
       "taking the now playing info that you can always see in the site header and adding a visualizer component to it + additional info about the track, like lyrics, album info, if i'm listening in a playlist, etc.",
     ],
   },
-  {
-    name: "sandbox [UNDER CONSTRUCTION]",
-    url: "/hsab",
-    image: hsabImage,
-    description:
-      "a terminal emulator for the web. currently under construction",
-    Icon: Shell,
-    roots: ["src/app/hsab"],
-    notes: [
-      "uses xterm.js under the hood and also exposes some custom commands (yt-dlp + curl for now).",
-      "leverages OPFS for a persistent filesystem in the browser.",
-    ],
-  },
+  // {
+  //   name: "sandbox [UNDER CONSTRUCTION]",
+  //   url: "/wash",
+  //   image: hsabImage,
+  //   description:
+  //     "a terminal emulator for the web. currently under construction",
+  //   Icon: Shell,
+  //   roots: ["src/app/wash"],
+  //   notes: [
+  //     "uses xterm.js under the hood and also exposes some custom commands (yt-dlp + curl for now).",
+  //     "leverages OPFS for a persistent filesystem in the browser.",
+  //   ],
+  // },
   {
     name: "fm [UNDER CONSTRUCTION]",
     url: "/fm",

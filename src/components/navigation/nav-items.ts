@@ -9,6 +9,7 @@ import {
   PersonStanding,
   Radio,
   Shell,
+  TvMinimalPlay,
   WavesHorizontal,
 } from "lucide-react";
 export interface NavItem {
@@ -18,6 +19,7 @@ export interface NavItem {
   mobileOnly?: true;
   footerItem?: true;
   private?: true;
+  underConstruction?: true;
 }
 
 export const navItems = [
@@ -29,7 +31,7 @@ export const navItems = [
   },
   { title: "basin", href: "/basin", icon: WavesHorizontal },
   { title: "reservoir", href: "/reservoir", icon: Cylinder, mobileOnly: true },
-  { title: "spin", href: "/mrcl", icon: Album, footerItem: true },
+  { title: "spool", href: "/spool", icon: Album, footerItem: true },
   { title: "fm", href: "/fm", icon: Radio },
   {
     title: "contact",
@@ -46,9 +48,17 @@ export const navItems = [
   },
   {
     title: "sandbox",
-    href: "/hsab",
+    href: "/wash",
     icon: Shell,
     mobileOnly: true,
+    underConstruction: true,
+  },
+  {
+    title: "viddles",
+    href: "/viddles",
+    icon: TvMinimalPlay,
+    mobileOnly: true,
+    underConstruction: true,
   },
   {
     title: "droplets",
