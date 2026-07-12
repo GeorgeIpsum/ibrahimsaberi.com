@@ -6,7 +6,7 @@ import {
 } from "../src/features/speedtest/codec";
 import {
   formatUserLocation,
-  parseVercelPop,
+  parseVercelRegion,
 } from "../src/features/speedtest/vercel-region";
 
 const RESULT: SpeedtestResult = {
@@ -76,10 +76,11 @@ describe("speedtest result codec", () => {
   });
 
   it("drops a malformed region instead of rejecting the result", () => {
-    const forged = btoa(
-      JSON.stringify({ v: 1, d: 10, u: 10, p: 10, t: 10, r: "<script>" }),
-    );
-    expect(decodeResult(forged)?.region).toBeNull();
+    const forged = (r: string) =>
+      btoa(JSON.stringify({ v: 1, d: 10, u: 10, p: 10, t: 10, r }));
+    expect(decodeResult(forged("<script>"))?.region).toBeNull();
+    // A bounded digit tail keeps a forged param from smuggling a huge string.
+    expect(decodeResult(forged(`fra${"1".repeat(5000)}`))?.region).toBeNull();
   });
 });
 
@@ -113,19 +114,19 @@ describe("formatUserLocation", () => {
   });
 });
 
-describe("parseVercelPop", () => {
-  it("extracts the first (edge) segment of x-vercel-id", () => {
-    expect(parseVercelPop("fra1::iad1::abc12-1234567890-xyz")).toBe("fra1");
-    expect(parseVercelPop("iad1::abc12-1234567890-xyz")).toBe("iad1");
+describe("parseVercelRegion", () => {
+  it("extracts the last region segment (the compute region) of x-vercel-id", () => {
+    expect(parseVercelRegion("fra1::iad1::abc12-1234567890-xyz")).toBe("iad1");
+    expect(parseVercelRegion("iad1::abc12-1234567890-xyz")).toBe("iad1");
   });
 
   it("normalizes case", () => {
-    expect(parseVercelPop("FRA1::abc")).toBe("fra1");
+    expect(parseVercelRegion("FRA1::abc")).toBe("fra1");
   });
 
-  it("returns null for a missing header or non-POP first segment", () => {
-    expect(parseVercelPop(null)).toBeNull();
-    expect(parseVercelPop("")).toBeNull();
-    expect(parseVercelPop("abc12-1234567890-xyz")).toBeNull();
+  it("returns null for a missing header or no region-shaped segment", () => {
+    expect(parseVercelRegion(null)).toBeNull();
+    expect(parseVercelRegion("")).toBeNull();
+    expect(parseVercelRegion("abc12-1234567890-xyz")).toBeNull();
   });
 });

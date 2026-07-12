@@ -10,7 +10,7 @@ export interface SpeedtestResult {
   pingMs: number;
   /** Epoch ms of when the test finished. */
   measuredAt: number;
-  /** Vercel edge POP code the test ran against (e.g. "fra1"), when known. */
+  /** Vercel compute region the test ran against (e.g. "fra1"), when known. */
   region: string | null;
   /** Requester's geo-IP label (e.g. "Toronto, ON, CA"), when known. */
   location: string | null;
@@ -50,9 +50,11 @@ const fromBase64Url = (s: string): string => {
 const isPlausible = (n: unknown): n is number =>
   typeof n === "number" && Number.isFinite(n) && n >= 0 && n < 1_000_000;
 
-/** POP codes are short and alphanumeric; anything else doesn't round-trip. */
+/** Region codes are short and alphanumeric; anything else doesn't round-trip.
+ * The digit tail is bounded so a forged param can't smuggle a multi-KB
+ * "region" through validation. */
 const isPlausibleRegion = (r: unknown): r is string =>
-  typeof r === "string" && /^[a-z]{3,4}\d*$/.test(r);
+  typeof r === "string" && /^[a-z]{3,4}\d{0,3}$/.test(r);
 
 /** Location is display-only free text; just bound it and reject control and
  * other invisible Unicode category-C characters. */

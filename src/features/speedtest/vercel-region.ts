@@ -1,14 +1,20 @@
 // Vercel stamps every response with `x-vercel-id`, a `::`-separated chain of
 // region codes ending in the request id (e.g. "fra1::iad1::abc12-...`). The
-// first segment is the edge POP that terminated the client's connection —
-// i.e. the node the speedtest is actually measuring against. Same-origin
-// fetches can read the header directly; locally (next dev) it's absent.
+// first segment is the edge POP that terminated the client's connection; the
+// last region segment is the compute region the function ran in. The /api/net
+// routes are Node functions pinned to one region, so the measured path runs
+// client → POP → compute region — the compute region is its far end, and the
+// one worth labeling. Same-origin fetches can read the header directly;
+// locally (next dev) it's absent.
 
-export const parseVercelPop = (id: string | null): string | null => {
+export const parseVercelRegion = (id: string | null): string | null => {
   if (!id) return null;
-  const first = id.split("::")[0]?.trim().toLowerCase();
-  if (!first || !/^[a-z]{3,4}\d*$/.test(first)) return null;
-  return first;
+  const segments = id.split("::");
+  for (let i = segments.length - 1; i >= 0; i--) {
+    const segment = segments[i]?.trim().toLowerCase();
+    if (segment && /^[a-z]{3,4}\d{1,3}$/.test(segment)) return segment;
+  }
+  return null;
 };
 
 /** Vercel region/POP codes are IATA-ish airport codes. Best-effort map; an

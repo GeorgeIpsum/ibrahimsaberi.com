@@ -13,7 +13,7 @@ import {
   type UploadSample,
 } from "@/utils/network-quality";
 import type { SpeedtestResult } from "./codec";
-import { formatUserLocation, parseVercelPop } from "./vercel-region";
+import { formatUserLocation, parseVercelRegion } from "./vercel-region";
 
 // One-shot, user-initiated measurement. Deliberately heavier than the ambient
 // use-network-quality loop: longer windows, more samples, plus an upload leg.
@@ -80,7 +80,7 @@ export interface SpeedtestState {
   pingMs: number | null;
   downMbps: number | null;
   upMbps: number | null;
-  /** Edge POP code serving the test, once known (null locally). */
+  /** Vercel compute region serving the test, once known (null locally). */
   region: string | null;
   /** Requester's geo-IP label, once known (null locally). */
   location: string | null;
@@ -102,14 +102,14 @@ interface EdgeMeta {
   location: string | null;
 }
 
-/** Best-effort: POP + geo are display metadata, never a reason to fail a
- * test. Both ride on one ping response — the POP from the platform-stamped
+/** Best-effort: region + geo are display metadata, never a reason to fail a
+ * test. Both ride on one ping response — the region from the platform-stamped
  * x-vercel-id, the geo from the route's x-net-* echoes. */
 const fetchEdgeMeta = async (signal: AbortSignal): Promise<EdgeMeta> => {
   try {
     const res = await fetch(PING_URL, { cache: "no-store", signal });
     return {
-      region: parseVercelPop(res.headers.get("x-vercel-id")),
+      region: parseVercelRegion(res.headers.get("x-vercel-id")),
       location: formatUserLocation({
         city: res.headers.get("x-net-ip-city"),
         region: res.headers.get("x-net-ip-country-region"),

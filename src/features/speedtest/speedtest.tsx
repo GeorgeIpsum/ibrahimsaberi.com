@@ -190,13 +190,21 @@ function ResultCard({
   result: SpeedtestResult;
   onRunAgain: () => void;
 }) {
-  const [copied, setCopied] = useState(false);
+  const [copyState, setCopyState] = useState<"idle" | "copied" | "failed">(
+    "idle",
+  );
 
   const copyLink = useCallback(async () => {
     const url = `${window.location.origin}/speedtest?result=${encodeResult(result)}`;
-    await navigator.clipboard.writeText(url);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    try {
+      // Clipboard access can be denied (embeds, permissions policy) or absent
+      // entirely; surface the failure instead of leaving a silent dead button.
+      await navigator.clipboard.writeText(url);
+      setCopyState("copied");
+    } catch {
+      setCopyState("failed");
+    }
+    setTimeout(() => setCopyState("idle"), 2000);
   }, [result]);
 
   return (
@@ -235,7 +243,11 @@ function ResultCard({
       <CardFooter className="gap-2">
         <Button onClick={onRunAgain}>Run again</Button>
         <Button variant="outline" onClick={copyLink}>
-          {copied ? "Copied!" : "Copy link"}
+          {copyState === "copied"
+            ? "Copied!"
+            : copyState === "failed"
+              ? "Copy failed"
+              : "Copy link"}
         </Button>
       </CardFooter>
     </Card>

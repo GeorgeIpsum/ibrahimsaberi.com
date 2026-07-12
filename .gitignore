@@ -54,3 +54,6 @@ scraped/
 /public/yt-dlp-wheels
 # pre-generated og images (regenerate with `pnpm build:og`, config in .og-image.rc.json)
 /public/og
+
+# lil-bro review debate transcripts
+.lil-bro/
