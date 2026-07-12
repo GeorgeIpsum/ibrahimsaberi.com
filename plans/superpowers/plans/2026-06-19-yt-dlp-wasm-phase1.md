@@ -6,7 +6,7 @@
 
 **Architecture:** Three contexts (main thread / Pyodide worker / services worker) communicate over one shared `SharedArrayBuffer`. The requester (eventually Pyodide) writes a request frame, nudges the responder via a `MessageChannel` so the responder's event loop stays free for async work, then parks on `Atomics.wait`. The responder runs the (possibly async) handler and signals completion via `Atomics.notify`. Phase 1 builds this skeleton with a trivial ECHO op; later phases swap in Pyodide/yt-dlp, ffmpeg.wasm, and libcurl.js.
 
-**Tech Stack:** TypeScript, esbuild (bundle + worker entries), `tsc --emitDeclarationOnly` (types), Vitest (unit), Biome (lint), Playwright MCP (cross-thread smoke). Spec: `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`.
+**Tech Stack:** TypeScript, esbuild (bundle + worker entries), `tsc --emitDeclarationOnly` (types), Vitest (unit), Biome (lint), Playwright MCP (cross-thread smoke). Spec: `plans/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`.
 
 **Scope note:** This is Phase 1 of a phased build. Phases 2–6 (Pyodide+yt-dlp, ffmpeg bridge, networking, public API, integration) are mapped in the Roadmap section and will each get their own detailed plan. Phase 1 produces working, independently-testable software: a package whose sync bridge is unit-tested and whose cross-thread mechanism is smoke-proven.
 

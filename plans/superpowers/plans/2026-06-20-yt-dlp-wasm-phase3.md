@@ -6,7 +6,7 @@
 
 **Architecture:** Builds on Phases 1–2. New opcodes (`FS_PUT`/`FS_GET`/`FS_STAT`/`FS_DELETE`/`FFMPEG_EXEC`) flow over the existing SAB bridge. The services worker gains a `FileStore` (staging) + a lazily-loaded ffmpeg.wasm (`@ffmpeg/core-mt` from CDN via `toBlobURL`); its `SabResponder` handler dispatches by opcode. Three Python modules (`fs.py`, `subprocess_shim.py`, `ffprobe_compat.py`) are installed at boot. A self-contained WAV→MP3 capstone proves the path with no network.
 
-**Tech Stack:** `@ffmpeg/ffmpeg` + `@ffmpeg/util` (bundled), `@ffmpeg/core-mt` (CDN, external), Pyodide (Phase 2), Vitest (pure codec/FileStore units), Playwright MCP (capstone). Spec: `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–2 usable.
+**Tech Stack:** `@ffmpeg/ffmpeg` + `@ffmpeg/util` (bundled), `@ffmpeg/core-mt` (CDN, external), Pyodide (Phase 2), Vitest (pure codec/FileStore units), Playwright MCP (capstone). Spec: `plans/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–2 usable.
 
 **Scope:** Proves the subprocess-shim → ffmpeg.wasm mechanism for **file-based** ffmpeg invocations (merge/remux/extract-audio shape: inputs via `-i`, one positional output) + ffprobe synthesis. Does NOT yet run yt-dlp's full postprocessor on a real download (needs Phase 4 networking) and does NOT handle `pipe:`/stdin streaming ffmpeg calls (documented limitation). Chunked transfer is built but the capstone uses small files.
 

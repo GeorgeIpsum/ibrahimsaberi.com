@@ -6,7 +6,7 @@
 
 **Architecture:** Builds on Phases 1–3. One new opcode `NET_SEND` flows over the existing SAB bridge to the main-thread responder (Phase 3 moved it there). The adapter runs `libcurl.fetch(url, opts)` (loaded from CDN at runtime, like Pyodide), buffers the response body into the existing `FileStore`, and returns `{status, headers, url, bodyKey}`; the Python side pulls the body via the existing chunked `FS_GET`. A Python `WispRH(RequestHandler)` is registered with yt-dlp and forced to be the only handler (urllib would CORS-fail). The capstone proves CORS-free fetch through the public Wisp demo server.
 
-**Tech Stack:** libcurl.js 0.7.4 (Fetch-compatible WASM curl over Wisp; loaded from jsDelivr at runtime), Pyodide + yt-dlp (Phases 2–3), the SAB bridge + frame codec + FileStore (Phases 1–3), Vitest (pure units), Playwright MCP (capstone). Spec: `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–3 usable.
+**Tech Stack:** libcurl.js 0.7.4 (Fetch-compatible WASM curl over Wisp; loaded from jsDelivr at runtime), Pyodide + yt-dlp (Phases 2–3), the SAB bridge + frame codec + FileStore (Phases 1–3), Vitest (pure units), Playwright MCP (capstone). Spec: `plans/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–3 usable.
 
 **Verified facts** (checked against installed packages before writing):
 - libcurl.js API: `await libcurl.load_wasm()` → `libcurl.set_websocket(wispUrl)` → `libcurl.fetch(url, {method, headers, body})` returns a Fetch `Response` (CORS-free; has `.status`, `.url`, `.raw_headers`, `.arrayBuffer()`). Works on the main thread. The `libcurl_full.mjs` build inlines the WASM.

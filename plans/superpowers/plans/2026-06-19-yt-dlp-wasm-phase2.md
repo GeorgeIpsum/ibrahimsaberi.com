@@ -6,7 +6,7 @@
 
 **Architecture:** Builds directly on Phase 1. The Pyodide worker boots `loadPyodide` from `${indexURL}pyodide.mjs` (runtime CDN import), registers a JS module (`ytdlp_bridge_js`) whose `call()` invokes the Phase-1 `SabRequester` (blocking the worker thread on `Atomics.wait`), runs a small Python wrapper (`bridge.py`) that marshals `bytes`↔`Uint8Array`, then `micropip.install`s yt-dlp. The controller gains `load()`, `ytDlpVersion()`, and `pyEcho()`.
 
-**Tech Stack:** Pyodide (loaded from jsDelivr at runtime; `pyodide` as a dev-only type dependency), micropip, esbuild `.py` text loader, Vitest (pure-helper units), Playwright MCP (capstone browser smoke). Prereq: Phase 1 merged/usable (`@local/yt-dlp-wasm` with the SAB bridge). Spec: `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`.
+**Tech Stack:** Pyodide (loaded from jsDelivr at runtime; `pyodide` as a dev-only type dependency), micropip, esbuild `.py` text loader, Vitest (pure-helper units), Playwright MCP (capstone browser smoke). Prereq: Phase 1 merged/usable (`@local/yt-dlp-wasm` with the SAB bridge). Spec: `plans/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`.
 
 **Scope note:** Phase 2 loads Pyodide + yt-dlp and proves the Python→bridge path with the existing ECHO op. It does NOT do extraction/download (needs Phase 4 networking) or ffmpeg (Phase 3). No new opcodes are added — ECHO is reused to prove the path end-to-end.
 

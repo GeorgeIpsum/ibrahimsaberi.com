@@ -1,6 +1,5 @@
 packages:
-  # `.` makes the root package a workspace member so changesets can version it
-  # (whole-site single version; see docs/superpowers/specs/2026-07-06-*.md).
+  # changeset shenanigrams
   - .
   - packages/*
   - services/*

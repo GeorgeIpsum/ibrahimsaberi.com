@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
-**Goal:** A `CurvedText` component that morphs text between three phases — flat span → 3D cylinder around the y-axis → flat spinning 2D ring — per the approved spec at `docs/superpowers/specs/2026-07-02-curved-text-design.md`.
+**Goal:** A `CurvedText` component that morphs text between three phases — flat span → 3D cylinder around the y-axis → flat spinning 2D ring — per the approved spec at `plans/superpowers/specs/2026-07-02-curved-text-design.md`.
 
 **Architecture:** Pure geometry math lives in `curved-text-geometry.ts` (unit-tested). The component drives two motion values (`progress` 0→2, `spin` degrees) through nested `preserve-3d` divs: perspective container → tilt (`rotateX`) → spinner (`rotateY`) → per-letter spans whose transforms/opacity derive from the motion values via `useTransform`.
 

@@ -8,7 +8,7 @@
 
 **Tech Stack:** @changesets/cli, pnpm 10 workspaces, GitHub Actions, GitHub rulesets API (`gh api`), vitest.
 
-**Spec:** `docs/superpowers/specs/2026-07-06-changesets-release-workflow-design.md`
+**Spec:** `plans/superpowers/specs/2026-07-06-changesets-release-workflow-design.md`
 
 ## Global Constraints
 
@@ -51,7 +51,7 @@ to:
 ```yaml
 packages:
   # `.` makes the root package a workspace member so changesets can version it
-  # (whole-site single version; see docs/superpowers/specs/2026-07-06-*.md).
+  # (whole-site single version; see plans/superpowers/specs/2026-07-06-*.md).
   - .
   - packages/*
   - services/*
@@ -148,7 +148,7 @@ Create `.github/workflows/release-gate.yml`:
 name: Release gate
 
 # PR checks for main. Both jobs are required status checks (ruleset
-# "release-gate", see docs/superpowers/specs/2026-07-06-changesets-release-workflow-design.md):
+# "release-gate", see plans/superpowers/specs/2026-07-06-changesets-release-workflow-design.md):
 #   test       vitest must pass on every PR
 #   changeset  PRs from release/* branches must add a changeset
 #              (.changeset/*.md) or they cannot merge; other branches pass.

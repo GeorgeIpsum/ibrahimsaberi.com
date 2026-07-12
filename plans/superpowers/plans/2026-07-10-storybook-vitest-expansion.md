@@ -8,7 +8,7 @@
 
 **Tech Stack:** Storybook 10.5.0 (`@storybook/nextjs-vite`), Vitest 4.1.10 browser mode, `@vitest/browser-playwright` 4.1.10, Playwright (chromium), Tailwind v4, Base UI atoms, React 19.
 
-**Spec:** `docs/superpowers/specs/2026-07-10-storybook-vitest-expansion-design.md`
+**Spec:** `plans/superpowers/specs/2026-07-10-storybook-vitest-expansion-design.md`
 
 ## Global Constraints
 

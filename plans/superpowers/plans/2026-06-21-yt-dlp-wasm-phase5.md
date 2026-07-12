@@ -6,7 +6,7 @@
 
 **Architecture:** Builds on Phases 1–4. No new SAB opcodes — `exec`/`download`/`read-output` are pyodide-worker message handlers (like `py-echo`), and live progress/log flow over a NEW worker→main **event channel** (`self.postMessage({type:"event", ...})` → controller `on(channel, cb)`), separate from the request/reply `once()` path. Output files land in Pyodide's MEMFS `/work` and are read out via a `read-output` handler. yt-dlp networking is forced through `WispRH`.
 
-**Tech Stack:** Pyodide + yt-dlp (Phases 2–4), the WispRH networking (Phase 4), the ffmpeg subprocess shim (Phase 3). Vitest (controller event-emitter unit), Playwright MCP (capstone). Spec: `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–4 usable.
+**Tech Stack:** Pyodide + yt-dlp (Phases 2–4), the WispRH networking (Phase 4), the ffmpeg subprocess shim (Phase 3). Vitest (controller event-emitter unit), Playwright MCP (capstone). Spec: `plans/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md`. Prereq: Phases 1–4 usable.
 
 **Verification boundary (be honest):**
 - ✅ Verifiable here: the event stream (synthetic emit), `exec(["--version"])` (no network/ffmpeg → exit 0 + version), `readOutputFile` (write to `/work`, read back).

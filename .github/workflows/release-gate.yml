@@ -1,7 +1,6 @@
 name: Release gate
 
-# PR checks for main. Both jobs are required status checks (ruleset
-# "release-gate", see docs/superpowers/specs/2026-07-06-changesets-release-workflow-design.md):
+# ruleset "release-gate"
 #   test       vitest must pass on every PR
 #   changeset  PRs from release/* branches must add a changeset
 #              (.changeset/*.md) or they cannot merge; other branches pass.

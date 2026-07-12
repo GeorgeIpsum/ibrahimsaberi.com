@@ -2,8 +2,6 @@
 
 Run [yt-dlp](https://github.com/yt-dlp/yt-dlp) in the browser — extraction, download, and post-processing — on top of **Pyodide** (yt-dlp itself) and **ffmpeg.wasm** (post-processing), with HTTP escaping CORS via **libcurl.js over a Wisp proxy**. yt-dlp is fetched at load time; only Pyodide + ffmpeg.wasm are shipped/served.
 
-> Internal workspace package. Design + phase plans live in `docs/superpowers/specs/2026-06-19-yt-dlp-wasm-design.md` and `docs/superpowers/plans/`.
-
 ## How it works
 
 yt-dlp is synchronous (`urllib`, `subprocess`), but everything it must reach in a browser is async (a Wisp WebSocket, `ffmpeg.exec()`). The bridge resolves that with a `SharedArrayBuffer` + `Atomics.wait`:

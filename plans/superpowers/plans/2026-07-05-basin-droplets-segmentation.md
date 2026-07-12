@@ -8,7 +8,7 @@
 
 **Tech Stack:** Next.js (App Router, Cache Components / `"use cache"`), React Server Components, arktype, front-matter, vitest, Tailwind, Biome.
 
-**Spec:** `docs/superpowers/specs/2026-07-05-basin-droplets-segmentation-design.md`
+**Spec:** `plans/superpowers/specs/2026-07-05-basin-droplets-segmentation-design.md`
 
 ## Global Constraints
 
