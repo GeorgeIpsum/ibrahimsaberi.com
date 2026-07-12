@@ -46,7 +46,7 @@ export const ControlSelect: React.FC<ControlFieldProps<"select">> = observer(
     return (
       <Select
         disabled={disabled}
-        value={control.value?.get() as string | undefined}
+        value={control.value?.get()?.toString()}
         onValueChange={(value) =>
           controlContext.setControlValue(controlKey, value ?? "")
         }

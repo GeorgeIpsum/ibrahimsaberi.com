@@ -22,7 +22,7 @@ export type ControlTypeValue<T extends ControlType> = T extends "select"
         : T extends "switch"
           ? boolean
           : T extends "action"
-            ? null
+            ? string | null
             : never;
 
 /** Context handed to a control's `beforeChange`/`onChange`. */
@@ -118,6 +118,15 @@ export const resolveControlType = (control: {
   return "text";
 };
 
+/** Align a value with its type's storage convention (color hex has no `#`). */
+const normalizeControlValue = (
+  type: ControlType | undefined,
+  value: ControlValue,
+): ControlValue =>
+  type === "color" && typeof value === "string" && value.startsWith("#")
+    ? value.slice(1)
+    : value;
+
 /** Does a (persisted) runtime value actually fit a control type? */
 const valueMatchesType = (value: unknown, type: ControlType): boolean => {
   switch (type) {
@@ -131,7 +140,7 @@ const valueMatchesType = (value: unknown, type: ControlType): boolean => {
     case "switch":
       return typeof value === "boolean";
     case "action":
-      return value === null;
+      return value === null || typeof value === "string";
     default:
       return false;
   }
@@ -166,6 +175,17 @@ export function createControlContext<K extends string>() {
   const logFlags = new Map<K, boolean | undefined>();
   const persistFlags = new Map<K, boolean | undefined>();
   const lastProp = new Map<K, ControlValue | undefined>();
+  // Staleness tracking for async guards: every commit path (panel edit or host
+  // prop sync) bumps the key's generation; an async continuation only applies
+  // its result while its generation is still current. `pendingGen` tracks which
+  // in-flight edit owns the pending flag.
+  const generation = new Map<K, number>();
+  const pendingGen = new Map<K, number>();
+  const bumpGeneration = (key: K): number => {
+    const next = (generation.get(key) ?? 0) + 1;
+    generation.set(key, next);
+    return next;
+  };
   const actionComponents = new Map<
     K,
     | Pick<React.ComponentProps<typeof Button>, "children" | "loadingIndicator">
@@ -218,6 +238,7 @@ export function createControlContext<K extends string>() {
   const readPersistedValue = (
     key: K,
     type: ControlType,
+    options?: readonly (string | number)[],
   ): ControlValue | undefined => {
     let raw: string | null;
     try {
@@ -234,11 +255,21 @@ export function createControlContext<K extends string>() {
       /* fall through to the discard below */
     }
     if (stored?.type === type && valueMatchesType(stored.value, type)) {
-      return stored.value as ControlValue;
+      // A select value must also still be one of the current options — a stale
+      // save from an older option set must not be pushed into host state.
+      if (
+        type !== "select" ||
+        !options?.length ||
+        (options as readonly ControlValue[]).includes(
+          stored.value as ControlValue,
+        )
+      ) {
+        return stored.value as ControlValue;
+      }
     }
 
     console.warn(
-      `[control] discarding persisted value for "${key}": ${raw} does not match control type "${type}"`,
+      `[control] discarding persisted value for "${key}": ${raw} does not match control type "${type}" (or its options)`,
     );
     try {
       globalThis.localStorage.removeItem(persistStorageKey(key));
@@ -248,11 +279,14 @@ export function createControlContext<K extends string>() {
     return undefined;
   };
 
-  /** Save a committed value (no-op unless the control opted in via `persist`). */
+  /**
+   * Save a committed value (no-op unless the control opted in via `persist`).
+   * Actions never persist — their value is a "last triggered" token, not state.
+   */
   const persistValue = (key: K, value: ControlValue): void => {
     if (!persistFlags.get(key)) return;
     const type = context.registeredControls[key]?.type;
-    if (!type) return;
+    if (!type || type === "action") return;
     try {
       globalThis.localStorage.setItem(
         persistStorageKey(key),
@@ -285,6 +319,8 @@ export function createControlContext<K extends string>() {
         children: control.actionProps.children,
         loadingIndicator: control.actionProps.loadingIndicator,
       });
+    } else {
+      actionComponents.delete(key);
     }
   };
 
@@ -307,10 +343,14 @@ export function createControlContext<K extends string>() {
 
     // Resolve the type ONCE here; the renderer reads `entry.type` directly.
     const type = resolveControlType(control);
-    const fallback = control.value ?? getDefaultControlValue(type);
-    const restored = control.persist
-      ? readPersistedValue(key, type)
-      : undefined;
+    const fallback =
+      control.value !== undefined
+        ? normalizeControlValue(type, control.value)
+        : getDefaultControlValue(type);
+    const restored =
+      control.persist && type !== "action"
+        ? readPersistedValue(key, type, control.options)
+        : undefined;
     const initial = restored !== undefined ? restored : fallback;
     lastProp.set(key, control.value);
     lastProp.set(`${key}_disabled` as K, control.disabled);
@@ -362,9 +402,14 @@ export function createControlContext<K extends string>() {
       !equals(control.value, lastProp.get(key))
     ) {
       lastProp.set(key, control.value);
-      if (!equals(control.value, entry.value?.get())) {
-        runInAction(() => entry.value?.set(control.value as ControlValue));
-        persistValue(key, control.value as ControlValue);
+      const next = normalizeControlValue(
+        entry.type,
+        control.value as ControlValue,
+      );
+      if (!equals(next, entry.value?.get())) {
+        bumpGeneration(key);
+        runInAction(() => entry.value?.set(next));
+        persistValue(key, next);
       }
     }
 
@@ -376,10 +421,14 @@ export function createControlContext<K extends string>() {
       runInAction(() => entry.disabled?.set(control.disabled as boolean));
     }
 
-    if (control.type === "action" && control.actionProps) {
-      const { children, loadingIndicator, ...rest } = control.actionProps;
+    // Gate on the entry's RESOLVED type (the input's `type` is unset for
+    // inferred actions), and clear the props when the host stops passing them.
+    if (entry.type === "action") {
+      const { children, loadingIndicator, ...rest } = control.actionProps ?? {};
       runInAction(() => {
-        entry.actionProps = rest as React.ComponentProps<typeof Button>;
+        entry.actionProps = control.actionProps
+          ? (rest as React.ComponentProps<typeof Button>)
+          : undefined;
       });
     }
 
@@ -429,6 +478,9 @@ export function createControlContext<K extends string>() {
     persistFlags.delete(key);
     lastProp.delete(key);
     lastProp.delete(`${key}_disabled` as K);
+    actionComponents.delete(key);
+    generation.delete(key);
+    pendingGen.delete(key);
     const instanceId = instanceOf.get(key);
     const groupKey = groupKeyOf(key);
     instanceOf.delete(key);
@@ -463,8 +515,19 @@ export function createControlContext<K extends string>() {
     const box = entry?.value;
     if (!box) return;
 
+    // The panel's <select> emits stringified options — map the emission back
+    // to the original option so numeric options keep their runtime type.
+    let next = value;
+    if (entry.type === "select" && entry.options && typeof value === "string") {
+      const match = (entry.options as readonly (string | number)[]).find(
+        (option) => option === value || option.toString() === value,
+      );
+      if (match !== undefined) next = match;
+    }
+
     const prev = box.get();
-    if (equals(prev, value)) return;
+    if (equals(prev, next)) return;
+    const gen = bumpGeneration(key);
 
     const ctx = makeContext(opts.fromPanel);
     const onChange = handlers.get(key);
@@ -476,10 +539,10 @@ export function createControlContext<K extends string>() {
     };
 
     const commit = () => {
-      runInAction(() => box.set(value));
-      persistValue(key, value);
-      log("committed", { prev, value });
-      onChange?.(value, prev, ctx);
+      runInAction(() => box.set(next));
+      persistValue(key, next);
+      log("committed", { prev, value: next });
+      onChange?.(next, prev, ctx);
     };
 
     if (!guard) {
@@ -487,35 +550,52 @@ export function createControlContext<K extends string>() {
       return;
     }
 
-    const result = guard(value, prev, ctx);
+    const result = guard(next, prev, ctx);
 
     if (result instanceof Promise) {
       // Optimistically show the pending value while the gate runs.
       runInAction(() => {
-        box.set(value);
+        box.set(next);
         entry.pending = true;
       });
-      log("pending", { prev, value });
+      pendingGen.set(key, gen);
+      log("pending", { prev, value: next });
       result
         .then((ok) =>
           runInAction(() => {
             // Bail if the host unmounted (and disposed us) mid-flight.
             if (context.registeredControls[key] !== entry) return;
-            entry.pending = false;
+            if (pendingGen.get(key) === gen) {
+              entry.pending = false;
+              pendingGen.delete(key);
+            }
+            // A newer commit (panel edit or host prop sync) supersedes this
+            // one: neither revert over it nor commit a stale value.
+            if (generation.get(key) !== gen) {
+              log("superseded", { prev, value: next });
+              return;
+            }
             if (ok === false) {
               box.set(prev);
-              log("cancelled", { prev, value });
+              log("cancelled", { prev, value: next });
             } else {
-              persistValue(key, value);
-              log("committed", { prev, value });
-              onChange?.(value, prev, ctx);
+              persistValue(key, next);
+              log("committed", { prev, value: next });
+              onChange?.(next, prev, ctx);
             }
           }),
         )
         .catch((err) =>
           runInAction(() => {
             if (context.registeredControls[key] !== entry) return;
-            entry.pending = false;
+            if (pendingGen.get(key) === gen) {
+              entry.pending = false;
+              pendingGen.delete(key);
+            }
+            if (generation.get(key) !== gen) {
+              log("superseded (threw)", err);
+              return;
+            }
             box.set(prev);
             log("cancelled (threw)", err);
           }),
@@ -524,7 +604,7 @@ export function createControlContext<K extends string>() {
     }
 
     if (result === false) {
-      log("cancelled", { prev, value });
+      log("cancelled", { prev, value: next });
       return;
     }
     commit();

@@ -15,7 +15,24 @@ export default defineConfig({
     },
   },
   test: {
-    environment: "node",
-    include: ["__tests__/*.{test,spec}.{ts,tsx}"],
+    projects: [
+      {
+        extends: true,
+        test: {
+          name: "node",
+          environment: "node",
+          include: ["__tests__/*.{test,spec}.{ts,tsx}"],
+        },
+      },
+      // Component/hook tests that need a DOM (React Testing Library).
+      {
+        extends: true,
+        test: {
+          name: "dom",
+          environment: "jsdom",
+          include: ["__tests__/dom/*.{test,spec}.{ts,tsx}"],
+        },
+      },
+    ],
   },
 });

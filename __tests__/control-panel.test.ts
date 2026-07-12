@@ -3,9 +3,21 @@ import {
   createControlContext,
   resolveControlType,
 } from "@/features/control-panel/control-context";
+import { keySetFingerprint } from "@/features/control-panel/use-control";
 
 /** Let queued microtasks/promises settle (for async `beforeChange`). */
 const flush = () => new Promise<void>((resolve) => setTimeout(resolve, 0));
+
+/** In-memory localStorage stand-in (tests run in a node environment). */
+const stubStorage = (seed: Record<string, string> = {}) => {
+  const store = new Map<string, string>(Object.entries(seed));
+  vi.stubGlobal("localStorage", {
+    getItem: (k: string) => store.get(k) ?? null,
+    setItem: (k: string, v: string) => void store.set(k, String(v)),
+    removeItem: (k: string) => void store.delete(k),
+  });
+  return store;
+};
 
 /**
  * Simulate a component mounting then re-rendering `n` times: register once,
@@ -360,17 +372,6 @@ describe("control panel store", () => {
   });
 
   describe("persistence (persist: true)", () => {
-    /** In-memory localStorage stand-in (tests run in a node environment). */
-    const stubStorage = (seed: Record<string, string> = {}) => {
-      const store = new Map<string, string>(Object.entries(seed));
-      vi.stubGlobal("localStorage", {
-        getItem: (k: string) => store.get(k) ?? null,
-        setItem: (k: string, v: string) => void store.set(k, String(v)),
-        removeItem: (k: string) => void store.delete(k),
-      });
-      return store;
-    };
-
     afterEach(() => {
       vi.unstubAllGlobals();
     });
@@ -507,6 +508,265 @@ describe("control panel store", () => {
       ctx.setControlValue("foo", "b");
 
       expect(ctx.context.registeredControls.foo.value?.get()).toBe("b");
+    });
+  });
+
+  describe("stale async guard resolutions (F1)", () => {
+    afterEach(() => {
+      vi.unstubAllGlobals();
+    });
+
+    it("does not revert a newer host value when a stale async guard cancels", async () => {
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      let release!: (ok: boolean) => void;
+      const gate = new Promise<boolean>((r) => {
+        release = r;
+      });
+      const config = { value: "a", beforeChange: () => gate, onChange };
+      ctx.registerControl("foo", config);
+
+      ctx.setControlValue("foo", "b"); // panel edit, guard in flight
+      ctx.updateControl("foo", { ...config, value: "z" }); // host pushes z mid-flight
+
+      release(false);
+      await flush();
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe("z");
+      expect(ctx.context.registeredControls.foo.pending).toBe(false);
+      expect(onChange).not.toHaveBeenCalled();
+    });
+
+    it("does not commit, persist, or fire onChange for a superseded async guard", async () => {
+      const store = stubStorage();
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      let release!: (ok: boolean) => void;
+      const gate = new Promise<boolean>((r) => {
+        release = r;
+      });
+      const config = {
+        value: "a",
+        persist: true,
+        beforeChange: () => gate,
+        onChange,
+      };
+      ctx.registerControl("foo", config);
+
+      ctx.setControlValue("foo", "b");
+      ctx.updateControl("foo", { ...config, value: "z" });
+
+      release(true);
+      await flush();
+
+      expect(ctx.context.registeredControls.foo.value?.get()).toBe("z");
+      expect(ctx.context.registeredControls.foo.pending).toBe(false);
+      expect(onChange).not.toHaveBeenCalled();
+      expect(JSON.parse(store.get("control:foo") ?? "null")).toEqual({
+        type: "text",
+        value: "z",
+      });
+    });
+  });
+
+  describe("key-set fingerprint (F2)", () => {
+    it("is order-insensitive (a reorder is not a key-set change)", () => {
+      expect(keySetFingerprint(["a", "b"])).toBe(keySetFingerprint(["b", "a"]));
+    });
+
+    it("differs when the set actually changes", () => {
+      expect(keySetFingerprint(["a", "b"])).not.toBe(
+        keySetFingerprint(["a", "b", "c"]),
+      );
+    });
+
+    it("distinguishes sets a joined string would conflate", () => {
+      expect(keySetFingerprint(["a::b", "c"])).not.toBe(
+        keySetFingerprint(["a", "b::c"]),
+      );
+    });
+  });
+
+  describe("action controls (F3)", () => {
+    afterEach(() => {
+      vi.unstubAllGlobals();
+    });
+
+    it("ignores persist for action controls (no reads, no writes, no warn)", () => {
+      const store = stubStorage({
+        "control:fire": JSON.stringify({ type: "action", value: "123" }),
+      });
+      const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+      try {
+        const ctx = createControlContext<string>();
+        const onChange = vi.fn();
+        ctx.registerControl("fire", {
+          type: "action",
+          value: null,
+          persist: true,
+          onChange,
+        });
+
+        expect(ctx.context.registeredControls.fire.value?.get()).toBe(null);
+        expect(onChange).not.toHaveBeenCalled();
+        expect(warn).not.toHaveBeenCalled();
+
+        ctx.setControlValue("fire", "456"); // a trigger commits a timestamp string
+
+        expect(store.get("control:fire")).toBe(
+          JSON.stringify({ type: "action", value: "123" }),
+        );
+        expect(onChange).toHaveBeenCalledWith("456", null, expect.anything());
+      } finally {
+        warn.mockRestore();
+      }
+    });
+  });
+
+  describe("numeric select options (F4)", () => {
+    it("commits the original numeric option when the panel emits its string form", () => {
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("num", { value: 1, options: [1, 2], onChange });
+
+      ctx.setControlValue("num", "2");
+
+      expect(ctx.context.registeredControls.num.value?.get()).toBe(2);
+      expect(onChange).toHaveBeenCalledWith(2, 1, expect.anything());
+    });
+
+    it("leaves string option values untouched", () => {
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("theme", {
+        value: "light",
+        options: ["light", "dark"],
+        onChange,
+      });
+
+      ctx.setControlValue("theme", "dark");
+
+      expect(ctx.context.registeredControls.theme.value?.get()).toBe("dark");
+      expect(onChange).toHaveBeenCalledWith("dark", "light", expect.anything());
+    });
+  });
+
+  describe("color value normalization (F5)", () => {
+    it("strips the leading # when inferring a color control", () => {
+      const ctx = createControlContext<string>();
+      ctx.registerControl("accent", { value: "#fff" });
+
+      expect(ctx.context.registeredControls.accent.type).toBe("color");
+      expect(ctx.context.registeredControls.accent.value?.get()).toBe("fff");
+    });
+
+    it("strips the leading # from host prop pushes to a color control", () => {
+      const ctx = createControlContext<string>();
+      ctx.registerControl("accent", { value: "#fff" });
+
+      ctx.updateControl("accent", { value: "#abc123" });
+
+      expect(ctx.context.registeredControls.accent.value?.get()).toBe("abc123");
+    });
+  });
+
+  describe("actionProps reconciliation (F6)", () => {
+    it("clears action components when actionProps is removed on re-render", () => {
+      const ctx = createControlContext<string>();
+      ctx.registerControl("fire", {
+        type: "action",
+        value: null,
+        actionProps: { children: "Reset" },
+      });
+      expect(ctx.getActionComponents("fire")?.children).toBe("Reset");
+
+      ctx.updateControl("fire", { type: "action", value: null });
+
+      expect(ctx.getActionComponents("fire")).toBeUndefined();
+    });
+
+    it("does not leak action components across dispose/re-register", () => {
+      const ctx = createControlContext<string>();
+      ctx.registerControl("fire", {
+        type: "action",
+        value: null,
+        actionProps: { children: "Reset" },
+      });
+      ctx.disposeControl("fire");
+      ctx.registerControl("fire", { type: "action", value: null });
+
+      expect(ctx.getActionComponents("fire")).toBeUndefined();
+    });
+
+    it("updates button props for an inferred action (no explicit type)", () => {
+      const ctx = createControlContext<string>();
+      // value: null infers "action" — the input's `type` stays undefined.
+      ctx.registerControl("fire", {
+        value: null,
+        actionProps: { variant: "outline" },
+      });
+
+      ctx.updateControl("fire", {
+        value: null,
+        actionProps: { variant: "ghost" },
+      });
+
+      expect(ctx.context.registeredControls.fire.actionProps?.variant).toBe(
+        "ghost",
+      );
+    });
+  });
+
+  describe("persisted select membership (F7)", () => {
+    afterEach(() => {
+      vi.unstubAllGlobals();
+    });
+
+    it("warns and discards a persisted select value no longer in the option set", () => {
+      const store = stubStorage({
+        "control:theme": JSON.stringify({ type: "select", value: "sepia" }),
+      });
+      const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
+      try {
+        const ctx = createControlContext<string>();
+        const onChange = vi.fn();
+        ctx.registerControl("theme", {
+          value: "system",
+          options: ["system", "light", "dark"],
+          persist: true,
+          onChange,
+        });
+
+        expect(ctx.context.registeredControls.theme.value?.get()).toBe(
+          "system",
+        );
+        expect(onChange).not.toHaveBeenCalled();
+        expect(warn).toHaveBeenCalledTimes(1);
+        expect(store.has("control:theme")).toBe(false);
+      } finally {
+        warn.mockRestore();
+      }
+    });
+
+    it("restores a persisted select value still in the option set", () => {
+      stubStorage({
+        "control:theme": JSON.stringify({ type: "select", value: "dark" }),
+      });
+      const ctx = createControlContext<string>();
+      const onChange = vi.fn();
+      ctx.registerControl("theme", {
+        value: "system",
+        options: ["system", "light", "dark"],
+        persist: true,
+        onChange,
+      });
+
+      expect(ctx.context.registeredControls.theme.value?.get()).toBe("dark");
+      expect(onChange).toHaveBeenCalledWith(
+        "dark",
+        "system",
+        expect.anything(),
+      );
     });
   });
 
