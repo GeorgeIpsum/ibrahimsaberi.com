@@ -5,6 +5,7 @@ import "@/css/globals.css";
 import "@/css/prose.css";
 
 import { AnchoredToastProvider, ToastProvider } from "@/components/atoms/toast";
+import { PathHistoryProvider } from "@/components/navigation/use-path-history";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { ControlPanel } from "@/features/control-panel/control-panel";
@@ -28,16 +29,18 @@ export default function RootLayout({
         <ThemeScript />
       </head>
       <body className="relative">
-        <ToastProvider>
-          <AnchoredToastProvider>
-            <div className="relative isolate flex min-h-svh flex-col">
-              <ThemeProvider defaultTheme="system" defaultContrast="system">
-                {children}
-              </ThemeProvider>
-            </div>
-          </AnchoredToastProvider>
-        </ToastProvider>
-        <ControlPanel />
+        <PathHistoryProvider>
+          <ToastProvider>
+            <AnchoredToastProvider>
+              <div className="relative isolate flex min-h-svh flex-col">
+                <ThemeProvider defaultTheme="system" defaultContrast="system">
+                  {children}
+                </ThemeProvider>
+              </div>
+            </AnchoredToastProvider>
+          </ToastProvider>
+          <ControlPanel />
+        </PathHistoryProvider>
       </body>
       {process.env.NODE_ENV === "production" &&
         process.env.VERCEL_ENV === "production" && (

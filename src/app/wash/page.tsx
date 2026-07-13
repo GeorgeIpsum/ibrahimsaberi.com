@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Xterm } from "./xterm";
+import "@xterm/xterm/css/xterm.css";
 
 export const metadata: Metadata = {
   openGraph: {
