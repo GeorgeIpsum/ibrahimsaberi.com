@@ -1,4 +1,3 @@
-import type { LucideIcon } from "lucide-react";
 import type { StaticImageData } from "next/image";
 
 export interface SiteProject {
@@ -8,7 +7,18 @@ export interface SiteProject {
   image: StaticImageData;
   imageAlt?: string;
   imageTitle?: string;
+  imagePosition?:
+    | "object-top-left"
+    | "object-top-right"
+    | "object-bottom-left"
+    | "object-bottom-right"
+    | "object-center"
+    | "object-top"
+    | "object-bottom"
+    | "object-left"
+    | "object-right";
   roots: string[];
-  Icon: LucideIcon;
+  deps?: string[];
+  Icon: React.ReactNode;
   notes: string[];
 }

@@ -29,6 +29,12 @@ export const navItems = [
     href: "/about",
     icon: PersonStanding,
   },
+  {
+    title: "now",
+    href: "/now",
+    icon: PersonStanding,
+    footerItem: true,
+  },
   { title: "basin", href: "/basin", icon: WavesHorizontal },
   { title: "reservoir", href: "/reservoir", icon: Cylinder, mobileOnly: true },
   { title: "spool", href: "/spool", icon: Album, footerItem: true },
@@ -37,7 +43,6 @@ export const navItems = [
     title: "contact",
     href: "/contact",
     icon: MessageCircleHeart,
-    mobileOnly: true,
     footerItem: true,
   },
   {

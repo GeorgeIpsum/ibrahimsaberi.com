@@ -7,10 +7,10 @@ import {
   TabsTrigger,
 } from "@/components/atoms/tabs";
 import { useIsMobile } from "@/hooks/use-media-query";
-import { SiteProjectFrame } from "./components/site";
-import { siteProjects } from "./data/site-projects";
 
-export const Reservoir: React.FC = () => {
+export const Reservoir: React.FC<{ siteProjects: React.ReactNode }> = ({
+  siteProjects,
+}) => {
   const isMobile = useIsMobile();
 
   return (
@@ -20,10 +20,7 @@ export const Reservoir: React.FC = () => {
       orientation={!isMobile ? "vertical" : "horizontal"}
     >
       <TabsContent value="site" className="w-full">
-        {/* TODO: I can opt a lot of this back into SSR by making this a slot I think */}
-        {siteProjects.map((project) => (
-          <SiteProjectFrame key={project.name} project={project} />
-        ))}
+        {siteProjects}
       </TabsContent>
       <TabsContent value="github" className="w-full">
         <div className="flex w-full items-center justify-center rounded-2xl bg-card p-20">
