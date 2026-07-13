@@ -37,7 +37,7 @@ export const operatingSystemTools = {
         src: iosImage,
         size: 24,
         containerClassName: "size-fit bg-transparent rounded-none",
-        className: "bg-transparent rounded-none dark:invert aspect-auto",
+        className: "bg-transparent rounded-none dark:invert aspect-auto h-auto",
       },
     },
   ],
