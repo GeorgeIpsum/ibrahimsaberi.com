@@ -9,5 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <Xterm />;
+  return (
+    <div className="flex items-center justify-center rounded-lg border border-border bg-black p-4 shadow-black/20 shadow-xl">
+      <Xterm />
+    </div>
+  );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { FitAddon } from "@xterm/addon-fit";
 import { Terminal } from "@xterm/xterm";
 import { useEffect, useRef } from "react";
 
@@ -15,9 +16,12 @@ export const Xterm: React.FC = () => {
     }
 
     if (terminalRef.current) {
-      const term = new Terminal();
+      const term = new Terminal({});
       term.open(terminalRef.current);
+      const fitAddon = new FitAddon();
+      term.loadAddon(fitAddon);
       term.write("Coming soon :)\r\n");
+      fitAddon.fit();
 
       return () => {
         term.dispose();
