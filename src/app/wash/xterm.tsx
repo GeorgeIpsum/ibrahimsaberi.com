@@ -18,6 +18,10 @@ export const Xterm: React.FC = () => {
       const term = new Terminal();
       term.open(terminalRef.current);
       term.write("Coming soon :)\r\n");
+
+      return () => {
+        term.dispose();
+      };
     }
   }, []);
 
