@@ -35,9 +35,10 @@ export const operatingSystemTools = {
       description: "blue texts. battery problems. battlestar galactica.",
       image: {
         src: iosImage,
-        size: 24,
-        containerClassName: "size-fit bg-transparent rounded-none",
-        className: "bg-transparent rounded-none dark:invert aspect-auto h-auto",
+        size: undefined,
+        containerClassName: "bg-transparent rounded-none",
+        className:
+          "bg-transparent rounded-none dark:invert aspect-auto h-auto w-6",
       },
     },
   ],
