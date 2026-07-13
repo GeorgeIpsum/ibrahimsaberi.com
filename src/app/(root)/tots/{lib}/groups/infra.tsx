@@ -3,6 +3,7 @@ import type { ToolGroup } from "../types";
 
 export const infraTools = {
   name: "infra",
+  description: "physical hardware that i use daily.",
   icon: <Cuboid />,
   size: "medium",
   tools: [
@@ -29,33 +30,40 @@ export const infraTools = {
       platform: "nixos",
       description: "bridges home assistant with the rest of my homelab.",
     },
-    // {
-    //   name: "Zyxel GS1920-24HPv2",
-    //   underTheFold: true,
-    //   description:
-    //     "currently unused (and overkill) network switch. i have another small one that i'm actually using but it sits in a really precarious position in a cabinet right now and i don't want to move it to find out what it is.",
-    // },
     {
-      name: "Synology NAS ds225+",
-      underTheFold: true,
-      description: "imo a little overrated but i illmatic is still a classic.",
-    },
-    {
-      name: "NIORFNIO 15w fm transmitter",
+      name: "dearly ebloved",
+      platform: "nixos",
       underTheFold: true,
       description:
-        "i'm not sure this should be legal to own considering how powerful it is. drives my amateur radio setup.",
+        "a server i purchased from hetzner server auction. he is very far away but we love him very much. he says hello from helsinki.",
     },
-    // {
-    //   name: "Pyle P3201BT",
-    //   underTheFold: true,
-    //   description:
-    //     "very overkill bt preamp receiver. let's me connect a lot of random audio sinks together.",
-    // },
-    // {
-    //   name: "CyberPower CP1500PFCLCD",
-    //   underTheFold: true,
-    //   description: "UPS my beloved",
-    // },
+    {
+      name: "niorfnio 15w fm transmitter",
+      underTheFold: true,
+      description:
+        "i'm not sure this should be legal to own considering how powerful it is. drives the radio part of my amateur radio setup.",
+    },
+    {
+      name: "synology nas ds225+",
+      underTheFold: true,
+      description: "imo a little overrated but illmatic is a classic.",
+    },
+    {
+      name: "zyxel gs1920-24hpv2",
+      underTheFold: true,
+      description:
+        "currently unused (and overkill) network switch. i have another small one that i'm actually using but it sits in a really precarious position in a cabinet right now and i don't want to move it to find out what it is.",
+    },
+    {
+      name: "pyle p3201Bt",
+      underTheFold: true,
+      description:
+        "very overkill bt preamp receiver. let's me connect a lot of random audio sinks together.",
+    },
+    {
+      name: "cyberpower cp1500pfclcd",
+      underTheFold: true,
+      description: "ups my beloved",
+    },
   ],
 } satisfies ToolGroup;

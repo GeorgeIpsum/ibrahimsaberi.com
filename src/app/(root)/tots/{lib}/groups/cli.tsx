@@ -4,12 +4,17 @@ import type { ToolGroup } from "../types";
 
 export const cliTools = {
   name: "command line",
+  description:
+    "some tools that i use nearly daily, and others that i think deserve a shoutout.",
   icon: <Terminal />,
   size: "small",
+  classNames: {
+    name: "font-mono text-sm",
+  },
   tools: [
     {
       name: "mise",
-      image: miseImage,
+      image: { src: miseImage },
       link: "https://mise.jdx.dev/",
       description:
         "i got so tired of nvm blowing up my shell env that i had my entire team swap to this. it's actually incredible.",
@@ -40,6 +45,7 @@ export const cliTools = {
       name: "doxx",
       description:
         "i don't like having office products installed anywhere so i use this to read docx files when i don't want to deal with Pages startup time.",
+      underTheFold: true,
     },
     {
       name: "ffmpeg",
@@ -63,7 +69,7 @@ export const cliTools = {
     {
       name: "jq",
       link: "https://jqlang.org/",
-      description: `"json is human-readable" <- absolutely deranged man`,
+      description: `"json is human-readable" ← absolutely deranged person`,
       underTheFold: true,
     },
     {
@@ -90,12 +96,14 @@ export const cliTools = {
       link: "https://hurl.dev/",
       description:
         "http request chainer, useful for testing. really nice for CI.",
+      underTheFold: true,
     },
     {
       name: "lnav",
       link: "https://lnav.org/",
       description:
         "log soup viewer/ navigator. really useful for homelab/ home assistant debugging.",
+      underTheFold: true,
     },
     {
       name: "sox",
@@ -126,7 +134,7 @@ export const cliTools = {
       name: "litime",
       link: "https://github.com/ikornaselur/litime",
       description:
-        "prints quotes from media that contain the current time (hour + minute). invoked on shell start. very occasionally will print a quote that could get me into trouble at work. buyer beware.",
+        "prints quotes that contain the current time. invoked on shell start. very occasionally will print a quote that could get me into trouble at work. buyer beware.",
     },
     {
       name: "zoxide",

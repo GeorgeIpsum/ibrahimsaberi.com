@@ -5,7 +5,12 @@ export type OS = "nixos" | "macos" | "windows" | "ios";
 export type Tool<T extends string = string> = {
   name: T;
   description?: string;
-  image?: StaticImageData;
+  image?: {
+    src: StaticImageData;
+    containerClassName?: string;
+    className?: string;
+    size?: number;
+  };
   years?: [number, number];
   link?: string;
   underTheFold?: true;
@@ -31,12 +36,17 @@ export type Tool<T extends string = string> = {
 
 export interface ToolGroup<T extends string = string> {
   name: string;
+  description: string;
+  icon: React.ReactNode;
   tools: Tool<T>[];
   size?: "small" | "medium" | "large";
-  icon?: React.ReactNode;
   classNames?: {
     name?: string;
     description?: string;
-    image?: string;
   };
 }
+
+export type ToolGroupOpts = Pick<
+  ToolGroup,
+  "name" | "description" | "icon" | "size" | "classNames"
+>;

@@ -6,32 +6,39 @@ import type { ToolGroup } from "../types";
 
 export const termTools = {
   name: "terminals, shells, etc.",
+  description: "things i spend an inordinate amount of time configuring.",
   icon: <Shell />,
-  size: "medium",
+  size: "large",
   tools: [
     {
       name: "iterm2",
-      image: iterm2Image,
+      platform: "macos",
+      image: { src: iterm2Image },
       link: "https://iterm2.com/",
-      description: "daily driver. the maintainers may or may not hate me.",
-    },
-    {
-      name: "omz",
-      image: omzImage,
-      link: "https://ohmyz.sh/",
-      description: "zsh customization framework.",
-    },
-    {
-      name: "p10k",
-      link: "https://github.com/romkatv/powerlevel10k",
       description:
-        "omz theme. faster than starship, but no longer maintained. the price of being feature complete, i guess.",
+        "daily driver. i have been personally trying to fix a floating hotkey window bug for the past 3 years now. i should probably at some point file a bug report.",
     },
     {
       name: "alacritty",
-      image: alacrittyImage,
+      platform: "nixos",
+      image: { src: alacrittyImage },
       link: "https://alacritty.org/",
-      description: "used on nixos.",
+      description:
+        "fast and simple. makes running around my homelab k3s cluster a joy.",
+    },
+    {
+      name: "omz",
+      platform: "macos",
+      image: { src: omzImage },
+      link: "https://ohmyz.sh/",
+      description: "zsh customization framework. oh me oh my.",
+    },
+    {
+      name: "p10k",
+      platform: "macos",
+      link: "https://github.com/romkatv/powerlevel10k",
+      description:
+        "omz theme. used to use starship, but after running into weird perf bugs i came crawling back.",
     },
   ],
 } satisfies ToolGroup;
