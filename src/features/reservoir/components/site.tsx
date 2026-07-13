@@ -17,27 +17,26 @@ import { REPO_API_URL, REPO_URL } from "@/services/github/repo";
 import { siteProjects } from "../data/site-projects";
 import type { SiteProject } from "../types";
 
-// busts only on deploy lol
 const getRootLastUpdated = async (root: string) => {
   "use cache";
-  cacheTag("site-projects-last-updated");
+  cacheTag("site-project-last-updated");
   const res = await fetch(`${REPO_API_URL}/commits?path=${root}`, {
     cache: "force-cache",
   });
   const commits = await res.json();
   if (commits?.message?.startsWith("API rate limit exceeded")) {
     console.error("GitHub API rate limit exceeded. Please try again later.");
-    revalidateTag("site-projects-last-updated", "max");
-    return null;
+    throw new Error("API rate limit exceeded");
   }
   if (!Array.isArray(commits) || commits.length === 0) return null;
   const lastCommit = commits[0];
   return lastCommit.commit.author.date as number;
 };
 
-const SiteProjectLastUpdated: React.FC<{ project: SiteProject }> = async ({
-  project,
-}) => {
+// busts only on deploy lol
+const getProjectLastUpdated = async (project: SiteProject) => {
+  "use cache";
+  cacheTag("site-projects-last-updated");
   const lastUpdated = (
     await Promise.all(project.roots.map(getRootLastUpdated))
   ).filter(Boolean);
@@ -49,6 +48,16 @@ const SiteProjectLastUpdated: React.FC<{ project: SiteProject }> = async ({
         )
       : null;
 
+  return lastUpdatedDate?.toLocaleDateString() ?? "unknown";
+};
+
+const SiteProjectLastUpdated: React.FC<{ project: SiteProject }> = async ({
+  project,
+}) => {
+  const lastUpdated = await getProjectLastUpdated(project).catch(
+    () => "rate limited :(",
+  );
+
   return (
     <div
       className={cn(
@@ -56,7 +65,7 @@ const SiteProjectLastUpdated: React.FC<{ project: SiteProject }> = async ({
         "w-fit text-primary",
       )}
     >
-      {lastUpdatedDate?.toLocaleDateString() ?? "unknown"}
+      {lastUpdated}
     </div>
   );
 };
