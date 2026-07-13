@@ -23,4 +23,7 @@ export const toolsOfThe = [
   "scuttlebut",
   "saffronite",
   "slurrrrrrrrrrp",
+  "strace",
+  "subliminal",
+  "sourpatch",
 ];
