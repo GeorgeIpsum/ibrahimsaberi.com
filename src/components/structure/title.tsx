@@ -72,6 +72,7 @@ const TitleHero: React.FC<{ art?: AsciiArtPlacement }> = ({ art }) => {
       value: findPaletteKey(palette),
       options: paletteKeys,
       log: true,
+      persist: true,
       onChange: (val) => {
         const value = val as unknown as string;
         setPalette(pickPaletteByKey(value, theme));
