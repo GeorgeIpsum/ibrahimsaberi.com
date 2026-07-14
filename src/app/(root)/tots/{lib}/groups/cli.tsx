@@ -28,7 +28,8 @@ export const cliTools = {
     {
       name: "eza",
       link: "https://eza.rocks/",
-      description: "ls but cooler. also sounds cooler. also confuses my team.",
+      description:
+        "`ls` but cooler. also sounds cooler. also confuses my team.",
     },
     {
       name: "ripgrep",
@@ -39,10 +40,11 @@ export const cliTools = {
       name: "doggo",
       link: "https://doggo.mrkaran.dev/",
       description:
-        "dns client (think dig). there's a go fetch joke here but i'm not funny enough to find it.",
+        "dns client (think `dig`). there's a go fetch joke here but i'm not funny enough to find it.",
     },
     {
       name: "doxx",
+      link: "https://bgreenwell.github.io/doxx/doxx/",
       description:
         "i don't like having office products installed anywhere so i use this to read docx files when i don't want to deal with Pages startup time.",
       underTheFold: true,
@@ -63,7 +65,7 @@ export const cliTools = {
     {
       name: "catimg",
       link: "https://posva.net/shell/retro/bash/2013/05/27/catimg",
-      description: "further proof that imagemagick is actual black magic.",
+      description: "further proof that `imagemagick` is actual black magic.",
       underTheFold: true,
     },
     {
@@ -139,7 +141,7 @@ export const cliTools = {
     {
       name: "zoxide",
       link: "https://github.com/ajeetdsouza/zoxide",
-      description: "smarter cd.",
+      description: "smarter, cooler `cd`.",
     },
   ],
 } satisfies ToolGroup;

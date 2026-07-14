@@ -31,7 +31,7 @@ export const UnderTheFold: React.FC<{
               animate={{ opacity: 1, transition: { delay: i * 0.1 } }}
               exit={{ opacity: 0, transition: { delay: 1 - i * 0.1 } }}
             >
-              <Tool tool={tool} opts={opts} />
+              <Tool key={tool.name} tool={tool} opts={opts} />
             </motion.div>
           ))}
       </AnimatePresence>

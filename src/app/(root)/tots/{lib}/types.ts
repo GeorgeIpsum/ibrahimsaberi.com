@@ -4,7 +4,7 @@ import type { StaticImageData } from "next/image";
 export type OS = "nixos" | "macos" | "windows" | "ios";
 export type Tool<T extends string = string> = {
   name: T;
-  description?: string;
+  description: string;
   image?: {
     src: StaticImageData;
     containerClassName?: string;

@@ -29,7 +29,7 @@ export const supportingTools = {
     {
       name: "zen browser",
       image: { src: zenImage },
-      platform: "nixos",
+      platform: ["windows", "nixos"],
       description:
         "if there wasnt already a flake for this id honestly just use firefox.",
     },
@@ -86,7 +86,7 @@ export const supportingTools = {
       underTheFold: true,
       image: { src: linearImage, className: "rounded" },
       description:
-        "imagine if jira didn't make you want to burn down the entire building.",
+        "imagine if jira didn't make you want to **burn down the entire building.**",
     },
     {
       name: "figjam",
@@ -112,7 +112,8 @@ export const supportingTools = {
       alternatives: [
         {
           name: "mpv",
-          platform: "nixos",
+          platform: ["windows", "nixos"],
+          description: "the root of all good.",
           image: { src: mpvImage },
         },
       ],
@@ -151,6 +152,7 @@ export const supportingTools = {
       name: "obs",
       underTheFold: true,
       link: "https://obsproject.com/",
+      platform: ["windows", "macos"],
       image: { src: obsImage },
       description:
         "streaming, recording, compositing, and more. really useful.",
@@ -166,6 +168,7 @@ export const supportingTools = {
     {
       name: "transmission",
       underTheFold: true,
+      platform: "macos",
       image: { src: transmissionImage },
       description: "simple and effective torrent client. 🏴‍☠️",
     },

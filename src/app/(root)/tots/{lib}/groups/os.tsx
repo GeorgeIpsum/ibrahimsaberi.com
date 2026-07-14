@@ -12,7 +12,7 @@ export const operatingSystemTools = {
     {
       name: "macos",
       description:
-        "daily driver. starting to get really tired of all the anti-features that are piling up in what was once a really nice os.",
+        "daily driver. starting to get *really* tired of all the anti-features that are piling up in what was once a really nice os.",
       image: {
         src: macosImage,
         size: 36,
@@ -32,7 +32,7 @@ export const operatingSystemTools = {
     },
     {
       name: "ios",
-      description: "blue texts. battery problems. battlestar galactica.",
+      description: "blue texts. battery problems. **battlestar galactica.**",
       image: {
         src: iosImage,
         size: undefined,

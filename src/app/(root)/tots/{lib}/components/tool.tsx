@@ -3,8 +3,10 @@ import macosImage from "@public/img/pages/tots/macos.svg";
 import nixosImage from "@public/img/pages/tots/nixos.svg";
 import { Link } from "lucide-react";
 import Image from "next/image";
+import { createElement } from "react";
 import { ScrollArea } from "@/components/atoms/scroll-area";
 import { cn } from "@/css/lib";
+import { renderInline } from "@/features/micro-md/render";
 import type { ToolGroupOpts, Tool as ToolKind } from "../types";
 
 const NixOs = () => (
@@ -33,10 +35,10 @@ const WindowsOs = () => (
 );
 
 const platformIcon = {
-  nixos: <NixOs />,
-  macos: <MacOs />,
-  windows: <WindowsOs />,
-  ios: null,
+  nixos: NixOs,
+  macos: MacOs,
+  windows: WindowsOs,
+  ios: () => <span />,
 };
 
 export const Tool: React.FC<{ tool: ToolKind; opts: ToolGroupOpts }> = ({
@@ -49,14 +51,22 @@ export const Tool: React.FC<{ tool: ToolKind; opts: ToolGroupOpts }> = ({
     if (!tool.platform) return null;
     if (Array.isArray(tool.platform)) {
       return (
-        <div className="flex items-center justify-end rounded-full bg-background p-1 *:-ml-2">
-          {tool.platform.map((platform) => platformIcon[platform])}
+        <div
+          className={cn(
+            "flex items-center justify-end rounded-full bg-background p-1",
+            opts.size === "small" ? "*:-ml-3" : "*:-ml-2",
+          )}
+        >
+          {tool.platform.map((platform, i) => {
+            const Icon = platformIcon[platform];
+            return Icon ? <Icon key={`${platform}-${i.toString()}`} /> : null;
+          })}
         </div>
       );
     }
     return tool.platform in platformIcon ? (
       <div className="flex items-center justify-end gap-1 rounded-full bg-background p-1">
-        {platformIcon[tool.platform]}
+        {createElement(platformIcon[tool.platform], { key: tool.platform })}
       </div>
     ) : null;
   };
@@ -77,7 +87,12 @@ export const Tool: React.FC<{ tool: ToolKind; opts: ToolGroupOpts }> = ({
             </a>
           )}
         </div>
-        <div className="flex items-center justify-end gap-x-1.5">
+        <div
+          className={cn(
+            "flex items-center justify-end",
+            opts.size === "small" ? "gap-x-0.5" : "gap-x-1.5",
+          )}
+        >
           {renderPlatform()}
           {tool.image && (
             <div
@@ -104,7 +119,7 @@ export const Tool: React.FC<{ tool: ToolKind; opts: ToolGroupOpts }> = ({
             opts.size === "small" ? "text-xs" : "text-sm",
           )}
         >
-          {tool.description}
+          {renderInline(tool.description, { textAs: "span" })}
         </p>
       </ScrollArea>
     </div>
