@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { n } = await params;
   return {
     title: `basin · page ${n}`,
+    description: "a collection of thoughts, ideas, and reflections.",
   };
 }
 
