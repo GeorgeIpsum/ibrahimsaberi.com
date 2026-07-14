@@ -31,7 +31,7 @@ export const supportingTools = {
       image: { src: zenImage },
       platform: ["windows", "nixos"],
       description:
-        "if there wasnt already a flake for this id honestly just use firefox.",
+        "if there wasn't already a flake for this i'd honestly just use firefox.",
     },
     {
       name: "arc",

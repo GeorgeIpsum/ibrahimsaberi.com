@@ -6,20 +6,10 @@ import { Cpu } from "lucide-react";
 import type { OS, ToolGroup } from "../types";
 export const operatingSystemTools = {
   name: "operating systems",
-  description: "foundational.",
+  description: "one converted me. one betrayed me. one runs dota 2.",
   icon: <Cpu />,
   size: "large",
   tools: [
-    {
-      name: "macos",
-      description:
-        "daily driver. starting to get *really* tired of all the anti-features that are piling up in what was once a really nice os.",
-      image: {
-        src: macosImage,
-        size: 36,
-        className: "bg-white rounded-full border border-border",
-      },
-    },
     {
       name: "nixos",
       description:
@@ -29,6 +19,16 @@ export const operatingSystemTools = {
         size: 26,
         containerClassName: "p-1 bg-white rounded-full border border-border",
         className: "bg-white rounded-full",
+      },
+    },
+    {
+      name: "macos",
+      description:
+        "daily driver. starting to get *really* tired of all the anti-features that are piling up in what was once a really nice os.",
+      image: {
+        src: macosImage,
+        size: 36,
+        className: "bg-white rounded-full border border-border",
       },
     },
     {
