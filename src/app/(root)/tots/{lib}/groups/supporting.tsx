@@ -37,7 +37,7 @@ export const supportingTools = {
       name: "arc",
       image: { src: arcImage },
       description:
-        "currently evaluating alternatives. dead app and shady-ish untrustworthy company behind it. at least it's not (entirely) chrome.",
+        "currently evaluating alternatives. dead app and an untrustworthy company behind it. at least it's not (entirely) chrome.",
       lookingForReplacement: true,
       platform: "macos",
       evaluating: [

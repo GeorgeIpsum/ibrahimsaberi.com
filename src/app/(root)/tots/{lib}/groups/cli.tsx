@@ -28,19 +28,18 @@ export const cliTools = {
     {
       name: "eza",
       link: "https://eza.rocks/",
-      description:
-        "`ls` but cooler. also sounds cooler. also confuses my team.",
+      description: "`ls` but cooler. also confuses my team whenever i use it.",
     },
     {
       name: "ripgrep",
       link: "https://github.com/burntsushi/ripgrep",
-      description: `100 more years of "rebuild it in rust"`,
+      description: `1000 more years of "rebuild it in rust".`,
     },
     {
       name: "doggo",
       link: "https://doggo.mrkaran.dev/",
       description:
-        "dns client (think `dig`). there's a go fetch joke here but i'm not funny enough to find it.",
+        "dns client (think `dig`). there's a go fetch joke here somewhere.",
     },
     {
       name: "doxx",
@@ -141,7 +140,7 @@ export const cliTools = {
     {
       name: "zoxide",
       link: "https://github.com/ajeetdsouza/zoxide",
-      description: "smarter, cooler `cd`.",
+      description: "smarter, memory-enabled `cd`.",
     },
   ],
 } satisfies ToolGroup;

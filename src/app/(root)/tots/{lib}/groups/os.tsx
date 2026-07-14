@@ -1,3 +1,4 @@
+import dota2Image from "@public/img/pages/tots/dota2.svg";
 import iosImage from "@public/img/pages/tots/ios.svg";
 import macosImage from "@public/img/pages/tots/macos.svg";
 import nixosImage from "@public/img/pages/tots/nixos.svg";
@@ -28,6 +29,13 @@ export const operatingSystemTools = {
         size: 26,
         containerClassName: "p-1 bg-white rounded-full border border-border",
         className: "bg-white rounded-full",
+      },
+    },
+    {
+      name: "~~windows~~ dota2os" as "windows",
+      description: "runs dota 2. sometimes obs. that's literally it.",
+      image: {
+        src: dota2Image,
       },
     },
     {

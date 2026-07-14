@@ -14,7 +14,7 @@ export const audioTools = {
     {
       name: "beyerdynamic dt 990 pro (250 ohm)",
       description:
-        "daily driver. made me finally deal with grounding issues in my apartment.",
+        "primary weapon. made me finally deal with grounding issues in my apartment.",
     },
     {
       name: "sennheiser hd 660s2 (and 660 (and 6xx))",

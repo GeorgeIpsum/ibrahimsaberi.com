@@ -23,7 +23,7 @@ export const textEditorTools = {
       platform: ["macos", "nixos"],
       image: { src: vscodeImage },
       description:
-        "for whenever i need to use liveshare to ~~pwn~~ teach a junior or pair program with a team member.",
+        "for whenever i need to use liveshare to teach a junior or pair program with a team member.",
     },
     {
       name: "neovim",
@@ -37,7 +37,7 @@ export const textEditorTools = {
       name: "vi",
       platform: ["macos", "nixos"],
       link: "https://duckduckgo.com/?q=man+vi",
-      description: `picture this: you ssh into a server, run \`vi somefile\`, make a bunch of edits, realize you don't actually have edit permissions because for whatever reason you're blind to the "read-only" warning, and then you repeat the entire thing with \`sudo vi.\``,
+      description: `picture this: you ssh into a server, run \`vi somefile\`, make a bunch of edits, realize you don't actually have edit permissions because for whatever reason you're blind to the "read-only" warning, and then you repeat the entire thing with \`sudo vi\`.`,
     },
   ],
 } satisfies ToolGroup;

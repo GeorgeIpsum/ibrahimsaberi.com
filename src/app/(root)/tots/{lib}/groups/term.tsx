@@ -16,7 +16,7 @@ export const termTools = {
       image: { src: iterm2Image },
       link: "https://iterm2.com/",
       description:
-        "daily driver. i have been personally trying to fix a floating hotkey window bug for the past 3 years now. i should probably at some point file a bug report.",
+        "always open. i have been personally trying to fix a floating hotkey window bug for the past 3 years now. i should probably file a bug report at some point.",
     },
     {
       name: "alacritty",

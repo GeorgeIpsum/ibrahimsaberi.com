@@ -76,7 +76,9 @@ export const Tool: React.FC<{ tool: ToolKind; opts: ToolGroupOpts }> = ({
       <div className="mb-2 flex items-start justify-between gap-2">
         <div className="flex items-baseline justify-start gap-2">
           <h3 className={cn("text-base", opts.classNames?.name)}>
-            {tool.name}
+            {tool.name.includes("windows")
+              ? renderInline(tool.name, { textAs: "span" })
+              : tool.name}
           </h3>
           {tool.link && (
             <a href={tool.link} target="_blank" rel="noopener noreferrer">
