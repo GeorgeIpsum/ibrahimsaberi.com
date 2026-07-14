@@ -23,7 +23,7 @@ export const ToolsOfThe: React.FC = () => {
         t2.current = setTimeout(() => {
           setTool(newTool as string);
           setBackgroundColor("bg-none");
-        }, 600);
+        }, 300);
       },
     },
   });
@@ -39,20 +39,23 @@ export const ToolsOfThe: React.FC = () => {
     <TokenStream
       key={tool}
       text={tool}
-      speedMs={[70, 150]}
+      speedMs={[40, 150]}
       tokenize={(text) => text.split("")}
       delayMs={1200}
       caretClassName="h-6!"
       className={backgroundColor}
       onComplete={() => {
         if (!controlled) {
-          t1.current = setTimeout(() => {
-            setBackgroundColor("bg-primary/50");
-            t2.current = setTimeout(() => {
-              setTool(randomArrayMember(toolsOfThe));
-              setBackgroundColor("bg-none");
-            }, 600);
-          }, 3000);
+          t1.current = setTimeout(
+            () => {
+              setBackgroundColor("bg-primary/50");
+              t2.current = setTimeout(() => {
+                setTool(randomArrayMember(toolsOfThe));
+                setBackgroundColor("bg-none");
+              }, 300);
+            },
+            tool === "?" ? 1200 : 2400,
+          );
         }
       }}
     />

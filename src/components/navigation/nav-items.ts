@@ -9,6 +9,7 @@ import {
   PersonStanding,
   Radio,
   Shell,
+  ToolCase,
   TvMinimalPlay,
   WavesHorizontal,
 } from "lucide-react";
@@ -44,6 +45,12 @@ export const navItems = [
     href: "/contact",
     icon: MessageCircleHeart,
     footerItem: true,
+  },
+  {
+    title: "tots",
+    href: "/tots",
+    icon: ToolCase,
+    mobileOnly: true,
   },
   {
     title: "reflection",
