@@ -20,7 +20,7 @@ export const toolsOfThe = [
   "scallywag",
   "saucier",
   "sap",
-  "scuttlebut",
+  "scuttlebutt",
   "saffronite",
   "slurrrrrrrrrrp",
   "strace",

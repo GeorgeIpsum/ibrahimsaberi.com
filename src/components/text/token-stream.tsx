@@ -125,6 +125,7 @@ export interface TokenStreamProps
     UseTokenStreamOptions {
   /** Hide the trailing blinking caret. */
   hideCaret?: boolean;
+  caretClassName?: string;
 }
 
 /**
@@ -147,6 +148,7 @@ export const TokenStream = forwardRef<HTMLSpanElement, TokenStreamProps>(
       onComplete,
       hideCaret,
       className,
+      caretClassName,
       ...rest
     },
     ref,
@@ -164,7 +166,7 @@ export const TokenStream = forwardRef<HTMLSpanElement, TokenStreamProps>(
       <span ref={ref} className={cn(className)} {...rest}>
         {output}
         {!hideCaret && isStreaming && (
-          <span className="pui-bubble__stream-caret" />
+          <span className={cn("pui-bubble__stream-caret", caretClassName)} />
         )}
       </span>
     );
