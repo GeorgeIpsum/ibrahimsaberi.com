@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { PastaPlate } from "@/features/pasta/components/plate";
 
 export const metadata: Metadata = {
+  title: "pasta",
+  description: "some fresh, some stale.",
   openGraph: {
     images: [
       {

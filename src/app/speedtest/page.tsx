@@ -19,7 +19,8 @@ export async function generateMetadata({
     title: "speedtest",
     description: result
       ? `↓ ${result.downMbps} Mbps · ↑ ${result.upMbps} Mbps · ${result.pingMs} ms ping`
-      : "How fast does the water flow between you and this site?",
+      : "how fast does the water flow?",
+    category: "reservoir",
     openGraph: {
       images: [
         {

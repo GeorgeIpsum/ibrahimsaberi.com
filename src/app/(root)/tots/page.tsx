@@ -1,3 +1,4 @@
+import type { Metadata } from "next/dist/lib/metadata/types/metadata-interface";
 import { Title } from "@/components/structure/title";
 import { ToolGroup } from "./{lib}/components/tool-group";
 import { ToolsOfThe } from "./{lib}/components/trade";
@@ -12,3 +13,8 @@ export default async function Page() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "tools of the ?",
+  description: "a list of tools i use and love.",
+};

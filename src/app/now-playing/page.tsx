@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { UnderConstruction } from "@/components/navigation/under-construction";
 
 export const metadata: Metadata = {
+  title: "now playing",
+  description: "what i'm listening to right now.",
+  category: "reservoir",
   openGraph: {
     images: [
       {

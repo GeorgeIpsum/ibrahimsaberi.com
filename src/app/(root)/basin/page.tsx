@@ -1,4 +1,6 @@
 // import { waveCircle } from "@lucide/lab";
+
+import type { Metadata } from "next";
 import { Separator } from "@/components/atoms/separator";
 import { Title } from "@/components/structure/title";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
@@ -45,3 +47,9 @@ export default async function BasinIndex() {
     </>
   );
 }
+
+export const metadata: Metadata = {
+  title: "ripples",
+  description:
+    "the basin overflows. a collection of thoughts, ideas, and reflections.",
+};
