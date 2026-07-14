@@ -17,13 +17,13 @@ export const cliTools = {
       image: { src: miseImage },
       link: "https://mise.jdx.dev/",
       description:
-        "i got so tired of nvm blowing up my shell env that i had my entire team swap to this. it's actually incredible.",
+        "i got so tired of `nvm` blowing up my shell env that i had my entire team swap to this. it's actually incredible.",
     },
     {
       name: "bat",
       link: "https://github.com/sharkdp/bat",
       description:
-        "imagine if cats could fly. and could also highlight syntax.",
+        "imagine if `cat`s could fly. and could also highlight syntax.",
     },
     {
       name: "eza",
@@ -33,7 +33,7 @@ export const cliTools = {
     {
       name: "ripgrep",
       link: "https://github.com/burntsushi/ripgrep",
-      description: `1000 more years of "rebuild it in rust".`,
+      description: `1000 more years of "**rebuild it in rust**".`,
     },
     {
       name: "doggo",
@@ -45,20 +45,20 @@ export const cliTools = {
       name: "doxx",
       link: "https://bgreenwell.github.io/doxx/doxx/",
       description:
-        "i don't like having office products installed anywhere so i use this to read docx files when i don't want to deal with Pages startup time.",
+        "i don't like having office products installed anywhere so i use this to read .docx files when i don't want to deal with Pages startup time.",
       underTheFold: true,
     },
     {
       name: "ffmpeg",
       link: "https://www.ffmpeg.org/",
       description:
-        "people think xkcd.com/2347/ is about bash but it's actually about alternate universe ffmpeg. i'll explain later.",
+        "people think xkcd.com/2347/ is about `bash` but it's actually about alternate universe `ffmpeg`. i'll explain later.",
       underTheFold: true,
     },
     {
       name: "yt-dlp",
       link: "https://github.com/yt-dlp/yt-dlp",
-      description: "VIVA LA RÉSISTANCE",
+      description: "**VIVA LA RÉSISTANCE**",
       underTheFold: true,
     },
     {
@@ -76,7 +76,7 @@ export const cliTools = {
     {
       name: "bearer",
       link: "https://docs.bearer.com/",
-      description: "neat static analysis tool.",
+      description: "neat static analysis tool. good in short bursts.",
       underTheFold: true,
     },
     {
@@ -135,7 +135,7 @@ export const cliTools = {
       name: "litime",
       link: "https://github.com/ikornaselur/litime",
       description:
-        "prints quotes that contain the current time. invoked on shell start. very occasionally will print a quote that could get me into trouble at work. buyer beware.",
+        "prints quotes that contain the current time. i invoke it on shell start. occasionally outputs a quote that could get me into trouble at work. buyer beware.",
     },
     {
       name: "zoxide",

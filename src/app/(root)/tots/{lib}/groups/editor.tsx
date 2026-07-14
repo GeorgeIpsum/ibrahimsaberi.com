@@ -31,7 +31,7 @@ export const textEditorTools = {
       image: { src: neovimImage },
       link: "https://neovim.io/",
       description:
-        "nixos editor of choice. lean. mean. clean. green. sometimes blue.",
+        "nixos text (and hex! via `xxd`) editor of choice. lean. mean. clean. green. sometimes blue.",
     },
     {
       name: "vi",

@@ -23,7 +23,7 @@ export const infraTools = {
       name: "dota 2 bigrig",
       platform: "windows",
       description:
-        "once upon a time, an overkill gaming pc. now, a very very overkill dota 2 machine. dx12 reigns supreme. steam deck for literally everything else.",
+        "once upon a time, a gaming pc. now, a dota 2 machine. steam deck/switch 2 for literally everything else.",
     },
     {
       name: "rbpi 5",
