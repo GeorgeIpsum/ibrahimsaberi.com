@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 import { decodeResult } from "@/features/speedtest/codec";
 import { Speedtest } from "@/features/speedtest/speedtest";
 
@@ -21,16 +22,7 @@ export async function generateMetadata({
       ? `↓ ${result.downMbps} Mbps · ↑ ${result.upMbps} Mbps · ${result.pingMs} ms ping`
       : "how fast does the water flow?",
     category: "reservoir",
-    openGraph: {
-      images: [
-        {
-          url: "/og/speedtest.png",
-          width: 1200,
-          height: 630,
-          alt: "speedtest",
-        },
-      ],
-    },
+    openGraph: generateOgMetadata("speedtest"),
   };
 }
 

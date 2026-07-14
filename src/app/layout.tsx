@@ -9,6 +9,7 @@ import { PathHistoryProvider } from "@/components/navigation/use-path-history";
 import { fontBody, fontHeading, fontMono } from "@/css/font";
 import { cn } from "@/css/lib";
 import { ControlPanel } from "@/features/control-panel/control-panel";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 import { ThemeProvider } from "@/features/theme";
 import { ThemeScript } from "@/features/theme/theme-script";
 
@@ -58,16 +59,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.BASE_URL ?? "https://ibrahimsaberi.com"),
   title: "a whisper",
   description: "a wave",
-  openGraph: {
-    images: [
-      {
-        url: "/og/home.png",
-        width: 1200,
-        height: 630,
-        alt: "a whisper. a wave.",
-      },
-    ],
-  },
+  openGraph: generateOgMetadata("home", "a whisper. a wave."),
   authors: [
     { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
     { name: "G1N", url: "https://github.com/GeorgeIpsum" },

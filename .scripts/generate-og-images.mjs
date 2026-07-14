@@ -309,7 +309,13 @@ const verifyRouteMetadata = async (entry) => {
     for (const file of ["page.tsx", "layout.tsx"]) {
       const path = join(dir, file);
       try {
-        if ((await readFile(path, "utf8")).includes(url)) return;
+        const file = await readFile(path, "utf8");
+        if (
+          file.includes(url) ||
+          file.includes(`generateOgMetadata("${entry.output.split(".png")[0]}"`)
+        ) {
+          return;
+        }
         checked.push(relative(root, path));
       } catch {
         // file doesn't exist in this dir; keep looking
@@ -317,7 +323,7 @@ const verifyRouteMetadata = async (entry) => {
     }
   }
   throw new Error(
-    `${entry.route}: no metadata references ${url} (checked: ${checked.join(", ") || "no page/layout found"})`,
+    `${entry.route}: no metadata references ${url} or calls generateOgMetadata("${entry.output.split(".png")[0]}", ...) (checked: ${checked.join(", ") || "no page/layout found"})`,
   );
 };
 

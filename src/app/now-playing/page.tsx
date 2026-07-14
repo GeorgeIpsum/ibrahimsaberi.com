@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
 import { UnderConstruction } from "@/components/navigation/under-construction";
-
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 export const metadata: Metadata = {
   title: "now playing",
   description: "what i'm listening to right now.",
   category: "reservoir",
-  openGraph: {
-    images: [
-      {
-        url: "/og/now-playing.png",
-        width: 1200,
-        height: 630,
-        alt: "now playing",
-      },
-    ],
-  },
+  openGraph: generateOgMetadata("now-playing", "now playing."),
 };
 
 export default function Page() {

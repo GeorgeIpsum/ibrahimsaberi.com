@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { ModifiableLightRays } from "@/components/backgrounds";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 import { Reflect_ } from "@/features/reflection";
 import { ReflectTheme } from "@/features/reflection/reflect-theme";
 
@@ -50,11 +51,7 @@ export const metadata: Metadata = {
     "look inward. wait no not literally with your eyes. stop rolling your eyes like that. that's bad for you",
   category: "reservoir",
   keywords: ["effigy", "pmd", "alignment", "personality quiz"],
-  openGraph: {
-    images: [
-      { url: "/og/reflection.png", width: 1200, height: 630, alt: "WHOIS i" },
-    ],
-  },
+  openGraph: generateOgMetadata("reflection", "WHOIS i"),
 };
 
 export const viewport: Viewport = {

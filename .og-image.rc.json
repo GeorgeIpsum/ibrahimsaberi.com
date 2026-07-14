@@ -51,6 +51,33 @@
       "title": "pasta",
       "subtitle": "some fresh, some stale",
       "icon": "ligatureSquare"
+    },
+    {
+      "route": "/spool",
+      "output": "spool.png",
+      "title": "spool",
+      "subtitle": "a link/ image/ blog reel.",
+      "icon": "chest"
+    },
+    {
+      "route": "/now",
+      "output": "now.png",
+      "title": "/now",
+      "subtitle": "what i'm doing right now.",
+      "icon": "bearFace"
+    },
+    {
+      "route": "/reservoir",
+      "output": "reservoir.png",
+      "title": "reservoir",
+      "subtitle": "contained.",
+      "icon": "bowlOverflow"
+    },
+    {
+      "route": "/tots",
+      "output": "tots.png",
+      "title": "tools of the ?",
+      "icon": "pancakes"
     }
   ]
 }

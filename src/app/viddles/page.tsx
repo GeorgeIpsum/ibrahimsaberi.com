@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import { UnderConstruction } from "@/components/navigation/under-construction";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 
 export const metadata: Metadata = {
   title: "viddles",
   description: "video grabber",
   category: "reservoir",
-  openGraph: {
-    images: [
-      { url: "/og/viddles.png", width: 1200, height: 630, alt: "viddles" },
-    ],
-  },
+  openGraph: generateOgMetadata("viddles"),
 };
 
 export default function Page() {

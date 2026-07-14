@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { Xterm } from "./xterm";
 import "@xterm/xterm/css/xterm.css";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
 
 export const metadata: Metadata = {
   title: "waSH",
   description: "bash in the browser.",
-  openGraph: {
-    images: [{ url: "/og/wash.png", width: 1200, height: 630, alt: ">:_" }],
-  },
+  openGraph: generateOgMetadata("wash", ">:_"),
 };
 
 export default function Page() {
