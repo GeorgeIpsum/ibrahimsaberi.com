@@ -4,7 +4,7 @@ import type { ToolGroup } from "../types";
 export const audioTools = {
   name: "audio",
   description:
-    "what i listen with mainly. mostly low-end/ budget stuff but i still love what i have. i don't make any music (yet).",
+    "what i listen with mainly. mostly entry-level/budget stuff but i still love what i have. i don't make any music (yet).",
   icon: <AudioLines />,
   size: "small",
   classNames: {
