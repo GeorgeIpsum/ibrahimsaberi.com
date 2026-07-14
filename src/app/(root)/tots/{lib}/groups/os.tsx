@@ -6,7 +6,7 @@ import { Cpu } from "lucide-react";
 import type { OS, ToolGroup } from "../types";
 export const operatingSystemTools = {
   name: "operating systems",
-  description: "gravy for the soul.",
+  description: "foundational.",
   icon: <Cpu />,
   size: "large",
   tools: [
