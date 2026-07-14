@@ -22,7 +22,7 @@ import type { ToolGroup } from "../types";
 
 export const supportingTools = {
   name: "supporting cast",
-  description: "last, but definitely not least.",
+  description: "without these, none of this is possible.",
   icon: <MessageCircleHeart />,
   size: "small",
   tools: [
