@@ -396,8 +396,8 @@ export function useAsciiField(
       cellW = measured;
       cellH = fontSize * 1.15;
 
-      cols = colsOpt ?? Math.max(1, Math.floor(rect.width / cellW));
-      rows = rowsOpt ?? Math.max(1, Math.floor(rect.height / cellH));
+      cols = colsOpt ?? Math.max(1, Math.ceil(rect.width / cellW));
+      rows = rowsOpt ?? Math.max(1, Math.ceil(rect.height / cellH));
 
       // If consumer fixed cols/rows, redistribute the cell size to fit.
       if (colsOpt !== undefined) cellW = rect.width / cols;
