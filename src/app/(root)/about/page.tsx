@@ -21,6 +21,8 @@ import { AboutControl } from "./control";
 
 // technically only captured at build time, but i can get around this by triggering a force rebuild on new years every year
 const CURRENT_YEAR = new Date().getFullYear();
+const CURRENT_ROLE = "the head of product";
+const CURRENT_WORKPLACE = "tilli Software";
 
 export default function Page() {
   return (
@@ -28,8 +30,8 @@ export default function Page() {
       <Hello />
       <p className="reveal reveal-top">
         I'm <span className="font-bold">Ibrahim</span>, a software engineer
-        based in Bethesda, Maryland. I currently work as a{" "}
-        <span className="font-bold">product owner</span> at{" "}
+        based in Bethesda, Maryland. I currently work as{" "}
+        <span className="font-bold">{CURRENT_ROLE}</span> at{" "}
         <span className="font-bold font-heading">
           <a
             href="https://tillisoftware.com"
@@ -37,7 +39,7 @@ export default function Page() {
             rel="noopener noreferrer"
             title="Sorry that this website is so jank. We used to have a WordPress site, but lack of fine-tuned control and plugin hell made leadership decide to switch to this vibe-coded thing (...slop). I don't have the bandwidth to make it better at the moment."
           >
-            tilli software
+            {CURRENT_WORKPLACE}
           </a>
         </span>
         , where I've built out our consumer-facing products and own the
@@ -283,7 +285,7 @@ export default function Page() {
         yet, but hey, I have a lot of cool concept art now.
       </p>
 
-      <h3 className="reveal">tilli software</h3>
+      <h3 className="reveal">{CURRENT_WORKPLACE}</h3>
       <div className="reveal -mt-2 flex gap-2 text-muted-foreground text-sm">
         <time dateTime="2023">2023</time>
         <span>{"\u2013"}</span>
