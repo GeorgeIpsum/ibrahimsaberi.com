@@ -67,17 +67,27 @@ const config: NextConfig = {
     // same-origin is required: the package spawns module workers, which can't
     // load cross-origin. COEP headers below still apply to the path.
     const origin = process.env.YTDLP_ASSET_ORIGIN?.replace(/\/$/, "");
-    if (!origin) return [];
-    return [
-      {
-        source: "/yt-dlp-wasm/:path*",
-        destination: `${origin}/yt-dlp-wasm/:path*`,
-      },
-      {
-        source: "/yt-dlp-wheels/:path*",
-        destination: `${origin}/yt-dlp-wheels/:path*`,
-      },
-    ];
+    const overwriteYtdlpAssets = origin
+      ? [
+          {
+            source: "/yt-dlp-wasm/:path*",
+            destination: `${origin}/yt-dlp-wasm/:path*`,
+          },
+          {
+            source: "/yt-dlp-wheels/:path*",
+            destination: `${origin}/yt-dlp-wheels/:path*`,
+          },
+        ]
+      : [];
+    return {
+      beforeFiles: [...overwriteYtdlpAssets],
+      fallback: [
+        {
+          source: "/then/:path*",
+          destination: "/now/:path*",
+        },
+      ],
+    };
   },
 
   async headers() {

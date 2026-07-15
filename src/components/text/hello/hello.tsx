@@ -17,7 +17,7 @@ async function HelloTitle({ default: defaultGreeting }: HelloProps) {
         ascii,
         anchor: anchor ?? "right",
         offset: { x: -8, y: 1, ...offset },
-        color: color ?? "#F8C523",
+        color: (color as `#${string}`) ?? "#F8C523",
         opacity: 1,
       }}
     >

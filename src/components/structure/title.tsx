@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { type AsciiArtPlacement, AsciiHero } from "@/components/backgrounds";
 import { cn } from "@/css/lib";
 import { useControl } from "@/features/control-panel/use-control";
@@ -89,6 +89,10 @@ const TitleHero: React.FC<{ art?: AsciiArtPlacement }> = ({ art }) => {
       },
     },
   });
+
+  useEffect(() => {
+    setPalette(pickRandomPalette(theme));
+  }, [theme]);
 
   return (
     <AsciiHero

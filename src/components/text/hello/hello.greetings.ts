@@ -10,6 +10,7 @@ import {
   ASCII_KEROPPI,
   ASCII_KITTY,
   ASCII_KITTY_EPIC,
+  ASCII_KITTY_PEACE,
   ASCII_KUCHIPATCHI,
   ASCII_KUROMI,
   ASCII_LLAMA,
@@ -18,6 +19,8 @@ import {
   ASCII_PANDA,
   ASCII_PENGU,
   ASCII_POM,
+  ASCII_PUSHEEN,
+  ASCII_TERRIORMON_POG,
   ASCII_TIPU,
   ASCII_TOUCAN,
 } from "@/utils/ascii";
@@ -64,12 +67,25 @@ export const asciiArts = [
   { ascii: ASCII_DARGON, offset: { y: 0 } },
   { ascii: ASCII_TOUCAN, offset: { y: 0 } },
   { ascii: ASCII_KUCHIPATCHI, anchor: "top-right", offset: { y: 0 } },
-  { ascii: ASCII_3, anchor: "top-right", offset: { y: -0.4 }, color: "#0FF" },
+  {
+    ascii: ASCII_3,
+    anchor: "top-right",
+    offset: { y: -0.4 },
+    color: "--primary",
+  },
   { ascii: ASCII_KUROMI, offset: { y: 0 } },
   { ascii: ASCII_CINN_SLEEP, offset: { y: 0 } },
   { ascii: ASCII_KITTY_EPIC, anchor: "top-right", offset: { y: -3 } },
   { ascii: ASCII_HANGYODON, anchor: "top-right", offset: { y: -6 } },
   { ascii: ASCII_KEROPPI, anchor: "top-right", offset: { y: 0 } },
+  {
+    ascii: ASCII_TERRIORMON_POG,
+    anchor: "bottom-right",
+    offset: { y: 0 },
+    color: "--secondary",
+  },
+  { ascii: ASCII_PUSHEEN, anchor: "right", offset: { y: 0 } },
+  { ascii: ASCII_KITTY_PEACE, anchor: "top-right", offset: { y: 0 } },
 ] as const satisfies HelloAsciiArt[];
 
 /**

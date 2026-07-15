@@ -26,6 +26,7 @@ export default async function BasinIndex() {
           anchor: "top-left",
           offset: { x: 0, y: -3 },
           opacity: { start: 1, end: 0.1, direction: "left-to-right" },
+          color: "--info-foreground",
         }}
       >
         ripples

@@ -363,7 +363,7 @@
   @apply transition-colors duration-200 ease-out;
 }
 
-/* TODO: a LOT of these are essentially just duplicates. remove redundancy */
+/* TODO: a LOT of these are essentially just duplicates. remove redundant tokens and simplify in components as needed */
 :root[data-theme] {
   color-scheme: light dark;
 
