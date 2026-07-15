@@ -87,7 +87,7 @@ export interface AsciiArtPlacement {
 
   /* ----- Look (static; ignores palette + spotlight) ----- */
   /** Glyph color. Default "#fff". */
-  color?: string;
+  color?: `#${string}` | `--${string}`;
   /**
    * Glyph alpha. Either a constant (0–1; default 1, fully covering the
    * field cell beneath) or an {@link AsciiArtOpacityGradient} that fades
@@ -172,7 +172,7 @@ const ANCHOR_FRACTIONS: Record<AsciiArtAnchor, { x: number; y: number }> = {
 };
 
 /** A placement with its art pre-split into lines and dimensions measured. */
-interface PreparedPlacement extends AsciiArtPlacement {
+interface PreparedPlacement extends Omit<AsciiArtPlacement, "color"> {
   lines: string[];
   artCols: number;
   artRows: number;
@@ -250,12 +250,31 @@ function prepareArt(
     const lines = p.ascii.replace(/\r\n/g, "\n").split("\n");
     const artCols = lines.reduce((max, line) => Math.max(max, line.length), 0);
     const artRows = lines.length;
+    let color: string = p.color ?? "#fff";
+
+    if (typeof getComputedStyle !== "undefined" && color.startsWith("--")) {
+      // is css var (maybe), so see if we can get the computed value from the document
+      const computed = getComputedStyle(
+        document.documentElement,
+      ).getPropertyValue(color);
+      if (computed) {
+        console.log(color);
+        color = computed;
+      } else {
+        console.warn(
+          "attempted to use css var for ascii art color, but it was not found:",
+          color,
+        );
+        color = "#fff";
+      }
+    }
+
     return {
       ...p,
       lines,
       artCols,
       artRows,
-      color: p.color ?? "#fff",
+      color,
       opacityAt: makeArtOpacity(p.opacity, artCols, artRows),
     };
   });

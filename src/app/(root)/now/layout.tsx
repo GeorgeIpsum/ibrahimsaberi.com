@@ -1,9 +1,11 @@
+import { PageTitle } from "@/components/structure/title";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-export default async function Layout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return <>{children}</>;
+export default function Layout({ children }: LayoutProps<"/now">) {
+  return (
+    <>
+      <PageTitle title="/now">{"/now"}</PageTitle>
+      {children}
+    </>
+  );
 }

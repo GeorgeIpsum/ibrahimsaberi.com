@@ -1,7 +1,7 @@
 import { ChevronsRight } from "lucide-react";
 import Link from "next/link";
 import { ScrollArea } from "@/components/atoms/scroll-area";
-import { Title } from "@/components/structure/title";
+import { PageTitle } from "@/components/structure/title";
 import { CurvedText } from "@/components/text";
 import { listRipples } from "@/features/basin/ripples";
 
@@ -26,22 +26,18 @@ export default async function Page() {
 
   return (
     <div className="mb-4 flex flex-col gap-4 text-sm">
-      <div className="relative -mx-4 overflow-hidden rounded-2xl">
-        <div className="mx-4">
-          <Title
-            className="text-2xl"
-            art={{
-              ascii: ASCII_ART,
-              anchor: "bottom-right",
-              offset: { x: -12, y: 2 },
-              color: "#F8C523",
-            }}
-          >
-            Ibrahim Saberi{" "}
-            <span className="text-muted-foreground text-sm">presents</span>
-          </Title>
-        </div>
-      </div>
+      <PageTitle
+        className="text-2xl"
+        art={{
+          ascii: ASCII_ART,
+          anchor: "bottom-right",
+          offset: { x: -12, y: 2 },
+          color: "--warning-foreground",
+        }}
+      >
+        Ibrahim Saberi{" "}
+        <span className="text-muted-foreground text-sm">presents</span>
+      </PageTitle>
       <section>
         <h2 className="mb-4 text-xl">A Website</h2>
         <p className="mb-4">

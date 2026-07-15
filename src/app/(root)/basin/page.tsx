@@ -2,7 +2,7 @@
 
 import type { Metadata } from "next";
 import { Separator } from "@/components/atoms/separator";
-import { Title } from "@/components/structure/title";
+import { PageTitle } from "@/components/structure/title";
 import { PaginationControls } from "@/features/basin/components/pagination-controls";
 import { PostListItem } from "@/features/basin/components/post-list-item";
 import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
@@ -18,9 +18,9 @@ export default async function BasinIndex() {
 
   return (
     <>
-      <Title
-        containerClassName="group flex w-auto items-center gap-2"
+      <PageTitle
         title="forming waves"
+        className="px-6"
         art={{
           ascii: ASCII_WAVE,
           anchor: "top-left",
@@ -29,7 +29,7 @@ export default async function BasinIndex() {
         }}
       >
         ripples
-      </Title>
+      </PageTitle>
 
       {posts.length === 0 ? (
         <p className="text-muted-foreground italic">Nothing yet.</p>

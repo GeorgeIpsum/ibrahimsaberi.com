@@ -63,6 +63,16 @@ export const Title: React.FC<React.PropsWithChildren<TitleProps>> = ({
   );
 };
 
+export const PageTitle: React.FC<React.PropsWithChildren<TitleProps>> = ({
+  ...props
+}) => (
+  <div className="relative -mx-4 overflow-hidden rounded-b-2xl">
+    <div className="mx-4">
+      <Title {...props} />
+    </div>
+  </div>
+);
+
 const TitleHero: React.FC<{ art?: AsciiArtPlacement }> = ({ art }) => {
   const { theme } = useTheme();
   const [palette, setPalette] = useState(pickRandomPalette(theme));
