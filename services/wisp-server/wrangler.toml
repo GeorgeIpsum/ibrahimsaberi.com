@@ -8,7 +8,10 @@ compatibility_date = "2024-09-23"
 
 # Optional auth/hardening. Origins are a plain var; the token is a secret:
 #   npx wrangler secret put WISP_TOKEN
+# In production, set ENVIRONMENT="production" and the Worker refuses to serve
+# with no WISP_TOKEN/ALLOWED_ORIGINS unless WISP_ALLOW_OPEN="1".
 # [vars]
+# ENVIRONMENT = "production"
 # ALLOWED_ORIGINS = "https://ibrahimsaberi.com"
 # WISP_BUFFER_SIZE = "128"
 # WISP_MAX_STREAMS = "512"
