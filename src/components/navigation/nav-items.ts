@@ -7,6 +7,7 @@ import {
   MessageCircleHeart,
   MirrorRectangular,
   PersonStanding,
+  Pin,
   Radio,
   Shell,
   ToolCase,
@@ -33,7 +34,7 @@ export const navItems = [
   {
     title: "now",
     href: "/now",
-    icon: PersonStanding,
+    icon: Pin,
     footerItem: true,
   },
   { title: "basin", href: "/basin", icon: WavesHorizontal },
