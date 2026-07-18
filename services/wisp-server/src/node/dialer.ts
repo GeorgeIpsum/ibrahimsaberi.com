@@ -1,14 +1,18 @@
 import dgram from "node:dgram";
 import net from "node:net";
 import type { Dialer, DialRequest, StreamSocket } from "../transport";
+import { resolveAndGuard } from "./resolve";
 
 function toU8(b: Buffer): Uint8Array {
   return new Uint8Array(b.buffer, b.byteOffset, b.byteLength);
 }
 
-function tcp(req: DialRequest): Promise<StreamSocket> {
+async function tcp(req: DialRequest): Promise<StreamSocket> {
+  // Resolve + egress-guard, then pin the connection to the validated IP so a
+  // DNS-rebinding response can't redirect us to an internal host.
+  const ip = await resolveAndGuard(req.hostname);
   return new Promise((resolve, reject) => {
-    const sock = net.connect({ host: req.hostname, port: req.port });
+    const sock = net.connect({ host: ip, port: req.port });
     sock.once("error", reject); // pre-connect failure rejects the dial
 
     sock.once("connect", () => {
@@ -53,9 +57,10 @@ function tcp(req: DialRequest): Promise<StreamSocket> {
   });
 }
 
-function udp(req: DialRequest): Promise<StreamSocket> {
+async function udp(req: DialRequest): Promise<StreamSocket> {
+  const ip = await resolveAndGuard(req.hostname);
   return new Promise((resolve, reject) => {
-    const family = net.isIPv6(req.hostname) ? "udp6" : "udp4";
+    const family = net.isIPv6(ip) ? "udp6" : "udp4";
     const sock = dgram.createSocket(family);
     let onData: ((c: Uint8Array) => void) | null = null;
     let onClose: (() => void) | null = null;
@@ -74,7 +79,7 @@ function udp(req: DialRequest): Promise<StreamSocket> {
     });
     sock.once("error", reject);
 
-    sock.connect(req.port, req.hostname, () => {
+    sock.connect(req.port, ip, () => {
       sock.removeListener("error", reject);
       sock.on("error", (e) => onError?.(e));
       resolve({
