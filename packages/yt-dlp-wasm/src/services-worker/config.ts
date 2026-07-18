@@ -11,6 +11,10 @@ export interface FfmpegConfig {
    * scripts, and a blob'd ESM worker can't resolve its relative imports.
    */
   ffmpegClassWorkerURL?: string;
+  /** Optional lowercase-hex SHA-256 of ffmpeg-core.js; verified before load. */
+  coreSha256?: string;
+  /** Optional lowercase-hex SHA-256 of ffmpeg-core.wasm; verified before load. */
+  wasmSha256?: string;
 }
 
 export interface NetConfig {
