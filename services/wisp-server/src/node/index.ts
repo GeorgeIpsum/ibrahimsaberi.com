@@ -1,13 +1,30 @@
 import http from "node:http";
+import type { IncomingMessage } from "node:http";
 import { type RawData, type WebSocket, WebSocketServer } from "ws";
-import { checkAuth } from "../auth";
+import { checkAuth, isAuthConfigured } from "../auth";
 import { resolveConfig } from "../config";
 import { WispConnection } from "../connection";
+import { ConnectionLimiter } from "../limits";
 import type { ClientSink } from "../transport";
 import { nodeDialer } from "./dialer";
 
 const cfg = resolveConfig(process.env);
 const LOW_WATER = 1 << 19; // 512 KiB: resume paused sockets below this
+
+// Fail closed: a public deployment that forgets auth becomes a free open proxy.
+if (cfg.isProduction && !isAuthConfigured(cfg) && !cfg.allowOpen) {
+  console.error(
+    "[wisp-server] refusing to start: NODE_ENV=production with no WISP_TOKEN " +
+      "or ALLOWED_ORIGINS. Set one, or set WISP_ALLOW_OPEN=1 to override.",
+  );
+  process.exit(1);
+}
+
+const limiter = new ConnectionLimiter({
+  maxTotal: cfg.maxConnections,
+  maxPerIp: cfg.maxConnectionsPerIp,
+  ratePerMin: cfg.connectRatePerMin,
+});
 
 const server = http.createServer((req, res) => {
   // Plain HTTP: health check / friendly message. Wisp itself is WS-only.
@@ -20,7 +37,15 @@ const server = http.createServer((req, res) => {
   res.end("upgrade required\n");
 });
 
-const wss = new WebSocketServer({ noServer: true });
+const wss = new WebSocketServer({
+  noServer: true,
+  maxPayload: cfg.maxPayloadBytes,
+});
+
+function remoteIp(req: IncomingMessage): string {
+  // Behind a trusted proxy you may prefer X-Forwarded-For; default to the peer.
+  return req.socket.remoteAddress ?? "unknown";
+}
 
 server.on("upgrade", (req, socket, head) => {
   const url = new URL(req.url ?? "/", "http://localhost");
@@ -28,7 +53,9 @@ server.on("upgrade", (req, socket, head) => {
   const subproto = (req.headers["sec-websocket-protocol"] as string | undefined)
     ?.split(",")[0]
     ?.trim();
-  const token = url.searchParams.get("token") ?? subproto ?? null;
+  // Prefer the subprotocol (kept out of URLs/logs/referrers); fall back to
+  // ?token= for older clients.
+  const token = subproto || url.searchParams.get("token") || null;
 
   const auth = checkAuth(cfg, { origin, token });
   if (!auth.ok) {
@@ -36,10 +63,21 @@ server.on("upgrade", (req, socket, head) => {
     socket.destroy();
     return;
   }
-  wss.handleUpgrade(req, socket, head, (ws) => handleConnection(ws));
+
+  const ip = remoteIp(req);
+  const admit = limiter.tryAdmit(ip, Date.now());
+  if (!admit.ok) {
+    socket.write(`HTTP/1.1 429 too many connections (${admit.reason})\r\n\r\n`);
+    socket.destroy();
+    return;
+  }
+
+  // ws negotiates the response subprotocol from the request automatically, so a
+  // subprotocol-carried token round-trips without extra handling here.
+  wss.handleUpgrade(req, socket, head, (ws) => handleConnection(ws, ip));
 });
 
-function handleConnection(ws: WebSocket): void {
+function handleConnection(ws: WebSocket, ip: string): void {
   const writableWaiters: Array<() => void> = [];
   const flushWritable = (): void => {
     if (ws.bufferedAmount < LOW_WATER && writableWaiters.length > 0) {
@@ -62,10 +100,37 @@ function handleConnection(ws: WebSocket): void {
   const conn = new WispConnection(sink, nodeDialer, {
     bufferSize: cfg.bufferSize,
     maxStreams: cfg.maxStreams,
+    udpEnabled: cfg.udpEnabled,
   });
   conn.start();
 
+  // Idle timeout: reset on every inbound message. Plus a hard lifetime cap.
+  let idleTimer: ReturnType<typeof setTimeout> | undefined;
+  const resetIdle = (): void => {
+    if (idleTimer) clearTimeout(idleTimer);
+    idleTimer = setTimeout(
+      () => ws.close(1000, "idle timeout"),
+      cfg.idleTimeoutMs,
+    );
+  };
+  const lifetimeTimer = setTimeout(
+    () => ws.close(1000, "max lifetime"),
+    cfg.maxLifetimeMs,
+  );
+  resetIdle();
+
+  let released = false;
+  const cleanup = (): void => {
+    if (released) return;
+    released = true;
+    if (idleTimer) clearTimeout(idleTimer);
+    clearTimeout(lifetimeTimer);
+    limiter.release(ip);
+    conn.destroy();
+  };
+
   ws.on("message", (data: RawData, isBinary: boolean) => {
+    resetIdle();
     if (!isBinary) return; // Wisp frames are always binary
     const buf = Array.isArray(data)
       ? Buffer.concat(data)
@@ -74,8 +139,8 @@ function handleConnection(ws: WebSocket): void {
       new Uint8Array(buf.buffer, buf.byteOffset, buf.byteLength),
     );
   });
-  ws.on("close", () => conn.destroy());
-  ws.on("error", () => conn.destroy());
+  ws.on("close", cleanup);
+  ws.on("error", cleanup);
 }
 
 server.listen(cfg.port, () => {
@@ -84,5 +149,9 @@ server.listen(cfg.port, () => {
     : cfg.allowedOrigins
       ? "origin-allowlist"
       : "OPEN";
-  console.log(`wisp-server (node) listening on :${cfg.port} [auth: ${auth}]`);
+  console.log(
+    `wisp-server (node) listening on :${cfg.port} ` +
+      `[auth: ${auth}] [udp: ${cfg.udpEnabled ? "on" : "off"}] ` +
+      `[max-conn: ${cfg.maxConnections}, per-ip: ${cfg.maxConnectionsPerIp}]`,
+  );
 });
