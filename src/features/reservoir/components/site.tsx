@@ -103,7 +103,7 @@ const SiteProjectFrame: React.FC<{ project: SiteProject }> = async ({
               placeholder="blur"
             />
           </div>
-          <div className="flex-1 text-xs">
+          <div className="flex-1 text-sm md:text-xs">
             {project.notes.map((note, index) => (
               <p
                 className="mb-2 max-md:text-center md:mb-1.5"
