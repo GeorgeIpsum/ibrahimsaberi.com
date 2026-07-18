@@ -2,6 +2,7 @@ import { connect } from "cloudflare:sockets";
 import { checkAuth } from "../auth";
 import { resolveConfig } from "../config";
 import { WispConnection } from "../connection";
+import { EgressBlockedError, isBlockedIp } from "../egress-guard";
 import type { Dialer, DialRequest, StreamSocket } from "../transport";
 
 // Cloudflare Workers TCP egress. UDP is unsupported on Workers, so UDP CONNECT
@@ -9,6 +10,11 @@ import type { Dialer, DialRequest, StreamSocket } from "../transport";
 const workerDialer: Dialer = {
   async dial(req: DialRequest): Promise<StreamSocket> {
     if (req.type !== "tcp") throw new Error("udp not supported on workers");
+    // Workers can't resolve DNS pre-connect, but block literal internal IPs so
+    // the Worker isn't a trivial relay into any address the client names.
+    if (isBlockedIp(req.hostname)) {
+      throw new EgressBlockedError(`blocked address: ${req.hostname}`);
+    }
     const socket = connect({ hostname: req.hostname, port: req.port });
     await socket.opened; // rejects if the connection fails
     const writer = socket.writable.getWriter();
