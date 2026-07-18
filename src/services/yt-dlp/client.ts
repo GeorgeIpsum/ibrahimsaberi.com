@@ -33,11 +33,34 @@ export function loadModule(): Promise<YtDlpModule> {
   return modulePromise;
 }
 
+async function sha256Hex(bytes: ArrayBuffer): Promise<string> {
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return [...new Uint8Array(digest)]
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
 async function resolveWheelSource(): Promise<{ url: string }> {
   const manifest = (await (
     await fetch(WHEEL_MANIFEST_URL)
   ).json()) as WheelManifest;
-  return { url: wheelUrl(manifest.wheel) };
+  const url = wheelUrl(manifest.wheel);
+  if (!manifest.sha256) {
+    console.warn("[yt-dlp] wheel manifest has no sha256; skipping integrity check");
+    return { url };
+  }
+  // Verify the wheel bytes against the manifest digest before Pyodide installs
+  // it, so a swapped CDN/asset wheel is rejected. (micropip re-fetches the same
+  // URL; both hit the same static-asset origin, so this catches a wholesale
+  // asset compromise — the threat #5 targets.)
+  const bytes = await (await fetch(url)).arrayBuffer();
+  const actual = await sha256Hex(bytes);
+  if (actual !== manifest.sha256.toLowerCase()) {
+    throw new Error(
+      `yt-dlp wheel integrity check failed: expected ${manifest.sha256}, got ${actual}`,
+    );
+  }
+  return { url };
 }
 
 /**

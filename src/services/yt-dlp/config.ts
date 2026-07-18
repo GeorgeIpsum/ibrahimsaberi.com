@@ -20,6 +20,8 @@ export const WHEEL_MANIFEST_URL = `${WHEEL_BASE}/manifest.json`;
 export interface WheelManifest {
   wheel: string;
   version: string;
+  /** Lowercase hex SHA-256 of the wheel, recorded by fetch-yt-dlp-wheel.mjs. */
+  sha256?: string;
 }
 
 /** Absolute URL for a wheel file named in the manifest. */
