@@ -14,9 +14,12 @@ Host [lonk](https://github.com/GeorgeIpsum/lonk) at `lonk.ibrahimsaberi.com` on 
 | Server OS | NixOS, installed via nixos-anywhere from the Hetzner rescue system |
 | Disk layout | ZFS mirror across the two drives (disko config) |
 | Platform layer | Single-node k3s (bundled Traefik ingress) |
-| Cluster management | GitOps: Argo CD syncing a private `homelab` repo on the user's existing GitHub account |
-| OS config location | Separate private `nix-config` flake repo (not in the homelab repo) |
-| Remote access | Tailscale; k3s API (6443) and admin SSH over the tailnet only. Public exposure: 80/443 (+ 22 initially, may restrict later) |
+| Cluster management | GitOps: Argo CD syncing a **public** `homelab` repo on the user's existing GitHub account (anonymous pull — no deploy key needed) |
+| Secrets in the homelab repo | Bitnami **Sealed Secrets**: only encrypted `SealedSecret` manifests are committed; the sealing keypair is backed up out-of-band (password manager + restic) |
+| Repo hygiene | gitleaks in CI + pre-commit on the homelab repo; hard rule: no plaintext secrets, no server IPs, ever (public repos have permanent history) |
+| OS config location | Separate **private** `nix-config` flake repo — it's where the origin IP and host-level secrets (Tailscale key, etc.) unavoidably live |
+| Origin exposure | NixOS firewall allows 80/443 **only from Cloudflare's published IP ranges** (+ tailnet for everything else), so IP-space scanners can't discover the origin by reading the cert off a direct connection |
+| Remote access | Tailscale; k3s API (6443) and admin SSH over the tailnet only. Public exposure: 80/443 restricted to Cloudflare IP ranges (22 open only until Tailscale is confirmed, then tailnet-only) |
 | TLS | cert-manager with Cloudflare DNS-01 ClusterIssuer; Cloudflare SSL mode Full (strict) |
 | `lonk.ibrahimsaberi.com` proxy status | Proxied (orange cloud) |
 | Vercel-pointing records | DNS-only (grey cloud), per Vercel's recommendation against proxying |
@@ -55,9 +58,20 @@ Tailnet ──► SSH / kubectl (6443)                                          
                                                                   (GitHub Actions build)
 ```
 
-Two declarative control planes, cleanly split:
-- **nix-config repo** → the OS layer (disks, SSH, firewall, fail2ban, smartd, tailscale, k3s itself). Deployed via `nixos-rebuild switch --flake --target-host`.
-- **homelab repo** → everything inside k3s, synced by Argo CD (app-of-apps). Argo authenticates to GitHub with a read-only deploy key or fine-grained PAT.
+Two declarative control planes, cleanly split — and the split is also the **visibility boundary**:
+- **nix-config repo (private)** → the OS layer (disks, SSH, firewall, fail2ban, smartd, tailscale, k3s itself). Deployed via `nixos-rebuild switch --flake --target-host`. Private because the origin IP (static IPv6 config, deploy target) and host-level secrets naturally live here; publishing it would defeat the orange-cloud IP hiding.
+- **homelab repo (public)** → everything inside k3s, synced by Argo CD (app-of-apps). Public repo, so Argo pulls anonymously — no credentials to manage.
+
+### Public-repo security model
+
+What makes the homelab repo safe to publish:
+
+1. **Secrets**: never committed in plaintext. The **Sealed Secrets** controller runs in-cluster; secrets are encrypted on the laptop with `kubeseal` against the cluster's public cert and committed as `SealedSecret` manifests, which only this cluster's private key can decrypt. Inventory of sealed secrets: Cloudflare API token (cert-manager), restic password + Storage Box credentials, Traefik basic-auth htpasswd (strong random password — bcrypt of a weak one is offline-crackable once public), Grafana admin password.
+   - The sealing keypair is exported once and backed up out-of-band (password manager + restic). Without it, a cluster rebuild can't decrypt the repo's secrets and everything must be re-sealed; with it, rebuild is turnkey.
+2. **No IPs or tailnet details**: the server's IPv4/IPv6 never appear in the repo (DNS records live in Cloudflare's dashboard, ingress manifests are hostname-only). Tailscale ACLs/hostnames stay in the private nix-config repo.
+3. **Leak prevention**: gitleaks runs as a pre-commit hook and in CI. History on a public repo is forever — a secret committed even briefly is burned and must be rotated, not just deleted.
+4. **Origin undiscoverability**: hostname → IP mapping is protected at both ends: nothing in git carries the IP, and the origin only accepts 80/443 from Cloudflare's IP ranges, so scanning Hetzner's IP space never yields a certificate for `lonk.ibrahimsaberi.com`. (The hostname itself is public regardless via certificate-transparency logs — that's expected and fine.)
+5. **No private images**: lonk is MIT/public, so `ghcr.io/georgeipsum/lonk` is public — no imagePullSecrets.
 
 ## Phases
 
@@ -65,21 +79,24 @@ Two declarative control planes, cleanly split:
 
 1. Record exact Vercel DNS values from the dashboard / `vercel domains inspect ibrahimsaberi.com` (apex A records, `www` + `rc` CNAME targets).
 2. lonk repo: add multi-stage Dockerfile (node builds `web/dist` → rust builds `lonkd` → slim runtime) + GitHub Actions workflow → `ghcr.io/georgeipsum/lonk`.
-3. Create private `homelab` repo (Argo app-of-apps layout) and the Hetzner host in the `nix-config` flake repo (disko ZFS mirror, hardening, tailscale, k3s).
+3. Create the **public** `homelab` repo: Argo app-of-apps layout, gitleaks pre-commit hook + CI workflow **before any other commit**, README noting the no-secrets/no-IPs rule.
+4. Create the Hetzner host in the **private** `nix-config` flake repo (disko ZFS mirror, hardening, tailscale, k3s, firewall restricting 80/443 to Cloudflare's IP ranges).
+5. Generate strong random credentials for everything that will be sealed later (basic-auth, Grafana, restic) into the password manager.
 
 ### Phase 2 — Hetzner base install
 
 1. Robot: upload SSH key, activate rescue system, boot.
 2. From rescue: `smartctl -a` both drives (Power_On_Hours, reallocated sectors / wear). Defective → free replacement via Robot support before proceeding.
 3. Run nixos-anywhere from laptop against the rescue system → installs the flake (ZFS mirror via disko).
-4. Verify: boot, SSH via key, tailscale up, firewall only exposing 80/443 (+22 as configured). Set rDNS in Robot.
+4. Verify: boot, SSH via key, tailscale up, firewall exposing 80/443 **to Cloudflare ranges only** (SSH/6443 tailnet-only once Tailscale is confirmed working). From an outside host, confirm a direct `curl -k https://<ip>` times out. Set rDNS in Robot.
 
 ### Phase 3 — Platform bootstrap
 
 1. k3s up via the NixOS module (with the ZFS/containerd accommodation). Traefik configured to trust Cloudflare IP ranges for real client IPs.
-2. Bootstrap Argo CD once by hand; from then on Argo manages everything (itself included) from the homelab repo.
-3. Argo apps: cert-manager (+ ClusterIssuer using a Cloudflare API token scoped to the zone), kube-prometheus-stack.
-4. Backup CronJob scaffolding (restic → Storage Box; check Robot for included backup space first).
+2. Bootstrap Argo CD once by hand; from then on Argo manages everything (itself included) from the public homelab repo (anonymous HTTPS pull).
+3. **Sealed Secrets controller first** (it gates every secret-bearing app): install via Argo, export and back up the sealing keypair immediately, then seal + commit the secrets inventory (Cloudflare token, restic creds, htpasswd, Grafana).
+4. Argo apps: cert-manager (+ ClusterIssuer consuming the sealed Cloudflare token), kube-prometheus-stack.
+5. Backup CronJob scaffolding (restic → Storage Box; check Robot for included backup space first). Restic credentials via SealedSecret.
 
 ### Phase 4 — DNS cutover
 
@@ -112,7 +129,8 @@ Two declarative control planes, cleanly split:
 - OS: reboot survives; tailscale reachable; public ports limited as designed.
 - DNS: `dig NS` → Cloudflare pair; apex/`www`/`rc` unchanged behavior; Vercel "Valid Configuration"; no cert warnings on the Vercel site.
 - lonk: TLS valid via orange cloud (Full strict — no redirect loops); unauthenticated `POST /api/links` rejected; redirect + QR public; SQLite persists across pod restart; restic restore tested once.
-- Rebuildability drill (optional but recommended): the box should be reconstructable from nix-config + homelab repos + latest restic snapshot alone.
+- Public-repo safety: gitleaks green in CI; grep the repo and its full history for the server's IPv4/IPv6 → zero hits; direct `curl https://<ip>` from outside Cloudflare fails; sealing keypair restorable from backup (test `kubeseal --recovery-unseal` or equivalent once).
+- Rebuildability drill (optional but recommended): the box should be reconstructable from nix-config + homelab repos + sealing-key backup + latest restic snapshot alone.
 
 ## Out of scope
 
@@ -126,6 +144,9 @@ Two declarative control planes, cleanly split:
 - Whether this auction server includes the free 100GB backup space (check Robot) — else order a Storage Box.
 - Cloudflare API token scoping for cert-manager (Zone:DNS:Edit on `ibrahimsaberi.com` only).
 - NixOS release channel (current stable at implementation time) and whether k3s uses the ZFS snapshotter or an ext4 zvol for `/var/lib/rancher`.
+- Where the sealing-keypair backup lives (password manager entry + restic path) and the re-seal runbook.
+- How the NixOS firewall keeps Cloudflare's IP ranges current (they change rarely; a pinned list in nix-config with an update note is acceptable, an auto-refresh timer is nicer).
+- Optional layer later: Cloudflare Authenticated Origin Pulls (mTLS) on top of the IP-range firewall.
 
 ## Key sources
 
