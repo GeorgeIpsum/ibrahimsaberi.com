@@ -1,5 +1,5 @@
 import { connect } from "cloudflare:sockets";
-import { checkAuth } from "../auth";
+import { checkAuth, isAuthConfigured } from "../auth";
 import { resolveConfig } from "../config";
 import { WispConnection } from "../connection";
 import { EgressBlockedError, isBlockedIp } from "../egress-guard";
@@ -80,6 +80,19 @@ export default {
   fetch(request: Request, env: Env): Response {
     const cfg = resolveConfig(env);
     const url = new URL(request.url);
+
+    // Fail closed: refuse to serve open in production (no NODE_ENV on Workers,
+    // so key off ENVIRONMENT="production"). WISP_ALLOW_OPEN overrides.
+    const isProd =
+      env.ENVIRONMENT === "production" || env.NODE_ENV === "production";
+    const allowOpen =
+      env.WISP_ALLOW_OPEN === "1" || env.WISP_ALLOW_OPEN === "true";
+    if (isProd && !isAuthConfigured(cfg) && !allowOpen) {
+      return new Response(
+        "wisp-server refuses to serve open in production; set WISP_TOKEN or ALLOWED_ORIGINS\n",
+        { status: 503 },
+      );
+    }
 
     if (request.headers.get("Upgrade") !== "websocket") {
       if (url.pathname === "/health" || url.pathname === "/") {
