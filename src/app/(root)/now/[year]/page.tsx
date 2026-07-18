@@ -31,11 +31,11 @@ const getYears = () => {
 export default async function Page({
   params,
 }: {
-  params: Promise<{ year: string }>;
+  params: Promise<{ year: keyof typeof locations }>;
 }) {
   const { year } = await params;
 
-  const coords = locations[year as keyof typeof locations];
+  const coords = locations[year];
 
   return (
     <div className="flex w-full flex-col">
@@ -52,7 +52,7 @@ export default async function Page({
                 className={cn("w-full", coords.length > 1 && "md:w-1/2")}
               >
                 <LibreMap
-                  initialCoords={set}
+                  initialCoords={set as [number, number]}
                   rotate={index > 0 ? -6 : undefined}
                 />
               </div>

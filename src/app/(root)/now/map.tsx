@@ -421,7 +421,7 @@ export const LibreMap: React.FC<{
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 2.4, ease: "ease-in-out" }}
+      transition={{ duration: 2.4, ease: "easeInOut" }}
     >
       <div
         ref={containerRef}
