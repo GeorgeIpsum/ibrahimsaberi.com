@@ -1,6 +1,8 @@
 # yt-dlp-wasm — Security Notes & Hardening
 
-Security review of the browser yt-dlp stack (`packages/yt-dlp-wasm`, `services/wisp-server`, `src/services/yt-dlp`, and the CI workflows). This documents the **changes that should be made before any public deployment** — none of the items below are fixed yet.
+Security review of the browser yt-dlp stack (`packages/yt-dlp-wasm`, `services/wisp-server`, `src/services/yt-dlp`, and the CI workflows).
+
+> **Status (2026-07-18):** all High (#1–#2), Medium (#3–#7), and Low items below are **implemented** — see the checked remediation list at the bottom and the per-item status notes. Two items were intentionally scoped: client-side wheel verification hashes the bytes and rejects a mismatch but installs from the original URL (not a blob) — see #5; and Pyodide integrity relies on self-hosting rather than SRI, since a dynamic `import()` can't be subresource-integrity-checked — see #5.
 
 ## Trust model
 
@@ -28,6 +30,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 - On rejection, reply with Wisp `CLOSE` reason `0x48` (blocked).
 - Implement once in a shared `egress-guard` used by both the Node and Worker dialers.
 
+**Status:** ✅ Implemented. Shared `services/wisp-server/src/egress-guard.ts` classifies literal IPs; `src/node/resolve.ts` resolves, rejects if any address is internal, and pins the connection to the validated IP; the Worker dialer blocks literal internal IPs. Rejections surface as Wisp `CLOSE 0x48`.
+
 ### 2. Authentication is off by default ("fail-open")
 
 **Where:** `services/wisp-server/src/auth.ts` (`checkAuth` returns OK when neither `WISP_TOKEN` nor `ALLOWED_ORIGINS` is set); `services/wisp-server/src/node/index.ts` boots and logs `[auth: OPEN]`.
@@ -35,6 +39,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 **Risk:** a deployment that forgets to configure auth is a free, anonymous open proxy attributable to your IP/account (abuse, piracy, attacks, bandwidth bills).
 
 **Change to make:** **fail closed in production.** When `NODE_ENV === "production"` and neither `WISP_TOKEN` nor `ALLOWED_ORIGINS` is configured, refuse to start (or bind to loopback only) instead of serving openly. Keep the open default only for local development, and keep the loud startup warning.
+
+**Status:** ✅ Implemented. The Node server exits non-zero on boot in production with no auth (unless `WISP_ALLOW_OPEN=1`); the Worker returns `503` (keyed on `ENVIRONMENT=production`). Local dev stays open with the startup warning.
 
 ---
 
@@ -52,6 +58,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 - Set `ws` `maxPayload` to a sane frame ceiling.
 - Consider a global stream ceiling and enforcing the client→server window (pause reads when the destination socket's `write()` returns `false`).
 
+**Status:** ✅ Implemented (Node). `ConnectionLimiter` (`src/limits.ts`) enforces global + per-IP concurrency caps and a per-IP connect rate limit; per-connection idle + max-lifetime timeouts close stalled sockets; `WebSocketServer` sets `maxPayload`. All tunable via env (`WISP_MAX_CONNECTIONS`, `WISP_MAX_CONNECTIONS_PER_IP`, `WISP_CONNECT_RATE_PER_MIN`, `WISP_IDLE_TIMEOUT_MS`, `WISP_MAX_LIFETIME_MS`, `WISP_MAX_PAYLOAD`). Full client→server window enforcement is left as a follow-up.
+
 ### 4. UDP open relay / amplification
 
 **Where:** `services/wisp-server/src/node/dialer.ts` (`udp()`).
@@ -59,6 +67,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 **Risk:** arbitrary UDP to any host:port enables reflection/amplification abuse (DNS, NTP, etc.).
 
 **Change to make:** disable UDP unless explicitly enabled via config, or restrict UDP to an allow-list of destinations. Combine with the egress guard from #1.
+
+**Status:** ✅ Implemented. UDP CONNECTs are rejected with Wisp `CLOSE 0x48` unless `WISP_UDP_ENABLED=1`; when enabled they still pass through the #1 egress guard. (Workers never support UDP.)
 
 ### 5. No supply-chain integrity (SRI) on runtime-loaded code
 
@@ -70,6 +80,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 - Self-host the assets on R2 (the upload pipeline already exists) and/or pin Pyodide + ffmpeg by version **and** verify a SHA-256.
 - In `fetch-yt-dlp-wheel.mjs`, verify the downloaded wheel against the `digests.sha256` already present in PyPI's JSON response and record it in the manifest; optionally verify it again client-side before `micropip.install`.
 
+**Status:** ✅ Partially implemented. `fetch-yt-dlp-wheel.mjs` now verifies the wheel against PyPI's `digests.sha256` and records it in `manifest.json` (and the script was fixed to actually run in CI). The browser (`src/services/yt-dlp/client.ts`) re-fetches the wheel and rejects a SHA-256 mismatch before install; it installs from the original URL (not a blob) — a wholesale asset swap is caught, but the exact-bytes-installed guarantee is a follow-up. The ffmpeg core + wasm gained optional SHA-256 verification before `toBlobURL` (`packages/yt-dlp-wasm/src/services-worker/ffmpeg.ts`, off unless hashes are configured). **Pyodide is loaded via dynamic `import()`, which cannot be SRI-checked client-side** — the durable fix is self-hosting on R2 (the upload pipeline exists); documented, not yet wired.
+
 ### 6. GitHub Actions pinned to mutable tags, not commit SHAs
 
 **Where:** `.github/workflows/deploy-wisp.yml` and `.github/workflows/upload-assets-r2.yml` (`actions/checkout@v4`, `pnpm/action-setup@v4`, `actions/setup-node@v4`, `cloudflare/wrangler-action@v3`).
@@ -77,6 +89,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 **Risk:** these jobs hold `CLOUDFLARE_API_TOKEN` and the R2 credentials. A hijacked action tag could exfiltrate them. (Blast radius is already limited — no `pull_request_target`, `permissions: contents: read`, no untrusted input in `run:` — so only trusted `main`/dispatch runs are affected.)
 
 **Change to make:** pin each action to a full commit SHA (with the version in a trailing comment) and let Dependabot bump them.
+
+**Status:** ✅ Implemented. All four actions in both workflows are pinned to commit SHAs with a `# vN` comment, and `.github/dependabot.yml` enables weekly `github-actions` bumps.
 
 ### 7. Token handling
 
@@ -86,6 +100,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 
 **Change to make:** prefer carrying the token in the WebSocket subprotocol over the query param, and compare it with a constant-time equality (`crypto.timingSafeEqual` / a length-safe constant-time check on the Worker).
 
+**Status:** ✅ Implemented. Both servers now prefer the WS subprotocol for the token (query param kept as a fallback for older clients) and compare it with a portable length-safe constant-time `constantTimeEqual` (`src/auth.ts`). Note: the browser client still sends `?token=`; switching it to the subprotocol is a follow-up on the client side.
+
 ---
 
 ## 🟢 Low / defense-in-depth
@@ -93,6 +109,8 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 - **Origin allow-list is spoofable** (`auth.ts`) — `Origin` is only honored by browsers; a direct (non-browser) attacker sets it freely. Treat `ALLOWED_ORIGINS` as CSRF-style hardening, **not** authentication; `WISP_TOKEN` (or network ACLs) is the real gate.
 - **Deploy behind TLS** — without `wss://`, the Wisp `CONNECT` target hostnames and any token travel in plaintext on the WebSocket hop. (The tunneled payload stays end-to-end-encrypted regardless, because libcurl.js terminates TLS in the browser.)
 - **Metadata visible to the proxy operator** — even with end-to-end TLS, the Wisp server sees every `CONNECT` host:port. Expected for a proxy; note it in the deployment's privacy posture.
+
+**Status:** ✅ Documented. All three caveats are now written up in `services/wisp-server/README.md` → "Deployment caveats (defense-in-depth)".
 
 ---
 
@@ -111,16 +129,16 @@ Severity: 🔴 fix before exposing publicly · 🟡 fix soon · 🟢 defense-in-
 
 Before exposing the Wisp server publicly:
 
-- [ ] **#1** SSRF egress guard (block internal/loopback/link-local/metadata; re-check resolved IP) — Node + Worker dialers
-- [ ] **#2** Fail-closed auth in production (refuse to start open)
+- [x] **#1** SSRF egress guard (block internal/loopback/link-local/metadata; re-check resolved IP) — Node + Worker dialers
+- [x] **#2** Fail-closed auth in production (refuse to start open)
 
 Soon after:
 
-- [ ] **#3** Connection/stream caps + idle timeout + `ws` `maxPayload` (+ per-IP rate limit)
-- [ ] **#4** Gate/disable UDP
-- [ ] **#7** Token via subprotocol + constant-time compare
+- [x] **#3** Connection/stream caps + idle timeout + `ws` `maxPayload` (+ per-IP rate limit)
+- [x] **#4** Gate/disable UDP
+- [x] **#7** Token via subprotocol + constant-time compare
 
 Hardening / supply chain:
 
-- [ ] **#5** Verify the yt-dlp wheel SHA-256; self-host or pin+verify Pyodide & ffmpeg
-- [ ] **#6** Pin GitHub Actions to commit SHAs
+- [x] **#5** Verify the yt-dlp wheel SHA-256; pin+verify ffmpeg. _(Pyodide self-hosting for full SRI is a documented follow-up — dynamic `import()` can't be SRI-checked.)_
+- [x] **#6** Pin GitHub Actions to commit SHAs
