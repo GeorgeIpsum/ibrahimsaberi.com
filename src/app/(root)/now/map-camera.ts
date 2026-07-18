@@ -19,8 +19,11 @@ export function bearingAfterDrag(bearing: number, dxPx: number): number {
  * Auto-rotation speed in deg/s, quadratically easing from 0 to full over
  * RESUME_RAMP_MS so the map doesn't jerk back into motion after a drag.
  */
-export function autoRotateSpeed(msSinceResume: number): number {
+export function autoRotateSpeed(
+  msSinceResume: number,
+  rotate = AUTO_ROTATE_DEG_PER_SEC,
+): number {
   if (msSinceResume <= 0) return 0;
   const t = Math.min(msSinceResume / RESUME_RAMP_MS, 1);
-  return AUTO_ROTATE_DEG_PER_SEC * t * t;
+  return rotate * t * t;
 }

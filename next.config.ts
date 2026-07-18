@@ -18,6 +18,7 @@ const config: NextConfig = {
   cacheComponents: true,
   cleanDistDir: true,
   async redirects() {
+    const currentYear = new Date().getFullYear();
     return [
       {
         source: "/:type(blag|blog)/:slug*",
@@ -57,6 +58,11 @@ const config: NextConfig = {
       {
         source: "/basin/tags/:tag/page/1",
         destination: "/basin/tags/:tag",
+        permanent: false,
+      },
+      {
+        source: `/then/:year(${currentYear})`,
+        destination: "/now",
         permanent: false,
       },
     ];

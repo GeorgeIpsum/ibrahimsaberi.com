@@ -5,6 +5,7 @@ import maplibregl, {
   type DataDrivenPropertyValueSpecification,
   type StyleSpecification,
 } from "maplibre-gl";
+import { motion } from "motion/react";
 import { useEffect, useRef } from "react";
 import { useTheme } from "@/features/theme";
 import {
@@ -241,9 +242,10 @@ function buildStyle(dem: DemSource, palette: MapPalette): StyleSpecification {
   };
 }
 
-export const LibreMap: React.FC<{ initialCoords: [number, number] }> = ({
-  initialCoords,
-}) => {
+export const LibreMap: React.FC<{
+  initialCoords: [number, number];
+  rotate?: number;
+}> = ({ initialCoords, rotate }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   // flips true once the style JSON is parsed — the point after which
@@ -257,6 +259,7 @@ export const LibreMap: React.FC<{ initialCoords: [number, number] }> = ({
   themeRef.current = resolvedTheme;
   const [lng, lat] = initialCoords;
 
+  // biome-ignore lint/correctness/useExhaustiveDependencies: do not expect this to change ever
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
@@ -322,8 +325,12 @@ export const LibreMap: React.FC<{ initialCoords: [number, number] }> = ({
         if (dt < MIN_FRAME_MS) return;
         lastFrame = now;
         if (dragging || !visible || now < resumeAt) return;
-        const degPerSec = autoRotateSpeed(now - resumeAt);
+        const degPerSec = autoRotateSpeed(now - resumeAt, rotate);
         if (degPerSec > 0) {
+          map.setBearing(
+            normalizeBearing(map.getBearing() + (degPerSec * dt) / 1000),
+          );
+        } else if ((rotate ?? 0) < 0 && degPerSec < 0) {
           map.setBearing(
             normalizeBearing(map.getBearing() + (degPerSec * dt) / 1000),
           );
@@ -411,13 +418,17 @@ export const LibreMap: React.FC<{ initialCoords: [number, number] }> = ({
   }, [resolvedTheme]);
 
   return (
-    <div
-      ref={containerRef}
-      // touch-pan-y: vertical swipes keep scrolling the page; horizontal
-      // ones reach the pointer handlers and spin the map
-      className="h-[240px] w-full cursor-grab touch-pan-y select-none"
-      role="img"
-      aria-label="Slowly rotating 3D terrain map of where I am right now"
-    />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 2.4, ease: "ease-in-out" }}
+    >
+      <div
+        ref={containerRef}
+        className="h-[240px] w-full cursor-grab touch-pan-y select-none"
+        role="img"
+        aria-label="Slowly rotating 3D terrain map of where I am right now"
+      />
+    </motion.div>
   );
 };
