@@ -6,9 +6,9 @@ const lookupTo = (ips: string[]) => async () => ips;
 
 describe("resolveAndGuard", () => {
   it("returns a literal public IP unchanged without lookup", async () => {
-    expect(await resolveAndGuard("8.8.8.8", lookupTo(["should-not-be-used"]))).toBe(
-      "8.8.8.8",
-    );
+    expect(
+      await resolveAndGuard("8.8.8.8", lookupTo(["should-not-be-used"])),
+    ).toBe("8.8.8.8");
   });
 
   it("rejects a literal internal IP", async () => {

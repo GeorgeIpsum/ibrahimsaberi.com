@@ -269,7 +269,11 @@ describe("WispConnection", () => {
     const h = harness({ rejectWith: new EgressBlockedError() });
     h.conn.start();
     h.conn.handleMessage(
-      encodeConnect(22, { streamType: StreamType.TCP, port: 80, hostname: "h" }),
+      encodeConnect(22, {
+        streamType: StreamType.TCP,
+        port: 80,
+        hostname: "h",
+      }),
     );
     await tick();
     const closes = h.typed(Packet.CLOSE);

@@ -46,7 +46,9 @@ async function resolveWheelSource(): Promise<{ url: string }> {
   ).json()) as WheelManifest;
   const url = wheelUrl(manifest.wheel);
   if (!manifest.sha256) {
-    console.warn("[yt-dlp] wheel manifest has no sha256; skipping integrity check");
+    console.warn(
+      "[yt-dlp] wheel manifest has no sha256; skipping integrity check",
+    );
     return { url };
   }
   // Verify the wheel bytes against the manifest digest before Pyodide installs

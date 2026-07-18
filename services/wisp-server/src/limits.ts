@@ -24,7 +24,8 @@ export class ConnectionLimiter {
   }
 
   tryAdmit(ip: string, now: number): AdmitResult {
-    if (this.count >= this.opts.maxTotal) return { ok: false, reason: "global" };
+    if (this.count >= this.opts.maxTotal)
+      return { ok: false, reason: "global" };
     if ((this.perIp.get(ip) ?? 0) >= this.opts.maxPerIp) {
       return { ok: false, reason: "per-ip" };
     }

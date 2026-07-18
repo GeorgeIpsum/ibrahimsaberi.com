@@ -44,12 +44,14 @@ describe("isBlockedIp", () => {
     expect(isBlockedIp(ip)).toBe(true);
   });
 
-  it.each(["8.8.8.8", "1.1.1.1", "93.184.216.34", "2606:4700:4700::1111"])(
-    "allows public %s",
-    (ip) => {
-      expect(isBlockedIp(ip)).toBe(false);
-    },
-  );
+  it.each([
+    "8.8.8.8",
+    "1.1.1.1",
+    "93.184.216.34",
+    "2606:4700:4700::1111",
+  ])("allows public %s", (ip) => {
+    expect(isBlockedIp(ip)).toBe(false);
+  });
 
   it("does not block a bare hostname (resolution decides)", () => {
     expect(isBlockedIp("example.com")).toBe(false);

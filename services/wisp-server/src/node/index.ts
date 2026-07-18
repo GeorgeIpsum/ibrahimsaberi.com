@@ -1,5 +1,5 @@
-import http from "node:http";
 import type { IncomingMessage } from "node:http";
+import http from "node:http";
 import { type RawData, type WebSocket, WebSocketServer } from "ws";
 import { checkAuth, isAuthConfigured } from "../auth";
 import { resolveConfig } from "../config";

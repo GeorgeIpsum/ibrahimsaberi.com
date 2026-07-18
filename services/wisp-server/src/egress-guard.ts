@@ -51,8 +51,7 @@ function parseIpv6(host: string): number[] | null {
     s =
       s.slice(0, lastColon + 1) +
       `${((tailBytes[0]! << 8) | tailBytes[1]!).toString(16)}:${(
-        (tailBytes[2]! << 8) |
-        tailBytes[3]!
+        (tailBytes[2]! << 8) | tailBytes[3]!
       ).toString(16)}`;
   }
 
