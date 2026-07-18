@@ -1,5 +1,5 @@
 import { Link2 } from "lucide-react";
-import { cacheTag, revalidateTag } from "next/cache";
+import { cacheTag } from "next/cache";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -89,15 +89,15 @@ const SiteProjectFrame: React.FC<{ project: SiteProject }> = async ({
           </Link>
         </div>
       </FrameHeader>
-      <FramePanel>
-        <div className="mb-2 flex items-center gap-5 max-md:flex-col md:mb-6 md:items-start">
-          <div className="flex w-full items-center justify-center md:w-20">
+      <FramePanel className="mb-2">
+        <div className="flex items-center gap-5 max-md:flex-col md:items-start">
+          <div className="flex w-full items-center justify-center md:w-30">
             <Image
               title={project.imageTitle ?? project.imageAlt}
               src={project.image}
               alt={project.imageAlt ?? project.name}
               className={cn(
-                "rounded-lg object-cover shadow-card shadow-xl md:size-20",
+                "rounded-lg object-cover object-center shadow-card shadow-xl md:size-30",
                 project.imagePosition,
               )}
               placeholder="blur"
@@ -114,11 +114,27 @@ const SiteProjectFrame: React.FC<{ project: SiteProject }> = async ({
             ))}
           </div>
         </div>
-        <div className="flex gap-2 max-md:flex-col">
-          <div className="w-full text-muted-foreground text-sm md:w-1/3 md:pr-4 md:text-right">
-            relevant repo paths:
+      </FramePanel>
+      <div className="flex w-full flex-wrap gap-2">
+        <FramePanel className="w-full overflow-hidden md:w-[calc(50%-0.25rem)]">
+          <div className="text-muted-foreground text-xs">
+            <div className="-mx-5 -mt-5 mb-4 rounded-b-sm bg-card px-2 pt-2 pb-0.5 text-muted-foreground/80">
+              some notable internal deps
+            </div>
+            <div className="flex w-full flex-wrap">
+              {project.deps.map((dep, index) => (
+                <code className="w-1/2 max-md:py-0.5" key={index.toString()}>
+                  {dep}
+                </code>
+              ))}
+            </div>
           </div>
-          <div className="flex-1 self-end rounded-lg bg-card p-2 text-right text-muted-foreground text-xs max-md:w-full">
+        </FramePanel>
+        <FramePanel className="w-full overflow-hidden md:w-[calc(50%-0.25rem)]">
+          <div className="text-muted-foreground text-xs md:text-right">
+            <div className="-mx-5 -mt-5 mb-4 rounded-b-sm bg-card px-2 pt-2 pb-0.5 text-muted-foreground/80">
+              relevant repo paths
+            </div>
             {project.roots.map((root, index) => (
               <code className="block max-md:py-1" key={index.toString()}>
                 <Link href={`${REPO_URL}/tree/main/${root}`}>
@@ -127,8 +143,8 @@ const SiteProjectFrame: React.FC<{ project: SiteProject }> = async ({
               </code>
             ))}
           </div>
-        </div>
-      </FramePanel>
+        </FramePanel>
+      </div>
       <FrameFooter className="pt-2 pb-1 text-right text-muted-foreground text-xs lowercase">
         <div className="flex w-full items-center justify-end gap-2">
           <div>Last Updated:</div>

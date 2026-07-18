@@ -18,7 +18,7 @@ export interface SiteProject {
     | "object-left"
     | "object-right";
   roots: string[];
-  deps?: string[];
+  deps: string[];
   Icon: React.ReactNode;
   notes: string[];
 }

@@ -74,6 +74,7 @@ export const siteProjects: SiteProject[] = [
       "src/features/speedtest",
       "src/hooks/use-network-quality.ts",
     ],
+    deps: ["network-information-api"],
     notes: [
       "a (very naive) speedtest implementation using XHR and the Network Information API.",
       "probably not super accurate, and location detection relies entirely on Vercel's edge network/ their IP geolocation info, but it gets the job done.",
@@ -150,6 +151,7 @@ export const siteProjects: SiteProject[] = [
       "src/app/api/health",
       "src/utils/ascii.ts",
     ],
+    deps: ["the internet"],
     notes: [
       "just completely random copypasta that i've compiled. that's it.",
       "also accessible via the /api/health endpoint",
