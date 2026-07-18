@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { WispConnection } from "./connection";
+import { EgressBlockedError } from "./egress-guard";
 import {
   CloseReason,
   encodeClose,
@@ -53,7 +54,13 @@ class FakeSocket implements StreamSocket {
 }
 
 function harness(
-  opts: { socket?: FakeSocket; rejectDial?: boolean; bufferSize?: number } = {},
+  opts: {
+    socket?: FakeSocket;
+    rejectDial?: boolean;
+    rejectWith?: Error;
+    bufferSize?: number;
+    udpEnabled?: boolean;
+  } = {},
 ) {
   const frames: Uint8Array[] = [];
   const calls: DialRequest[] = [];
@@ -64,6 +71,7 @@ function harness(
   const dialer: Dialer = {
     dial: (req) => {
       calls.push(req);
+      if (opts.rejectWith) return Promise.reject(opts.rejectWith);
       return opts.rejectDial
         ? Promise.reject(new Error("nope"))
         : Promise.resolve(socket);
@@ -80,7 +88,7 @@ function harness(
       close: () => {},
     },
     dialer,
-    { bufferSize: opts.bufferSize ?? 128 },
+    { bufferSize: opts.bufferSize ?? 128, udpEnabled: opts.udpEnabled },
   );
 
   return {
@@ -225,5 +233,46 @@ describe("WispConnection", () => {
     expect(h.socket.paused).toBe(true);
     h.drain();
     expect(h.socket.paused).toBe(false);
+  });
+
+  it("rejects a UDP CONNECT with CLOSE blocked when udp is disabled", () => {
+    const h = harness(); // udpEnabled defaults to false
+    h.conn.start();
+    h.conn.handleMessage(
+      encodeConnect(20, {
+        streamType: StreamType.UDP,
+        port: 53,
+        hostname: "h",
+      }),
+    );
+    expect(h.calls).toHaveLength(0); // never dialed
+    const closes = h.typed(Packet.CLOSE);
+    expect(closes).toHaveLength(1);
+    expect(parseFrame(closes[0]!).payload[0]).toBe(CloseReason.BLOCKED);
+  });
+
+  it("dials UDP when udpEnabled is set", async () => {
+    const h = harness({ udpEnabled: true });
+    h.conn.start();
+    h.conn.handleMessage(
+      encodeConnect(21, {
+        streamType: StreamType.UDP,
+        port: 53,
+        hostname: "h",
+      }),
+    );
+    await tick();
+    expect(h.calls[0]?.type).toBe("udp");
+  });
+
+  it("surfaces a dialer wispCloseReason (BLOCKED) instead of UNREACHABLE", async () => {
+    const h = harness({ rejectWith: new EgressBlockedError() });
+    h.conn.start();
+    h.conn.handleMessage(
+      encodeConnect(22, { streamType: StreamType.TCP, port: 80, hostname: "h" }),
+    );
+    await tick();
+    const closes = h.typed(Packet.CLOSE);
+    expect(parseFrame(closes.at(-1)!).payload[0]).toBe(CloseReason.BLOCKED);
   });
 });

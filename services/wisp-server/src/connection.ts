@@ -1,3 +1,4 @@
+import { EgressBlockedError } from "./egress-guard";
 import {
   CloseReason,
   encodeClose,
@@ -13,6 +14,13 @@ import type { ClientSink, Dialer, StreamSocket } from "./transport";
 // Bytes buffered toward the client before we pause the destination socket.
 const HIGH_WATER = 1 << 20; // 1 MiB
 
+/** A dialer may attach a wispCloseReason to its rejection; default UNREACHABLE. */
+function closeReasonFor(err: unknown): number {
+  if (err instanceof EgressBlockedError) return err.wispCloseReason;
+  const r = (err as { wispCloseReason?: unknown } | null)?.wispCloseReason;
+  return typeof r === "number" ? r : CloseReason.UNREACHABLE;
+}
+
 interface StreamState {
   id: number;
   type: number;
@@ -27,6 +35,8 @@ interface StreamState {
 export interface ConnectionOptions {
   bufferSize?: number;
   maxStreams?: number;
+  /** Allow UDP CONNECT streams. Default false (UDP is a relay/amplification risk). */
+  udpEnabled?: boolean;
 }
 
 /**
@@ -38,6 +48,7 @@ export class WispConnection {
   private readonly streams = new Map<number, StreamState>();
   private readonly bufferSize: number;
   private readonly maxStreams: number;
+  private readonly udpEnabled: boolean;
   private readonly paused = new Set<StreamSocket>();
   private writableHooked = false;
   private destroyed = false;
@@ -49,6 +60,7 @@ export class WispConnection {
   ) {
     this.bufferSize = opts.bufferSize ?? 128;
     this.maxStreams = opts.maxStreams ?? 512;
+    this.udpEnabled = opts.udpEnabled ?? false;
   }
 
   /** Handshake: advertise the initial per-stream window on stream 0. */
@@ -114,6 +126,10 @@ export class WispConnection {
       this.sink.send(encodeClose(id, CloseReason.INVALID_INFO));
       return;
     }
+    if (info.streamType === StreamType.UDP && !this.udpEnabled) {
+      this.sink.send(encodeClose(id, CloseReason.BLOCKED));
+      return;
+    }
 
     const state: StreamState = {
       id,
@@ -145,7 +161,7 @@ export class WispConnection {
         for (const buffered of state.pending) socket.write(buffered);
         state.pending = [];
       })
-      .catch(() => this.teardown(state, CloseReason.UNREACHABLE, true));
+      .catch((err) => this.teardown(state, closeReasonFor(err), true));
   }
 
   private onData(id: number, payload: Uint8Array): void {
