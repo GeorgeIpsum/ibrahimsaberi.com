@@ -1,3 +1,5 @@
+/** biome-ignore-all lint/suspicious/noExplicitAny: sry */
+
 import { randomArrayMembers, sortArrayRandomly } from "@/utils/rand";
 import { createQuestionStep } from "./components/stepper/question-step";
 import { createTextStep } from "./components/stepper/text-step";
@@ -61,7 +63,6 @@ const buildInteractives = (ctx: ReflectContext, forceRebuild = false) => {
   };
 };
 
-// biome-ignore lint/suspicious/noExplicitAny: nope
 const updateSteps = async (ctx: ReflectContext, steps: Step<any>[]) => {
   const welcomeQ = ctx.qs?.find((q) => q.id === WELCOME_ID);
   const newQs = steps.map((q) => ({ id: q.id }));
@@ -100,7 +101,6 @@ const welcome = [
 export const buildSteps = async (
   ctx: ReflectContext,
   forceRebuild = false,
-  // biome-ignore lint/suspicious/noExplicitAny: im NOT sorry
 ): Promise<Step<any>[]> => {
   if (ctx.completed_at) {
     return [createTextStep("get-lost", ["GET LOST"], true)];
@@ -110,11 +110,7 @@ export const buildSteps = async (
   const interactives = buildInteractives(ctx, forceRebuild);
 
   const interleavedSteps = [...questions.steps, ...interactives.steps].sort(
-    (a, b) => {
-      if (a.id === WELCOME_ID) return -1;
-      if (b.id === WELCOME_ID) return 1;
-      return Math.random() > 0.5 ? 1 : -1;
-    },
+    () => (Math.random() > 0.5 ? 1 : -1),
   );
 
   if (questions.shouldUpdate || interactives.shouldUpdate) {
@@ -123,9 +119,12 @@ export const buildSteps = async (
 
   return [
     createTextStep(WELCOME_ID, ctx.started_at ? welcomeBack : welcome),
-    zodiacStep(),
     ...interleavedSteps,
-    createTextStep("goodbye", ["thank you for participating."], true),
-    // biome-ignore lint/suspicious/noExplicitAny: NO
+    zodiacStep(),
+    createTextStep(
+      "goodbye",
+      ["thank you for participating.", "we'll be back soon with your results."],
+      true,
+    ),
   ] satisfies Step<any>[];
 };
