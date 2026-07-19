@@ -25,6 +25,7 @@ const buildQuestions = (ctx: ReflectContext, forceRebuild = false) => {
       }),
     );
 
+    // if for whatever reason the number of questions is less than the total we need, add here and mark as update required
     if (qs.length < TOTAL_QUESTIONS) {
       shouldUpdate = true;
       steps.push(
@@ -110,7 +111,7 @@ export const buildSteps = async (
   const interactives = buildInteractives(ctx, forceRebuild);
 
   const interleavedSteps = [...questions.steps, ...interactives.steps].sort(
-    () => (Math.random() > 0.5 ? 1 : -1),
+    sortArrayRandomly,
   );
 
   if (questions.shouldUpdate || interactives.shouldUpdate) {
