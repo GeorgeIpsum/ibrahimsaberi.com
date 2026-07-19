@@ -104,11 +104,7 @@ export const siteProjects: SiteProject[] = [
       "unceremoniously yoinked from https://www.youtube.com/watch?v=cNubRZduGDs",
     description: "a simple API endpoint for getting dota2 voice lines",
     Icon: <AudioLines className="size-4" />,
-    roots: [
-      "src/app/api/audio/voice-responses",
-      ".scripts/dota2-voicelines",
-      ".github/workflows/upload-assets-r2.yml",
-    ],
+    roots: ["src/app/api/audio/voice-responses", ".scripts/dota2-voicelines"],
     deps: ["r2", "node-html-parser"],
     notes: [
       "something I wanted to create so I don't have to constantly throw traffic at liquipedia for dota2 voicelines.",
@@ -129,6 +125,7 @@ export const siteProjects: SiteProject[] = [
       "packages/yt-dlp-wasm",
       "services/wisp-server",
       ".github/workflows/deploy-wisp.yml",
+      ".github/workflows/upload-assets-r2.yml",
     ],
     deps: ["yt-dlp", "ffmpeg", "pyodide", "wisp"],
     notes: [
