@@ -34,6 +34,7 @@ export const infraTools = {
       name: "dearly ebloved",
       platform: "nixos",
       underTheFold: true,
+      link: "https://ebloved.com",
       description:
         "a server i purchased from hetzner server auction. he is very far away but we love him very much. he says hello from helsinki.",
     },
