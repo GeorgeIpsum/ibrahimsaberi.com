@@ -1,0 +1,20 @@
+packages:
+  # changeset shenanigrams
+  - .
+  - packages/*
+  - services/*
+
+ignoredBuiltDependencies:
+  - onnxruntime-node # hugging face
+  - protobufjs # also hugging face
+
+onlyBuiltDependencies:
+  - esbuild
+  - msw
+  - node-jq
+  - sharp
+
+patchedDependencies:
+  rehype-code-group: patches/rehype-code-group.patch
+
+ignoreWorkspaceRootCheck: true

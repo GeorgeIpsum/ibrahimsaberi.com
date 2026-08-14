@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/packages/*/node_modules
+/services/*/node_modules
 /.pnp
 .pnp.js
 
@@ -14,6 +16,9 @@
 
 # production
 /build
+/packages/*/dist
+/services/*/dist
+/services/*/.wrangler
 
 # misc
 .DS_Store
@@ -35,3 +40,25 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+
+.playwright-mcp
+
+review-list.txt
+
+# scraped artifacts (regenerable; audio is uploaded to R2)
+scraped/
+
+# built @local/yt-dlp-wasm assets copied for the /yt-dlp-test route
+# (regenerate with `pnpm yt-dlp-wasm:public`)
+/public/yt-dlp-wasm
+/public/yt-dlp-wheels
+# pre-generated og images (regenerate with `pnpm build:og`, config in .og-image.rc.json)
+/public/og
+
+# lil-bro review debate transcripts
+.lil-bro/
+
+# internal planning/ claude shenanigrams
+plans/superpowers
+plans/release
+plans/future

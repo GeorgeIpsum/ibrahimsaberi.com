@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>yt-dlp-wasm sync-bridge smoke</title>
+  </head>
+  <body>
+    <pre id="out">running…</pre>
+    <script type="module">
+      import { createYtDlp } from "../dist/index.js";
+
+      const out = document.getElementById("out");
+      try {
+        if (!self.crossOriginIsolated) throw new Error("not cross-origin isolated");
+        const ytdlp = createYtDlp({ dataCapacity: 1024 });
+        const result = await ytdlp.ping("hello world");
+        out.textContent =
+          result === "HELLO WORLD" ? `ECHO OK: ${result}` : `ECHO MISMATCH: ${result}`;
+        ytdlp.terminate();
+      } catch (err) {
+        out.textContent = `ERROR: ${err?.message ?? err}`;
+      }
+    </script>
+  </body>
+</html>

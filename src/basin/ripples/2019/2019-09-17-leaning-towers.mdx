@@ -1,0 +1,200 @@
+---
+title: Leaning Towers
+author: Ibrahim Saberi
+publishedAt: 2019-09-17
+blurb: "A debrief of my first job, and some lessons learned."
+tags:
+  - career
+  - startups
+  - rants
+  - migrated
+---
+
+## A Viewify Debrief
+
+This is a long post. All "lessons learned" expressed in this post were the result of 3 people who worked really hard to get to where we all are now.
+
+![experience the world](/img/2019-09-17-leaning-towers/v.gif)
+
+> [!TL;DR]
+> this animation was a top 5 thing I made. Zero code required. Perhaps an hour and a half of After Effects required.
+
+I left my role as CTO at Viewify a little over a month ago. I very honestly appreciate the time I spent there; only by being part of an early age startup can you realize whether or not you really enjoy building stuff with your own hands. And really, Viewify will always be responsible for the path I think I'm gonna take moving forward. That being said, if I went back to pretty much any point before September 2017 and told myself:
+
+> !QUOTE *Dude, guess who's gonna drop everything and go help their best friend with a startup?*
+
+pre-September 2017 me would respond:
+
+> !QUOTE *That sounds like a terrible idea. We'd never do that. Are we making video games yet?*
+
+I'd insert some quote about "*life is weird like that*" but then my feelings for this post introduction would degrade from "*wow I cannot wait to get past this I am cringing out of my mind*" to "*yeah I'm gonna put off writing this post for another month*".
+
+## Just... Read From This Point Forward
+
+![LA](/img/2019-09-17-leaning-towers/la.jpg)
+> !FIGCAP You'd maybe think "this is posed right? No way people in LA literally just bike or scooter on the roads?" Guess what!!!
+
+Somewhere around January of 2018 I helped Muki and Jake out by building a website that would serve as a landing page[^ugly] for college-attending content creators. This would ultimately be for a service where high schoolers could look at videos made by college students to make better informed decisions about where to attend college.
+
+[^ugly]: I have no idea why they wanted to work with me given what this stuff looked like also I have burned all copies do not attempt to find them
+
+I graduated in May 2018, sat around for about a week, and then moved immediately to LA. I had become somewhat familiar with the ~70K LOC behemoth[^familiar] that was the Viewify MVP, built by an external development team. It had all the cool (out of the box) CMS bells and whistles. You know, like WordPress? WordPress is awesome, right?
+
+[^familiar]: With enough boilerplate to hard boil the state of California
+
+The stack itself was simple. Angular frontend. Yii2 backend. Everything served from a single EC2 instance. That's it. Literally nothing else.
+
+And yet, everything that had been built at that point had an absurd level of complexity.[^complexity] The backend had a full-fledged, completely nonsensical CRM built out with different access points for what seemed like tens or hundreds of nonexistent employees and external members. The frontend was incredibly complex because... well... Angular.
+
+[^complexity]: Not the good kind
+
+The original spec was about 20 pages long, and it was filled to the brim with assumptions.[^assumptions] From this document I learned my first lesson about building stuff:
+
+[^assumptions]: NOT the good kind
+
+> Don't build products for complex business operations that don't yet exist.
+
+This one should be kind of obvious. I think the problem here is that if you're a young founder, you might easily trap yourself in an echo chamber of "*of course* these processes make sense" because you've gone over them about a thousand times and your advisors have also gone over them about a thousand times and if you were the sole individual responsible for executing these processes you'd actually be set. But when your business operations rely on other people...
+
+## Patent Approved Community Building
+
+The very first iteration of Viewify assumed that at each college we'd have a group of creators, editors, and supervisors (all college students) doing work pro bono, and that we could incentivize them to do quality work by... well... SpoonU does it, right? What do they do again? Build a community at each school? Yeah, we'll just do that.[^community] The actual workflows behind each job weren't simple or easy either, and it certainly wasn't the kind of work you'd do for free pretty much anywhere else on the planet.
+
+[^community]: There's another joke here about processes but I'm neither smart enough nor funny enough to find it
+
+So. Problem! You're a company of 3 people. Somehow you have middle management issues? What?
+
+I could ramble on and on about this but I'll just get to the point:
+
+> If your business operations demand the work of like 20 people, you need to simplify everything.
+
+And a corollary to this:
+
+> You can ignore this point, but you better be a subject matter expert in what it is that you're making.
+
+And if you were wondering:
+
+> no, creating other startups in the past does not make you a subject matter expert in anything just by itself.
+
+We pretty quickly scrapped the entire pyramid and focused on recruiting and then working solely with content creators (and then also paying them per video).
+
+Recruiting content creators may as well deserve its own entire post, but I absolutely under no circumstances want to talk about that ever again for as long as I'm alive. Just know that if you're not actively looking for creatives, your content will not be creative or good. That's it.
+
+Speaking of which.
+
+## Creating Content Is Easy. Look, I'm Doing It Right Now
+
+Nobody ever assumed that creating good content would be easy. What *was* assumed was that 
+
+1. we could boil good content creation down to a science eventually
+
+and
+
+2. the initial content only needed to be passable to create a proof-of-concept
+
+When's the last time you willingly and enthusiastically watched a video that you'd describe as passable?
+
+Cold, harsh reality. Content creation is really hard. Content creation for video is *ABSURDLY* hard. Creating __*GOOD*__ video content? You're not gonna wake up tomorrow and just do it. Duh.
+
+Remember X-Men, Dark Phoenix?[^phoenix] Entire teams of professionals were deployed to make that work. They didn't have to even actually write anything original, and that movie STILL sucked! Even if that experience doesn't necessarily translate here, do I really need to then talk about the metric-truck-tons of very talented people that try to make it big by creating video and then they just completely fall flat on their face like come on Jimmy? You really think you were gonna get huge on the YouTubes? Are there no adults in your life?
+
+[^phoenix]: If you don't, need I say more
+
+Can three guys, with only one possessing barely passable video editing experience, make it work? Can they really direct a bunch of non-creatives to make good content at near zero cost? Do I really need to spell this out?
+
+![Dark Phoenix](/img/2019-09-17-leaning-towers/phoenix.jpg)
+> !FIGCAP Seriously if you were part of the making of this movie I do not and will not ever forgive you
+
+Look, kids. I'll be straight. If you want to make a content creation platform (or worse, a platform with curated content that you have to *manually filter for quality*), DON'T DO IT. If you're gonna ignore this advice because "*like, look man, what do you know*" (you're probably right), at least consider the following:
+
+1. if you build it, they probably won't come
+2. if you DO have content creators, do not *under any circumstances* make any assumptions about what your content creators will upload
+3. __they are monsters beyond your control__
+4. __you will live and die by their hands__
+5. also don't expect the content to be good
+6. and also don't expect even 1% of the content to be good[^higa]
+7. even if you pay for it
+8. *especially* if you pay for it
+
+[^higa]: how many bad videos existed on YouTube before How To Be A Ninja was uploaded?
+
+Let's get back to Dark Phoenix for a second. You know why that movie was so bad? Despite having all of the talent and money and whatnot needed to be good? That movie was made to sell tickets. Everyone who did it wanted a payday. That's it. That's why it sucked. This holds true for pretty much all movies that exist for the sole purpose of *making money*. This doesn't mean those movies *won't* make money.[^sandler] But they almost certainly won't be good.
+
+[^sandler]: Adam Sandler is a magician
+
+<blockquote>The moment your creators' incentives are purely rooted on making a quick buck, it's over.</blockquote>
+
+Also:
+
+<blockquote>If your creation model relies on payment to attract creators, you NEED to pay top dollar.</blockquote>
+
+Sort of obvious truths here again, but here's where it adds up:
+
+<blockquote>A bad 1 minute video takes 1 minute to make. A **GOOD** 1 minute video takes at least **1 HOUR** to make.</blockquote>
+
+If your pricing model for content creation doesn't factor that in, you will have a bad time.
+
+I think this was supposed to be a blog post about code? Or tech? Something like that?
+
+## External Dev Teams
+
+If you're a nontechnical founder and you work with an external development team to make a very complex product please be prepared because 9/10 times you will be straight up robbed. I really will not say any more on this subject because I can feel my blood pressure already rising.
+
+### I Lied
+
+You know what the worst part about working with an external dev shop is? Say, for example, you're a founder, and you make your first technical hire. If you work with a dev shop that lives halfway across the world, they likely did not sign up to train your new technical hire about the behemoth of a code base that you've made. That first technical hire will spend like 30 hours trying to figure out why the Angular app doesn't ever compile only to realize that they have to go in and hackily modify the `browserslist` array in one of the packages because patchfiles don't exist yet. That hire will then spend another 20 hours figuring out why the dev client doesn't properly communicate with the dev backend only to realize that there are definitely environment variables that physically exist only literally 8000 miles away. I REALLY don't want to continue typing about this, so point is:
+
+<blockquote>Just ask all three million questions you need to ask because annoying everyone you work with is way better than googling "*where are the 12 forking places that Yii2 needs you to put env secrets*" only to find out that like 9 people on the planet use your backend framework and you work with like 5 of them.</blockquote>
+
+### I Lied Again
+
+Honestly all of that isn't even that bad. The really annoying thing is, you make your first full-time technical hire, that technical hire does their first job which is creating the info pages for colleges (maybe just *slightly* important for a platform that's about helping high schoolers make better choices about which college to attend), and then a couple months later after you're done with the dev shop you see the profile they did for you in their portfolio and it has that not-technically technical hire's work in it.
+
+![MMH](/img/2019-09-17-leaning-towers/viewify.jpg)
+> !FIGCAP It literally does not even look good. Why would you put THIS screen of all things in a portfolio.
+
+Ok. I'm officially done with this one. It is off my chest forever.
+
+And man. Oh man. Wait until I get to the actual tech and code stuff.
+
+## Workloads
+
+You know what's cool about having a technical hire? Technical doesn't have to mean tech. It could mean literally anything. I promise.
+
+You got a video-related startup and your technical hire who was technically hired to build product stuff knows how to use After Effects and Premiere Pro? Guess what? You technically have a marketing guy now too.[^marketing]
+
+[^marketing]: Of course, you'll still try and make your own marketing material at first. It'll be good. Pinky swear.
+
+How about some banners and other photoshoppy material for your website and social media?
+
+![just a masthead](/img/2019-09-17-leaning-towers/mast.jpg)
+
+What about all of the product mockups and design?
+
+~~redacted because... well I just didn't want to dig to see if I actually saved any of these~~
+
+You need to cater to Gen-Zers and young millenials to use your product but you can't meme? Guess what. Technically that one guy memes. He can 100% meme for us.
+
+
+![its literally just free real estate meme but worse i promise you are better off not seeing it](/img/2019-09-17-leaning-towers/free.jpg)
+> !FIGCAP I am in literal pain
+
+Look at that! Prime meme material, right! I don't really get how it is better than awkward penguin[^pengu] and other (unironic) Top Text Bottom Text image macros but you know what? That's okay.
+
+[^pengu]: I don't remember if this is what it is actually called and also I do not care
+
+I can keep going, but I won't because we've reached "beating a dead horse" territory[^material].
+
+[^material]: Also I've completely run out of image material
+
+<blockquote>If you're part of a small team, you likely will (and want to) do multiple job functions within your role. That is totally okay.</blockquote>
+
+And just as importantly:
+
+<blockquote>If you're part of a small team, but you're considered the domain expert in over 1/n (n being the number of team members) of the job functions that team currently partakes in, you should either be completely bought in and really enjoying MOST of those job functions, or looking to get out as fast as possible.</blockquote>
+
+If you're a software engineer by trade, but you just spent the past 2 weeks doing not software engineering, you're either unhappy or looking to change jobs or both. And if you're a product person, but you've had to scrap the product and start over 5 times in the past month, your product is either 1) bad or 2) not going anywhere with your help. That's pretty much it.
+
+## The Code Stuff
+
+Hold on I need a couple of minutes I'm still finishing up this new promo video

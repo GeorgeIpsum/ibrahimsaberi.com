@@ -1,0 +1,16 @@
+@reference "../../css/globals.css";
+
+:root[data-theme="custom"][data-custom-theme="reflect"] {
+  color-scheme: dark only;
+
+  --primary: oklch(98.7% 0.022 95.277);
+  --background: color-mix(oklch(27.9% 0.077 45.635) 70%, black 100%);
+  --border: color-mix(
+    oklch(76.9% 0.188 70.08) 20%,
+    oklch(27.9% 0.077 45.635) 80%
+  );
+  --sidebar-ring: color-mix(
+    oklch(76.9% 0.188 70.08) 20%,
+    oklch(27.9% 0.077 45.635) 80%
+  );
+}

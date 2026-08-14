@@ -1,0 +1,2929 @@
+{
+  "hero": "Luna",
+  "slug": "luna",
+  "source": "https://liquipedia.net/dota2/Luna/Responses",
+  "scrapedAt": "2026-06-17T13:53:30.362Z",
+  "count": 289,
+  "voicelines": [
+    {
+      "file": "Vo_luna_luna_spawn_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_spawn_01.mp3",
+      "transcript": "Luna!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_luna_luna_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_spawn_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_spawn_02.mp3",
+      "transcript": "The Moon Rider has arrived.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_luna_luna_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_spawn_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_spawn_03.mp3",
+      "transcript": "In the service of Selemene.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_luna_luna_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_spawn_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_spawn_04.mp3",
+      "transcript": "Nova could use a snack.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_luna_luna_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_battlebegins_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_battlebegins_01.mp3",
+      "transcript": "The Dark Moon comes.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_luna_luna_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_13.mp3",
+      "transcript": "The night sees all.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_luna_luna_move_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_15.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_15.mp3",
+      "transcript": "Selemene commands.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_luna_luna_move_15.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_03.mp3",
+      "transcript": "Blessings upon a loyal warrior.",
+      "categories": [
+        "Loadout",
+        "Leveling up",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_luna_luna_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_08.mp3",
+      "transcript": "They will find my blade sharp, and cruel.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_luna_luna_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_06.mp3",
+      "transcript": "Oh they will rue this day.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_luna_luna_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_17.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_17.mp3",
+      "transcript": "On the prowl.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_luna_luna_move_17.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_07.mp3",
+      "transcript": "They will fear me.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_luna_luna_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_02.mp3",
+      "transcript": "Rrr!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_luna_luna_anger_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_inthebag_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_inthebag_01.mp3",
+      "transcript": "Look how they flee before us. This one's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_luna_luna_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_battlebegins_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_battlebegins_02.mp3",
+      "transcript": "Watch over me, goddess. It'll be a good show.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_luna_luna_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_luna_luna_move_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_luna_luna_move_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_03.mp3",
+      "transcript": "Hyah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_luna_luna_move_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_04.mp3",
+      "transcript": "Hyah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_luna_luna_move_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_05.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_luna_luna_move_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_06.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_luna_luna_move_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_07.mp3",
+      "transcript": "Absolutely.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_luna_luna_move_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_08.mp3",
+      "transcript": "Good plan.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_luna_luna_move_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_09.mp3",
+      "transcript": "Illuminating.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_luna_luna_move_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_10.mp3",
+      "transcript": "For the night.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_luna_luna_move_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_12.mp3",
+      "transcript": "Quickly now!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_luna_luna_move_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_14.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_14.mp3",
+      "transcript": "By starlight.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_luna_luna_move_14.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_16.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_16.mp3",
+      "transcript": "We ride.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_luna_luna_move_16.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_18.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_18.mp3",
+      "transcript": "Stalking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_luna_luna_move_18.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_19.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_19.mp3",
+      "transcript": "What do you see?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_luna_luna_move_19.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_20.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_20.mp3",
+      "transcript": "On the hunt.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_luna_luna_move_20.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_move_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_move_11.mp3",
+      "transcript": "Come, Nova!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_luna_luna_move_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_luna_luna_attack_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_luna_luna_attack_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_03.mp3",
+      "transcript": "Taste my steel!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_luna_luna_attack_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_04.mp3",
+      "transcript": "Catch!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_luna_luna_attack_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_05.mp3",
+      "transcript": "Crescent steel!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_luna_luna_attack_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_06.mp3",
+      "transcript": "For Nightsilver!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_luna_luna_attack_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_07.mp3",
+      "transcript": "For Dark Moon!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_luna_luna_attack_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_08.mp3",
+      "transcript": "Into battle!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_luna_luna_attack_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_09.mp3",
+      "transcript": "Into battle!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_luna_luna_attack_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_10.mp3",
+      "transcript": "This will hurt.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_luna_luna_attack_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_11.mp3",
+      "transcript": "Fear the moon!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_luna_luna_attack_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_12.mp3",
+      "transcript": "With pleasure.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_luna_luna_attack_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_13.mp3",
+      "transcript": "Death approaches.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_luna_luna_attack_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_14.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_14.mp3",
+      "transcript": "The hunt!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_luna_luna_attack_14.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_15.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_15.mp3",
+      "transcript": "You won't escape!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_luna_luna_attack_15.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_16.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_16.mp3",
+      "transcript": "Heads up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_luna_luna_attack_16.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_17.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_17.mp3",
+      "transcript": "Heads up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_luna_luna_attack_17.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_18.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_18.mp3",
+      "transcript": "Heads up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_luna_luna_attack_18.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_20.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_20.mp3",
+      "transcript": "Slice!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_luna_luna_attack_20.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_21.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_21.mp3",
+      "transcript": "Slice!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_luna_luna_attack_21.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_22.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_22.mp3",
+      "transcript": "Red moon!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_luna_luna_attack_22.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_23.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_23.mp3",
+      "transcript": "Try to run!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_luna_luna_attack_23.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_24.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_24.mp3",
+      "transcript": "Who dares?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_luna_luna_attack_24.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_25.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_25.mp3",
+      "transcript": "Who dares?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_luna_luna_attack_25.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_26.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_26.mp3",
+      "transcript": "For Selemene!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_luna_luna_attack_26.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_27.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_27.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_luna_luna_attack_27.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_28.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_28.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_luna_luna_attack_28.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_cast_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_cast_04.mp3",
+      "transcript": "Run them down!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_luna_luna_cast_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_attack_19.mp3",
+      "key": "dota2/luna/Vo_luna_luna_attack_19.mp3",
+      "transcript": "Incoming!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_luna_luna_attack_19.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_cast_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_cast_01.mp3",
+      "transcript": "No mercy!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_luna_luna_cast_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_cast_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_cast_02.mp3",
+      "transcript": "No mercy!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_luna_luna_cast_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_cast_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_cast_03.mp3",
+      "transcript": "I'll see your entrails.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_luna_luna_cast_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_01.mp3",
+      "transcript": "Lunar light!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_luna_luna_ability_lucentbeam_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_02.mp3",
+      "transcript": "Lucent beam!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_luna_luna_ability_lucentbeam_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_03.mp3",
+      "transcript": "Stars shine!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_luna_luna_ability_lucentbeam_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_04.mp3",
+      "transcript": "Starlight!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_luna_luna_ability_lucentbeam_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_05.mp3",
+      "transcript": "Piercing light!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_luna_luna_ability_lucentbeam_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_06.mp3",
+      "transcript": "Piercing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_luna_luna_ability_lucentbeam_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_lucentbeam_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_lucentbeam_07.mp3",
+      "transcript": "Selemene!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_luna_luna_ability_lucentbeam_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_01.mp3",
+      "transcript": "Eclipse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_luna_luna_ability_eclipse_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_02.mp3",
+      "transcript": "Eclipse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_luna_luna_ability_eclipse_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_03.mp3",
+      "transcript": "Eclipse!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_luna_luna_ability_eclipse_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_04.mp3",
+      "transcript": "Feel the moon!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_luna_luna_ability_eclipse_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_05.mp3",
+      "transcript": "The night sky opens wide!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_luna_luna_ability_eclipse_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_06.mp3",
+      "transcript": "The eclipse is upon you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_luna_luna_ability_eclipse_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_07.mp3",
+      "transcript": "Blessed be the night!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_luna_luna_ability_eclipse_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_08.mp3",
+      "transcript": "Let the sky tear down the unworthy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_luna_luna_ability_eclipse_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_09.mp3",
+      "transcript": "Wrath of the goddess!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_luna_luna_ability_eclipse_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_eclipse_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_eclipse_10.mp3",
+      "transcript": "Behold the piercing sky!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_luna_luna_ability_eclipse_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_01.mp3",
+      "transcript": "The moon smiles upon me!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_luna_luna_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_02.mp3",
+      "transcript": "A new moon!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_luna_luna_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_04.mp3",
+      "transcript": "The sky alight!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_luna_luna_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_05.mp3",
+      "transcript": "The night settles in.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_luna_luna_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_06.mp3",
+      "transcript": "Beautiful.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_luna_luna_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_09.mp3",
+      "transcript": "I'm done being merciful!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_luna_luna_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_levelup_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_levelup_10.mp3",
+      "transcript": "The moon waxes, and my mercy wanes.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_luna_luna_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_01.mp3",
+      "transcript": "Hungry Nova?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_luna_luna_kill_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_02.mp3",
+      "transcript": "Die mongrel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_luna_luna_kill_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_03.mp3",
+      "transcript": "Pitiful.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_luna_luna_kill_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_04.mp3",
+      "transcript": "Die with honor, whelp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_luna_luna_kill_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_05.mp3",
+      "transcript": "Aww. Are you not going to beg?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_luna_luna_kill_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_06.mp3",
+      "transcript": "Lost in the woods, are you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_luna_luna_kill_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_07.mp3",
+      "transcript": "Do not cross the Dark Moon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_luna_luna_kill_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_08.mp3",
+      "transcript": "Let the skies take you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_luna_luna_kill_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_09.mp3",
+      "transcript": "Clearly not your best.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_luna_luna_kill_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_10.mp3",
+      "transcript": "What is this? I came here for a battle!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_luna_luna_kill_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_kill_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_kill_11.mp3",
+      "transcript": "Pathetic.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_luna_luna_kill_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_02.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_luna_luna_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_luna_luna_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_04.mp3",
+      "transcript": "Hm hm hm ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_luna_luna_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_05.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_luna_luna_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_07.mp3",
+      "transcript": "Hhh! Ah ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_luna_luna_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_08.mp3",
+      "transcript": "Huh huh ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_luna_luna_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_09.mp3",
+      "transcript": "Ah ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_luna_luna_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_luna_luna_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_11.mp3",
+      "transcript": "Huh ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_luna_luna_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_12.mp3",
+      "transcript": "Heh heh heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_luna_luna_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_13.mp3",
+      "transcript": "Oh ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_luna_luna_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_14.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_14.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_luna_luna_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_15.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_15.mp3",
+      "transcript": "Hhh! Ho ho ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_luna_luna_laugh_15.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_16.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_16.mp3",
+      "transcript": "Hhh! Ho ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_luna_luna_laugh_16.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_17.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_17.mp3",
+      "transcript": "Hhh! Ah ho ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_luna_luna_laugh_17.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_01.mp3",
+      "transcript": "Did you hear that, Nova? He thought he was a lion!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_luna_luna_rival_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_02.mp3",
+      "transcript": "And they call me cold hearted…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_luna_luna_rival_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_03.mp3",
+      "transcript": "Finally, some peace and quiet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_luna_luna_rival_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_04.mp3",
+      "transcript": "Windrunner, slow down and stay down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_luna_luna_rival_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_05.mp3",
+      "transcript": "The moon does play favorites, Night Stalker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_luna_luna_rival_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_06.mp3",
+      "transcript": "The moon turns against the Night Stalker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_luna_luna_rival_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_07.mp3",
+      "transcript": "Having a bad night, Stalker?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_luna_luna_rival_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_08.mp3",
+      "transcript": "Normally I look my enemies in the eyes when I slay them.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_luna_luna_rival_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_09.mp3",
+      "transcript": "Looks like time has finally caught up to you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_luna_luna_rival_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_10.mp3",
+      "transcript": "Not bad for a cat toy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_luna_luna_rival_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_11.mp3",
+      "transcript": "Two heads, and not one wit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_luna_luna_rival_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_12.mp3",
+      "transcript": "All your brilliance comes to nothing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_luna_luna_rival_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_13.mp3",
+      "transcript": "Dismounted.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_luna_luna_rival_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_14.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_14.mp3",
+      "transcript": "I'll take your hoof for a trophy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_luna_luna_rival_14.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_15.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_15.mp3",
+      "transcript": "No princess lives forever, Mirana.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_luna_luna_rival_15.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_16.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_16.mp3",
+      "transcript": "I've waited years to do that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_luna_luna_rival_16.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_17.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_17.mp3",
+      "transcript": "Don't blame me for being ambitious.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_luna_luna_rival_17.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_18.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_18.mp3",
+      "transcript": "Succeeded.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_luna_luna_rival_18.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_19.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_19.mp3",
+      "transcript": "Nova loves to play with vermin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_luna_luna_rival_19.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rival_20.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rival_20.mp3",
+      "transcript": "I'll have your trophies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_luna_luna_rival_20.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_06.mp3",
+      "transcript": "Arr har har har!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_luna_luna_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_firstblood_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_firstblood_01.mp3",
+      "transcript": "First blood! For Selemene and for the Dark Moon!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_luna_luna_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ally_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ally_01.mp3",
+      "transcript": "You will have your vengeance, Spirit.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_luna_luna_ally_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ally_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ally_02.mp3",
+      "transcript": "Bring them winter, Crystal Maiden.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_luna_luna_ally_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ally_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ally_03.mp3",
+      "transcript": "Light the way, Lina.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_luna_luna_ally_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ally_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ally_04.mp3",
+      "transcript": "By your leave, Princess Mirana.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_luna_luna_ally_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ally_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ally_05.mp3",
+      "transcript": "Ah, Zeus! The heavens are with us.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_luna_luna_ally_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_01.mp3",
+      "transcript": "For the cause.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_luna_luna_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_02.mp3",
+      "transcript": "Unworthy.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_luna_luna_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_03.mp3",
+      "transcript": "Unworthy.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_luna_luna_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_04.mp3",
+      "transcript": "Weakling.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_luna_luna_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_05.mp3",
+      "transcript": "Cat food.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_luna_luna_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_06.mp3",
+      "transcript": "Another death.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_luna_luna_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_07.mp3",
+      "transcript": "Insignificant.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_luna_luna_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_08.mp3",
+      "transcript": "Is that it?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_luna_luna_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_09.mp3",
+      "transcript": "Poor thing.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_luna_luna_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_10.mp3",
+      "transcript": "A harvest moon.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_luna_luna_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lasthit_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lasthit_11.mp3",
+      "transcript": "Poor wee thing.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_luna_luna_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_luna_luna_deny_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_luna_luna_deny_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_03.mp3",
+      "transcript": "Uh-uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_luna_luna_deny_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_04.mp3",
+      "transcript": "Uh-uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_luna_luna_deny_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_05.mp3",
+      "transcript": "Absolutely not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_luna_luna_deny_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_06.mp3",
+      "transcript": "Ours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_luna_luna_deny_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_07.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_luna_luna_deny_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_08.mp3",
+      "transcript": "Bad luck.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_luna_luna_deny_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_09.mp3",
+      "transcript": "Not on my watch.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_luna_luna_deny_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_10.mp3",
+      "transcript": "Hands to yourself!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_luna_luna_deny_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_11.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_luna_luna_deny_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_12.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_luna_luna_deny_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_deny_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_deny_13.mp3",
+      "transcript": "Mm-mm denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_luna_luna_deny_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_purch_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_purch_01.mp3",
+      "transcript": "A gift from the goddess.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_luna_luna_purch_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_purch_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_purch_02.mp3",
+      "transcript": "Worthy of my arsenal.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_luna_luna_purch_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_purch_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_purch_03.mp3",
+      "transcript": "This will come in handy!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_luna_luna_purch_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_scepter_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_luna_luna_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_scepter_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_scepter_02.mp3",
+      "transcript": "A Lunar beacon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_luna_luna_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_blink_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_luna_luna_blink_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_blink_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_blink_02.mp3",
+      "transcript": "They can't run from us now.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_luna_luna_blink_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_01.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_luna_luna_items_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_02.mp3",
+      "transcript": "Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_luna_luna_items_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_03.mp3",
+      "transcript": "Manta Style!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_luna_luna_items_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_04.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_luna_luna_items_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_05.mp3",
+      "transcript": "Satanic!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_luna_luna_items_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_items_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_items_06.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_luna_luna_items_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_immort_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_luna_luna_immort_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_immort_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_immort_02.mp3",
+      "transcript": "As eternal as the moon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_luna_luna_immort_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_luna_luna_death_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_luna_luna_death_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_03.mp3",
+      "transcript": "Am I forsaken?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_luna_luna_death_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_04.mp3",
+      "transcript": "I go willingly…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_luna_luna_death_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_05.mp3",
+      "transcript": "You honor me…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_luna_luna_death_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_06.mp3",
+      "transcript": "I hear whispers.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_luna_luna_death_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_07.mp3",
+      "transcript": "Nova? Nova?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_luna_luna_death_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_08.mp3",
+      "transcript": "Not… now…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_luna_luna_death_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_09.mp3",
+      "transcript": "Worthy opponent.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_luna_luna_death_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_10.mp3",
+      "transcript": "Well done.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_luna_luna_death_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_11.mp3",
+      "transcript": "Just… getting started.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_luna_luna_death_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_12.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_12.mp3",
+      "transcript": "I'm better than… this.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_luna_luna_death_12.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_death_13.mp3",
+      "key": "dota2/luna/Vo_luna_luna_death_13.mp3",
+      "transcript": "You'll regret that.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_luna_luna_death_13.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_shite_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_shite_01.mp3",
+      "transcript": "Shite.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_luna_luna_shite_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_01.mp3",
+      "transcript": "The hunt continues!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_luna_luna_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_02.mp3",
+      "transcript": "Nova! I missed you!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_luna_luna_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_03.mp3",
+      "transcript": "We ride once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_luna_luna_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_05.mp3",
+      "transcript": "The woods are unsafe. My work is not yet complete!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_luna_luna_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_07.mp3",
+      "transcript": "No time to lose!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_luna_luna_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_08.mp3",
+      "transcript": "I will not fail again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_luna_luna_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_09.mp3",
+      "transcript": "Ready for battle once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_luna_luna_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_10.mp3",
+      "transcript": "Now for payback!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_luna_luna_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_11.mp3",
+      "transcript": "Back on the hunt!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_luna_luna_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_respawn_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_respawn_04.mp3",
+      "transcript": "Selemene has sent me back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_luna_luna_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_fastres_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_fastres_01.mp3",
+      "transcript": "Another phase begins.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_luna_luna_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_bottle_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_bottle_01.mp3",
+      "transcript": "Patience, Nova.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_luna_luna_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_bottle_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_bottle_02.mp3",
+      "transcript": "For when the skies clear!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_luna_luna_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_bottle_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_bottle_03.mp3",
+      "transcript": "Soon.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_luna_luna_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_bottle_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_bottle_04.mp3",
+      "transcript": "Soon.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_luna_luna_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_drop_medium.mp3",
+      "key": "dota2/luna/Vo_luna_luna_drop_medium.mp3",
+      "transcript": "Isn't that a pretty thing!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_luna_luna_drop_medium.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_doubdam_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_luna_luna_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_doubdam_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_doubdam_02.mp3",
+      "transcript": "The crescent cuts twice as deep!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_luna_luna_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_haste_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_luna_luna_haste_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_haste_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_haste_02.mp3",
+      "transcript": "Quickly Nova!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_luna_luna_haste_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_illus_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_luna_luna_illus_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_illus_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_illus_02.mp3",
+      "transcript": "The cavalry has arrived!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_luna_luna_illus_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_invis_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_luna_luna_invis_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_invis_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_invis_02.mp3",
+      "transcript": "We stalk unhindered.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_luna_luna_invis_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_regen_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_luna_luna_regen_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_regen_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_regen_02.mp3",
+      "transcript": "Wounds are nothing to us!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_luna_luna_regen_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_luna_luna_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_luna_luna_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_luna_luna_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_luna_luna_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_luna_luna_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_luna_luna_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_luna_luna_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_luna_luna_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_notyet_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_luna_luna_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_luna_luna_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_luna_luna_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_luna_luna_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_luna_luna_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_luna_luna_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_luna_luna_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_luna_luna_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_luna_luna_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_nomana_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_luna_luna_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_01.mp3",
+      "transcript": "Ouh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_luna_luna_pain_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_02.mp3",
+      "transcript": "Ah! Hhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_luna_luna_pain_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_luna_luna_pain_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_luna_luna_pain_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_05.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_luna_luna_pain_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_06.mp3",
+      "transcript": "Muh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_luna_luna_pain_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_07.mp3",
+      "transcript": "Eeh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_luna_luna_pain_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_08.mp3",
+      "transcript": "Iy!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_luna_luna_pain_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_luna_luna_pain_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_10.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_luna_luna_pain_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_pain_11.mp3",
+      "key": "dota2/luna/Vo_luna_luna_pain_11.mp3",
+      "transcript": "Ouh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_luna_luna_pain_11.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_underattack_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_luna_luna_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rare_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rare_01.mp3",
+      "transcript": "I would water the trees with their entrails if Selemene would smile on me.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_luna_luna_rare_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rare_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rare_02.mp3",
+      "transcript": "Hah! I remember when Nova tried to kill me. Good girl.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_luna_luna_rare_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_rare_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_rare_03.mp3",
+      "transcript": "I was once the scourge of the plains, a terror on the wind. What hope do our enemies think they have?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_luna_luna_rare_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lane_missing_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lane_missing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_luna_luna_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lane_missing_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lane_missing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_luna_luna_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lane_missing_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lane_missing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_luna_luna_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_thanks_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_luna_luna_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_thanks_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_thanks_02.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_luna_luna_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_thanks_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_thanks_03.mp3",
+      "transcript": "Moon's blessings.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_luna_luna_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_laugh_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_laugh_01.mp3",
+      "transcript": "Mm mm mm ha ha ha ha ha ha ha ha ha ha ha! Hh ah ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_luna_luna_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_win_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_luna_luna_win_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_win_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_luna_luna_win_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_win_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_win_03.mp3",
+      "transcript": "Nightsilver is safe once more.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_luna_luna_win_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lose_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_luna_luna_lose_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lose_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_luna_luna_lose_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_lose_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_lose_03.mp3",
+      "transcript": "Has Selemene forsaken me?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_luna_luna_lose_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_drop_common.mp3",
+      "key": "dota2/luna/Vo_luna_luna_drop_common.mp3",
+      "transcript": "Interesting!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_luna_luna_drop_common.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_drop_rare.mp3",
+      "key": "dota2/luna/Vo_luna_luna_drop_rare.mp3",
+      "transcript": "By the moon!!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_luna_luna_drop_rare.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_failure_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_failure_01.mp3",
+      "transcript": "The stars are against me.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_luna_luna_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_failure_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_failure_02.mp3",
+      "transcript": "Damn clouds.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_luna_luna_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_ability_failure_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_ability_failure_03.mp3",
+      "transcript": "Scratch that idea!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_luna_luna_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_crumwiz_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_luna_luna_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_shiwiz_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_luna_luna_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_shiwiz_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_shiwiz_02.mp3",
+      "transcript": "Piece of shite wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_luna_luna_shiwiz_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_01.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_luna_luna_anger_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_03.mp3",
+      "transcript": "Mmmuh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_luna_luna_anger_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_luna_luna_anger_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_05.mp3",
+      "transcript": "Houh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_luna_luna_anger_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_06.mp3",
+      "transcript": "Ey!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_luna_luna_anger_06.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_07.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_07.mp3",
+      "transcript": "Psss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_luna_luna_anger_07.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_08.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_08.mp3",
+      "transcript": "Hhr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_luna_luna_anger_08.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_09.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_09.mp3",
+      "transcript": "Mmuh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_luna_luna_anger_09.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_anger_10.mp3",
+      "key": "dota2/luna/Vo_luna_luna_anger_10.mp3",
+      "transcript": "Ehh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_luna_luna_anger_10.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_01.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_01.mp3",
+      "transcript": "Aye.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_luna_luna_happy_01.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_02.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_02.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_luna_luna_happy_02.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_03.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_03.mp3",
+      "transcript": "Ohhh yeah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_luna_luna_happy_03.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_04.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_04.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_luna_luna_happy_04.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_05.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_05.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_luna_luna_happy_05.mp3"
+    },
+    {
+      "file": "Vo_luna_luna_happy_06.mp3",
+      "key": "dota2/luna/Vo_luna_luna_happy_06.mp3",
+      "transcript": "Hooh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_luna_luna_happy_06.mp3"
+    }
+  ]
+}

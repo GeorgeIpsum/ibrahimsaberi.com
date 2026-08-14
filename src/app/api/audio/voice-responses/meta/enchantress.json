@@ -1,0 +1,2284 @@
+{
+  "hero": "Enchantress",
+  "slug": "enchantress",
+  "source": "https://liquipedia.net/dota2/Enchantress/Responses",
+  "scrapedAt": "2026-06-17T14:18:49.815Z",
+  "count": 225,
+  "voicelines": [
+    {
+      "file": "Vo_enchantress_ench_spawn_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_spawn_01.mp3",
+      "transcript": "Enchantress!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_enchantress_ench_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_spawn_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_spawn_02.mp3",
+      "transcript": "Light of foot, light of heart!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_enchantress_ench_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_spawn_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_spawn_03.mp3",
+      "transcript": "Enchanted, I'm sure!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_enchantress_ench_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_spawn_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_spawn_04.mp3",
+      "transcript": "Shady lanes and sunny glades await!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enchantress_ench_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_spawn_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_spawn_05.mp3",
+      "transcript": "What an enchanting day for battle!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_enchantress_ench_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_08.mp3",
+      "transcript": "Enchanting.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_enchantress_ench_move_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_10.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_enchantress_ench_move_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_10.mp3",
+      "transcript": "There they are!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_enchantress_ench_attack_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_11.mp3",
+      "transcript": "I'll trample you.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_enchantress_ench_attack_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_02.mp3",
+      "transcript": "This fawn's afternoon is looking up!",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_enchantress_ench_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_02.mp3",
+      "transcript": "Charmed, I'm sure!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_enchantress_ench_ability_enchant_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_03.mp3",
+      "transcript": "How enchanting.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_enchantress_ench_ability_enchant_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_anger_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_anger_03.mp3",
+      "transcript": "Hmmm.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_enchantress_ench_anger_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_inthebag_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_enchantress_ench_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_start_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_start_01.mp3",
+      "transcript": "Ready or not, here I come!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enchantress_ench_start_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_enchantress_ench_move_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_enchantress_ench_move_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_03.mp3",
+      "transcript": "Uh huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_enchantress_ench_move_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_04.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_enchantress_ench_move_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_05.mp3",
+      "transcript": "Okay!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_enchantress_ench_move_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_06.mp3",
+      "transcript": "Yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_enchantress_ench_move_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_07.mp3",
+      "transcript": "Yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_enchantress_ench_move_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_09.mp3",
+      "transcript": "Let's race.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_enchantress_ench_move_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_11.mp3",
+      "transcript": "Nimbly I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_enchantress_ench_move_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_12.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_12.mp3",
+      "transcript": "With skipping grace.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_enchantress_ench_move_12.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_13.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_13.mp3",
+      "transcript": "Hoofin it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_enchantress_ench_move_13.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_14.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_14.mp3",
+      "transcript": "I spring.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_enchantress_ench_move_14.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_15.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_15.mp3",
+      "transcript": "Prancing on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_enchantress_ench_move_15.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_16.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_16.mp3",
+      "transcript": "Skip ahead!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_enchantress_ench_move_16.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_17.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_17.mp3",
+      "transcript": "Foraging.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_enchantress_ench_move_17.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_18.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_18.mp3",
+      "transcript": "Sproink!",
+      "categories": [
+        "Moving",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_enchantress_ench_move_18.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_19.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_19.mp3",
+      "transcript": "Sproink!",
+      "categories": [
+        "Moving",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_enchantress_ench_move_19.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_20.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_20.mp3",
+      "transcript": "Sproink?",
+      "categories": [
+        "Moving",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_enchantress_ench_move_20.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_21.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_21.mp3",
+      "transcript": "Gamboling on!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_enchantress_ench_move_21.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_move_22.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_move_22.mp3",
+      "transcript": "It's a hop, skip and a jump!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_enchantress_ench_move_22.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_enchantress_ench_attack_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_02.mp3",
+      "transcript": "On the wild track!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_enchantress_ench_attack_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_03.mp3",
+      "transcript": "Buckle down!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_enchantress_ench_attack_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_04.mp3",
+      "transcript": "Horns out!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_enchantress_ench_attack_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_05.mp3",
+      "transcript": "Get 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_enchantress_ench_attack_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_06.mp3",
+      "transcript": "After 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_enchantress_ench_attack_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_07.mp3",
+      "transcript": "High tailin it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_enchantress_ench_attack_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_08.mp3",
+      "transcript": "This is fun!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_enchantress_ench_attack_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_attack_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_attack_09.mp3",
+      "transcript": "Come on!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_enchantress_ench_attack_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_cast_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_cast_01.mp3",
+      "transcript": "Bearing down!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enchantress_ench_cast_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_cast_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_cast_02.mp3",
+      "transcript": "Buck up!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_enchantress_ench_cast_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_cast_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_cast_03.mp3",
+      "transcript": "I'll run you down!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_enchantress_ench_cast_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_01.mp3",
+      "transcript": "You're mine!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_enchantress_ench_ability_enchant_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_04.mp3",
+      "transcript": "Where you going?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_enchantress_ench_ability_enchant_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_05.mp3",
+      "transcript": "Wait up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_enchantress_ench_ability_enchant_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_enchant_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_enchant_06.mp3",
+      "transcript": "Don't run off!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_enchantress_ench_ability_enchant_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_01.mp3",
+      "transcript": "Heal us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_enchantress_ench_ability_nature_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_02.mp3",
+      "transcript": "Nature attend us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_enchantress_ench_ability_nature_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_03.mp3",
+      "transcript": "My sprites are with us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enchantress_ench_ability_nature_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_04.mp3",
+      "transcript": "Come on, sprites!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_enchantress_ench_ability_nature_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_05.mp3",
+      "transcript": "Healing power!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_enchantress_ench_ability_nature_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_nature_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_nature_06.mp3",
+      "transcript": "Come get healed!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_enchantress_ench_ability_nature_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_01.mp3",
+      "transcript": "You shouldn't have run!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_enchantress_ench_ability_impetus_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_02.mp3",
+      "transcript": "Not far enough!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_enchantress_ench_ability_impetus_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_05.mp3",
+      "transcript": "That was a longshot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_enchantress_ench_ability_impetus_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_06.mp3",
+      "transcript": "Impetuous!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_enchantress_ench_ability_impetus_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_07.mp3",
+      "transcript": "Let me lance that for you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_enchantress_ench_ability_impetus_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_15.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_15.mp3",
+      "transcript": "Sproink.",
+      "categories": [
+        "Abilities",
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_enchantress_ench_deny_15.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_01.mp3",
+      "transcript": "Better and better.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_enchantress_ench_level_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_02.mp3",
+      "transcript": "I'm getting better at this!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enchantress_ench_level_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_03.mp3",
+      "transcript": "I'm learning the old ways.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_enchantress_ench_level_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_04.mp3",
+      "transcript": "New tracks to follow.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_enchantress_ench_level_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_05.mp3",
+      "transcript": "Better all the time!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enchantress_ench_level_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_06.mp3",
+      "transcript": "My dapples darken.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_enchantress_ench_level_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_07.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enchantress_ench_level_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_level_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_level_08.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_enchantress_ench_level_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_03.mp3",
+      "transcript": "Gotcha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_enchantress_ench_ability_impetus_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_ability_impetus_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_ability_impetus_04.mp3",
+      "transcript": "There you are!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_enchantress_ench_ability_impetus_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_01.mp3",
+      "transcript": "Deerly departed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_enchantress_ench_kill_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_02.mp3",
+      "transcript": "Aw, I was fawned of them!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_enchantress_ench_kill_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_03.mp3",
+      "transcript": "That went well.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_enchantress_ench_kill_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_04.mp3",
+      "transcript": "Sorry!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_enchantress_ench_kill_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_05.mp3",
+      "transcript": "Don't think I wasn't fawned of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_enchantress_ench_kill_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_06.mp3",
+      "transcript": "Better luck next time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_enchantress_ench_kill_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_07.mp3",
+      "transcript": "You okay?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_enchantress_ench_kill_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_08.mp3",
+      "transcript": "You did your best.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_enchantress_ench_kill_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_09.mp3",
+      "transcript": "Points for trying.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_enchantress_ench_kill_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_10.mp3",
+      "transcript": "It's neither fair nor foul.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_enchantress_ench_kill_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_11.mp3",
+      "transcript": "I guess you're mortal then.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_enchantress_ench_kill_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_12.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_12.mp3",
+      "transcript": "There's no shame in it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_enchantress_ench_kill_12.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_kill_13.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_kill_13.mp3",
+      "transcript": "I left my hoofprints in your backside.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_enchantress_ench_kill_13.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_01.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_enchantress_ench_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_02.mp3",
+      "transcript": "Hee hee hee hee!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_enchantress_ench_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_enchantress_ench_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_enchantress_ench_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_enchantress_ench_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_laugh_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_laugh_06.mp3",
+      "transcript": "Tee hee!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enchantress_ench_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_killspecial_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_killspecial_01.mp3",
+      "transcript": "Who's the hunter now, hm?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_enchantress_ench_killspecial_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_killspecial_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_killspecial_02.mp3",
+      "transcript": "Nice rack, Leshrac!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_enchantress_ench_killspecial_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_killspecial_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_killspecial_03.mp3",
+      "transcript": "Nice rack, Riki!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_enchantress_ench_killspecial_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_killspecial_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_killspecial_04.mp3",
+      "transcript": "I guess they find me more enchanting, Chen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_enchantress_ench_killspecial_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_firstblood_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_firstblood_01.mp3",
+      "transcript": "First blood! Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_enchantress_ench_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_firstblood_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_firstblood_02.mp3",
+      "transcript": "First blood! Ah ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_enchantress_ench_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_01.mp3",
+      "transcript": "Pray tell.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_enchantress_ench_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_02.mp3",
+      "transcript": "Hey, I'm a predator.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_enchantress_ench_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_03.mp3",
+      "transcript": "The buck stops here.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_enchantress_ench_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_04.mp3",
+      "transcript": "Dough for a doe.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_enchantress_ench_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_05.mp3",
+      "transcript": "Hey, great!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_enchantress_ench_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_06.mp3",
+      "transcript": "I'm a natural!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_enchantress_ench_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lasthit_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lasthit_07.mp3",
+      "transcript": "Golden!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_enchantress_ench_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_enchantress_ench_deny_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_enchantress_ench_deny_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_03.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_enchantress_ench_deny_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_04.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_enchantress_ench_deny_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_05.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_enchantress_ench_deny_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_06.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_enchantress_ench_deny_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_07.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_enchantress_ench_deny_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_08.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_enchantress_ench_deny_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_09.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enchantress_ench_deny_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_10.mp3",
+      "transcript": "You'll not thrive.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_enchantress_ench_deny_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_11.mp3",
+      "transcript": "Gotcha.",
+      "categories": [
+        "Denying",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_enchantress_ench_deny_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_12.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_12.mp3",
+      "transcript": "Gotcha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_enchantress_ench_deny_12.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_13.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_13.mp3",
+      "transcript": "Don't be mad.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_enchantress_ench_deny_13.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_14.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_14.mp3",
+      "transcript": "Hilarious.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_enchantress_ench_deny_14.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_16.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_16.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enchantress_ench_deny_16.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_17.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_17.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_enchantress_ench_deny_17.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_18.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_18.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_enchantress_ench_deny_18.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_deny_19.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_deny_19.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_enchantress_ench_deny_19.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_purch_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_purch_01.mp3",
+      "transcript": "That cost more than a few bucks.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_enchantress_ench_purch_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_purch_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_purch_02.mp3",
+      "transcript": "I can't wait to use this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_enchantress_ench_purch_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_purch_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_purch_03.mp3",
+      "transcript": "Wait'll they see this in action.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_enchantress_ench_purch_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_blink_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_enchantress_ench_blink_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_blink_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_blink_02.mp3",
+      "transcript": "Goodie! Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_enchantress_ench_blink_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_scepter_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_enchantress_ench_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_scepter_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_scepter_02.mp3",
+      "transcript": "Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_enchantress_ench_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_item_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_item_01.mp3",
+      "transcript": "Sheepstick!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_enchantress_ench_item_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_item_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_item_02.mp3",
+      "transcript": "Baaaa!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_enchantress_ench_item_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_immort_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_enchantress_ench_immort_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_immort_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_immort_02.mp3",
+      "transcript": "I'm not going anywhere.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_enchantress_ench_immort_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_enchantress_ench_death_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_02.mp3",
+      "transcript": "Doe!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_enchantress_ench_death_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_03.mp3",
+      "transcript": "Oh, deer!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_enchantress_ench_death_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_04.mp3",
+      "transcript": "Wounded to my heart.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_enchantress_ench_death_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_05.mp3",
+      "transcript": "Death of a fawn.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_enchantress_ench_death_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_06.mp3",
+      "transcript": "Who would harm me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_enchantress_ench_death_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_07.mp3",
+      "transcript": "That's unjust.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_enchantress_ench_death_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_08.mp3",
+      "transcript": "It's just not fair.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_enchantress_ench_death_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_09.mp3",
+      "transcript": "I'll do better next time.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_enchantress_ench_death_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_10.mp3",
+      "transcript": "Another petal falls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_enchantress_ench_death_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_death_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_death_11.mp3",
+      "transcript": "I guess the good do die young.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enchantress_ench_death_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_03.mp3",
+      "transcript": "Re-fawned!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_enchantress_ench_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_04.mp3",
+      "transcript": "Yeah, let's do this!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_enchantress_ench_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_05.mp3",
+      "transcript": "Ah, that's a relief!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_enchantress_ench_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_06.mp3",
+      "transcript": "I'll do better this time!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_enchantress_ench_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_07.mp3",
+      "transcript": "Won't be making that mistake twice!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_enchantress_ench_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_08.mp3",
+      "transcript": "I'm ready to put that place behind me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_enchantress_ench_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_09.mp3",
+      "transcript": "I'll not be tamed that easily.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_enchantress_ench_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_10.mp3",
+      "transcript": "I'll just sharpen my spear and I'm ready to go!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_enchantress_ench_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_11.mp3",
+      "transcript": "I'm back, fresh as a flower.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_enchantress_ench_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_respawn_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_respawn_01.mp3",
+      "transcript": "I'll be right back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_enchantress_ench_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_bottle_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_bottle_01.mp3",
+      "transcript": "I'm gonna save you for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_enchantress_ench_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_bottle_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_bottle_02.mp3",
+      "transcript": "Not quite ready for this.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_enchantress_ench_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_bottle_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_bottle_03.mp3",
+      "transcript": "Saved for another season.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_enchantress_ench_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_happy_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_happy_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_enchantress_ench_happy_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_doubdam_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_enchantress_ench_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_doubdam_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_doubdam_02.mp3",
+      "transcript": "Gotcha twice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_enchantress_ench_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_doubdam_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_doubdam_03.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_enchantress_ench_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_haste_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_enchantress_ench_haste_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_haste_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_haste_02.mp3",
+      "transcript": "Fleet feet.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_enchantress_ench_haste_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_illus_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_enchantress_ench_illus_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_illus_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_illus_02.mp3",
+      "transcript": "Herd of me?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_enchantress_ench_illus_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_illus_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_illus_03.mp3",
+      "transcript": "A herd of me!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_enchantress_ench_illus_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_invis_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_enchantress_ench_invis_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_invis_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_invis_02.mp3",
+      "transcript": "The forest cloaks me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_enchantress_ench_invis_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_regen_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_enchantress_ench_regen_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_regen_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_regen_02.mp3",
+      "transcript": "Eternal spring.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_enchantress_ench_regen_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enchantress_ench_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_enchantress_ench_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_enchantress_ench_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enchantress_ench_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_enchantress_ench_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enchantress_ench_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enchantress_ench_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_enchantress_ench_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_notyet_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enchantress_ench_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_enchantress_ench_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_enchantress_ench_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enchantress_ench_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_enchantress_ench_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_enchantress_ench_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_enchantress_ench_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_enchantress_ench_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_enchantress_ench_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_enchantress_ench_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_nomana_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_nomana_10.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_enchantress_ench_nomana_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_01.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_enchantress_ench_pain_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_02.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_enchantress_ench_pain_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_enchantress_ench_pain_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_enchantress_ench_pain_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_05.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_enchantress_ench_pain_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_06.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_06.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_enchantress_ench_pain_06.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_07.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_enchantress_ench_pain_07.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_08.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_08.mp3",
+      "transcript": "Huh uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_enchantress_ench_pain_08.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_09.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_09.mp3",
+      "transcript": "Aw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_enchantress_ench_pain_09.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_10.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_10.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_enchantress_ench_pain_10.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_11.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_11.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_enchantress_ench_pain_11.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_pain_12.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_pain_12.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_enchantress_ench_pain_12.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_rare_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_rare_01.mp3",
+      "transcript": "You know what I love? Everything!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enchantress_ench_rare_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_rare_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_rare_02.mp3",
+      "transcript": "Oh do not run too fast for I will but bespeak thy grave and die.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_enchantress_ench_rare_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_missing_lane_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_missing_lane_01.mp3",
+      "transcript": "Missing Top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_enchantress_ench_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_missing_lane_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_missing_lane_02.mp3",
+      "transcript": "Missing Middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_enchantress_ench_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_missing_lane_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_missing_lane_03.mp3",
+      "transcript": "Missing Bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_enchantress_ench_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_thanks_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_enchantress_ench_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_thanks_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_thanks_02.mp3",
+      "transcript": "Why thank you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_enchantress_ench_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_win_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_enchantress_ench_win_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_win_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_enchantress_ench_win_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_win_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_win_03.mp3",
+      "transcript": "I love winning!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enchantress_ench_win_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_win_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_win_04.mp3",
+      "transcript": "Party at my place!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_enchantress_ench_win_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lose_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_enchantress_ench_lose_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lose_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lose_02.mp3",
+      "transcript": "Defeated?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_enchantress_ench_lose_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_lose_03.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_lose_03.mp3",
+      "transcript": "Grrr, I hate losing!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_enchantress_ench_lose_03.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_happy_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_happy_02.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_enchantress_ench_happy_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_happy_05.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_happy_05.mp3",
+      "transcript": "Hee!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_enchantress_ench_happy_05.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_happy_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_happy_04.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_enchantress_ench_happy_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_shitwiz_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_enchantress_ench_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_crumwiz_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_enchantress_ench_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_anger_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_anger_01.mp3",
+      "transcript": "Grr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_enchantress_ench_anger_01.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_anger_02.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_anger_02.mp3",
+      "transcript": "Aaaaf.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_enchantress_ench_anger_02.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_anger_04.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_anger_04.mp3",
+      "transcript": "Grrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_enchantress_ench_anger_04.mp3"
+    },
+    {
+      "file": "Vo_enchantress_ench_happy_01.mp3",
+      "key": "dota2/enchantress/Vo_enchantress_ench_happy_01.mp3",
+      "transcript": "Whuuuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_enchantress_ench_happy_01.mp3"
+    }
+  ]
+}

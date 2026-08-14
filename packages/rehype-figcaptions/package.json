@@ -1,0 +1,27 @@
+{
+  "name": "@local/rehype-figcaptions",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Internal rehype plugin for rendering figure captions in MDX content.",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hast-util-whitespace": "3.0.0",
+    "unist-util-visit": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/hast": "3.0.4",
+    "@types/unist": "3.0.3",
+    "typescript": "6.0.3"
+  }
+}

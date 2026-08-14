@@ -1,0 +1,5306 @@
+{
+  "hero": "Sniper",
+  "slug": "sniper",
+  "source": "https://liquipedia.net/dota2/Sniper/Responses",
+  "scrapedAt": "2026-06-17T14:04:45.900Z",
+  "count": 525,
+  "voicelines": [
+    {
+      "file": "Vo_sniper_snip_spawn_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_01.mp3",
+      "transcript": "Sniper!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_sniper_snip_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_01.mp3",
+      "transcript": "Sniper!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_sniper_helmet_snip_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_02.mp3",
+      "transcript": "Sniper here!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_sniper_snip_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_02.mp3",
+      "transcript": "Sniper here!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_sniper_helmet_snip_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_03.mp3",
+      "transcript": "Time for target practice.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_sniper_snip_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_03.mp3",
+      "transcript": "Time for target practice.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_sniper_helmet_snip_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_04.mp3",
+      "transcript": "Take your best shot. I will.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_sniper_snip_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_04.mp3",
+      "transcript": "Take your best shot. I will.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_sniper_helmet_snip_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_05.mp3",
+      "transcript": "I come: Lock, stock and barrel.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_sniper_snip_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_05.mp3",
+      "transcript": "I come: Lock, stock and barrel.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_sniper_helmet_snip_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_06.mp3",
+      "transcript": "I call the shots around here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_sniper_snip_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_06.mp3",
+      "transcript": "I call the shots around here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_sniper_helmet_snip_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_15.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_15.mp3",
+      "transcript": "Sure as shootin'!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_sniper_snip_move_15.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_15.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_15.mp3",
+      "transcript": "Sure as shootin'!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_sniper_helmet_snip_move_15.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_24.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_24.mp3",
+      "transcript": "Into the breach!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_sniper_snip_move_24.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_24.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_24.mp3",
+      "transcript": "Into the breach!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_sniper_helmet_snip_move_24.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_25.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_25.mp3",
+      "transcript": "Run and gun!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_sniper_snip_move_25.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_25.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_25.mp3",
+      "transcript": "Run and gun!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_sniper_helmet_snip_move_25.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_10.mp3",
+      "transcript": "Gunpowder justice.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_sniper_snip_attack_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_10.mp3",
+      "transcript": "Gunpowder justice.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_sniper_helmet_snip_attack_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_cast_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_cast_01.mp3",
+      "transcript": "My sights are set!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_sniper_snip_cast_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_cast_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_cast_01.mp3",
+      "transcript": "My sights are set!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_sniper_helmet_snip_cast_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_01.mp3",
+      "transcript": "My aim is truer than ever!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_sniper_snip_level_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_01.mp3",
+      "transcript": "My aim is truer than ever!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_sniper_helmet_snip_level_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_01.mp3",
+      "transcript": "Unh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_sniper_snip_anger_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_spawn_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_spawn_07.mp3",
+      "transcript": "Sniper here! Time for target practice.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_sniper_snip_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_spawn_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_spawn_07.mp3",
+      "transcript": "Sniper here! Time for target practice.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_sniper_helmet_snip_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_inthebag_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_sniper_snip_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_inthebag_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_sniper_helmet_snip_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_inthebag_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_inthebag_02.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_sniper_snip_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_inthebag_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_inthebag_02.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_sniper_helmet_snip_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_01.mp3",
+      "transcript": "Yeah, nyeh heh ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_sniper_snip_move_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_01.mp3",
+      "transcript": "Yeah, nyeh heh ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_sniper_helmet_snip_move_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_sniper_snip_move_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_sniper_helmet_snip_move_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_03.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_sniper_snip_move_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_03.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_sniper_helmet_snip_move_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_04.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_sniper_snip_move_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_04.mp3",
+      "transcript": "Ah ha.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_sniper_helmet_snip_move_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_05.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_sniper_snip_move_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_05.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_sniper_helmet_snip_move_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_07.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_sniper_snip_move_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_07.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_sniper_helmet_snip_move_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_08.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_sniper_snip_move_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_08.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_sniper_helmet_snip_move_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_09.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_snip_move_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_09.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_sniper_helmet_snip_move_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_10.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_sniper_snip_move_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_10.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_sniper_helmet_snip_move_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_11.mp3",
+      "transcript": "Ah hah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_sniper_snip_move_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_11.mp3",
+      "transcript": "Ah hah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_sniper_helmet_snip_move_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_12.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_sniper_snip_move_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_12.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_sniper_helmet_snip_move_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_13.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_sniper_snip_move_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_13.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_sniper_helmet_snip_move_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_14.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_14.mp3",
+      "transcript": "Mm hm hm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_sniper_snip_move_14.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_14.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_14.mp3",
+      "transcript": "Mm hm hm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_helmet_snip_move_14.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_16.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_16.mp3",
+      "transcript": "A new trajectory.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_sniper_snip_move_16.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_16.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_16.mp3",
+      "transcript": "A new trajectory.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_sniper_helmet_snip_move_16.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_17.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_17.mp3",
+      "transcript": "Spotted!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_sniper_snip_move_17.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_17.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_17.mp3",
+      "transcript": "Spotted!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_sniper_helmet_snip_move_17.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_18.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_18.mp3",
+      "transcript": "Spot on!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_sniper_snip_move_18.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_18.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_18.mp3",
+      "transcript": "Spot on!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_sniper_helmet_snip_move_18.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_19.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_19.mp3",
+      "transcript": "My spotter guides me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_sniper_snip_move_19.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_19.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_19.mp3",
+      "transcript": "My spotter guides me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_sniper_helmet_snip_move_19.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_20.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_20.mp3",
+      "transcript": "Line of sight.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_sniper_snip_move_20.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_20.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_20.mp3",
+      "transcript": "Line of sight.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_sniper_helmet_snip_move_20.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_21.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_21.mp3",
+      "transcript": "As you say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_sniper_snip_move_21.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_21.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_21.mp3",
+      "transcript": "As you say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_sniper_helmet_snip_move_21.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_22.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_22.mp3",
+      "transcript": "Snipe hunt!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_sniper_snip_move_22.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_22.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_22.mp3",
+      "transcript": "Snipe hunt!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_sniper_helmet_snip_move_22.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_23.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_23.mp3",
+      "transcript": "Full bore!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_sniper_snip_move_23.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_23.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_23.mp3",
+      "transcript": "Full bore!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_sniper_helmet_snip_move_23.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_26.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_26.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_sniper_snip_move_26.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_26.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_26.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_sniper_helmet_snip_move_26.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_27.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_27.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_sniper_snip_move_27.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_27.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_27.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_sniper_helmet_snip_move_27.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_28.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_28.mp3",
+      "transcript": "My spotter directs.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_sniper_snip_move_28.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_28.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_28.mp3",
+      "transcript": "My spotter directs.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_sniper_helmet_snip_move_28.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_move_29.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_move_29.mp3",
+      "transcript": "Spotted.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_sniper_snip_move_29.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_move_29.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_move_29.mp3",
+      "transcript": "Spotted.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_sniper_helmet_snip_move_29.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_sniper_snip_attack_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_sniper_helmet_snip_attack_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_02.mp3",
+      "transcript": "Trick shot!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_sniper_snip_attack_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_02.mp3",
+      "transcript": "Trick shot!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_sniper_helmet_snip_attack_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_03.mp3",
+      "transcript": "You die!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_sniper_snip_attack_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_03.mp3",
+      "transcript": "You die!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_sniper_helmet_snip_attack_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_04.mp3",
+      "transcript": "Quick draw!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_sniper_snip_attack_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_04.mp3",
+      "transcript": "Quick draw!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_sniper_helmet_snip_attack_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_05.mp3",
+      "transcript": "This'll hurt.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_snip_attack_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_05.mp3",
+      "transcript": "This'll hurt.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_sniper_helmet_snip_attack_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_06.mp3",
+      "transcript": "Going ballistic.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_sniper_snip_attack_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_06.mp3",
+      "transcript": "Going ballistic.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_sniper_helmet_snip_attack_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_07.mp3",
+      "transcript": "Easy shot.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_sniper_snip_attack_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_07.mp3",
+      "transcript": "Easy shot.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_sniper_helmet_snip_attack_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_08.mp3",
+      "transcript": "Shoot em up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_sniper_snip_attack_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_08.mp3",
+      "transcript": "Shoot em up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_sniper_helmet_snip_attack_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_09.mp3",
+      "transcript": "Take this!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_sniper_snip_attack_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_09.mp3",
+      "transcript": "Take this!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_sniper_helmet_snip_attack_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_11.mp3",
+      "transcript": "Center of mass.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_sniper_snip_attack_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_11.mp3",
+      "transcript": "Center of mass.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_helmet_snip_attack_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_attack_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_attack_12.mp3",
+      "transcript": "Snipin'!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_sniper_snip_attack_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_attack_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_attack_12.mp3",
+      "transcript": "Snipin'!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_sniper_helmet_snip_attack_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_05.mp3",
+      "transcript": "Let's have a go at it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_sniper_snip_tf2_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_05.mp3",
+      "transcript": "Let's have a go at it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_helmet_snip_tf2_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_04.mp3",
+      "transcript": "On target!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_sniper_snip_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_04.mp3",
+      "transcript": "On target!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_sniper_helmet_snip_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_06.mp3",
+      "transcript": "Eat lead!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_sniper_snip_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_06.mp3",
+      "transcript": "Eat lead!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_sniper_helmet_snip_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_10.mp3",
+      "transcript": "Eat lead!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_sniper_snip_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_10.mp3",
+      "transcript": "Eat lead!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_sniper_helmet_snip_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_cast_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_cast_02.mp3",
+      "transcript": "Ready…aim…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_sniper_snip_cast_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_cast_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_cast_02.mp3",
+      "transcript": "Ready…aim…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_sniper_helmet_snip_cast_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_cast_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_cast_03.mp3",
+      "transcript": "Breathe your last!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_cast_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_cast_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_cast_03.mp3",
+      "transcript": "Breathe your last!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_sniper_helmet_snip_cast_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_01.mp3",
+      "transcript": "Shrapnel!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_sniper_snip_ability_shrapnel_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_01.mp3",
+      "transcript": "Shrapnel!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_sniper_helmet_snip_ability_shrapnel_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_03.mp3",
+      "transcript": "Ho ho ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_sniper_snip_ability_shrapnel_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_03.mp3",
+      "transcript": "Ho ho ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_sniper_helmet_snip_ability_shrapnel_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_02.mp3",
+      "transcript": "Dance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_sniper_snip_ability_shrapnel_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_02.mp3",
+      "transcript": "Dance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_sniper_helmet_snip_ability_shrapnel_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_04.mp3",
+      "transcript": "Look lively!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_sniper_snip_ability_shrapnel_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_04.mp3",
+      "transcript": "Look lively!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_sniper_helmet_snip_ability_shrapnel_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_05.mp3",
+      "transcript": "Hee hee hee ha ha hee hee hee hee!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_sniper_snip_ability_shrapnel_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_05.mp3",
+      "transcript": "Hee hee hee ha ha hee hee hee hee!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_sniper_helmet_snip_ability_shrapnel_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_06.mp3",
+      "transcript": "Dance! Ha ha ha ha! Dance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_sniper_snip_ability_shrapnel_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_06.mp3",
+      "transcript": "Dance! Ha ha ha ha! Dance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_sniper_helmet_snip_ability_shrapnel_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_shrapnel_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_shrapnel_07.mp3",
+      "transcript": "Jump around, come on, jump around! Heh heh heh heh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_sniper_snip_ability_shrapnel_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_shrapnel_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_shrapnel_07.mp3",
+      "transcript": "Jump around, come on, jump around! Heh heh heh heh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_sniper_helmet_snip_ability_shrapnel_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_02.mp3",
+      "transcript": "Easy as shooting gnats.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_sniper_snip_ability_assass_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_02.mp3",
+      "transcript": "Easy as shooting gnats.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_sniper_helmet_snip_ability_assass_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_06.mp3",
+      "transcript": "Spotted!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_sniper_snip_ability_assass_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_06.mp3",
+      "transcript": "Spotted!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_sniper_helmet_snip_ability_assass_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_07.mp3",
+      "transcript": "Marked for death!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_sniper_snip_ability_assass_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_07.mp3",
+      "transcript": "Marked for death!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_sniper_helmet_snip_ability_assass_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_08.mp3",
+      "transcript": "Check it out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_sniper_snip_ability_assass_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_08.mp3",
+      "transcript": "Check it out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_sniper_helmet_snip_ability_assass_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_03.mp3",
+      "transcript": "Boom headshot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_sniper_snip_ability_assass_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_03.mp3",
+      "transcript": "Boom headshot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_sniper_helmet_snip_ability_assass_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_04.mp3",
+      "transcript": "You got peeped!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_sniper_snip_ability_assass_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_04.mp3",
+      "transcript": "You got peeped!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_sniper_helmet_snip_ability_assass_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_05.mp3",
+      "transcript": "You can run but you can't hide!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_sniper_snip_ability_assass_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_05.mp3",
+      "transcript": "You can run but you can't hide!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_sniper_helmet_snip_ability_assass_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_12.mp3",
+      "transcript": "Did ya see that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_sniper_snip_ability_assass_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_12.mp3",
+      "transcript": "Did ya see that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_sniper_helmet_snip_ability_assass_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_03.mp3",
+      "transcript": "Bullseye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_sniper_snip_kill_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_03.mp3",
+      "transcript": "Bullseye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_sniper_helmet_snip_kill_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_08.mp3",
+      "transcript": "Now that's what I call stoppin' power.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_sniper_snip_kill_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_08.mp3",
+      "transcript": "Now that's what I call stoppin' power.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_sniper_helmet_snip_kill_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_10.mp3",
+      "transcript": "Kill shot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_sniper_snip_kill_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_10.mp3",
+      "transcript": "Kill shot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_sniper_helmet_snip_kill_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_13.mp3",
+      "transcript": "Parting shot—boom!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_sniper_snip_kill_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_13.mp3",
+      "transcript": "Parting shot—boom!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_sniper_helmet_snip_kill_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_01.mp3",
+      "transcript": "Thanks for standing still, ganker!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_sniper_snip_tf2_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_01.mp3",
+      "transcript": "Thanks for standing still, ganker!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_sniper_helmet_snip_tf2_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_02.mp3",
+      "transcript": "Thanks for standing still, wanker!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_sniper_snip_tf2_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_02.mp3",
+      "transcript": "Thanks for standing still, wanker!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_sniper_helmet_snip_tf2_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_sniper_snip_ability_fail_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_sniper_helmet_snip_ability_fail_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_02.mp3",
+      "transcript": "Doh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_sniper_snip_ability_fail_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_02.mp3",
+      "transcript": "Doh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_sniper_helmet_snip_ability_fail_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_03.mp3",
+      "transcript": "Oh what an idiot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_sniper_snip_ability_fail_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_03.mp3",
+      "transcript": "Oh what an idiot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_sniper_helmet_snip_ability_fail_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_04.mp3",
+      "transcript": "What the---?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_sniper_snip_ability_fail_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_04.mp3",
+      "transcript": "What the---?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_sniper_helmet_snip_ability_fail_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_05.mp3",
+      "transcript": "What a dud!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_sniper_snip_ability_fail_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_05.mp3",
+      "transcript": "What a dud!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_sniper_helmet_snip_ability_fail_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_06.mp3",
+      "transcript": "How did I miss that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_sniper_snip_ability_fail_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_06.mp3",
+      "transcript": "How did I miss that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_sniper_helmet_snip_ability_fail_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_07.mp3",
+      "transcript": "Oh, I thought I had that for sure!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_sniper_snip_ability_fail_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_07.mp3",
+      "transcript": "Oh, I thought I had that for sure!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_sniper_helmet_snip_ability_fail_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_fail_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_fail_08.mp3",
+      "transcript": "I had that shot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_sniper_snip_ability_fail_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_fail_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_fail_08.mp3",
+      "transcript": "I had that shot!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_sniper_helmet_snip_ability_fail_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_02.mp3",
+      "transcript": "Steady up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_sniper_snip_level_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_02.mp3",
+      "transcript": "Steady up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_sniper_helmet_snip_level_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_03.mp3",
+      "transcript": "Ooh, more powder in my shot!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_sniper_snip_level_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_03.mp3",
+      "transcript": "Ooh, more powder in my shot!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_helmet_snip_level_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_04.mp3",
+      "transcript": "Higher caliber!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_sniper_snip_level_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_04.mp3",
+      "transcript": "Higher caliber!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_sniper_helmet_snip_level_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_05.mp3",
+      "transcript": "Ooh, skills sharpened!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_sniper_snip_level_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_05.mp3",
+      "transcript": "Ooh, skills sharpened!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_sniper_helmet_snip_level_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_06.mp3",
+      "transcript": "Target practice, payin' off!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_sniper_snip_level_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_06.mp3",
+      "transcript": "Target practice, payin' off!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_sniper_helmet_snip_level_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_07.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_sniper_snip_level_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_07.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_sniper_helmet_snip_level_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_08.mp3",
+      "transcript": "Ho ho!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_sniper_snip_level_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_08.mp3",
+      "transcript": "Ho ho!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_sniper_helmet_snip_level_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_level_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_level_09.mp3",
+      "transcript": "Hee hee ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_sniper_snip_level_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_level_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_level_09.mp3",
+      "transcript": "Hee hee ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_sniper_helmet_snip_level_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_01.mp3",
+      "transcript": "Picked em off.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_sniper_snip_ability_assass_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_01.mp3",
+      "transcript": "Picked em off.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_sniper_helmet_snip_ability_assass_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_09.mp3",
+      "transcript": "Hoo hoo!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_sniper_snip_ability_assass_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_09.mp3",
+      "transcript": "Hoo hoo!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_sniper_helmet_snip_ability_assass_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_sniper_snip_ability_assass_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_13.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_sniper_helmet_snip_ability_assass_13.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_01.mp3",
+      "transcript": "Shot to Hell!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_kill_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_01.mp3",
+      "transcript": "Shot to Hell!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_sniper_helmet_snip_kill_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_02.mp3",
+      "transcript": "Takes one to shoot one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_snip_kill_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_02.mp3",
+      "transcript": "Takes one to shoot one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_sniper_helmet_snip_kill_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_04.mp3",
+      "transcript": "Aw, don't go off half-cocked.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_sniper_snip_kill_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_04.mp3",
+      "transcript": "Aw, don't go off half-cocked.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_sniper_helmet_snip_kill_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_05.mp3",
+      "transcript": "What a dum-dum!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_sniper_snip_kill_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_05.mp3",
+      "transcript": "What a dum-dum!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_sniper_helmet_snip_kill_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_06.mp3",
+      "transcript": "You make a great bullet catcher.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_sniper_snip_kill_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_06.mp3",
+      "transcript": "You make a great bullet catcher.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_sniper_helmet_snip_kill_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_07.mp3",
+      "transcript": "Your life's a flash in the pan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_sniper_snip_kill_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_07.mp3",
+      "transcript": "Your life's a flash in the pan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_sniper_helmet_snip_kill_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_09.mp3",
+      "transcript": "That was your warning shot.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_kill_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_09.mp3",
+      "transcript": "That was your warning shot.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_sniper_helmet_snip_kill_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_sniper_snip_kill_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_sniper_helmet_snip_kill_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_12.mp3",
+      "transcript": "Hee hee hee hee hee hee hee hee hee hee!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_sniper_snip_kill_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_12.mp3",
+      "transcript": "Hee hee hee hee hee hee hee hee hee hee!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_sniper_helmet_snip_kill_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_14.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_14.mp3",
+      "transcript": "Gunfighting's tough without a gun, isn't it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_sniper_snip_kill_14.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_14.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_14.mp3",
+      "transcript": "Gunfighting's tough without a gun, isn't it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_sniper_helmet_snip_kill_14.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_03.mp3",
+      "transcript": "Thanks for standing still.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_sniper_snip_tf2_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_03.mp3",
+      "transcript": "Thanks for standing still.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_sniper_helmet_snip_tf2_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_04.mp3",
+      "transcript": "Say goodbye to your head!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_sniper_snip_tf2_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_04.mp3",
+      "transcript": "Say goodbye to your head!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_sniper_helmet_snip_tf2_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_07.mp3",
+      "transcript": "I'm polite and efficient.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_sniper_snip_tf2_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_07.mp3",
+      "transcript": "I'm polite and efficient.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_sniper_helmet_snip_tf2_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_01.mp3",
+      "transcript": "Oh ho ho haw!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_sniper_snip_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_01.mp3",
+      "transcript": "Oh ho ho haw!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_sniper_helmet_snip_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_02.mp3",
+      "transcript": "Heh heh heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_sniper_snip_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_02.mp3",
+      "transcript": "Heh heh heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_sniper_helmet_snip_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_03.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_sniper_snip_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_03.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_sniper_helmet_snip_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_04.mp3",
+      "transcript": "Heh heh hee hee hee.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_sniper_snip_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_04.mp3",
+      "transcript": "Heh heh hee hee hee.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_sniper_helmet_snip_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_05.mp3",
+      "transcript": "Ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_sniper_snip_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_05.mp3",
+      "transcript": "Ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_sniper_helmet_snip_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_06.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_sniper_snip_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_06.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_sniper_helmet_snip_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_sniper_snip_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_sniper_helmet_snip_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_09.mp3",
+      "transcript": "Hoo hoo hoo!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_sniper_snip_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_09.mp3",
+      "transcript": "Hoo hoo hoo!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_sniper_helmet_snip_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_02.mp3",
+      "transcript": "Oh, feather bullets!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_sniper_snip_kill_arrow_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_02.mp3",
+      "transcript": "Oh, feather bullets!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_sniper_helmet_snip_kill_arrow_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_07.mp3",
+      "transcript": "Guns are the future, my friend!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_sniper_snip_kill_arrow_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_07.mp3",
+      "transcript": "Guns are the future, my friend!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_sniper_helmet_snip_kill_arrow_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_03.mp3",
+      "transcript": "Heh, crummiest gun I've ever seen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_snip_kill_arrow_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_03.mp3",
+      "transcript": "Heh, crummiest gun I've ever seen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_sniper_helmet_snip_kill_arrow_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_04.mp3",
+      "transcript": "What's wrong, your string break?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_sniper_snip_kill_arrow_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_04.mp3",
+      "transcript": "What's wrong, your string break?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_sniper_helmet_snip_kill_arrow_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_06.mp3",
+      "transcript": "Get a gun, you'll live longer!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_sniper_snip_kill_arrow_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_06.mp3",
+      "transcript": "Get a gun, you'll live longer!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_sniper_helmet_snip_kill_arrow_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_blade_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_blade_01.mp3",
+      "transcript": "Someone brought a knife to a gunfight!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_sniper_snip_kill_blade_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_blade_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_blade_01.mp3",
+      "transcript": "Someone brought a knife to a gunfight!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_sniper_helmet_snip_kill_blade_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_blade_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_blade_02.mp3",
+      "transcript": "You pull a knife, I pull a gun.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_snip_kill_blade_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_blade_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_blade_02.mp3",
+      "transcript": "You pull a knife, I pull a gun.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_sniper_helmet_snip_kill_blade_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_blade_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_blade_03.mp3",
+      "transcript": "Someone brought a knife to a gunfight!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_sniper_snip_kill_blade_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_blade_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_blade_03.mp3",
+      "transcript": "Someone brought a knife to a gunfight!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_sniper_helmet_snip_kill_blade_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_05.mp3",
+      "transcript": "Aw, isn't that quaint?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_sniper_snip_kill_arrow_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_05.mp3",
+      "transcript": "Aw, isn't that quaint?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_sniper_helmet_snip_kill_arrow_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_08.mp3",
+      "transcript": "My gun is quick!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_sniper_snip_kill_arrow_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_08.mp3",
+      "transcript": "My gun is quick!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_sniper_helmet_snip_kill_arrow_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_01.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_sniper_snip_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_01.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_sniper_helmet_snip_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_02.mp3",
+      "transcript": "A fistful of bullets!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_02.mp3",
+      "transcript": "A fistful of bullets!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_sniper_helmet_snip_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_03.mp3",
+      "transcript": "Oh a few bullets more!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_sniper_snip_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_03.mp3",
+      "transcript": "Oh a few bullets more!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_sniper_helmet_snip_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_05.mp3",
+      "transcript": "Gold for lead!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_sniper_snip_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_05.mp3",
+      "transcript": "Gold for lead!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_sniper_helmet_snip_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_07.mp3",
+      "transcript": "That's gonna sting!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_sniper_snip_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_07.mp3",
+      "transcript": "That's gonna sting!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_sniper_helmet_snip_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_08.mp3",
+      "transcript": "Kill shot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_sniper_snip_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_08.mp3",
+      "transcript": "Kill shot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_sniper_helmet_snip_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lasthit_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lasthit_09.mp3",
+      "transcript": "Body shot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_sniper_snip_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lasthit_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lasthit_09.mp3",
+      "transcript": "Body shot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_sniper_helmet_snip_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_sniper_snip_ability_assass_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_sniper_helmet_snip_ability_assass_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_ability_assass_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_ability_assass_11.mp3",
+      "transcript": "ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_sniper_snip_ability_assass_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_ability_assass_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_ability_assass_11.mp3",
+      "transcript": "ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_sniper_helmet_snip_ability_assass_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_sniper_snip_deny_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_sniper_helmet_snip_deny_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_sniper_snip_deny_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_sniper_helmet_snip_deny_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_03.mp3",
+      "transcript": "Ah ah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_sniper_snip_deny_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_03.mp3",
+      "transcript": "Ah ah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_sniper_helmet_snip_deny_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_sniper_snip_deny_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_sniper_helmet_snip_deny_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_05.mp3",
+      "transcript": "Not by a long shot!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_sniper_snip_deny_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_05.mp3",
+      "transcript": "Not by a long shot!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_sniper_helmet_snip_deny_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_06.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_sniper_snip_deny_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_06.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_sniper_helmet_snip_deny_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_07.mp3",
+      "transcript": "No no no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_sniper_snip_deny_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_07.mp3",
+      "transcript": "No no no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_sniper_helmet_snip_deny_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_08.mp3",
+      "transcript": "Heh heh heh heh ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_sniper_snip_deny_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_08.mp3",
+      "transcript": "Heh heh heh heh ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_sniper_helmet_snip_deny_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_09.mp3",
+      "transcript": "Hee hee hee hee hee hee hee!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_sniper_snip_deny_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_09.mp3",
+      "transcript": "Hee hee hee hee hee hee hee!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_sniper_helmet_snip_deny_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deny_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deny_10.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_sniper_snip_deny_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deny_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deny_10.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_sniper_helmet_snip_deny_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_purch_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_purch_01.mp3",
+      "transcript": "Didn't come cheap.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_sniper_snip_purch_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_purch_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_purch_01.mp3",
+      "transcript": "Didn't come cheap.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_sniper_helmet_snip_purch_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_purch_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_purch_02.mp3",
+      "transcript": "Worth its weight in bullets",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_sniper_snip_purch_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_purch_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_purch_02.mp3",
+      "transcript": "Worth its weight in bullets",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_sniper_helmet_snip_purch_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_purch_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_purch_03.mp3",
+      "transcript": "Ah, this will come in handy.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_sniper_snip_purch_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_purch_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_purch_03.mp3",
+      "transcript": "Ah, this will come in handy.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_sniper_helmet_snip_purch_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_blink_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_sniper_snip_blink_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_blink_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_sniper_helmet_snip_blink_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_blink_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_blink_02.mp3",
+      "transcript": "Blink and you'll miss it!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_sniper_snip_blink_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_blink_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_blink_02.mp3",
+      "transcript": "Blink and you'll miss it!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_sniper_helmet_snip_blink_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_scepter_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_sniper_snip_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_scepter_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_sniper_helmet_snip_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_scepter_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_scepter_02.mp3",
+      "transcript": "Scepter for a sniper.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_sniper_snip_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_scepter_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_scepter_02.mp3",
+      "transcript": "Scepter for a sniper.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_sniper_helmet_snip_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_manta_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_manta_01.mp3",
+      "transcript": "Oh, Manta! Hee hee hee hee!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_sniper_snip_manta_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_manta_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_manta_01.mp3",
+      "transcript": "Oh, Manta! Hee hee hee hee!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_sniper_helmet_snip_manta_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_manta_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_manta_02.mp3",
+      "transcript": "Oh, Manta! Ha ha ha ha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_sniper_snip_manta_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_manta_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_manta_02.mp3",
+      "transcript": "Oh, Manta! Ha ha ha ha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_sniper_helmet_snip_manta_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_manta_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_manta_03.mp3",
+      "transcript": "Firing squad!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_sniper_snip_manta_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_manta_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_manta_03.mp3",
+      "transcript": "Firing squad!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_sniper_helmet_snip_manta_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deso_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deso_01.mp3",
+      "transcript": "Oh, Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_sniper_snip_deso_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deso_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deso_01.mp3",
+      "transcript": "Oh, Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_sniper_helmet_snip_deso_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deso_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deso_02.mp3",
+      "transcript": "Ah, Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_sniper_snip_deso_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deso_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deso_02.mp3",
+      "transcript": "Ah, Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_sniper_helmet_snip_deso_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_deso_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_deso_03.mp3",
+      "transcript": "Hm hm, armor piercing!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_deso_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_deso_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_deso_03.mp3",
+      "transcript": "Hm hm, armor piercing!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_sniper_helmet_snip_deso_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_purch_armor_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_purch_armor_01.mp3",
+      "transcript": "It's sort of a full metal jacket.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_sniper_snip_purch_armor_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_purch_armor_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_purch_armor_01.mp3",
+      "transcript": "It's sort of a full metal jacket.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_helmet_snip_purch_armor_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_immort_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_sniper_snip_immort_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_immort_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_sniper_helmet_snip_immort_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_immort_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_immort_02.mp3",
+      "transcript": "Ha ha, bullet proof!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_sniper_snip_immort_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_immort_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_immort_02.mp3",
+      "transcript": "Ha ha, bullet proof!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_sniper_helmet_snip_immort_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_blade_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_blade_04.mp3",
+      "transcript": "Inconceivable!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_sniper_snip_kill_blade_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_blade_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_blade_04.mp3",
+      "transcript": "Inconceivable!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_sniper_helmet_snip_kill_blade_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_01.mp3",
+      "transcript": "No! Guh!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_sniper_snip_death_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_01.mp3",
+      "transcript": "No! Guh!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_sniper_helmet_snip_death_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_02.mp3",
+      "transcript": "Cheap shot…yuh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_sniper_snip_death_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_02.mp3",
+      "transcript": "Cheap shot…yuh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_sniper_helmet_snip_death_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_03.mp3",
+      "transcript": "You never hear the one that gets you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_sniper_snip_death_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_03.mp3",
+      "transcript": "You never hear the one that gets you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_sniper_helmet_snip_death_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_04.mp3",
+      "transcript": "Didn't think you had the brass!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_sniper_snip_death_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_04.mp3",
+      "transcript": "Didn't think you had the brass!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_sniper_helmet_snip_death_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_05.mp3",
+      "transcript": "Powder burns…uh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_sniper_snip_death_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_05.mp3",
+      "transcript": "Powder burns…uh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_sniper_helmet_snip_death_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_06.mp3",
+      "transcript": "A mortal wound…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_sniper_snip_death_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_06.mp3",
+      "transcript": "A mortal wound…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_sniper_helmet_snip_death_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_07.mp3",
+      "transcript": "My chamber is empty.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_snip_death_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_07.mp3",
+      "transcript": "My chamber is empty.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_helmet_snip_death_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_08.mp3",
+      "transcript": "A parting shot.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_sniper_snip_death_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_08.mp3",
+      "transcript": "A parting shot.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_sniper_helmet_snip_death_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_09.mp3",
+      "transcript": "I go out guns blazing.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_sniper_snip_death_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_09.mp3",
+      "transcript": "I go out guns blazing.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_sniper_helmet_snip_death_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_10.mp3",
+      "transcript": "Through and through…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_sniper_snip_death_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_10.mp3",
+      "transcript": "Through and through…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_sniper_helmet_snip_death_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_11.mp3",
+      "transcript": "Aw sheeeee-oooot.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_sniper_snip_death_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_11.mp3",
+      "transcript": "Aw sheeeee-oooot.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_sniper_helmet_snip_death_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_death_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_death_12.mp3",
+      "transcript": "Exit wound…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_sniper_snip_death_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_death_12.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_death_12.mp3",
+      "transcript": "Exit wound…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_sniper_helmet_snip_death_12.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_01.mp3",
+      "transcript": "That was a hell of a recoil.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_sniper_snip_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_01.mp3",
+      "transcript": "That was a hell of a recoil.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_sniper_helmet_snip_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_02.mp3",
+      "transcript": "Ah, reloaded.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_sniper_snip_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_02.mp3",
+      "transcript": "Ah, reloaded.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_sniper_helmet_snip_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_03.mp3",
+      "transcript": "Another shot at victory.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_sniper_snip_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_03.mp3",
+      "transcript": "Another shot at victory.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_sniper_helmet_snip_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_04.mp3",
+      "transcript": "Huh, back at the shooting gallery.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_sniper_snip_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_04.mp3",
+      "transcript": "Huh, back at the shooting gallery.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_sniper_helmet_snip_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_05.mp3",
+      "transcript": "I'll stick to my guns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_sniper_snip_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_05.mp3",
+      "transcript": "I'll stick to my guns.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_sniper_helmet_snip_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_06.mp3",
+      "transcript": "The shooting star returns!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_sniper_snip_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_06.mp3",
+      "transcript": "The shooting star returns!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_sniper_helmet_snip_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_07.mp3",
+      "transcript": "Don't shoot, it's me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_sniper_snip_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_07.mp3",
+      "transcript": "Don't shoot, it's me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_sniper_helmet_snip_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_08.mp3",
+      "transcript": "Return fire!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_sniper_snip_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_08.mp3",
+      "transcript": "Return fire!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_sniper_helmet_snip_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_09.mp3",
+      "transcript": "Hm hm hm, my trigger finger's itching for vengeance!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_sniper_snip_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_09.mp3",
+      "transcript": "Hm hm hm, my trigger finger's itching for vengeance!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_sniper_helmet_snip_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_10.mp3",
+      "transcript": "Never could resist a long shot.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_sniper_snip_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_10.mp3",
+      "transcript": "Never could resist a long shot.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_sniper_helmet_snip_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_respawn_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_respawn_11.mp3",
+      "transcript": "Sniper reloaded!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_sniper_snip_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_respawn_11.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_respawn_11.mp3",
+      "transcript": "Sniper reloaded!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_sniper_helmet_snip_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_laugh_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_laugh_08.mp3",
+      "transcript": "Hee hee hee hee hee hee hee hee hee hee!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_sniper_snip_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_laugh_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_laugh_08.mp3",
+      "transcript": "Hee hee hee hee hee hee hee hee hee hee!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_sniper_helmet_snip_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_bottle_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_snip_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_bottle_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_sniper_helmet_snip_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_bottle_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_bottle_02.mp3",
+      "transcript": "This will come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_sniper_snip_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_bottle_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_bottle_02.mp3",
+      "transcript": "This will come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_sniper_helmet_snip_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_bottle_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_bottle_03.mp3",
+      "transcript": "Just in case.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_sniper_snip_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_bottle_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_bottle_03.mp3",
+      "transcript": "Just in case.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_sniper_helmet_snip_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_bottle_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_bottle_04.mp3",
+      "transcript": "Jarate!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_sniper_snip_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_bottle_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_bottle_04.mp3",
+      "transcript": "Jarate!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_sniper_helmet_snip_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_happy_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_happy_03.mp3",
+      "transcript": "Heyeah!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_sniper_snip_happy_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_happy_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_happy_03.mp3",
+      "transcript": "Heyeah!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_sniper_helmet_snip_happy_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_doubdam_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_sniper_snip_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_doubdam_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_sniper_helmet_snip_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_doubdam_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_doubdam_02.mp3",
+      "transcript": "Double action!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_snip_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_doubdam_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_doubdam_02.mp3",
+      "transcript": "Double action!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_helmet_snip_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_haste_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_sniper_snip_haste_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_haste_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_sniper_helmet_snip_haste_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_haste_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_haste_02.mp3",
+      "transcript": "Off like a shot!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_sniper_snip_haste_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_haste_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_haste_02.mp3",
+      "transcript": "Off like a shot!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_sniper_helmet_snip_haste_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_illus_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_sniper_snip_illus_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_illus_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_sniper_helmet_snip_illus_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_illus_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_illus_02.mp3",
+      "transcript": "Parallax!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_sniper_snip_illus_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_illus_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_illus_02.mp3",
+      "transcript": "Parallax!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_sniper_helmet_snip_illus_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_invis_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_sniper_snip_invis_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_invis_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_sniper_helmet_snip_invis_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_invis_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_invis_02.mp3",
+      "transcript": "Out of visual range! He he he he!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_sniper_snip_invis_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_invis_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_invis_02.mp3",
+      "transcript": "Out of visual range! He he he he!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_sniper_helmet_snip_invis_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_regen_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_sniper_snip_regen_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_regen_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_sniper_helmet_snip_regen_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_regen_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_regen_02.mp3",
+      "transcript": "Fixed my sights!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_sniper_snip_regen_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_regen_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_regen_02.mp3",
+      "transcript": "Fixed my sights!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_sniper_helmet_snip_regen_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_sniper_snip_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_helmet_snip_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_01a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_01a.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_sniper_snip_notyet_01a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_01a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_01a.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_sniper_helmet_snip_notyet_01a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_sniper_snip_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_sniper_helmet_snip_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_02a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_02a.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_sniper_snip_notyet_02a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_02a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_02a.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_sniper_helmet_snip_notyet_02a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_sniper_snip_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_sniper_helmet_snip_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_03a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_03a.mp3",
+      "transcript": "It's not time.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_sniper_snip_notyet_03a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_03a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_03a.mp3",
+      "transcript": "It's not time.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_sniper_helmet_snip_notyet_03a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_sniper_snip_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_sniper_helmet_snip_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_sniper_snip_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_sniper_helmet_snip_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_sniper_snip_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_sniper_helmet_snip_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_sniper_snip_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_sniper_helmet_snip_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_sniper_snip_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_sniper_helmet_snip_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_notyet_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_sniper_snip_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_notyet_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_sniper_helmet_snip_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_sniper_snip_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_helmet_snip_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_01a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_01a.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_sniper_snip_nomana_01a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_01a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_01a.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_sniper_helmet_snip_nomana_01a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_sniper_snip_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_sniper_helmet_snip_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_02a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_02a.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_sniper_snip_nomana_02a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_02a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_02a.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_sniper_helmet_snip_nomana_02a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_sniper_snip_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_sniper_helmet_snip_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_03a.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_03a.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_sniper_snip_nomana_03a.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_03a.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_03a.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_sniper_helmet_snip_nomana_03a.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_sniper_snip_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_sniper_helmet_snip_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_sniper_snip_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_sniper_helmet_snip_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_sniper_snip_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_sniper_helmet_snip_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_10.mp3",
+      "transcript": "You're jumping the gun.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_sniper_snip_nomana_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_10.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_10.mp3",
+      "transcript": "You're jumping the gun.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_sniper_helmet_snip_nomana_10.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_sniper_snip_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_sniper_helmet_snip_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_sniper_snip_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_sniper_helmet_snip_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_nomana_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_sniper_snip_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_nomana_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_sniper_helmet_snip_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_01.mp3",
+      "transcript": "Erk!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_sniper_snip_pain_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_01.mp3",
+      "transcript": "Erk!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_sniper_helmet_snip_pain_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_02.mp3",
+      "transcript": "Doh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_sniper_snip_pain_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_02.mp3",
+      "transcript": "Doh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_sniper_helmet_snip_pain_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_03.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_sniper_snip_pain_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_03.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_sniper_helmet_snip_pain_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_04.mp3",
+      "transcript": "Eeh",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_sniper_snip_pain_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_04.mp3",
+      "transcript": "Eeh",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_sniper_helmet_snip_pain_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_sniper_snip_pain_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_sniper_helmet_snip_pain_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_sniper_snip_pain_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_sniper_helmet_snip_pain_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_07.mp3",
+      "transcript": "Tak!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_sniper_snip_pain_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_07.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_07.mp3",
+      "transcript": "Tak!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_sniper_helmet_snip_pain_07.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_08.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_sniper_snip_pain_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_08.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_sniper_helmet_snip_pain_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_pain_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_pain_09.mp3",
+      "transcript": "Eeh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_sniper_snip_pain_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_pain_09.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_pain_09.mp3",
+      "transcript": "Eeh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_sniper_helmet_snip_pain_09.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_underattack_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_sniper_snip_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_underattack_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_sniper_helmet_snip_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_06.mp3",
+      "transcript": "Professionals have standards.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_sniper_snip_tf2_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_06.mp3",
+      "transcript": "Professionals have standards.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_sniper_helmet_snip_tf2_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_tf2_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_tf2_08.mp3",
+      "transcript": "As long as there are two heroes left on the battlefield, someone is gonna want someone dead.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_sniper_snip_tf2_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_tf2_08.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_tf2_08.mp3",
+      "transcript": "As long as there are two heroes left on the battlefield, someone is gonna want someone dead.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_sniper_helmet_snip_tf2_08.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_rare_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_rare_01.mp3",
+      "transcript": "There's not much wrong that killing you wouldn't fix.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_sniper_snip_rare_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_rare_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_rare_01.mp3",
+      "transcript": "There's not much wrong that killing you wouldn't fix.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_sniper_helmet_snip_rare_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_rare_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_rare_02.mp3",
+      "transcript": "Killing is the last resort, true. But the other resorts don't even have a pool.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_sniper_snip_rare_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_rare_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_rare_02.mp3",
+      "transcript": "Killing is the last resort, true. But the other resorts don't even have a pool.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_sniper_helmet_snip_rare_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_rare_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_rare_03.mp3",
+      "transcript": "Dying is easy. Here, let me show you.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_sniper_snip_rare_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_rare_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_rare_03.mp3",
+      "transcript": "Dying is easy. Here, let me show you.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_sniper_helmet_snip_rare_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_rare_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_rare_04.mp3",
+      "transcript": "Why am I smiling? This is what trigger-happy looks like.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_sniper_snip_rare_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_rare_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_rare_04.mp3",
+      "transcript": "Why am I smiling? This is what trigger-happy looks like.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_sniper_helmet_snip_rare_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_thanks_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_sniper_snip_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_thanks_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_sniper_helmet_snip_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_thanks_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_thanks_02.mp3",
+      "transcript": "I owe ya one.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_sniper_snip_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_thanks_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_thanks_02.mp3",
+      "transcript": "I owe ya one.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_sniper_helmet_snip_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_win_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_sniper_snip_win_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_win_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_sniper_helmet_snip_win_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_win_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_sniper_snip_win_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_win_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_sniper_helmet_snip_win_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_win_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_win_03.mp3",
+      "transcript": "He shoots, he scores!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_sniper_snip_win_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_win_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_win_03.mp3",
+      "transcript": "He shoots, he scores!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_sniper_helmet_snip_win_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lose_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_sniper_snip_lose_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lose_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_sniper_helmet_snip_lose_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lose_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_sniper_snip_lose_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lose_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_sniper_helmet_snip_lose_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_lose_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_lose_03.mp3",
+      "transcript": "Dah! There goes the whole shootin' match!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_sniper_snip_lose_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_lose_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_lose_03.mp3",
+      "transcript": "Dah! There goes the whole shootin' match!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_sniper_helmet_snip_lose_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_happy_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_sniper_snip_happy_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_happy_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_sniper_helmet_snip_happy_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_kill_arrow_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_kill_arrow_01.mp3",
+      "transcript": "Oh, how cute!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_sniper_snip_kill_arrow_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_kill_arrow_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_kill_arrow_01.mp3",
+      "transcript": "Oh, how cute!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_sniper_helmet_snip_kill_arrow_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_shitwiz_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_sniper_snip_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_shitwiz_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_sniper_helmet_snip_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_crumwiz_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_sniper_snip_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_crumwiz_01.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_sniper_helmet_snip_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_02.mp3",
+      "transcript": "Dope!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_sniper_snip_anger_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_anger_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_anger_02.mp3",
+      "transcript": "Dope!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_sniper_helmet_snip_anger_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_03.mp3",
+      "transcript": "Gad!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_sniper_snip_anger_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_anger_03.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_anger_03.mp3",
+      "transcript": "Gad!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_sniper_helmet_snip_anger_03.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_04.mp3",
+      "transcript": "Doh jah fft!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_sniper_snip_anger_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_anger_04.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_anger_04.mp3",
+      "transcript": "Doh jah fft!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_sniper_helmet_snip_anger_04.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_sniper_snip_anger_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_anger_05.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_anger_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_sniper_helmet_snip_anger_05.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_anger_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_anger_06.mp3",
+      "transcript": "Grrrrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_sniper_snip_anger_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_anger_06.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_anger_06.mp3",
+      "transcript": "Grrrrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_sniper_helmet_snip_anger_06.mp3"
+    },
+    {
+      "file": "Vo_sniper_snip_happy_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_snip_happy_02.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_sniper_snip_happy_02.mp3"
+    },
+    {
+      "file": "Vo_sniper_helmet_snip_happy_02.mp3",
+      "key": "dota2/sniper/Vo_sniper_helmet_snip_happy_02.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_sniper_helmet_snip_happy_02.mp3"
+    }
+  ]
+}

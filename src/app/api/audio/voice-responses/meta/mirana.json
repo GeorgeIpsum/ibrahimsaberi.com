@@ -1,0 +1,2688 @@
+{
+  "hero": "Mirana",
+  "slug": "mirana",
+  "source": "https://liquipedia.net/dota2/Mirana/Responses",
+  "scrapedAt": "2026-06-17T13:55:14.029Z",
+  "count": 266,
+  "voicelines": [
+    {
+      "file": "Vo_mirana_mir_spawn_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_01.mp3",
+      "transcript": "Mirana.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_mirana_mir_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_02.mp3",
+      "transcript": "Mirana and Sagan!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_mirana_mir_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_03.mp3",
+      "transcript": "Priestess!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_mirana_mir_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_04.mp3",
+      "transcript": "Your Priestess has arrived!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_mirana_mir_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_02.mp3",
+      "transcript": "On the prowl…",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_mirana_mir_move_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_14.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_14.mp3",
+      "transcript": "The moon lights my way!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_mirana_mir_move_14.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_04.mp3",
+      "transcript": "We ride in perfect union.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_mirana_mir_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_08.mp3",
+      "transcript": "Mirana and Mount, attending.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_mirana_mir_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_09.mp3",
+      "transcript": "Let the battle commence.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_mirana_mir_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_10.mp3",
+      "transcript": "Tonight, we ride.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_mirana_mir_spawn_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_11.mp3",
+      "transcript": "Look, my pet. Prey!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_mirana_mir_spawn_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_12.mp3",
+      "transcript": "Look, Sagan! Prey!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_mirana_mir_spawn_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_anger_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_anger_01.mp3",
+      "transcript": "Urrr.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_mirana_mir_anger_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_05.mp3",
+      "transcript": "We're here.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_mirana_mir_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_06.mp3",
+      "transcript": "Our presence was requested?",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_mirana_mir_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_spawn_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_spawn_07.mp3",
+      "transcript": "We have arrived.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_mirana_mir_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_inthebag_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_mirana_mir_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_battlebegins_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_battlebegins_01.mp3",
+      "transcript": "Look how the prey scatters before us.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_mirana_mir_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_cast_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_cast_03.mp3",
+      "transcript": "At last it's time!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_mirana_mir_cast_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_cast_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_cast_05.mp3",
+      "transcript": "Our time is at hand!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_mirana_mir_cast_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_01.mp3",
+      "transcript": "To the battle!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_mirana_mir_move_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_03.mp3",
+      "transcript": "Forward, pet!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_mirana_mir_move_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_04.mp3",
+      "transcript": "We ride!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_mirana_mir_move_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_05.mp3",
+      "transcript": "Leap forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_mirana_mir_move_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_06.mp3",
+      "transcript": "Agreed!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_mirana_mir_move_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_07.mp3",
+      "transcript": "Good idea!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_mirana_mir_move_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_08.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_mirana_mir_move_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_09.mp3",
+      "transcript": "On track!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_mirana_mir_move_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_10.mp3",
+      "transcript": "Of course!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_mirana_mir_move_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_11.mp3",
+      "transcript": "As you will it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_mirana_mir_move_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_12.mp3",
+      "transcript": "Since you command it…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_mirana_mir_move_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_13.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_13.mp3",
+      "transcript": "Forward by bounds!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_mirana_mir_move_13.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_15.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_15.mp3",
+      "transcript": "Moon, light our path!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_mirana_mir_move_15.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_16.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_16.mp3",
+      "transcript": "Moon, shine on our endeavor!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_mirana_mir_move_16.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_move_17.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_move_17.mp3",
+      "transcript": "Good idea!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_mirana_mir_move_17.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_02.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_mirana_mir_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_04.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_mirana_mir_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_05.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_mirana_mir_acknow_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_06.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_mirana_mir_acknow_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_mirana_mir_attack_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_02.mp3",
+      "transcript": "Cower before us!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_mirana_mir_attack_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_03.mp3",
+      "transcript": "Cringe, you cur!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_mirana_mir_attack_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_04.mp3",
+      "transcript": "Scatter while you can!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_mirana_mir_attack_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_05.mp3",
+      "transcript": "Fair warning—your death has arrived!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_mirana_mir_attack_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_06.mp3",
+      "transcript": "Die, mongrel!",
+      "categories": [
+        "Attacking",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_mirana_mir_attack_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_07.mp3",
+      "transcript": "Whimper, dogs!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_mirana_mir_attack_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_08.mp3",
+      "transcript": "Run like the dogs you are!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_mirana_mir_attack_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_09.mp3",
+      "transcript": "Evil curs!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_mirana_mir_attack_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_10.mp3",
+      "transcript": "Tuck your tail and run, you mutt!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_mirana_mir_attack_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_attack_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_attack_11.mp3",
+      "transcript": "Mutts!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_mirana_mir_attack_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_anger_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_anger_02.mp3",
+      "transcript": "Chhhhh!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_mirana_mir_anger_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_anger_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_anger_03.mp3",
+      "transcript": "Urrr!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_mirana_mir_anger_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_happy_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_happy_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Attacking",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_mirana_mir_happy_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_cast_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_cast_01.mp3",
+      "transcript": "At last!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_mirana_mir_cast_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_cast_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_cast_02.mp3",
+      "transcript": "It's time!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_mirana_mir_cast_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_cast_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_cast_04.mp3",
+      "transcript": "I knew this time would come!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_mirana_mir_cast_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_star_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_star_01.mp3",
+      "transcript": "Stars!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_mirana_mir_ability_star_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_star_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_star_02.mp3",
+      "transcript": "Starfall!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_mirana_mir_ability_star_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_star_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_star_03.mp3",
+      "transcript": "Stars, rain down upon mine enemy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_mirana_mir_ability_star_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_01.mp3",
+      "transcript": "Ha ha! Perfect!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_mirana_mir_ability_arrow_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_07.mp3",
+      "transcript": "Perfect!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_mirana_mir_ability_arrow_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_03.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_mirana_mir_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_02.mp3",
+      "transcript": "Bullseye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_mirana_mir_ability_arrow_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_03.mp3",
+      "transcript": "Out of my way!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_mirana_mir_ability_arrow_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_04.mp3",
+      "transcript": "Who spoiled that shot?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_mirana_mir_ability_arrow_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_05.mp3",
+      "transcript": "Son of a…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_mirana_mir_ability_arrow_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_06.mp3",
+      "transcript": "Gaaah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_mirana_mir_ability_arrow_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_08.mp3",
+      "transcript": "Son of a…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_mirana_mir_ability_arrow_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_09.mp3",
+      "transcript": "Just what are you hiding, Roshan?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_mirana_mir_ability_arrow_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_10.mp3",
+      "transcript": "I could have hit Roshan with my eyes closed.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_mirana_mir_ability_arrow_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_11.mp3",
+      "transcript": "Poor Roshan.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_mirana_mir_ability_arrow_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_arrow_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_arrow_12.mp3",
+      "transcript": "An easy shot.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_mirana_mir_ability_arrow_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_11.mp3",
+      "transcript": "For the hunt.",
+      "categories": [
+        "Abilities",
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_mirana_mir_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_01.mp3",
+      "transcript": "To shadows and to nothing—Disappear!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_mirana_mir_ability_moon_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_02.mp3",
+      "transcript": "Vanish!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_mirana_mir_ability_moon_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_03.mp3",
+      "transcript": "Allies, disappear!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_mirana_mir_ability_moon_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_04.mp3",
+      "transcript": "Shadows, take us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_mirana_mir_ability_moon_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_05.mp3",
+      "transcript": "Moonlight Shadow conceal us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_mirana_mir_ability_moon_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_06.mp3",
+      "transcript": "We walk the Hidden Path!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_mirana_mir_ability_moon_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_07.mp3",
+      "transcript": "Vanish!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_mirana_mir_ability_moon_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ability_moon_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ability_moon_08.mp3",
+      "transcript": "Shadows, take us!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_mirana_mir_ability_moon_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_01.mp3",
+      "transcript": "Such power is ours!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_mirana_mir_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_02.mp3",
+      "transcript": "The inner light dawns!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_mirana_mir_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_03.mp3",
+      "transcript": "Such strengths shall be ours!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_mirana_mir_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_05.mp3",
+      "transcript": "This grows interesting!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_mirana_mir_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_levelup_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_levelup_06.mp3",
+      "transcript": "He he he ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_mirana_mir_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_mirana_mir_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_happy_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_mirana_mir_happy_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_happy_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_happy_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_mirana_mir_happy_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_happy_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_happy_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_mirana_mir_happy_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_01.mp3",
+      "transcript": "Another put down!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_mirana_mir_kill_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_02.mp3",
+      "transcript": "Nicely done!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_mirana_mir_kill_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_03.mp3",
+      "transcript": "They should have run while they had the chance.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_mirana_mir_kill_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_04.mp3",
+      "transcript": "It was not luck but skill!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_mirana_mir_kill_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_05.mp3",
+      "transcript": "Pathetic whelp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_mirana_mir_kill_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_06.mp3",
+      "transcript": "You had no place here.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_mirana_mir_kill_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_07.mp3",
+      "transcript": "Seeing stars?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_mirana_mir_kill_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_08.mp3",
+      "transcript": "Trespasser!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_mirana_mir_kill_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_09.mp3",
+      "transcript": "You have learned nothing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_mirana_mir_kill_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_10.mp3",
+      "transcript": "You make a fine crater.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_mirana_mir_kill_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_11.mp3",
+      "transcript": "Your phase ends.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_mirana_mir_kill_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_12.mp3",
+      "transcript": "Your hopes fade to night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_mirana_mir_kill_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_13.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_13.mp3",
+      "transcript": "He he ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_mirana_mir_kill_13.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_14.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_14.mp3",
+      "transcript": "Ahh he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_mirana_mir_kill_14.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_15.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_15.mp3",
+      "transcript": "Ah he he he he!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_mirana_mir_kill_15.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_16.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_16.mp3",
+      "transcript": "He he he he he he he he.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_mirana_mir_kill_16.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_kill_17.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_kill_17.mp3",
+      "transcript": "He hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_mirana_mir_kill_17.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_laugh_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_laugh_01.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_mirana_mir_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_laugh_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_laugh_02.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_mirana_mir_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_laugh_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_mirana_mir_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_01.mp3",
+      "transcript": "Luna, haven't you got better things to do?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_mirana_mir_rival_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_02.mp3",
+      "transcript": "I expected more from you, Luna.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_mirana_mir_rival_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_03.mp3",
+      "transcript": "Hold your ambitions, Luna.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_mirana_mir_rival_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_04.mp3",
+      "transcript": "Selemene trusted in you. I did not.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_mirana_mir_rival_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_05.mp3",
+      "transcript": "Luna, you shouldn't get catty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_mirana_mir_rival_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_06.mp3",
+      "transcript": "It is only natural that the moon should rule the tide.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_mirana_mir_rival_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_07.mp3",
+      "transcript": "My arrow pierces the wind.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_mirana_mir_rival_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_08.mp3",
+      "transcript": "What's this? A ranger caught off her guard?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_mirana_mir_rival_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_11.mp3",
+      "transcript": "Ah! My pet loves venison.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_mirana_mir_rival_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_13.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_13.mp3",
+      "transcript": "You'll make a fine hearth rug.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_mirana_mir_rival_13.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_14.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_14.mp3",
+      "transcript": "And now you are kitty litter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_mirana_mir_rival_14.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_15.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_15.mp3",
+      "transcript": "Your nights are at an end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_mirana_mir_rival_15.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_09.mp3",
+      "transcript": "A mounted bow will always claim victory.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_mirana_mir_rival_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_10.mp3",
+      "transcript": "Sagan has been eyeing your mount all day.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_mirana_mir_rival_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_12.mp3",
+      "transcript": "If you must dominate a beast to your cause, you have already lost.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_mirana_mir_rival_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rival_16.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rival_16.mp3",
+      "transcript": "Carl, meet Sagan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_mirana_mir_rival_16.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_firstblood_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_firstblood_01.mp3",
+      "transcript": "First blood! It was ours all along.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_mirana_mir_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ally_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ally_01.mp3",
+      "transcript": "Luna, come. We hunt!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_mirana_mir_ally_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ally_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ally_02.mp3",
+      "transcript": "Windrunner, how I envy your arrows' flight.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_mirana_mir_ally_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ally_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ally_03.mp3",
+      "transcript": "Drow, you are cold as the night.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_mirana_mir_ally_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_ally_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_ally_04.mp3",
+      "transcript": "Clinkz! We meet in a show of fury!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_mirana_mir_ally_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_02.mp3",
+      "transcript": "The prize is mine!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_mirana_mir_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_04.mp3",
+      "transcript": "This one's mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_mirana_mir_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_05.mp3",
+      "transcript": "Perfect.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_mirana_mir_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_06.mp3",
+      "transcript": "Perfect!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_mirana_mir_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_07.mp3",
+      "transcript": "Not a penny wasted!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_mirana_mir_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_08.mp3",
+      "transcript": "Thus you pay.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_mirana_mir_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_09.mp3",
+      "transcript": "Toward victory!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_mirana_mir_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_10.mp3",
+      "transcript": "Sparkles, like the stars.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_mirana_mir_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lasthit_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lasthit_12.mp3",
+      "transcript": "The cost of kibble.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_mirana_mir_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_happy_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_happy_02.mp3",
+      "transcript": "Purrr.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_mirana_mir_happy_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_mirana_mir_deny_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_02.mp3",
+      "transcript": "Nice try!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_mirana_mir_deny_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_03.mp3",
+      "transcript": "Snatched from the jaws of defeat!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_mirana_mir_deny_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_04.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_mirana_mir_deny_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_05.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_mirana_mir_deny_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_06.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_mirana_mir_deny_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_07.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_mirana_mir_deny_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_08.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_mirana_mir_deny_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_09.mp3",
+      "transcript": "Oh no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_mirana_mir_deny_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_10.mp3",
+      "transcript": "Oh no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_mirana_mir_deny_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_11.mp3",
+      "transcript": "We say no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_mirana_mir_deny_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_12.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_12.mp3",
+      "transcript": "We say no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_mirana_mir_deny_12.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_13.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_13.mp3",
+      "transcript": "You have no right.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_mirana_mir_deny_13.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_14.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_14.mp3",
+      "transcript": "You have no right.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_mirana_mir_deny_14.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_15.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_15.mp3",
+      "transcript": "That is ours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_mirana_mir_deny_15.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_16.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_16.mp3",
+      "transcript": "That is ours!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_mirana_mir_deny_16.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_17.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_17.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_mirana_mir_deny_17.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_18.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_18.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_mirana_mir_deny_18.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_deny_19.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_deny_19.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_mirana_mir_deny_19.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_purch_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_purch_01.mp3",
+      "transcript": "Mine at last!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_mirana_mir_purch_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_purch_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_purch_02.mp3",
+      "transcript": "Oh, how I've waited!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_mirana_mir_purch_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_purch_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_purch_03.mp3",
+      "transcript": "Mine at last!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_mirana_mir_purch_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_sceptor_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_sceptor_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_mirana_mir_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_sceptor_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_sceptor_02.mp3",
+      "transcript": "A lunar gift!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_mirana_mir_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_blink_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_mirana_mir_blink_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_blink_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_blink_02.mp3",
+      "transcript": "Sharp as the moon's crescent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_mirana_mir_blink_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_01.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_mirana_mir_item_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_02.mp3",
+      "transcript": "Diffusal Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_mirana_mir_item_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_03.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_mirana_mir_item_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_04.mp3",
+      "transcript": "Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_mirana_mir_item_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_05.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_mirana_mir_item_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_06.mp3",
+      "transcript": "Manta Style!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_mirana_mir_item_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_07.mp3",
+      "transcript": "Eye of Skadi!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_mirana_mir_item_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_item_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_item_08.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_mirana_mir_item_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_immort_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_mirana_mir_immort_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_immort_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_immort_02.mp3",
+      "transcript": "Death cannot stop us!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_mirana_mir_immort_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_mirana_mir_death_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_02.mp3",
+      "transcript": "I'll never bow!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_mirana_mir_death_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_03.mp3",
+      "transcript": "Damn you!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_mirana_mir_death_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_04.mp3",
+      "transcript": "We die!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_mirana_mir_death_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_05.mp3",
+      "transcript": "Death with honor!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_mirana_mir_death_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_06.mp3",
+      "transcript": "Stars, take me!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_mirana_mir_death_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_07.mp3",
+      "transcript": "Lucky shot…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_mirana_mir_death_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_death_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_death_08.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_mirana_mir_death_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_anger_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_anger_04.mp3",
+      "transcript": "Ahhhh!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_mirana_mir_anger_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_01.mp3",
+      "transcript": "We admit no defeat!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_mirana_mir_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_02.mp3",
+      "transcript": "What is this?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_mirana_mir_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_03.mp3",
+      "transcript": "You'll not stop us that easily!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_mirana_mir_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_04.mp3",
+      "transcript": "Again we ride.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_mirana_mir_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_05.mp3",
+      "transcript": "Leap to it!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_mirana_mir_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_respawn_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_respawn_06.mp3",
+      "transcript": "Once more into the breach!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_mirana_mir_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_fastres_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_fastres_01.mp3",
+      "transcript": "A new moon rises!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_mirana_mir_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_laugh_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_mirana_mir_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_bottle_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_bottle_01.mp3",
+      "transcript": "I'll save this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_mirana_mir_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_bottle_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_bottle_02.mp3",
+      "transcript": "Saving this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_mirana_mir_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_bottle_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_bottle_03.mp3",
+      "transcript": "This will come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_mirana_mir_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_drop_medium_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_drop_medium_02.mp3",
+      "transcript": "Selemene smiles upon me.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_mirana_mir_drop_medium_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_doubdam_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_doubdam_01.mp3",
+      "transcript": "Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_mirana_mir_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_doubdam_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_doubdam_02.mp3",
+      "transcript": "Now we'll really deal some damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_mirana_mir_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_haste_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_mirana_mir_haste_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_haste_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_haste_02.mp3",
+      "transcript": "Swifter than ever!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_mirana_mir_haste_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_illus_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_mirana_mir_illus_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_illus_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_illus_02.mp3",
+      "transcript": "You can't always trust your eyes!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_mirana_mir_illus_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_illus_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_illus_03.mp3",
+      "transcript": "Catch us if you can!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_mirana_mir_illus_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_invis_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_mirana_mir_invis_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_invis_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_invis_02.mp3",
+      "transcript": "We go unseen!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_mirana_mir_invis_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_regen_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_mirana_mir_regen_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_regen_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_regen_02.mp3",
+      "transcript": "Let the healing begin!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_mirana_mir_regen_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_mirana_mir_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_mirana_mir_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_mirana_mir_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_mirana_mir_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_mirana_mir_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_mirana_mir_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_mirana_mir_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_mirana_mir_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_notyet_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_mirana_mir_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_mirana_mir_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_mirana_mir_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_mirana_mir_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_mirana_mir_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_mirana_mir_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_mirana_mir_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_mirana_mir_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_mirana_mir_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_nomana_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_mirana_mir_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_01.mp3",
+      "transcript": "Uh ah ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_mirana_mir_pain_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_mirana_mir_pain_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_mirana_mir_pain_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_04.mp3",
+      "transcript": "Ah ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_mirana_mir_pain_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_mirana_mir_pain_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_mirana_mir_pain_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_07.mp3",
+      "transcript": "Uh ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_mirana_mir_pain_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_08.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_mirana_mir_pain_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_09.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_mirana_mir_pain_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_pain_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_pain_10.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_mirana_mir_pain_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_underattack_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_mirana_mir_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_01.mp3",
+      "transcript": "Mee-ow!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_mirana_mir_rare_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_02.mp3",
+      "transcript": "Purrrrrrr…..",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_mirana_mir_rare_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_03.mp3",
+      "transcript": "I hope no one here is allergic…to defeat.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_mirana_mir_rare_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_04.mp3",
+      "transcript": "Here, kitty-kitty-kitty….",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_mirana_mir_rare_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_05.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_05.mp3",
+      "transcript": "Nice kitty…very nice kitty…",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_mirana_mir_rare_05.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_06.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_06.mp3",
+      "transcript": "Nothing stirs the blood like battle. It's better than catnip!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_mirana_mir_rare_06.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_07.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_07.mp3",
+      "transcript": "I devoted my life to studying the stars for this?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_mirana_mir_rare_07.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_08.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_08.mp3",
+      "transcript": "Once this battle is over, my friend, you may leap to the moon as you will.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_mirana_mir_rare_08.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_09.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_09.mp3",
+      "transcript": "The stars are in alignment, and our victory is certain.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_mirana_mir_rare_09.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_10.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_10.mp3",
+      "transcript": "How long must we ride before we're summoned again to the Nightsilver Woods?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_mirana_mir_rare_10.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_rare_11.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_rare_11.mp3",
+      "transcript": "I had a vision of this place in the Temple of Mene, but I had no idea it was a prophecy.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_mirana_mir_rare_11.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_missing_lane_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_missing_lane_01.mp3",
+      "transcript": "Top is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_mirana_mir_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_missing_lane_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_missing_lane_02.mp3",
+      "transcript": "Middle is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_mirana_mir_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_missing_lane_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_missing_lane_03.mp3",
+      "transcript": "Bottom is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_mirana_mir_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_thanks_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_thanks_01.mp3",
+      "transcript": "Our thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_mirana_mir_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_thanks_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_thanks_02.mp3",
+      "transcript": "My pet thanks you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_mirana_mir_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_win_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_win_01.mp3",
+      "transcript": "Our victory was written in the stars!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_mirana_mir_win_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_win_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_win_02.mp3",
+      "transcript": "ha ha ha ha! Goddess rejoice!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_mirana_mir_win_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_win_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_win_03.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_mirana_mir_win_03.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_win_04.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_win_04.mp3",
+      "transcript": "Yes! Ha ha ha ha heh heh! Time to celebrate!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_mirana_mir_win_04.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lose_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lose_01.mp3",
+      "transcript": "How can this be?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_mirana_mir_lose_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_lose_02.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_lose_02.mp3",
+      "transcript": "There can be no forgiveness!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_mirana_mir_lose_02.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_drop_common_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_drop_common_01.mp3",
+      "transcript": "A gift from the night!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_mirana_mir_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_drop_rare_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_drop_rare_01.mp3",
+      "transcript": "Ah! Given by the moon in its fullness!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_mirana_mir_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_shitwiz_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_mirana_mir_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_crumwiz_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_mirana_mir_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_01.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_01.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_mirana_mir_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_mirana_mir_acknow_03.mp3",
+      "key": "dota2/mirana/Vo_mirana_mir_acknow_03.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_mirana_mir_acknow_03.mp3"
+    }
+  ]
+}

@@ -1,0 +1,4060 @@
+{
+  "hero": "Dragon Knight",
+  "slug": "dragon-knight",
+  "source": "https://liquipedia.net/dota2/Dragon_Knight/Responses",
+  "scrapedAt": "2026-06-17T13:21:15.785Z",
+  "count": 402,
+  "voicelines": [
+    {
+      "file": "Vo_dragon_knight_drag_spawn_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_spawn_01.mp3",
+      "transcript": "Dragon Knight.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_dragon_knight_drag_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_spawn_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_spawn_02.mp3",
+      "transcript": "The dragon comes for war.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_dragon_knight_drag_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_spawn_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_spawn_03.mp3",
+      "transcript": "I unsheathe the Wyrmblade.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_dragon_knight_drag_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_spawn_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_spawn_04.mp3",
+      "transcript": "A Knight in dragon's armor.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_dragon_knight_drag_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_battlebegins_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_battlebegins_01.mp3",
+      "transcript": "On your guard.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_dragon_knight_drag_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_04.mp3",
+      "transcript": "Compelled to battle.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_dragon_knight_drag_move_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_09.mp3",
+      "transcript": "The dragon wakes.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_dragon_knight_drag_move_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_10.mp3",
+      "transcript": "Who calls the dragon knight?",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_dragon_knight_drag_move_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_11.mp3",
+      "transcript": "Dragon to the fray.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_dragon_knight_drag_move_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_02.mp3",
+      "transcript": "By the honor of the ancients.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dragon_knight_drag_attack_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_06.mp3",
+      "transcript": "Our shields shall clash.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_dragon_knight_drag_attack_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_05.mp3",
+      "transcript": "In strength is victory.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_dragon_knight_drag_level_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_06.mp3",
+      "transcript": "Ohweh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_dragon_knight_drag_anger_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_spawn_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_spawn_01.mp3",
+      "transcript": "Dragon Knight.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_dragon_knight_dragon_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_spawn_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_spawn_02.mp3",
+      "transcript": "The dragon comes for war.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_dragon_knight_dragon_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_spawn_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_spawn_03.mp3",
+      "transcript": "I unsheathe the Wyrmblade.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_dragon_knight_dragon_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_spawn_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_spawn_04.mp3",
+      "transcript": "A Knight in dragon's armor.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_dragon_knight_dragon_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_inthebag_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_inthebag_02.mp3",
+      "transcript": "This my friends, is in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_dragon_knight_drag_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_inthebag_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_inthebag_02.mp3",
+      "transcript": "This my friends, is in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_dragon_knight_dragon_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_battlebegins_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_battlebegins_01.mp3",
+      "transcript": "On your guard.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_dragon_knight_dragon_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_battlebegins_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_battlebegins_02.mp3",
+      "transcript": "The tournament commences.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_dragon_knight_drag_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_battlebegins_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_battlebegins_02.mp3",
+      "transcript": "The tournament commences.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_dragon_knight_dragon_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_dragon_knight_drag_move_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_dragon_knight_dragon_move_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_dragon_knight_drag_move_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_dragon_knight_dragon_move_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_03.mp3",
+      "transcript": "Forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_dragon_knight_drag_move_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_03.mp3",
+      "transcript": "Forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_dragon_knight_dragon_move_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_04.mp3",
+      "transcript": "Compelled to battle.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_dragon_knight_dragon_move_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_05.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_dragon_knight_drag_move_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_05.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_dragon_knight_dragon_move_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_06.mp3",
+      "transcript": "I need no steed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_dragon_knight_drag_move_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_06.mp3",
+      "transcript": "I need no steed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_dragon_knight_dragon_move_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_07.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_dragon_knight_drag_move_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_07.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_dragon_knight_dragon_move_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_08.mp3",
+      "transcript": "By my blade.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_dragon_knight_drag_move_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_08.mp3",
+      "transcript": "By my blade.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dragon_knight_dragon_move_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_09.mp3",
+      "transcript": "The dragon wakes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_dragon_knight_dragon_move_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_10.mp3",
+      "transcript": "Who calls the dragon knight?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_dragon_knight_dragon_move_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_11.mp3",
+      "transcript": "Dragon to the fray.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_dragon_knight_dragon_move_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_move_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_move_12.mp3",
+      "transcript": "Swiftly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_dragon_knight_drag_move_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_move_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_move_12.mp3",
+      "transcript": "Swiftly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_dragon_knight_dragon_move_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_02.mp3",
+      "transcript": "Fly-by-night.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_dragon_knight_dragon_ability_eldrag_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_02.mp3",
+      "transcript": "Fly-by-night.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dragon_knight_drag_ability_eldrag_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dragon_knight_drag_attack_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_dragon_knight_dragon_attack_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_02.mp3",
+      "transcript": "By the honor of the ancients.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_dragon_knight_dragon_attack_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_03.mp3",
+      "transcript": "I'll notch your skull.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_dragon_knight_drag_attack_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_03.mp3",
+      "transcript": "I'll notch your skull.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_dragon_knight_dragon_attack_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_04.mp3",
+      "transcript": "Dragon charred.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_dragon_knight_drag_attack_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_04.mp3",
+      "transcript": "Dragon charred.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_dragon_knight_dragon_attack_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_05.mp3",
+      "transcript": "We cross swords.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_dragon_knight_drag_attack_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_05.mp3",
+      "transcript": "We cross swords.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_dragon_knight_dragon_attack_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_06.mp3",
+      "transcript": "Our shields shall clash.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_dragon_knight_dragon_attack_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_07.mp3",
+      "transcript": "Wyrmblade cuts deep!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_dragon_knight_drag_attack_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_07.mp3",
+      "transcript": "Wyrmblade cuts deep!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_dragon_knight_dragon_attack_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_08.mp3",
+      "transcript": "By the shield of Slyrak!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_dragon_knight_drag_attack_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_08.mp3",
+      "transcript": "By the shield of Slyrak!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dragon_knight_dragon_attack_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_09.mp3",
+      "transcript": "Dragonnade!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_dragon_knight_drag_attack_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_09.mp3",
+      "transcript": "Dragonnade!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_dragon_knight_dragon_attack_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_attack_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_attack_10.mp3",
+      "transcript": "This will only hurt a lot.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_dragon_knight_drag_attack_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_attack_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_attack_10.mp3",
+      "transcript": "This will only hurt a lot.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dragon_knight_dragon_attack_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_01.mp3",
+      "transcript": "Into a rage, I fly.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_dragon_knight_dragon_ability_eldrag_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_01.mp3",
+      "transcript": "Into a rage, I fly.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_dragon_knight_drag_ability_eldrag_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_cast_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_cast_01.mp3",
+      "transcript": "Enjoy your last moments.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_dragon_knight_drag_cast_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_cast_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_cast_01.mp3",
+      "transcript": "Enjoy your last moments.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_dragon_knight_dragon_cast_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_cast_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_cast_02.mp3",
+      "transcript": "Can't escape the dragon.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_dragon_knight_drag_cast_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_cast_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_cast_02.mp3",
+      "transcript": "Can't escape the dragon.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_dragon_knight_dragon_cast_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_cast_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_cast_03.mp3",
+      "transcript": "Soon, you end.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_dragon_knight_drag_cast_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_cast_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_cast_03.mp3",
+      "transcript": "Soon, you end.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dragon_knight_dragon_cast_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_04.mp3",
+      "transcript": "The inner dragon wakes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_dragon_knight_drag_ability_eldrag_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_04.mp3",
+      "transcript": "The inner dragon wakes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dragon_knight_dragon_ability_eldrag_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_05.mp3",
+      "transcript": "The world shall end in fire.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_dragon_knight_drag_ability_eldrag_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_05.mp3",
+      "transcript": "The world shall end in fire.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_dragon_knight_dragon_ability_eldrag_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_06.mp3",
+      "transcript": "Face the knight, face the dragon.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_dragon_knight_drag_ability_eldrag_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_06.mp3",
+      "transcript": "Face the knight, face the dragon.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_dragon_knight_dragon_ability_eldrag_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_01.mp3",
+      "transcript": "I soar higher.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_dragon_knight_drag_level_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_01.mp3",
+      "transcript": "I soar higher.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_dragon_knight_dragon_level_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_02.mp3",
+      "transcript": "Higher honor.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_dragon_knight_drag_level_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_02.mp3",
+      "transcript": "Higher honor.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_dragon_knight_dragon_level_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_03.mp3",
+      "transcript": "My armor grows stronger.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_dragon_knight_drag_level_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_03.mp3",
+      "transcript": "My armor grows stronger.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_dragon_knight_dragon_level_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_04.mp3",
+      "transcript": "Powers abounding.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_dragon_knight_drag_level_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_04.mp3",
+      "transcript": "Powers abounding.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_dragon_knight_dragon_level_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_05.mp3",
+      "transcript": "In strength is victory.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_dragon_knight_dragon_level_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_06.mp3",
+      "transcript": "He heh heh heh hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_dragon_knight_drag_level_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_06.mp3",
+      "transcript": "He heh heh heh hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_dragon_knight_dragon_level_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_level_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_level_07.mp3",
+      "transcript": "Heheheheheehhheh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_dragon_knight_drag_level_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_level_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_level_07.mp3",
+      "transcript": "Heheheheheehhheh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_dragon_knight_dragon_level_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_01.mp3",
+      "transcript": "Live by the sword, die by the dragon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_dragon_knight_drag_kill_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_01.mp3",
+      "transcript": "Live by the sword, die by the dragon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_dragon_knight_dragon_kill_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_02.mp3",
+      "transcript": "You, I smite.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_dragon_knight_drag_kill_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_02.mp3",
+      "transcript": "You, I smite.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dragon_knight_dragon_kill_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_03.mp3",
+      "transcript": "You've been dragooned.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_dragon_knight_drag_kill_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_03.mp3",
+      "transcript": "You've been dragooned.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_dragon_knight_dragon_kill_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_04.mp3",
+      "transcript": "Welcome to the dead of night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_dragon_knight_drag_kill_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_04.mp3",
+      "transcript": "Welcome to the dead of night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_dragon_knight_dragon_kill_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_05.mp3",
+      "transcript": "Let my face be the last thing you see.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_dragon_knight_drag_kill_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_05.mp3",
+      "transcript": "Let my face be the last thing you see.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_dragon_knight_dragon_kill_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_06.mp3",
+      "transcript": "You fought with honor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_dragon_knight_drag_kill_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_06.mp3",
+      "transcript": "You fought with honor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_dragon_knight_dragon_kill_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_07.mp3",
+      "transcript": "I'll char your bones.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_dragon_knight_drag_kill_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_07.mp3",
+      "transcript": "I'll char your bones.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_dragon_knight_dragon_kill_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_08.mp3",
+      "transcript": "May the eldwyrms carry you to rest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_dragon_knight_drag_kill_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_08.mp3",
+      "transcript": "May the eldwyrms carry you to rest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_dragon_knight_dragon_kill_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_09.mp3",
+      "transcript": "An honorable demise.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_dragon_knight_drag_kill_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_09.mp3",
+      "transcript": "An honorable demise.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_dragon_knight_dragon_kill_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_10.mp3",
+      "transcript": "I've killed dragons less deserving of death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_dragon_knight_drag_kill_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_10.mp3",
+      "transcript": "I've killed dragons less deserving of death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_dragon_knight_dragon_kill_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_11.mp3",
+      "transcript": "You fought and died with honor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_dragon_knight_drag_kill_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_11.mp3",
+      "transcript": "You fought and died with honor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_dragon_knight_dragon_kill_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_12.mp3",
+      "transcript": "I sheathe Wyrmblade in the scabbard of your bowels.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dragon_knight_drag_kill_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_12.mp3",
+      "transcript": "I sheathe Wyrmblade in the scabbard of your bowels.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_dragon_knight_dragon_kill_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_kill_13.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_kill_13.mp3",
+      "transcript": "Heh heh heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_dragon_knight_drag_kill_13.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_kill_13.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_kill_13.mp3",
+      "transcript": "Heh heh heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dragon_knight_dragon_kill_13.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_01.mp3",
+      "transcript": "Heh huh heh heh huh heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_dragon_knight_drag_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_01.mp3",
+      "transcript": "Heh huh heh heh huh heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_dragon_knight_dragon_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_02.mp3",
+      "transcript": "Heuh huh huh huh heh heh huh heh hah heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_dragon_knight_drag_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_02.mp3",
+      "transcript": "Heuh huh huh huh heh heh huh heh hah heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_dragon_knight_dragon_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_09.mp3",
+      "transcript": "Heehehah hehhehhah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_dragon_knight_drag_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_09.mp3",
+      "transcript": "Heehehah hehhehhah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_dragon_knight_dragon_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_10.mp3",
+      "transcript": "Heh uhuh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_dragon_knight_drag_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_10.mp3",
+      "transcript": "Heh uhuh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_dragon_knight_dragon_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_eldrag_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_eldrag_03.mp3",
+      "transcript": "Dragon nature unleashed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_dragon_knight_dragon_ability_eldrag_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_eldrag_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_eldrag_03.mp3",
+      "transcript": "Dragon nature unleashed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_dragon_knight_drag_ability_eldrag_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_jakiro_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_jakiro_01.mp3",
+      "transcript": "Even as a part time dragon, I have bested you Jakiro.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_dragon_knight_drag_jakiro_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_jakiro_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_jakiro_01.mp3",
+      "transcript": "Even as a part time dragon, I have bested you Jakiro.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_dragon_knight_dragon_jakiro_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lina_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lina_03.mp3",
+      "transcript": "Lina, what know you of dragons?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_dragon_knight_drag_lina_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lina_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lina_03.mp3",
+      "transcript": "Lina, what know you of dragons?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_dragon_knight_dragon_lina_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lina_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lina_02.mp3",
+      "transcript": "That's what you get, Lina, for enslaving dragons.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dragon_knight_drag_lina_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lina_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lina_02.mp3",
+      "transcript": "That's what you get, Lina, for enslaving dragons.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_dragon_knight_dragon_lina_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_sven_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_sven_01.mp3",
+      "transcript": "Sven, you have much to learn about fighting dragons.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_dragon_knight_drag_sven_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_sven_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_sven_01.mp3",
+      "transcript": "Sven, you have much to learn about fighting dragons.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_dragon_knight_dragon_sven_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_sven_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_sven_02.mp3",
+      "transcript": "Good night, Sven. I mean bad knight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_dragon_knight_drag_sven_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_sven_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_sven_02.mp3",
+      "transcript": "Good night, Sven. I mean bad knight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_dragon_knight_dragon_sven_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_sven_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_sven_03.mp3",
+      "transcript": "I'm the better Knight, Sven.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_dragon_knight_drag_sven_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_sven_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_sven_03.mp3",
+      "transcript": "I'm the better Knight, Sven.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_dragon_knight_dragon_sven_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_firstblood_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_firstblood_01.mp3",
+      "transcript": "First blood, heh heh heh he heh hah.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_dragon_knight_drag_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_firstblood_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_firstblood_01.mp3",
+      "transcript": "First blood, heh heh heh he heh hah.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_dragon_knight_dragon_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_firstblood_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_firstblood_02.mp3",
+      "transcript": "The dragon draws first blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_dragon_knight_drag_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_firstblood_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_firstblood_02.mp3",
+      "transcript": "The dragon draws first blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_dragon_knight_dragon_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_01.mp3",
+      "transcript": "I'll melt this down for armor.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_dragon_knight_drag_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_01.mp3",
+      "transcript": "I'll melt this down for armor.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_dragon_knight_dragon_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_02.mp3",
+      "transcript": "Put you out of misery.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dragon_knight_drag_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_02.mp3",
+      "transcript": "Put you out of misery.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_dragon_knight_dragon_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_03.mp3",
+      "transcript": "More gold for my hoard.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_dragon_knight_drag_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_03.mp3",
+      "transcript": "More gold for my hoard.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_dragon_knight_dragon_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_04.mp3",
+      "transcript": "Ah, dragon's gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_dragon_knight_drag_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_04.mp3",
+      "transcript": "Ah, dragon's gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_dragon_knight_dragon_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_05.mp3",
+      "transcript": "A worthy tribute.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_dragon_knight_drag_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_05.mp3",
+      "transcript": "A worthy tribute.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_dragon_knight_dragon_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_06.mp3",
+      "transcript": "You'll need no gold where you go.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dragon_knight_drag_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_06.mp3",
+      "transcript": "You'll need no gold where you go.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_dragon_knight_dragon_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_07.mp3",
+      "transcript": "Steel wins battles, gold wins wars.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_dragon_knight_drag_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_07.mp3",
+      "transcript": "Steel wins battles, gold wins wars.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_dragon_knight_dragon_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_08.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_dragon_knight_drag_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_08.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_dragon_knight_dragon_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_09.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_dragon_knight_drag_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_09.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_dragon_knight_dragon_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lasthit_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lasthit_10.mp3",
+      "transcript": "Heh heh heheh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_dragon_knight_drag_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lasthit_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lasthit_10.mp3",
+      "transcript": "Heh heh heheh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_dragon_knight_dragon_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_dragon_knight_drag_deny_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_dragon_knight_dragon_deny_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_dragon_knight_drag_deny_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_dragon_knight_dragon_deny_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_03.mp3",
+      "transcript": "I can't let you have that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_dragon_knight_drag_deny_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_03.mp3",
+      "transcript": "I can't let you have that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_dragon_knight_dragon_deny_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_04.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_dragon_knight_drag_deny_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_04.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_dragon_knight_dragon_deny_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_05.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_dragon_knight_drag_deny_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_05.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_dragon_knight_dragon_deny_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_06.mp3",
+      "transcript": "Not on my watch.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_dragon_knight_drag_deny_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_06.mp3",
+      "transcript": "Not on my watch.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_dragon_knight_dragon_deny_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_07.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_dragon_knight_drag_deny_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_07.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_dragon_knight_dragon_deny_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_08.mp3",
+      "transcript": "No money for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_dragon_knight_drag_deny_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_08.mp3",
+      "transcript": "No money for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_dragon_knight_dragon_deny_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_deny_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_deny_09.mp3",
+      "transcript": "You wanted that? He he heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_dragon_knight_drag_deny_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_deny_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_deny_09.mp3",
+      "transcript": "You wanted that? He he heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_dragon_knight_dragon_deny_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_purch_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_purch_01.mp3",
+      "transcript": "Just what I've been waiting for.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_dragon_knight_drag_purch_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_purch_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_purch_01.mp3",
+      "transcript": "Just what I've been waiting for.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dragon_knight_dragon_purch_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_purch_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_purch_02.mp3",
+      "transcript": "Worth its weight in gold.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dragon_knight_drag_purch_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_purch_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_purch_02.mp3",
+      "transcript": "Worth its weight in gold.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_dragon_knight_dragon_purch_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_purch_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_purch_03.mp3",
+      "transcript": "Worth all the gold in my lair.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_dragon_knight_drag_purch_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_purch_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_purch_03.mp3",
+      "transcript": "Worth all the gold in my lair.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_dragon_knight_dragon_purch_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_blink_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_dragon_knight_drag_blink_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_blink_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_dragon_knight_dragon_blink_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_blink_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_blink_02.mp3",
+      "transcript": "Ah, a blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_dragon_knight_drag_blink_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_blink_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_blink_02.mp3",
+      "transcript": "Ah, a blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dragon_knight_dragon_blink_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_scepter_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dragon_knight_drag_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_scepter_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_dragon_knight_dragon_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_scepter_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_scepter_02.mp3",
+      "transcript": "Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_dragon_knight_drag_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_scepter_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_scepter_02.mp3",
+      "transcript": "Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_dragon_knight_dragon_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_satanic_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_satanic_01.mp3",
+      "transcript": "Satanic.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_dragon_knight_drag_satanic_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_satanic_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_satanic_01.mp3",
+      "transcript": "Satanic.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_dragon_knight_dragon_satanic_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_assaultcuirass_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_assaultcuirass_01.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_dragon_knight_drag_assaultcuirass_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_assaultcuirass_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_assaultcuirass_01.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_dragon_knight_dragon_assaultcuirass_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_blackkingbar_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_blackkingbar_01.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_dragon_knight_drag_blackkingbar_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_blackkingbar_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_blackkingbar_01.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_dragon_knight_dragon_blackkingbar_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_immort_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_dragon_knight_drag_immort_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_immort_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_dragon_knight_dragon_immort_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_immort_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_immort_02.mp3",
+      "transcript": "Dragons live forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_dragon_knight_drag_immort_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_immort_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_immort_02.mp3",
+      "transcript": "Dragons live forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dragon_knight_dragon_immort_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_dragon_knight_drag_death_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_dragon_knight_dragon_death_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_02.mp3",
+      "transcript": "Valorous death.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_dragon_knight_drag_death_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_02.mp3",
+      "transcript": "Valorous death.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_dragon_knight_dragon_death_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_03.mp3",
+      "transcript": "Night falls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_dragon_knight_drag_death_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_03.mp3",
+      "transcript": "Night falls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_dragon_knight_dragon_death_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_04.mp3",
+      "transcript": "I die with honor.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_dragon_knight_drag_death_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_04.mp3",
+      "transcript": "I die with honor.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_dragon_knight_dragon_death_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_05.mp3",
+      "transcript": "My fire…goes out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dragon_knight_drag_death_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_05.mp3",
+      "transcript": "My fire…goes out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_dragon_knight_dragon_death_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_06.mp3",
+      "transcript": "The dragon is slain.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_dragon_knight_drag_death_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_06.mp3",
+      "transcript": "The dragon is slain.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_dragon_knight_dragon_death_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_07.mp3",
+      "transcript": "Lay scales…on my eyes.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_dragon_knight_drag_death_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_07.mp3",
+      "transcript": "Lay scales…on my eyes.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dragon_knight_dragon_death_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_08.mp3",
+      "transcript": "I join the Eldwurms.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_dragon_knight_drag_death_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_08.mp3",
+      "transcript": "I join the Eldwurms.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_dragon_knight_dragon_death_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_09.mp3",
+      "transcript": "The scales fall away.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_dragon_knight_drag_death_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_09.mp3",
+      "transcript": "The scales fall away.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_dragon_knight_dragon_death_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_10.mp3",
+      "transcript": "Bury me on my shield.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_dragon_knight_drag_death_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_10.mp3",
+      "transcript": "Bury me on my shield.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_dragon_knight_dragon_death_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_11.mp3",
+      "transcript": "Slyrak…fails me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_dragon_knight_drag_death_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_11.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_11.mp3",
+      "transcript": "Slyrak…fails me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_dragon_knight_dragon_death_11.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_death_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_death_12.mp3",
+      "transcript": "Death has swift wings.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_dragon_knight_drag_death_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_death_12.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_death_12.mp3",
+      "transcript": "Death has swift wings.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_dragon_knight_dragon_death_12.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_jakiro_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_jakiro_02.mp3",
+      "transcript": "Jakiro!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_dragon_knight_drag_jakiro_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_jakiro_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_jakiro_02.mp3",
+      "transcript": "Jakiro!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_dragon_knight_dragon_jakiro_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_01.mp3",
+      "transcript": "Ah, a chance to redeem my honor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_dragon_knight_drag_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_01.mp3",
+      "transcript": "Ah, a chance to redeem my honor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_dragon_knight_dragon_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_02.mp3",
+      "transcript": "My valor shall be proven this day.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_dragon_knight_drag_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_02.mp3",
+      "transcript": "My valor shall be proven this day.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_dragon_knight_dragon_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_03.mp3",
+      "transcript": "The shield of scale protects me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_dragon_knight_drag_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_03.mp3",
+      "transcript": "The shield of scale protects me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_dragon_knight_dragon_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_04.mp3",
+      "transcript": "The dragon rises from the ashes it has sown.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_dragon_knight_drag_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_04.mp3",
+      "transcript": "The dragon rises from the ashes it has sown.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_dragon_knight_dragon_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_05.mp3",
+      "transcript": "I draw Wyrmblade once more from its scabbard.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_dragon_knight_drag_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_05.mp3",
+      "transcript": "I draw Wyrmblade once more from its scabbard.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_dragon_knight_dragon_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_06.mp3",
+      "transcript": "Another transformation.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_dragon_knight_drag_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_06.mp3",
+      "transcript": "Another transformation.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_dragon_knight_dragon_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_07.mp3",
+      "transcript": "I'll not sheathe Wyrmblade 'til it's been blooded.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_dragon_knight_drag_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_07.mp3",
+      "transcript": "I'll not sheathe Wyrmblade 'til it's been blooded.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_dragon_knight_dragon_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_08.mp3",
+      "transcript": "The sleeping dragon wakes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_dragon_knight_drag_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_08.mp3",
+      "transcript": "The sleeping dragon wakes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_dragon_knight_dragon_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_09.mp3",
+      "transcript": "Valor calls to valor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_dragon_knight_drag_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_09.mp3",
+      "transcript": "Valor calls to valor.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_dragon_knight_dragon_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_respawn_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_respawn_10.mp3",
+      "transcript": "Armored and dangerous.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_dragon_knight_drag_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_respawn_10.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_respawn_10.mp3",
+      "transcript": "Armored and dangerous.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_dragon_knight_dragon_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_aegis_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_aegis_01.mp3",
+      "transcript": "T'hah hah, hah hah hah, you're not done with me yet!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_dragon_knight_drag_aegis_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_aegis_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_aegis_01.mp3",
+      "transcript": "T'hah hah, hah hah hah, you're not done with me yet!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_dragon_knight_dragon_aegis_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_bottle_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_dragon_knight_drag_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_bottle_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_dragon_knight_dragon_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_bottle_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_bottle_02.mp3",
+      "transcript": "Into the bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_dragon_knight_drag_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_bottle_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_bottle_02.mp3",
+      "transcript": "Into the bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_dragon_knight_dragon_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_bottle_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_bottle_03.mp3",
+      "transcript": "I'll bottle this for now.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_dragon_knight_drag_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_bottle_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_bottle_03.mp3",
+      "transcript": "I'll bottle this for now.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_dragon_knight_dragon_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_doubdam_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_dragon_knight_drag_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_doubdam_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_dragon_knight_dragon_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_doubdam_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_doubdam_02.mp3",
+      "transcript": "Double dragon, twice the slice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_dragon_knight_drag_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_doubdam_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_doubdam_02.mp3",
+      "transcript": "Double dragon, twice the slice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_dragon_knight_dragon_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_haste_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_dragon_knight_drag_haste_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_haste_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_dragon_knight_dragon_haste_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_haste_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_haste_02.mp3",
+      "transcript": "Fast as a diving dragon.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_dragon_knight_drag_haste_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_haste_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_haste_02.mp3",
+      "transcript": "Fast as a diving dragon.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_dragon_knight_dragon_haste_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_illus_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_dragon_knight_drag_illus_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_illus_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_dragon_knight_dragon_illus_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_illus_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_illus_02.mp3",
+      "transcript": "Thrice the knight.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dragon_knight_drag_illus_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_illus_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_illus_02.mp3",
+      "transcript": "Thrice the knight.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_dragon_knight_dragon_illus_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_invis_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_dragon_knight_drag_invis_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_invis_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dragon_knight_dragon_invis_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_invis_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_invis_02.mp3",
+      "transcript": "What you can't see, will kill you.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_dragon_knight_drag_invis_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_invis_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_invis_02.mp3",
+      "transcript": "What you can't see, will kill you.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_dragon_knight_dragon_invis_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_regen_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_dragon_knight_drag_regen_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_regen_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_dragon_knight_dragon_regen_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_regen_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_regen_02.mp3",
+      "transcript": "My scales shine like new.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_dragon_knight_drag_regen_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_regen_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_regen_02.mp3",
+      "transcript": "My scales shine like new.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_dragon_knight_dragon_regen_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_dragon_knight_drag_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_dragon_knight_dragon_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_dragon_knight_drag_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_dragon_knight_dragon_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_dragon_knight_drag_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_dragon_knight_dragon_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_dragon_knight_drag_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_dragon_knight_dragon_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_dragon_knight_drag_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_dragon_knight_dragon_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_dragon_knight_drag_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dragon_knight_dragon_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_dragon_knight_drag_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_dragon_knight_dragon_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_dragon_knight_drag_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_dragon_knight_dragon_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_notyet_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_dragon_knight_drag_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_notyet_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_dragon_knight_dragon_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_dragon_knight_drag_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dragon_knight_dragon_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_dragon_knight_drag_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_dragon_knight_dragon_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_dragon_knight_drag_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_dragon_knight_dragon_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_dragon_knight_drag_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_dragon_knight_dragon_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_dragon_knight_drag_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_dragon_knight_dragon_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_dragon_knight_drag_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_dragon_knight_dragon_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_dragon_knight_drag_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_dragon_knight_dragon_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_dragon_knight_drag_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dragon_knight_dragon_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_nomana_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_dragon_knight_drag_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_nomana_09.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_dragon_knight_dragon_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_01.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_dragon_knight_drag_pain_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_01.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_dragon_knight_dragon_pain_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_02.mp3",
+      "transcript": "ehg.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_dragon_knight_drag_pain_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_02.mp3",
+      "transcript": "ehg.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_dragon_knight_dragon_pain_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_03.mp3",
+      "transcript": "Egh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_dragon_knight_drag_pain_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_03.mp3",
+      "transcript": "Egh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_dragon_knight_dragon_pain_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_04.mp3",
+      "transcript": "Eheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_dragon_knight_drag_pain_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_04.mp3",
+      "transcript": "Eheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_dragon_knight_dragon_pain_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_05.mp3",
+      "transcript": "Eagheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_dragon_knight_drag_pain_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_05.mp3",
+      "transcript": "Eagheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_dragon_knight_dragon_pain_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_06.mp3",
+      "transcript": "Bphff.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_dragon_knight_drag_pain_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_06.mp3",
+      "transcript": "Bphff.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_dragon_knight_dragon_pain_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_07.mp3",
+      "transcript": "Agheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_dragon_knight_drag_pain_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_07.mp3",
+      "transcript": "Agheh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_dragon_knight_dragon_pain_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_pain_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_pain_08.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dragon_knight_drag_pain_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_pain_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_pain_08.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_dragon_knight_dragon_pain_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_underattack_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_dragon_knight_drag_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_underattack_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_dragon_knight_dragon_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_underattack_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_underattack_02.mp3",
+      "transcript": "Requesting reinforcements.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_dragon_knight_drag_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_underattack_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_underattack_02.mp3",
+      "transcript": "Requesting reinforcements.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_dragon_knight_dragon_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_rare_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_rare_01.mp3",
+      "transcript": "Never make a deal with a dragon, unless you're prepared to keep your end of it.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_dragon_knight_drag_rare_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_rare_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_rare_01.mp3",
+      "transcript": "Never make a deal with a dragon, unless you're prepared to keep your end of it.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_dragon_knight_dragon_rare_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_rare_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_rare_02.mp3",
+      "transcript": "The dragon Slyrak sleeps within this armor, and the knight within the Dragon waits. Beware you do not wake them both.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_dragon_knight_drag_rare_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_rare_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_rare_02.mp3",
+      "transcript": "The dragon Slyrak sleeps within this armor, and the knight within the Dragon waits. Beware you do not wake them both.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_dragon_knight_dragon_rare_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_rare_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_rare_03.mp3",
+      "transcript": "The wisdom of the Eldwurms, fused with the valor of the ageless knight: this is the source of my nobility.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_dragon_knight_drag_rare_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_rare_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_rare_03.mp3",
+      "transcript": "The wisdom of the Eldwurms, fused with the valor of the ageless knight: this is the source of my nobility.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_dragon_knight_dragon_rare_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_thanks_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_dragon_knight_drag_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_thanks_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_dragon_knight_dragon_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_thanks_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_thanks_02.mp3",
+      "transcript": "With thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_dragon_knight_drag_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_thanks_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_thanks_02.mp3",
+      "transcript": "With thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_dragon_knight_dragon_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_thanks_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_thanks_03.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_dragon_knight_drag_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_thanks_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_thanks_03.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_dragon_knight_dragon_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_03.mp3",
+      "transcript": "Heuh huh huh huh heh heh.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dragon_knight_drag_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_03.mp3",
+      "transcript": "Heuh huh huh huh heh heh.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_dragon_knight_dragon_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_04.mp3",
+      "transcript": "Heh huh heh heh huh heh hah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_dragon_knight_drag_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_04.mp3",
+      "transcript": "Heh huh heh heh huh heh hah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_dragon_knight_dragon_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_05.mp3",
+      "transcript": "Hah heh heh hah heh he.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_dragon_knight_drag_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_05.mp3",
+      "transcript": "Hah heh heh hah heh he.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_dragon_knight_dragon_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_06.mp3",
+      "transcript": "Meh heh huh heh heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_dragon_knight_drag_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_06.mp3",
+      "transcript": "Meh heh huh heh heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_dragon_knight_dragon_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_07.mp3",
+      "transcript": "Tehh, heh he huh heh heh huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dragon_knight_drag_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_07.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_07.mp3",
+      "transcript": "Tehh, heh he huh heh heh huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_dragon_knight_dragon_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_laugh_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_laugh_08.mp3",
+      "transcript": "Tehheh hahha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_dragon_knight_drag_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_laugh_08.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_laugh_08.mp3",
+      "transcript": "Tehheh hahha.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_dragon_knight_dragon_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_win_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_dragon_knight_drag_win_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_win_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_dragon_knight_dragon_win_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_win_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_dragon_knight_drag_win_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_win_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_dragon_knight_dragon_win_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_win_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_win_03.mp3",
+      "transcript": "The dragon will not be denied!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_dragon_knight_drag_win_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_win_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_win_03.mp3",
+      "transcript": "The dragon will not be denied!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_dragon_knight_dragon_win_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lose_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_dragon_knight_drag_lose_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lose_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_dragon_knight_dragon_lose_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lose_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lose_02.mp3",
+      "transcript": "Defffeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_dragon_knight_drag_lose_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lose_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lose_02.mp3",
+      "transcript": "Defffeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_dragon_knight_dragon_lose_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_lose_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_lose_03.mp3",
+      "transcript": "Snuffed out.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dragon_knight_drag_lose_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_lose_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_lose_03.mp3",
+      "transcript": "Snuffed out.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_dragon_knight_dragon_lose_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_happy_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_happy_05.mp3",
+      "transcript": "Heh heheheh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_dragon_knight_drag_happy_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_happy_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_happy_05.mp3",
+      "transcript": "Heh heheheh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_dragon_knight_dragon_happy_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_failure_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_failure_01.mp3",
+      "transcript": "Fails!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_dragon_knight_drag_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_failure_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_failure_01.mp3",
+      "transcript": "Fails!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_dragon_knight_dragon_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_failure_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_failure_02.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_dragon_knight_drag_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_failure_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_failure_02.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_dragon_knight_dragon_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_ability_failure_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_ability_failure_03.mp3",
+      "transcript": "Ahhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dragon_knight_drag_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_ability_failure_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_ability_failure_03.mp3",
+      "transcript": "Ahhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_dragon_knight_dragon_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_shitwiz_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_dragon_knight_drag_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_shitwiz_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_dragon_knight_dragon_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_crumwiz_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_dragon_knight_drag_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_crumwiz_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_dragon_knight_dragon_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_01.mp3",
+      "transcript": "Haehhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_dragon_knight_drag_anger_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_01.mp3",
+      "transcript": "Haehhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_dragon_knight_dragon_anger_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_02.mp3",
+      "transcript": "Haerrrh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_dragon_knight_drag_anger_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_02.mp3",
+      "transcript": "Haerrrh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dragon_knight_dragon_anger_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_03.mp3",
+      "transcript": "Braerr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dragon_knight_drag_anger_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_03.mp3",
+      "transcript": "Braerr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_dragon_knight_dragon_anger_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_04.mp3",
+      "transcript": "Bahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_dragon_knight_drag_anger_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_04.mp3",
+      "transcript": "Bahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_dragon_knight_dragon_anger_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_anger_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_anger_05.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_dragon_knight_drag_anger_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_05.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_05.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_dragon_knight_dragon_anger_05.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_anger_06.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_anger_06.mp3",
+      "transcript": "Ohweh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_dragon_knight_dragon_anger_06.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_happy_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_happy_01.mp3",
+      "transcript": "Ahuehhh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_dragon_knight_drag_happy_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_happy_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_happy_01.mp3",
+      "transcript": "Ahuehhh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_dragon_knight_dragon_happy_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_happy_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_happy_02.mp3",
+      "transcript": "Ehuhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_dragon_knight_drag_happy_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_happy_02.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_happy_02.mp3",
+      "transcript": "Ehuhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_dragon_knight_dragon_happy_02.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_happy_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_happy_03.mp3",
+      "transcript": "Ughheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_dragon_knight_drag_happy_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_happy_03.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_happy_03.mp3",
+      "transcript": "Ughheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_dragon_knight_dragon_happy_03.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_happy_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_happy_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_dragon_knight_drag_happy_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_happy_04.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_happy_04.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_dragon_knight_dragon_happy_04.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_drag_dragonsound_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_drag_dragonsound_01.mp3",
+      "transcript": "Uhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dragon_knight_drag_dragonsound_01.mp3"
+    },
+    {
+      "file": "Vo_dragon_knight_dragon_dragonsound_01.mp3",
+      "key": "dota2/dragon-knight/Vo_dragon_knight_dragon_dragonsound_01.mp3",
+      "transcript": "Uhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_dragon_knight_dragon_dragonsound_01.mp3"
+    }
+  ]
+}

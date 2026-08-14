@@ -1,0 +1,2440 @@
+{
+  "hero": "Vengeful Spirit",
+  "slug": "vengeful-spirit",
+  "source": "https://liquipedia.net/dota2/Vengeful_Spirit/Responses",
+  "scrapedAt": "2026-06-17T14:09:35.926Z",
+  "count": 241,
+  "voicelines": [
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_01.mp3",
+      "transcript": "Vengeful Spirit…",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_vengefulspirit_vng_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_02.mp3",
+      "transcript": "I am Vengeful Spirit.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_vengefulspirit_vng_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_03.mp3",
+      "transcript": "My name is Vengeance…",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_vengefulspirit_vng_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_04.mp3",
+      "transcript": "Vengeance is my mistress.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_vengefulspirit_vng_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_05.mp3",
+      "transcript": "Call me Vengeance.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_vengefulspirit_vng_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_06.mp3",
+      "transcript": "I am Vengeance!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_vengefulspirit_vng_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_spawn_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_spawn_07.mp3",
+      "transcript": "Let it begin!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_vengefulspirit_vng_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_04.mp3",
+      "transcript": "Let my vengeance soar!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_vengefulspirit_vng_move_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_05.mp3",
+      "transcript": "Vengeance flies beside me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_vengefulspirit_vng_move_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_06.mp3",
+      "transcript": "With a vengeance!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_vengefulspirit_vng_move_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_13.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_13.mp3",
+      "transcript": "By Scree'auk's talons!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_vengefulspirit_vng_attack_13.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_levelup_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_levelup_02.mp3",
+      "transcript": "Power like a promise of revenge!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_vengefulspirit_vng_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_04.mp3",
+      "transcript": "Aaaah!",
+      "categories": [
+        "Drafting",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_vengefulspirit_vng_anger_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_inthebag_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_vengefulspirit_vng_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_cast_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_cast_01.mp3",
+      "transcript": "The time has come!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_vengefulspirit_vng_cast_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_battlebegins_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_battlebegins_01.mp3",
+      "transcript": "I fly on the winds of war!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_vengefulspirit_vng_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_battlebegins_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_battlebegins_02.mp3",
+      "transcript": "In I fly on the winds of vengeance!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_vengefulspirit_vng_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_vengefulspirit_vng_move_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_02.mp3",
+      "transcript": "I fly!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_vengefulspirit_vng_move_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_03.mp3",
+      "transcript": "To battle!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_vengefulspirit_vng_move_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_07.mp3",
+      "transcript": "If I must…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_vengefulspirit_vng_move_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_08.mp3",
+      "transcript": "The time has come…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_vengefulspirit_vng_move_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_09.mp3",
+      "transcript": "As you wish…",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_vengefulspirit_vng_move_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_10.mp3",
+      "transcript": "I am there.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_vengefulspirit_vng_move_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_11.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_vengefulspirit_vng_move_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_12.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_12.mp3",
+      "transcript": "My sentiments precisely.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_vengefulspirit_vng_move_12.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_13.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_13.mp3",
+      "transcript": "As you wish.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_vengefulspirit_vng_move_13.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_14.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_14.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_vengefulspirit_vng_move_14.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_15.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_15.mp3",
+      "transcript": "Faster!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_vengefulspirit_vng_move_15.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_16.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_16.mp3",
+      "transcript": "If you insist.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_vengefulspirit_vng_move_16.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_move_17.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_move_17.mp3",
+      "transcript": "I'll not argue.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_vengefulspirit_vng_move_17.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_acknow_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_acknow_01.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_vengefulspirit_vng_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_acknow_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_acknow_02.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_vengefulspirit_vng_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_acknow_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_acknow_03.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_vengefulspirit_vng_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_01.mp3",
+      "transcript": "At last!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_vengefulspirit_vng_attack_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_02.mp3",
+      "transcript": "You are mine!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_vengefulspirit_vng_attack_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_03.mp3",
+      "transcript": "Fly to it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_vengefulspirit_vng_attack_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_04.mp3",
+      "transcript": "You shall feel my talons!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_vengefulspirit_vng_attack_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_05.mp3",
+      "transcript": "By my wings!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_vengefulspirit_vng_attack_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_06.mp3",
+      "transcript": "By the Bloody Pinion!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_vengefulspirit_vng_attack_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_07.mp3",
+      "transcript": "Feel my pain!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_vengefulspirit_vng_attack_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_08.mp3",
+      "transcript": "Die!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_vengefulspirit_vng_attack_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_09.mp3",
+      "transcript": "Death to you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_vengefulspirit_vng_attack_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_10.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_vengefulspirit_vng_attack_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_11.mp3",
+      "transcript": "By Scree'auk!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_vengefulspirit_vng_attack_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_12.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_12.mp3",
+      "transcript": "The Skywrath's talons tear you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_vengefulspirit_vng_attack_12.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_14.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_14.mp3",
+      "transcript": "By the bloody pinions of Avilliva!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_vengefulspirit_vng_attack_14.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_attack_15.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_attack_15.mp3",
+      "transcript": "You shall be broken like my wings!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_vengefulspirit_vng_attack_15.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_05.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_vengefulspirit_vng_anger_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_cast_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_cast_02.mp3",
+      "transcript": "At last!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_vengefulspirit_vng_cast_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_cast_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_cast_03.mp3",
+      "transcript": "My vengeance is in readiness…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_vengefulspirit_vng_cast_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_cast_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_cast_04.mp3",
+      "transcript": "I will slake my thirst for revenge.",
+      "categories": [
+        "Ordering a spell cast",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_vengefulspirit_vng_cast_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_cast_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_cast_05.mp3",
+      "transcript": "Magic Missile!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_vengefulspirit_vng_cast_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_01.mp3",
+      "transcript": "Ahhah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_vengefulspirit_vng_ability_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_02.mp3",
+      "transcript": "Ha heh ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_vengefulspirit_vng_ability_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_03.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_vengefulspirit_vng_ability_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_04.mp3",
+      "transcript": "Haaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_vengefulspirit_vng_ability_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_05.mp3",
+      "transcript": "Haaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_vengefulspirit_vng_ability_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_06.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_vengefulspirit_vng_ability_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_07.mp3",
+      "transcript": "Aaah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_vengefulspirit_vng_ability_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_08.mp3",
+      "transcript": "Yah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_vengefulspirit_vng_ability_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ability_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ability_09.mp3",
+      "transcript": "Naaah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_vengefulspirit_vng_ability_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_02.mp3",
+      "transcript": "Ah ha ha ha ha ha.",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_vengefulspirit_vng_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_05.mp3",
+      "transcript": "Heh ha!",
+      "categories": [
+        "Leveling up",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_vengefulspirit_vng_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_levelup_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_levelup_01.mp3",
+      "transcript": "Let me stretch my wings!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_vengefulspirit_vng_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_levelup_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_levelup_03.mp3",
+      "transcript": "May the skies surrender to me!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_vengefulspirit_vng_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_levelup_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_levelup_04.mp3",
+      "transcript": "My spirit soars!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_vengefulspirit_vng_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_levelup_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_levelup_05.mp3",
+      "transcript": "Sweet as vengeance!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_vengefulspirit_vng_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_01.mp3",
+      "transcript": "So sweet…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_vengefulspirit_vng_kill_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_02.mp3",
+      "transcript": "Vengeance is so sweet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_vengefulspirit_vng_kill_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_04.mp3",
+      "transcript": "By the will of Scree'auk!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_vengefulspirit_vng_kill_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_05.mp3",
+      "transcript": "In the name of Scree'auk!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_vengefulspirit_vng_kill_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_06.mp3",
+      "transcript": "Fortune favors vengeance!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_vengefulspirit_vng_kill_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_03.mp3",
+      "transcript": "Mwahahhahahahahahaha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_vengefulspirit_vng_deny_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_04.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_vengefulspirit_vng_deny_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_happy_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_vengefulspirit_vng_happy_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_01.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_vengefulspirit_vng_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_03.mp3",
+      "transcript": "Ah ahahahahahahaha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_vengefulspirit_vng_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_04.mp3",
+      "transcript": "Ah ahahahahahahahah ahahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_vengefulspirit_vng_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_laugh_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_vengefulspirit_vng_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_07.mp3",
+      "transcript": "You were no match for me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_vengefulspirit_vng_kill_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_08.mp3",
+      "transcript": "May you fall forever.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_vengefulspirit_vng_kill_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_09.mp3",
+      "transcript": "The sky despised the look of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_vengefulspirit_vng_kill_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_10.mp3",
+      "transcript": "My goddess wished you dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_vengefulspirit_vng_kill_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_11.mp3",
+      "transcript": "Despicable!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_vengefulspirit_vng_kill_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_12.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_12.mp3",
+      "transcript": "It feels good to get that off my chest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_vengefulspirit_vng_kill_12.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_02.mp3",
+      "transcript": "Flight is a gift you do not deserve, Batrider.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_vengefulspirit_vng_rival_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_03.mp3",
+      "transcript": "If I cannot fly, neither should you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_vengefulspirit_vng_rival_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_04.mp3",
+      "transcript": "Even a dragon must respect the Skywrath!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_vengefulspirit_vng_rival_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_06.mp3",
+      "transcript": "Your poison shadow is now but a crater.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_vengefulspirit_vng_rival_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_07.mp3",
+      "transcript": "You are unworthy of wings.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_vengefulspirit_vng_rival_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_08.mp3",
+      "transcript": "Wings do not become you, Dragon Knight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_vengefulspirit_vng_rival_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_09.mp3",
+      "transcript": "Did you not see me coming?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_vengefulspirit_vng_rival_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_10.mp3",
+      "transcript": "I am beyond your gaze, Death Prophet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_vengefulspirit_vng_rival_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_11.mp3",
+      "transcript": "I've heard enough from gods for two lifetimes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_vengefulspirit_vng_rival_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_12.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_12.mp3",
+      "transcript": "The Storm Spirit, blown away.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_vengefulspirit_vng_rival_12.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_13.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_13.mp3",
+      "transcript": "Face oblivion, Spirit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_vengefulspirit_vng_rival_13.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_14.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_14.mp3",
+      "transcript": "I'll tear the wings from your little corpse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_vengefulspirit_vng_rival_14.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_15.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_15.mp3",
+      "transcript": "You will beg for forgiveness, Dragonus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_vengefulspirit_vng_rival_15.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_16.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_16.mp3",
+      "transcript": "I have surpassed your treachery, Dragonus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_vengefulspirit_vng_rival_16.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_17.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_17.mp3",
+      "transcript": "Only a true-born deserves to be called Skywrath.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_vengefulspirit_vng_rival_17.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_01.mp3",
+      "transcript": "Grounded.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_vengefulspirit_vng_rival_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rival_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rival_05.mp3",
+      "transcript": "Your wings are clipped.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_vengefulspirit_vng_rival_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_firstblood_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_firstblood_01.mp3",
+      "transcript": "That was but a first taste of revenge. Nn ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_vengefulspirit_vng_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ally_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ally_01.mp3",
+      "transcript": "Could I borrow your wings, Dragon Knight?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_vengefulspirit_vng_ally_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ally_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ally_02.mp3",
+      "transcript": "Room for two, Batrider?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_vengefulspirit_vng_ally_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ally_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ally_03.mp3",
+      "transcript": "The green shadow takes wing!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_vengefulspirit_vng_ally_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ally_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ally_04.mp3",
+      "transcript": "How fare the Skywrath, Dragonus?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_vengefulspirit_vng_ally_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_ally_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_ally_05.mp3",
+      "transcript": "Cast your shadow over them, Jakiro.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_vengefulspirit_vng_ally_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_vengefulspirit_vng_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_02.mp3",
+      "transcript": "Delicious…",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_vengefulspirit_vng_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_happy_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_vengefulspirit_vng_happy_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_03.mp3",
+      "transcript": "Worthless one.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_vengefulspirit_vng_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_04.mp3",
+      "transcript": "Twill have to do.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_vengefulspirit_vng_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_05.mp3",
+      "transcript": "All mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_vengefulspirit_vng_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_06.mp3",
+      "transcript": "I'll take it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_vengefulspirit_vng_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_07.mp3",
+      "transcript": "To line my nest.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_vengefulspirit_vng_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lasthit_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lasthit_08.mp3",
+      "transcript": "I can't resist.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_vengefulspirit_vng_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_vengefulspirit_vng_deny_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_02.mp3",
+      "transcript": "Not so fast!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_vengefulspirit_vng_deny_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_05.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_vengefulspirit_vng_deny_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_06.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_vengefulspirit_vng_deny_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_07.mp3",
+      "transcript": "Oh, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_vengefulspirit_vng_deny_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_08.mp3",
+      "transcript": "Not that way.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_vengefulspirit_vng_deny_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_09.mp3",
+      "transcript": "This is how is done.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_vengefulspirit_vng_deny_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_10.mp3",
+      "transcript": "Savory.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_vengefulspirit_vng_deny_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_11.mp3",
+      "transcript": "Mwahahaha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_vengefulspirit_vng_deny_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_12.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_12.mp3",
+      "transcript": "Mwaaa haha hahaha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_vengefulspirit_vng_deny_12.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_13.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_13.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_vengefulspirit_vng_deny_13.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_deny_14.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_vengefulspirit_vng_deny_14.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_purch_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_purch_01.mp3",
+      "transcript": "I've waited so long.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_vengefulspirit_vng_purch_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_purch_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_purch_02.mp3",
+      "transcript": "Mine at last",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_vengefulspirit_vng_purch_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_blink_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_blink_01.mp3",
+      "transcript": "Blink Dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_vengefulspirit_vng_blink_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_blink_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_blink_02.mp3",
+      "transcript": "Blink Dagger, you shall be my wings!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_vengefulspirit_vng_blink_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_01.mp3",
+      "transcript": "Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_vengefulspirit_vng_item_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_02.mp3",
+      "transcript": "Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_vengefulspirit_vng_item_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_03.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_vengefulspirit_vng_item_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_04.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_vengefulspirit_vng_item_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_05.mp3",
+      "transcript": "Manta Style!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_vengefulspirit_vng_item_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_06.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_vengefulspirit_vng_item_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_07.mp3",
+      "transcript": "Vladmir!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_vengefulspirit_vng_item_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_08.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_vengefulspirit_vng_item_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_item_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_item_09.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_vengefulspirit_vng_item_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_sceptor_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_sceptor_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_vengefulspirit_vng_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_sceptor_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_sceptor_02.mp3",
+      "transcript": "Beautiful scepter of revenge!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_vengefulspirit_vng_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_immort_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_vengefulspirit_vng_immort_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_immort_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_immort_02.mp3",
+      "transcript": "Death cannot touch me!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_vengefulspirit_vng_immort_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_immort_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_immort_03.mp3",
+      "transcript": "I'm invincible!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_vengefulspirit_vng_immort_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_vengefulspirit_vng_death_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_02.mp3",
+      "transcript": "I fall!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_vengefulspirit_vng_death_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_03.mp3",
+      "transcript": "My wings are broken…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_vengefulspirit_vng_death_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_04.mp3",
+      "transcript": "I'm stricken…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_vengefulspirit_vng_death_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_05.mp3",
+      "transcript": "Lucky shot…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_vengefulspirit_vng_death_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_death_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_death_06.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_vengefulspirit_vng_death_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_06.mp3",
+      "transcript": "Haaarrr!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_vengefulspirit_vng_anger_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_07.mp3",
+      "transcript": "Hrraaahah!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_vengefulspirit_vng_anger_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_kill_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_kill_03.mp3",
+      "transcript": "Revenge is a dish best served NOW.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_vengefulspirit_vng_kill_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_01.mp3",
+      "transcript": "I'll not be stopped so easily.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_vengefulspirit_vng_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_02.mp3",
+      "transcript": "Here again, am I?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_vengefulspirit_vng_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_03.mp3",
+      "transcript": "Again…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_vengefulspirit_vng_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_04.mp3",
+      "transcript": "I will not fall again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_vengefulspirit_vng_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_05.mp3",
+      "transcript": "How many times must I set out on this road?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_vengefulspirit_vng_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_06.mp3",
+      "transcript": "What…?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_vengefulspirit_vng_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_respawn_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_respawn_07.mp3",
+      "transcript": "What is this?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_vengefulspirit_vng_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_fastres_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_fastres_01.mp3",
+      "transcript": "Vengeance calls me back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_vengefulspirit_vng_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_bottle_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_bottle_01.mp3",
+      "transcript": "I'll save this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_vengefulspirit_vng_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_bottle_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_bottle_02.mp3",
+      "transcript": "Saving this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_vengefulspirit_vng_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_bottle_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_bottle_03.mp3",
+      "transcript": "For later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_vengefulspirit_vng_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_bottle_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_bottle_04.mp3",
+      "transcript": "Later for you.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_vengefulspirit_vng_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_drop_common_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_drop_common_01.mp3",
+      "transcript": "A gift from the goddess!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_vengefulspirit_vng_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_doubdam_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_doubdam_01.mp3",
+      "transcript": "Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_vengefulspirit_vng_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_doubdam_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_doubdam_02.mp3",
+      "transcript": "My wrath redoubled!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_vengefulspirit_vng_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_haste_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_vengefulspirit_vng_haste_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_haste_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_haste_02.mp3",
+      "transcript": "Faster I fly!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_vengefulspirit_vng_haste_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_illus_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_vengefulspirit_vng_illus_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_illus_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_illus_02.mp3",
+      "transcript": "Try and spot me!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_vengefulspirit_vng_illus_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_invis_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_vengefulspirit_vng_invis_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_invis_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_invis_02.mp3",
+      "transcript": "None shall see me!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_vengefulspirit_vng_invis_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_regen_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_vengefulspirit_vng_regen_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_regen_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_regen_02.mp3",
+      "transcript": "I feel better already.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_vengefulspirit_vng_regen_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_regen_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_regen_03.mp3",
+      "transcript": "Strength returns.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_vengefulspirit_vng_regen_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_vengefulspirit_vng_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_vengefulspirit_vng_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_vengefulspirit_vng_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_vengefulspirit_vng_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_vengefulspirit_vng_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_vengefulspirit_vng_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_vengefulspirit_vng_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_vengefulspirit_vng_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_notyet_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_vengefulspirit_vng_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_vengefulspirit_vng_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_vengefulspirit_vng_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_vengefulspirit_vng_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_vengefulspirit_vng_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_vengefulspirit_vng_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_vengefulspirit_vng_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_vengefulspirit_vng_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_vengefulspirit_vng_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_nomana_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_vengefulspirit_vng_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_pain_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_pain_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_vengefulspirit_vng_pain_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_pain_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_vengefulspirit_vng_pain_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_pain_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_pain_03.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_vengefulspirit_vng_pain_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_pain_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_vengefulspirit_vng_pain_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_pain_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_vengefulspirit_vng_pain_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_underattack_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_underattack_01.mp3",
+      "transcript": "I am under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_vengefulspirit_vng_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_01.mp3",
+      "transcript": "I shall not rest until I am avenged.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_vengefulspirit_vng_rare_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_02.mp3",
+      "transcript": "Life is worthless to me until my last enemy is dead.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_vengefulspirit_vng_rare_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_03.mp3",
+      "transcript": "What was taken from me shall be restored…but the path of revenge is long.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_vengefulspirit_vng_rare_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_04.mp3",
+      "transcript": "The road of revenge is long, but what awaits me at the end makes it worthwhile.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_vengefulspirit_vng_rare_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_05.mp3",
+      "transcript": "The pain of my enemies is the only pleasure left to me.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_vengefulspirit_vng_rare_05.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_06.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_06.mp3",
+      "transcript": "The goddess Scree'auk shall see me soar.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_vengefulspirit_vng_rare_06.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_07.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_07.mp3",
+      "transcript": "I dimly recall how the world appeared from high in the Ghastly Eyrie.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_vengefulspirit_vng_rare_07.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_08.mp3",
+      "transcript": "Hm…these wings could use a trim.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_vengefulspirit_vng_rare_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_09.mp3",
+      "transcript": "Swapsies!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_vengefulspirit_vng_rare_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_rare_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_rare_10.mp3",
+      "transcript": "Prepare for the Wave of Terror: boo!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_vengefulspirit_vng_rare_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_missing_lane_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_missing_lane_01.mp3",
+      "transcript": "Top is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_vengefulspirit_vng_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_missing_lane_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_missing_lane_02.mp3",
+      "transcript": "Middle is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_vengefulspirit_vng_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_missing_lane_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_missing_lane_03.mp3",
+      "transcript": "Bottom is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_vengefulspirit_vng_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_thanks_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_thanks_01.mp3",
+      "transcript": "Thank you so much.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_vengefulspirit_vng_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_thanks_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_thanks_02.mp3",
+      "transcript": "I am grateful.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_vengefulspirit_vng_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_win_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_win_01.mp3",
+      "transcript": "Victory is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_vengefulspirit_vng_win_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_win_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_win_02.mp3",
+      "transcript": "By my wings!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_vengefulspirit_vng_win_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_win_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_win_03.mp3",
+      "transcript": "Victory is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_vengefulspirit_vng_win_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_win_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_win_04.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_vengefulspirit_vng_win_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lose_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lose_01.mp3",
+      "transcript": "All is lost!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_vengefulspirit_vng_lose_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lose_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lose_02.mp3",
+      "transcript": "Crushed!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_vengefulspirit_vng_lose_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_lose_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_lose_03.mp3",
+      "transcript": "Destroyed!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_vengefulspirit_vng_lose_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_drop_medium_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_drop_medium_01.mp3",
+      "transcript": "Ah! With this I shall feather my nest!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_vengefulspirit_vng_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_drop_rare_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_drop_rare_01.mp3",
+      "transcript": "This shall further my pursuit of vengeance!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_vengefulspirit_vng_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_shitwiz_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_vengefulspirit_vng_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_crumwiz_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_vengefulspirit_vng_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_01.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_01.mp3",
+      "transcript": "Grrr!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_vengefulspirit_vng_anger_01.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_02.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_02.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_vengefulspirit_vng_anger_02.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_03.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_vengefulspirit_vng_anger_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_08.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_08.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_vengefulspirit_vng_anger_08.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_09.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_09.mp3",
+      "transcript": "Ah haaah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_vengefulspirit_vng_anger_09.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_10.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_10.mp3",
+      "transcript": "Harrah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_vengefulspirit_vng_anger_10.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_anger_11.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_anger_11.mp3",
+      "transcript": "Hrraaahah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_vengefulspirit_vng_anger_11.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_happy_03.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_happy_03.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_vengefulspirit_vng_happy_03.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_happy_04.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_happy_04.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_vengefulspirit_vng_happy_04.mp3"
+    },
+    {
+      "file": "Vo_vengefulspirit_vng_happy_05.mp3",
+      "key": "dota2/vengeful-spirit/Vo_vengefulspirit_vng_happy_05.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_vengefulspirit_vng_happy_05.mp3"
+    }
+  ]
+}

@@ -1,0 +1,4660 @@
+{
+  "hero": "Phantom Assassin",
+  "slug": "phantom-assassin",
+  "source": "https://liquipedia.net/dota2/Phantom_Assassin/Responses",
+  "scrapedAt": "2026-06-17T14:00:24.925Z",
+  "count": 461,
+  "voicelines": [
+    {
+      "file": "Vo_phantom_assassin_phass_spawn_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_spawn_01.mp3",
+      "transcript": "Phantom Assassin!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_phantom_assassin_phass_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_spawn_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_spawn_01.mp3",
+      "transcript": "Phantom Assassin!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_phantom_assassin_phass_arc_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_spawn_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_spawn_02.mp3",
+      "transcript": "Unseen and unheard.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_phantom_assassin_phass_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_spawn_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_spawn_02.mp3",
+      "transcript": "Unseen and unheard.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_phantom_assassin_phass_arc_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_spawn_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_spawn_03.mp3",
+      "transcript": "The Phantom creeps in.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_phantom_assassin_phass_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_spawn_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_spawn_03.mp3",
+      "transcript": "The Phantom creeps in.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_phantom_assassin_phass_arc_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_spawn_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_spawn_04.mp3",
+      "transcript": "The Veiled Sisters sent me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_phantom_assassin_phass_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_spawn_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_spawn_04.mp3",
+      "transcript": "The Veiled Sisters sent me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_phantom_assassin_phass_arc_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_spawn_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_spawn_05.mp3",
+      "transcript": "I'm here to blur the line between life and death.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_phantom_assassin_phass_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_spawn_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_spawn_05.mp3",
+      "transcript": "I'm here to blur the line between life and death.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_phantom_assassin_phass_arc_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_14.mp3",
+      "transcript": "Where falls my shadow, fells my blade.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_phantom_assassin_phass_move_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_14.mp3",
+      "transcript": "Where falls my shadow, fells my blade.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_assassin_phass_arc_move_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_09.mp3",
+      "transcript": "Don't blink, or you'll miss me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_phantom_assassin_phass_move_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_09.mp3",
+      "transcript": "Don't blink, or you'll miss me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_assassin_phass_arc_move_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_10.mp3",
+      "transcript": "In the blink of an eye.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_phantom_assassin_phass_move_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_10.mp3",
+      "transcript": "In the blink of an eye.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_phantom_assassin_phass_arc_move_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_cast_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_cast_01.mp3",
+      "transcript": "Marked for death!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_phantom_assassin_phass_cast_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_cast_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_cast_01.mp3",
+      "transcript": "Marked for death!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_phantom_assassin_phass_arc_cast_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_cast_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_cast_04.mp3",
+      "transcript": "I sting from the shadows.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_phantom_assassin_phass_cast_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_cast_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_cast_04.mp3",
+      "transcript": "I sting from the shadows.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_phantom_assassin_phass_arc_cast_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_10.mp3",
+      "transcript": "Death at my hands is an honor.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_phantom_assassin_phass_kill_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_10.mp3",
+      "transcript": "Death at my hands is an honor.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_assassin_phass_arc_kill_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_03.mp3",
+      "transcript": "The Veiled Oracle chose you.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_phantom_assassin_phass_kill_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_03.mp3",
+      "transcript": "The Veiled Oracle chose you.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_assassin_phass_arc_kill_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_08.mp3",
+      "transcript": "Rhmmm!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_phantom_assassin_phass_anger_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_inthebag_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_assassin_phass_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_inthebag_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_phantom_assassin_phass_arc_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_battlebegins_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_battlebegins_01.mp3",
+      "transcript": "My list has five names on it.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_phantom_assassin_phass_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_battlebegins_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_battlebegins_01.mp3",
+      "transcript": "My list has five names on it.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_phantom_assassin_phass_arc_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_assassin_phass_move_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_phantom_assassin_phass_arc_move_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_phantom_assassin_phass_move_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_phantom_assassin_phass_arc_move_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_03.mp3",
+      "transcript": "M-hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_phantom_assassin_phass_move_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_03.mp3",
+      "transcript": "M-hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_phantom_assassin_phass_arc_move_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_04.mp3",
+      "transcript": "Oh, yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_phantom_assassin_phass_move_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_04.mp3",
+      "transcript": "Oh, yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_phantom_assassin_phass_arc_move_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_05.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_phantom_assassin_phass_move_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_05.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_phantom_assassin_phass_arc_move_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_06.mp3",
+      "transcript": "Moving quickly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_phantom_assassin_phass_move_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_06.mp3",
+      "transcript": "Moving quickly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_phantom_assassin_phass_arc_move_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_07.mp3",
+      "transcript": "Sneaking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_phantom_assassin_phass_move_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_07.mp3",
+      "transcript": "Sneaking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_arc_move_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_08.mp3",
+      "transcript": "Creeping in.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_phantom_assassin_phass_move_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_08.mp3",
+      "transcript": "Creeping in.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_phantom_assassin_phass_arc_move_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_11.mp3",
+      "transcript": "Slyly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_phantom_assassin_phass_move_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_11.mp3",
+      "transcript": "Slyly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_phantom_assassin_phass_arc_move_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_12.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_phantom_assassin_phass_move_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_12.mp3",
+      "transcript": "Very well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_phantom_assassin_phass_arc_move_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_13.mp3",
+      "transcript": "I'm but a shadow.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_phantom_assassin_phass_move_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_13.mp3",
+      "transcript": "I'm but a shadow.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_arc_move_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_15.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_15.mp3",
+      "transcript": "They see me not.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_phantom_assassin_phass_move_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_15.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_15.mp3",
+      "transcript": "They see me not.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_phantom_assassin_phass_arc_move_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_16.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_16.mp3",
+      "transcript": "I'll slip through their guard.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_assassin_phass_move_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_16.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_16.mp3",
+      "transcript": "I'll slip through their guard.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_phantom_assassin_phass_arc_move_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_17.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_17.mp3",
+      "transcript": "Like a wisp.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_phantom_assassin_phass_move_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_17.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_17.mp3",
+      "transcript": "Like a wisp.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_phantom_assassin_phass_arc_move_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_18.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_18.mp3",
+      "transcript": "In I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_phantom_assassin_phass_move_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_18.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_18.mp3",
+      "transcript": "In I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_phantom_assassin_phass_arc_move_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_move_19.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_move_19.mp3",
+      "transcript": "Surreptitiously.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_phantom_assassin_phass_move_19.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_move_19.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_move_19.mp3",
+      "transcript": "Surreptitiously.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_phantom_assassin_phass_arc_move_19.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_phantom_assassin_phass_attack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_assassin_phass_arc_attack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_02.mp3",
+      "transcript": "Quick strike.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_phantom_assassin_phass_attack_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_02.mp3",
+      "transcript": "Quick strike.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_phantom_assassin_phass_arc_attack_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_03.mp3",
+      "transcript": "In silence!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_phantom_assassin_phass_attack_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_03.mp3",
+      "transcript": "In silence!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_phantom_assassin_phass_arc_attack_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_04.mp3",
+      "transcript": "Where least expected.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_phantom_assassin_phass_attack_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_04.mp3",
+      "transcript": "Where least expected.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_phantom_assassin_phass_arc_attack_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_05.mp3",
+      "transcript": "Here I am!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_phantom_assassin_phass_attack_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_05.mp3",
+      "transcript": "Here I am!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_phantom_assassin_phass_arc_attack_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_06.mp3",
+      "transcript": "Have some blade.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_phantom_assassin_phass_attack_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_06.mp3",
+      "transcript": "Have some blade.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_assassin_phass_arc_attack_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_07.mp3",
+      "transcript": "Taken by surprise!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_phantom_assassin_phass_attack_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_07.mp3",
+      "transcript": "Taken by surprise!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_phantom_assassin_phass_arc_attack_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_08.mp3",
+      "transcript": "Without remorse.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_phantom_assassin_phass_attack_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_08.mp3",
+      "transcript": "Without remorse.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_phantom_assassin_phass_arc_attack_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_09.mp3",
+      "transcript": "I'll not hesitate!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_phantom_assassin_phass_attack_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_09.mp3",
+      "transcript": "I'll not hesitate!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_phantom_assassin_phass_arc_attack_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_attack_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_attack_10.mp3",
+      "transcript": "Look sharp!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_phantom_assassin_phass_attack_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_attack_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_attack_10.mp3",
+      "transcript": "Look sharp!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_phantom_assassin_phass_arc_attack_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_cast_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_cast_02.mp3",
+      "transcript": "Your death approaches…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_phantom_assassin_phass_cast_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_cast_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_cast_02.mp3",
+      "transcript": "Your death approaches…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_phantom_assassin_phass_arc_cast_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_cast_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_cast_03.mp3",
+      "transcript": "Were you expecting me?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_phantom_assassin_phass_cast_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_cast_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_cast_03.mp3",
+      "transcript": "Were you expecting me?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_phantom_assassin_phass_arc_cast_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_stiflingdagger_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_stiflingdagger_01.mp3",
+      "transcript": "Cloak and Dagger…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_phantom_assassin_phass_ability_stiflingdagger_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_stiflingdagger_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_01.mp3",
+      "transcript": "Cloak and Dagger…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_stiflingdagger_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_stiflingdagger_02.mp3",
+      "transcript": "I'm looking daggers at you…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_phantom_assassin_phass_ability_stiflingdagger_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_stiflingdagger_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_02.mp3",
+      "transcript": "I'm looking daggers at you…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_stiflingdagger_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_stiflingdagger_03.mp3",
+      "transcript": "Stifle it!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_assassin_phass_ability_stiflingdagger_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_stiflingdagger_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_03.mp3",
+      "transcript": "Stifle it!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_stiflingdagger_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_stiflingdagger_04.mp3",
+      "transcript": "Dagger, dagger.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_phantom_assassin_phass_ability_stiflingdagger_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_stiflingdagger_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_04.mp3",
+      "transcript": "Dagger, dagger.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_phantom_assassin_phass_arc_ability_stiflingdagger_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_blur_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_blur_01.mp3",
+      "transcript": "It's all a blur.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_phantom_assassin_phass_ability_blur_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_blur_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_blur_01.mp3",
+      "transcript": "It's all a blur.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_phantom_assassin_phass_arc_ability_blur_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_blur_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_blur_03.mp3",
+      "transcript": "Blur blade.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_phantom_assassin_phass_ability_blur_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_blur_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_blur_03.mp3",
+      "transcript": "Blur blade.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_assassin_phass_arc_ability_blur_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_coupdegrace_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_coupdegrace_01.mp3",
+      "transcript": "Unkind cut!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_phantom_assassin_phass_ability_coupdegrace_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_coupdegrace_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_coupdegrace_01.mp3",
+      "transcript": "Unkind cut!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_phantom_assassin_phass_arc_ability_coupdegrace_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_coupdegrace_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_coupdegrace_02.mp3",
+      "transcript": "Cut!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_phantom_assassin_phass_ability_coupdegrace_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_coupdegrace_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_coupdegrace_02.mp3",
+      "transcript": "Cut!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_assassin_phass_arc_ability_coupdegrace_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_coupdegrace_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_coupdegrace_03.mp3",
+      "transcript": "The grace note.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_phantom_assassin_phass_ability_coupdegrace_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_coupdegrace_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_coupdegrace_03.mp3",
+      "transcript": "The grace note.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_phantom_assassin_phass_arc_ability_coupdegrace_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_coupdegrace_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_coupdegrace_04.mp3",
+      "transcript": "My specialty.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_phantom_assassin_phass_ability_coupdegrace_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_coupdegrace_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_coupdegrace_04.mp3",
+      "transcript": "My specialty.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_phantom_assassin_phass_arc_ability_coupdegrace_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_01.mp3",
+      "transcript": "I feel…blurry!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_assassin_phass_level_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_01.mp3",
+      "transcript": "I feel…blurry!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_phantom_assassin_phass_arc_level_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_02.mp3",
+      "transcript": "My edges are running!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_phantom_assassin_phass_level_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_02.mp3",
+      "transcript": "My edges are running!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_phantom_assassin_phass_arc_level_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_03.mp3",
+      "transcript": "I'm soft on the eye.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_phantom_assassin_phass_level_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_03.mp3",
+      "transcript": "I'm soft on the eye.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_phantom_assassin_phass_arc_level_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_04.mp3",
+      "transcript": "I'm easy to overlook.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_phantom_assassin_phass_level_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_04.mp3",
+      "transcript": "I'm easy to overlook.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_assassin_phass_arc_level_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_05.mp3",
+      "transcript": "You'll see less of me now.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_phantom_assassin_phass_level_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_05.mp3",
+      "transcript": "You'll see less of me now.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_phantom_assassin_phass_arc_level_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_06.mp3",
+      "transcript": "I'm an immaterial girl!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_phantom_assassin_phass_level_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_06.mp3",
+      "transcript": "I'm an immaterial girl!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_phantom_assassin_phass_arc_level_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_07.mp3",
+      "transcript": "It's immaterial!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_phantom_assassin_phass_level_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_07.mp3",
+      "transcript": "It's immaterial!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_phantom_assassin_phass_arc_level_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_level_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_level_08.mp3",
+      "transcript": "There's more of me, but less to see.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_phantom_assassin_phass_level_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_level_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_level_08.mp3",
+      "transcript": "There's more of me, but less to see.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_phantom_assassin_phass_arc_level_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_phantomstrike_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_phantomstrike_01.mp3",
+      "transcript": "The Phantom strikes!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_phantom_assassin_phass_ability_phantomstrike_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_phantomstrike_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_phantomstrike_01.mp3",
+      "transcript": "The Phantom strikes!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_phantom_assassin_phass_arc_ability_phantomstrike_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_phantomstrike_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_phantomstrike_02.mp3",
+      "transcript": "Stricken out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_phantom_assassin_phass_ability_phantomstrike_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_phantomstrike_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_phantomstrike_02.mp3",
+      "transcript": "Stricken out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_phantom_assassin_phass_arc_ability_phantomstrike_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_phantomstrike_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_phantomstrike_03.mp3",
+      "transcript": "Out of the veil.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_phantom_assassin_phass_ability_phantomstrike_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_phantomstrike_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_phantomstrike_03.mp3",
+      "transcript": "Out of the veil.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_phantom_assassin_phass_arc_ability_phantomstrike_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_01.mp3",
+      "transcript": "That went well, I think.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_phantom_assassin_phass_kill_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_01.mp3",
+      "transcript": "That went well, I think.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_phantom_assassin_phass_arc_kill_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_02.mp3",
+      "transcript": "All according to plan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_assassin_phass_kill_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_02.mp3",
+      "transcript": "All according to plan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_phantom_assassin_phass_arc_kill_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_04.mp3",
+      "transcript": "You were a sacred target.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_phantom_assassin_phass_kill_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_04.mp3",
+      "transcript": "You were a sacred target.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_phantom_assassin_phass_arc_kill_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_05.mp3",
+      "transcript": "Assassination is nature's way.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_phantom_assassin_phass_kill_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_05.mp3",
+      "transcript": "Assassination is nature's way.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_phantom_assassin_phass_arc_kill_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_06.mp3",
+      "transcript": "Assassination at its finest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_phantom_assassin_phass_kill_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_06.mp3",
+      "transcript": "Assassination at its finest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_phantom_assassin_phass_arc_kill_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_07.mp3",
+      "transcript": "It is an honor to be chosen for death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_assassin_phass_kill_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_07.mp3",
+      "transcript": "It is an honor to be chosen for death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_assassin_phass_arc_kill_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_08.mp3",
+      "transcript": "Shouldn't have trusted your eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_assassin_phass_kill_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_08.mp3",
+      "transcript": "Shouldn't have trusted your eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_arc_kill_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_09.mp3",
+      "transcript": "The Sisters of the Veil honor your death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_assassin_phass_kill_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_09.mp3",
+      "transcript": "The Sisters of the Veil honor your death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_phantom_assassin_phass_arc_kill_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_11.mp3",
+      "transcript": "One down, four to go.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_phantom_assassin_phass_kill_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_11.mp3",
+      "transcript": "One down, four to go.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_phantom_assassin_phass_arc_kill_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_12.mp3",
+      "transcript": "Something in your eye?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_phantom_assassin_phass_kill_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_12.mp3",
+      "transcript": "Something in your eye?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_assassin_phass_arc_kill_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_kill_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_kill_13.mp3",
+      "transcript": "Even in death, you'll not see beyond the Phantom Veil.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_phantom_assassin_phass_kill_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_kill_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_kill_13.mp3",
+      "transcript": "Even in death, you'll not see beyond the Phantom Veil.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_assassin_phass_arc_kill_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_01.mp3",
+      "transcript": "Hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_phantom_assassin_phass_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_01.mp3",
+      "transcript": "Hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_phantom_assassin_phass_arc_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_02.mp3",
+      "transcript": "He he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_phantom_assassin_phass_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_02.mp3",
+      "transcript": "He he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_phantom_assassin_phass_arc_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_03.mp3",
+      "transcript": "Hm he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_phantom_assassin_phass_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_03.mp3",
+      "transcript": "Hm he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_assassin_phass_arc_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_04.mp3",
+      "transcript": "Ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_phantom_assassin_phass_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_04.mp3",
+      "transcript": "Ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_assassin_phass_arc_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_05.mp3",
+      "transcript": "Ho ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_phantom_assassin_phass_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_05.mp3",
+      "transcript": "Ho ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_phantom_assassin_phass_arc_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_phantom_assassin_phass_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_phantom_assassin_phass_arc_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_laugh_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_laugh_07.mp3",
+      "transcript": "Ho ho ho ho ho ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_phantom_assassin_phass_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_laugh_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_laugh_07.mp3",
+      "transcript": "Ho ho ho ho ho ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_phantom_assassin_phass_arc_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_ability_blur_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_ability_blur_02.mp3",
+      "transcript": "How many daggers am I holding up?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_phantom_assassin_phass_ability_blur_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_ability_blur_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_ability_blur_02.mp3",
+      "transcript": "How many daggers am I holding up?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_phantom_assassin_phass_arc_ability_blur_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_firstblood_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_firstblood_01.mp3",
+      "transcript": "First blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_phantom_assassin_phass_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_firstblood_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_firstblood_01.mp3",
+      "transcript": "First blood!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_phantom_assassin_phass_arc_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_firstblood_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_firstblood_02.mp3",
+      "transcript": "First victim!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_phantom_assassin_phass_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_firstblood_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_firstblood_02.mp3",
+      "transcript": "First victim!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_phantom_assassin_phass_arc_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_01.mp3",
+      "transcript": "Phantasmal!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_phantom_assassin_phass_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_01.mp3",
+      "transcript": "Phantasmal!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_assassin_phass_arc_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_02.mp3",
+      "transcript": "One for the Phantom.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_phantom_assassin_phass_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_02.mp3",
+      "transcript": "One for the Phantom.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_assassin_phass_arc_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_03.mp3",
+      "transcript": "Phantom fighter!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_phantom_assassin_phass_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_03.mp3",
+      "transcript": "Phantom fighter!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_phantom_assassin_phass_arc_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_04.mp3",
+      "transcript": "Didn't stand a chance.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_phantom_assassin_phass_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_04.mp3",
+      "transcript": "Didn't stand a chance.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_phantom_assassin_phass_arc_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_05.mp3",
+      "transcript": "Didn't you see me?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_phantom_assassin_phass_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_05.mp3",
+      "transcript": "Didn't you see me?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_phantom_assassin_phass_arc_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_06.mp3",
+      "transcript": "Gotta keep my hand in.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_phantom_assassin_phass_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_06.mp3",
+      "transcript": "Gotta keep my hand in.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_phantom_assassin_phass_arc_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_07.mp3",
+      "transcript": "Don't look now.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_phantom_assassin_phass_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_07.mp3",
+      "transcript": "Don't look now.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_phantom_assassin_phass_arc_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_08.mp3",
+      "transcript": "For the Veiled Ones!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_phantom_assassin_phass_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_08.mp3",
+      "transcript": "For the Veiled Ones!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_phantom_assassin_phass_arc_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_09.mp3",
+      "transcript": "Collecting my fee.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_phantom_assassin_phass_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_09.mp3",
+      "transcript": "Collecting my fee.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_assassin_phass_arc_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lasthit_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lasthit_10.mp3",
+      "transcript": "I'm not greedy.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_phantom_assassin_phass_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lasthit_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lasthit_10.mp3",
+      "transcript": "I'm not greedy.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_phantom_assassin_phass_arc_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_phantom_assassin_phass_deny_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_phantom_assassin_phass_arc_deny_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_phantom_assassin_phass_deny_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_phantom_assassin_phass_arc_deny_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_03.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_phantom_assassin_phass_deny_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_03.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_phantom_assassin_phass_arc_deny_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_04.mp3",
+      "transcript": "No no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_phantom_assassin_phass_deny_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_04.mp3",
+      "transcript": "No no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_assassin_phass_arc_deny_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_05.mp3",
+      "transcript": "No no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_phantom_assassin_phass_deny_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_05.mp3",
+      "transcript": "No no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_assassin_phass_arc_deny_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_06.mp3",
+      "transcript": "No you don't.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_assassin_phass_deny_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_06.mp3",
+      "transcript": "No you don't.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_phantom_assassin_phass_arc_deny_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_07.mp3",
+      "transcript": "Turned your blade.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_phantom_assassin_phass_deny_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_07.mp3",
+      "transcript": "Turned your blade.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_phantom_assassin_phass_arc_deny_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_08.mp3",
+      "transcript": "Hardly.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_phantom_assassin_phass_deny_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_08.mp3",
+      "transcript": "Hardly.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_phantom_assassin_phass_arc_deny_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_09.mp3",
+      "transcript": "First!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_phantom_assassin_phass_deny_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_09.mp3",
+      "transcript": "First!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_phantom_assassin_phass_arc_deny_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_10.mp3",
+      "transcript": "I think not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_phantom_assassin_phass_deny_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_10.mp3",
+      "transcript": "I think not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_phantom_assassin_phass_arc_deny_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_11.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_phantom_assassin_phass_deny_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_11.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_phantom_assassin_phass_arc_deny_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_12.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_phantom_assassin_phass_deny_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_12.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_phantom_assassin_phass_arc_deny_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_13.mp3",
+      "transcript": "Ha ha ha ha ha",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_phantom_assassin_phass_deny_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_13.mp3",
+      "transcript": "Ha ha ha ha ha",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_phantom_assassin_phass_arc_deny_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_deny_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_deny_14.mp3",
+      "transcript": "Ha, ahhh, ha ha, no no no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_phantom_assassin_phass_deny_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_deny_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_deny_14.mp3",
+      "transcript": "Ha, ahhh, ha ha, no no no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_arc_deny_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_purch_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_purch_01.mp3",
+      "transcript": "This should make my life easier.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_phantom_assassin_phass_purch_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_purch_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_purch_01.mp3",
+      "transcript": "This should make my life easier.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_phantom_assassin_phass_arc_purch_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_purch_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_purch_02.mp3",
+      "transcript": "The right tool for the job.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_phantom_assassin_phass_purch_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_purch_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_purch_02.mp3",
+      "transcript": "The right tool for the job.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_phantom_assassin_phass_arc_purch_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_purch_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_purch_03.mp3",
+      "transcript": "All that gold was slowing me down.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_phantom_assassin_phass_purch_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_purch_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_purch_03.mp3",
+      "transcript": "All that gold was slowing me down.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_phantom_assassin_phass_arc_purch_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_blink_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_phantom_assassin_phass_blink_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_blink_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_phantom_assassin_phass_arc_blink_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_blink_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_blink_02.mp3",
+      "transcript": "The perfect accessory!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_phantom_assassin_phass_blink_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_blink_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_blink_02.mp3",
+      "transcript": "The perfect accessory!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_assassin_phass_arc_blink_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_scepter_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_phantom_assassin_phass_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_scepter_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_assassin_phass_arc_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_scepter_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_scepter_02.mp3",
+      "transcript": "Scepter, at last!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_phantom_assassin_phass_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_scepter_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_scepter_02.mp3",
+      "transcript": "Scepter, at last!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_phantom_assassin_phass_arc_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_bfury_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_bfury_01.mp3",
+      "transcript": "Battle Fury!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_phantom_assassin_phass_bfury_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_bfury_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_bfury_01.mp3",
+      "transcript": "Battle Fury!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_phantom_assassin_phass_arc_bfury_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_bfury_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_bfury_02.mp3",
+      "transcript": "Battle Fury, you are mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_phantom_assassin_phass_bfury_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_bfury_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_bfury_02.mp3",
+      "transcript": "Battle Fury, you are mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_phantom_assassin_phass_arc_bfury_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_item_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_item_01.mp3",
+      "transcript": "Black King Bar! They can't stop me now!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_phantom_assassin_phass_item_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_item_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_item_01.mp3",
+      "transcript": "Black King Bar! They can't stop me now!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_phantom_assassin_phass_arc_item_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_item_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_item_02.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_phantom_assassin_phass_item_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_item_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_item_02.mp3",
+      "transcript": "Butterfly!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_phantom_assassin_phass_arc_item_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_immort_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_phantom_assassin_phass_immort_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_immort_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_phantom_assassin_phass_arc_immort_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_immort_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_immort_02.mp3",
+      "transcript": "The Phantom forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_assassin_phass_immort_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_immort_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_immort_02.mp3",
+      "transcript": "The Phantom forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_phantom_assassin_phass_arc_immort_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_phantom_assassin_phass_death_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_phantom_assassin_phass_arc_death_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_02.mp3",
+      "transcript": "I can't bear to be seen…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_phantom_assassin_phass_death_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_02.mp3",
+      "transcript": "I can't bear to be seen…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_phantom_assassin_phass_arc_death_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_03.mp3",
+      "transcript": "Look away…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_assassin_phass_death_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_03.mp3",
+      "transcript": "Look away…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_phantom_assassin_phass_arc_death_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_04.mp3",
+      "transcript": "I don't believe this!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_phantom_assassin_phass_death_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_04.mp3",
+      "transcript": "I don't believe this!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_phantom_assassin_phass_arc_death_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_05.mp3",
+      "transcript": "Down a dark road I go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_assassin_phass_death_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_05.mp3",
+      "transcript": "Down a dark road I go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_phantom_assassin_phass_arc_death_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_06.mp3",
+      "transcript": "Phantom limbo…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_phantom_assassin_phass_death_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_06.mp3",
+      "transcript": "Phantom limbo…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_phantom_assassin_phass_arc_death_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_07.mp3",
+      "transcript": "I have failed the Veil.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_phantom_assassin_phass_death_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_07.mp3",
+      "transcript": "I have failed the Veil.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_phantom_assassin_phass_arc_death_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_08.mp3",
+      "transcript": "Turnabout is foul play!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_phantom_assassin_phass_death_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_08.mp3",
+      "transcript": "Turnabout is foul play!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_phantom_assassin_phass_arc_death_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_09.mp3",
+      "transcript": "Character…assassin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_phantom_assassin_phass_death_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_death_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_death_09.mp3",
+      "transcript": "Character…assassin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_phantom_assassin_phass_arc_death_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_death_04_alt.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_death_04_alt.mp3",
+      "transcript": "Darkness, visible…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_phantom_assassin_phass_death_04_alt.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_01.mp3",
+      "transcript": "Next time, I'll assess before I assassinate.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_phantom_assassin_phass_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_01.mp3",
+      "transcript": "Next time, I'll assess before I assassinate.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_assassin_phass_arc_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_02.mp3",
+      "transcript": "It's all coming back into focus…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_phantom_assassin_phass_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_02.mp3",
+      "transcript": "It's all coming back into focus…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_phantom_assassin_phass_arc_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_03.mp3",
+      "transcript": "Bet you're glad to see me again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_phantom_assassin_phass_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_03.mp3",
+      "transcript": "Bet you're glad to see me again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_phantom_assassin_phass_arc_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_04.mp3",
+      "transcript": "I see you!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_phantom_assassin_phass_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_04.mp3",
+      "transcript": "I see you!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_phantom_assassin_phass_arc_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_05.mp3",
+      "transcript": "Let me pull aside the veil of secrecy.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_phantom_assassin_phass_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_05.mp3",
+      "transcript": "Let me pull aside the veil of secrecy.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_phantom_assassin_phass_arc_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_06.mp3",
+      "transcript": "I won't stop until the job is done.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_phantom_assassin_phass_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_06.mp3",
+      "transcript": "I won't stop until the job is done.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_phantom_assassin_phass_arc_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_07.mp3",
+      "transcript": "Back from the shadows.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_phantom_assassin_phass_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_07.mp3",
+      "transcript": "Back from the shadows.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_phantom_assassin_phass_arc_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_08.mp3",
+      "transcript": "I am back with new victims in mind.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_phantom_assassin_phass_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_08.mp3",
+      "transcript": "I am back with new victims in mind.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_phantom_assassin_phass_arc_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_09.mp3",
+      "transcript": "Don't tell me, I'm a sight for sore eyes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_assassin_phass_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_09.mp3",
+      "transcript": "Don't tell me, I'm a sight for sore eyes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_phantom_assassin_phass_arc_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_respawn_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_respawn_10.mp3",
+      "transcript": "Born to strange sights…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_assassin_phass_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_respawn_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_respawn_10.mp3",
+      "transcript": "Born to strange sights…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_phantom_assassin_phass_arc_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_fastres_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_fastres_01.mp3",
+      "transcript": "Don't think you're done with me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_phantom_assassin_phass_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_fastres_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_fastres_01.mp3",
+      "transcript": "Don't think you're done with me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_phantom_assassin_phass_arc_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_bottle_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_bottle_01.mp3",
+      "transcript": "I'll just hide this away.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_phantom_assassin_phass_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_bottle_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_bottle_01.mp3",
+      "transcript": "I'll just hide this away.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_phantom_assassin_phass_arc_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_bottle_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_bottle_02.mp3",
+      "transcript": "Stop it up.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_phantom_assassin_phass_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_bottle_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_bottle_02.mp3",
+      "transcript": "Stop it up.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_phantom_assassin_phass_arc_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_bottle_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_bottle_03.mp3",
+      "transcript": "Phantom's pleasure.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_phantom_assassin_phass_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_bottle_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_bottle_03.mp3",
+      "transcript": "Phantom's pleasure.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_phantom_assassin_phass_arc_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_02.mp3",
+      "transcript": "Ohh…",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_phantom_assassin_phass_happy_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_02.mp3",
+      "transcript": "Ohh…",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_phantom_assassin_phass_arc_happy_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_doubdam_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_phantom_assassin_phass_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_doubdam_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_assassin_phass_arc_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_doubdam_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_doubdam_02.mp3",
+      "transcript": "Strike and strike again.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_phantom_assassin_phass_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_doubdam_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_doubdam_02.mp3",
+      "transcript": "Strike and strike again.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_phantom_assassin_phass_arc_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_haste_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_phantom_assassin_phass_haste_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_haste_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_assassin_phass_arc_haste_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_haste_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_haste_02.mp3",
+      "transcript": "The Phantom flies.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_phantom_assassin_phass_haste_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_haste_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_haste_02.mp3",
+      "transcript": "The Phantom flies.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_phantom_assassin_phass_arc_haste_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_illus_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_illus_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_illus_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_assassin_phass_arc_illus_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_illus_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_illus_02.mp3",
+      "transcript": "My Veiled Sisters.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_phantom_assassin_phass_illus_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_illus_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_illus_02.mp3",
+      "transcript": "My Veiled Sisters.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_phantom_assassin_phass_arc_illus_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_invis_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_phantom_assassin_phass_invis_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_invis_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_assassin_phass_arc_invis_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_invis_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_invis_02.mp3",
+      "transcript": "Beyond the reach of mortal eyes.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_phantom_assassin_phass_invis_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_invis_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_invis_02.mp3",
+      "transcript": "Beyond the reach of mortal eyes.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_phantom_assassin_phass_arc_invis_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_regen_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_phantom_assassin_phass_regen_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_regen_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_phantom_assassin_phass_arc_regen_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_regen_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_regen_02.mp3",
+      "transcript": "The Phantom shall not fade.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_assassin_phass_regen_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_regen_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_regen_02.mp3",
+      "transcript": "The Phantom shall not fade.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_phantom_assassin_phass_arc_regen_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_regen_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_regen_03.mp3",
+      "transcript": "Fade resistant.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_assassin_phass_regen_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_regen_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_regen_03.mp3",
+      "transcript": "Fade resistant.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_phantom_assassin_phass_arc_regen_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_phantom_assassin_phass_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_phantom_assassin_phass_arc_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_04.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_phantom_assassin_phass_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_04.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_assassin_phass_arc_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_07.mp3",
+      "transcript": "It is not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_phantom_assassin_phass_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_07.mp3",
+      "transcript": "It is not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_phantom_assassin_phass_arc_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_02.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_phantom_assassin_phass_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_02.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_phantom_assassin_phass_arc_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_05.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_phantom_assassin_phass_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_05.mp3",
+      "transcript": "I am not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_phantom_assassin_phass_arc_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_08.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_phantom_assassin_phass_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_08.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_phantom_assassin_phass_arc_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_phantom_assassin_phass_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_phantom_assassin_phass_arc_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_06.mp3",
+      "transcript": "I am not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_phantom_assassin_phass_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_06.mp3",
+      "transcript": "I am not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_phantom_assassin_phass_arc_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_09.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_assassin_phass_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_09.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_phantom_assassin_phass_arc_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_10.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_phantom_assassin_phass_notyet_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_10.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_phantom_assassin_phass_arc_notyet_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_11.mp3",
+      "transcript": "I am not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_phantom_assassin_phass_notyet_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_11.mp3",
+      "transcript": "I am not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_assassin_phass_arc_notyet_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_notyet_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_notyet_12.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_phantom_assassin_phass_notyet_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_notyet_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_notyet_12.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_assassin_phass_arc_notyet_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_phantom_assassin_phass_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_phantom_assassin_phass_arc_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_phantom_assassin_phass_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_phantom_assassin_phass_arc_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_assassin_phass_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_phantom_assassin_phass_arc_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_phantom_assassin_phass_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_phantom_assassin_phass_arc_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_phantom_assassin_phass_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_phantom_assassin_phass_arc_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_08.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_phantom_assassin_phass_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_08.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_assassin_phass_arc_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_phantom_assassin_phass_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_phantom_assassin_phass_arc_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_phantom_assassin_phass_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_phantom_assassin_phass_arc_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_phantom_assassin_phass_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_phantom_assassin_phass_arc_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_10.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_phantom_assassin_phass_nomana_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_10.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_phantom_assassin_phass_arc_nomana_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_11.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_phantom_assassin_phass_nomana_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_11.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_phantom_assassin_phass_arc_nomana_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_nomana_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_nomana_12.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_phantom_assassin_phass_nomana_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_nomana_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_nomana_12.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_assassin_phass_arc_nomana_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_phantom_assassin_phass_pain_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_phantom_assassin_phass_arc_pain_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_02.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_assassin_phass_pain_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_02.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_phantom_assassin_phass_arc_pain_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_phantom_assassin_phass_pain_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_phantom_assassin_phass_arc_pain_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_phantom_assassin_phass_pain_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_phantom_assassin_phass_arc_pain_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_phantom_assassin_phass_pain_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_phantom_assassin_phass_arc_pain_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_06.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_phantom_assassin_phass_pain_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_06.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_phantom_assassin_phass_arc_pain_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_07.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_phantom_assassin_phass_pain_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_07.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_phantom_assassin_phass_arc_pain_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_08.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_phantom_assassin_phass_pain_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_08.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_phantom_assassin_phass_arc_pain_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_phantom_assassin_phass_pain_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_phantom_assassin_phass_arc_pain_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_10.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_phantom_assassin_phass_pain_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_10.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_10.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_phantom_assassin_phass_arc_pain_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_11.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_phantom_assassin_phass_pain_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_11.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_11.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_phantom_assassin_phass_arc_pain_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_12.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_phantom_assassin_phass_pain_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_12.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_12.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_phantom_assassin_phass_arc_pain_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_phantom_assassin_phass_pain_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_13.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_phantom_assassin_phass_arc_pain_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_pain_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_pain_14.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_phantom_assassin_phass_pain_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_pain_14.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_pain_14.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_phantom_assassin_phass_arc_pain_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_underattack_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_assassin_phass_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_underattack_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_phantom_assassin_phass_arc_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_rare_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_rare_01.mp3",
+      "transcript": "We are all one among the Sisters of the Veil. Where one falls, another rises.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_phantom_assassin_phass_rare_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_rare_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_rare_01.mp3",
+      "transcript": "We are all one among the Sisters of the Veil. Where one falls, another rises.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_phantom_assassin_phass_arc_rare_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_rare_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_rare_02.mp3",
+      "transcript": "The Veiled Oracle names a name, and I move to take that life. The pattern of the Veil requires it.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_phantom_assassin_phass_rare_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_rare_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_rare_02.mp3",
+      "transcript": "The Veiled Oracle names a name, and I move to take that life. The pattern of the Veil requires it.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_phantom_assassin_phass_arc_rare_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_missing_lane_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_missing_lane_01.mp3",
+      "transcript": "Missing Top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_phantom_assassin_phass_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_missing_lane_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_missing_lane_01.mp3",
+      "transcript": "Missing Top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_phantom_assassin_phass_arc_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_missing_lane_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_missing_lane_02.mp3",
+      "transcript": "Missing Middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_phantom_assassin_phass_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_missing_lane_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_missing_lane_02.mp3",
+      "transcript": "Missing Middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_phantom_assassin_phass_arc_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_missing_lane_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_missing_lane_03.mp3",
+      "transcript": "Missing Bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_assassin_phass_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_missing_lane_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_missing_lane_03.mp3",
+      "transcript": "Missing Bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_phantom_assassin_phass_arc_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_thanks_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_thanks_01.mp3",
+      "transcript": "Many thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_assassin_phass_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_thanks_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_thanks_01.mp3",
+      "transcript": "Many thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_assassin_phass_arc_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_thanks_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_thanks_02.mp3",
+      "transcript": "I'm grateful.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_phantom_assassin_phass_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_thanks_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_thanks_02.mp3",
+      "transcript": "I'm grateful.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_phantom_assassin_phass_arc_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_thanks_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_thanks_03.mp3",
+      "transcript": "With my thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_phantom_assassin_phass_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_thanks_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_thanks_03.mp3",
+      "transcript": "With my thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_phantom_assassin_phass_arc_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_thanks_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_thanks_04.mp3",
+      "transcript": "With gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_phantom_assassin_phass_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_thanks_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_thanks_04.mp3",
+      "transcript": "With gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_phantom_assassin_phass_arc_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_win_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_phantom_assassin_phass_win_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_win_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_phantom_assassin_phass_arc_win_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_win_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_win_02.mp3",
+      "transcript": "All in a nights work.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_assassin_phass_win_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_win_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_win_02.mp3",
+      "transcript": "All in a nights work.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_assassin_phass_arc_win_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_win_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_win_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_phantom_assassin_phass_win_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_win_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_win_03.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_phantom_assassin_phass_arc_win_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_win_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_win_04.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_phantom_assassin_phass_win_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_win_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_win_04.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_phantom_assassin_phass_arc_win_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_win_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_win_05.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_phantom_assassin_phass_win_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_win_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_win_05.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_phantom_assassin_phass_arc_win_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lose_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_phantom_assassin_phass_lose_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lose_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_phantom_assassin_phass_arc_lose_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lose_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_phantom_assassin_phass_lose_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lose_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_phantom_assassin_phass_arc_lose_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_lose_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_lose_03.mp3",
+      "transcript": "The Phantom fades away.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_phantom_assassin_phass_lose_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_lose_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_lose_03.mp3",
+      "transcript": "The Phantom fades away.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_phantom_assassin_phass_arc_lose_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_03.mp3",
+      "transcript": "Ahhh…",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_phantom_assassin_phass_happy_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_03.mp3",
+      "transcript": "Ahhh…",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_phantom_assassin_phass_arc_happy_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_06.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_phantom_assassin_phass_happy_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_06.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_phantom_assassin_phass_arc_happy_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_05.mp3",
+      "transcript": "Ah, divine…",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_assassin_phass_happy_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_05.mp3",
+      "transcript": "Ah, divine…",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_phantom_assassin_phass_arc_happy_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_09.mp3",
+      "transcript": "Mmm, divine.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_phantom_assassin_phass_happy_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_09.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_09.mp3",
+      "transcript": "Mmm, divine.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_phantom_assassin_phass_arc_happy_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_shiwiz_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_phantom_assassin_phass_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_shiwiz_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_phantom_assassin_phass_arc_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_crumwiz_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_assassin_phass_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_crumwiz_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_phantom_assassin_phass_arc_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_phantom_assassin_phass_anger_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_phantom_assassin_phass_arc_anger_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_phantom_assassin_phass_anger_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_02.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_phantom_assassin_phass_arc_anger_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_phantom_assassin_phass_anger_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_03.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_phantom_assassin_phass_arc_anger_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_04.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_phantom_assassin_phass_anger_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_04.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_phantom_assassin_phass_arc_anger_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_05.mp3",
+      "transcript": "Hmh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_phantom_assassin_phass_anger_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_05.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_05.mp3",
+      "transcript": "Hmh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_phantom_assassin_phass_arc_anger_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_06.mp3",
+      "transcript": "Uhm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_phantom_assassin_phass_anger_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_06.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_06.mp3",
+      "transcript": "Uhm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_phantom_assassin_phass_arc_anger_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_anger_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_anger_07.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_phantom_assassin_phass_anger_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_07.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_phantom_assassin_phass_arc_anger_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_anger_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_anger_08.mp3",
+      "transcript": "Rhmmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_assassin_phass_arc_anger_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_01.mp3",
+      "transcript": "Ahhh…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_phantom_assassin_phass_happy_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_01.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_01.mp3",
+      "transcript": "Ahhh…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_assassin_phass_arc_happy_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_04.mp3",
+      "transcript": "Ohh…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_assassin_phass_happy_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_04.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_04.mp3",
+      "transcript": "Ohh…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_assassin_phass_arc_happy_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_07.mp3",
+      "transcript": "Ah, divine…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_phantom_assassin_phass_happy_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_07.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_07.mp3",
+      "transcript": "Ah, divine…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_phantom_assassin_phass_arc_happy_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_happy_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_happy_08.mp3",
+      "transcript": "Ah, divine!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_phantom_assassin_phass_happy_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_assassin_phass_arc_happy_08.mp3",
+      "key": "dota2/phantom-assassin/Vo_phantom_assassin_phass_arc_happy_08.mp3",
+      "transcript": "Ah, divine!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_phantom_assassin_phass_arc_happy_08.mp3"
+    }
+  ]
+}

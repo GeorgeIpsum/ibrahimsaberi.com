@@ -1,0 +1,3704 @@
+{
+  "hero": "Medusa",
+  "slug": "medusa",
+  "source": "https://liquipedia.net/dota2/Medusa/Responses",
+  "scrapedAt": "2026-06-17T13:54:09.996Z",
+  "count": 367,
+  "voicelines": [
+    {
+      "file": "Vo_medusa_medus_spawn_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_spawn_01.mp3",
+      "transcript": "Medusa!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_medusa_medus_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_spawn_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_spawn_02.mp3",
+      "transcript": "The Gorgon!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_medusa_medus_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_spawn_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_spawn_03.mp3",
+      "transcript": "Unblinking, I rise.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_medusa_medus_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_spawn_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_spawn_04.mp3",
+      "transcript": "Gorgons, I'll avenge you!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_medusa_medus_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_spawn_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_spawn_05.mp3",
+      "transcript": "Sharpening my fangs.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_medusa_medus_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_begin_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_begin_03.mp3",
+      "transcript": "Gaze upon Medusa's beauty, and despair!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_medusa_medus_begin_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_05.mp3",
+      "transcript": "None can resist!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_medusa_medus_attack_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_07.mp3",
+      "transcript": "Look me in the eye.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_medusa_medus_attack_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_10.mp3",
+      "transcript": "Lock eyes with a Gorgon!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_medusa_medus_attack_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_08.mp3",
+      "transcript": "There is no heart colder than mine.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_medusa_medus_kill_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_08.mp3",
+      "transcript": "There will be a reckoning.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_medusa_medus_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_04.mp3",
+      "transcript": "Fall before me!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_medusa_medus_attack_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_13.mp3",
+      "transcript": "Ssss!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_medusa_medus_anger_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_inthebag_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_inthebag_01.mp3",
+      "transcript": "Now, where did I put my snakeskin bag? Because this one, my friends, is in it!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_medusa_medus_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_begin_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_begin_01.mp3",
+      "transcript": "Tremble, vermin, before the stony gaze of the Gorgon.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_medusa_medus_begin_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_begin_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_begin_02.mp3",
+      "transcript": "Their deaths will be swift and cold as stone.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_medusa_medus_begin_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_01.mp3",
+      "transcript": "Yesssss!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_medusa_medus_move_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_02.mp3",
+      "transcript": "Quick as a snake!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_medusa_medus_move_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_03.mp3",
+      "transcript": "Slithering.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_medusa_medus_move_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_04.mp3",
+      "transcript": "Sssssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_medusa_medus_move_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_05.mp3",
+      "transcript": "Hissssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_medusa_medus_move_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_06.mp3",
+      "transcript": "Sliding.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_medusa_medus_move_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_07.mp3",
+      "transcript": "For honor.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_medusa_medus_move_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_08.mp3",
+      "transcript": "For honor.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_medusa_medus_move_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_09.mp3",
+      "transcript": "Run, vermin.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_medusa_medus_move_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_10.mp3",
+      "transcript": "Tremble.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_move_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_11.mp3",
+      "transcript": "Gorgons, guide me!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_medusa_medus_move_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_12.mp3",
+      "transcript": "Rush.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_medusa_medus_move_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_13.mp3",
+      "transcript": "Serpentine.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_medusa_medus_move_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_14.mp3",
+      "transcript": "Crawling.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_medusa_medus_move_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_15.mp3",
+      "transcript": "Silent as a snake.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_medusa_medus_move_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_16.mp3",
+      "transcript": "Hsssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_medusa_medus_move_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_17.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_17.mp3",
+      "transcript": "Yessss!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_medusa_medus_move_17.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_18.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_18.mp3",
+      "transcript": "Fight for honor.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_medusa_medus_move_18.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_19.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_19.mp3",
+      "transcript": "Ssssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_medusa_medus_move_19.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_20.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_20.mp3",
+      "transcript": "Sssssssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_medusa_medus_move_20.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_21.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_21.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_medusa_medus_move_21.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_22.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_22.mp3",
+      "transcript": "Ssss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_medusa_medus_move_22.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_23.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_23.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_medusa_medus_move_23.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_medusa_medus_attack_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_medusa_medus_attack_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_03.mp3",
+      "transcript": "Cut you down like chaff!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_medusa_medus_attack_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_06.mp3",
+      "transcript": "Gorgons' honor!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_medusa_medus_attack_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_08.mp3",
+      "transcript": "Stay where you are.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_medusa_medus_attack_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_09.mp3",
+      "transcript": "Meet my gaze.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_medusa_medus_attack_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_11.mp3",
+      "transcript": "Cower.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_medusa_medus_attack_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_12.mp3",
+      "transcript": "Gorgonzola!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_medusa_medus_attack_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_13.mp3",
+      "transcript": "Fight.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_medusa_medus_attack_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_attack_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_attack_14.mp3",
+      "transcript": "After them!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_medusa_medus_attack_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_cast_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_cast_01.mp3",
+      "transcript": "Let my beauty still your breath.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_medusa_medus_cast_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_cast_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_cast_02.mp3",
+      "transcript": "Come, my pets, your feast awaits.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_medusa_medus_cast_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_cast_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_cast_03.mp3",
+      "transcript": "I am the last thing you'll see.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_medusa_medus_cast_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_01.mp3",
+      "transcript": "Split Arrow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_medusa_medus_splitshot_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_02.mp3",
+      "transcript": "Arrows, pierce!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_medusa_medus_splitshot_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_03.mp3",
+      "transcript": "Arrows, seek!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_medusa_medus_splitshot_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_04.mp3",
+      "transcript": "Arrows, bite!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_medusa_medus_splitshot_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_05.mp3",
+      "transcript": "Arrows, fly!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_splitshot_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_06.mp3",
+      "transcript": "Pierce!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_medusa_medus_splitshot_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_07.mp3",
+      "transcript": "Seek!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_medusa_medus_splitshot_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_08.mp3",
+      "transcript": "Bite!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_medusa_medus_splitshot_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_09.mp3",
+      "transcript": "Fly!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_medusa_medus_splitshot_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_10.mp3",
+      "transcript": "Five strikes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_medusa_medus_splitshot_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_11.mp3",
+      "transcript": "Fly, my fangs!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_medusa_medus_splitshot_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_12.mp3",
+      "transcript": "Split Arrow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_medusa_medus_splitshot_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_13.mp3",
+      "transcript": "Arrows, bite!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_medusa_medus_splitshot_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_splitshot_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_splitshot_14.mp3",
+      "transcript": "Pierce!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_medusa_medus_splitshot_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_01.mp3",
+      "transcript": "Mystic Snake!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_medusa_medus_mysticsnake_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_02.mp3",
+      "transcript": "Watch your cousin fly, my pets!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_mysticsnake_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_03.mp3",
+      "transcript": "Play, my pet!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_medusa_medus_mysticsnake_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_04.mp3",
+      "transcript": "Snake's kiss!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_mysticsnake_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_05.mp3",
+      "transcript": "Bring me mana!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_medusa_medus_mysticsnake_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_06.mp3",
+      "transcript": "Fetch me some mana!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_mysticsnake_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_mysticsnake_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_mysticsnake_07.mp3",
+      "transcript": "Mystic Snake!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_medusa_medus_mysticsnake_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_01.mp3",
+      "transcript": "Mana Shield!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_medusa_medus_manashield_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_02.mp3",
+      "transcript": "Mana protect me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_medusa_medus_manashield_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_03.mp3",
+      "transcript": "Mana shield me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_medusa_medus_manashield_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_05.mp3",
+      "transcript": "Shield up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_medusa_medus_manashield_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_04.mp3",
+      "transcript": "Shield!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_medusa_medus_manashield_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_06.mp3",
+      "transcript": "Impervious.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_medusa_medus_manashield_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_manashield_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_manashield_07.mp3",
+      "transcript": "Shield up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_medusa_medus_manashield_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_01.mp3",
+      "transcript": "Stone Gaze!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_medusa_medus_stonegaze_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_02.mp3",
+      "transcript": "Be stone.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_medusa_medus_stonegaze_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_04.mp3",
+      "transcript": "Petrify.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_medusa_medus_stonegaze_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_05.mp3",
+      "transcript": "Freeze.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_medusa_medus_stonegaze_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_06.mp3",
+      "transcript": "Heart of stone.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_medusa_medus_stonegaze_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_07.mp3",
+      "transcript": "Behold my beauty!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_medusa_medus_stonegaze_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_08.mp3",
+      "transcript": "Fall into my eyes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_medusa_medus_stonegaze_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_11.mp3",
+      "transcript": "Look at me when I kill you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_medusa_medus_stonegaze_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_12.mp3",
+      "transcript": "Stone got your tongue?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_medusa_medus_stonegaze_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_13.mp3",
+      "transcript": "Heart of stone.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_medusa_medus_stonegaze_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_01.mp3",
+      "transcript": "Stronger with every skin I shed.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_medusa_medus_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_02.mp3",
+      "transcript": "Unblinking.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_medusa_medus_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_03.mp3",
+      "transcript": "With power comes vengeance.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_medusa_medus_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_04.mp3",
+      "transcript": "It won't be long now, sisters.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_medusa_medus_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_05.mp3",
+      "transcript": "Power is beauty.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_medusa_medus_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_06.mp3",
+      "transcript": "My resolve strengthens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_medusa_medus_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_07.mp3",
+      "transcript": "Power is the only beauty.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_medusa_medus_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_08.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_medusa_medus_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_09.mp3",
+      "transcript": "Ah, the wind in my serpents!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_medusa_medus_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_levelup_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_levelup_10.mp3",
+      "transcript": "Power is beauty.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_medusa_medus_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_03.mp3",
+      "transcript": "Be still, be stone.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_medusa_medus_stonegaze_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_09.mp3",
+      "transcript": "Fear my gaze.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_stonegaze_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_10.mp3",
+      "transcript": "Feel my eyes upon you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_medusa_medus_stonegaze_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_stonegaze_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_stonegaze_14.mp3",
+      "transcript": "Behold my beauty!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_medusa_medus_stonegaze_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_01.mp3",
+      "transcript": "You blinked first.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_medusa_medus_kill_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_02.mp3",
+      "transcript": "That'll teach you to try outstaring a snake.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_medusa_medus_kill_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_03.mp3",
+      "transcript": "So puny, I hardly had to unhinge my jaw.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_medusa_medus_kill_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_04.mp3",
+      "transcript": "A kiss, and then good-night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_medusa_medus_kill_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_05.mp3",
+      "transcript": "Come, give us a kiss.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_medusa_medus_kill_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_06.mp3",
+      "transcript": "Die, as all love dies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_medusa_medus_kill_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_07.mp3",
+      "transcript": "My beauty fills your dying eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_medusa_medus_kill_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_09.mp3",
+      "transcript": "Don't resist the cobra, little bird.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_medusa_medus_kill_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_10.mp3",
+      "transcript": "I'm surprised you lasted this long.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_medusa_medus_kill_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_11.mp3",
+      "transcript": "I thought you'd last longer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_medusa_medus_kill_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_12.mp3",
+      "transcript": "Balancing the scales.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_medusa_medus_kill_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_13.mp3",
+      "transcript": "You'll make a fine addition to my rock garden.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_medusa_medus_kill_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_14.mp3",
+      "transcript": "I'm having a good hair day.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_medusa_medus_kill_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_kill_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_kill_15.mp3",
+      "transcript": "Hmm hmm hmm ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_medusa_medus_kill_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_01.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_medusa_medus_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_02.mp3",
+      "transcript": "Ho sss!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_medusa_medus_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_medusa_medus_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_medusa_medus_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_05.mp3",
+      "transcript": "Hmm hmm hmm ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_medusa_medus_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_06.mp3",
+      "transcript": "Hmm hmm hmm hmm hmm hmm!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_medusa_medus_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_07.mp3",
+      "transcript": "Hmm hmm hmm hmm hmm hmm!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_medusa_medus_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_08.mp3",
+      "transcript": "Ssss sss sss sss sss!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_medusa_medus_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_09.mp3",
+      "transcript": "Ha ha ha ha ha ssssss!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_medusa_medus_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_laugh_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_laugh_10.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_medusa_medus_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_move_24.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_move_24.mp3",
+      "transcript": "I know, right?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_medusa_medus_move_24.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_01.mp3",
+      "transcript": "Never run your finger through my hair.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_rival_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_02.mp3",
+      "transcript": "I thought my gaze might turn you to flesh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_medusa_medus_rival_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_03.mp3",
+      "transcript": "From stone to statue.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_medusa_medus_rival_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_04.mp3",
+      "transcript": "Even stone is not immune to my fangs.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_medusa_medus_rival_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_05.mp3",
+      "transcript": "You slither like an amateur.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_medusa_medus_rival_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_06.mp3",
+      "transcript": "Meet a real snake, you eel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_medusa_medus_rival_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_07.mp3",
+      "transcript": "You're still wet behind the ears.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_medusa_medus_rival_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_08.mp3",
+      "transcript": "Wriggle back to the water, little fish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_medusa_medus_rival_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_09.mp3",
+      "transcript": "You rolled snake-eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_medusa_medus_rival_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_10.mp3",
+      "transcript": "Snakes on a plane!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_medusa_medus_rival_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_11.mp3",
+      "transcript": "Oh, look — a petrified forest!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_medusa_medus_rival_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_12.mp3",
+      "transcript": "The Slithereen Guard fails at last.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_medusa_medus_rival_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_13.mp3",
+      "transcript": "Sink like a stone into the depths.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_medusa_medus_rival_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_14.mp3",
+      "transcript": "Leave the snake magic to the experts, Shaman.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_rival_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_15.mp3",
+      "transcript": "I know a thing or two about working stone.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_medusa_medus_rival_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_16.mp3",
+      "transcript": "Oh, I mistook you for a fire hydra.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_medusa_medus_rival_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_17.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_17.mp3",
+      "transcript": "Ice cracks, the same as stone.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_medusa_medus_rival_17.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_18.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_18.mp3",
+      "transcript": "Shame I can't look you in the eye.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_medusa_medus_rival_18.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_19.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_19.mp3",
+      "transcript": "Mortality suits you, Zeus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_medusa_medus_rival_19.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_20.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_20.mp3",
+      "transcript": "What a failure of a god.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_medusa_medus_rival_20.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_21.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_21.mp3",
+      "transcript": "Tell your brothers I said hello.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_medusa_medus_rival_21.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_22.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_22.mp3",
+      "transcript": "Oh, Zeus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_medusa_medus_rival_22.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_23.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_23.mp3",
+      "transcript": "Oh, Phoenix, I should have known you'd go out with a bang.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_medusa_medus_rival_23.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rival_24.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rival_24.mp3",
+      "transcript": "Didn't you know snakes are cold-blooded?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_medusa_medus_rival_24.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_firstblood_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_firstblood_01.mp3",
+      "transcript": "First blood, and it came so easily.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_medusa_medus_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_firstblood_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_firstblood_02.mp3",
+      "transcript": "First blood—I like to start with dessert.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_medusa_medus_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_01.mp3",
+      "transcript": "Stone already, Tiny? I like that.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_medusa_medus_ally_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_02.mp3",
+      "transcript": "Stone-cold heart. My kind of man.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_medusa_medus_ally_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_03.mp3",
+      "transcript": "Let's drain these fools of mana.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_medusa_medus_ally_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_04.mp3",
+      "transcript": "Outworld Destroyer, let's see who steals them first.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_medusa_medus_ally_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_05.mp3",
+      "transcript": "Snake bite, grave chill.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_medusa_medus_ally_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_06.mp3",
+      "transcript": "Visage, shall my pets play with yours?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_medusa_medus_ally_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_07.mp3",
+      "transcript": "Stone already. My work is done.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_medusa_medus_ally_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_08.mp3",
+      "transcript": "Reptiles rally!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_medusa_medus_ally_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_09.mp3",
+      "transcript": "Ah, Venomancer. We both traded beauty for power.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_medusa_medus_ally_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_10.mp3",
+      "transcript": "We well know, Venomancer — beauty fades, but power lasts forever.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_medusa_medus_ally_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_11.mp3",
+      "transcript": "You're here too, Zeus?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_medusa_medus_ally_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_12.mp3",
+      "transcript": "Zeus on the loose!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_medusa_medus_ally_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_13.mp3",
+      "transcript": "Zeus! You here already?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_medusa_medus_ally_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_ally_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_ally_14.mp3",
+      "transcript": "I should have known you'd be here, Zeus.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_medusa_medus_ally_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_01.mp3",
+      "transcript": "Tiresome vermin.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_medusa_medus_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_02.mp3",
+      "transcript": "Die a rodent's death.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_medusa_medus_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_03.mp3",
+      "transcript": "The snake succeeds.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_medusa_medus_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_04.mp3",
+      "transcript": "Impudent upstart.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_medusa_medus_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_05.mp3",
+      "transcript": "A light snack.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_medusa_medus_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_06.mp3",
+      "transcript": "An appetizer.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_medusa_medus_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_07.mp3",
+      "transcript": "Kiss, kiss.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_medusa_medus_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_08.mp3",
+      "transcript": "Snakebit.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_medusa_medus_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_09.mp3",
+      "transcript": "A plaything for my pets.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_medusa_medus_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lasthit_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lasthit_10.mp3",
+      "transcript": "You little rat.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_medusa_medus_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_01.mp3",
+      "transcript": "In your face.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_medusa_medus_deny_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_medusa_medus_deny_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_03.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_medusa_medus_deny_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_04.mp3",
+      "transcript": "Dear me, no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_medusa_medus_deny_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_05.mp3",
+      "transcript": "Nothing for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_medusa_medus_deny_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_06.mp3",
+      "transcript": "You lose.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_medusa_medus_deny_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_07.mp3",
+      "transcript": "How does failure taste?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_medusa_medus_deny_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_08.mp3",
+      "transcript": "Tipped the scales.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_medusa_medus_deny_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_09.mp3",
+      "transcript": "Score one for the serpent.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_medusa_medus_deny_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_10.mp3",
+      "transcript": "The serpent, supreme.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_medusa_medus_deny_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_11.mp3",
+      "transcript": "You cannot best the Gorgon.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_medusa_medus_deny_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_12.mp3",
+      "transcript": "You knew I was cold-blooded.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_medusa_medus_deny_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_13.mp3",
+      "transcript": "Ha ha ha hsss sss sss!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_medusa_medus_deny_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_14.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_medusa_medus_deny_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_15.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_medusa_medus_deny_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_16.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_medusa_medus_deny_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_17.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_17.mp3",
+      "transcript": "Nothing for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_medusa_medus_deny_17.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_18.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_18.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_medusa_medus_deny_18.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_19.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_19.mp3",
+      "transcript": "Huh huh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_medusa_medus_deny_19.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_20.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_20.mp3",
+      "transcript": "Huh sss!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_medusa_medus_deny_20.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_deny_21.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_deny_21.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_medusa_medus_deny_21.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_purch_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_purch_01.mp3",
+      "transcript": "New treasures.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_medusa_medus_purch_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_purch_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_purch_02.mp3",
+      "transcript": "Bejeweled as a snake.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_medusa_medus_purch_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_purch_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_purch_03.mp3",
+      "transcript": "One step closer, sisters.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_medusa_medus_purch_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_purch_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_purch_04.mp3",
+      "transcript": "Is it creepy that I have a snakeskin purse?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_medusa_medus_purch_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_14.mp3",
+      "transcript": "Very good.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_medusa_medus_items_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_15.mp3",
+      "transcript": "Brilliant.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_medusa_medus_items_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_16.mp3",
+      "transcript": "Delightful.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_medusa_medus_items_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_scepter_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_scepter_01.mp3",
+      "transcript": "Ah, Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_scepter_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_scepter_02.mp3",
+      "transcript": "Scepter for the serpent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_medusa_medus_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_blink_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_blink_01.mp3",
+      "transcript": "Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_medusa_medus_blink_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_blink_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_blink_02.mp3",
+      "transcript": "Dagger for the unblinking.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_medusa_medus_blink_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_01.mp3",
+      "transcript": "Eye of Skadi.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_medusa_medus_items_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_02.mp3",
+      "transcript": "Butterfly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_medusa_medus_items_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_03.mp3",
+      "transcript": "Linken's Sphere.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_medusa_medus_items_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_04.mp3",
+      "transcript": "Mjollnir.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_medusa_medus_items_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_05.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_medusa_medus_items_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_06.mp3",
+      "transcript": "Radiance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_medusa_medus_items_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_07.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_medusa_medus_items_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_08.mp3",
+      "transcript": "Maelstrom.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_medusa_medus_items_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_09.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_medusa_medus_items_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_10.mp3",
+      "transcript": "Daedalus.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_medusa_medus_items_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_11.mp3",
+      "transcript": "Manta Style.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_medusa_medus_items_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_12.mp3",
+      "transcript": "Scythe of Vyse.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_medusa_medus_items_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_items_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_items_13.mp3",
+      "transcript": "Divine Rapier.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_medusa_medus_items_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_immort_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_medusa_medus_immort_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_immort_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_immort_02.mp3",
+      "transcript": "A true Gorgon now!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_medusa_medus_immort_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_medusa_medus_death_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_02.mp3",
+      "transcript": "My snakes are stilled.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_medusa_medus_death_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_03.mp3",
+      "transcript": "I die.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_medusa_medus_death_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_04.mp3",
+      "transcript": "Curse you!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_medusa_medus_death_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_05.mp3",
+      "transcript": "Wretched killer.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_medusa_medus_death_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_06.mp3",
+      "transcript": "My hair hisses no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_medusa_medus_death_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_07.mp3",
+      "transcript": "My snakes are silenced.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_medusa_medus_death_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_08.mp3",
+      "transcript": "I shed my sssskin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_medusa_medus_death_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_09.mp3",
+      "transcript": "Gorgons, I've failed you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_medusa_medus_death_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_10.mp3",
+      "transcript": "Unblinking eyes dim.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_medusa_medus_death_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_11.mp3",
+      "transcript": "My poor pets.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_medusa_medus_death_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_12.mp3",
+      "transcript": "Vengeance thwarted.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_medusa_medus_death_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_13.mp3",
+      "transcript": "Where is the justice in this?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_medusa_medus_death_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_14.mp3",
+      "transcript": "All for naught.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_medusa_medus_death_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_15.mp3",
+      "transcript": "Nooo.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_medusa_medus_death_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_16.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_medusa_medus_death_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_17.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_17.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_medusa_medus_death_17.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_death_18.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_death_18.mp3",
+      "transcript": "I die.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_medusa_medus_death_18.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_01.mp3",
+      "transcript": "Skin shed, I'm reborn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_02.mp3",
+      "transcript": "Refreshed of purpose, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_medusa_medus_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_03.mp3",
+      "transcript": "Reborn for retribution.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_medusa_medus_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_04.mp3",
+      "transcript": "I return for justice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_medusa_medus_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_05.mp3",
+      "transcript": "I will not fail again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_medusa_medus_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_06.mp3",
+      "transcript": "Gorgons, I won't fail you again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_medusa_medus_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_07.mp3",
+      "transcript": "Vengeance never dies.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_medusa_medus_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_09.mp3",
+      "transcript": "I'm having a bad hair day.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_medusa_medus_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_respawn_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_respawn_10.mp3",
+      "transcript": "The Gorgon's gaze will petrify them all!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_medusa_medus_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_fastres_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_fastres_01.mp3",
+      "transcript": "The snake, reborn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_medusa_medus_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_fastres_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_fastres_02.mp3",
+      "transcript": "The snake strikes back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_medusa_medus_fastres_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_fastres_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_fastres_03.mp3",
+      "transcript": "Even a severed head can bite.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_medusa_medus_fastres_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_bottle_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_bottle_01.mp3",
+      "transcript": "Whatever will I do with you?",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_medusa_medus_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_bottle_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_bottle_02.mp3",
+      "transcript": "To tip the scales.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_medusa_medus_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_bottle_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_bottle_03.mp3",
+      "transcript": "I'll safeguard my secrets.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_medusa_medus_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_doubdam_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_medusa_medus_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_doubdam_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_doubdam_02.mp3",
+      "transcript": "Coil before me!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_medusa_medus_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_haste_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_medusa_medus_haste_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_haste_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_haste_02.mp3",
+      "transcript": "Quick as a snake!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_medusa_medus_haste_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_illus_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_medusa_medus_illus_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_illus_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_illus_03.mp3",
+      "transcript": "Sisters three, once more.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_medusa_medus_illus_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_illus_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_illus_02.mp3",
+      "transcript": "Nobody look at anybody!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_medusa_medus_illus_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_invis_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_medusa_medus_invis_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_invis_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_invis_02.mp3",
+      "transcript": "You can't vanquish what you can't see.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_medusa_medus_invis_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_regen_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_medusa_medus_regen_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_regen_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_regen_02.mp3",
+      "transcript": "A new skin grows.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_medusa_medus_regen_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_medusa_medus_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_medusa_medus_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_medusa_medus_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_medusa_medus_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_medusa_medus_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_medusa_medus_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_medusa_medus_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_medusa_medus_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_notyet_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_medusa_medus_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_medusa_medus_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_medusa_medus_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_medusa_medus_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_medusa_medus_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_medusa_medus_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_medusa_medus_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_medusa_medus_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_medusa_medus_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_nomana_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_medusa_medus_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_medusa_medus_pain_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_02.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_medusa_medus_pain_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_03.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_medusa_medus_pain_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_04.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_medusa_medus_pain_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_05.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_medusa_medus_pain_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_06.mp3",
+      "transcript": "Uhf!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_medusa_medus_pain_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_medusa_medus_pain_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_08.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_medusa_medus_pain_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_09.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_medusa_medus_pain_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_10.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_medusa_medus_pain_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_11.mp3",
+      "transcript": "Uhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_medusa_medus_pain_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_12.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_medusa_medus_pain_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_13.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_13.mp3",
+      "transcript": "Uhnss!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_medusa_medus_pain_13.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_14.mp3",
+      "transcript": "Sss!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_medusa_medus_pain_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_pain_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_pain_15.mp3",
+      "transcript": "Ssss!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_medusa_medus_pain_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_underattack_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_medusa_medus_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_01.mp3",
+      "transcript": "I traded useless beauty for the power to wreak my vengeance.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_medusa_medus_rare_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_02.mp3",
+      "transcript": "Do I mourn for my lost loveliness? No.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_medusa_medus_rare_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_03.mp3",
+      "transcript": "I am never alone. My pets hiss around my head, comfort and reminder of my cold and vengeful road.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_medusa_medus_rare_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_04.mp3",
+      "transcript": "Gorgons, sisters, forgive my infirmity. I grow stronger day by day, and I will come for you.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_medusa_medus_rare_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_05.mp3",
+      "transcript": "When I was beautiful, I never knew what I was missing.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_medusa_medus_rare_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_06.mp3",
+      "transcript": "Never come between a Gorgon and her sisters. I will turn your blood and bone to stone, and shatter you into a thousand remorseful shards.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_medusa_medus_rare_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_rare_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_rare_07.mp3",
+      "transcript": "The only real beauty is power.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_medusa_medus_rare_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lanemissing_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lanemissing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_medusa_medus_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lanemissing_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lanemissing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_medusa_medus_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lanemissing_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lanemissing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_medusa_medus_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_thanks_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_medusa_medus_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_thanks_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_thanks_02.mp3",
+      "transcript": "My gratitude is yours.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_medusa_medus_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_thanks_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_thanks_03.mp3",
+      "transcript": "You have my thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_medusa_medus_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_thanks_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_thanks_04.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_medusa_medus_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_win_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_win_01.mp3",
+      "transcript": "Yessss!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_medusa_medus_win_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_win_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_medusa_medus_win_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_win_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_win_03.mp3",
+      "transcript": "Victory warms the coldest heart.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_medusa_medus_win_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_win_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_win_04.mp3",
+      "transcript": "Load up all the vanquished for my rock garden.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_medusa_medus_win_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_win_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_win_05.mp3",
+      "transcript": "That's what triumph tastes like, my pretty pets.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_medusa_medus_win_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_01.mp3",
+      "transcript": "Nooo!!!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_medusa_medus_lose_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_medusa_medus_lose_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_03.mp3",
+      "transcript": "I bring shame upon the Gorgons.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_lose_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_04.mp3",
+      "transcript": "Failure chills the coldest heart.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_medusa_medus_lose_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_05.mp3",
+      "transcript": "All for nothing. Gorgons, I have failed you.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_medusa_medus_lose_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_06.mp3",
+      "transcript": "Find me a mirror, and I'll end it all.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_medusa_medus_lose_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_lose_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_lose_07.mp3",
+      "transcript": "Hide my face, my pretty pets.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_medusa_medus_lose_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_itemcommon_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_itemcommon_01.mp3",
+      "transcript": "Fit for a Gorgon.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_medusa_medus_itemcommon_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_itemmoderate_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_itemmoderate_01.mp3",
+      "transcript": "Look, my pets — a new trinket.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_medusa_medus_itemmoderate_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_itemrare_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_itemrare_01.mp3",
+      "transcript": "Worthy of a god's daughter.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_medusa_medus_itemrare_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_01.mp3",
+      "transcript": "Oh, crap!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_medusa_medus_failure_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_02.mp3",
+      "transcript": "Curses!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_medusa_medus_failure_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_03.mp3",
+      "transcript": "Turn the mirror to the wall.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_medusa_medus_failure_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_04.mp3",
+      "transcript": "Quiet, my pets.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_medusa_medus_failure_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_05.mp3",
+      "transcript": "Unworthy of a Gorgon.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_medusa_medus_failure_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_failure_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_failure_06.mp3",
+      "transcript": "The serpent is chastened.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_medusa_medus_failure_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_crumwiz_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_medusa_medus_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_shiwiz_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_medusa_medus_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_01.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_medusa_medus_anger_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_02.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_medusa_medus_anger_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_03.mp3",
+      "transcript": "Uhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_medusa_medus_anger_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_04.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_medusa_medus_anger_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_05.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_medusa_medus_anger_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_06.mp3",
+      "transcript": "Hnh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_medusa_medus_anger_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_07.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_medusa_medus_anger_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_08.mp3",
+      "transcript": "Hhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_medusa_medus_anger_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_09.mp3",
+      "transcript": "Uuuhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_medusa_medus_anger_09.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_10.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_10.mp3",
+      "transcript": "Nnnnh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_medusa_medus_anger_10.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_11.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_11.mp3",
+      "transcript": "Hhhhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_medusa_medus_anger_11.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_12.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_12.mp3",
+      "transcript": "Hnh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_medusa_medus_anger_12.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_14.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_14.mp3",
+      "transcript": "Tsss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_medusa_medus_anger_14.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_15.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_15.mp3",
+      "transcript": "Sss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_medusa_medus_anger_15.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_16.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_16.mp3",
+      "transcript": "Sss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_medusa_medus_anger_16.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_17.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_17.mp3",
+      "transcript": "Rrrrss!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_medusa_medus_anger_17.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_anger_18.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_anger_18.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_medusa_medus_anger_18.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_01.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_01.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_medusa_medus_happy_01.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_02.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_02.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_medusa_medus_happy_02.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_03.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_03.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_medusa_medus_happy_03.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_04.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_04.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_medusa_medus_happy_04.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_05.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_05.mp3",
+      "transcript": "Oh ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_medusa_medus_happy_05.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_06.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_06.mp3",
+      "transcript": "Ssss.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_medusa_medus_happy_06.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_07.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_07.mp3",
+      "transcript": "Ah ssss.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_medusa_medus_happy_07.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_08.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_08.mp3",
+      "transcript": "Sssss.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_medusa_medus_happy_08.mp3"
+    },
+    {
+      "file": "Vo_medusa_medus_happy_09.mp3",
+      "key": "dota2/medusa/Vo_medusa_medus_happy_09.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_medusa_medus_happy_09.mp3"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+name: Upload yt-dlp-wasm assets to R2
+
+# Builds @local/yt-dlp-wasm and fetches the latest yt-dlp wheel, then syncs both
+# to an R2 bucket (S3-compatible API). These are the assets the browser package
+# serves: the built package (index.js, the pyodide + ffmpeg workers) and the
+# wheel. Pyodide and the ffmpeg core still load from jsDelivr unless you also
+# mirror them — see the note at the bottom of this file.
+#
+# Required repo secrets:
+#   R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY   R2 API token rendered as S3 creds
+#   CLOUDFLARE_ACCOUNT_ID                    used to build the R2 S3 endpoint
+# Required repo variable:
+#   R2_BUCKET                                destination bucket (e.g. ytdlp-wasm-assets)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "packages/yt-dlp-wasm/**"
+      - ".scripts/fetch-yt-dlp-wheel.mjs"
+      - ".github/workflows/upload-assets-r2.yml"
+  schedule:
+    # Refresh the yt-dlp wheel weekly (yt-dlp ships often). Mondays 06:00 UTC.
+    - cron: "0 6 * * 1"
+
+concurrency:
+  group: upload-assets-r2
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_WISP_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_WISP_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      # AWS CLI >= 2.23 adds integrity checksums R2 rejects; only send when required.
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+      R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+      BUCKET: ${{ vars.R2_WISP_BUCKET }}
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build package (test-gated) + fetch yt-dlp wheel
+        run: |
+          pnpm -F @local/yt-dlp-wasm test
+          pnpm yt-dlp-wasm:public
+          pnpm yt-dlp-wasm:wheel
+
+      - name: Fail if R2_BUCKET is not configured
+        run: |
+          if [ -z "$BUCKET" ]; then
+            echo "::error::Set the R2_BUCKET repository variable (Settings → Secrets and variables → Actions → Variables)."
+            exit 1
+          fi
+
+      - name: Sync package dist to R2 (prunes stale files)
+        run: |
+          aws s3 sync public/yt-dlp-wasm "s3://${BUCKET}/yt-dlp-wasm" \
+            --endpoint-url "$R2_ENDPOINT" --no-progress --delete \
+            --exclude "*.map" --exclude "*.d.ts"
+
+      - name: Sync yt-dlp wheel to R2 (keeps older versions)
+        run: |
+          aws s3 sync public/yt-dlp-wheels "s3://${BUCKET}/yt-dlp-wheels" \
+            --endpoint-url "$R2_ENDPOINT" --no-progress
+
+# Serving notes (one-time R2 setup, outside this workflow):
+#   - Expose the bucket via an r2.dev domain or a custom domain.
+#   - The browser package is loaded under COEP `require-corp`, so cross-origin
+#     R2 responses need `Access-Control-Allow-Origin` + a cross-origin resource
+#     policy; set those via the bucket's CORS policy / a Cloudflare Transform or
+#     Worker. Ensure `.js` is served as a JavaScript content-type.
+#   - To use them, set the package's pyodideIndexURL / ffmpegCoreBaseURL /
+#     ytDlpSource (and the route's wheel fetch) to the R2 base URL.
+#
+# To also mirror Pyodide + the ffmpeg core to R2 (full CDN independence), add a
+# step that downloads those release artifacts and syncs them, then point
+# pyodideIndexURL / ffmpegCoreBaseURL at the bucket.

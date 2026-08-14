@@ -1,0 +1,120 @@
+{
+  "root": true,
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "defaultBranch": "main",
+    "useIgnoreFile": true
+  },
+  "files": {
+    // Scraper-generated voiceline metadata — keep biome from reformatting it so
+    // committed files always match `.scripts/scrape-dota2-voicelines.mjs` output.
+    "includes": ["**", "!src/app/api/audio/voice-responses/meta/*.json"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "trailingNewline": true
+  },
+  "linter": {
+    "enabled": true,
+    "domains": {
+      "next": "recommended",
+      "react": "recommended"
+    },
+    "rules": {
+      "a11y": {
+        // The atoms <Input> renders a real <input>; teach the rule so a <label>
+        // wrapping it counts as associated.
+        "noLabelWithoutControl": {
+          "level": "error",
+          "options": { "inputComponents": ["Input"] }
+        }
+      },
+      "preset": "recommended",
+      "style": {
+        "noRestrictedImports": {
+          "level": "error",
+          "options": {
+            "patterns": [
+              {
+                "group": ["@base-ui/react", "@base-ui/react/*"],
+                "message": "Import Base UI primitives only through src/atoms. Add or extend a wrapper there, then import from @/components/atoms/..."
+              }
+            ]
+          }
+        }
+      },
+      "nursery": {
+        "useSortedClasses": "warn"
+      }
+    }
+  },
+  "assist": {
+    "enabled": true
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "trailingNewline": true
+    },
+    "linter": {
+      "enabled": true
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "trailingNewline": true
+    },
+    "linter": {
+      "enabled": true
+    },
+    "assist": {
+      "enabled": true
+    },
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
+  "overrides": [
+    {
+      "includes": ["src/components/atoms/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": [
+        "**/opengraph-image.tsx",
+        "src/features/og/create-og-image.tsx"
+      ],
+      "linter": {
+        "rules": {
+          "a11y": {
+            "useAltText": "off",
+            "noSvgWithoutTitle": "off"
+          },
+          "performance": {
+            "noImgElement": "off"
+          },
+          "suspicious": {
+            "noExplicitAny": "off"
+          }
+        }
+      }
+    }
+  ]
+}

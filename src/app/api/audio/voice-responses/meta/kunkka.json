@@ -1,0 +1,2880 @@
+{
+  "hero": "Kunkka",
+  "slug": "kunkka",
+  "source": "https://liquipedia.net/dota2/Kunkka/Responses",
+  "scrapedAt": "2026-06-17T13:23:58.176Z",
+  "count": 285,
+  "voicelines": [
+    {
+      "file": "Vo_kunkka_kunk_spawn_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_01.mp3",
+      "transcript": "Kunkka is my name.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_kunkka_kunk_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_02.mp3",
+      "transcript": "An old vessel, but more than seaworthy.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_kunkka_kunk_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_03.mp3",
+      "transcript": "Admiral Kunkka here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_kunkka_kunk_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_04.mp3",
+      "transcript": "Admiral of the fleet.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_kunkka_kunk_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_05.mp3",
+      "transcript": "Step lively now, your Admiral is on board!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_kunkka_kunk_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_06.mp3",
+      "transcript": "I step ashore.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_kunkka_kunk_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_07.mp3",
+      "transcript": "We're all in the same boat.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_kunkka_kunk_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_08.mp3",
+      "transcript": "My ship has come in!",
+      "categories": [
+        "Loadout",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_kunkka_kunk_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_09.mp3",
+      "transcript": "Time to shove off.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_kunkka_kunk_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_10.mp3",
+      "transcript": "Worth my salt and more.",
+      "categories": [
+        "Loadout",
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_kunkka_kunk_spawn_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_10.mp3",
+      "transcript": "Batten the hatches!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_kunkka_kunk_attack_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_cast_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_cast_02.mp3",
+      "transcript": "Full sail ahead!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_kunkka_kunk_cast_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_11.mp3",
+      "transcript": "Admiral Kunkka!",
+      "categories": [
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_kunkka_kunk_spawn_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_anger_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_anger_04.mp3",
+      "transcript": "araaeeee",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_kunkka_kunk_anger_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_spawn_12.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_spawn_12.mp3",
+      "transcript": "I'm Admiral Kunkka!",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_kunkka_kunk_spawn_12.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_inthebag_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_inthebag_01.mp3",
+      "transcript": "Don't worry, lads, this one's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_kunkka_kunk_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_battlebegins_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_battlebegins_01.mp3",
+      "transcript": "Run up the sail while we've got the tide!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_kunkka_kunk_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_battlebegins_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_battlebegins_02.mp3",
+      "transcript": "Rough seas ahead, crew. Strap me to the mizzen when I give the word.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_kunkka_kunk_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_01.mp3",
+      "transcript": "Aye.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_kunkka_kunk_move_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_02.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_kunkka_kunk_move_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_03.mp3",
+      "transcript": "Fair enough.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_kunkka_kunk_move_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_04.mp3",
+      "transcript": "I change tacks.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_kunkka_kunk_move_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_05.mp3",
+      "transcript": "By your compass.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_kunkka_kunk_move_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_06.mp3",
+      "transcript": "As you wish.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_kunkka_kunk_move_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_07.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_kunkka_kunk_move_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_08.mp3",
+      "transcript": "As the crow flies.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_kunkka_kunk_move_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_09.mp3",
+      "transcript": "So you say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_kunkka_kunk_move_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_10.mp3",
+      "transcript": "Set my jib.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_kunkka_kunk_move_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_move_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_move_11.mp3",
+      "transcript": "A new course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_kunkka_kunk_move_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_kunkka_kunk_attack_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_02.mp3",
+      "transcript": "Run you through!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_kunkka_kunk_attack_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_03.mp3",
+      "transcript": "This'll trim your sails.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_kunkka_kunk_attack_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_04.mp3",
+      "transcript": "Splay your blood across the deck!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_kunkka_kunk_attack_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_05.mp3",
+      "transcript": "I'll drag your bleeding head aloft!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_kunkka_kunk_attack_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_06.mp3",
+      "transcript": "Keel-haul the lot of 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_kunkka_kunk_attack_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_07.mp3",
+      "transcript": "Here's a yardarm for ya!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_kunkka_kunk_attack_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_08.mp3",
+      "transcript": "You don't have the sand.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_kunkka_kunk_attack_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_09.mp3",
+      "transcript": "No room to swing a cat in this crowd.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_kunkka_kunk_attack_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_attack_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_attack_11.mp3",
+      "transcript": "Look sharp!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_kunkka_kunk_attack_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_cast_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_cast_01.mp3",
+      "transcript": "Cast away!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_kunkka_kunk_cast_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_cast_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_cast_03.mp3",
+      "transcript": "Hie thee to battle!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_kunkka_kunk_cast_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_torrent_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_torrent_02.mp3",
+      "transcript": "Swept you off your feet, ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_kunkka_kunk_ability_torrent_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_tidebrng_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_tidebrng_02.mp3",
+      "transcript": "You're all washed up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_kunkka_kunk_ability_tidebrng_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_tidebrng_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_tidebrng_03.mp3",
+      "transcript": "Ha, soaked ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_kunkka_kunk_ability_tidebrng_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_torrent_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_torrent_04.mp3",
+      "transcript": "The fog can't hide ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_kunkka_kunk_ability_torrent_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_xmark_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_xmark_01.mp3",
+      "transcript": "Ha, welcome back!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_kunkka_kunk_ability_xmark_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_xmark_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_xmark_02.mp3",
+      "transcript": "Not so safe harbor, eh?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_kunkka_kunk_ability_xmark_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_xmark_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_xmark_03.mp3",
+      "transcript": "Back so soon?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_kunkka_kunk_ability_xmark_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_xmark_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_xmark_04.mp3",
+      "transcript": "Back to port!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_kunkka_kunk_ability_xmark_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_xmark_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_xmark_05.mp3",
+      "transcript": "Yes, X Marks the Spot.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_kunkka_kunk_ability_xmark_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_ghostshp_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_ghostshp_01.mp3",
+      "transcript": "Ramming speed!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_kunkka_kunk_ability_ghostshp_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_ghostshp_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_ghostshp_02.mp3",
+      "transcript": "Yo ho ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_kunkka_kunk_ability_ghostshp_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_ghostshp_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_ghostshp_03.mp3",
+      "transcript": "Collision course!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_kunkka_kunk_ability_ghostshp_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_torrent_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_torrent_03.mp3",
+      "transcript": "Ha-ha, thar she blows!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_kunkka_kunk_ability_torrent_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_failure_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_failure_01.mp3",
+      "transcript": "Come about!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_kunkka_kunk_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_failure_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_failure_02.mp3",
+      "transcript": "Now that was a fail-boat!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_kunkka_kunk_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_01.mp3",
+      "transcript": "I grow stronger!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_kunkka_kunk_level_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_02.mp3",
+      "transcript": "I'm buoyed up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_kunkka_kunk_level_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_03.mp3",
+      "transcript": "My sails fill!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_kunkka_kunk_level_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_04.mp3",
+      "transcript": "Yes, my strength grows!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_kunkka_kunk_level_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_05.mp3",
+      "transcript": "A rising tide.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_kunkka_kunk_level_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_level_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_level_06.mp3",
+      "transcript": "Hm-haaahr",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_kunkka_kunk_level_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_torrent_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_torrent_01.mp3",
+      "transcript": "Deluged!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_kunkka_kunk_ability_torrent_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ability_tidebrng_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ability_tidebrng_01.mp3",
+      "transcript": "The Devil to pay.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_kunkka_kunk_ability_tidebrng_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_01.mp3",
+      "transcript": "I trawl your guts with my blade!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_kunkka_kunk_kill_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_02.mp3",
+      "transcript": "Keelhauled!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_kunkka_kunk_kill_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_03.mp3",
+      "transcript": "To the deeps with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_kunkka_kunk_kill_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_04.mp3",
+      "transcript": "Straight to the bottom with ya!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_kunkka_kunk_kill_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_05.mp3",
+      "transcript": "Ha, lowered the boom.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_kunkka_kunk_kill_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_06.mp3",
+      "transcript": "Furled your sails for good.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_kunkka_kunk_kill_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_07.mp3",
+      "transcript": "Eat my wake.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_kunkka_kunk_kill_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_08.mp3",
+      "transcript": "Blood in the wake.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_kunkka_kunk_kill_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_09.mp3",
+      "transcript": "Deep six'd.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_kunkka_kunk_kill_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_10.mp3",
+      "transcript": "Heh! Man overboard!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_kunkka_kunk_kill_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_11.mp3",
+      "transcript": "Heh! You'll always be my chum!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_kunkka_kunk_kill_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_12.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_12.mp3",
+      "transcript": "Hah Hah Hah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_kunkka_kunk_kill_12.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_01.mp3",
+      "transcript": "Hah-Hah-hah-hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_kunkka_kunk_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_02.mp3",
+      "transcript": "Hummha-ha-ha-ha-ha",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_kunkka_kunk_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_03.mp3",
+      "transcript": "Huh-ha-huh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_kunkka_kunk_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_04.mp3",
+      "transcript": "Huh-heh-Heh-ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_kunkka_kunk_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_05.mp3",
+      "transcript": "Hah-Hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_kunkka_kunk_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_06.mp3",
+      "transcript": "He-hu-hu-hu-hu-huhhuha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_kunkka_kunk_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_07.mp3",
+      "transcript": "He-he-he-heha-ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_kunkka_kunk_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_laugh_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_laugh_08.mp3",
+      "transcript": "Hmm-ha-ha-ha",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_kunkka_kunk_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_kill_13.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_kill_13.mp3",
+      "transcript": "You set sail for fail.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_kunkka_kunk_kill_13.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_01.mp3",
+      "transcript": "Tidehunter, I'll dry your clammy skin in the sun.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_kunkka_kunk_killspecial_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_02.mp3",
+      "transcript": "May the crabs eat you, Tidehunter, nerve by living nerve.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_kunkka_kunk_killspecial_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_03.mp3",
+      "transcript": "May the surf run green with your scurvy blood, Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_kunkka_kunk_killspecial_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_04.mp3",
+      "transcript": "Crabs take you, Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_kunkka_kunk_killspecial_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_05.mp3",
+      "transcript": "Rot in the sun, Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_kunkka_kunk_killspecial_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killspecial_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killspecial_06.mp3",
+      "transcript": "Tidehunter? More like dead hunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_kunkka_kunk_killspecial_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killtideship_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killtideship_01.mp3",
+      "transcript": "Tidehunter, you've been prawned!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_kunkka_kunk_killtideship_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_killtideship_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_killtideship_02.mp3",
+      "transcript": "Tidehunter, eh? More like catch o' the day!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_kunkka_kunk_killtideship_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_01.mp3",
+      "transcript": "Ah, Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_kunkka_kunk_rival_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_02.mp3",
+      "transcript": "Tidehunter, I'll rope your rotting carcass to my bow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_kunkka_kunk_rival_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_03.mp3",
+      "transcript": "Well, Tidehunter, look what the tide washed in.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_kunkka_kunk_rival_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_08.mp3",
+      "transcript": "Tidehunter, where to begin? I know, with your end!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_kunkka_kunk_rival_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_09.mp3",
+      "transcript": "I've nothing left to say to you, Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_kunkka_kunk_rival_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_10.mp3",
+      "transcript": "Curse my name all you like, Tidehunter, it only makes me grin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_kunkka_kunk_rival_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_11.mp3",
+      "transcript": "I never tire of hearing my name on your lips.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_kunkka_kunk_rival_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_12.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_12.mp3",
+      "transcript": "Tidehunter, I hear you've been calling me names behind my stern.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_kunkka_kunk_rival_12.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_13.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_13.mp3",
+      "transcript": "Tidehunter, you left us too soon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_kunkka_kunk_rival_13.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_14.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_14.mp3",
+      "transcript": "It's a special thing, the bond between a monster and an admiral.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_kunkka_kunk_rival_14.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_15.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_15.mp3",
+      "transcript": "Tidehunter, tell me how you really feel.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_kunkka_kunk_rival_15.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_16.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_16.mp3",
+      "transcript": "Oh I'll never have another nemesis like Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_kunkka_kunk_rival_16.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_17.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_17.mp3",
+      "transcript": "Ah, Tidehunter, you weren't all bad.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_kunkka_kunk_rival_17.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_18.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_18.mp3",
+      "transcript": "I'm going to miss that slimy wretch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_kunkka_kunk_rival_18.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_19.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_19.mp3",
+      "transcript": "No one put up a fight like good old Tidehunter.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_kunkka_kunk_rival_19.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_20.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_20.mp3",
+      "transcript": "It's a special thing, the bond between a monster and an admiral.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_kunkka_kunk_rival_20.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_21.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_21.mp3",
+      "transcript": "Go, hunt the tides of death now, old friend.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_kunkka_kunk_rival_21.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_22.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_22.mp3",
+      "transcript": "Ah, nobody hated me like Tidehunter. He made me feel appreciated.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_kunkka_kunk_rival_22.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_23.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_23.mp3",
+      "transcript": "He loved the sea, Tidehunter did, and for that I cannot hate him.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_kunkka_kunk_rival_23.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_24.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_24.mp3",
+      "transcript": "As implacable foes go, Tidehunter, you were top notch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_kunkka_kunk_rival_24.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_25.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_25.mp3",
+      "transcript": "There went my soul mate.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_kunkka_kunk_rival_25.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_26.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_26.mp3",
+      "transcript": "Ah, Tidehunter, you were my better half.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_kunkka_kunk_rival_26.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_27.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_27.mp3",
+      "transcript": "Ah, Tidehunter, you cared enough to hate me. You can't buy that sort of love.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_kunkka_kunk_rival_27.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_04.mp3",
+      "transcript": "Sweetly sweetly blew the breeze, on me alone it blew.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_kunkka_kunk_ally_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_04.mp3",
+      "transcript": "You fell upon your own rocks, Siren.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_kunkka_kunk_rival_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_05.mp3",
+      "transcript": "I stopped my ears against you, Siren.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_kunkka_kunk_rival_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_06.mp3",
+      "transcript": "Siren, you can stop calling me now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_kunkka_kunk_rival_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_07.mp3",
+      "transcript": "You're not the worst of your kind, Slardar, but you're typical of em.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_kunkka_kunk_rival_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_28.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_28.mp3",
+      "transcript": "And a thousand thousand slimy things lived on, and so did I!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_kunkka_kunk_rival_28.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_29.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_29.mp3",
+      "transcript": "Full plain I see the Devil knows how to row.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_kunkka_kunk_rival_29.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_31.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_31.mp3",
+      "transcript": "I thought I hated demons, but I didn't know what hate was till I met that Shadow Fiend.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_kunkka_kunk_rival_31.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_32.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_32.mp3",
+      "transcript": "Shadow Demon, ye're but a shadow of the demon fleet I put down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_kunkka_kunk_rival_32.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_33.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_33.mp3",
+      "transcript": "Is Death truly that woman's mate?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_kunkka_kunk_rival_33.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_34.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_34.mp3",
+      "transcript": "My mast, your master.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_kunkka_kunk_rival_34.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_35.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_35.mp3",
+      "transcript": "I sought a port, not a portly.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_kunkka_kunk_rival_35.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rival_36.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rival_36.mp3",
+      "transcript": "He was a rather portly authority.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_kunkka_kunk_rival_36.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_firstblood_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_firstblood_01.mp3",
+      "transcript": "First blood, and here come the sharks.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_kunkka_kunk_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_01.mp3",
+      "transcript": "One of these days, Tidehunter, one of these days.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_kunkka_kunk_ally_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_02.mp3",
+      "transcript": "Hoy, small fry!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_kunkka_kunk_ally_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_03.mp3",
+      "transcript": "Apparition, with you by my side I'll live to be an ancient mariner!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_kunkka_kunk_ally_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_05.mp3",
+      "transcript": "Ah, Undying, we'll make a ghastly crew.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_kunkka_kunk_ally_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_06.mp3",
+      "transcript": "Just to be clear, if I call you mate, I don't mean it literally.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_kunkka_kunk_ally_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_ally_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_ally_07.mp3",
+      "transcript": "With a helm like that, Sven, I dub thee my helmsman.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_kunkka_kunk_ally_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_kunkka_kunk_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_02.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_kunkka_kunk_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_03.mp3",
+      "transcript": "Gold for my chest.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_kunkka_kunk_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_04.mp3",
+      "transcript": "Booty!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_kunkka_kunk_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_05.mp3",
+      "transcript": "Your ship has sailed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_kunkka_kunk_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_06.mp3",
+      "transcript": "Blood in the water!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_kunkka_kunk_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_07.mp3",
+      "transcript": "Catch o' the day.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_kunkka_kunk_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lasthit_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lasthit_08.mp3",
+      "transcript": "Hand it over.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_kunkka_kunk_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_kunkka_kunk_deny_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_02.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_kunkka_kunk_deny_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_03.mp3",
+      "transcript": "Heh, denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_kunkka_kunk_deny_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_04.mp3",
+      "transcript": "No gold for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_kunkka_kunk_deny_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_05.mp3",
+      "transcript": "You get nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_kunkka_kunk_deny_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_06.mp3",
+      "transcript": "Never!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_kunkka_kunk_deny_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_07.mp3",
+      "transcript": "I think nautical!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_kunkka_kunk_deny_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_08.mp3",
+      "transcript": "Ha- no, oooo",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_kunkka_kunk_deny_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_09.mp3",
+      "transcript": "Ha-haaaa!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_kunkka_kunk_deny_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deny_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deny_10.mp3",
+      "transcript": "Nev-ahhh-ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_kunkka_kunk_deny_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_01.mp3",
+      "transcript": "There is no bad weather, only thin armor.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_kunkka_kunk_purch_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_02.mp3",
+      "transcript": "Ah, clear sailing now.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_kunkka_kunk_purch_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_03.mp3",
+      "transcript": "This is worth an empty chest.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_kunkka_kunk_purch_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_04.mp3",
+      "transcript": "That's worth a few pieces of eight!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_kunkka_kunk_purch_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_05.mp3",
+      "transcript": "Bought with booty!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_kunkka_kunk_purch_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purch_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purch_06.mp3",
+      "transcript": "Bootylicious!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_kunkka_kunk_purch_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_purchscep_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_purchscep_01.mp3",
+      "transcript": "Aye! Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_kunkka_kunk_purchscep_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_sceptor_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_sceptor_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_kunkka_kunk_sceptor_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_sceptor_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_sceptor_02.mp3",
+      "transcript": "A scepter to rule the rolling seas.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_kunkka_kunk_sceptor_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_06.mp3",
+      "transcript": "That's a lot for an empty bottle.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_kunkka_kunk_bottle_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_07.mp3",
+      "transcript": "When I'm done with this, I'll fill it with rum.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_kunkka_kunk_bottle_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_08.mp3",
+      "transcript": "Damn, I thought this bottle would have rum in it.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_kunkka_kunk_bottle_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_blink_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_blink_01.mp3",
+      "transcript": "Blink Dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_kunkka_kunk_blink_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_blink_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_blink_02.mp3",
+      "transcript": "It's clear sailing from here on out.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_kunkka_kunk_blink_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_01.mp3",
+      "transcript": "Crystalys!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_kunkka_kunk_item_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_10.mp3",
+      "transcript": "Yes, Fish and Crits!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_kunkka_kunk_item_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_02.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_kunkka_kunk_item_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_03.mp3",
+      "transcript": "Shadow Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_kunkka_kunk_item_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_04.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_kunkka_kunk_item_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_05.mp3",
+      "transcript": "Vanguard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_kunkka_kunk_item_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_06.mp3",
+      "transcript": "Eh, Battlefury!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_kunkka_kunk_item_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_07.mp3",
+      "transcript": "Assault cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_kunkka_kunk_item_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_08.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_kunkka_kunk_item_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_item_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_item_09.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_kunkka_kunk_item_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_immort_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_kunkka_kunk_immort_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_immort_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_immort_02.mp3",
+      "transcript": "I'm unsinkable!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_kunkka_kunk_immort_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_01.mp3",
+      "transcript": "Nooooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_kunkka_kunk_death_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_02.mp3",
+      "transcript": "Wrack and ruin.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_kunkka_kunk_death_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_03.mp3",
+      "transcript": "I've run aground.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_kunkka_kunk_death_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_04.mp3",
+      "transcript": "Down… with the ship.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_kunkka_kunk_death_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_05.mp3",
+      "transcript": "Keeled…over.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_kunkka_kunk_death_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_07.mp3",
+      "transcript": "Wrecked!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_kunkka_kunk_death_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_08.mp3",
+      "transcript": "Sucked out with the tide.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_kunkka_kunk_death_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_09.mp3",
+      "transcript": "Ebb…tide.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_kunkka_kunk_death_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_10.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_10.mp3",
+      "transcript": "Lost my sea legs…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_kunkka_kunk_death_10.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_11.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_11.mp3",
+      "transcript": "Bury me at sea.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_kunkka_kunk_death_11.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_12.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_12.mp3",
+      "transcript": "Dashed on the rocks.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_kunkka_kunk_death_12.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_13.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_13.mp3",
+      "transcript": "Ahh-errr.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_kunkka_kunk_death_13.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_14.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_14.mp3",
+      "transcript": "Noo-errr.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_kunkka_kunk_death_14.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_15.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_15.mp3",
+      "transcript": "Ahhh-guglugeewrrrrrr",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_kunkka_kunk_death_15.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_16.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_16.mp3",
+      "transcript": "Ahhh-ehh—glglglrr-owwrgcccccheh",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_kunkka_kunk_death_16.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_17.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_17.mp3",
+      "transcript": "Grggglglglglglglglggllllllll",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_kunkka_kunk_death_17.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deathspecial_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deathspecial_01.mp3",
+      "transcript": "I'll be back for you, Tidehunter.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_kunkka_kunk_deathspecial_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deathspecial_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deathspecial_02.mp3",
+      "transcript": "Tidehunter, you carrion-eating cuttlefish!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_kunkka_kunk_deathspecial_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_deathspecial_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_deathspecial_03.mp3",
+      "transcript": "Tidehunter, your blood runs with bilgewater!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_kunkka_kunk_deathspecial_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_death_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_death_06.mp3",
+      "transcript": "Not the horse latitudes.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_kunkka_kunk_death_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_01.mp3",
+      "transcript": "I'll avenge myself.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_kunkka_kunk_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_02.mp3",
+      "transcript": "The trade winds still blow.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_kunkka_kunk_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_03.mp3",
+      "transcript": "I debark once again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_kunkka_kunk_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_04.mp3",
+      "transcript": "Eight bells and all's well.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_kunkka_kunk_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_05.mp3",
+      "transcript": "Hah! Any port in a storm.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_kunkka_kunk_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_06.mp3",
+      "transcript": "All's shipshape from stern to scupper.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_kunkka_kunk_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_07.mp3",
+      "transcript": "A man never steps into the same sea twice.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_kunkka_kunk_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_08.mp3",
+      "transcript": "True peace is only at sea.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_kunkka_kunk_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_respawn_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_respawn_09.mp3",
+      "transcript": "Uh, belay that last order.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_kunkka_kunk_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_fastres_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_fastres_01.mp3",
+      "transcript": "I'm back with the tide!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_kunkka_kunk_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_01.mp3",
+      "transcript": "I'll save this for another day.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_kunkka_kunk_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_02.mp3",
+      "transcript": "Waste of a good bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_kunkka_kunk_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_03.mp3",
+      "transcript": "Into the hold.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_kunkka_kunk_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_04.mp3",
+      "transcript": "Into the bottle, and down the hatch.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_kunkka_kunk_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_arcane_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_arcane_01.mp3",
+      "transcript": "Arcane power!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_kunkka_kunk_arcane_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bounty_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bounty_01.mp3",
+      "transcript": "Oh, bounty.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_kunkka_kunk_bounty_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bounty_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bounty_02.mp3",
+      "transcript": "Bounty.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_kunkka_kunk_bounty_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_doubdam_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_kunkka_kunk_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_doubdam_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_doubdam_02.mp3",
+      "transcript": "Two masts on this brigantine!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_kunkka_kunk_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_haste_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_kunkka_kunk_haste_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_haste_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_haste_02.mp3",
+      "transcript": "Eight knots and full ahead!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_kunkka_kunk_haste_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_illus_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_kunkka_kunk_illus_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_illus_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_illus_02.mp3",
+      "transcript": "Three sheets to the wind.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_kunkka_kunk_illus_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_invis_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_invis_04.mp3",
+      "transcript": "Hah! Now this is a fleet!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_kunkka_kunk_invis_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_invis_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_kunkka_kunk_invis_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_invis_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_invis_02.mp3",
+      "transcript": "Clear as clean water!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_kunkka_kunk_invis_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_invis_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_invis_03.mp3",
+      "transcript": "Ha, my fleet is afloat.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_kunkka_kunk_invis_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_regen_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_regen_01.mp3",
+      "transcript": "Ha! Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_kunkka_kunk_regen_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_regen_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_regen_02.mp3",
+      "transcript": "It heals like the salt-sea air!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_kunkka_kunk_regen_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_kunkka_kunk_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_kunkka_kunk_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_kunkka_kunk_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_kunkka_kunk_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_kunkka_kunk_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_kunkka_kunk_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_kunkka_kunk_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_kunkka_kunk_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_notyet_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_kunkka_kunk_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_kunkka_kunk_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_kunkka_kunk_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_kunkka_kunk_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_kunkka_kunk_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_kunkka_kunk_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_kunkka_kunk_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_07.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_kunkka_kunk_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_08.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_kunkka_kunk_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_nomana_09.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_kunkka_kunk_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_01.mp3",
+      "transcript": "Huuhhw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_kunkka_kunk_pain_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_02.mp3",
+      "transcript": "Nuowww!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_kunkka_kunk_pain_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_03.mp3",
+      "transcript": "Dohw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_kunkka_kunk_pain_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_04.mp3",
+      "transcript": "Dohhhw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_kunkka_kunk_pain_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_05.mp3",
+      "transcript": "Ooohw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_kunkka_kunk_pain_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_pain_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_pain_06.mp3",
+      "transcript": "Owww",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_kunkka_kunk_pain_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_underattack_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_kunkka_kunk_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rare_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rare_01.mp3",
+      "transcript": "If the demons of the Cataract couldn't sink my fleet, then this lot doesn't stand a chance.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_kunkka_kunk_rare_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_rare_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_rare_02.mp3",
+      "transcript": "I haven't seen such a pack of tree weasels since we rousted the Trembling Isles free of all the…tree weasels.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_kunkka_kunk_rare_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_missing_lane_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_missing_lane_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_kunkka_kunk_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_missing_lane_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_missing_lane_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_kunkka_kunk_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_missing_lane_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_missing_lane_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_kunkka_kunk_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_thanks_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_thanks_01.mp3",
+      "transcript": "Thanks to ye!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_kunkka_kunk_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_thanks_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_thanks_02.mp3",
+      "transcript": "Well hello!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_kunkka_kunk_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_thanks_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_thanks_03.mp3",
+      "transcript": "You're a trusty mate!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_kunkka_kunk_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_win_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_win_01.mp3",
+      "transcript": "Yesss!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_kunkka_kunk_win_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_win_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_kunkka_kunk_win_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_win_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_win_03.mp3",
+      "transcript": "Yes, lads, we've reached safe harbor!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_kunkka_kunk_win_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_win_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_win_04.mp3",
+      "transcript": "Ha-haaa!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_kunkka_kunk_win_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lose_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lose_01.mp3",
+      "transcript": "Nooooooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_kunkka_kunk_lose_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lose_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_kunkka_kunk_lose_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lose_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lose_03.mp3",
+      "transcript": "We're sunk.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_kunkka_kunk_lose_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lose_04.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lose_04.mp3",
+      "transcript": "A captain goes down with his ship.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_kunkka_kunk_lose_04.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_lose_06.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_lose_06.mp3",
+      "transcript": "Arh, shipwrecked.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_kunkka_kunk_lose_06.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_drop_common_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_drop_common_01.mp3",
+      "transcript": "Someone must have dropped this overboard. Fair, finders keepers.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_kunkka_kunk_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_bottle_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_bottle_05.mp3",
+      "transcript": "That's worth a bottle of rum.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_kunkka_kunk_bottle_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_drop_medium_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_drop_medium_01.mp3",
+      "transcript": "A shiny token taken from the shoals.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_kunkka_kunk_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_drop_rare_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_drop_rare_01.mp3",
+      "transcript": "Ah, had this treasure not fallen to me, I would have delved to the sea floor to claim it!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_kunkka_kunk_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_crumwiz_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_kunkka_kunk_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_scurvywiz_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_scurvywiz_01.mp3",
+      "transcript": "Scurvy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_kunkka_kunk_scurvywiz_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_shitwiz_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_kunkka_kunk_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_anger_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_anger_01.mp3",
+      "transcript": "Ehhwww",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_kunkka_kunk_anger_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_anger_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_anger_02.mp3",
+      "transcript": "Nowwww",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_kunkka_kunk_anger_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_anger_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_anger_03.mp3",
+      "transcript": "Awe bloody hell.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_kunkka_kunk_anger_03.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_anger_05.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_anger_05.mp3",
+      "transcript": "Daaahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_kunkka_kunk_anger_05.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_happy_01.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_happy_01.mp3",
+      "transcript": "Ohw-heh-heh",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_kunkka_kunk_happy_01.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_happy_02.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_happy_02.mp3",
+      "transcript": "Ah, better",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_kunkka_kunk_happy_02.mp3"
+    },
+    {
+      "file": "Vo_kunkka_kunk_happy_03.mp3",
+      "key": "dota2/kunkka/Vo_kunkka_kunk_happy_03.mp3",
+      "transcript": "Ha-haa-haa!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_kunkka_kunk_happy_03.mp3"
+    }
+  ]
+}

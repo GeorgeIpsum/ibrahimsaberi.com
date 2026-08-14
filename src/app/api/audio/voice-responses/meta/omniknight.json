@@ -1,0 +1,2844 @@
+{
+  "hero": "Omniknight",
+  "slug": "omniknight",
+  "source": "https://liquipedia.net/dota2/Omniknight/Responses",
+  "scrapedAt": "2026-06-17T13:31:24.760Z",
+  "count": 281,
+  "voicelines": [
+    {
+      "file": "Vo_omniknight_omni_spawn_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_spawn_01.mp3",
+      "transcript": "Omniknight.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_omniknight_omni_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_spawn_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_spawn_02.mp3",
+      "transcript": "By virtue, by strength.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_omniknight_omni_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_spawn_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_spawn_03.mp3",
+      "transcript": "By the Omniscience.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_omniknight_omni_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_spawn_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_spawn_04.mp3",
+      "transcript": "My hammer is ready in the service of the All-knowing One.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_omniknight_omni_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_spawn_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_spawn_05.mp3",
+      "transcript": "Where piety fails, my hammer falls.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_omniknight_omni_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_03.mp3",
+      "transcript": "Strength guides me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_omniknight_omni_move_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_04.mp3",
+      "transcript": "Omniscient light!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_omniknight_omni_move_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_05.mp3",
+      "transcript": "I stand for the light.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_omniknight_omni_move_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_11.mp3",
+      "transcript": "The All-knowing One guides me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_omniknight_omni_move_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_08.mp3",
+      "transcript": "Surrender to the Omniscience.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_omniknight_omni_attack_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_03.mp3",
+      "transcript": "The All-knowing One protects us all.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_omniknight_omni_ability_guard_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_07.mp3",
+      "transcript": "Fear not my friends, our guardian is here.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_omniknight_omni_ability_guard_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_04.mp3",
+      "transcript": "Raerghhh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_omniknight_omni_anger_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_inthebag_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_inthebag_01.mp3",
+      "transcript": "This one, my brethren, is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_omniknight_omni_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_inthebag_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_inthebag_02.mp3",
+      "transcript": "The Omniscience has decreed that this one is in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_omniknight_omni_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_battlebegins_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_battlebegins_01.mp3",
+      "transcript": "The Omniscience may spare them, but I will not.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_omniknight_omni_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_omniknight_omni_move_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_omniknight_omni_move_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_06.mp3",
+      "transcript": "I am needed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_omniknight_omni_move_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_07.mp3",
+      "transcript": "By your grace.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_omniknight_omni_move_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_08.mp3",
+      "transcript": "Guiding light.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_omniknight_omni_move_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_09.mp3",
+      "transcript": "Advancing.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_omniknight_omni_move_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_10.mp3",
+      "transcript": "All is known.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_omniknight_omni_move_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_12.mp3",
+      "transcript": "As you will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_omniknight_omni_move_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_13.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_13.mp3",
+      "transcript": "I'll not falter",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_omniknight_omni_move_13.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_14.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_14.mp3",
+      "transcript": "Right away.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_omniknight_omni_move_14.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_15.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_15.mp3",
+      "transcript": "A narrow path.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_omniknight_omni_move_15.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_16.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_16.mp3",
+      "transcript": "Yes, sir.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_omniknight_omni_move_16.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_17.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_17.mp3",
+      "transcript": "Forward march.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_omniknight_omni_move_17.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_18.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_18.mp3",
+      "transcript": "My path is clear.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_omniknight_omni_move_18.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_19.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_19.mp3",
+      "transcript": "I journey on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_omniknight_omni_move_19.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_20.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_20.mp3",
+      "transcript": "Scouting the way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_omniknight_omni_move_20.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_21.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_21.mp3",
+      "transcript": "I'll take point.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_omniknight_omni_move_21.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_22.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_22.mp3",
+      "transcript": "In the vanguard.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_omniknight_omni_move_22.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_move_23.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_move_23.mp3",
+      "transcript": "Flanking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_omniknight_omni_move_23.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_11.mp3",
+      "transcript": "Their blades will break upon us.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_omniknight_omni_ability_guard_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_omniknight_omni_attack_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_02.mp3",
+      "transcript": "I bring the light.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_omniknight_omni_attack_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_03.mp3",
+      "transcript": "For your glory.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_omniknight_omni_attack_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_04.mp3",
+      "transcript": "Say your prayers.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_omniknight_omni_attack_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_05.mp3",
+      "transcript": "They shall know.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_omniknight_omni_attack_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_06.mp3",
+      "transcript": "Strength.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_omniknight_omni_attack_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_07.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_omniknight_omni_attack_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_09.mp3",
+      "transcript": "The Omniscience knows your sins.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_omniknight_omni_attack_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_10.mp3",
+      "transcript": "Smite!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_attack_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_11.mp3",
+      "transcript": "Stricken!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_omniknight_omni_attack_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_attack_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_attack_12.mp3",
+      "transcript": "Hehe.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_omniknight_omni_attack_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_cast_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_cast_01.mp3",
+      "transcript": "Judgment comes!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_omniknight_omni_cast_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_cast_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_cast_02.mp3",
+      "transcript": "Prepare thy soul!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_omniknight_omni_cast_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_cast_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_cast_03.mp3",
+      "transcript": "Heheho!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_omniknight_omni_cast_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_01.mp3",
+      "transcript": "Blessings!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_omniknight_omni_ability_purif_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_02.mp3",
+      "transcript": "For justice.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_omniknight_omni_ability_purif_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_04.mp3",
+      "transcript": "Be well.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_omniknight_omni_ability_purif_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_05.mp3",
+      "transcript": "Healing shock.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_omniknight_omni_ability_purif_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_06.mp3",
+      "transcript": "Healing and harm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_omniknight_omni_ability_purif_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_07.mp3",
+      "transcript": "Purification!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_omniknight_omni_ability_purif_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_08.mp3",
+      "transcript": "Purified!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_omniknight_omni_ability_purif_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_purif_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_purif_03.mp3",
+      "transcript": "Patch up.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_omniknight_omni_ability_purif_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_01.mp3",
+      "transcript": "No sorceries avail!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_ability_repel_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_02.mp3",
+      "transcript": "Fear not heresy.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_omniknight_omni_ability_repel_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_03.mp3",
+      "transcript": "Fear nothing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_omniknight_omni_ability_repel_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_04.mp3",
+      "transcript": "Be fearless.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_omniknight_omni_ability_repel_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_05.mp3",
+      "transcript": "The armor of omniscience.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_omniknight_omni_ability_repel_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_repel_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_repel_06.mp3",
+      "transcript": "All wands will break.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_omniknight_omni_ability_repel_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_01.mp3",
+      "transcript": "Pious footsteps.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_omniknight_omni_ability_degaura_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_02.mp3",
+      "transcript": "Why run?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_omniknight_omni_ability_degaura_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_04.mp3",
+      "transcript": "Your guilt weighs heavily.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_omniknight_omni_ability_degaura_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_05.mp3",
+      "transcript": "The All-knowing One senses your regret.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_omniknight_omni_ability_degaura_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_06.mp3",
+      "transcript": "You will never escape your sins.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_omniknight_omni_ability_degaura_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_07.mp3",
+      "transcript": "For all your transgressions you shall pay.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_omniknight_omni_ability_degaura_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_09.mp3",
+      "transcript": "The weight of all worlds is on your shoulders.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_omniknight_omni_ability_degaura_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_01.mp3",
+      "transcript": "The wings of omniscience enwrap us.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_omniknight_omni_ability_guard_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_02.mp3",
+      "transcript": "Come into the Omniscience.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_omniknight_omni_ability_guard_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_04.mp3",
+      "transcript": "Guardian of us all.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_omniknight_omni_ability_guard_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_05.mp3",
+      "transcript": "Guard us well.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_omniknight_omni_ability_guard_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_06.mp3",
+      "transcript": "Great guardian, watch over us.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_omniknight_omni_ability_guard_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_08.mp3",
+      "transcript": "The Omniscience loves us all.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_omniknight_omni_ability_guard_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_10.mp3",
+      "transcript": "Forward without fear, my friends.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_omniknight_omni_ability_guard_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_01.mp3",
+      "transcript": "Righteous!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_omniknight_omni_level_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_02.mp3",
+      "transcript": "A gift.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_omniknight_omni_level_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_03.mp3",
+      "transcript": "Gracious me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_omniknight_omni_level_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_04.mp3",
+      "transcript": "I am humbled.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_level_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_05.mp3",
+      "transcript": "Blessings.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_omniknight_omni_level_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_06.mp3",
+      "transcript": "The Omniscience honors me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_omniknight_omni_level_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_07.mp3",
+      "transcript": "Oh, All-knowing One, behold me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_omniknight_omni_level_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_08.mp3",
+      "transcript": "For this gift of power, I am grateful.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_omniknight_omni_level_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_09.mp3",
+      "transcript": "Nailed it.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_omniknight_omni_level_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_10.mp3",
+      "transcript": "Neh heh hah hah.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_omniknight_omni_level_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_11.mp3",
+      "transcript": "Heh hah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_level_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_level_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_level_12.mp3",
+      "transcript": "I stand enobled.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_omniknight_omni_level_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_10.mp3",
+      "transcript": "You cannot flee.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_omniknight_omni_ability_degaura_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_01.mp3",
+      "transcript": "To the place of blindness with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_omniknight_omni_kill_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_02.mp3",
+      "transcript": "Be at peace you wretched fool.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_omniknight_omni_kill_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_03.mp3",
+      "transcript": "You know nothing unless the Omniscience knows you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_omniknight_omni_kill_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_04.mp3",
+      "transcript": "I pity you in your ignorance of the Omniscience.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_omniknight_omni_kill_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_05.mp3",
+      "transcript": "I'll offer you a soldier's prayer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_omniknight_omni_kill_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_06.mp3",
+      "transcript": "Your passing honors the Omniscience.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_omniknight_omni_kill_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_07.mp3",
+      "transcript": "Beg the Omniscience for forgiveness.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_omniknight_omni_kill_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_08.mp3",
+      "transcript": "Your time has come.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_omniknight_omni_kill_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_09.mp3",
+      "transcript": "Another stain on the battlefield.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_omniknight_omni_kill_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_10.mp3",
+      "transcript": "A just end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_omniknight_omni_kill_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_11.mp3",
+      "transcript": "I carry a hammer to nail down your sins.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_omniknight_omni_kill_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_kill_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_kill_12.mp3",
+      "transcript": "You chose poorly.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_omniknight_omni_kill_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_01.mp3",
+      "transcript": "Wo heh heh hheh heh hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_omniknight_omni_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_02.mp3",
+      "transcript": "Ho ho ha hah hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_omniknight_omni_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_03.mp3",
+      "transcript": "Hoh hah hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_omniknight_omni_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_04.mp3",
+      "transcript": "Rhowheh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_omniknight_omni_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_05.mp3",
+      "transcript": "Howheh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_omniknight_omni_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_06.mp3",
+      "transcript": "Hoheh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_omniknight_omni_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_07.mp3",
+      "transcript": "Heh heh heh how hew.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_omniknight_omni_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_08.mp3",
+      "transcript": "Huwuheh heh hah hew.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_omniknight_omni_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_09.mp3",
+      "transcript": "Hah eh heh ah hah hah how.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_omniknight_omni_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_10.mp3",
+      "transcript": "Mehooweheh hwh hew.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_omniknight_omni_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_11.mp3",
+      "transcript": "Hew heh he h ahdh dhh hah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_omniknight_omni_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_laugh_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_laugh_12.mp3",
+      "transcript": "Hah hah hah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_omniknight_omni_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_03.mp3",
+      "transcript": "There's no eluding judgment.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_omniknight_omni_ability_degaura_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_08.mp3",
+      "transcript": "Those who atone walk freely.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_omniknight_omni_ability_degaura_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_01.mp3",
+      "transcript": "Your congregation of squirrels and chipmunks cannot save you, Chen.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_omniknight_omni_rival_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_02.mp3",
+      "transcript": "Chen, faith is a tool, not a bludgeon. You would have done well to learn this.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_omniknight_omni_rival_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_03.mp3",
+      "transcript": "In you I have bested the Inferno itself.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_omniknight_omni_rival_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_04.mp3",
+      "transcript": "Skeleton King, your lordship is at an end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_omniknight_omni_rival_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_05.mp3",
+      "transcript": "Lifestealer, I will find what did this to you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_omniknight_omni_rival_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_06.mp3",
+      "transcript": "Reality is no longer your plaything, Weaver.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_omniknight_omni_rival_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_07.mp3",
+      "transcript": "The prophecies seem to have overestimated you, Bane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_omniknight_omni_rival_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_08.mp3",
+      "transcript": "Tinker, your science meddles where mortals should not.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_omniknight_omni_rival_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_09.mp3",
+      "transcript": "Dragon Knight, an impure body is an impure soul.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_omniknight_omni_rival_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_10.mp3",
+      "transcript": "The Omniscience would like a word with you, Zeus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_omniknight_omni_rival_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_11.mp3",
+      "transcript": "Those souls were not yours to claim, Shadow Fiend.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_omniknight_omni_rival_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_12.mp3",
+      "transcript": "Such power, Warlock, is kept secret for a reason.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_omniknight_omni_rival_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_13.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_13.mp3",
+      "transcript": "Faceless Void, return to your realm and trouble us no further.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_omniknight_omni_rival_13.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_14.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_14.mp3",
+      "transcript": "The silencer now resting in silence.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_omniknight_omni_rival_14.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_15.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_15.mp3",
+      "transcript": "You would have been a powerful follower Sven.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_omniknight_omni_rival_15.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_16.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_16.mp3",
+      "transcript": "True healing does not come from darkness, Dazzle.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_omniknight_omni_rival_16.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_17.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_17.mp3",
+      "transcript": "The Omniscience sees all of you, Chaos Knight.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_omniknight_omni_rival_17.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_firstblood_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_firstblood_01.mp3",
+      "transcript": "First blood! An offering to the Omniscience.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_omniknight_omni_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_firstblood_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_firstblood_02.mp3",
+      "transcript": "First blood! And may the All-knowing one bear witness, hehehaaha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_omniknight_omni_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_18.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_18.mp3",
+      "transcript": "Bring the forest to our aid, Chen.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_omniknight_omni_rival_18.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_19.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_19.mp3",
+      "transcript": "Help us tip the scales, Dragon Knight.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_omniknight_omni_rival_19.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_20.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_20.mp3",
+      "transcript": "What's the good word, Silencer?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_omniknight_omni_rival_20.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_21.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_21.mp3",
+      "transcript": "Sven, your dedication honors us.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_omniknight_omni_rival_21.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rival_22.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rival_22.mp3",
+      "transcript": "It's good to see all of you, Chaos Knight.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_omniknight_omni_rival_22.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_01.mp3",
+      "transcript": "Know your place.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_02.mp3",
+      "transcript": "A tithe.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_omniknight_omni_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_03.mp3",
+      "transcript": "I shall use it wisely.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_omniknight_omni_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_04.mp3",
+      "transcript": "It shall not be in vain.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_omniknight_omni_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_05.mp3",
+      "transcript": "To the dark place with you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_omniknight_omni_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_06.mp3",
+      "transcript": "Go blindly.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_omniknight_omni_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_07.mp3",
+      "transcript": "How illuminating.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_omniknight_omni_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_08.mp3",
+      "transcript": "Nailed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_omniknight_omni_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_09.mp3",
+      "transcript": "Fall and be counted.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_omniknight_omni_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lasthit_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lasthit_10.mp3",
+      "transcript": "Hammer fodder.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_omniknight_omni_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_omniknight_omni_deny_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_omniknight_omni_deny_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_03.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_omniknight_omni_deny_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_04.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_omniknight_omni_deny_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_05.mp3",
+      "transcript": "Not so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_omniknight_omni_deny_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_06.mp3",
+      "transcript": "The Omniscience taketh away.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_omniknight_omni_deny_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_07.mp3",
+      "transcript": "You do not deserve this.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_omniknight_omni_deny_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_08.mp3",
+      "transcript": "For the All-knowing One.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_omniknight_omni_deny_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_09.mp3",
+      "transcript": "Unwarranted.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_deny_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_10.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_omniknight_omni_deny_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_11.mp3",
+      "transcript": "I claim it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_omniknight_omni_deny_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_12.mp3",
+      "transcript": "Heh hah heh hah.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_omniknight_omni_deny_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_deny_13.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_deny_13.mp3",
+      "transcript": "Heheh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_omniknight_omni_deny_13.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_purch_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_purch_01.mp3",
+      "transcript": "Extravagance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_omniknight_omni_purch_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_purch_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_purch_02.mp3",
+      "transcript": "I chose wisely.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_omniknight_omni_purch_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_purch_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_purch_03.mp3",
+      "transcript": "I hereby requisition this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_omniknight_omni_purch_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_blink_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_omniknight_omni_blink_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_blink_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_blink_02.mp3",
+      "transcript": "Omnipresent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_omniknight_omni_blink_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_scepter_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_omniknight_omni_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_scepter_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_scepter_02.mp3",
+      "transcript": "Such a holy relic.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_omniknight_omni_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_01.mp3",
+      "transcript": "Arcane boots.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_omniknight_omni_item_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_02.mp3",
+      "transcript": "Soul ring.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_omniknight_omni_item_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_03.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_omniknight_omni_item_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_04.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_omniknight_omni_item_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_05.mp3",
+      "transcript": "Shiva's guard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_omniknight_omni_item_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_06.mp3",
+      "transcript": "I march to the Drums of Endurance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_omniknight_omni_item_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_07.mp3",
+      "transcript": "Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_item_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_08.mp3",
+      "transcript": "Necronomicon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_omniknight_omni_item_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_09.mp3",
+      "transcript": "Necronomicon? I would rather not have to use this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_omniknight_omni_item_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_item_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_item_10.mp3",
+      "transcript": "Force staff!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_omniknight_omni_item_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_immort_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_omniknight_omni_immort_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_immort_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_immort_02.mp3",
+      "transcript": "The eye of light shall never blink.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_omniknight_omni_immort_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_01.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_omniknight_omni_death_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_02.mp3",
+      "transcript": "Nooo.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_omniknight_omni_death_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_03.mp3",
+      "transcript": "My soul is ready to be seen.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_omniknight_omni_death_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_04.mp3",
+      "transcript": "I am afraid.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_omniknight_omni_death_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_05.mp3",
+      "transcript": "Finally.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_omniknight_omni_death_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_06.mp3",
+      "transcript": "But I'm not finished.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_omniknight_omni_death_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_07.mp3",
+      "transcript": "Damn you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_omniknight_omni_death_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_08.mp3",
+      "transcript": "Parade rest.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_omniknight_omni_death_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_09.mp3",
+      "transcript": "A blind spot in the Omniscience.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_omniknight_omni_death_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_10.mp3",
+      "transcript": "Campaign's end.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_death_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_11.mp3",
+      "transcript": "It is mete.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_omniknight_omni_death_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_12.mp3",
+      "transcript": "I ascend.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_omniknight_omni_death_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_13.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_13.mp3",
+      "transcript": "Beautiful.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_omniknight_omni_death_13.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_death_14.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_death_14.mp3",
+      "transcript": "I join with the Omniscience.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_omniknight_omni_death_14.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_01.mp3",
+      "transcript": "Retribution.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_omniknight_omni_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_02.mp3",
+      "transcript": "The crusade continues.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_omniknight_omni_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_03.mp3",
+      "transcript": "I shall earn my grace.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_omniknight_omni_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_04.mp3",
+      "transcript": "It is not my time.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_omniknight_omni_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_05.mp3",
+      "transcript": "The Omniscience sees fit to restore me!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_omniknight_omni_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_06.mp3",
+      "transcript": "All knowing one, look kindly on me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_omniknight_omni_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_07.mp3",
+      "transcript": "It's back to waging war, is it?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_omniknight_omni_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_08.mp3",
+      "transcript": "From the dark pit of unknowing to the eminence of Omniscience.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_omniknight_omni_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_09.mp3",
+      "transcript": "The knight moves back into the light.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_omniknight_omni_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_respawn_10.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_respawn_10.mp3",
+      "transcript": "I have gazed into the Omniscience, and it has gazed into me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_omniknight_omni_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_fastres_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_fastres_01.mp3",
+      "transcript": "I gave a solemn vow to never die for long!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_omniknight_omni_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_bottle_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_bottle_01.mp3",
+      "transcript": "Waste not, want not.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_omniknight_omni_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_bottle_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_bottle_02.mp3",
+      "transcript": "Into my rucksack.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_omniknight_omni_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_bottle_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_bottle_03.mp3",
+      "transcript": "Be always prepared.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_omniknight_omni_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_11.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_11.mp3",
+      "transcript": "Come and be judged fairly.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_omniknight_omni_ability_degaura_11.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_doubdam_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_omniknight_omni_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_doubdam_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_doubdam_02.mp3",
+      "transcript": "The All-knowing one sees damage to be done.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_omniknight_omni_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_haste_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_omniknight_omni_haste_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_haste_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_haste_02.mp3",
+      "transcript": "The Omniscience proceeds with all speed.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_omniknight_omni_haste_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_illus_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_omniknight_omni_illus_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_illus_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_illus_02.mp3",
+      "transcript": "These may be false, but the Omniscience is real.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_omniknight_omni_illus_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_illus_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_illus_03.mp3",
+      "transcript": "Only the Omniscience can tell us apart.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_omniknight_omni_illus_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_invis_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_invis_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_invis_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_invis_02.mp3",
+      "transcript": "I've always put my faith in unseen things.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_omniknight_omni_invis_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_regen_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_omniknight_omni_regen_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_regen_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_regen_02.mp3",
+      "transcript": "In this healing glow, I feel a presence of the Omniscience.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_omniknight_omni_regen_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_omniknight_omni_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_omniknight_omni_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_omniknight_omni_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_omniknight_omni_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_omniknight_omni_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_omniknight_omni_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_omniknight_omni_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_omniknight_omni_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_notyet_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_omniknight_omni_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_omniknight_omni_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_omniknight_omni_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_omniknight_omni_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_omniknight_omni_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_omniknight_omni_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_omniknight_omni_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_omniknight_omni_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_omniknight_omni_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_nomana_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_omniknight_omni_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_01.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_pain_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_02.mp3",
+      "transcript": "Oogh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_omniknight_omni_pain_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_03.mp3",
+      "transcript": "Ahg.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_omniknight_omni_pain_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_04.mp3",
+      "transcript": "Oomph.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_omniknight_omni_pain_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_05.mp3",
+      "transcript": "Aghhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_omniknight_omni_pain_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_06.mp3",
+      "transcript": "Arghhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_omniknight_omni_pain_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_07.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_07.mp3",
+      "transcript": "Ooagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_omniknight_omni_pain_07.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_pain_08.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_pain_08.mp3",
+      "transcript": "Eagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_omniknight_omni_pain_08.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_underattack_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_omniknight_omni_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rare_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rare_01.mp3",
+      "transcript": "Let this be the last crusade. Let me find peace.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_omniknight_omni_rare_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_rare_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_rare_02.mp3",
+      "transcript": "Knowledge is peace.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_omniknight_omni_rare_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_thanks_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_omniknight_omni_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_thanks_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_thanks_02.mp3",
+      "transcript": "I am in your debt.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_omniknight_omni_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_win_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_omniknight_omni_win_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_win_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_omniknight_omni_win_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_win_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_win_03.mp3",
+      "transcript": "All evils have been seen and slain by the Omniscient one.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_omniknight_omni_win_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_win_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_win_04.mp3",
+      "transcript": "We dissolve into the Omniscience.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_omniknight_omni_win_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lose_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lose_01.mp3",
+      "transcript": "Nooho!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_omniknight_omni_lose_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lose_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_omniknight_omni_lose_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lose_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lose_03.mp3",
+      "transcript": "I am mortified.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_omniknight_omni_lose_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_lose_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_lose_04.mp3",
+      "transcript": "Omniscience, look away.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_omniknight_omni_lose_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_happy_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_happy_04.mp3",
+      "transcript": "Haaaahh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_omniknight_omni_happy_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_guard_09.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_guard_09.mp3",
+      "transcript": "Chosen of the Omniscience.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_omniknight_omni_ability_guard_09.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_degaura_12.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_degaura_12.mp3",
+      "transcript": "Eternal omniscience.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_omniknight_omni_ability_degaura_12.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_01.mp3",
+      "transcript": "My faith falters.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_omniknight_omni_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_02.mp3",
+      "transcript": "I am found wanting.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_omniknight_omni_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_03.mp3",
+      "transcript": "I am ashamed before the Omniscience.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_omniknight_omni_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_04.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_04.mp3",
+      "transcript": "The Omniscience understands my failings.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_omniknight_omni_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_05.mp3",
+      "transcript": "Pray forgive me, All knowing One.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_omniknight_omni_ability_failure_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_ability_failure_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_ability_failure_06.mp3",
+      "transcript": "My hammer broke upon that nail.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_omniknight_omni_ability_failure_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_shitwiz_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_omniknight_omni_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_crumwiz_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_omniknight_omni_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_01.mp3",
+      "transcript": "Aaghh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_omniknight_omni_anger_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_02.mp3",
+      "transcript": "Aergh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_omniknight_omni_anger_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_03.mp3",
+      "transcript": "Raergh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_omniknight_omni_anger_03.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_05.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_05.mp3",
+      "transcript": "Raerghh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_omniknight_omni_anger_05.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_anger_06.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_anger_06.mp3",
+      "transcript": "Earghh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_omniknight_omni_anger_06.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_happy_01.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_happy_01.mp3",
+      "transcript": "Heahhwh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_omniknight_omni_happy_01.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_happy_02.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_happy_02.mp3",
+      "transcript": "Howuhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_omniknight_omni_happy_02.mp3"
+    },
+    {
+      "file": "Vo_omniknight_omni_happy_03.mp3",
+      "key": "dota2/omniknight/Vo_omniknight_omni_happy_03.mp3",
+      "transcript": "Hemmmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_omniknight_omni_happy_03.mp3"
+    }
+  ]
+}

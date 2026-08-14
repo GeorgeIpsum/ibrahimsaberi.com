@@ -1,0 +1,42 @@
+name: Archive Release Branch
+
+# When a release/* PR merges into main, tag the branch tip as
+# archive/<branch> so the individual commits stay reachable after a
+# squash merge orphans them (the changesets vX.Y.Z tag on main does not
+# cover them). Lightweight ref only; branch deletion is left to the owner.
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    if: >-
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.head.ref, 'release/') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: archive/${{ github.event.pull_request.head.ref }}
+      SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Create archive tag
+        run: |
+          if gh api "repos/${GITHUB_REPOSITORY}/git/refs" \
+              -f ref="refs/tags/${TAG}" -f sha="${SHA}"; then
+            echo "::notice::Created ${TAG} at ${SHA}"
+            exit 0
+          fi
+          existing=$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${TAG}" \
+            --jq '.object.sha' 2>/dev/null || true)
+          if [ "$existing" = "$SHA" ]; then
+            echo "::notice::${TAG} already points at ${SHA}; nothing to do."
+          else
+            echo "::error::${TAG} exists but points at ${existing:-<unreadable>}, expected ${SHA}."
+            exit 1
+          fi

@@ -1,11 +1,56 @@
-import { DropList } from "@/components/drops";
-import { api } from "@/trpc/server";
+// import { waveCircle } from "@lucide/lab";
 
-export default async function Page() {
-  const posts = await api.drops.allPosts.query();
+import type { Metadata } from "next";
+import { Separator } from "@/components/atoms/separator";
+import { PageTitle } from "@/components/structure/title";
+import { PaginationControls } from "@/features/basin/components/pagination-controls";
+import { PostListItem } from "@/features/basin/components/post-list-item";
+import { makePageInfo, POSTS_PER_PAGE } from "@/features/basin/pagination";
+import { countRipples, listRipples } from "@/features/basin/ripples";
+import { ASCII_WAVE } from "@/utils/ascii";
+
+export default async function BasinIndex() {
+  const [posts, total] = await Promise.all([
+    listRipples({ take: POSTS_PER_PAGE }),
+    countRipples(),
+  ]);
+  const page = makePageInfo(1, total);
+
   return (
-    <div className="mx-auto w-full sm:w-[600px] md:w-[688px] lg:w-full">
-      <DropList drops={posts} />
-    </div>
+    <>
+      <PageTitle
+        title="forming waves"
+        className="px-6"
+        art={{
+          ascii: ASCII_WAVE,
+          anchor: "top-left",
+          offset: { x: 0, y: -3 },
+          opacity: { start: 1, end: 0.1, direction: "left-to-right" },
+          color: "--info-foreground",
+        }}
+      >
+        ripples
+      </PageTitle>
+
+      {posts.length === 0 ? (
+        <p className="text-muted-foreground italic">Nothing yet.</p>
+      ) : (
+        <>
+          <section className="space-y-2">
+            {posts.map((post) => (
+              <PostListItem key={post.slug} post={post} />
+            ))}
+          </section>
+          <Separator className="-mx-2 mt-8 data-[orientation=horizontal]:w-[calc(100%+1rem)] md:-mx-4 md:data-[orientation=horizontal]:w-[calc(100%+2rem)]" />
+          <PaginationControls page={page} />
+        </>
+      )}
+    </>
   );
 }
+
+export const metadata: Metadata = {
+  title: "ripples",
+  description:
+    "the basin overflows. a collection of thoughts, ideas, and reflections.",
+};

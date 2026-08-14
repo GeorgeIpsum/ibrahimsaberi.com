@@ -1,0 +1,4563 @@
+{
+  "hero": "Tusk",
+  "slug": "tusk",
+  "source": "https://liquipedia.net/dota2/Tusk/Responses",
+  "scrapedAt": "2026-06-17T13:38:37.108Z",
+  "count": 453,
+  "voicelines": [
+    {
+      "file": "Vo_tusk_tusk_spawn_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_01.mp3",
+      "transcript": "Tusk!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_tusk_tusk_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_02.mp3",
+      "transcript": "The Tusk!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_tusk_tusk_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_03.mp3",
+      "transcript": "Ymir!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_tusk_tusk_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_04.mp3",
+      "transcript": "I am Ymir!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_tusk_tusk_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_05.mp3",
+      "transcript": "The Tusk is always ready for a fight!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_tusk_tusk_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_06.mp3",
+      "transcript": "Well well! It's been a while since I came this far south.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tusk_tusk_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_07.mp3",
+      "transcript": "They call me the Terror from the Barrier. They call me the Snowball from Cobalt. But you may call me Tusk!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_tusk_tusk_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_spawn_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_spawn_08.mp3",
+      "transcript": "I am the Tusk.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tusk_tusk_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_battlebegins_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_battlebegins_01.mp3",
+      "transcript": "Who's ready for a fight? The first hit is free! Anyone?",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_06.mp3",
+      "transcript": "Snowstorms'a'comin'.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_tusk_tusk_move_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_10.mp3",
+      "transcript": "The North comes with me!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_tusk_tusk_move_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_09.mp3",
+      "transcript": "Time to brawl.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_tusk_tusk_attack_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_03.mp3",
+      "transcript": "Euuughooh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_tusk_tusk_anger_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_inthebag_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_inthebag_02.mp3",
+      "transcript": "I'm betting this one's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_tusk_tusk_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_inthebag_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_inthebag_01.mp3",
+      "transcript": "Oh yeah. This one's in the bucket.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_tusk_tusk_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_tusk_tusk_move_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_tusk_tusk_move_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_03.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_tusk_tusk_move_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_04.mp3",
+      "transcript": "Why not?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_tusk_tusk_move_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_05.mp3",
+      "transcript": "Could be good.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_tusk_tusk_move_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_07.mp3",
+      "transcript": "Sounds like a good idea.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_tusk_tusk_move_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_08.mp3",
+      "transcript": "If you say so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_tusk_tusk_move_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_09.mp3",
+      "transcript": "I say!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_tusk_tusk_move_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_11.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_tusk_tusk_move_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_12.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_tusk_tusk_move_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_13.mp3",
+      "transcript": "You betcha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_tusk_tusk_move_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_14.mp3",
+      "transcript": "You betcha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_tusk_tusk_move_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_15.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_tusk_tusk_move_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_16.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_tusk_tusk_move_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_17.mp3",
+      "transcript": "Got it!",
+      "categories": [
+        "Moving",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tusk_tusk_move_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_18.mp3",
+      "transcript": "Got it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_tusk_tusk_move_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_19.mp3",
+      "transcript": "Ya sure.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_tusk_tusk_move_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_20.mp3",
+      "transcript": "Ya sure.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_tusk_tusk_move_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_21.mp3",
+      "transcript": "Ya.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_tusk_tusk_move_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_22.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_22.mp3",
+      "transcript": "Yeh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_tusk_tusk_move_22.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_23.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_23.mp3",
+      "transcript": "Mmhmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_tusk_tusk_move_23.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_24.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_24.mp3",
+      "transcript": "Mmhmm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_tusk_tusk_move_24.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_25.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_25.mp3",
+      "transcript": "Okie-dokie.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_tusk_tusk_move_25.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_move_26.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_move_26.mp3",
+      "transcript": "Tusky-duskie.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_tusk_tusk_move_26.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_tusk_tusk_attack_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_02.mp3",
+      "transcript": "This should be fun!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_tusk_tusk_attack_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_03.mp3",
+      "transcript": "I have punching for you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_tusk_tusk_attack_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_04.mp3",
+      "transcript": "Come here.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_tusk_tusk_attack_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_05.mp3",
+      "transcript": "Let us fight!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_tusk_tusk_attack_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_06.mp3",
+      "transcript": "Knuckles cracked and ready!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_tusk_tusk_attack_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_07.mp3",
+      "transcript": "Time to bruise.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_tusk_tusk_attack_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_08.mp3",
+      "transcript": "I say we should trade blows!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_tusk_tusk_attack_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_10.mp3",
+      "transcript": "Fight!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_tusk_tusk_attack_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_11.mp3",
+      "transcript": "Fight!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_tusk_tusk_attack_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_12.mp3",
+      "transcript": "Let's see what you're made of.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_tusk_tusk_attack_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_13.mp3",
+      "transcript": "Come and fight me!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_tusk_tusk_attack_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_attack_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_attack_14.mp3",
+      "transcript": "Get ready! Here I come!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_tusk_tusk_attack_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_cast_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_cast_01.mp3",
+      "transcript": "Let us keep this clean.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_tusk_tusk_cast_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_cast_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_cast_02.mp3",
+      "transcript": "When you are ready.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_tusk_tusk_cast_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_cast_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_cast_03.mp3",
+      "transcript": "Want to try your luck?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tusk_tusk_cast_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_01.mp3",
+      "transcript": "Ice shards!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tusk_tusk_iceshards_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_02.mp3",
+      "transcript": "Ice shards!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_tusk_tusk_iceshards_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_03.mp3",
+      "transcript": "You are going nowhere!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_tusk_tusk_iceshards_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_05.mp3",
+      "transcript": "Freeze! Ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_tusk_tusk_iceshards_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_06.mp3",
+      "transcript": "Freeze!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tusk_tusk_iceshards_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_07.mp3",
+      "transcript": "Eergh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_tusk_tusk_iceshards_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_iceshards_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_iceshards_04.mp3",
+      "transcript": "Packed special for you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_tusk_tusk_iceshards_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_01.mp3",
+      "transcript": "Snowball!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_tusk_tusk_snowball_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_02.mp3",
+      "transcript": "Snowball!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_tusk_tusk_snowball_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_04.mp3",
+      "transcript": "Allihopa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_tusk_tusk_snowball_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_05.mp3",
+      "transcript": "Ally-oop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tusk_tusk_snowball_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_09.mp3",
+      "transcript": "Ally-oop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_tusk_tusk_snowball_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_12.mp3",
+      "transcript": "Stick around!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_tusk_tusk_snowball_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_13.mp3",
+      "transcript": "Stay awhile!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_tusk_tusk_snowball_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_17.mp3",
+      "transcript": "I am the Snowball from Cobalt!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_tusk_tusk_kill_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_18.mp3",
+      "transcript": "That trick won the great brawl at White Fields!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_tusk_tusk_kill_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_19.mp3",
+      "transcript": "It's just a little snow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_tusk_tusk_kill_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_11.mp3",
+      "transcript": "Here's snow in your eye!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_tusk_tusk_snowball_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_14.mp3",
+      "transcript": "Snow says no!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tusk_tusk_snowball_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_15.mp3",
+      "transcript": "Ta-da!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_tusk_tusk_snowball_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_16.mp3",
+      "transcript": "Ta-da!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_tusk_tusk_snowball_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_17.mp3",
+      "transcript": "Well I tried.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_snowball_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_18.mp3",
+      "transcript": "Where did they go?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_tusk_tusk_snowball_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_19.mp3",
+      "transcript": "Was worth a try!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_tusk_tusk_snowball_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_20.mp3",
+      "transcript": "Ta… Da… Ah, hmm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_tusk_tusk_snowball_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_21.mp3",
+      "transcript": "Ta-dah oh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_tusk_tusk_snowball_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_22.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_22.mp3",
+      "transcript": "Ta-da oh hm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_tusk_tusk_snowball_22.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_23.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_23.mp3",
+      "transcript": "That was a big ball of failure.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_snowball_23.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_24.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_24.mp3",
+      "transcript": "Dohmvzm!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_tusk_tusk_snowball_24.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_25.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_25.mp3",
+      "transcript": "Euvm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_tusk_tusk_snowball_25.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_26.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_26.mp3",
+      "transcript": "Well, we're here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_tusk_tusk_snowball_26.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_27.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_27.mp3",
+      "transcript": "I will just let you off here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_tusk_tusk_snowball_27.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_03.mp3",
+      "transcript": "Snowball fight!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_tusk_tusk_snowball_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_06.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_tusk_tusk_snowball_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_07.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_tusk_tusk_snowball_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_08.mp3",
+      "transcript": "Snowball fight!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tusk_tusk_snowball_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_snowball_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_snowball_10.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_tusk_tusk_snowball_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_frozensigil_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_frozensigil_01.mp3",
+      "transcript": "Ah, this will turn down the temperature.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_tusk_tusk_frozensigil_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_frozensigil_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_frozensigil_02.mp3",
+      "transcript": "Much better!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_tusk_tusk_frozensigil_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_frozensigil_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_frozensigil_03.mp3",
+      "transcript": "Ah! The chill of home.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_tusk_tusk_frozensigil_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_frozensigil_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_frozensigil_04.mp3",
+      "transcript": "Mm, a cozy cold.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_tusk_tusk_frozensigil_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_frozensigil_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_frozensigil_05.mp3",
+      "transcript": "Love the cold!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_tusk_tusk_frozensigil_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_ready_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_ready_01.mp3",
+      "transcript": "Ready!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_tusk_tusk_superpunch_ready_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_ready_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_ready_02.mp3",
+      "transcript": "This next one is gonna sting.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_tusk_tusk_superpunch_ready_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_ready_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_ready_03.mp3",
+      "transcript": "Winding up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_tusk_tusk_superpunch_ready_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_ready_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_ready_04.mp3",
+      "transcript": "Come at me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_tusk_tusk_superpunch_ready_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_ready_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_ready_05.mp3",
+      "transcript": "Ready when you are.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_tusk_tusk_superpunch_ready_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_01.mp3",
+      "transcript": "Walrus Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_tusk_tusk_superpunch_attack_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_02.mp3",
+      "transcript": "Keen Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_tusk_tusk_superpunch_attack_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_03.mp3",
+      "transcript": "Oglodi Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tusk_tusk_superpunch_attack_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_04.mp3",
+      "transcript": "Greevil Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_tusk_tusk_superpunch_attack_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_05.mp3",
+      "transcript": "Fundamental Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tusk_tusk_superpunch_attack_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_06.mp3",
+      "transcript": "Elemental Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_tusk_tusk_superpunch_attack_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_07.mp3",
+      "transcript": "Dire Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tusk_tusk_superpunch_attack_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_08.mp3",
+      "transcript": "Radiant Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_tusk_tusk_superpunch_attack_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_09.mp3",
+      "transcript": "Roshan Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_tusk_tusk_superpunch_attack_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_10.mp3",
+      "transcript": "Grievous Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tusk_tusk_superpunch_attack_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_11.mp3",
+      "transcript": "Heroic Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_tusk_tusk_superpunch_attack_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_12.mp3",
+      "transcript": "Phoenix Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_tusk_tusk_superpunch_attack_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_13.mp3",
+      "transcript": "Ozkavosh Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_tusk_tusk_superpunch_attack_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_77.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_77.mp3",
+      "transcript": "Ozkavosh Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_tusk_tusk_superpunch_attack_77.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_14.mp3",
+      "transcript": "Chaos Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_tusk_tusk_superpunch_attack_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_15.mp3",
+      "transcript": "Puck Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_tusk_tusk_superpunch_attack_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_16.mp3",
+      "transcript": "Omni Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_tusk_tusk_superpunch_attack_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_17.mp3",
+      "transcript": "Shadow Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_tusk_tusk_superpunch_attack_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_18.mp3",
+      "transcript": "Phantom Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_superpunch_attack_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_19.mp3",
+      "transcript": "Lunch Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_tusk_tusk_superpunch_attack_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_20.mp3",
+      "transcript": "Icehouse Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_tusk_tusk_superpunch_attack_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_21.mp3",
+      "transcript": "Cucumber Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_tusk_tusk_superpunch_attack_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_22.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_22.mp3",
+      "transcript": "Inclement Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_tusk_tusk_superpunch_attack_22.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_23.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_23.mp3",
+      "transcript": "Ultimate Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_tusk_tusk_superpunch_attack_23.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_24.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_24.mp3",
+      "transcript": "Magnificent Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_tusk_tusk_superpunch_attack_24.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_25.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_25.mp3",
+      "transcript": "My Signature Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_tusk_tusk_superpunch_attack_25.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_26.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_26.mp3",
+      "transcript": "Boreal Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_tusk_tusk_superpunch_attack_26.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_27.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_27.mp3",
+      "transcript": "Arctic Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_tusk_tusk_superpunch_attack_27.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_28.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_28.mp3",
+      "transcript": "Tundra Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_tusk_tusk_superpunch_attack_28.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_29.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_29.mp3",
+      "transcript": "Permafrost Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_tusk_tusk_superpunch_attack_29.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_30.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_30.mp3",
+      "transcript": "Icy Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_tusk_tusk_superpunch_attack_30.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_31.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_31.mp3",
+      "transcript": "Polar Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_tusk_tusk_superpunch_attack_31.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_32.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_32.mp3",
+      "transcript": "Galactic Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_tusk_tusk_superpunch_attack_32.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_33.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_33.mp3",
+      "transcript": "Crash Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_tusk_tusk_superpunch_attack_33.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_34.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_34.mp3",
+      "transcript": "Cannon Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_tusk_tusk_superpunch_attack_34.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_35.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_35.mp3",
+      "transcript": "Orbital Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_tusk_tusk_superpunch_attack_35.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_36.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_36.mp3",
+      "transcript": "Onehellofa Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_tusk_tusk_superpunch_attack_36.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_37.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_37.mp3",
+      "transcript": "Thesaurical Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_tusk_tusk_superpunch_attack_37.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_38.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_38.mp3",
+      "transcript": "That's the Love Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_tusk_tusk_superpunch_attack_38.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_39.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_39.mp3",
+      "transcript": "Love Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_tusk_tusk_superpunch_attack_39.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_40.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_40.mp3",
+      "transcript": "Friendship Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_tusk_tusk_superpunch_attack_40.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_41.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_41.mp3",
+      "transcript": "Counter Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_tusk_tusk_superpunch_attack_41.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_42.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_42.mp3",
+      "transcript": "Thirty Degrees Below Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_tusk_tusk_superpunch_attack_42.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_43.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_43.mp3",
+      "transcript": "Penetrating Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_tusk_tusk_superpunch_attack_43.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_44.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_44.mp3",
+      "transcript": "Equatorial Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tusk_tusk_superpunch_attack_44.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_45.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_45.mp3",
+      "transcript": "Iceberg Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_tusk_tusk_superpunch_attack_45.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_46.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_46.mp3",
+      "transcript": "Icicle Punch!Ooo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_tusk_tusk_superpunch_attack_46.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_47.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_47.mp3",
+      "transcript": "Snowdrift Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_tusk_tusk_superpunch_attack_47.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_48.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_48.mp3",
+      "transcript": "Winterfreeze Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_tusk_tusk_superpunch_attack_48.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_49.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_49.mp3",
+      "transcript": "Snowflake Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_tusk_tusk_superpunch_attack_49.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_50.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_50.mp3",
+      "transcript": "Pudge Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_tusk_tusk_superpunch_attack_50.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_51.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_51.mp3",
+      "transcript": "Drunk Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_tusk_tusk_superpunch_attack_51.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_52.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_52.mp3",
+      "transcript": "Dragon Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_tusk_tusk_superpunch_attack_52.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_53.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_53.mp3",
+      "transcript": "Falcon Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_tusk_tusk_superpunch_attack_53.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_54.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_54.mp3",
+      "transcript": "Crocodile Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_tusk_tusk_superpunch_attack_54.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_55.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_55.mp3",
+      "transcript": "Another Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_tusk_tusk_superpunch_attack_55.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_56.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_56.mp3",
+      "transcript": "And Another Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_tusk_tusk_superpunch_attack_56.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_57.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_57.mp3",
+      "transcript": "And Another Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_tusk_tusk_superpunch_attack_57.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_58.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_58.mp3",
+      "transcript": "Punch Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_tusk_tusk_superpunch_attack_58.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_59.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_59.mp3",
+      "transcript": "Punch Punch Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_tusk_tusk_superpunch_attack_59.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_60.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_60.mp3",
+      "transcript": "Puncha Puncha Puncha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_tusk_tusk_superpunch_attack_60.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_61.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_61.mp3",
+      "transcript": "Horsekick Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_tusk_tusk_superpunch_attack_61.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_62.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_62.mp3",
+      "transcript": "Moderately Painful Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tusk_tusk_superpunch_attack_62.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_63.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_63.mp3",
+      "transcript": "Regrettable Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_tusk_tusk_superpunch_attack_63.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_64.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_64.mp3",
+      "transcript": "Bug Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tusk_tusk_superpunch_attack_64.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_65.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_65.mp3",
+      "transcript": "Face Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_tusk_tusk_superpunch_attack_65.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_66.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_66.mp3",
+      "transcript": "Cruncha Puncha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_tusk_tusk_superpunch_attack_66.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_67.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_67.mp3",
+      "transcript": "Surgical Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_tusk_tusk_superpunch_attack_67.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_68.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_68.mp3",
+      "transcript": "Crippling Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_tusk_tusk_superpunch_attack_68.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_69.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_69.mp3",
+      "transcript": "Narwhal Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_tusk_tusk_superpunch_attack_69.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_70.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_70.mp3",
+      "transcript": "Action Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_tusk_tusk_superpunch_attack_70.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_71.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_71.mp3",
+      "transcript": "Final Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_tusk_tusk_superpunch_attack_71.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_72.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_72.mp3",
+      "transcript": "Fruit Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_tusk_tusk_superpunch_attack_72.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_73.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_73.mp3",
+      "transcript": "Spiked Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tusk_tusk_superpunch_attack_73.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_74.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_74.mp3",
+      "transcript": "Diet Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_tusk_tusk_superpunch_attack_74.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_75.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_75.mp3",
+      "transcript": "Face Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_tusk_tusk_superpunch_attack_75.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_76.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_76.mp3",
+      "transcript": "Hole Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_tusk_tusk_superpunch_attack_76.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_78.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_78.mp3",
+      "transcript": "Magnus Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_tusk_tusk_superpunch_attack_78.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_79.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_79.mp3",
+      "transcript": "Double Dragon Punch Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_tusk_tusk_superpunch_attack_79.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_80.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_80.mp3",
+      "transcript": "Punchdrunk Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_tusk_tusk_superpunch_attack_80.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_81.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_81.mp3",
+      "transcript": "Here's a Bunch of Punches!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_tusk_tusk_superpunch_attack_81.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_83.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_83.mp3",
+      "transcript": "Magus Punch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_tusk_tusk_superpunch_attack_83.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_01.mp3",
+      "transcript": "Ah! A cold front!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_tusk_tusk_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_02.mp3",
+      "transcript": "Upped my weightclass!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_tusk_tusk_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_03.mp3",
+      "transcript": "Time to punch things up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_tusk_tusk_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_04.mp3",
+      "transcript": "I flex! Hmmm!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tusk_tusk_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_05.mp3",
+      "transcript": "Ah! A great workout!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tusk_tusk_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_06.mp3",
+      "transcript": "A good warmup!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_tusk_tusk_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_07.mp3",
+      "transcript": "Now the fun begins!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_tusk_tusk_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_08.mp3",
+      "transcript": "They will not know what hit them.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_tusk_tusk_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_09.mp3",
+      "transcript": "I dare them to fight me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_tusk_tusk_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_10.mp3",
+      "transcript": "This fight will be mine!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_tusk_tusk_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_tusk_tusk_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_12.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_tusk_tusk_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_13.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_tusk_tusk_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_14.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_tusk_tusk_levelup_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_15.mp3",
+      "transcript": "Ho ho ho ho ho!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_tusk_tusk_levelup_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_levelup_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_levelup_16.mp3",
+      "transcript": "He ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_tusk_tusk_levelup_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_01.mp3",
+      "transcript": "That gets my seal of approval!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_tusk_tusk_kill_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_02.mp3",
+      "transcript": "You've got blood on you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_tusk_tusk_kill_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_03.mp3",
+      "transcript": "Stay frosty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_tusk_tusk_kill_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_04.mp3",
+      "transcript": "I don't know my own strength!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_tusk_tusk_kill_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_05.mp3",
+      "transcript": "You were out of your weightclass!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_tusk_tusk_kill_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_06.mp3",
+      "transcript": "Aww, tough break.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_tusk_tusk_kill_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_07.mp3",
+      "transcript": "Pack some snow on it. You'll be fine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tusk_tusk_kill_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_08.mp3",
+      "transcript": "Survival of the fittest!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_tusk_tusk_kill_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_09.mp3",
+      "transcript": "You fought with such determination!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_tusk_tusk_kill_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_10.mp3",
+      "transcript": "You were all heart. I liked you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_tusk_tusk_kill_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_11.mp3",
+      "transcript": "Care to go another round?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_tusk_tusk_kill_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_12.mp3",
+      "transcript": "I was just getting warmed up!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_kill_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_13.mp3",
+      "transcript": "Down for the count!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_tusk_tusk_kill_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_14.mp3",
+      "transcript": "Eh he! Eh he!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_tusk_tusk_kill_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_15.mp3",
+      "transcript": "Eh he! Eh he he he he he!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tusk_tusk_kill_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_16.mp3",
+      "transcript": "Ah ha! Ah! Oh that's good.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_tusk_tusk_kill_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_20.mp3",
+      "transcript": "I never pull my punches.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_tusk_tusk_kill_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_21.mp3",
+      "transcript": "Knockout!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_tusk_tusk_kill_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_22.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_22.mp3",
+      "transcript": "Oh, that had to hurt!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_tusk_tusk_kill_22.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_23.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_23.mp3",
+      "transcript": "Bang! Zoom! To the Mad Moon!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_tusk_tusk_kill_23.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_24.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_24.mp3",
+      "transcript": "That was my favorite Punch! You were impressed?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_tusk_tusk_kill_24.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_25.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_25.mp3",
+      "transcript": "That punch has ended more fights than I can remember!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_tusk_tusk_kill_25.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_kill_26.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_kill_26.mp3",
+      "transcript": "Fist bump!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_tusk_tusk_kill_26.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_11.mp3",
+      "transcript": "That went well!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_tusk_tusk_deny_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_01.mp3",
+      "transcript": "He he!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_tusk_tusk_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_02.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_tusk_tusk_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_03.mp3",
+      "transcript": "Ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_tusk_tusk_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_04.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_tusk_tusk_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_05.mp3",
+      "transcript": "Oh ho ho ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_tusk_tusk_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_06.mp3",
+      "transcript": "Oh boy! Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_tusk_tusk_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_07.mp3",
+      "transcript": "Oh ho! Wo ho ho ho ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_tusk_tusk_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_08.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tusk_tusk_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_09.mp3",
+      "transcript": "Wo ho! Wa ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_tusk_tusk_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_laugh_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_laugh_10.mp3",
+      "transcript": "Hueh heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_tusk_tusk_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_13.mp3",
+      "transcript": "Sorry to do that to you darling.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_tusk_tusk_rival_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_14.mp3",
+      "transcript": "Sorry about that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_tusk_tusk_rival_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_15.mp3",
+      "transcript": "You know I do not mean it, right?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_tusk_tusk_rival_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_16.mp3",
+      "transcript": "Apologies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_tusk_tusk_rival_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_17.mp3",
+      "transcript": "Apologies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tusk_tusk_rival_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_18.mp3",
+      "transcript": "Well you did tell me not to go easy on you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_tusk_tusk_rival_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_19.mp3",
+      "transcript": "Are you okay?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_tusk_tusk_rival_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_20.mp3",
+      "transcript": "I tried to warn you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_tusk_tusk_rival_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_02.mp3",
+      "transcript": "Hell froze over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_tusk_tusk_rival_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_03.mp3",
+      "transcript": "Even you should come in from the cold once in a while.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_tusk_tusk_rival_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_04.mp3",
+      "transcript": "Not so fast. I will take that keg.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_tusk_tusk_rival_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_05.mp3",
+      "transcript": "Oh! The Brewmaster's brew! I always wanted to try this!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_tusk_tusk_rival_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_06.mp3",
+      "transcript": "Only a cruel beast turns one's friends against him.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_tusk_tusk_rival_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_07.mp3",
+      "transcript": "Did you know that I shatter ice with my fists for fun?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_tusk_tusk_rival_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_09.mp3",
+      "transcript": "You should bandage up that belly next time!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_tusk_tusk_rival_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_10.mp3",
+      "transcript": "Night night, Mr. Grim.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_tusk_tusk_rival_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_11.mp3",
+      "transcript": "I do not think you're having fun, man-horse!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_tusk_tusk_rival_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_12.mp3",
+      "transcript": "War is no reason to be unsporting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_tusk_tusk_rival_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_21.mp3",
+      "transcript": "A rematch with me was a bad idea.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_tusk_tusk_rival_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_22.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_22.mp3",
+      "transcript": "You call those tusks? Hm hm!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_tusk_tusk_rival_22.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_01.mp3",
+      "transcript": "Now you are old chum.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_tusk_tusk_rival_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rival_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rival_08.mp3",
+      "transcript": "How many were there? Maybe I've had one too many blows to the head!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_tusk_tusk_rival_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_firstblood_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_firstblood_01.mp3",
+      "transcript": "First blood! And that is how we do things in the north! Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_tusk_tusk_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_firstblood_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_firstblood_02.mp3",
+      "transcript": "That was first blood? I barely touched you! Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tusk_tusk_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_firstblood_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_firstblood_03.mp3",
+      "transcript": "First blood! Now who wants to be second?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_tusk_tusk_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_01.mp3",
+      "transcript": "Crystal Maiden! It is you! I have not seen you for… Oh it's been so long.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_tusk_tusk_ally_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_02.mp3",
+      "transcript": "Find me after the battle, Brewmaster. The second round is on me.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tusk_tusk_ally_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_03.mp3",
+      "transcript": "Ha! Ogre! Care to make a friendly wager?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_tusk_tusk_ally_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_04.mp3",
+      "transcript": "You have a chill on you Lich.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_tusk_tusk_ally_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_05.mp3",
+      "transcript": "So are you supposed to be some kind of ice ghost?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_tusk_tusk_ally_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_06.mp3",
+      "transcript": "Auroth, do you feel the chill in the air? It's a good day for a fight.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_tusk_tusk_ally_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_07.mp3",
+      "transcript": "Ho ho ho ho! Are you not the jovial sort!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_tusk_tusk_ally_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_08.mp3",
+      "transcript": "I look forward to your kebabs, Magnus.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_tusk_tusk_ally_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_09.mp3",
+      "transcript": "Break their armor and I will smash them, Slardar.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_tusk_tusk_ally_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_10.mp3",
+      "transcript": "We will win this battle, Centaur.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_tusk_tusk_ally_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_11.mp3",
+      "transcript": "We should spar when this is over.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_tusk_tusk_ally_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_ally_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_ally_12.mp3",
+      "transcript": "Nice tusks, Bristleback.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_tusk_tusk_ally_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_01.mp3",
+      "transcript": "Just a warmup!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_tusk_tusk_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_02.mp3",
+      "transcript": "Keep 'em coming!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_tusk_tusk_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_03.mp3",
+      "transcript": "Good. Keep 'em coming!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_tusk_tusk_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_04.mp3",
+      "transcript": "Cool off.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_tusk_tusk_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_05.mp3",
+      "transcript": "Chill out.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_tusk_tusk_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_06.mp3",
+      "transcript": "Don't take it personal.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_tusk_tusk_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_07.mp3",
+      "transcript": "Nice try!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_tusk_tusk_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_08.mp3",
+      "transcript": "Good practice.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_tusk_tusk_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_09.mp3",
+      "transcript": "Punching bag.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_tusk_tusk_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_10.mp3",
+      "transcript": "Wimp.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tusk_tusk_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_11.mp3",
+      "transcript": "Wimp!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_tusk_tusk_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_12.mp3",
+      "transcript": "He's a sparrow.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_tusk_tusk_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lasthit_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lasthit_13.mp3",
+      "transcript": "Featherweight.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_tusk_tusk_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_tusk_tusk_deny_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_02.mp3",
+      "transcript": "Aw denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_tusk_tusk_deny_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_03.mp3",
+      "transcript": "Uh huh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_tusk_tusk_deny_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_tusk_tusk_deny_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_05.mp3",
+      "transcript": "That's mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tusk_tusk_deny_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_06.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tusk_tusk_deny_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_07.mp3",
+      "transcript": "Nope!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_tusk_tusk_deny_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_08.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_tusk_tusk_deny_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_09.mp3",
+      "transcript": "I don't mind if I do.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_tusk_tusk_deny_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_10.mp3",
+      "transcript": "You should rethink that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_tusk_tusk_deny_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_12.mp3",
+      "transcript": "Sorry friend.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_tusk_tusk_deny_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_13.mp3",
+      "transcript": "No you don't!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_tusk_tusk_deny_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_14.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_tusk_tusk_deny_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_15.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_tusk_tusk_deny_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_16.mp3",
+      "transcript": "Oh ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_tusk_tusk_deny_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_17.mp3",
+      "transcript": "Ho ho ho ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tusk_tusk_deny_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_18.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_tusk_tusk_deny_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_19.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_tusk_tusk_deny_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_20.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_20.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_tusk_tusk_deny_20.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_deny_21.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_deny_21.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_tusk_tusk_deny_21.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_purch_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_purch_01.mp3",
+      "transcript": "Hoh! This had better be worth it.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_tusk_tusk_purch_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_purch_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_purch_02.mp3",
+      "transcript": "And this will help me punch?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_tusk_tusk_purch_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_purch_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_purch_03.mp3",
+      "transcript": "I will hit them with the heavy part. I think.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_tusk_tusk_purch_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_purch_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_purch_04.mp3",
+      "transcript": "It's very nice. What does it do?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_tusk_tusk_purch_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_purch_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_purch_05.mp3",
+      "transcript": "It's very nice. What does it do?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_tusk_tusk_purch_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_scepter_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_scepter_01.mp3",
+      "transcript": "Ah!Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_tusk_tusk_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_scepter_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_scepter_02.mp3",
+      "transcript": "A snow scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tusk_tusk_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_blink_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_tusk_tusk_blink_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_blink_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_blink_02.mp3",
+      "transcript": "Some kind of an ice pick!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_tusk_tusk_blink_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_01.mp3",
+      "transcript": "Shiva's Guard! Now that's cold!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_tusk_tusk_items_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_02.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_tusk_tusk_items_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_03.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_tusk_tusk_items_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_04.mp3",
+      "transcript": "Battlefury!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_tusk_tusk_items_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_05.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tusk_tusk_items_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_06.mp3",
+      "transcript": "Urn of Shadows!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tusk_tusk_items_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_07.mp3",
+      "transcript": "Drum of Endurance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_tusk_tusk_items_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_08.mp3",
+      "transcript": "Sange and Yasha!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_tusk_tusk_items_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_09.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_tusk_tusk_items_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_items_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_items_10.mp3",
+      "transcript": "Blade Mail!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_tusk_tusk_items_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_immort_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_tusk_tusk_immort_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_immort_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_immort_02.mp3",
+      "transcript": "This fighter never falls.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tusk_tusk_immort_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_tusk_tusk_death_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_tusk_tusk_death_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_03.mp3",
+      "transcript": "Fight fair!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_death_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_04.mp3",
+      "transcript": "Wow! You hit hard.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_death_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_05.mp3",
+      "transcript": "Oh that smarts!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_tusk_tusk_death_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_06.mp3",
+      "transcript": "Got me good…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_tusk_tusk_death_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_07.mp3",
+      "transcript": "Good show…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_tusk_tusk_death_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_08.mp3",
+      "transcript": "That one hurt…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_tusk_tusk_death_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_09.mp3",
+      "transcript": "Coulda been a contender.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_tusk_tusk_death_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_10.mp3",
+      "transcript": "Down for the count.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_tusk_tusk_death_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_11.mp3",
+      "transcript": "My fight money…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tusk_tusk_death_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_12.mp3",
+      "transcript": "This round is over.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_tusk_tusk_death_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_13.mp3",
+      "transcript": "Knocked out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_tusk_tusk_death_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_19.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_19.mp3",
+      "transcript": "This is outrageous.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_tusk_tusk_death_19.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_14.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_14.mp3",
+      "transcript": "You learned well.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_tusk_tusk_death_14.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_15.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_15.mp3",
+      "transcript": "Atta girl.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_tusk_tusk_death_15.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_16.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_16.mp3",
+      "transcript": "Glad it was you.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_tusk_tusk_death_16.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_17.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_17.mp3",
+      "transcript": "Isn't she something.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_tusk_tusk_death_17.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_death_18.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_death_18.mp3",
+      "transcript": "I threw this one.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_tusk_tusk_death_18.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_01.mp3",
+      "transcript": "All right. Sparring is done. We fight for real this time!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_tusk_tusk_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_02.mp3",
+      "transcript": "Yes! I'm good for a few more hits.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_tusk_tusk_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_03.mp3",
+      "transcript": "I'm back. What did I miss?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_tusk_tusk_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_04.mp3",
+      "transcript": "It's going to be one of those kind of fights.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_tusk_tusk_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_05.mp3",
+      "transcript": "Did anyone get the name of that wagon that hit me?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_tusk_tusk_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_06.mp3",
+      "transcript": "The fight is back on!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_tusk_tusk_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_07.mp3",
+      "transcript": "Oh good. I returned. I was not done.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_tusk_tusk_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_08.mp3",
+      "transcript": "Dah! They started without me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_tusk_tusk_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_09.mp3",
+      "transcript": "Ready for another round!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_tusk_tusk_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_10.mp3",
+      "transcript": "Heh heh! Let's see them try that again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_tusk_tusk_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_11.mp3",
+      "transcript": "Oh yes. Ready for a comeback!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_tusk_tusk_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_respawn_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_respawn_12.mp3",
+      "transcript": "I don't know where I was, but it was too warm.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_tusk_tusk_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_fastres_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_fastres_01.mp3",
+      "transcript": "I insist on a rematch!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_tusk_tusk_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_bottle_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_bottle_01.mp3",
+      "transcript": "I'll just put this on ice.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_tusk_tusk_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_bottle_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_bottle_02.mp3",
+      "transcript": "Into my bucket.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_tusk_tusk_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_bottle_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_bottle_03.mp3",
+      "transcript": "For the next fight.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_tusk_tusk_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_superpunch_attack_82.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_superpunch_attack_82.mp3",
+      "transcript": "Whole Bunch of Punches!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_tusk_tusk_superpunch_attack_82.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_doubdam_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_doubdam_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_doubdam_02.mp3",
+      "transcript": "I'm a brawler in his prime!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_tusk_tusk_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_haste_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_tusk_tusk_haste_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_haste_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_haste_02.mp3",
+      "transcript": "Tally-ho!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_tusk_tusk_haste_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_illus_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_tusk_tusk_illus_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_illus_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_illus_02.mp3",
+      "transcript": "Time for a tag team!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_tusk_tusk_illus_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_invis_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_tusk_tusk_invis_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_invis_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_invis_02.mp3",
+      "transcript": "They will not see what hit them.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tusk_tusk_invis_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_regen_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_tusk_tusk_regen_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_regen_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_regen_02.mp3",
+      "transcript": "Better than a stiff drink!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_tusk_tusk_regen_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_regen_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_regen_03.mp3",
+      "transcript": "Refridgeration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_tusk_tusk_regen_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_tusk_tusk_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_tusk_tusk_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_tusk_tusk_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_tusk_tusk_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_tusk_tusk_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_tusk_tusk_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_03.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_tusk_tusk_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_06.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_tusk_tusk_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_notyet_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_tusk_tusk_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_tusk_tusk_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_tusk_tusk_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_04_alt.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_04_alt.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_tusk_tusk_nomana_04_alt.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_tusk_tusk_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_tusk_tusk_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_tusk_tusk_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_tusk_tusk_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_03_alt.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_03_alt.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_tusk_tusk_nomana_03_alt.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_03_alt2.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_03_alt2.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_tusk_tusk_nomana_03_alt2.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_tusk_tusk_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_nomana_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_tusk_tusk_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_01.mp3",
+      "transcript": "Agh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_pain_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_02.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_tusk_tusk_pain_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_03.mp3",
+      "transcript": "Augh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_tusk_tusk_pain_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_04.mp3",
+      "transcript": "Ooph!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_tusk_tusk_pain_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_tusk_tusk_pain_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_06.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_tusk_tusk_pain_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_07.mp3",
+      "transcript": "Omph!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_tusk_tusk_pain_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_08.mp3",
+      "transcript": "Agh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_tusk_tusk_pain_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_09.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_tusk_tusk_pain_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_10.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_tusk_tusk_pain_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_11.mp3",
+      "transcript": "Aow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_tusk_tusk_pain_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_12.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_12.mp3",
+      "transcript": "Owh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_tusk_tusk_pain_12.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_pain_13.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_pain_13.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_tusk_tusk_pain_13.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_underattack_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_tusk_tusk_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rare_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rare_01.mp3",
+      "transcript": "It's a great day to do some squat thrusts and lift a barrel of fish, is it not?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_tusk_tusk_rare_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rare_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rare_02.mp3",
+      "transcript": "I float like Destroyer and sting like Riki.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_tusk_tusk_rare_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rare_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rare_03.mp3",
+      "transcript": "After a bar brawl it's customary, as a courtesy, to buy everyone who's still standing a round of drinks.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_tusk_tusk_rare_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_rare_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_rare_04.mp3",
+      "transcript": "Battle is battle. Why bet against me?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_tusk_tusk_rare_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lane_missing_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lane_missing_01.mp3",
+      "transcript": "Top is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_tusk_tusk_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lane_missing_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lane_missing_02.mp3",
+      "transcript": "Middle is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_tusk_tusk_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lane_missing_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lane_missing_03.mp3",
+      "transcript": "Bottom is missing!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_tusk_tusk_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_thanks_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_tusk_tusk_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_thanks_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_thanks_02.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_tusk_tusk_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_thanks_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_thanks_03.mp3",
+      "transcript": "That was nice of you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_tusk_tusk_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_01.mp3",
+      "transcript": "Oh yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_tusk_tusk_win_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_tusk_tusk_win_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_03.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_tusk_tusk_win_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_04.mp3",
+      "transcript": "Never bet against Tusk!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_win_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_05.mp3",
+      "transcript": "And the winner, by unanimous decision, is me!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_tusk_tusk_win_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_win_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_win_06.mp3",
+      "transcript": "I have bloody knuckles and a smile. Now: who wants a drink?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_tusk_tusk_win_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lose_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_tusk_tusk_lose_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lose_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_tusk_tusk_lose_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lose_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lose_03.mp3",
+      "transcript": "Oh, I'm going to be sore tomorrow.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_tusk_tusk_lose_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_lose_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_lose_04.mp3",
+      "transcript": "Ah, I wonder if they'll go double or nothing.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_tusk_tusk_lose_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_drop_common_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_drop_common_01.mp3",
+      "transcript": "A grand prize for a grand battle!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_tusk_tusk_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_drop_medium_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_drop_medium_01.mp3",
+      "transcript": "This is something I will treasure.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_tusk_tusk_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_drop_rare_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_drop_rare_01.mp3",
+      "transcript": "That is worth another round of drinks!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_tusk_tusk_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_failure_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_failure_01.mp3",
+      "transcript": "Heh! I missed!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_tusk_tusk_failure_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_failure_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_failure_02.mp3",
+      "transcript": "That did not go well.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_tusk_tusk_failure_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_failure_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_failure_03.mp3",
+      "transcript": "Well there's your problem.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_tusk_tusk_failure_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_crumwiz_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_crumwiz_01.mp3",
+      "transcript": "Crummy wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_tusk_tusk_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_shiwiz_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_shiwiz_01.mp3",
+      "transcript": "Shitty wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_tusk_tusk_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_01.mp3",
+      "transcript": "Dahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_tusk_tusk_anger_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_02.mp3",
+      "transcript": "Dohgmdoooh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_tusk_tusk_anger_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_04.mp3",
+      "transcript": "Doomvhm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_tusk_tusk_anger_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_05.mp3",
+      "transcript": "Hmmvm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_tusk_tusk_anger_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_06.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_tusk_tusk_anger_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_07.mp3",
+      "transcript": "Hm mm gm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_tusk_tusk_anger_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_08.mp3",
+      "transcript": "Drah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_tusk_tusk_anger_08.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_09.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_09.mp3",
+      "transcript": "Haughm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_tusk_tusk_anger_09.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_10.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_10.mp3",
+      "transcript": "Hmdm dmgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_tusk_tusk_anger_10.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_anger_11.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_anger_11.mp3",
+      "transcript": "Hmdmgh hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_tusk_tusk_anger_11.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_01.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_tusk_tusk_happy_01.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_02.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_02.mp3",
+      "transcript": "Oh yeah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_tusk_tusk_happy_02.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_03.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_03.mp3",
+      "transcript": "Ho ho ho ho!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_tusk_tusk_happy_03.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_04.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_04.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_tusk_tusk_happy_04.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_05.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_05.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_tusk_tusk_happy_05.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_06.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_06.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_tusk_tusk_happy_06.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_07.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_07.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_tusk_tusk_happy_07.mp3"
+    },
+    {
+      "file": "Vo_tusk_tusk_happy_08.mp3",
+      "key": "dota2/tusk/Vo_tusk_tusk_happy_08.mp3",
+      "transcript": "Ohhh hm hm hm hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_tusk_tusk_happy_08.mp3"
+    }
+  ]
+}

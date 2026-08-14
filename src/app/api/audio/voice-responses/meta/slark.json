@@ -1,0 +1,2858 @@
+{
+  "hero": "Slark",
+  "slug": "slark",
+  "source": "https://liquipedia.net/dota2/Slark/Responses",
+  "scrapedAt": "2026-06-17T14:03:47.487Z",
+  "count": 283,
+  "voicelines": [
+    {
+      "file": "Vo_slark_slark_spawn_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_spawn_01.mp3",
+      "transcript": "Slark.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_slark_slark_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_spawn_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_spawn_02.mp3",
+      "transcript": "Nightcrawler.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_slark_slark_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_spawn_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_spawn_03.mp3",
+      "transcript": "In I crawl.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_slark_slark_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_spawn_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_spawn_04.mp3",
+      "transcript": "If I'd known I'd end up here, I'd have stayed in Dark Reef Prison.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_slark_slark_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_spawn_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_spawn_05.mp3",
+      "transcript": "Oh no, you'll bait no hook with me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_slark_slark_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_03.mp3",
+      "transcript": "The dark runs deep.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_slark_slark_dark_pact_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_04.mp3",
+      "transcript": "By the Dark Pact.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_slark_slark_dark_pact_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_05.mp3",
+      "transcript": "Sealed in darkness.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_slark_slark_dark_pact_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_06.mp3",
+      "transcript": "By the Dark Ones.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_slark_slark_dark_pact_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_shadow_dance_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_shadow_dance_02.mp3",
+      "transcript": "Shadows keep me.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_slark_slark_shadow_dance_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_06.mp3",
+      "transcript": "Dark Reef Rising!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_slark_slark_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_02.mp3",
+      "transcript": "It's never dark enough.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_slark_slark_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_anger_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_anger_02.mp3",
+      "transcript": "Grngznnh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_slark_slark_anger_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_inthebag_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_inthebag_01.mp3",
+      "transcript": "When I say a thing, you know it's true. So I'm calling it right here and now. This one's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_slark_slark_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_inthebag_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_inthebag_02.mp3",
+      "transcript": "Oh this one's in the bag—hook, line and sinker.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_slark_slark_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_battlebegins_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_battlebegins_01.mp3",
+      "transcript": "Stay out of my way and maybe you won't get hurt, but I doubt it.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_slark_slark_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_01.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_slark_slark_move_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_02.mp3",
+      "transcript": "All right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_slark_slark_move_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_03.mp3",
+      "transcript": "Careful.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_slark_slark_move_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_04.mp3",
+      "transcript": "Don't get caught.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_slark_slark_move_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_05.mp3",
+      "transcript": "Right through here.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_slark_slark_move_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_06.mp3",
+      "transcript": "Psst, this way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_slark_slark_move_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_07.mp3",
+      "transcript": "Over here.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_slark_slark_move_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_08.mp3",
+      "transcript": "That's right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_slark_slark_move_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_09.mp3",
+      "transcript": "More like it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_slark_slark_move_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_10.mp3",
+      "transcript": "Now you're talking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_slark_slark_move_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_11.mp3",
+      "transcript": "Go on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_slark_slark_move_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_12.mp3",
+      "transcript": "You sure?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_slark_slark_move_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_13.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_slark_slark_move_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_14.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_14.mp3",
+      "transcript": "Heh heh heh, okay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_slark_slark_move_14.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_15.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_15.mp3",
+      "transcript": "Nice one.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_slark_slark_move_15.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_16.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_16.mp3",
+      "transcript": "Good.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_slark_slark_move_16.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_17.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_17.mp3",
+      "transcript": "All part of the plan.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_slark_slark_move_17.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_18.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_18.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_slark_slark_move_18.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_19.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_19.mp3",
+      "transcript": "Come on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_slark_slark_move_19.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_20.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_20.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_slark_slark_move_20.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_21.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_21.mp3",
+      "transcript": "Yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_slark_slark_move_21.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_22.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_22.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_slark_slark_move_22.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_move_23.mp3",
+      "key": "dota2/slark/Vo_slark_slark_move_23.mp3",
+      "transcript": "Right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_slark_slark_move_23.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_01.mp3",
+      "transcript": "Come on, I won't hurt you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_slark_slark_attack_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_02.mp3",
+      "transcript": "You're mine now.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_slark_slark_attack_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_03.mp3",
+      "transcript": "I got this one.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_slark_slark_attack_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_04.mp3",
+      "transcript": "After em.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_slark_slark_attack_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_05.mp3",
+      "transcript": "There's no escape.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_slark_slark_attack_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_06.mp3",
+      "transcript": "Anywhere but here.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_slark_slark_attack_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_07.mp3",
+      "transcript": "I see it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_slark_slark_attack_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_08.mp3",
+      "transcript": "Oh yeah.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_slark_slark_attack_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_09.mp3",
+      "transcript": "It's a beat-down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_slark_slark_attack_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_10.mp3",
+      "transcript": "Go on.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_slark_slark_attack_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_11.mp3",
+      "transcript": "Oh, hello.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_slark_slark_attack_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_12.mp3",
+      "transcript": "Wriggle, wriggle, little fish.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_slark_slark_attack_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_13.mp3",
+      "transcript": "Here, fishy-fishy.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_slark_slark_attack_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_attack_14.mp3",
+      "key": "dota2/slark/Vo_slark_slark_attack_14.mp3",
+      "transcript": "Go on.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_slark_slark_attack_14.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_cast_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_cast_01.mp3",
+      "transcript": "Slark's got his eye on you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_slark_slark_cast_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_cast_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_cast_02.mp3",
+      "transcript": "I'll take this one.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_slark_slark_cast_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_cast_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_cast_03.mp3",
+      "transcript": "On your belly and crawl.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_slark_slark_cast_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_cast_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_cast_04.mp3",
+      "transcript": "You'll be sorry when you see me.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_slark_slark_cast_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_01.mp3",
+      "transcript": "I call darkness from the deep.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_slark_slark_dark_pact_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_01.mp3",
+      "transcript": "Eeyah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_slark_slark_pounce_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_02.mp3",
+      "transcript": "You're bound!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_slark_slark_pounce_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_03.mp3",
+      "transcript": "Caught out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_slark_slark_pounce_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_04.mp3",
+      "transcript": "Heh, yeah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_slark_slark_pounce_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_05.mp3",
+      "transcript": "Gotcha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_slark_slark_pounce_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_06.mp3",
+      "transcript": "Nabbed!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_slark_slark_pounce_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_07.mp3",
+      "transcript": "Missed him!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_slark_slark_pounce_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_08.mp3",
+      "transcript": "Bah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_slark_slark_pounce_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_09.mp3",
+      "transcript": "Got away.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_slark_slark_pounce_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_10.mp3",
+      "transcript": "Slippery devil!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_slark_slark_pounce_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_11.mp3",
+      "transcript": "Eeyah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_slark_slark_pounce_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_12.mp3",
+      "transcript": "Oh that one's slippery.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_slark_slark_pounce_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pounce_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pounce_13.mp3",
+      "transcript": "Dah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_slark_slark_pounce_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_essence_shift_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_essence_shift_01.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_slark_slark_essence_shift_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_essence_shift_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_essence_shift_02.mp3",
+      "transcript": "Oh they weren't using this.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_slark_slark_essence_shift_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_essence_shift_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_essence_shift_03.mp3",
+      "transcript": "This was wasted on them.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_slark_slark_essence_shift_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_essence_shift_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_essence_shift_04.mp3",
+      "transcript": "The attributes want to be free.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_slark_slark_essence_shift_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_shadow_dance_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_shadow_dance_01.mp3",
+      "transcript": "Darkness crawls.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_slark_slark_shadow_dance_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_shadow_dance_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_shadow_dance_03.mp3",
+      "transcript": "I'm creeping in the shadows.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_slark_slark_shadow_dance_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_shadow_dance_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_shadow_dance_04.mp3",
+      "transcript": "I only dance with death.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_slark_slark_shadow_dance_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_01.mp3",
+      "transcript": "I'll be out of this mess in no time.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_slark_slark_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_02.mp3",
+      "transcript": "Now that's payback.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_slark_slark_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_03.mp3",
+      "transcript": "Now my shiv is nice and sharp.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_slark_slark_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_04.mp3",
+      "transcript": "Oh this is going swimmingly.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_slark_slark_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_05.mp3",
+      "transcript": "Oh this is all part of the plan.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_slark_slark_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_07.mp3",
+      "transcript": "He he he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_slark_slark_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_08.mp3",
+      "transcript": "Ah ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_slark_slark_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_09.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_slark_slark_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_levelup_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_levelup_10.mp3",
+      "transcript": "I like it!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_slark_slark_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_01.mp3",
+      "transcript": "Slark had his way with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_slark_slark_kill_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_02.mp3",
+      "transcript": "Oh, you were an ugly one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_slark_slark_kill_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_03.mp3",
+      "transcript": "You wanted out of here, didn't you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_slark_slark_kill_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_04.mp3",
+      "transcript": "Go on, get out of here.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_slark_slark_kill_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_05.mp3",
+      "transcript": "Your body was a cage, I just let you free!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_slark_slark_kill_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_06.mp3",
+      "transcript": "You never felt my shiv, did ya?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_slark_slark_kill_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_07.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_slark_slark_kill_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_08.mp3",
+      "transcript": "You took the bait.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_slark_slark_kill_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_09.mp3",
+      "transcript": "You should've hid when you saw me coming.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_slark_slark_kill_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_10.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_slark_slark_kill_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_11.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_slark_slark_kill_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_kill_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_kill_12.mp3",
+      "transcript": "Ho ho ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_slark_slark_kill_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_01.mp3",
+      "transcript": "hua hehehehe haha hihi.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_slark_slark_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_02.mp3",
+      "transcript": "Heh, right, hehehehe!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_slark_slark_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_03.mp3",
+      "transcript": "Ahahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_slark_slark_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_04.mp3",
+      "transcript": "Ahahahahahaha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_slark_slark_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_05.mp3",
+      "transcript": "Aaaaahahahahaaa!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_slark_slark_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_06.mp3",
+      "transcript": "Aha hahahahahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_slark_slark_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_laugh_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_laugh_07.mp3",
+      "transcript": "Bu bu, ah ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_slark_slark_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_01.mp3",
+      "transcript": "Hah, You think you're deep, I'll show you deep.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_slark_slark_rival_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_02.mp3",
+      "transcript": "Sometimes the little fish eats the big fish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_slark_slark_rival_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_03.mp3",
+      "transcript": "I can't hear you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_slark_slark_rival_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_04.mp3",
+      "transcript": "I was under you the whole time, drilling holes in your hull.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_slark_slark_rival_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_05.mp3",
+      "transcript": "Where you're going, you won't need any eyes.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_slark_slark_rival_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_07.mp3",
+      "transcript": "Oh look, another shackle-dragger.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_slark_slark_rival_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_08.mp3",
+      "transcript": "I know your type, Riki. Common sneak thief.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_slark_slark_rival_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_09.mp3",
+      "transcript": "You call that sneaky?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_slark_slark_rival_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_10.mp3",
+      "transcript": "You want to bleed me? I'll bleed you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_slark_slark_rival_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_11.mp3",
+      "transcript": "Just let me carve in my initials.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_slark_slark_rival_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_12.mp3",
+      "transcript": "Fine assassin you turned out to be.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_slark_slark_rival_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_13.mp3",
+      "transcript": "Don't track me down if you can't finish the job.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_slark_slark_rival_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rival_14.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rival_14.mp3",
+      "transcript": "Anemone mine.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_slark_slark_rival_14.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_firstblood_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_firstblood_01.mp3",
+      "transcript": "First Blood! I've been wanting to say that since this all began.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_slark_slark_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_01.mp3",
+      "transcript": "I've got your back, Tidehunter. I promise not to stab it.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_slark_slark_ally_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_02.mp3",
+      "transcript": "Well 'ello, Pudge. That's a hell of a fish hook.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_slark_slark_ally_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_03.mp3",
+      "transcript": "I knew a Slithereen just like you doing hard time in Dark Reef.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_slark_slark_ally_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_04.mp3",
+      "transcript": "Guess my head's not worth enough for you, Gondar.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_slark_slark_ally_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_05.mp3",
+      "transcript": "Don't listen to the critics, Naga, I love your voice.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_slark_slark_ally_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_06.mp3",
+      "transcript": "Go on, Siren, sing em a sweet lullaby.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_slark_slark_ally_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_07.mp3",
+      "transcript": "Riki, just keep a low profile and we won't have any trouble.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_slark_slark_ally_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_ally_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_ally_08.mp3",
+      "transcript": "Throw off your shackles, friend.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_slark_slark_ally_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_01.mp3",
+      "transcript": "Fish fingers.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_slark_slark_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_02.mp3",
+      "transcript": "Hey, sport.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_slark_slark_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_03.mp3",
+      "transcript": "Don't mind if I do.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_slark_slark_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_04.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_slark_slark_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_05.mp3",
+      "transcript": "Small fry.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_slark_slark_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_06.mp3",
+      "transcript": "Pay up.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_slark_slark_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_07.mp3",
+      "transcript": "Give it here.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_slark_slark_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_08.mp3",
+      "transcript": "Lend me a fin?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_slark_slark_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_09.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_slark_slark_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lasthit_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lasthit_10.mp3",
+      "transcript": "I don't mind if I do.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_slark_slark_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_01.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_slark_slark_deny_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_slark_slark_deny_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_slark_slark_deny_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_04.mp3",
+      "transcript": "Mine, right?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_slark_slark_deny_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_05.mp3",
+      "transcript": "Fins off.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_slark_slark_deny_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_06.mp3",
+      "transcript": "Don't even think about it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_slark_slark_deny_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_07.mp3",
+      "transcript": "Give it up.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_slark_slark_deny_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_08.mp3",
+      "transcript": "Nice try.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_slark_slark_deny_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_09.mp3",
+      "transcript": "Get out of here.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_slark_slark_deny_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_10.mp3",
+      "transcript": "Bah ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_slark_slark_deny_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_11.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_slark_slark_deny_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_12.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_slark_slark_deny_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_slark_slark_deny_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_14.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_14.mp3",
+      "transcript": "Is it worth your life?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_slark_slark_deny_14.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_15.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_15.mp3",
+      "transcript": "Ah ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_slark_slark_deny_15.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_16.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_16.mp3",
+      "transcript": "He he he he he.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_slark_slark_deny_16.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_17.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_17.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_slark_slark_deny_17.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_deny_18.mp3",
+      "key": "dota2/slark/Vo_slark_slark_deny_18.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_slark_slark_deny_18.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_purch_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_purch_01.mp3",
+      "transcript": "I punched a lot of tickets for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_slark_slark_purch_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_purch_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_purch_02.mp3",
+      "transcript": "Oh I earned this the hard way.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_slark_slark_purch_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_purch_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_purch_03.mp3",
+      "transcript": "I'm taking a big risk buying this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_slark_slark_purch_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_scepter_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_scepter_01.mp3",
+      "transcript": "Oh, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_slark_slark_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_scepter_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_scepter_02.mp3",
+      "transcript": "Scepter, you know what to do.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_slark_slark_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_blink_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_slark_slark_blink_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_blink_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_blink_02.mp3",
+      "transcript": "This is the only blinking I'll be doing.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_slark_slark_blink_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_01.mp3",
+      "transcript": "Oh yes, Orb of Venom.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_slark_slark_items_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_02.mp3",
+      "transcript": "Butterfly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_slark_slark_items_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_03.mp3",
+      "transcript": "Vanguard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_slark_slark_items_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_04.mp3",
+      "transcript": "Basher.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_slark_slark_items_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_05.mp3",
+      "transcript": "That's right, Scythe of Vyse.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_slark_slark_items_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_06.mp3",
+      "transcript": "Mask of Madness.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_slark_slark_items_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_07.mp3",
+      "transcript": "Sange and Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_slark_slark_items_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_08.mp3",
+      "transcript": "Maelstrom and down they go.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_slark_slark_items_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_09.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_slark_slark_items_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_10.mp3",
+      "transcript": "Oh that's perfectly Satanic.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_slark_slark_items_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_11.mp3",
+      "transcript": "Eye of Skadi.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_slark_slark_items_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_12.mp3",
+      "transcript": "Mjollnir.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_slark_slark_items_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_items_13.mp3",
+      "key": "dota2/slark/Vo_slark_slark_items_13.mp3",
+      "transcript": "Monkey King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_slark_slark_items_13.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_immort_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_slark_slark_immort_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_immort_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_immort_02.mp3",
+      "transcript": "Where's the catch?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_slark_slark_immort_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_slark_slark_death_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_02.mp3",
+      "transcript": "Ah, no cell can hold me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_slark_slark_death_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_03.mp3",
+      "transcript": "Shived!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_slark_slark_death_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_04.mp3",
+      "transcript": "Where'd you come from?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_slark_slark_death_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_05.mp3",
+      "transcript": "Better swim for it.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_slark_slark_death_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_06.mp3",
+      "transcript": "Fish out of water.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_slark_slark_death_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_07.mp3",
+      "transcript": "Throw me back!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_slark_slark_death_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_08.mp3",
+      "transcript": "You caught your limit.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_slark_slark_death_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_09.mp3",
+      "transcript": "But I hadn't spawned yet!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_slark_slark_death_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_10.mp3",
+      "transcript": "Oh that's a change of plans.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_slark_slark_death_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_11.mp3",
+      "transcript": "Some things you can't plan for.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_slark_slark_death_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_death_12.mp3",
+      "key": "dota2/slark/Vo_slark_slark_death_12.mp3",
+      "transcript": "I shoulda had a Plan B.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_slark_slark_death_12.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_01.mp3",
+      "transcript": "The light hurts my eyes.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_slark_slark_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_03.mp3",
+      "transcript": "The air's so thick I'm choking on it.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_slark_slark_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_04.mp3",
+      "transcript": "I broke out!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_slark_slark_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_05.mp3",
+      "transcript": "The worst day fishing is still better than the best day of being dead.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_slark_slark_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_06.mp3",
+      "transcript": "Let me out of here.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_slark_slark_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_07.mp3",
+      "transcript": "Respawn and die…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_slark_slark_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_08.mp3",
+      "transcript": "Griefer madness…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_slark_slark_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_09.mp3",
+      "transcript": "Free again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_slark_slark_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_respawn_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_respawn_10.mp3",
+      "transcript": "Escaping death is easy when you've broken out of Dark Reef.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_slark_slark_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_fastres_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_fastres_01.mp3",
+      "transcript": "You think you caught me? Ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_slark_slark_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_bottle_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_bottle_01.mp3",
+      "transcript": "I'll put you in lockup.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_slark_slark_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_bottle_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_bottle_02.mp3",
+      "transcript": "In you go.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_slark_slark_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_bottle_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_bottle_03.mp3",
+      "transcript": "Patience, patience.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_slark_slark_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_04.mp3",
+      "transcript": "Mmh. Oh that's nice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_slark_slark_happy_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_doubdam_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_slark_slark_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_doubdam_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_doubdam_02.mp3",
+      "transcript": "Met you once, cut you twice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_slark_slark_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_haste_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_slark_slark_haste_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_haste_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_haste_02.mp3",
+      "transcript": "As if I wasn't slippery enough already.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_slark_slark_haste_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_illus_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_slark_slark_illus_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_illus_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_illus_02.mp3",
+      "transcript": "I know I can trust you guys.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_slark_slark_illus_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_invis_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_slark_slark_invis_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_invis_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_invis_02.mp3",
+      "transcript": "Oh, how I wish I had this back at Dark Reef!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_slark_slark_invis_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_regen_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_slark_slark_regen_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_regen_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_regen_02.mp3",
+      "transcript": "Oughta take care of this fin rot.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_slark_slark_regen_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_slark_slark_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_slark_slark_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_slark_slark_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_slark_slark_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_slark_slark_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_slark_slark_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_03.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_slark_slark_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_06.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_slark_slark_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_notyet_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_slark_slark_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_01.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_slark_slark_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_04.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_slark_slark_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_slark_slark_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_02.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_slark_slark_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_slark_slark_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_slark_slark_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_slark_slark_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_slark_slark_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_nomana_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_slark_slark_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_slark_slark_pain_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_slark_slark_pain_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_03.mp3",
+      "transcript": "D'auright!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_slark_slark_pain_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_04.mp3",
+      "transcript": "D'aah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_slark_slark_pain_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_05.mp3",
+      "transcript": "D'oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_slark_slark_pain_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_06.mp3",
+      "transcript": "D'aaaah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_slark_slark_pain_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_07.mp3",
+      "transcript": "Oof!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_slark_slark_pain_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_08.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_slark_slark_pain_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_09.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_09.mp3",
+      "transcript": "D'oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_slark_slark_pain_09.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_10.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_10.mp3",
+      "transcript": "Ohhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_slark_slark_pain_10.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_pain_11.mp3",
+      "key": "dota2/slark/Vo_slark_slark_pain_11.mp3",
+      "transcript": "Oh that hurt, yep.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_slark_slark_pain_11.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_underattack_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_slark_slark_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rare_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rare_01.mp3",
+      "transcript": "Alone is best but sometimes you need mates. Worse comes to worst, you can always eat em.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_slark_slark_rare_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rare_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rare_02.mp3",
+      "transcript": "Plots and plans come to nothing when you're teamed with a bunch of loudmouths and losers. That's why when it was my time to make a break from Dark Reef Prison, I worked alone.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_slark_slark_rare_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_rare_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_rare_03.mp3",
+      "transcript": "My worst nightmare. It's a dream I have. I'm in a square cell, glass walls, just me and a little castle. I'll take Dark Reef over that any time.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_slark_slark_rare_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lane_missing_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lane_missing_01.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_slark_slark_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lane_missing_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lane_missing_02.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_slark_slark_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lane_missing_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lane_missing_03.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_slark_slark_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_thanks_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_thanks_01.mp3",
+      "transcript": "Thanks for that.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_slark_slark_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_thanks_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_thanks_02.mp3",
+      "transcript": "Much obliged.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_slark_slark_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_win_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_win_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_slark_slark_win_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_win_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_win_02.mp3",
+      "transcript": "Victory.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_slark_slark_win_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_win_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_win_03.mp3",
+      "transcript": "When Dark Reef rises, I'll be waiting.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_slark_slark_win_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_dark_pact_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_dark_pact_02.mp3",
+      "transcript": "Honor your deal, Dark Ones.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_slark_slark_dark_pact_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lose_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_slark_slark_lose_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lose_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lose_02.mp3",
+      "transcript": "What? Defeated?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_slark_slark_lose_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lose_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lose_03.mp3",
+      "transcript": "Bah!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_slark_slark_lose_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lose_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lose_04.mp3",
+      "transcript": "What? What?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_slark_slark_lose_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_lose_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_lose_05.mp3",
+      "transcript": "Whatever you do, just don't drag me back to Dark Reef.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_slark_slark_lose_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_drop_common_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_drop_common_01.mp3",
+      "transcript": "I've seen this somewhere before.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_slark_slark_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_drop_medium_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_drop_medium_01.mp3",
+      "transcript": "I think I used to have one of these.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_slark_slark_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_drop_rare_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_drop_rare_01.mp3",
+      "transcript": "Oh this makes it all worthwhile.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_slark_slark_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_failure_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_failure_01.mp3",
+      "transcript": "Dah, caught out!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_slark_slark_failure_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_failure_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_failure_02.mp3",
+      "transcript": "Oh, someone musta tipped em off.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_slark_slark_failure_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_failure_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_failure_03.mp3",
+      "transcript": "We'll try again later.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_slark_slark_failure_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_failure_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_failure_04.mp3",
+      "transcript": "Bad timing that.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_slark_slark_failure_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_failure_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_failure_05.mp3",
+      "transcript": "Well that went bad quickly.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_slark_slark_failure_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_crumwiz_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_slark_slark_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_shiwiz_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_slark_slark_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_anger_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_anger_01.mp3",
+      "transcript": "D'aaaah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_slark_slark_anger_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_anger_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_anger_03.mp3",
+      "transcript": "Ahgnzngahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_slark_slark_anger_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_anger_04.mp3",
+      "key": "dota2/slark/Vo_slark_slark_anger_04.mp3",
+      "transcript": "D'aaaah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_slark_slark_anger_04.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_anger_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_anger_05.mp3",
+      "transcript": "Nhzn! Mmh! Ohh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_slark_slark_anger_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_01.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_01.mp3",
+      "transcript": "Alright.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_slark_slark_happy_01.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_02.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_02.mp3",
+      "transcript": "Ahhhhhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_slark_slark_happy_02.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_03.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_03.mp3",
+      "transcript": "Ahhhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_slark_slark_happy_03.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_05.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_05.mp3",
+      "transcript": "Yeeeeeeah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_slark_slark_happy_05.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_06.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_06.mp3",
+      "transcript": "I like it.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_slark_slark_happy_06.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_07.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_07.mp3",
+      "transcript": "Oh that's very nice.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_slark_slark_happy_07.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_happy_08.mp3",
+      "key": "dota2/slark/Vo_slark_slark_happy_08.mp3",
+      "transcript": "Oh, th'feeling is right, yeah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_slark_slark_happy_08.mp3"
+    },
+    {
+      "file": "Vo_slark_slark_essence_shift_incanctations.mp3",
+      "key": "dota2/slark/Vo_slark_slark_essence_shift_incanctations.mp3",
+      "transcript": "[Incantations]",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_slark_slark_essence_shift_incanctations.mp3"
+    }
+  ]
+}

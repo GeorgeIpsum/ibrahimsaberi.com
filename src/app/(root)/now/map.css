@@ -1,0 +1,63 @@
+@reference "../../../css/globals.css";
+
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  --attrib-open-width: 300px;
+
+  color: var(--primary);
+  background-color: var(--background);
+
+  transition: width 0.6s ease-in-out;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--primary);
+}
+
+.maplibregl-ctrl-attrib summary.maplibregl-ctrl-attrib-button {
+  background-color: var(--background);
+  background-image: none;
+}
+
+.maplibregl-ctrl-attrib summary.maplibregl-ctrl-attrib-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary);
+  mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill-rule='evenodd' viewBox='0 0 20 20'%3E%3Cpath d='M4 10a6 6 0 1 0 12 0 6 6 0 1 0-12 0m5-3a1 1 0 1 0 2 0 1 1 0 1 0-2 0m0 3a1 1 0 1 1 2 0v3a1 1 0 1 1-2 0'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.maplibregl-ctrl-attrib.maplibregl-compact-show
+  summary.maplibregl-ctrl-attrib-button {
+  background-color: var(--background);
+}
+
+details.maplibregl-ctrl.maplibregl-ctrl-attrib.maplibregl-compact-show {
+  width: var(--attrib-open-width);
+}
+
+details.maplibregl-ctrl.maplibregl-ctrl-attrib:not(.maplibregl-compact-show) {
+  width: 0;
+}
+
+details.maplibregl-ctrl {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+details.maplibregl-ctrl div.maplibregl-ctrl-attrib-inner {
+  display: flex;
+  width: var(--attrib-open-width);
+  text-wrap: stable;
+
+  transition: display 0.6s allow-discrete;
+}
+
+/* The UA hides ::details-content the moment the details closes; keep it
+   rendered until the close animation finishes */
+details.maplibregl-ctrl::details-content {
+  transition: content-visibility 0.6s allow-discrete;
+}

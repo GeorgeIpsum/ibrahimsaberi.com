@@ -1,0 +1,2243 @@
+{
+  "hero": "Anti-Mage",
+  "slug": "anti-mage",
+  "source": "https://liquipedia.net/dota2/Anti-Mage/Responses",
+  "scrapedAt": "2026-06-17T13:41:42.569Z",
+  "count": 221,
+  "voicelines": [
+    {
+      "file": "Vo_antimage_anti_spawn_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_spawn_01.mp3",
+      "transcript": "Antimage.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_antimage_anti_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_spawn_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_spawn_02.mp3",
+      "transcript": "All magic flies before me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_antimage_anti_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_spawn_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_spawn_03.mp3",
+      "transcript": "I bring an end to magic.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_antimage_anti_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_spawn_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_spawn_04.mp3",
+      "transcript": "The magic ends here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_antimage_anti_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_08.mp3",
+      "transcript": "Truth compels me.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_antimage_anti_move_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_11.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_11.mp3",
+      "transcript": "The true path!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_antimage_anti_move_11.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_03.mp3",
+      "transcript": "Magic shall not prevail!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_antimage_anti_attack_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_05.mp3",
+      "transcript": "I turn magic aside!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_antimage_anti_level_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_06.mp3",
+      "transcript": "Such sorcery shall not prevail.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_antimage_anti_kill_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_01.mp3",
+      "transcript": "Magic is an abomination.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_antimage_anti_magicuser_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_cast_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_cast_01.mp3",
+      "transcript": "Prepare thyself!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_antimage_anti_cast_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_03.mp3",
+      "transcript": "I fear no vile sorcery!",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_antimage_anti_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_anger_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_anger_04.mp3",
+      "transcript": "Oh.",
+      "categories": [
+        "Drafting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_antimage_anti_anger_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_inthebag_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_inthebag_01.mp3",
+      "transcript": "It is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_antimage_anti_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_antimage_anti_move_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_02.mp3",
+      "transcript": "Aye.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_antimage_anti_move_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_03.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_antimage_anti_move_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_04.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_antimage_anti_move_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_05.mp3",
+      "transcript": "As thou will it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_antimage_anti_move_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_06.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_antimage_anti_move_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_07.mp3",
+      "transcript": "The path is clear.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_antimage_anti_move_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_09.mp3",
+      "transcript": "None shall hinder me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_antimage_anti_move_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_10.mp3",
+      "transcript": "Out of my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_antimage_anti_move_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_12.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_12.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_antimage_anti_move_12.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_move_13.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_move_13.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_antimage_anti_move_13.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_01.mp3",
+      "transcript": "I light into darkness.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_antimage_anti_attack_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_02.mp3",
+      "transcript": "Get thee hence!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_antimage_anti_attack_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_04.mp3",
+      "transcript": "I vow thy ruin!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_antimage_anti_attack_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_05.mp3",
+      "transcript": "Begone!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_antimage_anti_attack_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_06.mp3",
+      "transcript": "I'll strike thee down!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_antimage_anti_attack_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_07.mp3",
+      "transcript": "Vile creatures.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_antimage_anti_attack_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_08.mp3",
+      "transcript": "Spawn of sorcery.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_antimage_anti_attack_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_09.mp3",
+      "transcript": "'tis on thy head.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_antimage_anti_attack_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_attack_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_attack_10.mp3",
+      "transcript": "Have at thee!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_antimage_anti_attack_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_cast_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_cast_02.mp3",
+      "transcript": "Get thee gone!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_antimage_anti_cast_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_cast_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_cast_03.mp3",
+      "transcript": "I come anon!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_antimage_anti_cast_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_resist_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_resist_01.mp3",
+      "transcript": "Thy magic harms me not.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_antimage_anti_resist_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_resist_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_resist_02.mp3",
+      "transcript": "I resist thy sorcery.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_antimage_anti_resist_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_resist_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_resist_03.mp3",
+      "transcript": "Thou art a poor speller.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_antimage_anti_resist_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_resist_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_resist_04.mp3",
+      "transcript": "Easily resisted.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_antimage_anti_resist_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_08.mp3",
+      "transcript": "Thou hath borrowed heavily against thy soul.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_antimage_anti_ability_manavoid_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_multi_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_multi_01.mp3",
+      "transcript": "I've sundered this cabal!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_antimage_anti_ability_multi_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_multi_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_multi_02.mp3",
+      "transcript": "Fall together!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_antimage_anti_ability_multi_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_multi_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_multi_03.mp3",
+      "transcript": "One less dark conspiracy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_antimage_anti_ability_multi_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_01.mp3",
+      "transcript": "By grace!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_antimage_anti_level_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_02.mp3",
+      "transcript": "The reward of virtue!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_antimage_anti_level_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_03.mp3",
+      "transcript": "'tis a blessing!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_antimage_anti_level_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_04.mp3",
+      "transcript": "Magic be dashed!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_antimage_anti_level_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_06.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_antimage_anti_level_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_antimage_anti_level_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_09.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_antimage_anti_level_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_01.mp3",
+      "transcript": "Pay for thy lack.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_antimage_anti_ability_manavoid_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_02.mp3",
+      "transcript": "Thou payest dearly.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_antimage_anti_ability_manavoid_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_03.mp3",
+      "transcript": "The cost of magic.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_antimage_anti_ability_manavoid_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_04.mp3",
+      "transcript": "Thy life's weight in mana pay.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_antimage_anti_ability_manavoid_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_05.mp3",
+      "transcript": "The scale's balanced.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_antimage_anti_ability_manavoid_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_06.mp3",
+      "transcript": "Here's thy reckoning.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_antimage_anti_ability_manavoid_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_manavoid_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_manavoid_07.mp3",
+      "transcript": "Thy soul's in deficit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_antimage_anti_ability_manavoid_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_01.mp3",
+      "transcript": "Get thee to the Underscape.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_antimage_anti_kill_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_02.mp3",
+      "transcript": "Consider thyself purified.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_antimage_anti_kill_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_03.mp3",
+      "transcript": "I deliver thee unto death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_antimage_anti_kill_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_04.mp3",
+      "transcript": "Twas an act of charity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_antimage_anti_kill_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_05.mp3",
+      "transcript": "Find peace, thou monster.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_antimage_anti_kill_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_07.mp3",
+      "transcript": "Thou art purified.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_antimage_anti_kill_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_08.mp3",
+      "transcript": "Magic thyself out of that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_antimage_anti_kill_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_10.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_antimage_anti_kill_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_11.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_antimage_anti_kill_11.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_12.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_12.mp3",
+      "transcript": "They who live by the wand shall die by my blade.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_antimage_anti_kill_12.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_13.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_13.mp3",
+      "transcript": "Thou art damned!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_antimage_anti_kill_13.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_01.mp3",
+      "transcript": "He he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_antimage_anti_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_02.mp3",
+      "transcript": "Ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_antimage_anti_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_03.mp3",
+      "transcript": "Ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_antimage_anti_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_06.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_antimage_anti_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_antimage_anti_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_antimage_anti_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_09.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_antimage_anti_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_kill_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_kill_09.mp3",
+      "transcript": "To thy Dead God go.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_antimage_anti_kill_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_02.mp3",
+      "transcript": "Magic fails thee.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_antimage_anti_magicuser_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_04.mp3",
+      "transcript": "Sorcery is an abomination!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_antimage_anti_magicuser_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_05.mp3",
+      "transcript": "Sorcery fails thee.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_antimage_anti_magicuser_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_06.mp3",
+      "transcript": "Thy sorcery fails thee.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_antimage_anti_magicuser_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_magicuser_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_magicuser_03.mp3",
+      "transcript": "Bark on bitch, I hear thee not.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_antimage_anti_magicuser_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_01.mp3",
+      "transcript": "The bonds of brotherhood, severed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_antimage_anti_brother_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_02.mp3",
+      "transcript": "The disgrace of magic stricken from our family.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_antimage_anti_brother_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_03.mp3",
+      "transcript": "My brother's keeper after all.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_antimage_anti_brother_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_firstblood_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_firstblood_01.mp3",
+      "transcript": "First blood! Hahahahahahaha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_antimage_anti_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_04.mp3",
+      "transcript": "Terrorblade.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_antimage_anti_brother_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_05.mp3",
+      "transcript": "Hello, brother.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_antimage_anti_brother_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_06.mp3",
+      "transcript": "Hello, brother.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_antimage_anti_brother_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_01.mp3",
+      "transcript": "Thou art mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_antimage_anti_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_02.mp3",
+      "transcript": "What's thine is mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_antimage_anti_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_03.mp3",
+      "transcript": "Well gotten gains.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_antimage_anti_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_04.mp3",
+      "transcript": "I lighten thy load.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_antimage_anti_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_05.mp3",
+      "transcript": "Now count thy costs.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_antimage_anti_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_06.mp3",
+      "transcript": "'tis most rewarding.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_antimage_anti_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_07.mp3",
+      "transcript": "Thou hast paid the price.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_antimage_anti_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_08.mp3",
+      "transcript": "Now count thy costs.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_antimage_anti_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_09.mp3",
+      "transcript": "Thou art mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_antimage_anti_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lasthit_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lasthit_10.mp3",
+      "transcript": "To aid my cause.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_antimage_anti_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_antimage_anti_deny_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_antimage_anti_deny_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_03.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_antimage_anti_deny_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_04.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_antimage_anti_deny_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_05.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_antimage_anti_deny_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_06.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_antimage_anti_deny_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_07.mp3",
+      "transcript": "It shall not be.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_antimage_anti_deny_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_08.mp3",
+      "transcript": "'tis not for thee.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_antimage_anti_deny_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_09.mp3",
+      "transcript": "'tis mine.",
+      "categories": [
+        "Denying",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_antimage_anti_deny_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_10.mp3",
+      "transcript": "Thou art denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_antimage_anti_deny_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_11.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_11.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_antimage_anti_deny_11.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_12.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_12.mp3",
+      "transcript": "Are you even trying?",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_antimage_anti_deny_12.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_13.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_13.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_antimage_anti_deny_13.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_deny_14.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_deny_14.mp3",
+      "transcript": "Hm hm hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_antimage_anti_deny_14.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_purch_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_purch_01.mp3",
+      "transcript": "The reward of thrift.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_antimage_anti_purch_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_purch_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_purch_02.mp3",
+      "transcript": "One cannot purchase virtue, so this will have to do.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_antimage_anti_purch_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_purch_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_purch_03.mp3",
+      "transcript": "A treasure beyond any price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_antimage_anti_purch_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_scepter_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_scepter_01.mp3",
+      "transcript": "Scepter? Really.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_antimage_anti_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_scepter_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_scepter_02.mp3",
+      "transcript": "I'll pray this scepter not sully my soul.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_antimage_anti_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_blink_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_blink_01.mp3",
+      "transcript": "Blink Dagger? Really?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_antimage_anti_blink_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_blink_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_blink_02.mp3",
+      "transcript": "What need have I for such a blade?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_antimage_anti_blink_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_blink_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_blink_03.mp3",
+      "transcript": "Blink Dagger. O redundant blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_antimage_anti_blink_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_manta_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_manta_01.mp3",
+      "transcript": "Manta.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_antimage_anti_manta_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_manta_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_manta_02.mp3",
+      "transcript": "Ah, Manta.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_antimage_anti_manta_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_manta_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_manta_03.mp3",
+      "transcript": "Manta. Wonderful!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_antimage_anti_manta_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rapier_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rapier_01.mp3",
+      "transcript": "Divine Rapier!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_antimage_anti_rapier_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rapier_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rapier_02.mp3",
+      "transcript": "Oh, Rapier Divine!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_antimage_anti_rapier_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_immort_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_antimage_anti_immort_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_immort_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_immort_02.mp3",
+      "transcript": "An ageless power is mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_antimage_anti_immort_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_01.mp3",
+      "transcript": "Nooooo!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_antimage_anti_death_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_02.mp3",
+      "transcript": "What magic is this?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_antimage_anti_death_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_03.mp3",
+      "transcript": "Curse thee!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_antimage_anti_death_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_04.mp3",
+      "transcript": "My soul dies pure.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_antimage_anti_death_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_05.mp3",
+      "transcript": "I go to glory!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_antimage_anti_death_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_06.mp3",
+      "transcript": "Even in death I am not thine.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_antimage_anti_death_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_07.mp3",
+      "transcript": "Foul sorceries.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_antimage_anti_death_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_08.mp3",
+      "transcript": "Thinkest thee to frighten me?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_antimage_anti_death_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_09.mp3",
+      "transcript": "I fear thee not.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_antimage_anti_death_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_10.mp3",
+      "transcript": "No sorcery shall claim me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_antimage_anti_death_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_11.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_11.mp3",
+      "transcript": "There is no magic in death.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_antimage_anti_death_11.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_12.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_12.mp3",
+      "transcript": "Thou art a devil, pure and simple.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_antimage_anti_death_12.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_13.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_13.mp3",
+      "transcript": "Sorcery claims me!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_antimage_anti_death_13.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_death_14.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_death_14.mp3",
+      "transcript": "It was worth it.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_antimage_anti_death_14.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_07.mp3",
+      "transcript": "What blood ties, magic tears asunder.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_antimage_anti_brother_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_08.mp3",
+      "transcript": "Vile fratricide.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_antimage_anti_brother_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_09.mp3",
+      "transcript": "What would mother say?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_antimage_anti_brother_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_brother_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_brother_10.mp3",
+      "transcript": "Mother always liked you best.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_antimage_anti_brother_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_01.mp3",
+      "transcript": "I persevere in the face of evil!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_antimage_anti_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_02.mp3",
+      "transcript": "I shall spell an end to all evils!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_antimage_anti_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_04.mp3",
+      "transcript": "From this moment, none shall withstand me!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_antimage_anti_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_05.mp3",
+      "transcript": "I renew my oath to defeat all sorceries!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_antimage_anti_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_06.mp3",
+      "transcript": "The stout heart knows no fear!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_antimage_anti_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_07.mp3",
+      "transcript": "It is not magic brings me back, but purity of will!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_antimage_anti_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_08.mp3",
+      "transcript": "Beset on all sides, still I prevail!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_antimage_anti_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_09.mp3",
+      "transcript": "I'll give them a drubbing they'll not soon forget!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_antimage_anti_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_respawn_10.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_respawn_10.mp3",
+      "transcript": "Thou and I must have a frank discussion.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_antimage_anti_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_antimage_anti_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_laugh_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_antimage_anti_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_bottle_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_bottle_01.mp3",
+      "transcript": "I'll set thee aside.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_antimage_anti_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_bottle_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_bottle_02.mp3",
+      "transcript": "A virtuous vial.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_antimage_anti_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_bottle_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_bottle_03.mp3",
+      "transcript": "Preserved.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_antimage_anti_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_failure_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_failure_02.mp3",
+      "transcript": "A disappointment.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_antimage_anti_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_failure_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_failure_01.mp3",
+      "transcript": "Scarce worth the effort.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_antimage_anti_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_doubdam_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_antimage_anti_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_doubdam_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_doubdam_02.mp3",
+      "transcript": "Double down on sorcery.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_antimage_anti_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_haste_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_antimage_anti_haste_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_haste_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_haste_02.mp3",
+      "transcript": "The winds of virtue speed my steps.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_antimage_anti_haste_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_illus_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_antimage_anti_illus_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_illus_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_illus_02.mp3",
+      "transcript": "I'll turn their magic against them.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_antimage_anti_illus_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_invis_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_antimage_anti_invis_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_invis_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_invis_02.mp3",
+      "transcript": "Thou seest me not.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_antimage_anti_invis_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_regen_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_antimage_anti_regen_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_regen_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_regen_02.mp3",
+      "transcript": "A healing power.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_antimage_anti_regen_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_antimage_anti_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_antimage_anti_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_antimage_anti_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_antimage_anti_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_antimage_anti_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_antimage_anti_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_antimage_anti_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_antimage_anti_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_notyet_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_antimage_anti_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_antimage_anti_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_antimage_anti_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_antimage_anti_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_antimage_anti_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_antimage_anti_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_antimage_anti_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_antimage_anti_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_08.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_antimage_anti_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_nomana_09.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_antimage_anti_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_antimage_anti_pain_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_02.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_antimage_anti_pain_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_03.mp3",
+      "transcript": "Hnh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_antimage_anti_pain_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_04.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_antimage_anti_pain_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_05.mp3",
+      "transcript": "Unh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_antimage_anti_pain_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_pain_06.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_pain_06.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_antimage_anti_pain_06.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_underattack_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_antimage_anti_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rare_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rare_01.mp3",
+      "transcript": "Vile sorcerers, to thy just reward my blade compels thee.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_antimage_anti_rare_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rare_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rare_02.mp3",
+      "transcript": "Send thy Dead God's legions, I will put them all to death.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_antimage_anti_rare_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rare_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rare_03.mp3",
+      "transcript": "I vowed to end all magic, that none may suffer the torments of the Dead God's Wand.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_antimage_anti_rare_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rare_04.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rare_04.mp3",
+      "transcript": "To avenge the fallen monastery, I will destroy every magical alliance!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_antimage_anti_rare_04.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_rare_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_rare_05.mp3",
+      "transcript": "I'll shatter the Dead God's legions, as they murdered the monks of Turstarkuri!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_antimage_anti_rare_05.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_thanks_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_thanks_01.mp3",
+      "transcript": "My thanks to thee.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_antimage_anti_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_thanks_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_thanks_02.mp3",
+      "transcript": "Thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_antimage_anti_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_thanks_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_thanks_03.mp3",
+      "transcript": "My thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_antimage_anti_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_win_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_antimage_anti_win_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_win_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_antimage_anti_win_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_win_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_win_03.mp3",
+      "transcript": "The defeat of magic is complete!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_antimage_anti_win_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lose_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lose_01.mp3",
+      "transcript": "Noooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_antimage_anti_lose_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lose_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_antimage_anti_lose_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_lose_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_lose_03.mp3",
+      "transcript": "Vile magic hath won the day!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_antimage_anti_lose_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_happy_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_happy_02.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_antimage_anti_happy_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_happy_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_happy_01.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_antimage_anti_happy_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_level_07.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_level_07.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_antimage_anti_level_07.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_ability_failure_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_ability_failure_03.mp3",
+      "transcript": "'tis often thus with mana.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_antimage_anti_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_shitwiz_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_antimage_anti_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_crumwiz_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_antimage_anti_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_anger_01.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_anger_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_antimage_anti_anger_01.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_anger_02.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_anger_02.mp3",
+      "transcript": "Hm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_antimage_anti_anger_02.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_anger_03.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_anger_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_antimage_anti_anger_03.mp3"
+    },
+    {
+      "file": "Vo_antimage_anti_anger_05.mp3",
+      "key": "dota2/anti-mage/Vo_antimage_anti_anger_05.mp3",
+      "transcript": "Hmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_antimage_anti_anger_05.mp3"
+    }
+  ]
+}

@@ -1,0 +1,2282 @@
+{
+  "hero": "Night Stalker",
+  "slug": "night-stalker",
+  "source": "https://liquipedia.net/dota2/Night_Stalker/Responses",
+  "scrapedAt": "2026-06-17T13:30:17.082Z",
+  "count": 225,
+  "voicelines": [
+    {
+      "file": "Vo_night_stalker_nstalk_spawn_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_spawn_01.mp3",
+      "transcript": "Night Stalker.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_night_stalker_nstalk_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_spawn_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_spawn_02.mp3",
+      "transcript": "Night-time is my time.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_night_stalker_nstalk_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_spawn_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_spawn_03.mp3",
+      "transcript": "I'm the beast of bedtime tales.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_night_stalker_nstalk_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_spawn_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_spawn_04.mp3",
+      "transcript": "From blackest night, I come.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_night_stalker_nstalk_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_spawn_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_spawn_05.mp3",
+      "transcript": "Creature of the dark.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_night_stalker_nstalk_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_battlebegins_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_battlebegins_02.mp3",
+      "transcript": "And the hunt begins.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_night_stalker_nstalk_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_07.mp3",
+      "transcript": "Day walker, night stalker.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_night_stalker_nstalk_move_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_09.mp3",
+      "transcript": "On the hunt.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_night_stalker_nstalk_move_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_02.mp3",
+      "transcript": "I come to feed.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_night_stalker_nstalk_attack_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_03.mp3",
+      "transcript": "I'll feast tonight.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_night_stalker_nstalk_attack_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_08.mp3",
+      "transcript": "None can stand against me.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_night_stalker_nstalk_attack_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_cast_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_cast_01.mp3",
+      "transcript": "There's no escape.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_night_stalker_nstalk_cast_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_07.mp3",
+      "transcript": "Heow.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_night_stalker_nstalk_anger_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_inthebag_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_night_stalker_nstalk_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_battlebegins_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_battlebegins_01.mp3",
+      "transcript": "It's feeding time.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_night_stalker_nstalk_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_night_stalker_nstalk_move_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_02.mp3",
+      "transcript": "Uugh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_night_stalker_nstalk_move_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_03.mp3",
+      "transcript": "Agh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_night_stalker_nstalk_move_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_04.mp3",
+      "transcript": "Darkly now.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_night_stalker_nstalk_move_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_05.mp3",
+      "transcript": "Stalking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_night_stalker_nstalk_move_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_06.mp3",
+      "transcript": "I stalk my next meal.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_night_stalker_nstalk_move_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_10.mp3",
+      "transcript": "To battle.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_night_stalker_nstalk_move_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_11.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_11.mp3",
+      "transcript": "Comes the nocturne one.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_night_stalker_nstalk_move_11.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_12.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_12.mp3",
+      "transcript": "Night's procession.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_night_stalker_nstalk_move_12.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_13.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_13.mp3",
+      "transcript": "The beast stalks.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_night_stalker_nstalk_move_13.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_14.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_14.mp3",
+      "transcript": "Dark wings.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_night_stalker_nstalk_move_14.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_happy_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_happy_01.mp3",
+      "transcript": "Hehhh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_night_stalker_nstalk_happy_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_move_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_move_08.mp3",
+      "transcript": "I remember the first day.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_night_stalker_nstalk_move_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_night_stalker_nstalk_attack_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_04.mp3",
+      "transcript": "Day walkers die.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_night_stalker_nstalk_attack_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_05.mp3",
+      "transcript": "Devil by day, demon by night.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_night_stalker_nstalk_attack_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_06.mp3",
+      "transcript": "Suffer.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_night_stalker_nstalk_attack_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_07.mp3",
+      "transcript": "Hunger.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_night_stalker_nstalk_attack_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_09.mp3",
+      "transcript": "Feel my talons.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_night_stalker_nstalk_attack_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_10.mp3",
+      "transcript": "Walking nightmare.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_night_stalker_nstalk_attack_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_11.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_11.mp3",
+      "transcript": "Darkness hungers.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_night_stalker_nstalk_attack_11.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_12.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_12.mp3",
+      "transcript": "Night terror.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_night_stalker_nstalk_attack_12.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_attack_13.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_attack_13.mp3",
+      "transcript": "In the forest, of the night.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_night_stalker_nstalk_attack_13.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_cast_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_cast_02.mp3",
+      "transcript": "Death stalks you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_night_stalker_nstalk_cast_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_cast_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_cast_03.mp3",
+      "transcript": "Sure as night follows day.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_night_stalker_nstalk_cast_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_void_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_void_01.mp3",
+      "transcript": "Gughh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_night_stalker_nstalk_ability_void_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_void_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_void_02.mp3",
+      "transcript": "Heahh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_night_stalker_nstalk_ability_void_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_void_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_void_03.mp3",
+      "transcript": "Heaahr.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_night_stalker_nstalk_ability_void_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_void_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_void_04.mp3",
+      "transcript": "Heaheh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_night_stalker_nstalk_ability_void_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_08.mp3",
+      "transcript": "Not so fast.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_night_stalker_nstalk_ability_dark_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_cripfear_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_cripfear_01.mp3",
+      "transcript": "Night silence.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_night_stalker_nstalk_ability_cripfear_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_cripfear_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_cripfear_02.mp3",
+      "transcript": "Benighted.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_night_stalker_nstalk_ability_cripfear_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_cripfear_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_cripfear_03.mp3",
+      "transcript": "Fear quiets magic.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_night_stalker_nstalk_ability_cripfear_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_01.mp3",
+      "transcript": "Ah, sweet twilight.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_night_stalker_nstalk_ability_dark_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_02.mp3",
+      "transcript": "Bring on the night.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_night_stalker_nstalk_ability_dark_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_04.mp3",
+      "transcript": "Roll back the light.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_night_stalker_nstalk_ability_dark_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_05.mp3",
+      "transcript": "Wings out.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_night_stalker_nstalk_ability_dark_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_06.mp3",
+      "transcript": "The wolf calls to me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_night_stalker_nstalk_ability_dark_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_11.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_11.mp3",
+      "transcript": "I hunt by wolflight.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_night_stalker_nstalk_ability_dark_11.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_03.mp3",
+      "transcript": "I burn the midnight oil.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_night_stalker_nstalk_ability_dark_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_07.mp3",
+      "transcript": "Now for some Me time.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_night_stalker_nstalk_ability_dark_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_dayrise_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_dayrise_01.mp3",
+      "transcript": "Not this again.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_night_stalker_nstalk_dayrise_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_dayrise_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_dayrise_02.mp3",
+      "transcript": "Cursed dawn.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_night_stalker_nstalk_dayrise_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_dayrise_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_dayrise_03.mp3",
+      "transcript": "Argh, sunshine!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_night_stalker_nstalk_dayrise_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_09.mp3",
+      "transcript": "I wasn't done with darkness.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_night_stalker_nstalk_ability_dark_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_dayrise_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_dayrise_05.mp3",
+      "transcript": "If I ever get my claws on that bird.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_night_stalker_nstalk_dayrise_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_dayrise_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_dayrise_04.mp3",
+      "transcript": "I die a little every morning.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_night_stalker_nstalk_dayrise_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_dark_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_dark_10.mp3",
+      "transcript": "Take back the night.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_night_stalker_nstalk_ability_dark_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_01.mp3",
+      "transcript": "My wingspan is lengthening.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_night_stalker_nstalk_level_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_02.mp3",
+      "transcript": "My talons are even sharper!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_night_stalker_nstalk_level_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_03.mp3",
+      "transcript": "Ever stronger.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_night_stalker_nstalk_level_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_04.mp3",
+      "transcript": "My darkness deepens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_night_stalker_nstalk_level_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_05.mp3",
+      "transcript": "My power is growing.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_night_stalker_nstalk_level_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_level_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_level_06.mp3",
+      "transcript": "He he he hah he heh hah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_night_stalker_nstalk_level_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_01.mp3",
+      "transcript": "We were different as day and night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_night_stalker_nstalk_kill_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_02.mp3",
+      "transcript": "You are the dead of night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_night_stalker_nstalk_kill_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_03.mp3",
+      "transcript": "Your flesh sustains me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_night_stalker_nstalk_kill_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_04.mp3",
+      "transcript": "By morning, you'll be naught but bones.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_night_stalker_nstalk_kill_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_05.mp3",
+      "transcript": "There won't be enough of you left to bury.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_night_stalker_nstalk_kill_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_06.mp3",
+      "transcript": "Don't worry, not one piece of gristle shall I waste.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_night_stalker_nstalk_kill_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_07.mp3",
+      "transcript": "Night comes for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_night_stalker_nstalk_kill_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_08.mp3",
+      "transcript": "Nighty night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_night_stalker_nstalk_kill_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_09.mp3",
+      "transcript": "You've reached the end of your days.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_night_stalker_nstalk_kill_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_10.mp3",
+      "transcript": "You expected daylight to protect you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_night_stalker_nstalk_kill_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_11.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_11.mp3",
+      "transcript": "You've seen your last sunrise.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_night_stalker_nstalk_kill_11.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_12.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_12.mp3",
+      "transcript": "The sun sets on your life.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_night_stalker_nstalk_kill_12.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_kill_13.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_kill_13.mp3",
+      "transcript": "Listen for the wings of the night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_night_stalker_nstalk_kill_13.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_01.mp3",
+      "transcript": "He hew eh heh heh hew heh ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_night_stalker_nstalk_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_02.mp3",
+      "transcript": "He heh hew heh heh heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_night_stalker_nstalk_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_03.mp3",
+      "transcript": "He hew heh heh eh hew hew.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_night_stalker_nstalk_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_04.mp3",
+      "transcript": "He hah hah heh hew heh heh!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_night_stalker_nstalk_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_09.mp3",
+      "transcript": "Heheh hah heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_night_stalker_nstalk_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_10.mp3",
+      "transcript": "Heh heh he heh hewheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_night_stalker_nstalk_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_01.mp3",
+      "transcript": "I stalk, you crawl.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_night_stalker_nstalk_killspecial_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_02.mp3",
+      "transcript": "I'll pick my teeth with your bones.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_night_stalker_nstalk_killspecial_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_03.mp3",
+      "transcript": "Lycan, I am the true beast of the night.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_night_stalker_nstalk_killspecial_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_04.mp3",
+      "transcript": "Lycan, always at my heels.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_night_stalker_nstalk_killspecial_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_05.mp3",
+      "transcript": "Mirana, I am most favored of the moon.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_night_stalker_nstalk_killspecial_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_killspecial_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_killspecial_06.mp3",
+      "transcript": "Luna, the moon favors me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_night_stalker_nstalk_killspecial_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_firstblood_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_firstblood_01.mp3",
+      "transcript": "First blood.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_night_stalker_nstalk_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_firstblood_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_firstblood_02.mp3",
+      "transcript": "First blood, first feast.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_night_stalker_nstalk_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_01.mp3",
+      "transcript": "Night devours.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_night_stalker_nstalk_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_02.mp3",
+      "transcript": "Like a thief in the night.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_night_stalker_nstalk_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_03.mp3",
+      "transcript": "I'll put your coins to use.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_night_stalker_nstalk_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_04.mp3",
+      "transcript": "Flesh sustains, gold remains.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_night_stalker_nstalk_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_05.mp3",
+      "transcript": "Your war ends.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_night_stalker_nstalk_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_06.mp3",
+      "transcript": "That's all.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_night_stalker_nstalk_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_07.mp3",
+      "transcript": "Your sun sets.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_night_stalker_nstalk_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lasthit_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lasthit_08.mp3",
+      "transcript": "Into the dark.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_night_stalker_nstalk_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_night_stalker_nstalk_deny_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_02.mp3",
+      "transcript": "Deny!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_night_stalker_nstalk_deny_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_03.mp3",
+      "transcript": "Uh-huh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_night_stalker_nstalk_deny_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_04.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_night_stalker_nstalk_deny_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_05.mp3",
+      "transcript": "Nix on that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_night_stalker_nstalk_deny_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_06.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_night_stalker_nstalk_deny_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_07.mp3",
+      "transcript": "You get nothing.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_night_stalker_nstalk_deny_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_08.mp3",
+      "transcript": "Fool!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_night_stalker_nstalk_deny_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_deny_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_deny_09.mp3",
+      "transcript": "Hereh heh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_night_stalker_nstalk_deny_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_purch_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_purch_01.mp3",
+      "transcript": "Just what I needed!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_night_stalker_nstalk_purch_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_purch_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_purch_02.mp3",
+      "transcript": "At last.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_night_stalker_nstalk_purch_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_purch_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_purch_03.mp3",
+      "transcript": "Now they will suffer.",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_night_stalker_nstalk_purch_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_scepter_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_night_stalker_nstalk_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_scepter_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_scepter_02.mp3",
+      "transcript": "Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_night_stalker_nstalk_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_blink_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_night_stalker_nstalk_blink_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_blink_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_blink_02.mp3",
+      "transcript": "Quick as a blink.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_night_stalker_nstalk_blink_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_cranbash_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_cranbash_01.mp3",
+      "transcript": "Bash their brain.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_night_stalker_nstalk_cranbash_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_sange_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_sange_01.mp3",
+      "transcript": "Ah, Sange.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_night_stalker_nstalk_sange_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_yasha_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_yasha_01.mp3",
+      "transcript": "Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_night_stalker_nstalk_yasha_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_sangenyasha_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_sangenyasha_01.mp3",
+      "transcript": "Sweet Sange and Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_night_stalker_nstalk_sangenyasha_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_sangenyasha_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_sangenyasha_02.mp3",
+      "transcript": "Sweet Sange and Yasha, my favorite sisters.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_night_stalker_nstalk_sangenyasha_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_immort_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_night_stalker_nstalk_immort_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_immort_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_immort_02.mp3",
+      "transcript": "Nocturnality.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_night_stalker_nstalk_immort_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_night_stalker_nstalk_death_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_02.mp3",
+      "transcript": "Dark is the grave.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_night_stalker_nstalk_death_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_03.mp3",
+      "transcript": "My life sets.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_night_stalker_nstalk_death_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_04.mp3",
+      "transcript": "Eternal darkness.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_night_stalker_nstalk_death_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_05.mp3",
+      "transcript": "I stalk no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_night_stalker_nstalk_death_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_06.mp3",
+      "transcript": "Feeding time is over.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_night_stalker_nstalk_death_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_07.mp3",
+      "transcript": "Let the sun bleach my bones.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_night_stalker_nstalk_death_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_08.mp3",
+      "transcript": "I fall like night.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_night_stalker_nstalk_death_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_09.mp3",
+      "transcript": "Darkness enfolds me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_night_stalker_nstalk_death_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_10.mp3",
+      "transcript": "Final night.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_night_stalker_nstalk_death_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_death_11.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_death_11.mp3",
+      "transcript": "A leap in the dark.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_night_stalker_nstalk_death_11.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_01.mp3",
+      "transcript": "Night comes round again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_night_stalker_nstalk_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_02.mp3",
+      "transcript": "The day needs the night.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_night_stalker_nstalk_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_03.mp3",
+      "transcript": "I live to stalk again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_night_stalker_nstalk_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_04.mp3",
+      "transcript": "I stalk to feed my hunger.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_night_stalker_nstalk_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_05.mp3",
+      "transcript": "Your nightmare continues.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_night_stalker_nstalk_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_06.mp3",
+      "transcript": "Day or night, I will have my revenge.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_night_stalker_nstalk_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_07.mp3",
+      "transcript": "Tonight my enemies will pay.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_night_stalker_nstalk_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_08.mp3",
+      "transcript": "The darkness hungers for flesh.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_night_stalker_nstalk_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_09.mp3",
+      "transcript": "Night waits in the wings.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_night_stalker_nstalk_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_respawn_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_respawn_10.mp3",
+      "transcript": "I feed the darkness and the darkness feeds me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_night_stalker_nstalk_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_fastres_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_fastres_01.mp3",
+      "transcript": "Ah ha ha ha ha! I'll be right back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_night_stalker_nstalk_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_bottle_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_bottle_01.mp3",
+      "transcript": "Saved for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_night_stalker_nstalk_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_bottle_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_bottle_02.mp3",
+      "transcript": "For when the time is right.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_night_stalker_nstalk_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_bottle_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_bottle_03.mp3",
+      "transcript": "Dark as bottled ink.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_night_stalker_nstalk_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_doubdam_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_night_stalker_nstalk_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_doubdam_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_doubdam_02.mp3",
+      "transcript": "Nightling strikes twice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_night_stalker_nstalk_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_doubdam_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_doubdam_03.mp3",
+      "transcript": "Double darkness.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_night_stalker_nstalk_doubdam_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_haste_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_night_stalker_nstalk_haste_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_haste_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_haste_02.mp3",
+      "transcript": "Swiftly I stalk.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_night_stalker_nstalk_haste_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_illus_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_night_stalker_nstalk_illus_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_illus_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_illus_02.mp3",
+      "transcript": "Who stalks there?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_night_stalker_nstalk_illus_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_illus_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_illus_03.mp3",
+      "transcript": "Now I stalk in formation.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_night_stalker_nstalk_illus_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_invis_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_night_stalker_nstalk_invis_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_invis_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_invis_02.mp3",
+      "transcript": "You'll need night vision to see me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_night_stalker_nstalk_invis_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_regen_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_night_stalker_nstalk_regen_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_regen_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_regen_02.mp3",
+      "transcript": "Darkness refills me.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_night_stalker_nstalk_regen_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_night_stalker_nstalk_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_night_stalker_nstalk_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_night_stalker_nstalk_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_night_stalker_nstalk_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_night_stalker_nstalk_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_night_stalker_nstalk_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_07.mp3",
+      "transcript": "I said not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_night_stalker_nstalk_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_08.mp3",
+      "transcript": "I said I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_night_stalker_nstalk_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_notyet_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_notyet_09.mp3",
+      "transcript": "I said it's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_night_stalker_nstalk_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_night_stalker_nstalk_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_night_stalker_nstalk_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_night_stalker_nstalk_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_night_stalker_nstalk_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_night_stalker_nstalk_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_night_stalker_nstalk_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_07.mp3",
+      "transcript": "I said out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_night_stalker_nstalk_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_08.mp3",
+      "transcript": "I said no mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_night_stalker_nstalk_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_nomana_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_nomana_09.mp3",
+      "transcript": "I said not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_night_stalker_nstalk_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_01.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_night_stalker_nstalk_pain_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_02.mp3",
+      "transcript": "Huweh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_night_stalker_nstalk_pain_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_03.mp3",
+      "transcript": "Oowh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_night_stalker_nstalk_pain_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_04.mp3",
+      "transcript": "Ereh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_night_stalker_nstalk_pain_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_05.mp3",
+      "transcript": "Eweh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_night_stalker_nstalk_pain_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_06.mp3",
+      "transcript": "Ugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_night_stalker_nstalk_pain_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_07.mp3",
+      "transcript": "Egh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_night_stalker_nstalk_pain_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_08.mp3",
+      "transcript": "Eghh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_night_stalker_nstalk_pain_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_09.mp3",
+      "transcript": "Aghhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_night_stalker_nstalk_pain_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_pain_10.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_pain_10.mp3",
+      "transcript": "Ehw.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_night_stalker_nstalk_pain_10.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_underattack_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_night_stalker_nstalk_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_rare_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_rare_01.mp3",
+      "transcript": "I feed the darkness and the darkness feeds me.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_night_stalker_nstalk_rare_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_rare_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_rare_02.mp3",
+      "transcript": "The darkness in my heart sustains me through daylight.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_night_stalker_nstalk_rare_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_thanks_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_night_stalker_nstalk_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_thanks_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_thanks_02.mp3",
+      "transcript": "Oh, thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_night_stalker_nstalk_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_05.mp3",
+      "transcript": "Heh howeh heh heh howeh heh he.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_night_stalker_nstalk_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_06.mp3",
+      "transcript": "Heh heh heh hah heh hehhhh.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_night_stalker_nstalk_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_07.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_07.mp3",
+      "transcript": "Uh- herrehehehhhehherehwh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_night_stalker_nstalk_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_laugh_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_laugh_08.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_night_stalker_nstalk_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_win_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_night_stalker_nstalk_win_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_win_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_night_stalker_nstalk_win_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_win_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_win_03.mp3",
+      "transcript": "Night reigns forever!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_night_stalker_nstalk_win_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_win_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_win_04.mp3",
+      "transcript": "Infinite night!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_night_stalker_nstalk_win_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lose_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_night_stalker_nstalk_lose_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lose_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_night_stalker_nstalk_lose_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lose_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lose_03.mp3",
+      "transcript": "Will this sun never set?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_night_stalker_nstalk_lose_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_lose_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_lose_04.mp3",
+      "transcript": "The daywalkers defeat me.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_night_stalker_nstalk_lose_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_happy_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_happy_02.mp3",
+      "transcript": "Hehhhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_night_stalker_nstalk_happy_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_happy_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_happy_03.mp3",
+      "transcript": "Ehewh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_night_stalker_nstalk_happy_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_failure_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_failure_01.mp3",
+      "transcript": "Ow.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_night_stalker_nstalk_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_failure_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_failure_02.mp3",
+      "transcript": "Ererw.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_night_stalker_nstalk_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_ability_failure_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_ability_failure_03.mp3",
+      "transcript": "Meeeewh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_night_stalker_nstalk_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_shitwiz_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_night_stalker_nstalk_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_crumwiz_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_night_stalker_nstalk_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_01.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_01.mp3",
+      "transcript": "Mehh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_night_stalker_nstalk_anger_01.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_02.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_02.mp3",
+      "transcript": "Beyeh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_night_stalker_nstalk_anger_02.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_03.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_03.mp3",
+      "transcript": "Beyaw.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_night_stalker_nstalk_anger_03.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_04.mp3",
+      "transcript": "Eyehew.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_night_stalker_nstalk_anger_04.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_05.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_05.mp3",
+      "transcript": "Ereeahr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_night_stalker_nstalk_anger_05.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_06.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_06.mp3",
+      "transcript": "Grrerr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_night_stalker_nstalk_anger_06.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_08.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_08.mp3",
+      "transcript": "Heheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_night_stalker_nstalk_anger_08.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_anger_09.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_anger_09.mp3",
+      "transcript": "Hehuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_night_stalker_nstalk_anger_09.mp3"
+    },
+    {
+      "file": "Vo_night_stalker_nstalk_happy_04.mp3",
+      "key": "dota2/night-stalker/Vo_night_stalker_nstalk_happy_04.mp3",
+      "transcript": "Hehehe.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_night_stalker_nstalk_happy_04.mp3"
+    }
+  ]
+}

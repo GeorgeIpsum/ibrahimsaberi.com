@@ -1,0 +1,2988 @@
+{
+  "hero": "Abaddon",
+  "slug": "abaddon",
+  "source": "https://liquipedia.net/dota2/Abaddon/Responses",
+  "scrapedAt": "2026-06-17T14:50:34.506Z",
+  "count": 296,
+  "voicelines": [
+    {
+      "file": "Vo_abaddon_abad_spawn_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_spawn_01.mp3",
+      "transcript": "Abaddon.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_abaddon_abad_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_spawn_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_spawn_02.mp3",
+      "transcript": "Lord of Avernus.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_abaddon_abad_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_spawn_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_spawn_03.mp3",
+      "transcript": "This place appears like a vision in the mist.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_abaddon_abad_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_spawn_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_spawn_05.mp3",
+      "transcript": "From House Avernus, I set forth.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_abaddon_abad_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_begin_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_begin_02.mp3",
+      "transcript": "The fog of war is no match for the mist of fate.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_abaddon_abad_begin_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_05.mp3",
+      "transcript": "Chosen of Avernus.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_abaddon_abad_move_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_08.mp3",
+      "transcript": "By the House Avernus.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_abaddon_abad_attack_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_cast_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_cast_02.mp3",
+      "transcript": "You have called death upon yourself.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_abaddon_abad_cast_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_01.mp3",
+      "transcript": "For the House Avernus!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_abaddon_abad_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_06.mp3",
+      "transcript": "Look upon the Lord of Avernus and beware.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_abaddon_abad_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_purch_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_purch_01.mp3",
+      "transcript": "For the House Avernus!",
+      "categories": [
+        "Loadout",
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_abaddon_abad_purch_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_07.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_abaddon_abad_anger_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_inthebag_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_inthebag_01.mp3",
+      "transcript": "I have known from an early age, since the Avernal Font's first and greatest revelation, that this one would be in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_abaddon_abad_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_begin_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_begin_01.mp3",
+      "transcript": "The coils of life and death now bind us all.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_abaddon_abad_begin_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_abaddon_abad_move_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_02.mp3",
+      "transcript": "I ride.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_abaddon_abad_move_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_03.mp3",
+      "transcript": "Such power.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_abaddon_abad_move_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_04.mp3",
+      "transcript": "I travel with the mist.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_abaddon_abad_move_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_06.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_abaddon_abad_move_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_07.mp3",
+      "transcript": "So it goes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_abaddon_abad_move_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_08.mp3",
+      "transcript": "I see.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_abaddon_abad_move_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_09.mp3",
+      "transcript": "The mist moves.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_abaddon_abad_move_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_10.mp3",
+      "transcript": "So be it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_abaddon_abad_move_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_11.mp3",
+      "transcript": "Like shapes in mist.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_abaddon_abad_move_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_12.mp3",
+      "transcript": "I should say so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_abaddon_abad_move_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_13.mp3",
+      "transcript": "Well studied.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_abaddon_abad_move_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_14.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_14.mp3",
+      "transcript": "I see the way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_abaddon_abad_move_14.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_15.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_15.mp3",
+      "transcript": "I just might.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_abaddon_abad_move_15.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_16.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_16.mp3",
+      "transcript": "I might at that.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_abaddon_abad_move_16.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_17.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_17.mp3",
+      "transcript": "More than likely.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_abaddon_abad_move_17.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_18.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_18.mp3",
+      "transcript": "As counselled.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_abaddon_abad_move_18.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_19.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_19.mp3",
+      "transcript": "Very cunning.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_abaddon_abad_move_19.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_20.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_20.mp3",
+      "transcript": "So I have sworn.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_abaddon_abad_move_20.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_21.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_21.mp3",
+      "transcript": "Things are rarely as they seem.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_abaddon_abad_move_21.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_move_22.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_move_22.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_abaddon_abad_move_22.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_01.mp3",
+      "transcript": "To the fray.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_abaddon_abad_attack_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_02.mp3",
+      "transcript": "On them.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_abaddon_abad_attack_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_03.mp3",
+      "transcript": "Submit.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_abaddon_abad_attack_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_04.mp3",
+      "transcript": "Mark me well.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_abaddon_abad_attack_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_05.mp3",
+      "transcript": "Follow me.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_abaddon_abad_attack_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_06.mp3",
+      "transcript": "Ride onward.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_abaddon_abad_attack_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_07.mp3",
+      "transcript": "From the mist.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_abaddon_abad_attack_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_09.mp3",
+      "transcript": "Who goes there?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_abaddon_abad_attack_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_10.mp3",
+      "transcript": "To the foe!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_abaddon_abad_attack_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_11.mp3",
+      "transcript": "Run them down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_attack_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_12.mp3",
+      "transcript": "Fly, my steed.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_abaddon_abad_attack_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_attack_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_attack_13.mp3",
+      "transcript": "Submit!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_abaddon_abad_attack_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_cast_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_cast_01.mp3",
+      "transcript": "By what right do you tread here?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_abaddon_abad_cast_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_cast_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_cast_03.mp3",
+      "transcript": "The eyes of mist have seen you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_abaddon_abad_cast_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_01.mp3",
+      "transcript": "Deathcoil.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_abaddon_abad_deathcoil_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_02.mp3",
+      "transcript": "Death for you, life for me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_abaddon_abad_deathcoil_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_06.mp3",
+      "transcript": "Coil of healing.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_abaddon_abad_deathcoil_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_03.mp3",
+      "transcript": "The coil of death ensnares.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_abaddon_abad_deathcoil_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_04.mp3",
+      "transcript": "Coil and recoil.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_abaddon_abad_deathcoil_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_05.mp3",
+      "transcript": "Coil keep you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_abaddon_abad_deathcoil_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_07.mp3",
+      "transcript": "Coil of life.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_abaddon_abad_deathcoil_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_01.mp3",
+      "transcript": "Take shelter.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_abaddon_abad_aphoticshield_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_02.mp3",
+      "transcript": "A shield of power.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_abaddon_abad_aphoticshield_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_03.mp3",
+      "transcript": "A shield impenetrable.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_abaddon_abad_aphoticshield_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_04.mp3",
+      "transcript": "Wrapped in the mist.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_abaddon_abad_aphoticshield_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_05.mp3",
+      "transcript": "Blessed of Avernus.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_aphoticshield_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_06.mp3",
+      "transcript": "Aphotic Shield.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_abaddon_abad_aphoticshield_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_aphoticshield_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_aphoticshield_07.mp3",
+      "transcript": "Shielded.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_abaddon_abad_aphoticshield_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_01.mp3",
+      "transcript": "The mistblade bites.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_abaddon_abad_frostmourne_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_02.mp3",
+      "transcript": "Foe to all.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_abaddon_abad_frostmourne_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_03.mp3",
+      "transcript": "Join in.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_abaddon_abad_frostmourne_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_04.mp3",
+      "transcript": "Here, friends.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_abaddon_abad_frostmourne_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_05.mp3",
+      "transcript": "Take this dog down.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_abaddon_abad_frostmourne_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_06.mp3",
+      "transcript": "None shall mourn you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_abaddon_abad_frostmourne_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_frostmourne_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_frostmourne_07.mp3",
+      "transcript": "Down with you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_abaddon_abad_frostmourne_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_02.mp3",
+      "transcript": "Come, I dare you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_abaddon_abad_borrowedtime_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_03.mp3",
+      "transcript": "Go ahead.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_abaddon_abad_borrowedtime_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_04.mp3",
+      "transcript": "Throw in against me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_abaddon_abad_borrowedtime_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_05.mp3",
+      "transcript": "I'll take your worst.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_abaddon_abad_borrowedtime_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_06.mp3",
+      "transcript": "Just try it.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_abaddon_abad_borrowedtime_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_07.mp3",
+      "transcript": "Your weapons betray you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_abaddon_abad_borrowedtime_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_08.mp3",
+      "transcript": "That harms me not.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_abaddon_abad_borrowedtime_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_09.mp3",
+      "transcript": "Do that again.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_abaddon_abad_borrowedtime_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_10.mp3",
+      "transcript": "What harms you, heals me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_abaddon_abad_borrowedtime_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_11.mp3",
+      "transcript": "Throw in against me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_abaddon_abad_borrowedtime_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_borrowedtime_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_borrowedtime_01.mp3",
+      "transcript": "Come at me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_abaddon_abad_borrowedtime_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_02.mp3",
+      "transcript": "The spectral mist fills my soul to overflowing.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_abaddon_abad_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_03.mp3",
+      "transcript": "I can scarce contain such power.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_abaddon_abad_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_04.mp3",
+      "transcript": "All this was promised me, and more.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_abaddon_abad_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_05.mp3",
+      "transcript": "The murk of Avernus floods my veins.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_abaddon_abad_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_07.mp3",
+      "transcript": "Deep I drink from the font of fate.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_abaddon_abad_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_08.mp3",
+      "transcript": "New power stirs within.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_abaddon_abad_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_09.mp3",
+      "transcript": "A dark thirst slaked.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_abaddon_abad_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_10.mp3",
+      "transcript": "The mist chose me, it is not mine to command.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_abaddon_abad_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_abaddon_abad_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_levelup_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_levelup_12.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_abaddon_abad_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_01.mp3",
+      "transcript": "Such ignoble blood taints the soil where it spills.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_abaddon_abad_kill_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_02.mp3",
+      "transcript": "An offering unworthy of the House Avernus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_abaddon_abad_kill_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_03.mp3",
+      "transcript": "Your fate was foreshadowed in the mist.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_abaddon_abad_kill_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_04.mp3",
+      "transcript": "The murk of oblivion reclaims you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_abaddon_abad_kill_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_05.mp3",
+      "transcript": "In the mists of time you are but a blur.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_abaddon_abad_kill_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_06.mp3",
+      "transcript": "To die at a noble hand is no guarantee of a noble death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_abaddon_abad_kill_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_07.mp3",
+      "transcript": "Drink deep of the mist as it turns to black.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_abaddon_abad_kill_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_08.mp3",
+      "transcript": "The mist is your master.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_abaddon_abad_kill_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_09.mp3",
+      "transcript": "I will see you in the shadow of Avernus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_abaddon_abad_kill_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_10.mp3",
+      "transcript": "Drowned in the Font of Avernus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_abaddon_abad_kill_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_abaddon_abad_kill_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_12.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_abaddon_abad_kill_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_13.mp3",
+      "transcript": "Ha ha ah ah aha haha ha ah ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_abaddon_abad_kill_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_14.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_14.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_abaddon_abad_kill_14.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_15.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_15.mp3",
+      "transcript": "Mm hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_abaddon_abad_kill_15.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_kill_16.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_kill_16.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_abaddon_abad_kill_16.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_laugh_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_laugh_01.mp3",
+      "transcript": "Ha hah aha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_abaddon_abad_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_laugh_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_laugh_02.mp3",
+      "transcript": "Hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_abaddon_abad_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_laugh_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_abaddon_abad_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_laugh_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_abaddon_abad_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_laugh_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_laugh_05.mp3",
+      "transcript": "He he he he he he he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_abaddon_abad_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_01.mp3",
+      "transcript": "You gave up too much for your honor, Dragonus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_abaddon_abad_rival_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_02.mp3",
+      "transcript": "Back into the mist of ages, Elder Titan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_abaddon_abad_rival_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_03.mp3",
+      "transcript": "I put you under, lord.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_abaddon_abad_rival_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_04.mp3",
+      "transcript": "You cannot best what you can barely see.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_abaddon_abad_rival_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_05.mp3",
+      "transcript": "That Phoenix flew too close to the mist.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_abaddon_abad_rival_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_06.mp3",
+      "transcript": "Winter comes to an early end.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_abaddon_abad_rival_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_07.mp3",
+      "transcript": "We've stamped your spark out, Ember Spirit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_abaddon_abad_rival_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_08.mp3",
+      "transcript": "Another emissary of Nyx, crushed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_abaddon_abad_rival_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_09.mp3",
+      "transcript": "What's that, Silencer? I couldn't hear you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_abaddon_abad_rival_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_10.mp3",
+      "transcript": "Death lied to you about your fate, Prophet.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_abaddon_abad_rival_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_11.mp3",
+      "transcript": "You'll never lay a finger on me again, Lion.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_abaddon_abad_rival_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_12.mp3",
+      "transcript": "An evil mist enshrouds the elemental.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_abaddon_abad_rival_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_13.mp3",
+      "transcript": "Did you not see me in the shadows, Shaman?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_abaddon_abad_rival_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_14.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_14.mp3",
+      "transcript": "I swept away your Red Mist Army, Axe.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_abaddon_abad_rival_14.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_15.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_15.mp3",
+      "transcript": "Back you go, into the miasmal fog.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_abaddon_abad_rival_15.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_rival_16.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_rival_16.mp3",
+      "transcript": "You should have sought me in the mist, Bloodseeker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_abaddon_abad_rival_16.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_firstblood_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_firstblood_01.mp3",
+      "transcript": "First Blood! An offering worthy of the House Avernus.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_abaddon_abad_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_01.mp3",
+      "transcript": "Tell me where to walk and not to walk, Techies.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_abaddon_abad_ally_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_02.mp3",
+      "transcript": "Come, friend, let us fill their souls with terror.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_abaddon_abad_ally_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_03.mp3",
+      "transcript": "Waste not your energy, Zet, but wield it well.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_abaddon_abad_ally_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_04.mp3",
+      "transcript": "Dazzle, no foe would be pleased to see us two together.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_abaddon_abad_ally_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_05.mp3",
+      "transcript": "The powers of ill reprieve are joined in us, Dazzle.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_abaddon_abad_ally_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_06.mp3",
+      "transcript": "The coffers of Avernus will open if the hunt goes well today.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_abaddon_abad_ally_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_07.mp3",
+      "transcript": "Weave for us a victory in battle.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_abaddon_abad_ally_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_08.mp3",
+      "transcript": "Your phantom presence is always welcome.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_abaddon_abad_ally_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_09.mp3",
+      "transcript": "Axe, a fellow fighter of the mist.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_abaddon_abad_ally_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_10.mp3",
+      "transcript": "I see you've thrown in with us, Tiny.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_abaddon_abad_ally_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_11.mp3",
+      "transcript": "Honors to you and to the rogue's code you follow.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_ally_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_ally_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_ally_12.mp3",
+      "transcript": "There is no better ally than one who shifts like the tides of war.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_abaddon_abad_ally_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_01.mp3",
+      "transcript": "A trifle.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_abaddon_abad_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_02.mp3",
+      "transcript": "Souls into gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_abaddon_abad_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_03.mp3",
+      "transcript": "A fair conversion.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_abaddon_abad_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_04.mp3",
+      "transcript": "Nice rate of exchange.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_abaddon_abad_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_05.mp3",
+      "transcript": "For the House Avernus.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_abaddon_abad_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_06.mp3",
+      "transcript": "Bow to your lord.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_abaddon_abad_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_07.mp3",
+      "transcript": "A tribute to my house.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_abaddon_abad_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_08.mp3",
+      "transcript": "Pennies for the font.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_09.mp3",
+      "transcript": "Death for life.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_abaddon_abad_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lasthit_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lasthit_10.mp3",
+      "transcript": "It ends.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_abaddon_abad_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_abaddon_abad_deny_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_abaddon_abad_deny_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_03.mp3",
+      "transcript": "Oh no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_abaddon_abad_deny_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_04.mp3",
+      "transcript": "You dare not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_abaddon_abad_deny_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_05.mp3",
+      "transcript": "Not so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_abaddon_abad_deny_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_06.mp3",
+      "transcript": "Never.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_abaddon_abad_deny_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_07.mp3",
+      "transcript": "Twas never thus.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_abaddon_abad_deny_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_08.mp3",
+      "transcript": "Nay.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_abaddon_abad_deny_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_09.mp3",
+      "transcript": "I say not.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_abaddon_abad_deny_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_10.mp3",
+      "transcript": "You thought I missed.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_abaddon_abad_deny_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_abaddon_abad_deny_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_12.mp3",
+      "transcript": "Ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_abaddon_abad_deny_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_13.mp3",
+      "transcript": "Oh no you di'nt.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_abaddon_abad_deny_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_14.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_abaddon_abad_deny_14.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_15.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_15.mp3",
+      "transcript": "Never.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_abaddon_abad_deny_15.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_16.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_16.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_abaddon_abad_deny_16.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_17.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_17.mp3",
+      "transcript": "Ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_deny_17.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_18.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_18.mp3",
+      "transcript": "Heh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_abaddon_abad_deny_18.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_19.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_19.mp3",
+      "transcript": "Hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_abaddon_abad_deny_19.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_20.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_20.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_abaddon_abad_deny_20.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_21.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_21.mp3",
+      "transcript": "Never!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_abaddon_abad_deny_21.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deny_22.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deny_22.mp3",
+      "transcript": "Hm hm hm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_abaddon_abad_deny_22.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_purch_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_purch_02.mp3",
+      "transcript": "A noble expense for a noble cause.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_abaddon_abad_purch_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_purch_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_purch_03.mp3",
+      "transcript": "Any power can be acquired for a price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_abaddon_abad_purch_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_scepter_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_abaddon_abad_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_scepter_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_scepter_02.mp3",
+      "transcript": "A noble and lordly scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_abaddon_abad_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_blink_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_blink_01.mp3",
+      "transcript": "Blink Dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_abaddon_abad_blink_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_blink_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_blink_02.mp3",
+      "transcript": "Blink and you'll be missed.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_abaddon_abad_blink_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_01.mp3",
+      "transcript": "Pipe of Insight.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_abaddon_abad_items_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_02.mp3",
+      "transcript": "Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_abaddon_abad_items_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_03.mp3",
+      "transcript": "Shiva's Guard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_abaddon_abad_items_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_04.mp3",
+      "transcript": "Radiance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_abaddon_abad_items_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_05.mp3",
+      "transcript": "Drum of Endurance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_abaddon_abad_items_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_06.mp3",
+      "transcript": "Scythe of Vyse.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_abaddon_abad_items_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_07.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_abaddon_abad_items_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_08.mp3",
+      "transcript": "Heaven's Halberd.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_abaddon_abad_items_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_09.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_abaddon_abad_items_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_items_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_items_10.mp3",
+      "transcript": "Arcane Boots!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_abaddon_abad_items_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_immort_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_abaddon_abad_immort_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_immort_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_immort_02.mp3",
+      "transcript": "Death dispelled like a vapor.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_abaddon_abad_immort_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_abaddon_abad_death_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_02.mp3",
+      "transcript": "May the haunted mist take me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_abaddon_abad_death_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_03.mp3",
+      "transcript": "How can such a thing be?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_abaddon_abad_death_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_04.mp3",
+      "transcript": "I thought you missed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_abaddon_abad_death_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_05.mp3",
+      "transcript": "Black mist, black curtains.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_abaddon_abad_death_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_06.mp3",
+      "transcript": "A murk so dark.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_abaddon_abad_death_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_07.mp3",
+      "transcript": "And I left no heir!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_abaddon_abad_death_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_08.mp3",
+      "transcript": "Avernus, forgive me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_abaddon_abad_death_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_09.mp3",
+      "transcript": "Unworthy of the Font.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_abaddon_abad_death_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_10.mp3",
+      "transcript": "Call me lord no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_abaddon_abad_death_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_11.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_11.mp3",
+      "transcript": "Flee, my steed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_abaddon_abad_death_11.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_12.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_12.mp3",
+      "transcript": "I have been overmastered.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_abaddon_abad_death_12.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_13.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_13.mp3",
+      "transcript": "Bury me in my ancestral home.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_abaddon_abad_death_13.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_14.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_14.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_abaddon_abad_death_14.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_death_15.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_death_15.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_abaddon_abad_death_15.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_08.mp3",
+      "transcript": "File:Mist Coil icon.png By my right.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_abaddon_abad_deathcoil_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_09.mp3",
+      "transcript": "File:Mist Coil icon.png My life is mine to spend.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_abaddon_abad_deathcoil_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_deathcoil_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_deathcoil_10.mp3",
+      "transcript": "File:Mist Coil icon.png Reclaimed for Avernus.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_abaddon_abad_deathcoil_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_01.mp3",
+      "transcript": "Baptized in the font Avernus, death means something different to me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_abaddon_abad_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_02.mp3",
+      "transcript": "The mist parts and I am born anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_abaddon_abad_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_03.mp3",
+      "transcript": "The Lord of Avernus is reborn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_abaddon_abad_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_04.mp3",
+      "transcript": "From the murk I emerge.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_abaddon_abad_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_05.mp3",
+      "transcript": "We ride out refreshed.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_abaddon_abad_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_06.mp3",
+      "transcript": "The mist conceals and then reveals.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_abaddon_abad_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_07.mp3",
+      "transcript": "I drank deep from the font and am renewed.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_abaddon_abad_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_08.mp3",
+      "transcript": "A noble rebirth.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_abaddon_abad_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_09.mp3",
+      "transcript": "I have enriched my understanding of death.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_abaddon_abad_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_respawn_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_respawn_10.mp3",
+      "transcript": "Life and death have lost a little of their mystery.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_abaddon_abad_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_fastres_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_fastres_01.mp3",
+      "transcript": "Death and I, we have an understanding.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_abaddon_abad_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_bottle_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_bottle_01.mp3",
+      "transcript": "Await the day.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_abaddon_abad_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_bottle_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_bottle_02.mp3",
+      "transcript": "Time will tell.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_abaddon_abad_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_bottle_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_bottle_03.mp3",
+      "transcript": "A power concealed.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_abaddon_abad_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_item_rare_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_item_rare_01.mp3",
+      "transcript": "I claim this prize for the House Avernus.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_abaddon_abad_item_rare_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_doubdam_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_abaddon_abad_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_doubdam_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_doubdam_02.mp3",
+      "transcript": "Two deaths bearing down.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_abaddon_abad_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_haste_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_abaddon_abad_haste_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_haste_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_haste_02.mp3",
+      "transcript": "Let us run on to our fate.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_abaddon_abad_haste_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_illus_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_illus_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_invis_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_abaddon_abad_invis_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_invis_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_invis_02.mp3",
+      "transcript": "The haunted mist conceals us.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_abaddon_abad_invis_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_regen_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_abaddon_abad_regen_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_regen_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_regen_02.mp3",
+      "transcript": "The font forever renewing.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_abaddon_abad_regen_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_abaddon_abad_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_abaddon_abad_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_07.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_abaddon_abad_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_abaddon_abad_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_abaddon_abad_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_08.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_abaddon_abad_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_03.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_abaddon_abad_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_06.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_abaddon_abad_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_notyet_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_abaddon_abad_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_01.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_abaddon_abad_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_04.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_abaddon_abad_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_07.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_abaddon_abad_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_02.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_abaddon_abad_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_abaddon_abad_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_08.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_abaddon_abad_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_abaddon_abad_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_abaddon_abad_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_nomana_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_abaddon_abad_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_01.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_abaddon_abad_pain_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_abaddon_abad_pain_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_abaddon_abad_pain_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_04.mp3",
+      "transcript": "Eeyeh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_abaddon_abad_pain_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_05.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_abaddon_abad_pain_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_06.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_abaddon_abad_pain_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_07.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_abaddon_abad_pain_07.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_08.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_08.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_abaddon_abad_pain_08.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_09.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_09.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_abaddon_abad_pain_09.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_pain_10.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_pain_10.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_abaddon_abad_pain_10.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_underattack_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_abaddon_abad_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_illus_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_illus_02.mp3",
+      "transcript": "Do you trust what you see in the mist?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_abaddon_abad_illus_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_spawn_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_spawn_04.mp3",
+      "transcript": "I ride as the haunted mist wills.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_abaddon_abad_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lanemissing_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lanemissing_01.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_abaddon_abad_lanemissing_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lanemissing_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lanemissing_02.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_abaddon_abad_lanemissing_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lanemissing_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lanemissing_03.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_abaddon_abad_lanemissing_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_thanks_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_thanks_01.mp3",
+      "transcript": "With gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_abaddon_abad_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_thanks_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_thanks_02.mp3",
+      "transcript": "You have my thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_abaddon_abad_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_win_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_win_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_abaddon_abad_win_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_win_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_win_02.mp3",
+      "transcript": "Victory.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_abaddon_abad_win_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_win_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_win_03.mp3",
+      "transcript": "Just as the haunted mist foretold.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_abaddon_abad_win_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_win_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_win_04.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_abaddon_abad_win_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lose_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_abaddon_abad_lose_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lose_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_abaddon_abad_lose_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_lose_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_lose_03.mp3",
+      "transcript": "My great House Avernus has fallen to ruin.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_abaddon_abad_lose_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_item_common_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_item_common_01.mp3",
+      "transcript": "I am hardly deserving of such fortune.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_abaddon_abad_item_common_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_item_moderate_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_item_moderate_01.mp3",
+      "transcript": "Here is a turn of fortune the Font did not disclose.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_abaddon_abad_item_moderate_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_failure_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_failure_01.mp3",
+      "transcript": "The House Avernus will disown me for that.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_abaddon_abad_failure_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_failure_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_failure_02.mp3",
+      "transcript": "Have I fallen from the grace of the Avernal mist?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_abaddon_abad_failure_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_crumwiz_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_abaddon_abad_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_shiwiz_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_abaddon_abad_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_01.mp3",
+      "transcript": "Gruuh gruh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_abaddon_abad_anger_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_02.mp3",
+      "transcript": "Grrrrrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_abaddon_abad_anger_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_03.mp3",
+      "transcript": "Urrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_abaddon_abad_anger_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_04.mp3",
+      "transcript": "Ugh uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_abaddon_abad_anger_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_05.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_05.mp3",
+      "transcript": "Hrrrrmph.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_abaddon_abad_anger_05.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_anger_06.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_anger_06.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_abaddon_abad_anger_06.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_grunt_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_grunt_01.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_abaddon_abad_grunt_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_grunt_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_grunt_02.mp3",
+      "transcript": "Gr uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_abaddon_abad_grunt_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_grunt_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_grunt_03.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_abaddon_abad_grunt_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_grunt_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_grunt_04.mp3",
+      "transcript": "Uh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_abaddon_abad_grunt_04.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_happy_01.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_happy_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_abaddon_abad_happy_01.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_happy_02.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_happy_02.mp3",
+      "transcript": "Mmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_abaddon_abad_happy_02.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_happy_03.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_happy_03.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_abaddon_abad_happy_03.mp3"
+    },
+    {
+      "file": "Vo_abaddon_abad_happy_04.mp3",
+      "key": "dota2/abaddon/Vo_abaddon_abad_happy_04.mp3",
+      "transcript": "Oooh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_abaddon_abad_happy_04.mp3"
+    }
+  ]
+}

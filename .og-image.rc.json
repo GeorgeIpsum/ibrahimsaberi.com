@@ -1,0 +1,90 @@
+{
+  "outDir": "public/og",
+  "images": [
+    { "route": "/", "output": "home.png", "template": "home" },
+    {
+      "route": "/reflection",
+      "output": "reflection.png",
+      "title": [
+        { "text": "WHOIS" },
+        { "text": "i", "fontWeight": 800, "color": "#FFFFEE" }
+      ],
+      "subtitle": "look inwards",
+      "icon": "waveCircle",
+      "backgroundColor": "#461901",
+      "color": "#fffbeb"
+    },
+    {
+      "route": "/fm",
+      "output": "fm.png",
+      "title": "99.7 fm",
+      "subtitle": "the peach",
+      "icon": "peach"
+    },
+    {
+      "route": "/wash",
+      "output": "wash.png",
+      "title": ">:_",
+      "icon": "featherText"
+    },
+    {
+      "route": "/now-playing",
+      "output": "now-playing.png",
+      "title": "now playing",
+      "icon": "wavesBirds"
+    },
+    {
+      "route": "/speedtest",
+      "output": "speedtest.png",
+      "title": "speedtest",
+      "icon": "watchCheck"
+    },
+    {
+      "route": "/viddles",
+      "output": "viddles.png",
+      "title": "viddles",
+      "icon": "kiwi"
+    },
+    {
+      "route": "/pasta",
+      "output": "pasta.png",
+      "title": "pasta",
+      "subtitle": "some fresh, some stale",
+      "icon": "ligatureSquare"
+    },
+    {
+      "route": "/spool",
+      "output": "spool.png",
+      "title": "spool",
+      "subtitle": "a link/ image/ blog reel.",
+      "icon": "chest"
+    },
+    {
+      "route": "/now",
+      "output": "now.png",
+      "title": "/now",
+      "subtitle": "what i'm doing right now.",
+      "icon": "bearFace"
+    },
+    {
+      "route": "/reservoir",
+      "output": "reservoir.png",
+      "title": "reservoir",
+      "subtitle": "contained.",
+      "icon": "bowlOverflow"
+    },
+    {
+      "route": "/tots",
+      "output": "tots.png",
+      "title": "tools of the ?",
+      "icon": "pancakes"
+    },
+    {
+      "route": "/contact",
+      "output": "contact.png",
+      "title": "contact",
+      "subtitle": "you rang?",
+      "icon": "mailboxFlag"
+    }
+  ]
+}

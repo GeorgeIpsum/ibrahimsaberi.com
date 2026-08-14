@@ -1,0 +1,3148 @@
+{
+  "hero": "Elder Titan",
+  "slug": "elder-titan",
+  "source": "https://liquipedia.net/dota2/Elder_Titan/Responses",
+  "scrapedAt": "2026-06-17T13:22:58.659Z",
+  "count": 312,
+  "voicelines": [
+    {
+      "file": "Vo_elder_titan_elder_spawn_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_01.mp3",
+      "transcript": "Elder Titan!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_elder_titan_elder_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_02.mp3",
+      "transcript": "It is only right that I am cast into this world, for I had a hand in breaking it.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_elder_titan_elder_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_03.mp3",
+      "transcript": "The Great Symmetry lies shattered.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_elder_titan_elder_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_04.mp3",
+      "transcript": "I step at last onto the terrene plane.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_elder_titan_elder_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_05.mp3",
+      "transcript": "I was the hammer at the Founding.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_elder_titan_elder_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_06.mp3",
+      "transcript": "The Worldsmith wakes!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_elder_titan_elder_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_07.mp3",
+      "transcript": "From perfect unity, I come.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_elder_titan_elder_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_battlebegins_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_battlebegins_01.mp3",
+      "transcript": "On this alone of seven planes the final war is fought.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_elder_titan_elder_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_battlebegins_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_battlebegins_02.mp3",
+      "transcript": "What long ago I shattered must be rendered whole.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_elder_titan_elder_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_battlebegins_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_battlebegins_03.mp3",
+      "transcript": "The battle is joined, like the pieces of a broken world.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_elder_titan_elder_battlebegins_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_01.mp3",
+      "transcript": "New strength to shoulder the burden of a broken world.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_elder_titan_elder_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_12.mp3",
+      "transcript": "Strong as a world new-formed.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_elder_titan_elder_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_anger_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_anger_03.mp3",
+      "transcript": "Mrruh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_elder_titan_elder_anger_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_08.mp3",
+      "transcript": "The Five Founders, united again.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_elder_titan_elder_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_spawn_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_spawn_09.mp3",
+      "transcript": "Those from the Founding, united at last.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_elder_titan_elder_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_inthebag_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_inthebag_01.mp3",
+      "transcript": "Never in all the world's making and remaking have I witnessed an outcome that was more unequivocally in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_elder_titan_elder_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_battlebegins_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_battlebegins_04.mp3",
+      "transcript": "We are Foundation.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_elder_titan_elder_battlebegins_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_elder_titan_elder_move_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_elder_titan_elder_move_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_03.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_elder_titan_elder_move_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_04.mp3",
+      "transcript": "Be it thus.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_elder_titan_elder_move_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_05.mp3",
+      "transcript": "Steadily.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_elder_titan_elder_move_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_06.mp3",
+      "transcript": "Comes the Titan.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_elder_titan_elder_move_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_07.mp3",
+      "transcript": "The Worldsmith wanders.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_elder_titan_elder_move_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_08.mp3",
+      "transcript": "Such and so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_elder_titan_elder_move_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_09.mp3",
+      "transcript": "I will make things right.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_elder_titan_elder_move_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_10.mp3",
+      "transcript": "That would be best.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_elder_titan_elder_move_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_11.mp3",
+      "transcript": "This bodes well.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_elder_titan_elder_move_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_12.mp3",
+      "transcript": "By the Increate's will.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_elder_titan_elder_move_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_13.mp3",
+      "transcript": "Formed of the forge.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_elder_titan_elder_move_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_14.mp3",
+      "transcript": "As the Shaper wills.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_elder_titan_elder_move_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_15.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_15.mp3",
+      "transcript": "I stride the terrene plane.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_elder_titan_elder_move_15.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_16.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_16.mp3",
+      "transcript": "Forged of shattered forces.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_elder_titan_elder_move_16.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_17.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_17.mp3",
+      "transcript": "The Seven Planes tremble.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_elder_titan_elder_move_17.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_18.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_18.mp3",
+      "transcript": "I seek amends.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_elder_titan_elder_move_18.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_move_19.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_move_19.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_elder_titan_elder_move_19.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_01.mp3",
+      "transcript": "Attend!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_elder_titan_elder_attack_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_02.mp3",
+      "transcript": "This way.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_elder_titan_elder_attack_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_03.mp3",
+      "transcript": "A heavy blow.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_elder_titan_elder_attack_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_04.mp3",
+      "transcript": "Shattered unity.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_elder_titan_elder_attack_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_05.mp3",
+      "transcript": "Torn asunder!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_elder_titan_elder_attack_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_06.mp3",
+      "transcript": "Face your fate.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_elder_titan_elder_attack_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_07.mp3",
+      "transcript": "The shadow is cast.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_elder_titan_elder_attack_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_08.mp3",
+      "transcript": "Forge ahead.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_elder_titan_elder_attack_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_09.mp3",
+      "transcript": "Well wrought.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_elder_titan_elder_attack_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_10.mp3",
+      "transcript": "It is my charge.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_elder_titan_elder_attack_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_11.mp3",
+      "transcript": "Beware the Titan.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_elder_titan_elder_attack_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_12.mp3",
+      "transcript": "The Increate's path.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_elder_titan_elder_attack_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_13.mp3",
+      "transcript": "By the Increate.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_elder_titan_elder_attack_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_attack_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_attack_14.mp3",
+      "transcript": "I hearken well.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_elder_titan_elder_attack_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_cast_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_cast_01.mp3",
+      "transcript": "I will not let this go.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_elder_titan_elder_cast_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_cast_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_cast_02.mp3",
+      "transcript": "Sought and found.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_elder_titan_elder_cast_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_cast_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_cast_03.mp3",
+      "transcript": "What is weak must break.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_elder_titan_elder_cast_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_cast_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_cast_04.mp3",
+      "transcript": "Rout you out!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_elder_titan_elder_cast_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_cast_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_cast_05.mp3",
+      "transcript": "Beware the Worldsmith.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_elder_titan_elder_cast_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_01.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_elder_titan_elder_grunts_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_03.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_elder_titan_elder_grunts_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_07.mp3",
+      "transcript": "Arh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_elder_titan_elder_grunts_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_01.mp3",
+      "transcript": "Echo stomp!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_elder_titan_elder_echostomp_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_02.mp3",
+      "transcript": "Be stilled!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_elder_titan_elder_echostomp_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_03.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_elder_titan_elder_echostomp_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_04.mp3",
+      "transcript": "By the power of the Increate!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_elder_titan_elder_echostomp_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_05.mp3",
+      "transcript": "Shattered by the Increate!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_elder_titan_elder_echostomp_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_06.mp3",
+      "transcript": "Shatter!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_elder_titan_elder_echostomp_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_07.mp3",
+      "transcript": "Break!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_elder_titan_elder_echostomp_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_08.mp3",
+      "transcript": "Stop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_elder_titan_elder_echostomp_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_echostomp_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_echostomp_09.mp3",
+      "transcript": "Stop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_elder_titan_elder_echostomp_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_01.mp3",
+      "transcript": "A soul divided.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_elder_titan_elder_ancestralspirit_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_02.mp3",
+      "transcript": "My shadow soul.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_elder_titan_elder_ancestralspirit_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_03.mp3",
+      "transcript": "Soul of the broken world.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_elder_titan_elder_ancestralspirit_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_04.mp3",
+      "transcript": "The cloven soul.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_elder_titan_elder_ancestralspirit_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_05.mp3",
+      "transcript": "A cleaving comes upon me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_elder_titan_elder_ancestralspirit_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_06.mp3",
+      "transcript": "Come, twin spirit.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_elder_titan_elder_ancestralspirit_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_07.mp3",
+      "transcript": "I summon the Titan soul.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_elder_titan_elder_ancestralspirit_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_08.mp3",
+      "transcript": "My broken soul goes forth.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_elder_titan_elder_ancestralspirit_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_rejoined_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_rejoined_01.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_elder_titan_elder_ancestralspirit_rejoined_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_rejoined_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_rejoined_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_elder_titan_elder_ancestralspirit_rejoined_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_rejoined_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_rejoined_03.mp3",
+      "transcript": "Bliss.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_elder_titan_elder_ancestralspirit_rejoined_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_rejoined_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_rejoined_04.mp3",
+      "transcript": "Rejoined.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_elder_titan_elder_ancestralspirit_rejoined_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ancestralspirit_rejoined_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ancestralspirit_rejoined_05.mp3",
+      "transcript": "Rejoined.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_elder_titan_elder_ancestralspirit_rejoined_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_02.mp3",
+      "transcript": "Mmph.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_elder_titan_elder_grunts_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_04.mp3",
+      "transcript": "Mmph.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_elder_titan_elder_grunts_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_05.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_elder_titan_elder_grunts_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_grunts_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_grunts_06.mp3",
+      "transcript": "Arh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_elder_titan_elder_grunts_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_01.mp3",
+      "transcript": "Riven earth.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_elder_titan_elder_earthsplitter_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_02.mp3",
+      "transcript": "The earth is sundered.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_elder_titan_elder_earthsplitter_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_03.mp3",
+      "transcript": "Sunderstrike.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_elder_titan_elder_earthsplitter_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_04.mp3",
+      "transcript": "Thus I sunder.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_elder_titan_elder_earthsplitter_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_05.mp3",
+      "transcript": "The Titan strikes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_elder_titan_elder_earthsplitter_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_06.mp3",
+      "transcript": "Your unmaking.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_elder_titan_elder_earthsplitter_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_07.mp3",
+      "transcript": "Shattered by the Titan.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_elder_titan_elder_earthsplitter_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_08.mp3",
+      "transcript": "By the anger of the Increate.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_elder_titan_elder_earthsplitter_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_09.mp3",
+      "transcript": "Fall where you stand.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_elder_titan_elder_earthsplitter_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_earthsplitter_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_earthsplitter_10.mp3",
+      "transcript": "The Titan strikes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_elder_titan_elder_earthsplitter_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_02.mp3",
+      "transcript": "My broken soul annealed.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_elder_titan_elder_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_03.mp3",
+      "transcript": "May symmetry be restored.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_elder_titan_elder_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_04.mp3",
+      "transcript": "Further Unity!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_elder_titan_elder_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_05.mp3",
+      "transcript": "The forge of creation burns hotter.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_elder_titan_elder_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_06.mp3",
+      "transcript": "By the strength of the Increate.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_elder_titan_elder_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_07.mp3",
+      "transcript": "In sight of symmetry.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_08.mp3",
+      "transcript": "The Worldsmith is renewed.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_elder_titan_elder_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_09.mp3",
+      "transcript": "My elder soul's infused with youthful vigor.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_elder_titan_elder_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_10.mp3",
+      "transcript": "Ah, now that is much better.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_elder_titan_elder_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_11.mp3",
+      "transcript": "I haven't felt this way since the first making.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_elder_titan_elder_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_13.mp3",
+      "transcript": "With new strength mended.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_elder_titan_elder_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_14.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_elder_titan_elder_levelup_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_levelup_15.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_levelup_15.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_elder_titan_elder_levelup_15.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_01.mp3",
+      "transcript": "Where were you when the world was young?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_elder_titan_elder_kill_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_02.mp3",
+      "transcript": "I broke the world, did you think I could not break you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_elder_titan_elder_kill_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_03.mp3",
+      "transcript": "Your form needed tempering.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_elder_titan_elder_kill_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_04.mp3",
+      "transcript": "You must learn respect for your elders.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_elder_titan_elder_kill_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_05.mp3",
+      "transcript": "Death shadows us all.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_elder_titan_elder_kill_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_06.mp3",
+      "transcript": "What was divided returns to unity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_elder_titan_elder_kill_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_07.mp3",
+      "transcript": "Your span was short indeed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_elder_titan_elder_kill_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_08.mp3",
+      "transcript": "Go and meet your shadow.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_elder_titan_elder_kill_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_09.mp3",
+      "transcript": "You die on my forge.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_elder_titan_elder_kill_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_10.mp3",
+      "transcript": "Your spirit, torn from your flesh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_elder_titan_elder_kill_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_11.mp3",
+      "transcript": "Go and find renewal at the Increate's hands.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_elder_titan_elder_kill_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_12.mp3",
+      "transcript": "The Increate can uncreate.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_elder_titan_elder_kill_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_13.mp3",
+      "transcript": "Against me, all warfare is asymmetric.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_elder_titan_elder_kill_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_14.mp3",
+      "transcript": "So puny compared to a Titan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_elder_titan_elder_kill_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_15.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_15.mp3",
+      "transcript": "Hm ha ha ha ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_elder_titan_elder_kill_15.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_16.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_16.mp3",
+      "transcript": "Oh ho ho ho ho ho ho.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_elder_titan_elder_kill_16.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_17.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_17.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_elder_titan_elder_kill_17.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_18.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_18.mp3",
+      "transcript": "Oh ho ho ho ho.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_elder_titan_elder_kill_18.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_kill_19.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_kill_19.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_elder_titan_elder_kill_19.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_laugh_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_laugh_01.mp3",
+      "transcript": "Ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_elder_titan_elder_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_laugh_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_laugh_04.mp3",
+      "transcript": "Ah ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_elder_titan_elder_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_laugh_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_laugh_05.mp3",
+      "transcript": "Eh ha ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_elder_titan_elder_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_laugh_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_laugh_08.mp3",
+      "transcript": "Hah ha ha ha ha ha heh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_elder_titan_elder_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_01.mp3",
+      "transcript": "I have reduced you to pulp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_elder_titan_elder_rival_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_02.mp3",
+      "transcript": "I remember when you were but a sapling.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_elder_titan_elder_rival_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_03.mp3",
+      "transcript": "I spread ashes on the Lone Druid's grave.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_elder_titan_elder_rival_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_04.mp3",
+      "transcript": "A dark matter is laid to rest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_elder_titan_elder_rival_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_05.mp3",
+      "transcript": "You forget your true nature, Earthshaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_elder_titan_elder_rival_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_06.mp3",
+      "transcript": "Shaper of continents, you have forgotten me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_elder_titan_elder_rival_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_07.mp3",
+      "transcript": "The stone that lives is a stone that dies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_elder_titan_elder_rival_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_08.mp3",
+      "transcript": "Go rejoin the bedrock, Tiny.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_elder_titan_elder_rival_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_09.mp3",
+      "transcript": "Across the Seven Planes, I have never seen your like.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_elder_titan_elder_rival_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_10.mp3",
+      "transcript": "Return to Unity, old friend.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_elder_titan_elder_rival_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_11.mp3",
+      "transcript": "A strong force you were, but no match for your Elder.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_elder_titan_elder_rival_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_12.mp3",
+      "transcript": "Child of the Schism, Io returns to Unity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_elder_titan_elder_rival_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_13.mp3",
+      "transcript": "Rejoin your kin on the Fundamental plane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_elder_titan_elder_rival_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_14.mp3",
+      "transcript": "That which I divided, returns to Unity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_elder_titan_elder_rival_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_15.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_15.mp3",
+      "transcript": "So dies the spark of ancient suns.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_rival_15.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_16.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_16.mp3",
+      "transcript": "Born in the Schism, died in the forge.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_elder_titan_elder_rival_16.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rival_17.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rival_17.mp3",
+      "transcript": "Return to the Fundamental plane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_elder_titan_elder_rival_17.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_firstblood_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_firstblood_01.mp3",
+      "transcript": "May this blood run deep to heal the world's wounds.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_elder_titan_elder_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_firstblood_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_firstblood_02.mp3",
+      "transcript": "You were the first to leave this plane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_elder_titan_elder_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_01.mp3",
+      "transcript": "Ride with me, o Knight Fundamental.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_elder_titan_elder_ally_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_02.mp3",
+      "transcript": "Chaos Knight, a strong force you are.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_elder_titan_elder_ally_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_03.mp3",
+      "transcript": "Io, my old friend, we are far from your plane.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_elder_titan_elder_ally_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_04.mp3",
+      "transcript": "Sing, Io, of what Schism hath wrought upon this world.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_elder_titan_elder_ally_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_05.mp3",
+      "transcript": "Great age has dissolved the differences between us, Keeper.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_elder_titan_elder_ally_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_06.mp3",
+      "transcript": "Greetings, Enigma. You and I have crossed many planes to fight this war.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_elder_titan_elder_ally_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_07.mp3",
+      "transcript": "Ah, Enigma, I haven't seen you since the Shattering.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_elder_titan_elder_ally_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_08.mp3",
+      "transcript": "Walk with me, Treant, and we'll teach these fools to fear.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_elder_titan_elder_ally_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_09.mp3",
+      "transcript": "Come, Druid, you are alone no more.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_elder_titan_elder_ally_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_10.mp3",
+      "transcript": "We shall mold this fight to our advantage, Earthshaker.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_elder_titan_elder_ally_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_ally_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_ally_11.mp3",
+      "transcript": "Tiny, the artisans knew not what they created in you.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_elder_titan_elder_ally_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_01.mp3",
+      "transcript": "Ah, little one.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_elder_titan_elder_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_02.mp3",
+      "transcript": "Waste nothing.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_elder_titan_elder_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_03.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_elder_titan_elder_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_04.mp3",
+      "transcript": "No trouble here.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_elder_titan_elder_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_05.mp3",
+      "transcript": "A small sleight.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_elder_titan_elder_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_06.mp3",
+      "transcript": "Nothing to it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_elder_titan_elder_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_07.mp3",
+      "transcript": "Do not trouble a Titan.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_elder_titan_elder_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_08.mp3",
+      "transcript": "A small snuffing.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_elder_titan_elder_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_09.mp3",
+      "transcript": "Gold for my forge.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_elder_titan_elder_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_10.mp3",
+      "transcript": "A scrap of a soul.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_elder_titan_elder_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_11.mp3",
+      "transcript": "Soft metal.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_elder_titan_elder_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lasthit_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lasthit_12.mp3",
+      "transcript": "For your elder.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_elder_titan_elder_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_elder_titan_elder_deny_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_02.mp3",
+      "transcript": "No no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_elder_titan_elder_deny_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_03.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_elder_titan_elder_deny_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_04.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_elder_titan_elder_deny_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_05.mp3",
+      "transcript": "Not so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_elder_titan_elder_deny_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_06.mp3",
+      "transcript": "The Titan says no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_elder_titan_elder_deny_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_07.mp3",
+      "transcript": "By the forge of creation.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_elder_titan_elder_deny_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_08.mp3",
+      "transcript": "The Primordials will it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_elder_titan_elder_deny_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_09.mp3",
+      "transcript": "Better you run and hide.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_elder_titan_elder_deny_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_10.mp3",
+      "transcript": "That belongs to your elder.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_elder_titan_elder_deny_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_11.mp3",
+      "transcript": "Ha ha ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_elder_titan_elder_deny_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_12.mp3",
+      "transcript": "Hm ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_elder_titan_elder_deny_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_13.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_elder_titan_elder_deny_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_deny_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_elder_titan_elder_deny_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_purch_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_purch_01.mp3",
+      "transcript": "A fair trade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_elder_titan_elder_purch_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_purch_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_purch_02.mp3",
+      "transcript": "Worth every bit of coin.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_elder_titan_elder_purch_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_purch_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_purch_03.mp3",
+      "transcript": "Now shall the battle turn.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_elder_titan_elder_purch_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_scepter_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_elder_titan_elder_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_scepter_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_scepter_02.mp3",
+      "transcript": "Scepter of the Titans!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_elder_titan_elder_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_blink_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_elder_titan_elder_blink_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_blink_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_blink_02.mp3",
+      "transcript": "A blade for the ages.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_elder_titan_elder_blink_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_01.mp3",
+      "transcript": "Drum of Endurance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_elder_titan_elder_items_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_02.mp3",
+      "transcript": "Assault Cuirass.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_elder_titan_elder_items_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_03.mp3",
+      "transcript": "Shiva's Guard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_elder_titan_elder_items_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_04.mp3",
+      "transcript": "Black King Bar.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_elder_titan_elder_items_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_05.mp3",
+      "transcript": "Mekansm.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_elder_titan_elder_items_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_06.mp3",
+      "transcript": "Shadow Blade.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_elder_titan_elder_items_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_07.mp3",
+      "transcript": "Heaven's Halberd.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_elder_titan_elder_items_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_08.mp3",
+      "transcript": "Refresher.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_elder_titan_elder_items_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_items_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_items_09.mp3",
+      "transcript": "Veil of Discord.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_elder_titan_elder_items_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_immort_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_elder_titan_elder_immort_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_immort_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_immort_02.mp3",
+      "transcript": "Great unity is eternal.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_elder_titan_elder_immort_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_elder_titan_elder_death_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_02.mp3",
+      "transcript": "Failed again.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_elder_titan_elder_death_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_03.mp3",
+      "transcript": "Broken like the world.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_elder_titan_elder_death_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_04.mp3",
+      "transcript": "A soul divided can't endure.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_elder_titan_elder_death_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_05.mp3",
+      "transcript": "Tested and found wanting.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_death_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_06.mp3",
+      "transcript": "Shattered on the anvil.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_elder_titan_elder_death_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_07.mp3",
+      "transcript": "My shadow follows me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_elder_titan_elder_death_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_08.mp3",
+      "transcript": "I return to the Increate.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_elder_titan_elder_death_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_09.mp3",
+      "transcript": "Learn from my example.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_elder_titan_elder_death_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_10.mp3",
+      "transcript": "Shattered.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_elder_titan_elder_death_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_11.mp3",
+      "transcript": "My works are undone.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_elder_titan_elder_death_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_12.mp3",
+      "transcript": "The last Worldsmith dies.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_elder_titan_elder_death_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_13.mp3",
+      "transcript": "I should have retired ages ago.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_elder_titan_elder_death_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_14.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_14.mp3",
+      "transcript": "The Titan falls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_elder_titan_elder_death_14.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_15.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_15.mp3",
+      "transcript": "The Shaper weeps.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_elder_titan_elder_death_15.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_death_16.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_death_16.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_elder_titan_elder_death_16.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_01.mp3",
+      "transcript": "The forge of creation casts me anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_elder_titan_elder_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_02.mp3",
+      "transcript": "Is this a new form or the same one of old?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_elder_titan_elder_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_03.mp3",
+      "transcript": "The Increate has granted me another chance.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_elder_titan_elder_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_04.mp3",
+      "transcript": "By the Five Pillars I am shaped again to life.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_elder_titan_elder_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_05.mp3",
+      "transcript": "I return and my shadow comes with me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_elder_titan_elder_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_06.mp3",
+      "transcript": "To wholeness and healing and a world to remake.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_elder_titan_elder_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_07.mp3",
+      "transcript": "The fault was in the mold, not in the maker.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_elder_titan_elder_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_08.mp3",
+      "transcript": "I have had a dream of symmetries unbroken.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_elder_titan_elder_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_09.mp3",
+      "transcript": "I return from the Primordial plane.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_elder_titan_elder_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_10.mp3",
+      "transcript": "From the dream of perfect Unity I wake again to war.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_elder_titan_elder_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_11.mp3",
+      "transcript": "Here I walk to smith the world anew.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_elder_titan_elder_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_12.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_12.mp3",
+      "transcript": "Born anew, yet still I am an elder?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_elder_titan_elder_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_respawn_13.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_respawn_13.mp3",
+      "transcript": "I dreamt of a world where the Mad Moon still shone.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_elder_titan_elder_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_fastres_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_fastres_01.mp3",
+      "transcript": "Bloodied but not broken!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_elder_titan_elder_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_bottle_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_bottle_01.mp3",
+      "transcript": "Bottled.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_elder_titan_elder_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_bottle_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_bottle_02.mp3",
+      "transcript": "For the by and by.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_elder_titan_elder_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_bottle_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_bottle_03.mp3",
+      "transcript": "Wait till the world's a bit older.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_elder_titan_elder_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_item_moderate_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_item_moderate_01.mp3",
+      "transcript": "A grand gift from the Increate.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_elder_titan_elder_item_moderate_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_doubdam_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_elder_titan_elder_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_doubdam_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_doubdam_02.mp3",
+      "transcript": "Strike while the forge is hot.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_elder_titan_elder_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_haste_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_elder_titan_elder_haste_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_haste_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_haste_02.mp3",
+      "transcript": "Haste was my undoing, now it shall be theirs.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_elder_titan_elder_haste_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_illus_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_elder_titan_elder_illus_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_illus_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_illus_02.mp3",
+      "transcript": "Fearful symmetries.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_elder_titan_elder_illus_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_invis_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_elder_titan_elder_invis_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_invis_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_invis_02.mp3",
+      "transcript": "None may see the deepest truth.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_elder_titan_elder_invis_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_regen_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_elder_titan_elder_regen_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_regen_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_regen_02.mp3",
+      "transcript": "That the world might be mended.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_elder_titan_elder_regen_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_elder_titan_elder_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_elder_titan_elder_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_elder_titan_elder_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_elder_titan_elder_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_elder_titan_elder_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_elder_titan_elder_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_03.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_elder_titan_elder_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_06.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_elder_titan_elder_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_notyet_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_elder_titan_elder_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_01.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_04.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_elder_titan_elder_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_07.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_elder_titan_elder_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_02.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_elder_titan_elder_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_elder_titan_elder_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_08.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_elder_titan_elder_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_03.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_elder_titan_elder_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_elder_titan_elder_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_nomana_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_elder_titan_elder_pain_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_elder_titan_elder_pain_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_elder_titan_elder_pain_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_elder_titan_elder_pain_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_05.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_elder_titan_elder_pain_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_elder_titan_elder_pain_06.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_07.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_07.mp3",
+      "transcript": "Oh my aching bones.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_elder_titan_elder_pain_07.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_08.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_08.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_elder_titan_elder_pain_08.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_09.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_09.mp3",
+      "transcript": "Nyuh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_elder_titan_elder_pain_09.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_10.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_10.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_elder_titan_elder_pain_10.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_pain_11.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_pain_11.mp3",
+      "transcript": "Uh ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_elder_titan_elder_pain_11.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_underattack_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_elder_titan_elder_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_rare_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_rare_01.mp3",
+      "transcript": "The Mad Moon rises unbroken above a fledgling world… but only in my dreams.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_elder_titan_elder_rare_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lane_missing_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lane_missing_01.mp3",
+      "transcript": "Top is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_elder_titan_elder_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lane_missing_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lane_missing_02.mp3",
+      "transcript": "Middle is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_elder_titan_elder_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lane_missing_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lane_missing_03.mp3",
+      "transcript": "Bottom is missing.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_elder_titan_elder_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_thanks_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_thanks_01.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_elder_titan_elder_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_thanks_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_thanks_02.mp3",
+      "transcript": "I am in your debt.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_elder_titan_elder_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_thanks_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_thanks_03.mp3",
+      "transcript": "Thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_elder_titan_elder_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_win_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_elder_titan_elder_win_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_win_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_elder_titan_elder_win_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_win_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_win_03.mp3",
+      "transcript": "The weight of the world is lifted.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_elder_titan_elder_win_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_win_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_win_04.mp3",
+      "transcript": "Perfect Unity once more.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_elder_titan_elder_win_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_win_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_win_05.mp3",
+      "transcript": "You were right to put your faith in the Worldsmith.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_elder_titan_elder_win_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lose_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_elder_titan_elder_lose_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lose_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_elder_titan_elder_lose_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lose_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lose_03.mp3",
+      "transcript": "The world comes crashing down again.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_elder_titan_elder_lose_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lose_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lose_04.mp3",
+      "transcript": "The Great Symmetry lies shattered once more.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_elder_titan_elder_lose_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_lose_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_lose_05.mp3",
+      "transcript": "Get off my lawn!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_elder_titan_elder_lose_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_item_common_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_item_common_01.mp3",
+      "transcript": "By the Shaper's will, what have we here?",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_elder_titan_elder_item_common_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_item_rare_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_item_rare_01.mp3",
+      "transcript": "With such fine matter as this, I can remake the world.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_elder_titan_elder_item_rare_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_failure_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_failure_01.mp3",
+      "transcript": "What have I done now?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_elder_titan_elder_failure_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_failure_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_failure_02.mp3",
+      "transcript": "A pitiable attempt.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_elder_titan_elder_failure_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_failure_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_failure_03.mp3",
+      "transcript": "What have I wrought?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_elder_titan_elder_failure_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_crumwiz_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_elder_titan_elder_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_shiwiz_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_elder_titan_elder_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_anger_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_anger_01.mp3",
+      "transcript": "Ehh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_elder_titan_elder_anger_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_anger_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_anger_02.mp3",
+      "transcript": "Mrruh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_elder_titan_elder_anger_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_anger_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_anger_04.mp3",
+      "transcript": "Grr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_elder_titan_elder_anger_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_anger_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_anger_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_elder_titan_elder_anger_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_01.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_01.mp3",
+      "transcript": "Huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_elder_titan_elder_happy_01.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_02.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_elder_titan_elder_happy_02.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_03.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_elder_titan_elder_happy_03.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_04.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_04.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_elder_titan_elder_happy_04.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_05.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_elder_titan_elder_happy_05.mp3"
+    },
+    {
+      "file": "Vo_elder_titan_elder_happy_06.mp3",
+      "key": "dota2/elder-titan/Vo_elder_titan_elder_happy_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_elder_titan_elder_happy_06.mp3"
+    }
+  ]
+}

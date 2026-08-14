@@ -1,0 +1,2991 @@
+{
+  "hero": "Ogre Magi",
+  "slug": "ogre-magi",
+  "source": "https://liquipedia.net/dota2/Ogre_Magi/Responses",
+  "scrapedAt": "2026-06-17T13:30:55.482Z",
+  "count": 295,
+  "voicelines": [
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_01.mp3",
+      "transcript": "Ogre Magi!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_ogre_magi_ogmag_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_02.mp3",
+      "transcript": "Ogre Magi! The very same.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_ogre_magi_ogmag_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_03.mp3",
+      "transcript": "Ogre Magi! I wanted to say that.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ogre_magi_ogmag_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_04.mp3",
+      "transcript": "They picked me! No one ever picks me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_ogre_magi_ogmag_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_05.mp3",
+      "transcript": "I'm the Ogre Magi! No, you are!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_ogre_magi_ogmag_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_spawn_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_spawn_06.mp3",
+      "transcript": "After you. No, me first!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_ogre_magi_ogmag_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_01.mp3",
+      "transcript": "Yeah!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_ogre_magi_ogmag_move_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_02.mp3",
+      "transcript": "Here we go!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_ogre_magi_ogmag_attack_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_05.mp3",
+      "transcript": "I like this part! Me too.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_ogre_magi_ogmag_attack_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_01.mp3",
+      "transcript": "Damn. We're good.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ogre_magi_ogmag_ability_multi_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_06.mp3",
+      "transcript": "Pleased to meet ya. Likewise I'm sure.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_ogre_magi_ogmag_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_04.mp3",
+      "transcript": "Hittin stuff is fun. Hah aha ha ha ha!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_ogre_magi_ogmag_attack_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_anger_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_anger_04.mp3",
+      "transcript": "Urruh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_ogre_magi_ogmag_anger_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_inthebag_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_inthebag_01.mp3",
+      "transcript": "We got this one in the bag. Where'd you get a bag?",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_ogre_magi_ogmag_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_battlebegins_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_battlebegins_01.mp3",
+      "transcript": "What, it ain't started already? I thought it started.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ogre_magi_ogmag_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_02.mp3",
+      "transcript": "Yup. Yup.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ogre_magi_ogmag_move_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_03.mp3",
+      "transcript": "Yup. Yup.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_ogre_magi_ogmag_move_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_04.mp3",
+      "transcript": "Why there? Who knows?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ogre_magi_ogmag_move_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_05.mp3",
+      "transcript": "Guess we better. Yep.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ogre_magi_ogmag_move_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_06.mp3",
+      "transcript": "Guess we better. Yep.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_ogre_magi_ogmag_move_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_07.mp3",
+      "transcript": "Oh. Kay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ogre_magi_ogmag_move_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_08.mp3",
+      "transcript": "Oh. Kay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_ogre_magi_ogmag_move_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_09.mp3",
+      "transcript": "Me first.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ogre_magi_ogmag_move_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_10.mp3",
+      "transcript": "My turn.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_ogre_magi_ogmag_move_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_11.mp3",
+      "transcript": "You go first.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_ogre_magi_ogmag_move_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_12.mp3",
+      "transcript": "After you. After you.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_ogre_magi_ogmag_move_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_13.mp3",
+      "transcript": "I'll do legs this time. Okay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_ogre_magi_ogmag_move_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_14.mp3",
+      "transcript": "Good idea. Cause it was mine.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_ogre_magi_ogmag_move_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_15.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_15.mp3",
+      "transcript": "Good idea. Cause it was mine.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_ogre_magi_ogmag_move_15.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_16.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_16.mp3",
+      "transcript": "Let me through. Ow!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ogre_magi_ogmag_move_16.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_17.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_17.mp3",
+      "transcript": "Outta my way. Hey!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ogre_magi_ogmag_move_17.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_18.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_18.mp3",
+      "transcript": "This way. Thataway.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ogre_magi_ogmag_move_18.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_19.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_19.mp3",
+      "transcript": "When can I hit something? Who's stopping ya?",
+      "categories": [
+        "Moving",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ogre_magi_ogmag_move_19.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_20.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_20.mp3",
+      "transcript": "Running's not as fun as hitting. Not one bit fun.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_ogre_magi_ogmag_move_20.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_21.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_21.mp3",
+      "transcript": "Hit the road. Ow!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ogre_magi_ogmag_move_21.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_22.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_22.mp3",
+      "transcript": "Is that a squirrel? Come on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ogre_magi_ogmag_move_22.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_23.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_23.mp3",
+      "transcript": "Let's go north! No, South!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_ogre_magi_ogmag_move_23.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_move_24.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_move_24.mp3",
+      "transcript": "I saw a thing. Huh?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ogre_magi_ogmag_move_24.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_ogre_magi_ogmag_attack_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_03.mp3",
+      "transcript": "I like this part. You would.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_ogre_magi_ogmag_attack_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_06.mp3",
+      "transcript": "After em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ogre_magi_ogmag_attack_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_07.mp3",
+      "transcript": "Go on!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_ogre_magi_ogmag_attack_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_08.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_ogre_magi_ogmag_attack_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_09.mp3",
+      "transcript": "Let me! No, me!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ogre_magi_ogmag_attack_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_10.mp3",
+      "transcript": "Let me! No, me!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_ogre_magi_ogmag_attack_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_11.mp3",
+      "transcript": "Hey! He said hey!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_ogre_magi_ogmag_attack_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_12.mp3",
+      "transcript": "You doin good! You too!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_ogre_magi_ogmag_attack_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_attack_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_attack_13.mp3",
+      "transcript": "Get going! On it.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_ogre_magi_ogmag_attack_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_cast_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_cast_01.mp3",
+      "transcript": "We got your number! What comes after two?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ogre_magi_ogmag_cast_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_cast_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_cast_02.mp3",
+      "transcript": "We're looking at you!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_ogre_magi_ogmag_cast_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_cast_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_cast_03.mp3",
+      "transcript": "Here we come!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_ogre_magi_ogmag_cast_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_cast_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_cast_04.mp3",
+      "transcript": "Hey, wait for us!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_ogre_magi_ogmag_cast_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_01.mp3",
+      "transcript": "Hey!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_ogre_magi_ogmag_ability_firebl_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_02.mp3",
+      "transcript": "Whoops!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_ogre_magi_ogmag_ability_firebl_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_03.mp3",
+      "transcript": "Fire!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_ogre_magi_ogmag_ability_firebl_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_04.mp3",
+      "transcript": "Burn!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_ogre_magi_ogmag_ability_firebl_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_05.mp3",
+      "transcript": "Who started that?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_ogre_magi_ogmag_ability_firebl_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_02.mp3",
+      "transcript": "Now that's skill. Well I practice a lot.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_ogre_magi_ogmag_ability_multi_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_03.mp3",
+      "transcript": "Did you mean to do that? Yep.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_ogre_magi_ogmag_ability_multi_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_04.mp3",
+      "transcript": "That's how we do. Pure skill.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_ogre_magi_ogmag_ability_multi_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_06.mp3",
+      "transcript": "Oh, skillshot! Not luck at all.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_ogre_magi_ogmag_ability_multi_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_08.mp3",
+      "transcript": "That was so good. We had to do it again.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_ogre_magi_ogmag_ability_multi_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_09.mp3",
+      "transcript": "Once is not enough. It's just as high as we can count.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_ogre_magi_ogmag_ability_multi_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_ignite_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_ignite_01.mp3",
+      "transcript": "You should have put that out.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ogre_magi_ogmag_ability_ignite_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_ignite_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_ignite_02.mp3",
+      "transcript": "Hey, you are on fire.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ogre_magi_ogmag_ability_ignite_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_ignite_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_ignite_03.mp3",
+      "transcript": "Can we get a light?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_ogre_magi_ogmag_ability_ignite_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_bloodlust_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_bloodlust_01.mp3",
+      "transcript": "Bloodlust! Ahhh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_ogre_magi_ogmag_ability_bloodlust_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_bloodlust_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_bloodlust_02.mp3",
+      "transcript": "Blood! Lust!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_ogre_magi_ogmag_ability_bloodlust_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_bloodlust_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_bloodlust_03.mp3",
+      "transcript": "Blood! Lust!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_ogre_magi_ogmag_ability_bloodlust_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_bloodlust_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_bloodlust_04.mp3",
+      "transcript": "Eeeeeyaaaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_ogre_magi_ogmag_ability_bloodlust_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_02.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ogre_magi_ogmag_ability_multi_hit_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_03.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_ogre_magi_ogmag_ability_multi_hit_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_04.mp3",
+      "transcript": "And again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_ogre_magi_ogmag_ability_multi_hit_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_05.mp3",
+      "transcript": "And again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_ogre_magi_ogmag_ability_multi_hit_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_10.mp3",
+      "transcript": "Again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_ogre_magi_ogmag_ability_multi_hit_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_11.mp3",
+      "transcript": "And again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_ogre_magi_ogmag_ability_multi_hit_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_12.mp3",
+      "transcript": "And again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_ogre_magi_ogmag_ability_multi_hit_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_14.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ogre_magi_ogmag_ability_multi_hit_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_15.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_15.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_ogre_magi_ogmag_ability_multi_hit_15.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_16.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_16.mp3",
+      "transcript": "Ah ha! Oh ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_ogre_magi_ogmag_ability_multi_hit_16.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_18.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_18.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_ogre_magi_ogmag_ability_multi_hit_18.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_19.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_19.mp3",
+      "transcript": "Ah ho ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ogre_magi_ogmag_ability_multi_hit_19.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_01.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_ogre_magi_ogmag_ability_multi_hit_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_06.mp3",
+      "transcript": "And again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ogre_magi_ogmag_ability_multi_hit_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_09.mp3",
+      "transcript": "And another one!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ogre_magi_ogmag_ability_multi_hit_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_17.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_17.mp3",
+      "transcript": "Oh ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ogre_magi_ogmag_ability_multi_hit_17.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_20.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_20.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_ogre_magi_ogmag_ability_multi_hit_20.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_07.mp3",
+      "transcript": "And again and again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_ogre_magi_ogmag_ability_multi_hit_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_08.mp3",
+      "transcript": "And another one!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ogre_magi_ogmag_ability_multi_hit_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_hit_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_hit_13.mp3",
+      "transcript": "Ah and again!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_ogre_magi_ogmag_ability_multi_hit_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_firebl_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_firebl_06.mp3",
+      "transcript": "You're a fire starter! You are!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ogre_magi_ogmag_ability_firebl_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_05.mp3",
+      "transcript": "Expertise! From the experts.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_ogre_magi_ogmag_ability_multi_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_multi_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_multi_07.mp3",
+      "transcript": "That was so good. We had to do it again.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_ogre_magi_ogmag_ability_multi_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_01.mp3",
+      "transcript": "I just had an idea! So did I!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_ogre_magi_ogmag_level_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_02.mp3",
+      "transcript": "Doubletake! Give it back!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_ogre_magi_ogmag_level_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_03.mp3",
+      "transcript": "I think I just got smarter. Nope.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_ogre_magi_ogmag_level_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_04.mp3",
+      "transcript": "Where'd that funny light come from?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_ogre_magi_ogmag_level_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_05.mp3",
+      "transcript": "Hey, I was thinking. Uh oh.",
+      "categories": [
+        "Leveling up",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ogre_magi_ogmag_level_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_06.mp3",
+      "transcript": "How many levels is that? One?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_ogre_magi_ogmag_level_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_level_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_level_07.mp3",
+      "transcript": "There we go again. Where?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ogre_magi_ogmag_level_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_01.mp3",
+      "transcript": "Squish, you're dead. Ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_ogre_magi_ogmag_kill_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_02.mp3",
+      "transcript": "That was all your idea.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_ogre_magi_ogmag_kill_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_03.mp3",
+      "transcript": "That had to hurt. I almost feel bad.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_ogre_magi_ogmag_kill_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_04.mp3",
+      "transcript": "We outsmarted em. So that's what happened.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ogre_magi_ogmag_kill_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_05.mp3",
+      "transcript": "We outsmarted em. So that's what happened.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_ogre_magi_ogmag_kill_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_06.mp3",
+      "transcript": "Thought you could fool us, didn't ya?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ogre_magi_ogmag_kill_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_07.mp3",
+      "transcript": "One down. Nice counting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_ogre_magi_ogmag_kill_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_08.mp3",
+      "transcript": "One down. Nice counting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_ogre_magi_ogmag_kill_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_09.mp3",
+      "transcript": "Stop me if you heard this one. Stop.",
+      "categories": [
+        "Killing an enemy",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ogre_magi_ogmag_kill_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_10.mp3",
+      "transcript": "Pay attention next time. Who, me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_ogre_magi_ogmag_kill_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_11.mp3",
+      "transcript": "Good work. I thought that was you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_ogre_magi_ogmag_kill_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_12.mp3",
+      "transcript": "Well whadda ya know? Not much.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_ogre_magi_ogmag_kill_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_kill_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_kill_13.mp3",
+      "transcript": "That's one in a row for you. And you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_ogre_magi_ogmag_kill_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_01.mp3",
+      "transcript": "Ha aha ah ah aha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_ogre_magi_ogmag_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_02.mp3",
+      "transcript": "Ah hee ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_ogre_magi_ogmag_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_03.mp3",
+      "transcript": "Aha ha hah aha ha ha ha haha ha hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_ogre_magi_ogmag_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_04.mp3",
+      "transcript": "Ah aha ha ha ha ha ha he he he. Ah, that's enough.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_ogre_magi_ogmag_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_05.mp3",
+      "transcript": "Ah ha ha ha hee hee hee!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_ogre_magi_ogmag_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_06.mp3",
+      "transcript": "Ah hahaha ha ah ah aha aha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_ogre_magi_ogmag_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_07.mp3",
+      "transcript": "Ah ha ha aha ha hee hee hee.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_ogre_magi_ogmag_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_08.mp3",
+      "transcript": "Hee hee hee hee!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ogre_magi_ogmag_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_09.mp3",
+      "transcript": "Oh ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_ogre_magi_ogmag_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_10.mp3",
+      "transcript": "Ah ha hahahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_ogre_magi_ogmag_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_ogre_magi_ogmag_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_12.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_ogre_magi_ogmag_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_13.mp3",
+      "transcript": "Hee hee hee hee hee.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_ogre_magi_ogmag_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_laugh_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_laugh_14.mp3",
+      "transcript": "Hee hee he he he he he aha ha… What're we laughing about?",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_ogre_magi_ogmag_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_02.mp3",
+      "transcript": "Two heads are better than none! But he had a head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_ogre_magi_ogmag_rival_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_03.mp3",
+      "transcript": "We gave you a head start!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_ogre_magi_ogmag_rival_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_04.mp3",
+      "transcript": "That was skill all right. Pure skill.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_ogre_magi_ogmag_rival_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_05.mp3",
+      "transcript": "You need to work on your skill. Like us.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_ogre_magi_ogmag_rival_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_06.mp3",
+      "transcript": "Invoker! What a dummy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_ogre_magi_ogmag_rival_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_07.mp3",
+      "transcript": "Ha ha! Outsmarted him!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_ogre_magi_ogmag_rival_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_08.mp3",
+      "transcript": "Invoker! What a dummy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_ogre_magi_ogmag_rival_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_09.mp3",
+      "transcript": "Invoker! Not so smart now, huh!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_ogre_magi_ogmag_rival_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_10.mp3",
+      "transcript": "We got spells too! And the smarts to use em.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_ogre_magi_ogmag_rival_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_11.mp3",
+      "transcript": "The Tinker! Or the Stinker! Hee hee hee!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_ogre_magi_ogmag_rival_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_12.mp3",
+      "transcript": "He didn't know everything. Nope.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_ogre_magi_ogmag_rival_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_13.mp3",
+      "transcript": "Bye, Lich! He gave me the creeps.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_ogre_magi_ogmag_rival_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_14.mp3",
+      "transcript": "Sorry 'bout your grim…grim… Your book!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ogre_magi_ogmag_rival_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_15.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_15.mp3",
+      "transcript": "Leshrac. Is Le Dead…hee hee hee hee!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ogre_magi_ogmag_rival_15.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_16.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_16.mp3",
+      "transcript": "Dazzle? More like Duhzzle.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_ogre_magi_ogmag_rival_16.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_17.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_17.mp3",
+      "transcript": "Could never figure that guy out. Me neither.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_ogre_magi_ogmag_rival_17.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_18.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_18.mp3",
+      "transcript": "Sorry, I was aiming for the little guy. Me too.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_ogre_magi_ogmag_rival_18.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_19.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_19.mp3",
+      "transcript": "Shame about the ogre. True dat.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_ogre_magi_ogmag_rival_19.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_20.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_20.mp3",
+      "transcript": "You're free! Naw, I think he's dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_ogre_magi_ogmag_rival_20.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_rival_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_rival_01.mp3",
+      "transcript": "Bear pun! Ha ha, I get it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_ogre_magi_ogmag_rival_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_firstblood_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_firstblood_01.mp3",
+      "transcript": "First Blood! You got some on you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_ogre_magi_ogmag_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_firstblood_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_firstblood_02.mp3",
+      "transcript": "First Blood! Did you mean to do that?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_ogre_magi_ogmag_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_01.mp3",
+      "transcript": "Mine! Selfish.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_ogre_magi_ogmag_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_02.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_ogre_magi_ogmag_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_03.mp3",
+      "transcript": "Ooh, shiny.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_ogre_magi_ogmag_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_04.mp3",
+      "transcript": "Don't mind if I do.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_ogre_magi_ogmag_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_05.mp3",
+      "transcript": "Don't mind if I do.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_ogre_magi_ogmag_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_06.mp3",
+      "transcript": "Gifts for the magi.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ogre_magi_ogmag_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_07.mp3",
+      "transcript": "Split the loot!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_ogre_magi_ogmag_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_08.mp3",
+      "transcript": "I'll take that. Me too.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_ogre_magi_ogmag_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_09.mp3",
+      "transcript": "I'll take that. Me too.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_ogre_magi_ogmag_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lasthit_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lasthit_10.mp3",
+      "transcript": "We got the goods.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_ogre_magi_ogmag_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_01.mp3",
+      "transcript": "Denied. Ah huh huh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_ogre_magi_ogmag_deny_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_ogre_magi_ogmag_deny_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ogre_magi_ogmag_deny_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_04.mp3",
+      "transcript": "No no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_ogre_magi_ogmag_deny_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_05.mp3",
+      "transcript": "Nope.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_ogre_magi_ogmag_deny_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_06.mp3",
+      "transcript": "That be ours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_ogre_magi_ogmag_deny_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_07.mp3",
+      "transcript": "We'll take that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_ogre_magi_ogmag_deny_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_08.mp3",
+      "transcript": "Yup. Mm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_ogre_magi_ogmag_deny_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_09.mp3",
+      "transcript": "Yup. Mm hm.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_ogre_magi_ogmag_deny_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_10.mp3",
+      "transcript": "Not. Yours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_ogre_magi_ogmag_deny_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_11.mp3",
+      "transcript": "Not. Yours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_ogre_magi_ogmag_deny_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_12.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_ogre_magi_ogmag_deny_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_13.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_ogre_magi_ogmag_deny_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_14.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ogre_magi_ogmag_deny_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_15.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_15.mp3",
+      "transcript": "Dee. Nied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_ogre_magi_ogmag_deny_15.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_16.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_16.mp3",
+      "transcript": "Day. Nied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_ogre_magi_ogmag_deny_16.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_deny_17.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_deny_17.mp3",
+      "transcript": "Dee. Nied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_ogre_magi_ogmag_deny_17.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_purch_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_purch_01.mp3",
+      "transcript": "Bought you something? Aw, you shouldn't have.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ogre_magi_ogmag_purch_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_purch_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_purch_02.mp3",
+      "transcript": "Surprise! For me?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ogre_magi_ogmag_purch_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_purch_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_purch_03.mp3",
+      "transcript": "Hey, you spent my gold on that!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_ogre_magi_ogmag_purch_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_blink_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_blink_01.mp3",
+      "transcript": "Blink. Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_ogre_magi_ogmag_blink_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_blink_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_blink_02.mp3",
+      "transcript": "Blink. Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ogre_magi_ogmag_blink_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_blink_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_blink_03.mp3",
+      "transcript": "Maybe now we can get out of each other's way.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_ogre_magi_ogmag_blink_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_blink_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_blink_04.mp3",
+      "transcript": "Maybe now we can get out of each other's way.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_ogre_magi_ogmag_blink_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_scepter_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_scepter_01.mp3",
+      "transcript": "Scepter! Yes!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_ogre_magi_ogmag_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_scepter_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_scepter_02.mp3",
+      "transcript": "What's this do? Let's find out.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ogre_magi_ogmag_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_scepter_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_scepter_03.mp3",
+      "transcript": "Got something for ya. For me?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_ogre_magi_ogmag_scepter_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_item_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_item_01.mp3",
+      "transcript": "Arcane Boots!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_ogre_magi_ogmag_item_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_item_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_item_02.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_ogre_magi_ogmag_item_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_item_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_item_03.mp3",
+      "transcript": "Bloodstone!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_ogre_magi_ogmag_item_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_immort_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_ogre_magi_ogmag_immort_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_immort_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_immort_02.mp3",
+      "transcript": "Forever together.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_ogre_magi_ogmag_immort_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_ogre_magi_ogmag_death_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_02.mp3",
+      "transcript": "How could you live with yourself?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_ogre_magi_ogmag_death_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_03.mp3",
+      "transcript": "Don't bury me next to him.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_ogre_magi_ogmag_death_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_04.mp3",
+      "transcript": "Help. Me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_ogre_magi_ogmag_death_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_05.mp3",
+      "transcript": "Dead. Ditto.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_ogre_magi_ogmag_death_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_06.mp3",
+      "transcript": "You first. No, me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_ogre_magi_ogmag_death_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_07.mp3",
+      "transcript": "This is all your fault.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ogre_magi_ogmag_death_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_08.mp3",
+      "transcript": "You let this happen.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ogre_magi_ogmag_death_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_09.mp3",
+      "transcript": "This only happens when you're around.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_ogre_magi_ogmag_death_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_10.mp3",
+      "transcript": "This only happens when you're around.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_ogre_magi_ogmag_death_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_11.mp3",
+      "transcript": "Wake up. Wake. Up.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_ogre_magi_ogmag_death_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_12.mp3",
+      "transcript": "One down. One to go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_ogre_magi_ogmag_death_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_13.mp3",
+      "transcript": "One down. One to go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_ogre_magi_ogmag_death_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_14.mp3",
+      "transcript": "Two is the loneliest number.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_ogre_magi_ogmag_death_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_15.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_15.mp3",
+      "transcript": "What? Us worry?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_ogre_magi_ogmag_death_15.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_16.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_16.mp3",
+      "transcript": "Dead. I know you are but what am I.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_ogre_magi_ogmag_death_16.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_death_17.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_death_17.mp3",
+      "transcript": "Dumb. Luck.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_ogre_magi_ogmag_death_17.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_03.mp3",
+      "transcript": "Get yourself together. Who, me?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_ogre_magi_ogmag_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_04.mp3",
+      "transcript": "Who do you think you are? Ogre Magi—you?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_ogre_magi_ogmag_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_05.mp3",
+      "transcript": "Brother, you're back! Me too!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_ogre_magi_ogmag_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_07.mp3",
+      "transcript": "Separated at birth? Not hardly.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ogre_magi_ogmag_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_08.mp3",
+      "transcript": "A second chance! But I never got a first one.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_ogre_magi_ogmag_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_09.mp3",
+      "transcript": "I'll drive this time. And I'll hurt.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_ogre_magi_ogmag_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_10.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_10.mp3",
+      "transcript": "Don't get any big ideas. Any what?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_ogre_magi_ogmag_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_11.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_11.mp3",
+      "transcript": "I still have a headache. Yeah, you do.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_ogre_magi_ogmag_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_12.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_12.mp3",
+      "transcript": "It's good to be back. Do I know you?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_ogre_magi_ogmag_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_13.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_13.mp3",
+      "transcript": "You again? Oh no.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ogre_magi_ogmag_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_14.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_14.mp3",
+      "transcript": "You again? Oh no.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_ogre_magi_ogmag_respawn_14.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_01.mp3",
+      "transcript": "Ha ha ha! Now, where were we?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ogre_magi_ogmag_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_respawn_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_respawn_02.mp3",
+      "transcript": "Hee hee hee hee hee. Where are we?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_ogre_magi_ogmag_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_bottle_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_bottle_01.mp3",
+      "transcript": "You carry the bottle. No, I will.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_ogre_magi_ogmag_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_bottle_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_bottle_02.mp3",
+      "transcript": "You carry the bottle. No, I will.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_ogre_magi_ogmag_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_bottle_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_bottle_03.mp3",
+      "transcript": "My bottle. My cork.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_ogre_magi_ogmag_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_bottle_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_bottle_04.mp3",
+      "transcript": "Was that a rune? Not telling.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_ogre_magi_ogmag_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_doubdam_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_ogre_magi_ogmag_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_doubdam_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_doubdam_02.mp3",
+      "transcript": "Double or nothing.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_ogre_magi_ogmag_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_haste_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_ogre_magi_ogmag_haste_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_haste_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_haste_02.mp3",
+      "transcript": "Left leg. Right leg!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_ogre_magi_ogmag_haste_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_illus_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ogre_magi_ogmag_illus_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_illus_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_illus_02.mp3",
+      "transcript": "Ye gods, how'd that happen? What the. Who'd the. How'd that happen?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_ogre_magi_ogmag_illus_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_invis_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_ogre_magi_ogmag_invis_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_invis_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_invis_02.mp3",
+      "transcript": "Brother, where are you? Who's asking?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_ogre_magi_ogmag_invis_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_invis_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_invis_03.mp3",
+      "transcript": "Alone. At last.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_ogre_magi_ogmag_invis_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_invis_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_invis_04.mp3",
+      "transcript": "Alone. At last.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_ogre_magi_ogmag_invis_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_regen_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_ogre_magi_ogmag_regen_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_regen_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_regen_02.mp3",
+      "transcript": "You are looking good! Thanks.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_ogre_magi_ogmag_regen_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_ogre_magi_ogmag_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_ogre_magi_ogmag_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_ogre_magi_ogmag_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_04.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_ogre_magi_ogmag_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_ogre_magi_ogmag_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_ogre_magi_ogmag_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_ogre_magi_ogmag_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_ogre_magi_ogmag_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_notyet_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_notyet_09.mp3",
+      "transcript": "Grr, it's not time yet. It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_ogre_magi_ogmag_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_ogre_magi_ogmag_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_ogre_magi_ogmag_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_ogre_magi_ogmag_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_ogre_magi_ogmag_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_ogre_magi_ogmag_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_06.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_ogre_magi_ogmag_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_ogre_magi_ogmag_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_ogre_magi_ogmag_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_nomana_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_ogre_magi_ogmag_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_ogre_magi_ogmag_pain_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_ogre_magi_ogmag_pain_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_03.mp3",
+      "transcript": "OH!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_ogre_magi_ogmag_pain_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_04.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_ogre_magi_ogmag_pain_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_ogre_magi_ogmag_pain_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_06.mp3",
+      "transcript": "Gah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_ogre_magi_ogmag_pain_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_07.mp3",
+      "transcript": "Ay!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_ogre_magi_ogmag_pain_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_pain_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_pain_08.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_ogre_magi_ogmag_pain_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_underattack_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_ogre_magi_ogmag_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_missing_lane_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_missing_lane_01.mp3",
+      "transcript": "Missing Top",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_ogre_magi_ogmag_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_missing_lane_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_missing_lane_02.mp3",
+      "transcript": "Missing Middle",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_ogre_magi_ogmag_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_missing_lane_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_missing_lane_03.mp3",
+      "transcript": "Missing Bottom",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_ogre_magi_ogmag_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_thanks_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_thanks_01.mp3",
+      "transcript": "Thank you kindly.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_ogre_magi_ogmag_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_thanks_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_thanks_02.mp3",
+      "transcript": "We didn't need--- Shut up and say thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_ogre_magi_ogmag_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_thanks_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_thanks_03.mp3",
+      "transcript": "Nice! Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_ogre_magi_ogmag_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_win_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_ogre_magi_ogmag_win_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_win_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_ogre_magi_ogmag_win_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_win_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_win_03.mp3",
+      "transcript": "I won! No, I won! Shut up! No, you shut up!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_ogre_magi_ogmag_win_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lose_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_ogre_magi_ogmag_lose_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lose_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_ogre_magi_ogmag_lose_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_lose_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_lose_03.mp3",
+      "transcript": "We won! No, we're on the other side. Oh.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_ogre_magi_ogmag_lose_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_happy_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_ogre_magi_ogmag_happy_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_happy_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_happy_04.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_ogre_magi_ogmag_happy_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_happy_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_happy_03.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_ogre_magi_ogmag_happy_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_happy_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_ogre_magi_ogmag_happy_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_01.mp3",
+      "transcript": "Hey! Oh…what?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_ogre_magi_ogmag_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_02.mp3",
+      "transcript": "What did you do? Me?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_ogre_magi_ogmag_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_03.mp3",
+      "transcript": "What did you do? Me?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_ogre_magi_ogmag_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_04.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_04.mp3",
+      "transcript": "That was your fault. Mine?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_ogre_magi_ogmag_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_05.mp3",
+      "transcript": "That was your fault. Mine?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_ogre_magi_ogmag_ability_failure_05.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_06.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_06.mp3",
+      "transcript": "That was all your fault. I guess.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_ogre_magi_ogmag_ability_failure_06.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_07.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_07.mp3",
+      "transcript": "That was all your fault. I--I guess.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_ogre_magi_ogmag_ability_failure_07.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_08.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_08.mp3",
+      "transcript": "Double damn it! Now now.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_ogre_magi_ogmag_ability_failure_08.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_ability_failure_09.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_ability_failure_09.mp3",
+      "transcript": "Double damn it! Now now.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_ogre_magi_ogmag_ability_failure_09.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_shitwiz_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_ogre_magi_ogmag_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_crumwiz_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_ogre_magi_ogmag_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_anger_01.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_anger_01.mp3",
+      "transcript": "Arrh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_ogre_magi_ogmag_anger_01.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_anger_02.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_anger_02.mp3",
+      "transcript": "Ack ack ach! No!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_ogre_magi_ogmag_anger_02.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_anger_03.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_anger_03.mp3",
+      "transcript": "Arrurrruh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_ogre_magi_ogmag_anger_03.mp3"
+    },
+    {
+      "file": "Vo_ogre_magi_ogmag_anger_05.mp3",
+      "key": "dota2/ogre-magi/Vo_ogre_magi_ogmag_anger_05.mp3",
+      "transcript": "Arrrrggghhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_ogre_magi_ogmag_anger_05.mp3"
+    }
+  ]
+}

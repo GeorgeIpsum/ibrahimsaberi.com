@@ -1,0 +1,398 @@
+---
+title: Through The Looking-Glass
+author: Ibrahim Saberi
+publishedAt: 2019-05-01
+blurb: Plagiarism is en vogue, right
+tags:
+  - css
+  - design
+  - migrated
+---
+
+## DISCLAIMER (2029 Migration)
+
+A fairly obvious note for this very dated post: This website no longer uses Tufte CSS in really any way, shape, or form. I might create some wrapper in the future that allows viewing this post in what should be its original form, but for now you can view the content and ~imagine~ an awesome Tufte CSS style on top of it.
+
+> [!CAUTION]
+> This post is like 95% straight up taken [from](https://edwardtufte.github.io/tufte-css/) [others](https://clayh53.github.io/tufte-jekyll/articles/20/tufte-style-jekyll-blog) on Tufte CSS.
+
+## An Intro To Tufte CSS
+
+The Tufte Jekyll theme is an attempt to create a website design with the look and feel of Edward Tufte's books and handouts. Tufte's style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography. The idea for this project is essentially cribbed wholesale from Tufte and R Markdown's Tufte Handout format.[^tufte-latex] This page is an adaptation of the [Tufte Handout PDF](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf). I give my thanks to all the people who have contributed to these projects!
+
+[^tufte-latex]: See [this](https://tufte-latex.github.io/tufte-latex/) and [this](http://rmarkdown.rstudio.com/tufte_handout_format.html).
+
+If you see anything that Tufte CSS could improve, your contribution is welcomed in the form of an issue or pull request on the Github project: [tufte-css](https://github.com/edwardtufte/tufte-css). Please note the [contribution guidelines](https://github.com/edwardtufte/tufte-css#contributing).
+
+This adaptation of Tufte CSS does diverge slightly from the original guidelines. The core of the guidelines are still the same, but things like link styling have changed. I'll make note of which changes I (or Clay Harmon) have made below.
+
+A final note from Dave Liepmann when he originally wrote on Tufte CSS:
+> !QUOTE [A] reminder about the goal of this project. The web is not print. Webpages are not books. Therefore, the goal of Tufte CSS is not to say “websites should look like this interpretation of Tufte's books” but rather “here are some techniques Tufte developed that we've found useful in print; maybe you can find a way to make them useful on the web”. Tufte CSS is merely a sketch of one way to implement this particular set of ideas. It should be a starting point, not a design goal, because any project should present their information as best suits their particular circumstances.
+>
+> !VIA Dave Liepmann, [forum post, 'Book design: advice and examples' thread](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)
+
+## Fundamentals
+
+### Sections and Headings
+
+Organize your document with an `article` element inside your `body` tag. Inside that, use `section`[^section] tags around each logical grouping of text and headings.
+
+[^section]: The `section` tag isn't something that's natively parsed by Markdown. I've created a Liquid block `section`, but it ends up breaking a lot of kramdown parsing (so I don't use it, or sections for that matter). You can also just write in HTML.
+
+Tufte CSS uses `h1` for the document title, `p` with class `subtitle` for the document subtitle, `h2` for section headings, and `h3` for low-level headings. More specific headings are not supported. If you feel the urge to reach for a heading of level 4 or greater, consider redesigning your document:
+
+> !QUOTE [It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn't require an elaborate hierarchy to organize.[^cite]
+>
+> !VIA [Edward Tufte, forum post, 'Book design: advice and examples' thread](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)
+
+[^cite]: Markdown doesn't have native `cite` support. I created a cite tag in Liquid that floats the attribution to the right and adds a link if that's present as a 2nd attribute. It's not implemented exactly as it is in Tufte CSS but it gets the job done. 🤷🏾‍
+
+As a bonus, this excerpt regarding the use of headings provides an example of block quotes. ~~In Tufte CSS they are just lightly styled, semantically corrent HTML using `blockquote` and `footer` elements'~~ (refer to footnote 3[^cite] on how this is actually accomplished). See page 20 of [The Visual Display of Quantitative Information](https://www.edwardtufte.com/tufte/books_vdqi) for an example in print.
+
+In his later books[^beautiful], Tufte starts each section with a bit of vertical space, a non-indented paragraph, and the first few words of the sentence set in small caps. ~~For this we use a span with the class `newthought`, as demonstrated at the beginning of this paragraph.~~[^newthought] Vertical spacing is accomplished separately through `<section>` tags. Be consistent: though we do so in this paragraph for the purpose of demonstration, do not alternate use of header elements and the `newthought` technique.[^oops] Pick one approach and stick to it.
+
+[^beautiful]: [_Beautiful Evidence_](http://www.edwardtufte.com/tufte/books_be)
+
+[^newthought]: Clay Harmon created a newthought Liquid tag that accomplishes this. I'm currently working on making it so that the additional space doesn't get inserted automatically (as seen at the beginning of this paragraph).
+
+[^oops]: Oops.
+
+### Text
+
+Although paper handouts obviously have a pure white background, the web is better served by the use of slightly off-white and off-black colors. Tufte CSS traditionally uses `#fffff8` and `#111111` because they are nearly indistinguishable from their 'pure' cousins, but dial down the harsh contrast. We stick to the greyscale for text, reserving color for specific, careful use in figures and images.[^no]
+
+[^no]: Clay Harmon's original style uses color for sidenotes and other links. I originally agreed with this approach since it unified the style with colored sidenotes (which is done because otherwise it's near impossible to tell that they're clickable), but marking up this article made me realize how distracting the red colored links are. I've since reverted to the original style.
+
+In print, Tufte has used the Monotype Bembo[^font] font. A similar effect is achieved in digital formats with the now open-source [ETBook](https://github.com/edwardtufte/et-book), which the original Tufte CSS supplies with a `@font-face` reference to a .ttf file. In case ETBook somehow doesn't work, Tufte CSS shifts gracefully to other serif fonts like Palatino and Georgia.
+
+[^font]: See Tufte's comment in the [Tufte book fonts](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Vt) thread.
+
+Also notice how Tufte CSS includes separate font files for bold (strong) and italic (emphasis), instead of relying on the browser to mechanically transform the text. This is typographic best practice.
+
+
+If you prefer sans-serifs, use the sans class. It traditionally relies on Gill Sans, Tufte's sans-serif font of choice.[^sans]
+
+[^sans]: I've created a Liquid tag for this (that also haphazardly rendered this sidenote in Gill Sans), because I clearly have written enough HTML for a lifetime.
+
+Links in traditional Tufte CSS match the body text in color and do not change on mouseover or when clicked. Here is a [dummy example](#) that goes nowhere. These links are underlined, since this is the most widely recognized indicator of clickable text. However, because most browsers' default underlining does not clear descenders and is so thick and distracting, the underline effect is instead achieved using CSS trickery involving background gradients instead of standard text-decoration. Credit goes to Adam Schwartz for that technique.
+
+As always, these design choices are merely one approach that Tufte CSS provides by default. Other approaches, such as changing color on click or mouseover, or using highlighting or color instead of underlining to denote links, could also be made to work. The goal is to make sentences readable without interference from links, as well as to make links immediately identifiable even by casual web users.[^crimson]
+
+[^crimson]: I use [Crimson Text](https://fonts.google.com/specimen/Crimson+Text) and [Rubik](https://fonts.google.com/specimen/Rubik) as my fonts of choice.
+
+## Sidenotes: Footnotes and Marginal Notes
+
+One of the most distinctive features of Tufte's style is his extensive use of sidenotes.[^sn] Sidenotes are like footnotes, except they don't force the reader to jump their eye to the bottom of the page, but instead display off to the side in the margin.
+
+[^sn]: This is a sidenote.
+
+> !QUOTE Perhaps you have noticed their use in this document already. You are very astute.
+>
+> !VIA Dave Liepmann
+
+I really couldn't allow this part of the original Tufte CSS document to ever be attributable to me (not that the vast majority of this document should ever be attributable to me). So here's the quote, to be preserved here for posterity. Now. Um. Back to sidenotes.
+
+Sidenotes are a great example of the web not being like print. On sufficiently large viewports, Tufte CSS uses the margin for sidenotes, margin notes, and small figures. On smaller viewports, elements that would go in the margin are hidden until the user toggles them into view. The goal is to present related but not necessary information such as asides or citations *as close as possible* to the text that references them. At the same time, this secondary information should stay out of the way of the eye, not interfering with the progression of ideas in the main text.
+
+Sidenotes consist of two elements: a superscript reference number that goes inline with the text, and a sidenote with content. To add the former, just put a label and dummy checkbox into the text where you want the reference to go, like so:
+
+```html
+<label for="sn-demo"
+       class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox"
+       id="sn-demo"
+       class="margin-toggle"/>
+```
+
+You must manually assign a reference `id` to each side or margin note, replacing "sn-demo" in the `for` and the `id` attribute values with an appropriate descriptor. It is useful to use prefixes like `sn-` for sidenotes and `mn-` for margin notes.[^duh]
+
+[^duh]: Verdict is still out on whether this is actually useful or not.
+
+Immediately adjacent to that sidenote reference in the main text goes the sidenote content itself, in a `span` with class `sidenote`. This tag is also inserted directly in the middle of the body text, but is either pushed into the margin or hidden by default (if you're on mobile for example). Make sure to position your sidenotes correctly by keeping the sidenote-number label close to the sidenote itself. This can easily be accomplished by just copying the Tufte CSS styles.
+
+If you want a sidenote without footnote-style numberings, then you want a margin note.[^mn] On large screens, a margin note is just a sidenote that omits the reference number. This lessens the distracting effect taking away from the flow of the main text, but can increase the cognitive load of matching a margin note to its referent text. However, on small screens, a margin note is like a sidenote except its viewability-toggle is a symbol rather than a reference number. This document currently uses the symbol ⊕ (```&#8853;```), but it's up to you.
+
+[^mn]: This is a margin note. Notice there isn't a number preceding the note.
+
+Margin notes are created just like sidenotes, but with the marginnote class for the content and the margin-toggle class for the label and dummy checkbox. For instance, here is the code for the margin note used in the previous paragraph:
+
+```html
+<label for="mn-id-mn" class="margin-toggle">&#8853;</label>
+<input type="checkbox" id="mn-id-mn" class="margin-toggle"/>
+<span class="marginnote">
+  This is a margin note. Notice there isn't a number preceding the note.
+</span>
+```
+
+Figures in the margin are created as margin notes, as demonstrated in the next section.
+
+## Figures
+
+Tufte emphasizes tight integration of graphics with text. Data, graphs, and figures are kept with the text that discusses them. In print, this means they are not relegated to a separate page. On the web, that means readability of graphics and their accompanying text without extra clicks, tab-switching, or scrolling.
+
+Figures should try to use the `figure` element, which by default are constrained to the main column.[^fig] Don't wrap figures in a paragraph tag. Any label or margin note goes in a regular margin note inside the figure. For example, most of the time one should introduce a figure directly into the main flow of discussion, like so:
+
+[^fig]: This is accomplished with a Liquid tag courtesy of Clay Harmon.
+
+![From Edward Tufte, _Visual Display of Quantitative Information_, page 92](/img/2019-05-01-tufte-css/exports-imports.png)
+
+![rhino time](/img/2019-05-01-tufte-css/rhino.png)
+
+<cite>F.J. Cole, “The History of Albrecht Dürer's Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte's *Visual Explanations*.</cite>
+
+But tight integration of graphics with text is central to Tufte's work even when those graphics are ancillary to the main body of a text. In many of those cases, a margin figure may be most appropriate. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a `p` tag, as seen to the right of this paragraph.
+
+For whatever odd reason, full-width figures won't properly clear any margin notes or margin figures if the space they inhabit clashes. I'm not sure if this is a bug with the Liquid tag used for full-width figures (I don't think it is), but it doesn't seem like it's related to the CSS being different; I've looked at both the theme and Tufte CSS and haven't found any differences that would cause this problem. Anyway, this additional text and explanation is primarily meant to help the full-width figure below clear the margin figure above.
+
+If you need a full-width figure, give it the `fullwidth` class. Make sure that's inside an article, and it will take up (almost) the full width of the screen. This approach is demonstrated below using Edward Tufte's English translation of the Napoleon's March data visualization. From *Beautiful Evidence*, page 122-124.
+
+![Napoleons March](/img/2019-05-01-tufte-css/napoleons-march.png)
+
+<cite>Napoleon's March (Edward Tufte's English translation)</cite>
+
+One obstacle to creating elegant figures on the web is the difficulty of handling different screen sizes, especially on the fly. Embedded `iframe` elements are particularly troublesome. For these instances we provide a helper class, `iframe-wrapper`, the most common use for which is probably YouTube videos, e.g.
+
+```html
+<figure class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/YslQ2625TR4" frameborder="0" allowfullscreen></iframe>
+</figure>
+```
+
+<figure>
+<iframe src="https://www.youtube.com/embed/YslQ2625TR4" allowFullScreen></iframe>
+</figure>
+
+I implemented this as a Liquid tag that only accepts the `src` attribute for the iframe as an argument. The Tufte CSS original implementation is kind of ugly so I also reduced the `padding-bottom` that determines the  height for the iframe so that it isn't so squarish. The implementation certainly isn't perfect by any means and I'll be toying around with this in the future to see if there's a better way to inject the current document width/ height into the iframe for this Liquid tag.
+
+The original implementation also allowed for the `iframe-wrapper` helper class to be thrown onto `divs`. I don't know what the hell a `div` is, so I didn't allow for that.
+
+Also, if you bothered to watch this video, you'll find that Tufte has some *extremely* hot takes on how he'd reorganize some of the UI elements in different iOS apps. It was honestly cringe enough that I'm gonna dedicate a blog post to breaking down those suggested changes and why they're largely, well, not very good. More on that later.
+
+## Code
+
+I'm not gonna lie, code syntax is at times a humongous pain in the ass in markdown. In raw HTML, you use the `code` tag inline or you surround a bunch of `code` tags with a `pre` tag if you want to show off a block of code. Fonts on this webpage for code segments will always try to use Github's Consolas but will fail back to the well known Courier.
+
+For placing code inline, you surround said code with backticks: \`put code here\` becomes `put code here`.
+
+Triple backticks can be used for code blocks (you can also input a language for proper syntax highlighting):
+
+\` \` \`javascript
+
+let foo = bar;
+
+\`\`\`
+
+becomes
+
+```javascript
+let foo = bar;
+```
+
+
+This method breaks if you put HTML in a code block. You can use triple tildes (~~~) instead in that case.
+
+## ImageQuilts
+
+I'm not gonna lie, I think these just might be the funniest things on the planet. I have no idea what function they serve other than to look like cool abstract art. Here's one below:
+
+![imagequilt](/img/2019-05-01-tufte-css/imagequilt-chinese-calligraphy.png)
+> !FIGCAP ImageQuilt Example
+
+The original Tufte CSS has included "support" for these. I have no idea what the hell that means. The above image is just a `.png` file. I haven't really looked into what an ImageQuilt is and I probably don't plan on "supporting" them on this site.
+
+## Jekyll customizations
+
+To reiterate, the original [Jekyll blog theme](https://github.com/clayh53/tufte-jekyll) is based on the github repository by Edward Tufte [here](https://github.com/edwardtufte/tufte-css), which was orginally created by Dave Leipmann, but is now labeled under Edward Tufte's moniker. Clay Harmon, the original creator of this blog theme, transformed many of the typographic and page-structural features into a set of custom Liquid tags that make creating content using this style much easier than writing straight HTML. I've gone ahead and added to those liquid tags to allow for better interpolation between HTML and markdown and to better format some of the Tufte CSS styles once they're parsed. Essentially, if you know markdown, and mix in a few custom Liquid tags, you can be creating a website with this document style in short order.
+
+The remainder of this post will be a survey of the additional features of the Tufte-Jekyll theme.
+
+### Lists
+
+Tufte points out that while lists have valid uses, they tend to promote ineffective writing habits due to their “lack of syntactic and intellectual discipline”. He is particularly critical of hierarchical and bullet-pointed lists. So before reaching for an HTML list element, ask yourself:
+
+* Does this list actually have to be represented using an HTML `ul` or `ol` element?
+* Would my idea be better expressed as sentences in paragraphs?
+* Is my message causally complex enough to warrant a flow diagram instead?
+
+This is but a small subset of a proper overview of the topic of lists in communication. Tufte CSS encourages caution before reaching for a list element, and by default removes the bullet points from unordered lists.
+
+The original Jekyll theme created by Clay Harmon also removed bullet points from ordered lists. I have readded those. Because I like lists.
+
+### Equations
+
+The Markdown parser being used by this Jekyll theme is Kramdown, which contains some built-in [Mathjax](//www.mathjax.org) support. Both inline and block-level mathematical figures can be added to the content.
+
+For instance, the following inline sequence:
+
+*When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$*
+
+is written by enclosing a Mathjax expression with a *Liquid inline tag pair* ('m' and 'em') like so:
+
+```text
+When {{ "{% m "}}%} a \ne 0{{ "{% em "}}%}, there are two solutions to {{ "{% m " }}%}ax^2 + bx + c = 0{{ "{% em " }}%}
+```
+
+
+Similarly, this block-level Mathjax expression:
+
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.
+$$
+
+is written by enclosing the expression with a *Liquid block tag pair* ('math' and 'endmath') like so:
+
+```text
+{{ "{% math "}}%}x = {-b \pm \sqrt{b^2-4ac} \over 2a}.{{ "{% endmath "}} %}
+```
+
+
+You can get pretty fancy, for instance, the wave equation's nabla is no big thing:
+
+$$
+\frac{\partial^2 y}{\partial t^2}= c^2\nabla^2u
+$$
+
+All of the standard Latex equation markup is available to use inside these block tags.
+
+Please note that the block-level Mathjax expressions *must* be on their own line, separated from content above and below the block by a blank line for the Kramdown parser and the Mathjax javascript to play nicely with one another.
+
+The Mathjax integration is tricky[^broken], and some things such as the inline matrix notation simply do not work well. Bottom line: If you are using this to document mathematics, be super careful to isolate your <span className="latex">L<sup>a</sup>T<sub>e</sub>X</span> blocks by blank lines!
+
+[^broken]: It was also initially broken. When I first looked into Mathjax when integrating this theme, it looked like the project was gone or had lost support. I'm using an old `cdnjs` source at the moment but I'm not sure what all will work or not.
+
+### Tables
+
+Tables are, frankly, a pain in the ass to create. That said, they often are one of the best methods for presenting data. Tabular data are normally presented with right-aligned numbers, left-aligned text, and minimal grid lines.
+
+Note that when writing Jekyll Markdown content, there will often be a need to get some dirt under your fingernails and stoop to writing a little honest-to-god html. Yes, all that hideous ```<table>..<thead>..<th>``` nonsense. *And* you must wrap the unholy mess in a ```<div class="table-wrapper">``` tag to ensure that the table stays centered in the main content column.
+
+Tables are designed with an `overflow: scroll;` property to create slider bars when the viewport is narrow. This is so that you do not collapse all your beautiful data into a jumble of letters and numbers when you view it on your smartphone.[^table_1]
+
+[^table_1]: *Table 1*: A table with default style formatting
+
+<div className="table-wrapper">
+  <table className="table-alpha overflow-x-scroll" id="newspaper-tone">
+    <thead>
+      <tr>
+        <th className="text">Content and tone of front-page articles in 94 U.S. newspapers, October and November, 1974</th>
+        <th>Number of articles</th>
+        <th>Percent of articles with negative criticism of specific person or policy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="text">Watergate: defendants and prosecutors, Ford's pardon of Nixon</td>
+        <td><div className="number">537</div></td>
+        <td><div className="number">49%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Inflation, high cost of living</td>
+        <td><div className="number">415</div></td>
+        <td><div className="number">28%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Government competence: costs, quality, salaries of public employees</td>
+        <td><div className="number">322</div></td>
+        <td><div className="number">30%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Confidence in government: power of special interests, trust in political leaders, dishonesty in politics</td>
+        <td><div className="number">266</div></td>
+        <td><div className="number">52%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Government power: regulation of business, secrecy, control of CIA and FBI</td>
+        <td><div className="number">154</div></td>
+        <td><div className="number">42%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Crime</td>
+        <td><div className="number">123</div></td>
+        <td><div className="number">30%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Race</td>
+        <td><div className="number">103</div></td>
+        <td><div className="number">25%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Unemployment</td>
+        <td><div className="number">100</div></td>
+        <td><div className="number">13%</div></td>
+      </tr>
+      <tr>
+        <td className="text">Shortages: energy, food</td>
+        <td><div className="number">68</div></td>
+        <td><div className="number">16%</div></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+This is not the One True Table. Such a style does not exist. One must craft each data table with custom care to the narrative one is telling with that specific data. So take this not as “the table style to use”, but rather as “a table style to start from”. From here, use principles to guide you: avoid chartjunk, optimize the data-ink ratio (“within reason”, as Tufte says), and “mobilize every graphical element, perhaps several times over, to show the data.[^table] Furthermore, one must know when to reach for more complex data presentation tools, like a custom graphic or a JavaScript charting library.
+
+[^table]: <cite>Page 139, _The Visual Display of Quantitative Information_, Edward Tufte 2001.</cite>
+
+As an example of alternative table styles, academic publications written in <span className="latex">L<sup>a</sup>T<sub>e</sub>X</span> often rely on the `booktabs` package to produce clean, clear tables. Similar results can be achieved in Tufte CSS with the `booktabs` class, as demonstrated in this table:
+[^table_2]
+
+<div className="table-wrapper">
+<table className="booktabs overflow-x-scroll">
+  <thead>
+    <tr><th colSpan="2" className="cmid">Items</th><th className="nocmid"></th></tr>
+    <tr><th>Animal</th><th>Description</th><th>Price ($)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gnat</td><td>per gram</td><td className="r">13.65</td></tr>
+    <tr><td></td><td>each</td><td className="r">0.01</td></tr>
+    <tr><td>Gnu</td><td>stuffed</td><td className="r">92.50</td></tr>
+    <tr><td>Emu</td><td>stuffed</td><td className="r">33.33</td></tr>
+    <tr><td>Armadillo</td><td>frozen</td><td className="r">8.99</td></tr>
+  </tbody>
+</table>
+</div>
+
+[^table_2]: *Table 2*: A table with booktabs style formatting
+
+Clay Harmon liked this style of table, so they have made it the default for unstyled tables. This allows use of the [*Markdown Extra*](https://michelf.ca/projects/php-markdown/extra/) features built into the [*Kramdown*](http://kramdown.gettalong.org/parser/kramdown.html) parser. Here is a table created using the Markdown Extra table syntax to make a nice table which has the side benefit of being human readable in the raw markdown file:[^table_3]
+
+|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
+|:----------------|----:|-----:|-------:|-------:|-------:|----:|
+|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
+|Mazda RX4 Wag    |21   |6     |160     |110     |3.90    |2.88 |
+|Datsun 710       |22.8 |4     |108     |93      |3.85    |2.32 |
+|Hornet 4 Drive   |21.4 |6     |258     |110     |3.08    |3.21 |
+|Hornet Sportabout|18.7 |8     |360     |175     |3.15    |3.44 |
+|Valiant          |18.1 |6     |160     |105     |2.76    |3.46 |
+
+[^table_3]: Table 3: originally a table created with *Markdown Extra* styling (that was 100% broken), I have gone ahead and just created a `tablewrapper` Liquid tag that better handles this
+
+Using the following markup(down):
+
+```md
+|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
+|:----------------|----:|-----:|-------:|-------:|-------:|----:|
+|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
+<!-- etc -->
+```
+
+The following is a more simple table, showing the Markdown-style table markup. Remember to label the table with a *marginnote* Liquid tag, and you *must* separate the label from the table with a single blank line. This markup:[^table_4]
+
+```md
+|**Left** |**Center**|**Right**|
+|:--------|:--------:|--------:|
+| Aardvarks|1        |$3.50    |
+|       Cat|5        |$4.23    |
+|  Dogs    |3        |$5.29    |
+```
+
+[^table_4]: Table 4: a simple table showing left, center, and right alignment of table headings and data
+
+Yields this table:
+
+|**Left** |**Center**|**Right**|
+|:--------|:--------:|--------:|
+| Aardvarks|1        |$3.50    |
+|       Cat|5        |$4.23    |
+|  Dogs    |3        |$5.29    |

@@ -1,50 +1,88 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
-import { headers } from "next/headers";
-import { cookies } from "next/headers";
 import Script from "next/script";
 
-import { cookie } from "@/_server/utils";
-import { Gradient } from "@/components/singletons/gradient";
-import { ThemeProvider } from "@/features/theme/ThemeProvider";
+import "@/css/globals.css";
+import "@/css/prose.css";
 
-import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "a whisper",
-  description: "a wave",
-  authors: [{ name: "Ibrahim Ali Saberi" }],
-  archives: "https://ibrahimsaberi.com/basin",
-};
+import { AnchoredToastProvider, ToastProvider } from "@/components/atoms/toast";
+import { PathHistoryProvider } from "@/components/navigation/use-path-history";
+import { fontBody, fontHeading, fontMono } from "@/css/font";
+import { cn } from "@/css/lib";
+import { ControlPanel } from "@/features/control-panel/control-panel";
+import { generateOgMetadata } from "@/features/og/generate-og-metadata";
+import { ThemeProvider } from "@/features/theme";
+import { ThemeScript } from "@/features/theme/theme-script";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const themeCookie = cookie(cookies).theme.get();
-  const defaultTheme = headers().get("Sec-CH-Prefers-Color-Scheme");
-
   return (
-    <html lang="en" data-mode={themeCookie ?? defaultTheme ?? "dark"}>
-      <body>
-        <ThemeProvider defaultTheme={themeCookie ?? (defaultTheme as Theme)}>
-          <Gradient
-            id="root-gradient"
-            className="fixed -z-20 h-screen w-full"
-          />
-          <div className="fixed bottom-0 left-0 right-0 top-0 -z-10 backdrop-blur-md" />
-          <div className="w-full pb-12 sm:pb-8 md:pb-4">{children}</div>
-        </ThemeProvider>
+    <html
+      lang="en"
+      data-theme="system"
+      data-contrast="system"
+      suppressHydrationWarning
+      className={cn(fontBody.variable, fontHeading.variable, fontMono.variable)}
+    >
+      <head>
+        <ThemeScript />
+      </head>
+      <body className="relative">
+        <PathHistoryProvider>
+          <ToastProvider>
+            <AnchoredToastProvider>
+              <div className="relative isolate flex min-h-svh flex-col">
+                <ThemeProvider defaultTheme="system" defaultContrast="system">
+                  {children}
+                </ThemeProvider>
+              </div>
+            </AnchoredToastProvider>
+          </ToastProvider>
+          <ControlPanel />
+        </PathHistoryProvider>
       </body>
-      {process.env.NODE_ENV === "production" && (
-        <Script
-          defer
-          src="https://us.umami.is/script.js"
-          data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
-        />
-      )}
-      <Script id="global-site" src="/script.js" />
+      {process.env.NODE_ENV === "production" &&
+        process.env.VERCEL_ENV === "production" && (
+          <Script
+            defer
+            src="https://us.umami.is/script.js"
+            data-website-id="9aaf5328-5880-4788-8fe0-746467b2dd9a"
+          />
+        )}
     </html>
   );
 }
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.BASE_URL ?? "https://ibrahimsaberi.com"),
+  title: "a whisper",
+  description: "a wave",
+  openGraph: generateOgMetadata("home", "a whisper. a wave."),
+  authors: [
+    { name: "Ibrahim Ali Saberi", url: "https://ibrahimsaberi.com/about" },
+    { name: "G1N", url: "https://github.com/GeorgeIpsum" },
+  ],
+  archives: "https://ibrahimsaberi.com/basin/archive",
+  alternates: {
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: "ripples — RSS" }],
+      "application/atom+xml": [{ url: "/atom.xml", title: "ripples — Atom" }],
+      "application/feed+json": [{ url: "/feed.json", title: "ripples — JSON" }],
+    },
+  },
+  icons: {
+    icon: [
+      { url: "/is.svg", type: "image/svg+xml" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+    other: [
+      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#064e3b" },
+      { rel: "shortcut icon", url: "/favicon.ico" },
+    ],
+  },
+  other: { "msapplication-config": "/browserconfig.xml" },
+};

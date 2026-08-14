@@ -1,0 +1,19 @@
+- name: "Chonk Smash"
+  type: active
+  desc: "Chonk smashes the ground, dealing damage to all enemies in a small area."
+  unique: true
+  power: 15
+  power_type: phys
+  cooldown: 9
+- name: "Caraphernelia"
+  type: active
+  desc: "CHONK BLAST"
+  unique: true
+  power: 30
+  power_type: magic
+  cooldown: 30
+  cost: /1
+- name: "Mind's Eye"
+  unique: false
+- name: "Steel Plate"
+  unique: false

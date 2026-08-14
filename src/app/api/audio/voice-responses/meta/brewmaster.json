@@ -1,0 +1,3036 @@
+{
+  "hero": "Brewmaster",
+  "slug": "brewmaster",
+  "source": "https://liquipedia.net/dota2/Brewmaster/Responses",
+  "scrapedAt": "2026-06-17T14:55:14.470Z",
+  "count": 299,
+  "voicelines": [
+    {
+      "file": "Vo_brewmaster_brew_spawn_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_01.mp3",
+      "transcript": "Brewmaster.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_brewmaster_brew_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_spawn_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_02.mp3",
+      "transcript": "The master arrives.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_brewmaster_brew_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_spawn_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_03.mp3",
+      "transcript": "This one's on me.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_brewmaster_brew_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_spawn_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_04.mp3",
+      "transcript": "I'll drink to that.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_brewmaster_brew_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_spawn_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_05.mp3",
+      "transcript": "What kind of pub is this?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_brewmaster_brew_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_spawn_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_spawn_06.mp3",
+      "transcript": "Were you wanting to see some identification?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_brewmaster_brew_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_battlebegins_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_battlebegins_01.mp3",
+      "transcript": "There's trouble abrewing.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_brewmaster_brew_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenbrawler_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenbrawler_02.mp3",
+      "transcript": "It's brawlin' time.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_brewmaster_brew_ability_drunkenbrawler_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenbrawler_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenbrawler_04.mp3",
+      "transcript": "I fight any thing in the house.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_brewmaster_brew_ability_drunkenbrawler_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_01.mp3",
+      "transcript": "Here's beer in your eye.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_brewmaster_brew_ability_drunkenhaze_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_02.mp3",
+      "transcript": "Raise em high, friends!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_brewmaster_brew_level_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_06.mp3",
+      "transcript": "I'm coming out swinging.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_brewmaster_brew_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_01.mp3",
+      "transcript": "Nerah.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_brewmaster_brew_anger_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_inthebag_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_inthebag_01.mp3",
+      "transcript": "This one, my friends, is in the bag, much like myself.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_brewmaster_brew_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenbrawler_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenbrawler_01.mp3",
+      "transcript": "Time to brawl.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_brewmaster_brew_ability_drunkenbrawler_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_brewmaster_brew_move_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_brewmaster_brew_move_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_03.mp3",
+      "transcript": "As good as another.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_brewmaster_brew_move_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_04.mp3",
+      "transcript": "I suppose.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_brewmaster_brew_move_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_05.mp3",
+      "transcript": "Dah, what's this?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_brewmaster_brew_move_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_06.mp3",
+      "transcript": "Hic! Hic!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_brewmaster_brew_move_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_07.mp3",
+      "transcript": "I barrel along.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_brewmaster_brew_move_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_08.mp3",
+      "transcript": "Just a bit tipsy.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_brewmaster_brew_move_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_09.mp3",
+      "transcript": "Most assuredly.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_brewmaster_brew_move_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_10.mp3",
+      "transcript": "What? Over there?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_brewmaster_brew_move_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_11.mp3",
+      "transcript": "For Yoy and Oyo.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_brewmaster_brew_move_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_12.mp3",
+      "transcript": "The spirits move me.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_brewmaster_brew_move_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_13.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_13.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_brewmaster_brew_move_13.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_14.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_14.mp3",
+      "transcript": "Absolutely..",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_brewmaster_brew_move_14.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_15.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_15.mp3",
+      "transcript": "I'm a bit in my cups at the moment.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_brewmaster_brew_move_15.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_16.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_16.mp3",
+      "transcript": "I trundle on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_brewmaster_brew_move_16.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_move_17.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_move_17.mp3",
+      "transcript": "In a straight line.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_brewmaster_brew_move_17.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_brewmaster_brew_attack_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_02.mp3",
+      "transcript": "Drink it in!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_brewmaster_brew_attack_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_03.mp3",
+      "transcript": "Belt one down.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_brewmaster_brew_attack_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_04.mp3",
+      "transcript": "Punch drunk.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_brewmaster_brew_attack_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_05.mp3",
+      "transcript": "Your comeuppance.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_brewmaster_brew_attack_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_06.mp3",
+      "transcript": "Dregs!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_brewmaster_brew_attack_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_07.mp3",
+      "transcript": "Out my way!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_brewmaster_brew_attack_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_08.mp3",
+      "transcript": "Put up a fight.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_brewmaster_brew_attack_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_09.mp3",
+      "transcript": "You…still there?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_brewmaster_brew_attack_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_10.mp3",
+      "transcript": "One for luck.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_brewmaster_brew_attack_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_11.mp3",
+      "transcript": "Bah!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_brewmaster_brew_attack_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_attack_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_attack_12.mp3",
+      "transcript": "Step aside or fall dead.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_brewmaster_brew_attack_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_cast_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_cast_01.mp3",
+      "transcript": "Barreling in!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_brewmaster_brew_cast_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_cast_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_cast_02.mp3",
+      "transcript": "Oh ho, now it's on.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_brewmaster_brew_cast_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_cast_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_cast_03.mp3",
+      "transcript": "Now you're in for it!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_brewmaster_brew_cast_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_thunderclap_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_thunderclap_01.mp3",
+      "transcript": "It's a kegger!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_brewmaster_brew_ability_thunderclap_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_thunderclap_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_thunderclap_02.mp3",
+      "transcript": "A barrel of laughs!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_brewmaster_brew_ability_thunderclap_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_thunderclap_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_thunderclap_03.mp3",
+      "transcript": "Hiya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_brewmaster_brew_ability_thunderclap_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_02.mp3",
+      "transcript": "Woah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_brewmaster_brew_ability_primalsplit_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_03.mp3",
+      "transcript": "Ooya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_brewmaster_brew_ability_primalsplit_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_02.mp3",
+      "transcript": "Drinks are on you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_brewmaster_brew_ability_drunkenhaze_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_03.mp3",
+      "transcript": "Bottoms up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_brewmaster_brew_ability_drunkenhaze_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_04.mp3",
+      "transcript": "Have another, I insist.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_brewmaster_brew_ability_drunkenhaze_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_05.mp3",
+      "transcript": "Just a mite under the influence.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_brewmaster_brew_ability_drunkenhaze_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_06.mp3",
+      "transcript": "How many times are you gonna miss?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_brewmaster_brew_ability_drunkenhaze_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_07.mp3",
+      "transcript": "Can't you hit anything?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_brewmaster_brew_ability_drunkenhaze_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenhaze_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenhaze_08.mp3",
+      "transcript": "Having trouble seeing straight?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_brewmaster_brew_ability_drunkenhaze_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_drunkenbrawler_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_drunkenbrawler_03.mp3",
+      "transcript": "Why I'll fight ya.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_brewmaster_brew_ability_drunkenbrawler_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_01.mp3",
+      "transcript": "Manneh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_brewmaster_brew_ability_primalsplit_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_04.mp3",
+      "transcript": "By Yoy.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_brewmaster_brew_ability_primalsplit_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_05.mp3",
+      "transcript": "By Oyo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_brewmaster_brew_ability_primalsplit_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_06.mp3",
+      "transcript": "Primal split!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_brewmaster_brew_ability_primalsplit_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_07.mp3",
+      "transcript": "I'm seeing triple!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_brewmaster_brew_ability_primalsplit_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_08.mp3",
+      "transcript": "Three of me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_brewmaster_brew_ability_primalsplit_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_09.mp3",
+      "transcript": "Anytime you're ready guys.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_brewmaster_brew_ability_primalsplit_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_13.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_13.mp3",
+      "transcript": "Ah, my boozin' buddies.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_brewmaster_brew_ability_primalsplit_13.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_14.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_14.mp3",
+      "transcript": "Jump in any time guys. Guys!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_brewmaster_brew_ability_primalsplit_14.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_10.mp3",
+      "transcript": "I love you guys.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_brewmaster_brew_ability_primalsplit_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_11.mp3",
+      "transcript": "Ah, I love you guys.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_brewmaster_brew_ability_primalsplit_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_12.mp3",
+      "transcript": "Three cheers!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_brewmaster_brew_ability_primalsplit_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_15.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_15.mp3",
+      "transcript": "I'll take it from here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_brewmaster_brew_ability_primalsplit_15.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_16.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_16.mp3",
+      "transcript": "Back in the action.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_brewmaster_brew_ability_primalsplit_16.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_primalsplit_17.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_primalsplit_17.mp3",
+      "transcript": "You guys go get more booze.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_brewmaster_brew_ability_primalsplit_17.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_01.mp3",
+      "transcript": "My cup runneth over.",
+      "categories": [
+        "Leveling up",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_brewmaster_brew_level_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_03.mp3",
+      "transcript": "Spirits rising!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_brewmaster_brew_level_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_04.mp3",
+      "transcript": "Top me off!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_brewmaster_brew_level_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_05.mp3",
+      "transcript": "This calls for a drinking song!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_brewmaster_brew_level_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_06.mp3",
+      "transcript": "Let's celebrate with another round.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_brewmaster_brew_level_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_07.mp3",
+      "transcript": "Now I'm feeling it.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_brewmaster_brew_level_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_08.mp3",
+      "transcript": "Oh, so bubbly!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_brewmaster_brew_level_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_09.mp3",
+      "transcript": "Liquored up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_brewmaster_brew_level_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_level_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_level_10.mp3",
+      "transcript": "That goes down smooth.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_brewmaster_brew_level_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_01.mp3",
+      "transcript": "Sorry friend, just trying to help.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_brewmaster_brew_kill_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_02.mp3",
+      "transcript": "What happened to you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_brewmaster_brew_kill_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_03.mp3",
+      "transcript": "What's wrong? Can't hold your liquor? . . Hello?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_brewmaster_brew_kill_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_04.mp3",
+      "transcript": "I hoist a brew in your honor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_brewmaster_brew_kill_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_05.mp3",
+      "transcript": "Why are you so fragile?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_brewmaster_brew_kill_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_06.mp3",
+      "transcript": "Did I do that?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_brewmaster_brew_kill_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_07.mp3",
+      "transcript": "What? That killed you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_brewmaster_brew_kill_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_08.mp3",
+      "transcript": "They break so easily.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_brewmaster_brew_kill_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_09.mp3",
+      "transcript": "I'll drink to your memory.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_brewmaster_brew_kill_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_10.mp3",
+      "transcript": "You should have come to me for instruction.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_brewmaster_brew_kill_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_11.mp3",
+      "transcript": "That wasn't even a strong one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_brewmaster_brew_kill_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_kill_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_kill_12.mp3",
+      "transcript": "Cheers!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_brewmaster_brew_kill_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_01.mp3",
+      "transcript": "Hehehehahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_brewmaster_brew_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_02.mp3",
+      "transcript": "Hehahahahaheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_brewmaster_brew_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_03.mp3",
+      "transcript": "Hehehehehhe oops.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_brewmaster_brew_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_04.mp3",
+      "transcript": "Hehehehahah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_brewmaster_brew_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_05.mp3",
+      "transcript": "Heheaha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_brewmaster_brew_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_06.mp3",
+      "transcript": "Hehahaha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_brewmaster_brew_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_10.mp3",
+      "transcript": "Haahahahahaahha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_brewmaster_brew_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_11.mp3",
+      "transcript": "Heheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_brewmaster_brew_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_12.mp3",
+      "transcript": "Ohohohoho.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_brewmaster_brew_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_13.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_13.mp3",
+      "transcript": "Hehah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_brewmaster_brew_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_14.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_14.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_brewmaster_brew_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_15.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_15.mp3",
+      "transcript": "Hhohah!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_brewmaster_brew_laugh_15.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_16.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_16.mp3",
+      "transcript": "Hahahehehahah.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_brewmaster_brew_laugh_16.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_17.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_17.mp3",
+      "transcript": "Oohohouhuho.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_brewmaster_brew_laugh_17.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_18.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_18.mp3",
+      "transcript": "Hahahahahugheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_brewmaster_brew_laugh_18.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_19.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_19.mp3",
+      "transcript": "Hahahahahaha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_brewmaster_brew_laugh_19.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_20.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_20.mp3",
+      "transcript": "Hehehem.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_brewmaster_brew_laugh_20.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_21.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_21.mp3",
+      "transcript": "Heheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_brewmaster_brew_laugh_21.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_22.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_22.mp3",
+      "transcript": "Heheheheheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_brewmaster_brew_laugh_22.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_23.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_23.mp3",
+      "transcript": "Hemehehm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_brewmaster_brew_laugh_23.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_24.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_24.mp3",
+      "transcript": "Yehehehehhehehehheh.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_brewmaster_brew_laugh_24.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_01.mp3",
+      "transcript": "Nothing wrong with water a bit of hops and malt couldn't fix.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_brewmaster_brew_rival_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_02.mp3",
+      "transcript": "What you need, Morphling, is a nice foamy head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_brewmaster_brew_rival_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_03.mp3",
+      "transcript": "Morphling, you're making me thirsty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_brewmaster_brew_rival_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_04.mp3",
+      "transcript": "Water water everywhere, but I wouldn't drink you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_brewmaster_brew_rival_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_05.mp3",
+      "transcript": "Water…yick.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_brewmaster_brew_rival_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_06.mp3",
+      "transcript": "Slardar, you drink like a fish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_brewmaster_brew_rival_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_07.mp3",
+      "transcript": "I've no use for spirits of the non-drinkable variety.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_brewmaster_brew_rival_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_08.mp3",
+      "transcript": "I prefer my spirits in liquid form.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_brewmaster_brew_rival_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_20.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_20.mp3",
+      "transcript": "Time for a cold one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_brewmaster_brew_rival_20.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_09.mp3",
+      "transcript": "Spirits, eh? Show me some proof. Heheheh, that's a pun.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_brewmaster_brew_rival_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_10.mp3",
+      "transcript": "Who's hammered now, huh? Heheh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_brewmaster_brew_rival_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_11.mp3",
+      "transcript": "How about a little hair of the dog?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_brewmaster_brew_rival_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_12.mp3",
+      "transcript": "Your blood alcohol level was insufficient.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_brewmaster_brew_rival_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_14.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_14.mp3",
+      "transcript": "You can buy the next round.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_brewmaster_brew_rival_14.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_15.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_15.mp3",
+      "transcript": "Rum is for sissies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_brewmaster_brew_rival_15.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_17.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_17.mp3",
+      "transcript": "I drank you under the table, and the ground.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_brewmaster_brew_rival_17.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_16.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_16.mp3",
+      "transcript": "Tide, I think you're the only one here who drinks more than I do.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_brewmaster_brew_rival_16.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_22.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_22.mp3",
+      "transcript": "Our ancestors welcome you home, cousin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_brewmaster_brew_rival_22.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_23.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_23.mp3",
+      "transcript": "The wailing mountains will grieve your name tonight, my cousin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_brewmaster_brew_rival_23.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_25.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_25.mp3",
+      "transcript": "Your ember may burn out, but your spirit returns to our ancestors.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_brewmaster_brew_rival_25.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_26.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_26.mp3",
+      "transcript": "You rejoin the spirit plane.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_brewmaster_brew_rival_26.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_28.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_28.mp3",
+      "transcript": "That knocked you off your high horse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_brewmaster_brew_rival_28.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_29.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_29.mp3",
+      "transcript": "I'll use your helmet for a chalice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_brewmaster_brew_rival_29.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_31.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_31.mp3",
+      "transcript": "Teetotalled ya!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_brewmaster_brew_rival_31.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_firstblood_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_firstblood_01.mp3",
+      "transcript": "Shall we call this off and have a friendly round?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_brewmaster_brew_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_firstblood_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_firstblood_02.mp3",
+      "transcript": "First blood. Well, that was quick.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_brewmaster_brew_firstblood_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_firstblood_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_firstblood_03.mp3",
+      "transcript": "First blood! I'll drink to that.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_brewmaster_brew_firstblood_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_firstblood_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_firstblood_04.mp3",
+      "transcript": "Who is that? Show yourself!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_brewmaster_brew_firstblood_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ally_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ally_01.mp3",
+      "transcript": "Let's raise a cup before battle!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_brewmaster_brew_ally_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_01.mp3",
+      "transcript": "Gold for my tab.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_brewmaster_brew_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_02.mp3",
+      "transcript": "Punch drunk.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_brewmaster_brew_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_03.mp3",
+      "transcript": "Bottom of the barrel.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_brewmaster_brew_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_04.mp3",
+      "transcript": "Down the hatch.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_brewmaster_brew_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_05.mp3",
+      "transcript": "You're buying.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_brewmaster_brew_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_06.mp3",
+      "transcript": "You forgot your gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_brewmaster_brew_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_07.mp3",
+      "transcript": "Eh he heh heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_brewmaster_brew_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_08.mp3",
+      "transcript": "Hic uh, heh eh eh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_brewmaster_brew_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lasthit_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lasthit_09.mp3",
+      "transcript": "Eh he heh heh he eh.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_brewmaster_brew_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_brewmaster_brew_deny_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_02.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_brewmaster_brew_deny_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_brewmaster_brew_deny_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_04.mp3",
+      "transcript": "Not so fast.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_brewmaster_brew_deny_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_05.mp3",
+      "transcript": "Not so fast.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_brewmaster_brew_deny_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_06.mp3",
+      "transcript": "Too slow.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_brewmaster_brew_deny_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_07.mp3",
+      "transcript": "Beat you to it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_brewmaster_brew_deny_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_08.mp3",
+      "transcript": "Beat you to it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_brewmaster_brew_deny_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_09.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_brewmaster_brew_deny_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_10.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_brewmaster_brew_deny_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_11.mp3",
+      "transcript": "Ah ah hic…ah.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_brewmaster_brew_deny_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_deny_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_deny_12.mp3",
+      "transcript": "Hic, I…I don't think so.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_brewmaster_brew_deny_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_purch_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_purch_01.mp3",
+      "transcript": "Worth its weight in gold.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_brewmaster_brew_purch_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_purch_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_purch_02.mp3",
+      "transcript": "Finally.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_brewmaster_brew_purch_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_purch_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_purch_03.mp3",
+      "transcript": "Now balance will be achieved.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_brewmaster_brew_purch_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_blink_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_blink_01.mp3",
+      "transcript": "I'll use the pointy end.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_brewmaster_brew_blink_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_blink_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_blink_02.mp3",
+      "transcript": "Blink Stagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_brewmaster_brew_blink_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_blink_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_blink_03.mp3",
+      "transcript": "Blink dagger, blink stagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_brewmaster_brew_blink_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_scepter_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_scepter_01.mp3",
+      "transcript": "Oh, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_brewmaster_brew_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_scepter_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_scepter_02.mp3",
+      "transcript": "Exceptional!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_brewmaster_brew_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_01.mp3",
+      "transcript": "A bottle. Now we're talking!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_brewmaster_brew_item_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_02.mp3",
+      "transcript": "Battle Fury!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_brewmaster_brew_item_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_03.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_brewmaster_brew_item_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_04.mp3",
+      "transcript": "Satanic!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_brewmaster_brew_item_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_05.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_brewmaster_brew_item_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_06.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_brewmaster_brew_item_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_07.mp3",
+      "transcript": "Sange and Yasha.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_brewmaster_brew_item_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_08.mp3",
+      "transcript": "Necronamacon, or something.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_brewmaster_brew_item_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_09.mp3",
+      "transcript": "Necronomicon.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_brewmaster_brew_item_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_10.mp3",
+      "transcript": "Radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_brewmaster_brew_item_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_item_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_item_11.mp3",
+      "transcript": "Drum of Endurance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_brewmaster_brew_item_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_immort_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_brewmaster_brew_immort_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_immort_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_immort_02.mp3",
+      "transcript": "May the draft of life flow freely.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_brewmaster_brew_immort_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_01.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_brewmaster_brew_death_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_02.mp3",
+      "transcript": "Couldn't hold my liquor.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_brewmaster_brew_death_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_03.mp3",
+      "transcript": "Wasted.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_brewmaster_brew_death_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_04.mp3",
+      "transcript": "Old habits die hard.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_brewmaster_brew_death_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_05.mp3",
+      "transcript": "My…liver.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_brewmaster_brew_death_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_06.mp3",
+      "transcript": "Last call.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_brewmaster_brew_death_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_07.mp3",
+      "transcript": "I've been cut off.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_brewmaster_brew_death_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_08.mp3",
+      "transcript": "It's closing time.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_brewmaster_brew_death_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_09.mp3",
+      "transcript": "Wait…I'll never touch the stuff again.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_brewmaster_brew_death_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_death_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_death_10.mp3",
+      "transcript": "Dead drunk.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_brewmaster_brew_death_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_21.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_21.mp3",
+      "transcript": "You froze my barrel.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_brewmaster_brew_rival_21.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_18.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_18.mp3",
+      "transcript": "I should have stayed away from the hard stuff.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_brewmaster_brew_rival_18.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_24.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_24.mp3",
+      "transcript": "Bury me beneath the Ruined City.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_brewmaster_brew_rival_24.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_13.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_13.mp3",
+      "transcript": "Careful, my blood alcohol level is fatal.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_brewmaster_brew_rival_13.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_19.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_19.mp3",
+      "transcript": "Spear before liquor, never sicker.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_brewmaster_brew_rival_19.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_27.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_27.mp3",
+      "transcript": "The mountains shall wail my name.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_brewmaster_brew_rival_27.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rival_30.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rival_30.mp3",
+      "transcript": "I used to like horses.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_brewmaster_brew_rival_30.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_01.mp3",
+      "transcript": "It's happy hour!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_brewmaster_brew_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_02.mp3",
+      "transcript": "Next round is on me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_brewmaster_brew_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_03.mp3",
+      "transcript": "Oh, my aching head.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_brewmaster_brew_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_04.mp3",
+      "transcript": "Need coffee.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_brewmaster_brew_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_05.mp3",
+      "transcript": "The battle is meat and drink to me! More so drink than the meat part.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_brewmaster_brew_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_07.mp3",
+      "transcript": "I'm not in fighting trim, but I'll do.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_brewmaster_brew_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_08.mp3",
+      "transcript": "Yoy and Oyo return me to life.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_brewmaster_brew_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_09.mp3",
+      "transcript": "Contrary forces give rise to my existence.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_brewmaster_brew_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_10.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_10.mp3",
+      "transcript": "I live to drink another day! Hehaha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_brewmaster_brew_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_11.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_11.mp3",
+      "transcript": "How about another round!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_brewmaster_brew_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_respawn_12.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_respawn_12.mp3",
+      "transcript": "Let's take it outside.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_brewmaster_brew_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_fastres_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_fastres_01.mp3",
+      "transcript": "Hehah! Wait for it.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_brewmaster_brew_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_bottle_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_bottle_01.mp3",
+      "transcript": "I'll empty this bottle soon enough.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_brewmaster_brew_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_bottle_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_bottle_02.mp3",
+      "transcript": "Into my trusty bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_brewmaster_brew_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_bottle_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_bottle_03.mp3",
+      "transcript": "One for the road.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_brewmaster_brew_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_bottle_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_bottle_04.mp3",
+      "transcript": "This rune is ninety proof.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_brewmaster_brew_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_08.mp3",
+      "transcript": "Ohhah.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_brewmaster_brew_happy_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_doubdam_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_brewmaster_brew_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_doubdam_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_doubdam_02.mp3",
+      "transcript": "Heh, seeing double.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_brewmaster_brew_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_haste_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_brewmaster_brew_haste_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_haste_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_haste_02.mp3",
+      "transcript": "Hasten me to battle.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_brewmaster_brew_haste_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_illus_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_brewmaster_brew_illus_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_illus_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_illus_02.mp3",
+      "transcript": "Ah, the more the merrier. There I am.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_brewmaster_brew_illus_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_invis_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_brewmaster_brew_invis_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_invis_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_invis_02.mp3",
+      "transcript": "What happened to me?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_brewmaster_brew_invis_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_regen_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_brewmaster_brew_regen_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_regen_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_regen_02.mp3",
+      "transcript": "Feeling no pain.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_brewmaster_brew_regen_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_brewmaster_brew_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_brewmaster_brew_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_brewmaster_brew_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_brewmaster_brew_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_brewmaster_brew_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_brewmaster_brew_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_brewmaster_brew_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_brewmaster_brew_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_notyet_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_brewmaster_brew_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_brewmaster_brew_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_brewmaster_brew_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_brewmaster_brew_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_brewmaster_brew_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_brewmaster_brew_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_06.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_brewmaster_brew_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_brewmaster_brew_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_brewmaster_brew_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_nomana_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_brewmaster_brew_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_01.mp3",
+      "transcript": "Dugh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_brewmaster_brew_pain_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_02.mp3",
+      "transcript": "Bagh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_brewmaster_brew_pain_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_03.mp3",
+      "transcript": "Bough.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_brewmaster_brew_pain_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_04.mp3",
+      "transcript": "Ooghh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_brewmaster_brew_pain_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_05.mp3",
+      "transcript": "Daogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_brewmaster_brew_pain_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_06.mp3",
+      "transcript": "Ough.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_brewmaster_brew_pain_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_07.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_brewmaster_brew_pain_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_pain_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_pain_08.mp3",
+      "transcript": "Huhuh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_brewmaster_brew_pain_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_underattack_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_brewmaster_brew_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_underattack_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_underattack_02.mp3",
+      "transcript": "They're trying to kill me!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_brewmaster_brew_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rare_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rare_01.mp3",
+      "transcript": "Drink and be bleary, for tomorrow we die.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_brewmaster_brew_rare_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rare_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rare_02.mp3",
+      "transcript": "My Oyo forebears speed my staff.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_brewmaster_brew_rare_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rare_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rare_03.mp3",
+      "transcript": "My Yoy ancestors strengthen my abilities.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_brewmaster_brew_rare_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_rare_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_rare_04.mp3",
+      "transcript": "I will one day return to the Ruined City and again hear the wheel books' song.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_brewmaster_brew_rare_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lane_missing_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lane_missing_01.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_brewmaster_brew_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_missing_lane_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_missing_lane_01.mp3",
+      "transcript": "Missing top.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_brewmaster_brew_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lane_missing_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lane_missing_02.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_brewmaster_brew_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_missing_lane_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_missing_lane_02.mp3",
+      "transcript": "Missing middle.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_brewmaster_brew_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lane_missing_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lane_missing_03.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_brewmaster_brew_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_missing_lane_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_missing_lane_03.mp3",
+      "transcript": "Missing bottom.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_brewmaster_brew_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_thanks_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_thanks_01.mp3",
+      "transcript": "To your health.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_brewmaster_brew_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_thanks_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_thanks_02.mp3",
+      "transcript": "Much obliged.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_brewmaster_brew_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_07.mp3",
+      "transcript": "Hehaahehah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_brewmaster_brew_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_08.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_08.mp3",
+      "transcript": "Hahahahah!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_brewmaster_brew_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_laugh_09.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_laugh_09.mp3",
+      "transcript": "Ahah!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_brewmaster_brew_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_win_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_brewmaster_brew_win_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_win_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_brewmaster_brew_win_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_win_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_win_03.mp3",
+      "transcript": "They'll raise their cups for years to come!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_brewmaster_brew_win_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_win_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_win_04.mp3",
+      "transcript": "Enlightenment is mine.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_brewmaster_brew_win_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lose_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lose_01.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_brewmaster_brew_lose_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lose_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_brewmaster_brew_lose_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_lose_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_lose_03.mp3",
+      "transcript": "My cup runneth empty.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_brewmaster_brew_lose_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_01.mp3",
+      "transcript": "Eahhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_brewmaster_brew_happy_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_04.mp3",
+      "transcript": "Oheh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_brewmaster_brew_happy_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_02.mp3",
+      "transcript": "Oooh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_brewmaster_brew_happy_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_03.mp3",
+      "transcript": "Aeh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_brewmaster_brew_happy_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_failure_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_failure_01.mp3",
+      "transcript": "Many a slip twixt the cup and lip.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_brewmaster_brew_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_failure_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_failure_02.mp3",
+      "transcript": "Ah, well.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_brewmaster_brew_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_ability_failure_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_ability_failure_03.mp3",
+      "transcript": "Better luck next time.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_brewmaster_brew_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_shitwiz_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_brewmaster_brew_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_crumwiz_01.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_brewmaster_brew_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_02.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_02.mp3",
+      "transcript": "Arhgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_brewmaster_brew_anger_02.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_03.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_03.mp3",
+      "transcript": "Rearh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_brewmaster_brew_anger_03.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_04.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_04.mp3",
+      "transcript": "Reereh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_brewmaster_brew_anger_04.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_05.mp3",
+      "transcript": "Regh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_brewmaster_brew_anger_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_anger_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_anger_06.mp3",
+      "transcript": "Argh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_brewmaster_brew_anger_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_05.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_05.mp3",
+      "transcript": "Oooh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_brewmaster_brew_happy_05.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_06.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_06.mp3",
+      "transcript": "Ahhheheh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_brewmaster_brew_happy_06.mp3"
+    },
+    {
+      "file": "Vo_brewmaster_brew_happy_07.mp3",
+      "key": "dota2/brewmaster/Vo_brewmaster_brew_happy_07.mp3",
+      "transcript": "Eagh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_brewmaster_brew_happy_07.mp3"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+import { ArkErrors } from "arktype";
+import { type NextRequest, NextResponse } from "next/server";
+import { reflectSchema } from "@/features/reflection";
+import { clampedNumber, randomArrayMember } from "@/utils/rand";
+
+const reflect = (
+  alignment: number,
+  it: string,
+  values?: Record<string, unknown>,
+) => {
+  const value = Buffer.from(JSON.stringify({ alignment, ...values })).toString(
+    "base64",
+  );
+
+  const response = new NextResponse(
+    JSON.stringify({
+      it,
+      value,
+    }),
+  );
+
+  response.cookies.set("reflection", value, {
+    httpOnly: true,
+    secure: true,
+    path: "/",
+    sameSite: "strict",
+    expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 1 week expiration
+  });
+
+  return response;
+};
+
+const parseReflectionBody = async (request: NextRequest) => {
+  const body = await request.json();
+  const parsed = reflectSchema(body);
+  if (parsed instanceof ArkErrors) {
+    console.warn(
+      "Failed to parse reflection body:",
+      body,
+      parsed.flatProblemsByPath,
+    );
+    throw new Error("Failed to parse reflection body.");
+  }
+  return parsed;
+};
+
+export const GET = async (request: NextRequest) => {
+  const reflectionCookie = request.cookies.get("reflection");
+
+  if (!reflectionCookie) {
+    const noSet = request.headers.get("x-skip-set") === "true";
+
+    if (noSet) {
+      return NextResponse.json({
+        it: "has no reflection",
+      });
+    }
+
+    const whisperer = request.headers.get("x-whisper") === process.env.WISP;
+    const waver = request.headers.get("x-waver") === process.env.WAV;
+    const alignment = whisperer ? 28 : waver ? 29 : clampedNumber(1, 27, true);
+
+    return reflect(alignment, "begins");
+  } else if (reflectionCookie?.value) {
+    const parsedCookie = reflectSchema(
+      JSON.parse(
+        Buffer.from(reflectionCookie.value, "base64").toString("utf-8"),
+      ),
+    );
+
+    if (parsedCookie instanceof ArkErrors) {
+      // YOU WILL BE PUNISHED FOR YOUR SINS
+      const sentence = [5, 8, 11, 14, 15, 17, 22, 24, 25];
+      const alignment = randomArrayMember(sentence);
+
+      return reflect(alignment, "is forgiven");
+    }
+
+    return NextResponse.json({
+      it: "follows",
+      value: reflectionCookie.value,
+    });
+  }
+};
+
+export const PUT = async (request: NextRequest) => {
+  try {
+    const reflection = await parseReflectionBody(request);
+    const reflectionCookie = request.cookies.get("reflection");
+    if (!reflectionCookie?.value) {
+      return NextResponse.json({ it: "lacks definition" }, { status: 400 });
+    }
+
+    const parsedCookie = reflectSchema(
+      JSON.parse(
+        Buffer.from(reflectionCookie.value, "base64").toString("utf-8"),
+      ),
+    );
+
+    if (
+      parsedCookie instanceof ArkErrors ||
+      parsedCookie.alignment !== reflection.alignment
+    ) {
+      return NextResponse.json({ it: "is corrupted" }, { status: 400 });
+    }
+
+    const { alignment, ...rest } = parsedCookie;
+    if (reflection.qs) {
+      const misaligned = rest.qs?.some(({ id, a }) => {
+        if (id === "welcome") {
+          return false;
+        }
+        const q = reflection.qs?.find((question) => question.id === id);
+        if (q) {
+          return a !== undefined && q.a !== undefined && q.a !== a;
+        }
+        return false;
+      });
+
+      if (misaligned) {
+        return NextResponse.json({ it: "is misaligned" }, { status: 400 });
+      }
+    }
+
+    return reflect(alignment, "is committed", {
+      ...rest,
+      ...reflection,
+    });
+  } catch {
+    return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
+  }
+
+  // return NextResponse.json({ it: "breaches the unknown" }, { status: 400 });
+};
+
+export const POST = async (request: NextRequest) => {
+  const reflectHeader = request.headers.get("x-reflect");
+  if (reflectHeader !== process.env.REFLECT) {
+    return NextResponse.json({ it: "is not you" }, { status: 403 });
+  }
+
+  try {
+    const reflection = await parseReflectionBody(request);
+    const newAlignment = reflection.alignment;
+
+    return reflect(newAlignment, "is renewed");
+  } catch {
+    return NextResponse.json({ it: "lacks clarity" }, { status: 400 });
+  }
+};
+
+export const DELETE = async (request: NextRequest) => {
+  const reflectHeader = request.headers.get("x-reflect");
+  if (reflectHeader !== process.env.REFLECT) {
+    return NextResponse.json({ it: "is not you" }, { status: 403 });
+  }
+
+  const response = new NextResponse(JSON.stringify({ it: "is purged" }), {
+    status: 200,
+  });
+  response.cookies.delete("reflection");
+  return response;
+};

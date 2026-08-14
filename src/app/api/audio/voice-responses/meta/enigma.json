@@ -1,0 +1,2422 @@
+{
+  "hero": "Enigma",
+  "slug": "enigma",
+  "source": "https://liquipedia.net/dota2/Enigma/Responses",
+  "scrapedAt": "2026-06-17T14:57:44.452Z",
+  "count": 240,
+  "voicelines": [
+    {
+      "file": "Vo_enigma_enig_spawn_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_01.mp3",
+      "transcript": "Enigma.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_enigma_enig_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_02.mp3",
+      "transcript": "I am the Enigma.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_enigma_enig_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_03.mp3",
+      "transcript": "My current incarnation.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_enigma_enig_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_04.mp3",
+      "transcript": "My form collapses into being.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_05.mp3",
+      "transcript": "My pattern emerges.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_enigma_enig_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_06.mp3",
+      "transcript": "I take form, consumer of worlds.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_enigma_enig_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_07.mp3",
+      "transcript": "Void made flesh.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_08.mp3",
+      "transcript": "From void and shadow, I assemble.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enigma_enig_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_spawn_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_spawn_09.mp3",
+      "transcript": "I am.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_enigma_enig_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_13.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_13.mp3",
+      "transcript": "Reality is illusion.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_enigma_enig_move_13.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_08.mp3",
+      "transcript": "I stare also into you.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_enigma_enig_attack_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_03.mp3",
+      "transcript": "I am a universal constant.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_enigma_enig_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_01.mp3",
+      "transcript": "Ehhhhhh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_enigma_enig_anger_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_inthebag_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_enigma_enig_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_inthebag_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_inthebag_02.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_enigma_enig_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_inthebag_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_inthebag_03.mp3",
+      "transcript": "This is in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_enigma_enig_inthebag_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_battlebegins_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_battlebegins_01.mp3",
+      "transcript": "Conflict is eternal. No less so am I.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_enigma_enig_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_01.mp3",
+      "transcript": "Yes",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_enigma_enig_move_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_02.mp3",
+      "transcript": "A new location.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_enigma_enig_move_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_03.mp3",
+      "transcript": "A path integral to victory.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_enigma_enig_move_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_04.mp3",
+      "transcript": "Acceleration.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_enigma_enig_move_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_05.mp3",
+      "transcript": "As you suggest.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_enigma_enig_move_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_06.mp3",
+      "transcript": "I go.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_enigma_enig_move_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_07.mp3",
+      "transcript": "My pattern changes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_enigma_enig_move_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_09.mp3",
+      "transcript": "I flow on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_enigma_enig_move_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_10.mp3",
+      "transcript": "My wave advances.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_enigma_enig_move_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_11.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_11.mp3",
+      "transcript": "I propagate forward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_enigma_enig_move_11.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_12.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_12.mp3",
+      "transcript": "As you wish.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_enigma_enig_move_12.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_move_14.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_move_14.mp3",
+      "transcript": "Action principle.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_enigma_enig_move_14.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_enigma_enig_attack_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_02.mp3",
+      "transcript": "We entangle.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_enigma_enig_attack_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_03.mp3",
+      "transcript": "Shooting star.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_enigma_enig_attack_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_04.mp3",
+      "transcript": "We fight!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_enigma_enig_attack_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_05.mp3",
+      "transcript": "Comet strike!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_enigma_enig_attack_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_06.mp3",
+      "transcript": "Big bang.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_enigma_enig_attack_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_attack_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_attack_07.mp3",
+      "transcript": "I smash you.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_enigma_enig_attack_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_cast_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_cast_01.mp3",
+      "transcript": "Quickly now.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_enigma_enig_cast_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_cast_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_cast_02.mp3",
+      "transcript": "Inexorable advance.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_enigma_enig_cast_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_cast_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_cast_03.mp3",
+      "transcript": "In gravity's well…",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_enigma_enig_cast_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_demon_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_demon_01.mp3",
+      "transcript": "Control is mine.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_enigma_enig_ability_demon_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_demon_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_demon_02.mp3",
+      "transcript": "Serve the void.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_enigma_enig_ability_demon_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_black_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_black_01.mp3",
+      "transcript": "If light cannot escape me, what hope have you?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_enigma_enig_ability_black_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_black_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_black_02.mp3",
+      "transcript": "Crushing void.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_enigma_enig_ability_black_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_black_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_black_03.mp3",
+      "transcript": "Stare into the abyss.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enigma_enig_ability_black_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_01.mp3",
+      "transcript": "A higher order of being.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_enigma_enig_level_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_02.mp3",
+      "transcript": "Deeper understanding.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_enigma_enig_level_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_03.mp3",
+      "transcript": "My influence grows.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_enigma_enig_level_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_04.mp3",
+      "transcript": "My orbit widens.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_enigma_enig_level_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_05.mp3",
+      "transcript": "My nihilism increases.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_enigma_enig_level_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_level_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_level_06.mp3",
+      "transcript": "My horizon expands.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_enigma_enig_level_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_01.mp3",
+      "transcript": "Released from your corporeal prison.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_enigma_enig_kill_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_02.mp3",
+      "transcript": "Materiality is fleeting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_enigma_enig_kill_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_03.mp3",
+      "transcript": "Returned to unity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_enigma_enig_kill_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_04.mp3",
+      "transcript": "Your spirit achieves final harmony.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_enigma_enig_kill_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_05.mp3",
+      "transcript": "Your journey ends.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_enigma_enig_kill_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_06.mp3",
+      "transcript": "Welcome to the abyss.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_enigma_enig_kill_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_07.mp3",
+      "transcript": "Void takes you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_enigma_enig_kill_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_08.mp3",
+      "transcript": "Pain of the ecliptic.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_enigma_enig_kill_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_09.mp3",
+      "transcript": "I consume you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_enigma_enig_kill_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_10.mp3",
+      "transcript": "You've entered a decaying orbit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_enigma_enig_kill_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_11.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_11.mp3",
+      "transcript": "Go to your next incarnation.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_enigma_enig_kill_11.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_kill_12.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_kill_12.mp3",
+      "transcript": "A dark matter indeed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_enigma_enig_kill_12.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_01.mp3",
+      "transcript": "I would not trade places with you, Vengeful Spirit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_enigma_enig_rival_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_02.mp3",
+      "transcript": "Though you spark suns to shine, you cannot escape me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_enigma_enig_rival_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_03.mp3",
+      "transcript": "Ezalor, the weak and infirm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_enigma_enig_rival_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_04.mp3",
+      "transcript": "Your weakness was your undoing.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_enigma_enig_rival_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_05.mp3",
+      "transcript": "Ezalor, your decay is now complete.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_enigma_enig_rival_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_06.mp3",
+      "transcript": "So dies the spark of endless suns.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_enigma_enig_rival_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_07.mp3",
+      "transcript": "You forget yourself, Ezalor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_enigma_enig_rival_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_08.mp3",
+      "transcript": "Flux you and the horse you rode in on.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_enigma_enig_rival_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_09.mp3",
+      "transcript": "What you bring to life, I shall bring to death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_enigma_enig_rival_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_10.mp3",
+      "transcript": "Your strength could not save you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_enigma_enig_rival_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_11.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_11.mp3",
+      "transcript": "Chaos Knight: so limited by uncertainty.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_enigma_enig_rival_11.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_12.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_12.mp3",
+      "transcript": "Even the strong may die.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_enigma_enig_rival_12.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_14.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_14.mp3",
+      "transcript": "Your charge goes out.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_enigma_enig_rival_14.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_15.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_15.mp3",
+      "transcript": "Wisp, you cannot escape my grasp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enigma_enig_rival_15.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_16.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_16.mp3",
+      "transcript": "A Fundamental dies.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_enigma_enig_rival_16.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_17.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_17.mp3",
+      "transcript": "So dies a Fundamental of the universe.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_enigma_enig_rival_17.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_13.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_13.mp3",
+      "transcript": "So ends another Fundamental.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_enigma_enig_rival_13.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_18.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_18.mp3",
+      "transcript": "You have been too long in the cold.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_enigma_enig_rival_18.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_19.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_19.mp3",
+      "transcript": "You should not fight your betters.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_enigma_enig_rival_19.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_20.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_20.mp3",
+      "transcript": "You are beneath me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_enigma_enig_rival_20.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_21.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_21.mp3",
+      "transcript": "Even time may fail in the face of gravity.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_enigma_enig_rival_21.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_22.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_22.mp3",
+      "transcript": "I crush you into diamond.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_enigma_enig_rival_22.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_killspecial_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_killspecial_01.mp3",
+      "transcript": "Meatier shower.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_enigma_enig_killspecial_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_23.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_23.mp3",
+      "transcript": "Your armor crumples.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_enigma_enig_rival_23.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_24.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_24.mp3",
+      "transcript": "The shallows know nothing of true pressure.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_enigma_enig_rival_24.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_25.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_25.mp3",
+      "transcript": "Rise from that, Phoenix.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_enigma_enig_rival_25.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rival_26.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rival_26.mp3",
+      "transcript": "Gravity brings you down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_enigma_enig_rival_26.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_firstblood_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_firstblood_01.mp3",
+      "transcript": "First blood, a fundamental principle of warfare.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_enigma_enig_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_01.mp3",
+      "transcript": "Come, Ezalor. We have endless work to do.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_enigma_enig_ally_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_02.mp3",
+      "transcript": "We Fundamentals shall win this day.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_enigma_enig_ally_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_03.mp3",
+      "transcript": "Chaos Knight: the strongest of us all.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_enigma_enig_ally_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_04.mp3",
+      "transcript": "The Fundamentals shall win this day.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_enigma_enig_ally_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_05.mp3",
+      "transcript": "Wisp, we are familiar, you and I.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_enigma_enig_ally_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_06.mp3",
+      "transcript": "None can stand before the Fundamentals.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_enigma_enig_ally_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_07.mp3",
+      "transcript": "Fundamentals, side by side.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_enigma_enig_ally_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_08.mp3",
+      "transcript": "You mistake me Apparition. I am more than you know.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_enigma_enig_ally_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_09.mp3",
+      "transcript": "Ancient Apparition: an elemental in service to the Fundament.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_enigma_enig_ally_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_10.mp3",
+      "transcript": "Let us bring them the pressure of the ocean depths, Tidehunter.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_enigma_enig_ally_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_11.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_11.mp3",
+      "transcript": "You are a heavy stone, Tiny.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_enigma_enig_ally_11.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_12.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_12.mp3",
+      "transcript": "Flame and gravity make a star, Phoenix.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_enigma_enig_ally_12.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_13.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_13.mp3",
+      "transcript": "Gravity favors he who swings the hammer, Omniknight.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_enigma_enig_ally_13.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_14.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_14.mp3",
+      "transcript": "The Fundamentals unite.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_enigma_enig_ally_14.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_15.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_15.mp3",
+      "transcript": "The four pillars stand together once more.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_enigma_enig_ally_15.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_16.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_16.mp3",
+      "transcript": "We become one force again.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_enigma_enig_ally_16.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ally_17.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ally_17.mp3",
+      "transcript": "Those from the founding here once again.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_enigma_enig_ally_17.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_01.mp3",
+      "transcript": "Silence is golden.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_enigma_enig_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_02.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_enigma_enig_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_03.mp3",
+      "transcript": "Tribute.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_enigma_enig_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_04.mp3",
+      "transcript": "Gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_enigma_enig_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_05.mp3",
+      "transcript": "Elemental gold.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_enigma_enig_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_06.mp3",
+      "transcript": "Kill fee.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_enigma_enig_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_07.mp3",
+      "transcript": "Eclipsed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_enigma_enig_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lasthit_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lasthit_08.mp3",
+      "transcript": "Transmuted!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_enigma_enig_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_enigma_enig_deny_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_02.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_enigma_enig_deny_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_03.mp3",
+      "transcript": "Not for you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_enigma_enig_deny_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_04.mp3",
+      "transcript": "Enigma's",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_enigma_enig_deny_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_05.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_enigma_enig_deny_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_06.mp3",
+      "transcript": "I stop you.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_enigma_enig_deny_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_07.mp3",
+      "transcript": "Hem-hm-mmm-hem.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_enigma_enig_deny_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_08.mp3",
+      "transcript": "Uhh-uhh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_enigma_enig_deny_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_deny_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_deny_09.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_enigma_enig_deny_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_purch_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_purch_01.mp3",
+      "transcript": "An astronomical price.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_enigma_enig_purch_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_purch_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_purch_02.mp3",
+      "transcript": "Fall into my sphere of influence.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_enigma_enig_purch_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_purch_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_purch_03.mp3",
+      "transcript": "The alchemy of gold well spent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_enigma_enig_purch_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_scepter_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_enigma_enig_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_scepter_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_scepter_02.mp3",
+      "transcript": "Scepter is mine.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_enigma_enig_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_blink_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_blink_01.mp3",
+      "transcript": "Blink Dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_blink_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_blink_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_blink_02.mp3",
+      "transcript": "Existence itself may die in a blink.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_enigma_enig_blink_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_01.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_enigma_enig_item_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_02.mp3",
+      "transcript": "Yes, Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_enigma_enig_item_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_03.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_enigma_enig_item_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_04.mp3",
+      "transcript": "Ah, Refresher Orb!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_enigma_enig_item_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_05.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_enigma_enig_item_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_06.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_enigma_enig_item_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_07.mp3",
+      "transcript": "Radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_enigma_enig_item_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_08.mp3",
+      "transcript": "Necronomicon!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_enigma_enig_item_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_item_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_item_09.mp3",
+      "transcript": "Pipe of Insight!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_enigma_enig_item_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_immort_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_immort_01.mp3",
+      "transcript": "Immortality.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_enigma_enig_immort_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_immort_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_immort_02.mp3",
+      "transcript": "My pattern persists.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_enigma_enig_immort_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_enigma_enig_death_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_02.mp3",
+      "transcript": "A celestial body.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_death_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_03.mp3",
+      "transcript": "Redshifted!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_enigma_enig_death_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_04.mp3",
+      "transcript": "Is this real? Am I…real?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enigma_enig_death_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_05.mp3",
+      "transcript": "My pattern dissolves.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_enigma_enig_death_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_06.mp3",
+      "transcript": "Consciousness is pattern.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_enigma_enig_death_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_07.mp3",
+      "transcript": "My pattern fades.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_enigma_enig_death_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_08.mp3",
+      "transcript": "My sojourn ends here.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_enigma_enig_death_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_09.mp3",
+      "transcript": "I achieve final harmony.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_enigma_enig_death_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_10.mp3",
+      "transcript": "I return to the elemental force.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_enigma_enig_death_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_11.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_11.mp3",
+      "transcript": "What is death? Now I… find out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_enigma_enig_death_11.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_death_12.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_death_12.mp3",
+      "transcript": "To void, I return.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enigma_enig_death_12.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_01.mp3",
+      "transcript": "An eliptical orbit.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_enigma_enig_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_02.mp3",
+      "transcript": "My pattern reforms.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_enigma_enig_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_04.mp3",
+      "transcript": "Ah, my next incarnation.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_enigma_enig_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_05.mp3",
+      "transcript": "Well, this is a paradox.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_enigma_enig_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_06.mp3",
+      "transcript": "Again, my form collapses into being.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_enigma_enig_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_07.mp3",
+      "transcript": "Formless expression of self.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_enigma_enig_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_08.mp3",
+      "transcript": "Order from chaos.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_enigma_enig_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_09.mp3",
+      "transcript": "From a deeper order, I return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_enigma_enig_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_respawn_10.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_respawn_10.mp3",
+      "transcript": "Out of chaos, my pattern reassembles.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_enigma_enig_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_fastres_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_fastres_01.mp3",
+      "transcript": "The Enigma remains.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_enigma_enig_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_bottle_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_bottle_01.mp3",
+      "transcript": "A holding pattern.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_enigma_enig_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_bottle_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_bottle_02.mp3",
+      "transcript": "This, like time, can wait.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_enigma_enig_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_bottle_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_bottle_03.mp3",
+      "transcript": "If there is a future, this will be useful.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_enigma_enig_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_drop_rare_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_drop_rare_02.mp3",
+      "transcript": "From the core of the universe, a treasure.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_enigma_enig_drop_rare_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_doubdam_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enigma_enig_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_doubdam_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_doubdam_02.mp3",
+      "transcript": "Twice struck blow.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_enigma_enig_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_haste_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_enigma_enig_haste_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_haste_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_haste_02.mp3",
+      "transcript": "Escape velocity.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_enigma_enig_haste_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_illus_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_enigma_enig_illus_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_illus_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_illus_02.mp3",
+      "transcript": "No longer a singularity.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_enigma_enig_illus_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_invis_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_enigma_enig_invis_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_invis_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_invis_02.mp3",
+      "transcript": "I bend light itself.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_enigma_enig_invis_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_regen_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_enigma_enig_regen_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_regen_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_regen_02.mp3",
+      "transcript": "My form renews!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_enigma_enig_regen_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_enigma_enig_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_enigma_enig_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_03.mp3",
+      "transcript": "It's not yet time.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_enigma_enig_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_enigma_enig_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_enigma_enig_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_06.mp3",
+      "transcript": "It's not yet time.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_enigma_enig_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_enigma_enig_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_enigma_enig_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_notyet_09.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_notyet_09.mp3",
+      "transcript": "It's not yet time.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_enigma_enig_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_nomana_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_enigma_enig_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_nomana_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_enigma_enig_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_nomana_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_enigma_enig_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_01.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_enigma_enig_pain_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_02.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_enigma_enig_pain_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_03.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_enigma_enig_pain_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_04.mp3",
+      "transcript": "Ohhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_enigma_enig_pain_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_05.mp3",
+      "transcript": "Erhhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_enigma_enig_pain_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_06.mp3",
+      "transcript": "Ohhh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_enigma_enig_pain_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_pain_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_pain_07.mp3",
+      "transcript": "Mmmm.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_enigma_enig_pain_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_underattack_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_underattack_01.mp3",
+      "transcript": "I am under attack.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_enigma_enig_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rare_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rare_04.mp3",
+      "transcript": "A stitch in space-time kills nine.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_enigma_enig_rare_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rare_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rare_05.mp3",
+      "transcript": "Chaos hunts the spark of endless suns, whose light will die in my crushing grasp.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_enigma_enig_rare_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rare_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rare_06.mp3",
+      "transcript": "That which is fundamental cannot be destroyed.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_enigma_enig_rare_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_rare_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_rare_07.mp3",
+      "transcript": "That which was torn asunder must be united again.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_enigma_enig_rare_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_missing_lane_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_missing_lane_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_enigma_enig_missing_lane_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_missing_lane_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_missing_lane_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_enigma_enig_missing_lane_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_missing_lane_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_missing_lane_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_enigma_enig_missing_lane_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_thanks_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_thanks_01.mp3",
+      "transcript": "Enigma's gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_enigma_enig_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_thanks_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_thanks_02.mp3",
+      "transcript": "You have the thanks of eternity.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_enigma_enig_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_01.mp3",
+      "transcript": "Hum-huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_enigma_enig_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_02.mp3",
+      "transcript": "Heh-huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enigma_enig_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_03.mp3",
+      "transcript": "He-he-huh-heh-heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_enigma_enig_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_04.mp3",
+      "transcript": "Hem-muh-huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_enigma_enig_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_05.mp3",
+      "transcript": "Hmm-huh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_enigma_enig_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_06.mp3",
+      "transcript": "Heh-huh-heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_enigma_enig_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_07.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_07.mp3",
+      "transcript": "Hehhhhhh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_enigma_enig_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_laugh_08.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_laugh_08.mp3",
+      "transcript": "Ahhhmmm.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_enigma_enig_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_win_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_enigma_enig_win_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_win_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_enigma_enig_win_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_win_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_win_03.mp3",
+      "transcript": "Supernova!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_enigma_enig_win_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_win_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_win_04.mp3",
+      "transcript": "Victory through void.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_enigma_enig_win_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_win_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_win_05.mp3",
+      "transcript": "Success through void.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_enigma_enig_win_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lose_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_enigma_enig_lose_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lose_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_enigma_enig_lose_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lose_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lose_03.mp3",
+      "transcript": "Disharmony reigns.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_enigma_enig_lose_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_lose_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_lose_04.mp3",
+      "transcript": "All is void.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_lose_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_drop_common_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_drop_common_01.mp3",
+      "transcript": "Something appears out of nothing.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enigma_enig_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_drop_medium_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_drop_medium_01.mp3",
+      "transcript": "A welcome manifestation of randomness.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_enigma_enig_drop_medium_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_drop_rare_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_drop_rare_01.mp3",
+      "transcript": "From the fundament of nature, a treasure.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_enigma_enig_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_failure_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_failure_01.mp3",
+      "transcript": "This emptiness is too empty…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_enigma_enig_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_ability_failure_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_ability_failure_02.mp3",
+      "transcript": "Who escapes a black hole?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_enigma_enig_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_shitwiz_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_enigma_enig_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_crumwiz_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_enigma_enig_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_02.mp3",
+      "transcript": "Arrrrhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_enigma_enig_anger_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_03.mp3",
+      "transcript": "Erhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_enigma_enig_anger_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_04.mp3",
+      "transcript": "Oooehh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_enigma_enig_anger_04.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_05.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_05.mp3",
+      "transcript": "Ahhhhr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_enigma_enig_anger_05.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_anger_06.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_anger_06.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_enigma_enig_anger_06.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_happy_01.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_happy_01.mp3",
+      "transcript": "Heh-huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_enigma_enig_happy_01.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_happy_02.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_happy_02.mp3",
+      "transcript": "Hemmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_enigma_enig_happy_02.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_happy_03.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_happy_03.mp3",
+      "transcript": "Heh-huh-huh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_enigma_enig_happy_03.mp3"
+    },
+    {
+      "file": "Vo_enigma_enig_happy_04.mp3",
+      "key": "dota2/enigma/Vo_enigma_enig_happy_04.mp3",
+      "transcript": "Huuuuhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_enigma_enig_happy_04.mp3"
+    }
+  ]
+}

@@ -1,0 +1,3033 @@
+{
+  "hero": "Batrider",
+  "slug": "batrider",
+  "source": "https://liquipedia.net/dota2/Batrider/Responses",
+  "scrapedAt": "2026-06-17T14:53:28.933Z",
+  "count": 299,
+  "voicelines": [
+    {
+      "file": "Vo_batrider_bat_spawn_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_spawn_01.mp3",
+      "transcript": "Batrider!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_batrider_bat_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_spawn_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_spawn_02.mp3",
+      "transcript": "There's no taming me!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_batrider_bat_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_spawn_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_spawn_03.mp3",
+      "transcript": "I rode mine here!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_batrider_bat_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_spawn_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_spawn_04.mp3",
+      "transcript": "Got a bat's eye view of the battle.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_batrider_bat_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_spawn_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_spawn_05.mp3",
+      "transcript": "If you don't ride into battle, you don't ride at all.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_batrider_bat_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_battlebegins_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_battlebegins_01.mp3",
+      "transcript": "Ee-haw! That's my signal.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_batrider_bat_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_battlebegins_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_battlebegins_02.mp3",
+      "transcript": "Life just got interesting!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_batrider_bat_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_02.mp3",
+      "transcript": "Here I come, baby!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_batrider_bat_attack_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_03.mp3",
+      "transcript": "Death from above!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_batrider_bat_attack_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_02.mp3",
+      "transcript": "Gonna ride this bat outta Hell like a bat outta Hell!",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_batrider_bat_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_14.mp3",
+      "transcript": "Ho, bat! Let's fly!",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_batrider_bat_respawn_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_04.mp3",
+      "transcript": "Let's go for a ride.",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_batrider_bat_ability_lasso_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_anger_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_anger_02.mp3",
+      "transcript": "Rrruh.",
+      "categories": [
+        "Drafting",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_batrider_bat_anger_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_inthebag_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_inthebag_01.mp3",
+      "transcript": "Yeah, baby, it’s in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_batrider_bat_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_01.mp3",
+      "transcript": "Oh yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_batrider_bat_move_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_02.mp3",
+      "transcript": "Oh yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_batrider_bat_move_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_03.mp3",
+      "transcript": "Swoopin'!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_batrider_bat_move_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_04.mp3",
+      "transcript": "Shadow of the bat!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_batrider_bat_move_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_05.mp3",
+      "transcript": "Woo hoo!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_batrider_bat_move_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_06.mp3",
+      "transcript": "Whooo!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_batrider_bat_move_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_07.mp3",
+      "transcript": "Yeah, yeah, girl!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_batrider_bat_move_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_08.mp3",
+      "transcript": "Yeah, girl!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_batrider_bat_move_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_09.mp3",
+      "transcript": "Peelin' out!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_batrider_bat_move_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_10.mp3",
+      "transcript": "Hell yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_batrider_bat_move_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_11.mp3",
+      "transcript": "Hell yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_batrider_bat_move_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_12.mp3",
+      "transcript": "We ride!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_batrider_bat_move_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_13.mp3",
+      "transcript": "Steady on, girl!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_batrider_bat_move_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_14.mp3",
+      "transcript": "Soaring!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_batrider_bat_move_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_15.mp3",
+      "transcript": "What a ride!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_batrider_bat_move_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_16.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_16.mp3",
+      "transcript": "What a ride!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_batrider_bat_move_16.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_17.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_17.mp3",
+      "transcript": "Keepin my knees in the breeze.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_batrider_bat_move_17.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_18.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_18.mp3",
+      "transcript": "Carvin the lanes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_batrider_bat_move_18.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_19.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_19.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_batrider_bat_move_19.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_20.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_20.mp3",
+      "transcript": "Oh yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_batrider_bat_move_20.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_21.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_21.mp3",
+      "transcript": "Here we go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_batrider_bat_move_21.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_move_22.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_move_22.mp3",
+      "transcript": "Look out!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_batrider_bat_move_22.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_01.mp3",
+      "transcript": "Whoa ho, look out!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_batrider_bat_attack_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_04.mp3",
+      "transcript": "Fly, bat!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_batrider_bat_attack_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_05.mp3",
+      "transcript": "Bat breath…love it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_batrider_bat_attack_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_06.mp3",
+      "transcript": "Hell from the skies.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_batrider_bat_attack_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_07.mp3",
+      "transcript": "Like a meteor.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_batrider_bat_attack_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_08.mp3",
+      "transcript": "This is gonna burn!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_batrider_bat_attack_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_09.mp3",
+      "transcript": "Scorchin, baby!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_batrider_bat_attack_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_10.mp3",
+      "transcript": "Ridin wild!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_batrider_bat_attack_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_11.mp3",
+      "transcript": "Come on, girl!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_batrider_bat_attack_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_12.mp3",
+      "transcript": "Hey, up here!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_batrider_bat_attack_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_13.mp3",
+      "transcript": "After em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_batrider_bat_attack_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_attack_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_attack_14.mp3",
+      "transcript": "Split the lane!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_batrider_bat_attack_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cast_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cast_01.mp3",
+      "transcript": "This is gonna sting.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_batrider_bat_cast_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cast_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cast_02.mp3",
+      "transcript": "Heat wave coming!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_batrider_bat_cast_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cast_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cast_03.mp3",
+      "transcript": "Here we come!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_batrider_bat_cast_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cast_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cast_04.mp3",
+      "transcript": "Yeah yeah yeah yeah yeah!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_batrider_bat_cast_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_01.mp3",
+      "transcript": "You need a shower.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_batrider_bat_ability_napalm_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_02.mp3",
+      "transcript": "A little something to slow you down.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_batrider_bat_ability_napalm_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_03.mp3",
+      "transcript": "Look out below!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_batrider_bat_ability_napalm_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_04.mp3",
+      "transcript": "Goo on you, baby!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_batrider_bat_ability_napalm_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_05.mp3",
+      "transcript": "This stuff's sticky!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_batrider_bat_ability_napalm_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_napalm_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_napalm_06.mp3",
+      "transcript": "I'm sappin' your will to live!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_batrider_bat_ability_napalm_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_01.mp3",
+      "transcript": "Feel the burn.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_batrider_bat_ability_flame_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_02.mp3",
+      "transcript": "Pyrotechnics!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_batrider_bat_ability_flame_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_03.mp3",
+      "transcript": "Fire at will!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_batrider_bat_ability_flame_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_04.mp3",
+      "transcript": "Burn out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_batrider_bat_ability_flame_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_05.mp3",
+      "transcript": "He's on fire!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_batrider_bat_ability_flame_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_flame_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_flame_06.mp3",
+      "transcript": "Burn, baby!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_batrider_bat_ability_flame_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_01.mp3",
+      "transcript": "Hells above!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_batrider_bat_ability_firefly_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_04.mp3",
+      "transcript": "Love that smell!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_batrider_bat_ability_firefly_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_07.mp3",
+      "transcript": "Hot damn!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_batrider_bat_ability_firefly_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_08.mp3",
+      "transcript": "One forest fire coming up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_batrider_bat_ability_firefly_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_09.mp3",
+      "transcript": "Got a hot date coming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_batrider_bat_ability_firefly_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cough_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cough_01.mp3",
+      "transcript": "Ah huh ah heh ah hooh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_batrider_bat_cough_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cough_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cough_02.mp3",
+      "transcript": "Ah hack!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_batrider_bat_cough_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cough_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cough_03.mp3",
+      "transcript": "Ah hauh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_batrider_bat_cough_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_cough_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_cough_04.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_batrider_bat_cough_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_batrider_bat_pain_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_02.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_batrider_bat_pain_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_batrider_bat_pain_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_04.mp3",
+      "transcript": "Ai!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_batrider_bat_pain_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_05.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_batrider_bat_pain_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_batrider_bat_pain_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_07.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_batrider_bat_pain_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_08.mp3",
+      "transcript": "Ooh ah!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_batrider_bat_pain_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_pain_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_pain_09.mp3",
+      "transcript": "Nnyah!",
+      "categories": [
+        "Abilities",
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_batrider_bat_pain_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_anger_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_anger_01.mp3",
+      "transcript": "Nyeh.",
+      "categories": [
+        "Abilities",
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_batrider_bat_anger_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_anger_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_anger_03.mp3",
+      "transcript": "Urrah.",
+      "categories": [
+        "Abilities",
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_batrider_bat_anger_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_anger_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_anger_04.mp3",
+      "transcript": "Uhhh!",
+      "categories": [
+        "Abilities",
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_batrider_bat_anger_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_anger_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_anger_05.mp3",
+      "transcript": "Nyeh!",
+      "categories": [
+        "Abilities",
+        "Misc"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_batrider_bat_anger_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_02.mp3",
+      "transcript": "Watch yo feet!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_batrider_bat_ability_firefly_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_03.mp3",
+      "transcript": "Scuse me while I cook this guy.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_batrider_bat_ability_firefly_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_05.mp3",
+      "transcript": "Need a light?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_batrider_bat_ability_firefly_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_firefly_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_firefly_06.mp3",
+      "transcript": "Extra crispy.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_batrider_bat_ability_firefly_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_01.mp3",
+      "transcript": "Time for some ropework.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_batrider_bat_ability_lasso_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_02.mp3",
+      "transcript": "Ropeburn!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_batrider_bat_ability_lasso_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_03.mp3",
+      "transcript": "Catching with fire.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_batrider_bat_ability_lasso_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_05.mp3",
+      "transcript": "What a drag!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_batrider_bat_ability_lasso_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_06.mp3",
+      "transcript": "Come here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_batrider_bat_ability_lasso_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_07.mp3",
+      "transcript": "Ropin em in!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_batrider_bat_ability_lasso_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_08.mp3",
+      "transcript": "Lasso up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_batrider_bat_ability_lasso_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_09.mp3",
+      "transcript": "Come along!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_batrider_bat_ability_lasso_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_10.mp3",
+      "transcript": "Right this way.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_batrider_bat_ability_lasso_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_lasso_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_lasso_11.mp3",
+      "transcript": "I got something to show ya.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_batrider_bat_ability_lasso_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_01.mp3",
+      "transcript": "My soul's on fire!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_batrider_bat_level_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_02.mp3",
+      "transcript": "Hell yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_batrider_bat_level_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_03.mp3",
+      "transcript": "Hell yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_batrider_bat_level_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_04.mp3",
+      "transcript": "Flames are rising.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_batrider_bat_level_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_05.mp3",
+      "transcript": "Now we're cooking!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_batrider_bat_level_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_06.mp3",
+      "transcript": "That's hot!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_batrider_bat_level_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_07.mp3",
+      "transcript": "So hot!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_batrider_bat_level_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_08.mp3",
+      "transcript": "Easy there!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_batrider_bat_level_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_09.mp3",
+      "transcript": "Earned me a new patch.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_batrider_bat_level_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_10.mp3",
+      "transcript": "Ha ha ha ha ha! Woo hoo!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_batrider_bat_level_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_11.mp3",
+      "transcript": "Yee haw!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_batrider_bat_level_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_12.mp3",
+      "transcript": "Ho ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_batrider_bat_level_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_13.mp3",
+      "transcript": "Woo hoo hoo hoo!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_batrider_bat_level_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_level_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_level_14.mp3",
+      "transcript": "Woo!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_batrider_bat_level_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_01.mp3",
+      "transcript": "Wicked barbeque!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_batrider_bat_kill_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_02.mp3",
+      "transcript": "I'll have the brisket. My hoss'll have your head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_batrider_bat_kill_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_03.mp3",
+      "transcript": "Roasted, toasted and burned to a crisp.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_batrider_bat_kill_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_04.mp3",
+      "transcript": "Whoa, sick burn!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_batrider_bat_kill_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_05.mp3",
+      "transcript": "Damn that smells good.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_batrider_bat_kill_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_06.mp3",
+      "transcript": "A message from on high: You're dead!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_batrider_bat_kill_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_07.mp3",
+      "transcript": "Burn out!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_batrider_bat_kill_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_08.mp3",
+      "transcript": "Killed you without battin an eye.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_batrider_bat_kill_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_09.mp3",
+      "transcript": "Aw, did I get you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_batrider_bat_kill_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_10.mp3",
+      "transcript": "Ah, that's what I'm talking about!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_batrider_bat_kill_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_11.mp3",
+      "transcript": "Yeah, baby.",
+      "categories": [
+        "Killing an enemy",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_batrider_bat_kill_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_12.mp3",
+      "transcript": "Death from above.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_batrider_bat_kill_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_13.mp3",
+      "transcript": "That's what you get.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_batrider_bat_kill_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_14.mp3",
+      "transcript": "One less prospect.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_batrider_bat_kill_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_15.mp3",
+      "transcript": "It's not the bat you gotta worry about. She eats fruit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_batrider_bat_kill_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_16.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_16.mp3",
+      "transcript": "Ooh, got a bad case of lane rash there.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_batrider_bat_kill_16.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_17.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_17.mp3",
+      "transcript": "Hey, ask permission the next time you wanna feed my bat.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_batrider_bat_kill_17.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_18.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_18.mp3",
+      "transcript": "Death from above.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_batrider_bat_kill_18.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_19.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_19.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_batrider_bat_kill_19.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_kill_20.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_kill_20.mp3",
+      "transcript": "Bye, baby.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_batrider_bat_kill_20.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_laugh_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_laugh_01.mp3",
+      "transcript": "He he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_batrider_bat_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_laugh_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_laugh_02.mp3",
+      "transcript": "He ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_batrider_bat_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_laugh_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_laugh_03.mp3",
+      "transcript": "Hoo hoo ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_batrider_bat_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_laugh_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_laugh_04.mp3",
+      "transcript": "Nyeh ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_batrider_bat_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_01.mp3",
+      "transcript": "Oh, Lina, I was hoping you'd be my backwarmer.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_batrider_bat_rival_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_09.mp3",
+      "transcript": "I'm not speakin ill of Lina when her ashes are still warm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_batrider_bat_rival_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_10.mp3",
+      "transcript": "Damn, Lina, I carried such a torch for ya.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_batrider_bat_rival_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_02.mp3",
+      "transcript": "Aw, Queenie, in another life we'd a been soulmates, I just know it!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_batrider_bat_rival_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_03.mp3",
+      "transcript": "Drow Ranger, don't be a stranger.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_batrider_bat_rival_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_04.mp3",
+      "transcript": "Aw now Windrunner, you don't have to run from me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_batrider_bat_rival_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_05.mp3",
+      "transcript": "I know, Vengeful: Chicks rule. They also die.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_batrider_bat_rival_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_06.mp3",
+      "transcript": "I gotta say, Enchantress: You are spunky.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_batrider_bat_rival_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_07.mp3",
+      "transcript": "Spectre, I have no idea what you just said, but I could listen to you all day.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_batrider_bat_rival_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_08.mp3",
+      "transcript": "Crystal Maiden, you were a tall glass of ice water.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_batrider_bat_rival_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_11.mp3",
+      "transcript": "Always a pleasure being stalked by the Templar Assassin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_batrider_bat_rival_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_12.mp3",
+      "transcript": "Death Prophet, I'm the one your visions been warning you about.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_batrider_bat_rival_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_13.mp3",
+      "transcript": "Mirana, I think your ride and mine have a thing for each other.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_batrider_bat_rival_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_14.mp3",
+      "transcript": "Broodmother, if you weren't already—ugh, never mind!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_batrider_bat_rival_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_15.mp3",
+      "transcript": "I wish I could have got a better look at you, Phantom Assassin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_batrider_bat_rival_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_16.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_16.mp3",
+      "transcript": "Night Stalker, why have wings if you're not gonna fly.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_batrider_bat_rival_16.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_17.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_17.mp3",
+      "transcript": "Shoulda warned ya, Storm Spirit. She likes fruit.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_batrider_bat_rival_17.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_18.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_18.mp3",
+      "transcript": "Aw, Pudge, I thought you knew all about choppers.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_batrider_bat_rival_18.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_19.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_19.mp3",
+      "transcript": "Uh, usually Pudge, I like a chopped hog. But you the wrong sort.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_batrider_bat_rival_19.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_20.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_20.mp3",
+      "transcript": "Sorry, my hoss here thought your name was Nectar-Lyte. Ha ha ha.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_batrider_bat_rival_20.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_21.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_21.mp3",
+      "transcript": "Hey Void! Have you seen Bat to the Future?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_batrider_bat_rival_21.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_22.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_22.mp3",
+      "transcript": "Aw, Viper, and I was gonna take you out for a spin.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_batrider_bat_rival_22.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_23.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_23.mp3",
+      "transcript": "I rode a dragon once. Really chapped my hide.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_batrider_bat_rival_23.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_25.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_25.mp3",
+      "transcript": "One time I was riding this dragon when the damn thing turned into a knight!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_batrider_bat_rival_25.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rival_24.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rival_24.mp3",
+      "transcript": "Okay, Jakiro, which one of you wants to take me for a ride?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_batrider_bat_rival_24.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_firstblood_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_firstblood_01.mp3",
+      "transcript": "First Blood, right off the bat! Ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_batrider_bat_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_01.mp3",
+      "transcript": "Gas money.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_batrider_bat_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_02.mp3",
+      "transcript": "I'll take that.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_batrider_bat_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_03.mp3",
+      "transcript": "I'll spend this quick.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_batrider_bat_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_04.mp3",
+      "transcript": "We thank you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_batrider_bat_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_05.mp3",
+      "transcript": "We're golden.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_batrider_bat_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_06.mp3",
+      "transcript": "Death from above.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_batrider_bat_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_07.mp3",
+      "transcript": "Didn't stand a chance.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_batrider_bat_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_08.mp3",
+      "transcript": "Civilian.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_batrider_bat_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_09.mp3",
+      "transcript": "He heh.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_batrider_bat_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_10.mp3",
+      "transcript": "Hoo hoo!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_batrider_bat_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_11.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_batrider_bat_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_12.mp3",
+      "transcript": "He he he!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_batrider_bat_lasthit_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_13.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_batrider_bat_lasthit_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_14.mp3",
+      "transcript": "He he he he!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_batrider_bat_lasthit_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lasthit_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lasthit_15.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_batrider_bat_lasthit_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_batrider_bat_deny_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_batrider_bat_deny_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_03.mp3",
+      "transcript": "Back off.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_batrider_bat_deny_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_04.mp3",
+      "transcript": "Hands off.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_batrider_bat_deny_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_05.mp3",
+      "transcript": "Don't burn your fingers.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_batrider_bat_deny_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_06.mp3",
+      "transcript": "Mine, yeah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_batrider_bat_deny_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_07.mp3",
+      "transcript": "Hoo hoo, man!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_batrider_bat_deny_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_08.mp3",
+      "transcript": "My bat wants that.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_batrider_bat_deny_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_09.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_batrider_bat_deny_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_10.mp3",
+      "transcript": "He he he he!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_batrider_bat_deny_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_11.mp3",
+      "transcript": "He he hoo hoo!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_batrider_bat_deny_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_12.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_batrider_bat_deny_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_13.mp3",
+      "transcript": "Ehh he heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_batrider_bat_deny_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_14.mp3",
+      "transcript": "Eh eh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_batrider_bat_deny_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_15.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_batrider_bat_deny_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_16.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_16.mp3",
+      "transcript": "Uh uh uh uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_batrider_bat_deny_16.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_17.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_17.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_batrider_bat_deny_17.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_deny_18.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_deny_18.mp3",
+      "transcript": "Mine.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_batrider_bat_deny_18.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_purch_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_purch_01.mp3",
+      "transcript": "Money to burn.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_batrider_bat_purch_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_purch_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_purch_02.mp3",
+      "transcript": "Better not drop this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_batrider_bat_purch_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_purch_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_purch_03.mp3",
+      "transcript": "All the gear, all the time.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_batrider_bat_purch_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_purch_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_purch_04.mp3",
+      "transcript": "Can't have too many farkles.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_batrider_bat_purch_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_blink_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_batrider_bat_blink_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_blink_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_blink_02.mp3",
+      "transcript": "Now I can burn at both ends.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_batrider_bat_blink_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_scepter_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_batrider_bat_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_scepter_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_scepter_02.mp3",
+      "transcript": "Scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_batrider_bat_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_item_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_item_01.mp3",
+      "transcript": "Force Staff! I got a rep for being pushy.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_batrider_bat_item_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_item_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_item_02.mp3",
+      "transcript": "Vanguard! That's where you'll always find me.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_batrider_bat_item_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_item_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_item_03.mp3",
+      "transcript": "Arcane Boots for an arson bat.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_batrider_bat_item_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_immort_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_batrider_bat_immort_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_immort_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_immort_02.mp3",
+      "transcript": "Burning forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_batrider_bat_immort_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_batrider_bat_death_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_02.mp3",
+      "transcript": "Ah, couldn't care less.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_batrider_bat_death_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_03.mp3",
+      "transcript": "Wake up, girl! Wake up…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_batrider_bat_death_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_04.mp3",
+      "transcript": "It…happens…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_batrider_bat_death_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_05.mp3",
+      "transcript": "Thought I could tough it out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_batrider_bat_death_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_06.mp3",
+      "transcript": "Had to happen ohhhhh….",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_batrider_bat_death_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_07.mp3",
+      "transcript": "Crashed and burned.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_batrider_bat_death_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_08.mp3",
+      "transcript": "Hard landing, oof.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_batrider_bat_death_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_09.mp3",
+      "transcript": "She deserved a better death.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_batrider_bat_death_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_10.mp3",
+      "transcript": "I'll join you in death, old girl.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_batrider_bat_death_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_11.mp3",
+      "transcript": "Lay her down softly.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_batrider_bat_death_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_12.mp3",
+      "transcript": "No such thing as a free ride.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_batrider_bat_death_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_13.mp3",
+      "transcript": "Road rash…ohhh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_batrider_bat_death_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_14.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_14.mp3",
+      "transcript": "I been rat-packed…ohh…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_batrider_bat_death_14.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_death_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_death_15.mp3",
+      "transcript": "Baggin' out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_batrider_bat_death_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_01.mp3",
+      "transcript": "Light then throw. Light then throw.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_batrider_bat_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_03.mp3",
+      "transcript": "Nothin like the feel of my old bat between my legs.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_batrider_bat_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_04.mp3",
+      "transcript": "Back from the boneyard!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_batrider_bat_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_05.mp3",
+      "transcript": "Now where'd I put my brainbucket?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_batrider_bat_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_06.mp3",
+      "transcript": "Hey, did someone hide my chaps?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_batrider_bat_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_07.mp3",
+      "transcript": "Hoo, hit a crosswind back there!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_batrider_bat_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_08.mp3",
+      "transcript": "Gone but not forgotten.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_batrider_bat_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_09.mp3",
+      "transcript": "Me an my hognose, hittin the lanes!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_batrider_bat_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_10.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_10.mp3",
+      "transcript": "Time for a little lane rage!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_batrider_bat_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_11.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_11.mp3",
+      "transcript": "Sorry, I had to bail.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_batrider_bat_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_12.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_12.mp3",
+      "transcript": "Rekindled.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_batrider_bat_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_13.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_13.mp3",
+      "transcript": "You wanna play rough? All right, we'll play rough.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_batrider_bat_respawn_13.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_15.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_15.mp3",
+      "transcript": "Once more into the wind.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_batrider_bat_respawn_15.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_16.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_16.mp3",
+      "transcript": "Who called me an airhead?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_batrider_bat_respawn_16.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_17.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_17.mp3",
+      "transcript": "I lift off once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_batrider_bat_respawn_17.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_18.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_18.mp3",
+      "transcript": "Back into the fight.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_batrider_bat_respawn_18.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_19.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_19.mp3",
+      "transcript": "Fire from the sky.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_batrider_bat_respawn_19.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_respawn_20.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_respawn_20.mp3",
+      "transcript": "Which way to the belfry?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_batrider_bat_respawn_20.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_fastres_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_fastres_01.mp3",
+      "transcript": "I will ride again.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_batrider_bat_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_bottle_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_bottle_01.mp3",
+      "transcript": "Eh, later for you!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_batrider_bat_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_bottle_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_bottle_02.mp3",
+      "transcript": "I'll need it when I need it.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_batrider_bat_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_bottle_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_bottle_03.mp3",
+      "transcript": "Eh, stuff it in the saddlebags.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_batrider_bat_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_happy_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_happy_02.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_batrider_bat_happy_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_doubdam_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_batrider_bat_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_doubdam_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_doubdam_02.mp3",
+      "transcript": "Twice as hot.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_batrider_bat_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_haste_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_batrider_bat_haste_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_haste_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_haste_02.mp3",
+      "transcript": "Fly, my pretty, fly!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_batrider_bat_haste_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_illus_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_batrider_bat_illus_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_illus_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_illus_02.mp3",
+      "transcript": "We three things.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_batrider_bat_illus_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_invis_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_batrider_bat_invis_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_invis_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_invis_02.mp3",
+      "transcript": "Only other bats will know we're still here.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_batrider_bat_invis_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_invis_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_invis_03.mp3",
+      "transcript": "Hey, where'd you go?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_batrider_bat_invis_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_regen_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_batrider_bat_regen_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_regen_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_regen_02.mp3",
+      "transcript": "More fuel for the fire.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_batrider_bat_regen_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_batrider_bat_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_batrider_bat_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_batrider_bat_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_batrider_bat_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_batrider_bat_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_batrider_bat_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_batrider_bat_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_batrider_bat_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_notyet_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_batrider_bat_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_batrider_bat_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_batrider_bat_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_batrider_bat_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_batrider_bat_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_05.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_batrider_bat_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_06.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_batrider_bat_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_07.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_batrider_bat_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_08.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_batrider_bat_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_nomana_09.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_batrider_bat_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_underattack_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_batrider_bat_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rare_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rare_01.mp3",
+      "transcript": "I remember when you were barely a rat with wings. Now look atcha!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_batrider_bat_rare_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rare_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rare_02.mp3",
+      "transcript": "All right, bacon!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_batrider_bat_rare_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rare_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rare_03.mp3",
+      "transcript": "If you wanna ride fast, you gotta ride alone.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_batrider_bat_rare_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_rare_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_rare_04.mp3",
+      "transcript": "Hoss here has a two-stroke engine. Gotta pet her twice to get her going.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_batrider_bat_rare_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_thanks_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_thanks_01.mp3",
+      "transcript": "Hey, thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_batrider_bat_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_thanks_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_thanks_02.mp3",
+      "transcript": "Appreciate it.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_batrider_bat_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_win_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_win_01.mp3",
+      "transcript": "Yes, yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_batrider_bat_win_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_win_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_batrider_bat_win_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_win_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_win_03.mp3",
+      "transcript": "Aw yeah, off we ride into the sunset.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_batrider_bat_win_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_win_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_win_04.mp3",
+      "transcript": "Aw yeah, hoo hoo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_batrider_bat_win_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lose_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_batrider_bat_lose_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lose_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lose_02.mp3",
+      "transcript": "Defeated?",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_batrider_bat_lose_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_lose_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_lose_03.mp3",
+      "transcript": "This ride is over!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_batrider_bat_lose_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_happy_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_batrider_bat_happy_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_happy_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_happy_03.mp3",
+      "transcript": "Oohhh.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_batrider_bat_happy_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_failure_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_failure_01.mp3",
+      "transcript": "Dah, wet matches!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_batrider_bat_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_failure_02.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_failure_02.mp3",
+      "transcript": "Sorry, girl.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_batrider_bat_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_failure_03.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_failure_03.mp3",
+      "transcript": "That was lame.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_batrider_bat_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_ability_failure_04.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_ability_failure_04.mp3",
+      "transcript": "Ugh! Just swallowed a bug.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_batrider_bat_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_shitwiz_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_batrider_bat_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_batrider_bat_crumwiz_01.mp3",
+      "key": "dota2/batrider/Vo_batrider_bat_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_batrider_bat_crumwiz_01.mp3"
+    }
+  ]
+}

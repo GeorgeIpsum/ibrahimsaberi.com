@@ -1,0 +1,3380 @@
+{
+  "hero": "Timbersaw",
+  "slug": "timbersaw",
+  "source": "https://liquipedia.net/dota2/Timbersaw/Responses",
+  "scrapedAt": "2026-06-17T13:35:39.878Z",
+  "count": 335,
+  "voicelines": [
+    {
+      "file": "Vo_shredder_timb_spawn_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_spawn_01.mp3",
+      "transcript": "Timbersaw!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_shredder_timb_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_spawn_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_spawn_02.mp3",
+      "transcript": "I'm Rizzrack. Don't touch me!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_shredder_timb_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_spawn_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_spawn_03.mp3",
+      "transcript": "I cut things. It's what I do. What else would I do?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_shredder_timb_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_spawn_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_spawn_04.mp3",
+      "transcript": "Trees? What do you mean there's trees out there?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_shredder_timb_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_spawn_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_spawn_05.mp3",
+      "transcript": "I'm not a lumberjack. This. This is personal.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_shredder_timb_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_begin_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_begin_01.mp3",
+      "transcript": "There are trees everywhere!",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_shredder_timb_begin_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_08.mp3",
+      "transcript": "That one looks angry!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_shredder_timb_move_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_04.mp3",
+      "transcript": "Ha ha! Chop chop!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_shredder_timb_attack_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_reactivearmor_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_reactivearmor_03.mp3",
+      "transcript": "It is dangerous out there.",
+      "categories": [
+        "Loadout",
+        "Respawning",
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_shredder_timb_reactivearmor_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_05.mp3",
+      "transcript": "Wait till they get a load of me.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_shredder_timb_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_06.mp3",
+      "transcript": "They can try to stop me. They can try!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_shredder_timb_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_14.mp3",
+      "transcript": "Nobody takes me seriously.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_shredder_timb_kill_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_anger_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_anger_02.mp3",
+      "transcript": "Nyahkuh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_shredder_timb_anger_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_inthebag_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_inthebag_01.mp3",
+      "transcript": "This one is in the bag. And that one is too. And that one! They are all in the bag.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_shredder_timb_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_shredder_timb_move_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_shredder_timb_move_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_03.mp3",
+      "transcript": "Breathe.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_shredder_timb_move_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_04.mp3",
+      "transcript": "Uh, if you say so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_shredder_timb_move_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_05.mp3",
+      "transcript": "Are you sure about this?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_shredder_timb_move_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_06.mp3",
+      "transcript": "I don't know.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_shredder_timb_move_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_07.mp3",
+      "transcript": "What if they get me?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_shredder_timb_move_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_09.mp3",
+      "transcript": "Yeah yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_shredder_timb_move_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_10.mp3",
+      "transcript": "Yeah yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_shredder_timb_move_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_11.mp3",
+      "transcript": "Okay. Okay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_shredder_timb_move_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_12.mp3",
+      "transcript": "Courage!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_shredder_timb_move_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_13.mp3",
+      "transcript": "What was that sound?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_shredder_timb_move_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_14.mp3",
+      "transcript": "Why me?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_shredder_timb_move_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_15.mp3",
+      "transcript": "Running!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_shredder_timb_move_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_16.mp3",
+      "transcript": "Oooh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_shredder_timb_move_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_move_17.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_move_17.mp3",
+      "transcript": "Do I have to?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_shredder_timb_move_17.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_shredder_timb_attack_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_shredder_timb_attack_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_05.mp3",
+      "transcript": "Stay back!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_shredder_timb_attack_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_06.mp3",
+      "transcript": "Cut cut cut!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_shredder_timb_attack_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_07.mp3",
+      "transcript": "Yeah I'm gonna cut ya!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_shredder_timb_attack_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_08.mp3",
+      "transcript": "You're with the trees aren't you?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_shredder_timb_attack_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_09.mp3",
+      "transcript": "I'm warning you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_shredder_timb_attack_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_10.mp3",
+      "transcript": "I'll get you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_shredder_timb_attack_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_11.mp3",
+      "transcript": "I only need a clipping!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_shredder_timb_attack_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_cast_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_cast_01.mp3",
+      "transcript": "I'll show you!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_shredder_timb_cast_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_cast_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_cast_02.mp3",
+      "transcript": "Finally!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_shredder_timb_cast_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_cast_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_cast_03.mp3",
+      "transcript": "Gogogo!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_shredder_timb_cast_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_01.mp3",
+      "transcript": "Whirling Death!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_shredder_timb_whirlingdeath_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_02.mp3",
+      "transcript": "Round and round!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_shredder_timb_whirlingdeath_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_03.mp3",
+      "transcript": "Spin! Cut! Shred!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_shredder_timb_whirlingdeath_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_04.mp3",
+      "transcript": "Stay away from me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_shredder_timb_whirlingdeath_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_06.mp3",
+      "transcript": "Look at me go!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_shredder_timb_whirlingdeath_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_01.mp3",
+      "transcript": "Timber Chain!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_shredder_timb_timberchain_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_02.mp3",
+      "transcript": "Whoa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_shredder_timb_timberchain_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_04.mp3",
+      "transcript": "Away!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_shredder_timb_timberchain_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_05.mp3",
+      "transcript": "Whee!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_shredder_timb_timberchain_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_07.mp3",
+      "transcript": "Whoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_shredder_timb_timberchain_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_08.mp3",
+      "transcript": "Yoink!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_shredder_timb_timberchain_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_timberchain_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_timberchain_09.mp3",
+      "transcript": "Yoink!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_shredder_timb_timberchain_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_failure_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_failure_01.mp3",
+      "transcript": "They're gonna get me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_shredder_timb_failure_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_failure_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_failure_02.mp3",
+      "transcript": "Oh no, no no now what?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_shredder_timb_failure_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_failure_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_failure_03.mp3",
+      "transcript": "I'm trapped. Trapped!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_shredder_timb_failure_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_reactivearmor_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_reactivearmor_01.mp3",
+      "transcript": "Ha! They'll never get me in here.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_shredder_timb_reactivearmor_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_reactivearmor_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_reactivearmor_02.mp3",
+      "transcript": "Safe. Safe. Safe.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_shredder_timb_reactivearmor_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_reactivearmor_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_reactivearmor_04.mp3",
+      "transcript": "Can't get me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_shredder_timb_reactivearmor_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_reactivearmor_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_reactivearmor_05.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_shredder_timb_reactivearmor_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_02.mp3",
+      "transcript": "I'll cut everyone!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_shredder_timb_chakram_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_03.mp3",
+      "transcript": "Spin blade, spin!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_shredder_timb_chakram_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_06.mp3",
+      "transcript": "He ha ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_shredder_timb_chakram_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_07.mp3",
+      "transcript": "Eh ha ha ha ha ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_shredder_timb_chakram_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_08.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_shredder_timb_chakram_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_01.mp3",
+      "transcript": "Timber!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_shredder_timb_chakram_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_04.mp3",
+      "transcript": "It slices, it dices!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_shredder_timb_chakram_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_02.mp3",
+      "transcript": "Much better.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_shredder_timb_chakramreturn_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_04.mp3",
+      "transcript": "Timber!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_shredder_timb_kill_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_03.mp3",
+      "transcript": "To me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_shredder_timb_chakramreturn_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_04.mp3",
+      "transcript": "Here boy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_shredder_timb_chakramreturn_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_05.mp3",
+      "transcript": "To me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_shredder_timb_chakramreturn_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_06.mp3",
+      "transcript": "Heel!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_shredder_timb_chakramreturn_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_07.mp3",
+      "transcript": "Now!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_shredder_timb_chakramreturn_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_01.mp3",
+      "transcript": "Ah! Well, that was fun.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_shredder_timb_chakramreturn_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_08.mp3",
+      "transcript": "Good blade.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_shredder_timb_chakramreturn_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakramreturn_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakramreturn_09.mp3",
+      "transcript": "Enough.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_shredder_timb_chakramreturn_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_02.mp3",
+      "transcript": "Another tree down.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_shredder_timb_tango_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_03.mp3",
+      "transcript": "Mmm splinters!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_shredder_timb_tango_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_04.mp3",
+      "transcript": "Delicious.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_shredder_timb_tango_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_06.mp3",
+      "transcript": "Won't need a toothpick.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_shredder_timb_tango_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_01.mp3",
+      "transcript": "Mm God I hate trees.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_shredder_timb_tango_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_tango_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_tango_05.mp3",
+      "transcript": "De-li-cious.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_shredder_timb_tango_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_whirlingdeath_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_whirlingdeath_05.mp3",
+      "transcript": "Oh God I think I'm going to be sick.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_shredder_timb_whirlingdeath_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ah_02_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ah_02_03.mp3",
+      "transcript": "Get away from me!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_shredder_timb_ah_02_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_slo_no_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_slo_no_02.mp3",
+      "transcript": "Whaaaaaaaaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_shredder_timb_slo_no_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_melting_01_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_melting_01_03.mp3",
+      "transcript": "Oh wo aah wo aaaaaaaaaaaaaaaaaah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_shredder_timb_melting_01_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_01.mp3",
+      "transcript": "The forest ain't safe!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_shredder_timb_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_02.mp3",
+      "transcript": "They won't know what cut 'em!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_shredder_timb_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_03.mp3",
+      "transcript": "Sawblades still not sharp enough!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_shredder_timb_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_04.mp3",
+      "transcript": "Looking sharp. Crazy sharp.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_shredder_timb_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_07.mp3",
+      "transcript": "I'll cut 'em all down.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_shredder_timb_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_08.mp3",
+      "transcript": "Oh! Got a buzz out of that!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_shredder_timb_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_09.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_shredder_timb_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_10.mp3",
+      "transcript": "Oh ho ho!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_shredder_timb_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_11.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_shredder_timb_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_levelup_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_levelup_12.mp3",
+      "transcript": "No forest is safe from me!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_shredder_timb_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_attack_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_attack_03.mp3",
+      "transcript": "Chop chop chop chop chop chop chop!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_shredder_timb_attack_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_01.mp3",
+      "transcript": "Cut cut cutcutcutcutcutcutcutcutcutcutcutcutcutcut!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_shredder_timb_kill_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_02.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_shredder_timb_kill_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_03.mp3",
+      "transcript": "Out of my way!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_shredder_timb_kill_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_05.mp3",
+      "transcript": "I'd hack you down again if I could!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_shredder_timb_kill_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_06.mp3",
+      "transcript": "Chop chop!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_shredder_timb_kill_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_07.mp3",
+      "transcript": "Chop chop chopchopchopchopchop!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_shredder_timb_kill_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_08.mp3",
+      "transcript": "You don't get to win. I get to win!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_shredder_timb_kill_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_09.mp3",
+      "transcript": "Mulch!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_shredder_timb_kill_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_11.mp3",
+      "transcript": "Hilarious.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_shredder_timb_kill_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_12.mp3",
+      "transcript": "I told you to stop getting blood on my blades!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_shredder_timb_kill_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_13.mp3",
+      "transcript": "Mm! That is one less voice in my head.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_shredder_timb_kill_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_15.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_shredder_timb_kill_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_16.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_shredder_timb_kill_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_13.mp3",
+      "transcript": "Ha ha ha-ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_shredder_timb_deny_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_01.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_shredder_timb_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_02.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_shredder_timb_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_03.mp3",
+      "transcript": "He he he he!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_shredder_timb_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_04.mp3",
+      "transcript": "He he he he he!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_shredder_timb_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_05.mp3",
+      "transcript": "Oh ho ho ho ho ho ho ho ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_shredder_timb_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_laugh_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_laugh_06.mp3",
+      "transcript": "Ah ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_shredder_timb_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_kill_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_kill_10.mp3",
+      "transcript": "You mad? Cuz I am! Hahah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_shredder_timb_kill_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_01.mp3",
+      "transcript": "I got you. I got you! I chopped you down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_shredder_timb_rival_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_02.mp3",
+      "transcript": "Ha! You're sawdust!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_shredder_timb_rival_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_03.mp3",
+      "transcript": "Oh you gave me a splinter!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_shredder_timb_rival_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_04.mp3",
+      "transcript": "If you fall in the woods, and I laugh, will anyone hear me?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_shredder_timb_rival_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_07.mp3",
+      "transcript": "Trees do have a way of dying around me!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_shredder_timb_rival_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_05.mp3",
+      "transcript": "Your friends are next, Prophet!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_shredder_timb_rival_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_06.mp3",
+      "transcript": "Oh don't die yet. I'm not finished with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_shredder_timb_rival_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_09.mp3",
+      "transcript": "Saw that coming.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_shredder_timb_rival_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_10.mp3",
+      "transcript": "Finally, I haven't slept in weeks.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_shredder_timb_rival_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_13.mp3",
+      "transcript": "So much for your delusions of grandeur.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_shredder_timb_rival_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_15.mp3",
+      "transcript": "Treehugger.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_shredder_timb_rival_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_16.mp3",
+      "transcript": "It is never gonna be like it was before!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_shredder_timb_rival_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_17.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_17.mp3",
+      "transcript": "You think your cookies are soo special!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_shredder_timb_rival_17.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_18.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_18.mp3",
+      "transcript": "Here's what I think of your lizard! And your cookies! And you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_shredder_timb_rival_18.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_19.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_19.mp3",
+      "transcript": "Goodbye, auntie! Good thing mom is not alive to see this..",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_shredder_timb_rival_19.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_20.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_20.mp3",
+      "transcript": "While you were off perfecting your craft, your kin were dying!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_shredder_timb_rival_20.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_21.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_21.mp3",
+      "transcript": "Oh I saw right through you, Wukong, you were with them from the start!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_shredder_timb_rival_21.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_22.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_22.mp3",
+      "transcript": "Where are your precious trees now, Wukong?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_shredder_timb_rival_22.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_23.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_23.mp3",
+      "transcript": "Sympathizer!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_shredder_timb_rival_23.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_24.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_24.mp3",
+      "transcript": "I don't need therapy!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_shredder_timb_rival_24.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_25.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_25.mp3",
+      "transcript": "Keep those tales of justice to yourself, my thing is revenge!.. and Prevenge!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_shredder_timb_rival_25.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_26.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_26.mp3",
+      "transcript": "I thought you of all fae would understand.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_shredder_timb_rival_26.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_27.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_27.mp3",
+      "transcript": "I knew the fae can't be trusted. Ha, too cozy with the trees!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_shredder_timb_rival_27.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_28.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_28.mp3",
+      "transcript": "It looked like a tree branch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_shredder_timb_rival_28.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_30.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_30.mp3",
+      "transcript": "Don't you swing that thing at me!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_shredder_timb_rival_30.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_31.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_31.mp3",
+      "transcript": "Turned over new leaf, eh? Hm, sounds like tree stuff!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_shredder_timb_rival_31.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_32.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_32.mp3",
+      "transcript": "Oh, I already know the secret, thank you. Cut cut, Cut cut!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_shredder_timb_rival_32.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_12.mp3",
+      "transcript": "Not listening. Not listening. Not listening.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_shredder_timb_rival_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_14.mp3",
+      "transcript": "Not so tough without your friends, are you?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_shredder_timb_rival_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_08.mp3",
+      "transcript": "Saw that coming. Ha! Get it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_shredder_timb_rival_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rival_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rival_11.mp3",
+      "transcript": "I was never really interested in fire, I don't know why.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_shredder_timb_rival_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_firstblood_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_firstblood_01.mp3",
+      "transcript": "First blood! I cut you, and I split you, and I killed you! Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_shredder_timb_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_01.mp3",
+      "transcript": "There's…a giant…tree-person…right next to me. Stay calm. Ha ha ha ha. Just stay calm.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_shredder_timb_ally_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_10.mp3",
+      "transcript": "There's…a giant…tree-person…next to me. Ha ha. Stay calm. Hi there. Stay calm!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_shredder_timb_ally_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_02.mp3",
+      "transcript": "You.. make.. tree-people… Okay P-prophet, I don't think we can be friends.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_shredder_timb_ally_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_03.mp3",
+      "transcript": "An axe to grind. Oh good! Ye-good good good we'll need that!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_shredder_timb_ally_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_04.mp3",
+      "transcript": "Wood carving, meat carving. Same thing, right Pudge?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_shredder_timb_ally_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_05.mp3",
+      "transcript": "Some slash and burn, Batrider?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_shredder_timb_ally_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_06.mp3",
+      "transcript": "So how do you keep track of all those personalities?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_shredder_timb_ally_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_07.mp3",
+      "transcript": "Why are you so perky, Enchantress? Can't you see what's happening?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_shredder_timb_ally_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_08.mp3",
+      "transcript": "I'm under enough pressure without your help, Enigma.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_shredder_timb_ally_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_09.mp3",
+      "transcript": "Ah, Dark Seer. Finally someone who appreciates a wall without padding.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_shredder_timb_ally_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_11.mp3",
+      "transcript": "Oh, sure. Now you're happy to help? Where were you before?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_shredder_timb_ally_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_12.mp3",
+      "transcript": "You show more love for that lizard than your own family!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_shredder_timb_ally_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_13.mp3",
+      "transcript": "Oh. Hello, auntie. Let's keep this brief.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_shredder_timb_ally_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_14.mp3",
+      "transcript": "Keep that dumb lizard away from me!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_shredder_timb_ally_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_15.mp3",
+      "transcript": "You seem a little too fond of trees, friend.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_shredder_timb_ally_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_16.mp3",
+      "transcript": "I will cut where I wanna cut, and you will deal with it!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_shredder_timb_ally_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_17.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_17.mp3",
+      "transcript": "Lose your empathy for the trees, and we'll make a great team.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_shredder_timb_ally_17.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_18.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_18.mp3",
+      "transcript": "This isn't fun and games, it's life and death. Lots and lots of death!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_shredder_timb_ally_18.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_19.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_19.mp3",
+      "transcript": "Hm, those brambles are like baby trees.. I'm watching you.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_shredder_timb_ally_19.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_20.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_20.mp3",
+      "transcript": "Okay, I will grant, that maybe fire is useful. Sometimes.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_shredder_timb_ally_20.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_21.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_21.mp3",
+      "transcript": "Oh, I'll cut you some nice brushes. Yes, very nice brushes..",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_shredder_timb_ally_21.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_22.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_22.mp3",
+      "transcript": "Uh, piece of advice: Stabbing doesn't work on trees.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_shredder_timb_ally_22.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_23.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_23.mp3",
+      "transcript": "I don't know if you've heard, but she's back. Don't risk talking to her and you'll be fine.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_shredder_timb_ally_23.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_24.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_24.mp3",
+      "transcript": "Snap another layer of plate on your armor, granny's back!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_shredder_timb_ally_24.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_ally_25.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_ally_25.mp3",
+      "transcript": "All I'm saying is don't cozy up to the wrong sort. Like her!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_shredder_timb_ally_25.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_01.mp3",
+      "transcript": "Snip!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_shredder_timb_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_02.mp3",
+      "transcript": "Clipped!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_shredder_timb_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_03.mp3",
+      "transcript": "Gold!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_shredder_timb_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_04.mp3",
+      "transcript": "That's all I need.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_shredder_timb_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_05.mp3",
+      "transcript": "Yup, that'll work!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_shredder_timb_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_06.mp3",
+      "transcript": "Gimme.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_shredder_timb_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_07.mp3",
+      "transcript": "Good!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_shredder_timb_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_08.mp3",
+      "transcript": "Simple!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_shredder_timb_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lasthit_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lasthit_09.mp3",
+      "transcript": "Nut!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_shredder_timb_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_shredder_timb_deny_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_shredder_timb_deny_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_03.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_shredder_timb_deny_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_04.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_shredder_timb_deny_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_05.mp3",
+      "transcript": "Back off!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_shredder_timb_deny_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_06.mp3",
+      "transcript": "Not yours!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_shredder_timb_deny_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_07.mp3",
+      "transcript": "Hey!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_shredder_timb_deny_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_08.mp3",
+      "transcript": "Hey!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_shredder_timb_deny_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_09.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_shredder_timb_deny_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_10.mp3",
+      "transcript": "Keep your hands to yourself!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_shredder_timb_deny_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_11.mp3",
+      "transcript": "I said no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_shredder_timb_deny_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_12.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_shredder_timb_deny_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_14.mp3",
+      "transcript": "Oh ho ho ho ho ho! No.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_shredder_timb_deny_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_15.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_shredder_timb_deny_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_16.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_shredder_timb_deny_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_17.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_17.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_shredder_timb_deny_17.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_18.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_18.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_shredder_timb_deny_18.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_19.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_19.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_shredder_timb_deny_19.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_deny_20.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_deny_20.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_shredder_timb_deny_20.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_purch_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_purch_01.mp3",
+      "transcript": "Hey that is a crazy bargain.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_shredder_timb_purch_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_purch_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_purch_02.mp3",
+      "transcript": "You're selling me this? And they call me crazy?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_shredder_timb_purch_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_purch_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_purch_03.mp3",
+      "transcript": "I have never wanted anything else.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_shredder_timb_purch_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_scepter_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_scepter_01.mp3",
+      "transcript": "Ah! Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_shredder_timb_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_scepter_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_scepter_02.mp3",
+      "transcript": "Well it's not an axe, but yeah sure it's nice.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_shredder_timb_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_blink_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_shredder_timb_blink_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_blink_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_blink_02.mp3",
+      "transcript": "Blink dagger? I don't need to blink!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_shredder_timb_blink_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_02.mp3",
+      "transcript": "Bloodstone!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_shredder_timb_items_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_03.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_shredder_timb_items_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_04.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_shredder_timb_items_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_05.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_shredder_timb_items_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_06.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_shredder_timb_items_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_07.mp3",
+      "transcript": "Pipe of Insight!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_shredder_timb_items_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_08.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_shredder_timb_items_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_09.mp3",
+      "transcript": "Blade Mail!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_shredder_timb_items_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_10.mp3",
+      "transcript": "Radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_shredder_timb_items_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_11.mp3",
+      "transcript": "Scepter of Divinity!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_shredder_timb_items_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_12.mp3",
+      "transcript": "Quelling Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_shredder_timb_items_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_13.mp3",
+      "transcript": "Vanguard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_shredder_timb_items_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_14.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_shredder_timb_items_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_immort_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_shredder_timb_immort_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_immort_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_immort_02.mp3",
+      "transcript": "They can't kill me. Nobody can.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_shredder_timb_immort_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_items_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_items_01.mp3",
+      "transcript": "Branch?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_shredder_timb_items_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_shredder_timb_death_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_02.mp3",
+      "transcript": "Eject, eject!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_shredder_timb_death_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_03.mp3",
+      "transcript": "Finally came for me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_shredder_timb_death_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_04.mp3",
+      "transcript": "Feeling peaceful!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_shredder_timb_death_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_04_alt.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_04_alt.mp3",
+      "transcript": "Feeling... peaceful.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_shredder_timb_death_04_alt.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_05.mp3",
+      "transcript": "So exposed.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_shredder_timb_death_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_06.mp3",
+      "transcript": "What? What happened?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_shredder_timb_death_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_07.mp3",
+      "transcript": "Malfunction?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_shredder_timb_death_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_08.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_shredder_timb_death_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_09.mp3",
+      "transcript": "Dammit!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_shredder_timb_death_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_10.mp3",
+      "transcript": "Ah, nuts!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_shredder_timb_death_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_11.mp3",
+      "transcript": "Oh not the trees! No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_shredder_timb_death_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_12.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_12.mp3",
+      "transcript": "Eject! Eject!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_shredder_timb_death_12.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_13.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_13.mp3",
+      "transcript": "Feeling... peaceful!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_shredder_timb_death_13.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_14.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_14.mp3",
+      "transcript": "No this is not happening!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_shredder_timb_death_14.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_15.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_15.mp3",
+      "transcript": "Ah you traitor!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_shredder_timb_death_15.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_16.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_16.mp3",
+      "transcript": "Ah nuts.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_shredder_timb_death_16.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_18.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_18.mp3",
+      "transcript": "This is not happening!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_shredder_timb_death_18.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_19.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_19.mp3",
+      "transcript": "Oh! So exposed!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_shredder_timb_death_19.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_20.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_20.mp3",
+      "transcript": "What? What-what happened?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_shredder_timb_death_20.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_21.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_21.mp3",
+      "transcript": "Oh it's all so clear to me now.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_shredder_timb_death_21.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_death_22.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_death_22.mp3",
+      "transcript": "Dammit.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_shredder_timb_death_22.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_01.mp3",
+      "transcript": "Oh no. Back here again?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_shredder_timb_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_02.mp3",
+      "transcript": "Trees? Why did it have to be trees?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_shredder_timb_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_03.mp3",
+      "transcript": "Hey don't tell me to calm down. I am calm!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_shredder_timb_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_05.mp3",
+      "transcript": "I am completely sane!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_shredder_timb_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_06.mp3",
+      "transcript": "Revving up!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_shredder_timb_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_07.mp3",
+      "transcript": "It's great to be back. Well that's what I tell people anyway.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_shredder_timb_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_08.mp3",
+      "transcript": "I tell you, you wouldn't believe where I've been! You know, no one ever does.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_shredder_timb_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_respawn_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_respawn_04.mp3",
+      "transcript": "You know I'm really not a fan of that dying thing. No, it's not for me.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_shredder_timb_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_fastres_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_fastres_01.mp3",
+      "transcript": "They're all against me! All of 'em!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_shredder_timb_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_bottle_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_bottle_01.mp3",
+      "transcript": "This is my scheming face.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_shredder_timb_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_bottle_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_bottle_02.mp3",
+      "transcript": "Never know! You just never, never know.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_shredder_timb_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_bottle_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_bottle_03.mp3",
+      "transcript": "This will save me?",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_shredder_timb_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_chakram_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_chakram_05.mp3",
+      "transcript": "Clear cutting!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_shredder_timb_chakram_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_doubdam_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_shredder_timb_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_doubdam_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_doubdam_02.mp3",
+      "transcript": "I'll cut and then I'll cut again.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_shredder_timb_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_haste_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_shredder_timb_haste_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_haste_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_haste_02.mp3",
+      "transcript": "Run run run runrunrunrunrunrunrunrunrun!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_shredder_timb_haste_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_illus_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_shredder_timb_illus_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_illus_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_illus_02.mp3",
+      "transcript": "Oh great, now I'm seeing things too.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_shredder_timb_illus_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_invis_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_shredder_timb_invis_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_invis_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_invis_02.mp3",
+      "transcript": "Hey! Where'd I go?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_shredder_timb_invis_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_regen_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_shredder_timb_regen_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_regen_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_regen_02.mp3",
+      "transcript": "Oil the joints. Sharpen the blades.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_shredder_timb_regen_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_shredder_timb_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_shredder_timb_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_shredder_timb_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_02.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_shredder_timb_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_05.mp3",
+      "transcript": "Nyeh I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_shredder_timb_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_shredder_timb_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_03.mp3",
+      "transcript": "Hey! I said not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_shredder_timb_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_06.mp3",
+      "transcript": "I said I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_shredder_timb_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_notyet_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_notyet_09.mp3",
+      "transcript": "Hey! I told you! It isn't time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_shredder_timb_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_shredder_timb_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_shredder_timb_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_shredder_timb_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_shredder_timb_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_05.mp3",
+      "transcript": "No. No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_shredder_timb_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_shredder_timb_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_03.mp3",
+      "transcript": "I'm out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_shredder_timb_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_06.mp3",
+      "transcript": "Are you hearing me? No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_shredder_timb_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_nomana_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_nomana_09.mp3",
+      "transcript": "Oh. Will you get-Not. Enough. Mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_shredder_timb_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_01.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_shredder_timb_pain_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_02.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_shredder_timb_pain_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_shredder_timb_pain_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_04.mp3",
+      "transcript": "Oo!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_shredder_timb_pain_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_shredder_timb_pain_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_06.mp3",
+      "transcript": "Ey!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_shredder_timb_pain_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_07.mp3",
+      "transcript": "Ha oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_shredder_timb_pain_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_08.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_shredder_timb_pain_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_09.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_shredder_timb_pain_09.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_10.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_10.mp3",
+      "transcript": "Aw!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_shredder_timb_pain_10.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_pain_11.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_pain_11.mp3",
+      "transcript": "Oi!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_shredder_timb_pain_11.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_underattack_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_shredder_timb_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rare_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rare_01.mp3",
+      "transcript": "Someone once told me I needed to face fear to get over it, and I thought well why not take a step further and cut my fear into little pieces then set my fear on fire then throw the hot ash of my fear into a lake and then poison the lake. Simple!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_shredder_timb_rare_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_rare_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_rare_02.mp3",
+      "transcript": "I'm not a lumberjack, and no, I'm not okay. I thank you.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_shredder_timb_rare_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_begin_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_begin_02.mp3",
+      "transcript": "Trees? Well nobody said anything about trees.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_shredder_timb_begin_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lane_missing_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lane_missing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_shredder_timb_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lane_missing_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lane_missing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_shredder_timb_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lane_missing_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lane_missing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_shredder_timb_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_thanks_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_thanks_01.mp3",
+      "transcript": "Ah thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_shredder_timb_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_thanks_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_thanks_02.mp3",
+      "transcript": "You're one of the good ones!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_shredder_timb_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_thanks_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_thanks_03.mp3",
+      "transcript": "I almost trust you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_shredder_timb_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_win_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_win_01.mp3",
+      "transcript": "Victory.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_shredder_timb_win_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_win_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_win_02.mp3",
+      "transcript": "We won! We won! Ha ha ha! Yes! What did we win? What? Clarify.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_shredder_timb_win_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lose_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lose_01.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_shredder_timb_lose_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lose_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lose_02.mp3",
+      "transcript": "No escape! No escape! They they're gonna find me! They'll get me I'm telling you I know it they cz vz mm!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_shredder_timb_lose_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_lose_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_lose_03.mp3",
+      "transcript": "No! No no!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_shredder_timb_lose_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_drop_common_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_drop_common_01.mp3",
+      "transcript": "Finally a pleasant surprise.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_shredder_timb_drop_common_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_drop_moderate_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_drop_moderate_01.mp3",
+      "transcript": "Who told you I wanted this? Who? I want to thank them!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_shredder_timb_drop_moderate_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_drop_rare_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_drop_rare_01.mp3",
+      "transcript": "This! This is what I have always wanted! Always!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_shredder_timb_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_drop_rare_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_drop_rare_02.mp3",
+      "transcript": "Oh! Oh! Oh-oh-you see this? You see? Oh this is what I've always wanted! Oh I'm so happy!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_shredder_timb_drop_rare_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_crum_wiz_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_crum_wiz_01.mp3",
+      "transcript": "Crummy wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_shredder_timb_crum_wiz_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_shi_wiz_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_shi_wiz_01.mp3",
+      "transcript": "Shitty wizard.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_shredder_timb_shi_wiz_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_anger_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_anger_01.mp3",
+      "transcript": "Ah gzfzlrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_shredder_timb_anger_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_anger_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_anger_03.mp3",
+      "transcript": "Nogudvvm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_shredder_timb_anger_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_anger_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_anger_04.mp3",
+      "transcript": "Ouph. Noo.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_shredder_timb_anger_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_01.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_01.mp3",
+      "transcript": "Ooooh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_shredder_timb_happy_01.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_02.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_02.mp3",
+      "transcript": "Ah ha ha ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_shredder_timb_happy_02.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_03.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_03.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_shredder_timb_happy_03.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_04.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_04.mp3",
+      "transcript": "Mmmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_shredder_timb_happy_04.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_05.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_05.mp3",
+      "transcript": "Oh yeah ha ha.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_shredder_timb_happy_05.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_06.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_06.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_shredder_timb_happy_06.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_07.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_07.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_shredder_timb_happy_07.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_08.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_08.mp3",
+      "transcript": "Mmm!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_shredder_timb_happy_08.mp3"
+    },
+    {
+      "file": "Vo_shredder_timb_happy_09.mp3",
+      "key": "dota2/timbersaw/Vo_shredder_timb_happy_09.mp3",
+      "transcript": "Yuh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_shredder_timb_happy_09.mp3"
+    }
+  ]
+}

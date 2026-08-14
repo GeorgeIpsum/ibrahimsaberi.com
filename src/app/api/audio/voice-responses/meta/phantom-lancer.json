@@ -1,0 +1,3292 @@
+{
+  "hero": "Phantom Lancer",
+  "slug": "phantom-lancer",
+  "source": "https://liquipedia.net/dota2/Phantom_Lancer/Responses",
+  "scrapedAt": "2026-06-17T14:01:12.591Z",
+  "count": 326,
+  "voicelines": [
+    {
+      "file": "Vo_phantom_lancer_plance_spawn_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_spawn_01.mp3",
+      "transcript": "Phantom Lancer!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_phantom_lancer_plance_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_spawn_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_spawn_02.mp3",
+      "transcript": "For home. For peace.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_lancer_plance_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_spawn_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_spawn_03.mp3",
+      "transcript": "We are but a simple servant.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_lancer_plance_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_spawn_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_spawn_04.mp3",
+      "transcript": "We will do as needed.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_phantom_lancer_plance_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_spawn_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_spawn_05.mp3",
+      "transcript": "From one: an army.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_phantom_lancer_plance_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_battlebegins_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_battlebegins_01.mp3",
+      "transcript": "We are coiled, ready to strike.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_phantom_lancer_plance_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_06.mp3",
+      "transcript": "We shall strike.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_phantom_lancer_plance_attack_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_07.mp3",
+      "transcript": "They cannot hide from us!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_lancer_plance_attack_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_14.mp3",
+      "transcript": "Our lance is ready.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_phantom_lancer_plance_attack_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_cast_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_cast_02.mp3",
+      "transcript": "We come for you!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_phantom_lancer_plance_cast_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_05.mp3",
+      "transcript": "Nothing can stop our march!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_phantom_lancer_plance_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_06.mp3",
+      "transcript": "We will set things to right.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_phantom_lancer_plance_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_06.mp3",
+      "transcript": "R-r-r-r-r-r.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_phantom_lancer_plance_anger_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_inthebag_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_inthebag_01.mp3",
+      "transcript": "I think all of us can agree: this one is in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_phantom_lancer_plance_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_lancer_plance_move_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_phantom_lancer_plance_move_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_03.mp3",
+      "transcript": "We will!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_phantom_lancer_plance_move_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_04.mp3",
+      "transcript": "We will!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_phantom_lancer_plance_move_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_05.mp3",
+      "transcript": "As ordered!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_lancer_plance_move_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_06.mp3",
+      "transcript": "As needed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_phantom_lancer_plance_move_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_07.mp3",
+      "transcript": "Now!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_phantom_lancer_plance_move_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_08.mp3",
+      "transcript": "Quickly!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_phantom_lancer_plance_move_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_09.mp3",
+      "transcript": "Simple!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_phantom_lancer_plance_move_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_10.mp3",
+      "transcript": "We understand.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_phantom_lancer_plance_move_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_11.mp3",
+      "transcript": "We rush.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_phantom_lancer_plance_move_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_12.mp3",
+      "transcript": "Onward.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_lancer_plance_move_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_13.mp3",
+      "transcript": "Without delay!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_lancer_plance_move_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_14.mp3",
+      "transcript": "We see.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_lancer_plance_move_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_15.mp3",
+      "transcript": "Easily.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_phantom_lancer_plance_move_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_16.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_16.mp3",
+      "transcript": "A good idea.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_phantom_lancer_plance_move_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_17.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_17.mp3",
+      "transcript": "There!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_phantom_lancer_plance_move_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_18.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_18.mp3",
+      "transcript": "We agree!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_phantom_lancer_plance_move_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_01.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_lancer_plance_move_clone_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_07.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_phantom_lancer_plance_move_clone_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_13.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_phantom_lancer_plance_move_clone_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_19.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_19.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_phantom_lancer_plance_move_clone_19.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_02.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_phantom_lancer_plance_move_clone_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_03.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_lancer_plance_move_clone_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_04.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_phantom_lancer_plance_move_clone_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_05.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_phantom_lancer_plance_move_clone_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_06.mp3",
+      "transcript": "We march!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_phantom_lancer_plance_move_clone_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_08.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_phantom_lancer_plance_move_clone_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_09.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_lancer_plance_move_clone_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_10.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_phantom_lancer_plance_move_clone_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_11.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_phantom_lancer_plance_move_clone_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_12.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_phantom_lancer_plance_move_clone_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_14.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_phantom_lancer_plance_move_clone_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_15.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_phantom_lancer_plance_move_clone_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_16.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_16.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_phantom_lancer_plance_move_clone_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_17.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_17.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_lancer_plance_move_clone_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_18.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_18.mp3",
+      "transcript": "We move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_phantom_lancer_plance_move_clone_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_20.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_20.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_lancer_plance_move_clone_20.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_21.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_21.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_phantom_lancer_plance_move_clone_21.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_22.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_22.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_phantom_lancer_plance_move_clone_22.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_23.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_23.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_phantom_lancer_plance_move_clone_23.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_move_clone_24.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_move_clone_24.mp3",
+      "transcript": "For victory!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_phantom_lancer_plance_move_clone_24.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_phantom_lancer_plance_attack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_02.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_phantom_lancer_plance_attack_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_03.mp3",
+      "transcript": "Battle comes.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_phantom_lancer_plance_attack_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_04.mp3",
+      "transcript": "Beware us.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_phantom_lancer_plance_attack_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_05.mp3",
+      "transcript": "We hunt!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_phantom_lancer_plance_attack_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_08.mp3",
+      "transcript": "Like spear fishing.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_phantom_lancer_plance_attack_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_09.mp3",
+      "transcript": "Into battle!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_phantom_lancer_plance_attack_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_10.mp3",
+      "transcript": "It is right!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_phantom_lancer_plance_attack_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_11.mp3",
+      "transcript": "We will find them.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_phantom_lancer_plance_attack_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_12.mp3",
+      "transcript": "Our pike finds you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_phantom_lancer_plance_attack_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_13.mp3",
+      "transcript": "We see them.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_phantom_lancer_plance_attack_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_15.mp3",
+      "transcript": "We will take them.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_phantom_lancer_plance_attack_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_01.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_phantom_lancer_plance_attack_clone_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_02.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_phantom_lancer_plance_attack_clone_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_03.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_phantom_lancer_plance_attack_clone_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_04.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_phantom_lancer_plance_attack_clone_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_05.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_phantom_lancer_plance_attack_clone_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_06.mp3",
+      "transcript": "Swarm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_phantom_lancer_plance_attack_clone_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_07.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_phantom_lancer_plance_attack_clone_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_08.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_phantom_lancer_plance_attack_clone_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_09.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_phantom_lancer_plance_attack_clone_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_10.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_phantom_lancer_plance_attack_clone_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_11.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_phantom_lancer_plance_attack_clone_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_12.mp3",
+      "transcript": "A stampede!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_lancer_plance_attack_clone_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_13.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_lancer_plance_attack_clone_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_14.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_lancer_plance_attack_clone_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_15.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_phantom_lancer_plance_attack_clone_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_16.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_16.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_phantom_lancer_plance_attack_clone_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_17.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_17.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_phantom_lancer_plance_attack_clone_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_18.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_18.mp3",
+      "transcript": "Strength in numbers!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_phantom_lancer_plance_attack_clone_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_19.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_19.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_phantom_lancer_plance_attack_clone_19.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_20.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_20.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_phantom_lancer_plance_attack_clone_20.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_21.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_21.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_lancer_plance_attack_clone_21.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_22.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_22.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_phantom_lancer_plance_attack_clone_22.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_23.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_23.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_lancer_plance_attack_clone_23.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_attack_clone_24.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_attack_clone_24.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_lancer_plance_attack_clone_24.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_cast_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_cast_01.mp3",
+      "transcript": "Prepare yourself!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_lancer_plance_cast_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_cast_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_cast_03.mp3",
+      "transcript": "Our force comes.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_phantom_lancer_plance_cast_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_01.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_phantom_lancer_plance_ability_spiritlance_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_02.mp3",
+      "transcript": "Ahhah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_phantom_lancer_plance_ability_spiritlance_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_03.mp3",
+      "transcript": "Yah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_phantom_lancer_plance_ability_spiritlance_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_04.mp3",
+      "transcript": "Hhhah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_lancer_plance_ability_spiritlance_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_phantom_lancer_plance_ability_spiritlance_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_06.mp3",
+      "transcript": "Yeeah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_phantom_lancer_plance_ability_spiritlance_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_07.mp3",
+      "transcript": "Eeeah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_phantom_lancer_plance_ability_spiritlance_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_spiritlance_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_spiritlance_08.mp3",
+      "transcript": "Eeeah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_phantom_lancer_plance_ability_spiritlance_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_02.mp3",
+      "transcript": "Chase this!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_phantom_lancer_plance_ability_doppelwalk_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_03.mp3",
+      "transcript": "Run, friend!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_lancer_plance_ability_doppelwalk_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_04.mp3",
+      "transcript": "A decoy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_phantom_lancer_plance_ability_doppelwalk_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_05.mp3",
+      "transcript": "A decoy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_phantom_lancer_plance_ability_doppelwalk_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_02.mp3",
+      "transcript": "Multiply!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_phantom_lancer_plance_ability_juxtapose_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_01.mp3",
+      "transcript": "Do not seek us.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_phantom_lancer_plance_ability_doppelwalk_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_doppelwalk_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_doppelwalk_06.mp3",
+      "transcript": "We are beside ourselves!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_phantom_lancer_plance_ability_doppelwalk_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_01.mp3",
+      "transcript": "We grow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_phantom_lancer_plance_ability_juxtapose_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_03.mp3",
+      "transcript": "Our numbers grow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_phantom_lancer_plance_ability_juxtapose_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_04.mp3",
+      "transcript": "A legion sprouts from one!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_phantom_lancer_plance_ability_juxtapose_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_01.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_lancer_plance_ability_juxtapose_multi_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_02.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_phantom_lancer_plance_ability_juxtapose_multi_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_03.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_phantom_lancer_plance_ability_juxtapose_multi_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_04.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_phantom_lancer_plance_ability_juxtapose_multi_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_05.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_phantom_lancer_plance_ability_juxtapose_multi_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_06.mp3",
+      "transcript": "Another lance!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_lancer_plance_ability_juxtapose_multi_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_07.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_lancer_plance_ability_juxtapose_multi_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_08.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_phantom_lancer_plance_ability_juxtapose_multi_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_09.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_phantom_lancer_plance_ability_juxtapose_multi_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_10.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_lancer_plance_ability_juxtapose_multi_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_11.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_phantom_lancer_plance_ability_juxtapose_multi_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_12.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_phantom_lancer_plance_ability_juxtapose_multi_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_13.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_lancer_plance_ability_juxtapose_multi_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_14.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_phantom_lancer_plance_ability_juxtapose_multi_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_15.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_phantom_lancer_plance_ability_juxtapose_multi_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_16.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_16.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_phantom_lancer_plance_ability_juxtapose_multi_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_17.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_17.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_phantom_lancer_plance_ability_juxtapose_multi_17.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_juxtapose_multi_18.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_juxtapose_multi_18.mp3",
+      "transcript": "And another!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_phantom_lancer_plance_ability_juxtapose_multi_18.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_01.mp3",
+      "transcript": "We feel the rush!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_phantom_lancer_plance_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_02.mp3",
+      "transcript": "Our numbers grow!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_phantom_lancer_plance_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_03.mp3",
+      "transcript": "Each of us in turn!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_phantom_lancer_plance_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_04.mp3",
+      "transcript": "Our lance catches the sun!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_phantom_lancer_plance_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_07.mp3",
+      "transcript": "Such power!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_phantom_lancer_plance_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_08.mp3",
+      "transcript": "Beware us now!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_phantom_lancer_plance_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_levelup_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_levelup_09.mp3",
+      "transcript": "We are more able, and more willing!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_phantom_lancer_plance_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_01.mp3",
+      "transcript": "All is as it should be.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_phantom_lancer_plance_kill_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_02.mp3",
+      "transcript": "We put you to peace.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_phantom_lancer_plance_kill_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_03.mp3",
+      "transcript": "Rest now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_phantom_lancer_plance_kill_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_04.mp3",
+      "transcript": "We send you beyond.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_phantom_lancer_plance_kill_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_05.mp3",
+      "transcript": "On to the next.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_phantom_lancer_plance_kill_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_06.mp3",
+      "transcript": "We must clean our pike.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_phantom_lancer_plance_kill_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_07.mp3",
+      "transcript": "This fight is over for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_phantom_lancer_plance_kill_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_08.mp3",
+      "transcript": "Do not stand against us.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_phantom_lancer_plance_kill_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_09.mp3",
+      "transcript": "We have strength in numbers. What did you have?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_phantom_lancer_plance_kill_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_kill_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_kill_10.mp3",
+      "transcript": "We outnumbered you. We outnumber them all!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_phantom_lancer_plance_kill_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_01.mp3",
+      "transcript": "Hm hm hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_phantom_lancer_plance_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_02.mp3",
+      "transcript": "Hm hm hm! Hm hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_phantom_lancer_plance_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_03.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_phantom_lancer_plance_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_04.mp3",
+      "transcript": "Hm hm hm heh he he he he ha ha ha haa!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_phantom_lancer_plance_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_05.mp3",
+      "transcript": "Hm hm hm hm heh ha ha ha ha ha haaa!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_lancer_plance_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_07.mp3",
+      "transcript": "Hhah ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_phantom_lancer_plance_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_08.mp3",
+      "transcript": "Mm mm ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_lancer_plance_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_09.mp3",
+      "transcript": "Mm mm ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_phantom_lancer_plance_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_10.mp3",
+      "transcript": "Mm mm mm ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_phantom_lancer_plance_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_01.mp3",
+      "transcript": "From one stampede to another: give it up.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_lancer_plance_rival_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_02.mp3",
+      "transcript": "What would a tunnel rat want with such power, hmm?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_phantom_lancer_plance_rival_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_03.mp3",
+      "transcript": "You should have applied more of yourselves.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_phantom_lancer_plance_rival_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_04.mp3",
+      "transcript": "Back over the wall with you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_lancer_plance_rival_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_05.mp3",
+      "transcript": "How many ways should we split your bounty, hunter?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_phantom_lancer_plance_rival_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_06.mp3",
+      "transcript": "Too many targets for you, Sniper?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_phantom_lancer_plance_rival_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_07.mp3",
+      "transcript": "That's a nice fish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_phantom_lancer_plance_rival_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_08.mp3",
+      "transcript": "We have enough spearmen already, Slardar.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_phantom_lancer_plance_rival_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_09.mp3",
+      "transcript": "Keep your clones to yourself.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_phantom_lancer_plance_rival_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_10.mp3",
+      "transcript": "We've had enough of your kind, Magi.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_phantom_lancer_plance_rival_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rival_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rival_11.mp3",
+      "transcript": "Slither back to your nest.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_lancer_plance_rival_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_firstblood_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_firstblood_01.mp3",
+      "transcript": "First blood! Let our great combat begin!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_phantom_lancer_plance_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_01.mp3",
+      "transcript": "Chaos Knight: let's show them the meaning of stampede.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_phantom_lancer_plance_ally_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_02.mp3",
+      "transcript": "That is a nice… digger you have there Meepo.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_phantom_lancer_plance_ally_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_03.mp3",
+      "transcript": "Drink to our coming victory, Brewmaster.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_phantom_lancer_plance_ally_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_04.mp3",
+      "transcript": "We shall drown them in numbers, Siren.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_phantom_lancer_plance_ally_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_05.mp3",
+      "transcript": "You keep the light. We will protect it.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_phantom_lancer_plance_ally_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_06.mp3",
+      "transcript": "They will shiver before us, Maiden.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_phantom_lancer_plance_ally_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ally_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ally_07.mp3",
+      "transcript": "We could always use a few more, Morphling.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_phantom_lancer_plance_ally_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_01.mp3",
+      "transcript": "For our cause.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_phantom_lancer_plance_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_02.mp3",
+      "transcript": "We apologize.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_phantom_lancer_plance_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_03.mp3",
+      "transcript": "Hush now.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_phantom_lancer_plance_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_04.mp3",
+      "transcript": "Mere coin?",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_lancer_plance_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_05.mp3",
+      "transcript": "Poor creature.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_phantom_lancer_plance_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_06.mp3",
+      "transcript": "Such simple minds.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_phantom_lancer_plance_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lasthit_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lasthit_07.mp3",
+      "transcript": "Effortless.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_phantom_lancer_plance_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_phantom_lancer_plance_deny_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_phantom_lancer_plance_deny_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_phantom_lancer_plance_deny_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_04.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_phantom_lancer_plance_deny_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_05.mp3",
+      "transcript": "We say no.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_phantom_lancer_plance_deny_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_06.mp3",
+      "transcript": "That is not yours.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_phantom_lancer_plance_deny_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_07.mp3",
+      "transcript": "Better it be no one's.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_lancer_plance_deny_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_08.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_phantom_lancer_plance_deny_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_09.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_phantom_lancer_plance_deny_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_10.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_phantom_lancer_plance_deny_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_11.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_phantom_lancer_plance_deny_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_12.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_phantom_lancer_plance_deny_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_deny_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_deny_13.mp3",
+      "transcript": "Hah!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_phantom_lancer_plance_deny_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_purch_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_purch_01.mp3",
+      "transcript": "More than we would earn in our lifetimes.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_phantom_lancer_plance_purch_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_purch_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_purch_02.mp3",
+      "transcript": "For what it cost, it must be good",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_phantom_lancer_plance_purch_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_purch_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_purch_03.mp3",
+      "transcript": "Mere coins are worth this?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_phantom_lancer_plance_purch_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_blink_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_phantom_lancer_plance_blink_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_blink_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_blink_02.mp3",
+      "transcript": "Not as sharp as this lance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_phantom_lancer_plance_blink_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_scepter_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_phantom_lancer_plance_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_scepter_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_scepter_02.mp3",
+      "transcript": "Do we have enough for all of us?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_phantom_lancer_plance_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_01.mp3",
+      "transcript": "Manta Style.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_lancer_plance_item_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_02.mp3",
+      "transcript": "Butterfly.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_phantom_lancer_plance_item_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_03.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_lancer_plance_item_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_04.mp3",
+      "transcript": "Monkey King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_phantom_lancer_plance_item_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_05.mp3",
+      "transcript": "Vanguard.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_phantom_lancer_plance_item_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_06.mp3",
+      "transcript": "Radiance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_phantom_lancer_plance_item_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_07.mp3",
+      "transcript": "Eye of Skadi.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_phantom_lancer_plance_item_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_08.mp3",
+      "transcript": "Diffusal Blade!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_phantom_lancer_plance_item_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_item_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_item_09.mp3",
+      "transcript": "Daedalus!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_phantom_lancer_plance_item_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_immort_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_phantom_lancer_plance_immort_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_immort_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_immort_02.mp3",
+      "transcript": "We will live forever.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_phantom_lancer_plance_immort_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_01.mp3",
+      "transcript": "Mmm, it is over.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_phantom_lancer_plance_death_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_02.mp3",
+      "transcript": "This one dies.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_phantom_lancer_plance_death_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_03.mp3",
+      "transcript": "All of us?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_phantom_lancer_plance_death_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_04.mp3",
+      "transcript": "Whole again…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_phantom_lancer_plance_death_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_05.mp3",
+      "transcript": "There goes another…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_phantom_lancer_plance_death_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_06.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_phantom_lancer_plance_death_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_07.mp3",
+      "transcript": "Where will we go?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_phantom_lancer_plance_death_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_08.mp3",
+      "transcript": "We outlive ourselves.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_phantom_lancer_plance_death_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_09.mp3",
+      "transcript": "Will we shatter?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_phantom_lancer_plance_death_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_death_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_death_10.mp3",
+      "transcript": "What about the rest?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_phantom_lancer_plance_death_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_01.mp3",
+      "transcript": "We return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_phantom_lancer_plance_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_02.mp3",
+      "transcript": "They cannot stop us.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_phantom_lancer_plance_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_03.mp3",
+      "transcript": "Am I the real we?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_phantom_lancer_plance_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_04.mp3",
+      "transcript": "They cannot kill all of us.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_lancer_plance_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_05.mp3",
+      "transcript": "We have more where that came from.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_phantom_lancer_plance_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_06.mp3",
+      "transcript": "Another is always ready.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_phantom_lancer_plance_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_07.mp3",
+      "transcript": "We continue.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_phantom_lancer_plance_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_08.mp3",
+      "transcript": "We're back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_phantom_lancer_plance_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_09.mp3",
+      "transcript": "We continue to serve.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_phantom_lancer_plance_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_10.mp3",
+      "transcript": "We will raise a new army.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_phantom_lancer_plance_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_11.mp3",
+      "transcript": "We will sweep across the field once more.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_phantom_lancer_plance_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_respawn_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_respawn_12.mp3",
+      "transcript": "One lives. Many return.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_phantom_lancer_plance_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_fastres_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_fastres_01.mp3",
+      "transcript": "It will take more than that!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_phantom_lancer_plance_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_bottle_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_bottle_01.mp3",
+      "transcript": "We are patient.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_phantom_lancer_plance_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_bottle_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_bottle_02.mp3",
+      "transcript": "We will tuck it away.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_phantom_lancer_plance_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_bottle_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_bottle_03.mp3",
+      "transcript": "For when our moment comes.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_phantom_lancer_plance_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_illus_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_illus_04.mp3",
+      "transcript": "Why not?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_phantom_lancer_plance_illus_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_doubdam_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_lancer_plance_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_doubdam_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_doubdam_02.mp3",
+      "transcript": "Two lances for each of us.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_phantom_lancer_plance_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_haste_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_phantom_lancer_plance_haste_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_haste_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_haste_02.mp3",
+      "transcript": "None can outrun our charge.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_phantom_lancer_plance_haste_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_illus_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_phantom_lancer_plance_illus_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_illus_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_illus_02.mp3",
+      "transcript": "Now this is just silly.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_phantom_lancer_plance_illus_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_illus_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_illus_03.mp3",
+      "transcript": "Because at this point: why not?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_phantom_lancer_plance_illus_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_invis_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_phantom_lancer_plance_invis_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_invis_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_invis_02.mp3",
+      "transcript": "Are we alone again?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_phantom_lancer_plance_invis_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_regen_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_phantom_lancer_plance_regen_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_regen_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_regen_02.mp3",
+      "transcript": "Our bodies restored.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_lancer_plance_regen_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_phantom_lancer_plance_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_phantom_lancer_plance_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_phantom_lancer_plance_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_phantom_lancer_plance_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_phantom_lancer_plance_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_phantom_lancer_plance_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_phantom_lancer_plance_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_08.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_phantom_lancer_plance_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_notyet_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_phantom_lancer_plance_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_phantom_lancer_plance_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_phantom_lancer_plance_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_phantom_lancer_plance_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_04.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_phantom_lancer_plance_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_05.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_phantom_lancer_plance_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_06.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_phantom_lancer_plance_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_phantom_lancer_plance_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_phantom_lancer_plance_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_nomana_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_phantom_lancer_plance_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_01.mp3",
+      "transcript": "Ergh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_phantom_lancer_plance_pain_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_02.mp3",
+      "transcript": "Ahhm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_phantom_lancer_plance_pain_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_03.mp3",
+      "transcript": "Agh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_phantom_lancer_plance_pain_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_04.mp3",
+      "transcript": "Hhah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_phantom_lancer_plance_pain_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_05.mp3",
+      "transcript": "Ugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_phantom_lancer_plance_pain_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_06.mp3",
+      "transcript": "Mm!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_phantom_lancer_plance_pain_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_07.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_phantom_lancer_plance_pain_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_08.mp3",
+      "transcript": "Augh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_phantom_lancer_plance_pain_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_09.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_09.mp3",
+      "transcript": "Augh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_lancer_plance_pain_09.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_pain_10.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_pain_10.mp3",
+      "transcript": "Mmugh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_phantom_lancer_plance_pain_10.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_underattack_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_phantom_lancer_plance_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rare_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rare_01.mp3",
+      "transcript": "We want nothing of this war. Only a return to peace and quiet.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_phantom_lancer_plance_rare_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rare_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rare_02.mp3",
+      "transcript": "We ask only for peace for our people. Is that so much?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_phantom_lancer_plance_rare_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_rare_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_rare_03.mp3",
+      "transcript": "If we are to be used and spent, let it be toward a noble purpose.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_phantom_lancer_plance_rare_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lane_missing_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lane_missing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_phantom_lancer_plance_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lane_missing_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lane_missing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_phantom_lancer_plance_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lane_missing_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lane_missing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_phantom_lancer_plance_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_thanks_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_thanks_01.mp3",
+      "transcript": "Thank you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_phantom_lancer_plance_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_thanks_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_thanks_02.mp3",
+      "transcript": "Thank you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_phantom_lancer_plance_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_thanks_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_thanks_03.mp3",
+      "transcript": "All of us thank you!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_phantom_lancer_plance_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_06.mp3",
+      "transcript": "Hm hm hm hm hm hm ha ha ha ha ha ha hh hh hh hh hh hh hh hh hh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_phantom_lancer_plance_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_11.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_11.mp3",
+      "transcript": "Mm mm mm ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_phantom_lancer_plance_laugh_11.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_12.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_12.mp3",
+      "transcript": "Heh heh heh heh heh heh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_phantom_lancer_plance_laugh_12.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_13.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_13.mp3",
+      "transcript": "Ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_phantom_lancer_plance_laugh_13.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_14.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_14.mp3",
+      "transcript": "Ah ha ha heh hah!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_phantom_lancer_plance_laugh_14.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_15.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_15.mp3",
+      "transcript": "Oo ho ho ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_phantom_lancer_plance_laugh_15.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_laugh_16.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_laugh_16.mp3",
+      "transcript": "Ah ha ha ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_phantom_lancer_plance_laugh_16.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_win_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_phantom_lancer_plance_win_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_win_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_win_02.mp3",
+      "transcript": "Numbers have accomplished what strategy alone could not.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_lancer_plance_win_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_win_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_win_03.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_phantom_lancer_plance_win_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_win_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_win_04.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_lancer_plance_win_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lose_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_phantom_lancer_plance_lose_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lose_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_phantom_lancer_plance_lose_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_lose_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_lose_03.mp3",
+      "transcript": "We feel ten times the shame.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_phantom_lancer_plance_lose_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_drop_common.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_drop_common.mp3",
+      "transcript": "Look what we found.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_phantom_lancer_plance_drop_common.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_drop_medium.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_drop_medium.mp3",
+      "transcript": "We find this excellent.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_phantom_lancer_plance_drop_medium.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_drop_rare.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_drop_rare.mp3",
+      "transcript": "What an amazing thing!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_phantom_lancer_plance_drop_rare.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_failure_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_failure_01.mp3",
+      "transcript": "We let us down.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_phantom_lancer_plance_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_failure_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_failure_02.mp3",
+      "transcript": "We are all sad.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_phantom_lancer_plance_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_ability_failure_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_ability_failure_03.mp3",
+      "transcript": "This was all of our fault!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_phantom_lancer_plance_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_shiwiz_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_phantom_lancer_plance_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_crumwiz_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_phantom_lancer_plance_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_01.mp3",
+      "transcript": "Shmmmph!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_phantom_lancer_plance_anger_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_02.mp3",
+      "transcript": "Phmmph!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_phantom_lancer_plance_anger_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_03.mp3",
+      "transcript": "Eeeegh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_phantom_lancer_plance_anger_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_04.mp3",
+      "transcript": "Eeough!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_phantom_lancer_plance_anger_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_05.mp3",
+      "transcript": "Eeeeuph!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_phantom_lancer_plance_anger_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_07.mp3",
+      "transcript": "R-r-mmmph!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_phantom_lancer_plance_anger_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_anger_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_anger_08.mp3",
+      "transcript": "Oough.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_phantom_lancer_plance_anger_08.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_01.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_phantom_lancer_plance_happy_01.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_02.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_phantom_lancer_plance_happy_02.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_03.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_03.mp3",
+      "transcript": "Mmph!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_phantom_lancer_plance_happy_03.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_04.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_04.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_phantom_lancer_plance_happy_04.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_05.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_05.mp3",
+      "transcript": "Ahhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_phantom_lancer_plance_happy_05.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_06.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_06.mp3",
+      "transcript": "Oooh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_phantom_lancer_plance_happy_06.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_07.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_07.mp3",
+      "transcript": "Mmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_phantom_lancer_plance_happy_07.mp3"
+    },
+    {
+      "file": "Vo_phantom_lancer_plance_happy_08.mp3",
+      "key": "dota2/phantom-lancer/Vo_phantom_lancer_plance_happy_08.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_phantom_lancer_plance_happy_08.mp3"
+    }
+  ]
+}

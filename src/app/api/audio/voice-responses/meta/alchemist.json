@@ -1,0 +1,3654 @@
+{
+  "hero": "Alchemist",
+  "slug": "alchemist",
+  "source": "https://liquipedia.net/dota2/Alchemist/Responses",
+  "scrapedAt": "2026-06-17T13:16:51.673Z",
+  "count": 362,
+  "voicelines": [
+    {
+      "file": "Vo_alchemist_alch_spawn_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_01.mp3",
+      "transcript": "Alchemist!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_alchemist_alch_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_spawn_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_02.mp3",
+      "transcript": "Yeah, I'm here.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_alchemist_alch_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_spawn_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_03.mp3",
+      "transcript": "I'll be the catalyst!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_alchemist_alch_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_05.mp3",
+      "transcript": "Now we're cookin!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_alchemist_alch_attack_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_17.mp3",
+      "transcript": "I'm feeling punchy.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_alchemist_alch_attack_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_26.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_26.mp3",
+      "transcript": "You're the boss.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_alchemist_alch_move_26.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_05.mp3",
+      "transcript": "Better living through alchemy!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_alchemist_alch_level_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_02.mp3",
+      "transcript": "Alchemy is the future!",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_alchemist_alch_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_13.mp3",
+      "transcript": "You point, I'll punch!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_alchemist_alch_attack_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_20.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_20.mp3",
+      "transcript": "Easy now, this stuff is explosive!",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_alchemist_alch_move_20.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_18.mp3",
+      "transcript": "Come take some punches.",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_alchemist_alch_attack_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_cast_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_cast_01.mp3",
+      "transcript": "My little friend wants a word with you.",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_alchemist_alch_cast_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_05.mp3",
+      "transcript": "Yehh.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_alchemist_alch_anger_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_spawn_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_04.mp3",
+      "transcript": "You can call me Al! He's the brains of the operation.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_alchemist_alch_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_spawn_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_05.mp3",
+      "transcript": "I'm the brains! And I'm the brawn!",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_alchemist_alch_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_spawn_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_spawn_06.mp3",
+      "transcript": "Admire the brawn! Thanks, brains!",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_alchemist_alch_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_inthebag_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_inthebag_01.mp3",
+      "transcript": "Hey little buddy, it's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_alchemist_alch_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_battlebegins_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_battlebegins_01.mp3",
+      "transcript": "You have your marching orders!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_alchemist_alch_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_battlebegins_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_battlebegins_02.mp3",
+      "transcript": "Aaand we're off!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_alchemist_alch_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_alchemist_alch_move_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_alchemist_alch_move_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_03.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_alchemist_alch_move_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_04.mp3",
+      "transcript": "You got it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_alchemist_alch_move_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_05.mp3",
+      "transcript": "Okey dokey!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_alchemist_alch_move_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_06.mp3",
+      "transcript": "Okay!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_alchemist_alch_move_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_07.mp3",
+      "transcript": "Yeah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_alchemist_alch_move_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_08.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_alchemist_alch_move_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_09.mp3",
+      "transcript": "Mixing it up!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_alchemist_alch_move_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_10.mp3",
+      "transcript": "Sounds like a plan.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_alchemist_alch_move_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_11.mp3",
+      "transcript": "Decanting!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_alchemist_alch_move_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_12.mp3",
+      "transcript": "Pour it on!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_alchemist_alch_move_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_13.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_alchemist_alch_move_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_14.mp3",
+      "transcript": "You heard him!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_alchemist_alch_move_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_15.mp3",
+      "transcript": "Stir it up!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_alchemist_alch_move_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_16.mp3",
+      "transcript": "Thataway!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_alchemist_alch_move_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_17.mp3",
+      "transcript": "Over there!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_alchemist_alch_move_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_18.mp3",
+      "transcript": "Watch your step!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_alchemist_alch_move_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_19.mp3",
+      "transcript": "Watch where you're going!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_alchemist_alch_move_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_21.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_21.mp3",
+      "transcript": "Hey, you're making me spill!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_alchemist_alch_move_21.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_22.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_22.mp3",
+      "transcript": "Go go go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_alchemist_alch_move_22.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_23.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_23.mp3",
+      "transcript": "Shake it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_alchemist_alch_move_23.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_24.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_24.mp3",
+      "transcript": "Tiptoe now, you're shaking my brew!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_alchemist_alch_move_24.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_25.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_25.mp3",
+      "transcript": "Stop kicking me!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_alchemist_alch_move_25.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_27.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_27.mp3",
+      "transcript": "Yeah, yeah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_alchemist_alch_move_27.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_28.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_28.mp3",
+      "transcript": "I'm going, I'm going.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_alchemist_alch_move_28.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_29.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_29.mp3",
+      "transcript": "Come on, boss.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_alchemist_alch_move_29.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_30.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_30.mp3",
+      "transcript": "Okay, okay.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_alchemist_alch_move_30.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_31.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_31.mp3",
+      "transcript": "I heard you.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_alchemist_alch_move_31.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_32.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_32.mp3",
+      "transcript": "All right already.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_alchemist_alch_move_32.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_33.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_33.mp3",
+      "transcript": "Whatever you say.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_alchemist_alch_move_33.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_34.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_34.mp3",
+      "transcript": "Watch your heels.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_alchemist_alch_move_34.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_35.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_35.mp3",
+      "transcript": "Hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_alchemist_alch_move_35.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_36.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_36.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_alchemist_alch_move_36.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_37.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_37.mp3",
+      "transcript": "Uh huh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_alchemist_alch_move_37.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_38.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_38.mp3",
+      "transcript": "Heh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_alchemist_alch_move_38.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_39.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_39.mp3",
+      "transcript": "Huh?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_alchemist_alch_move_39.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_40.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_40.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_alchemist_alch_move_40.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_move_41.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_move_41.mp3",
+      "transcript": "Uh huh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4d/Vo_alchemist_alch_move_41.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_alchemist_alch_attack_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_02.mp3",
+      "transcript": "Giddy up!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_alchemist_alch_attack_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_03.mp3",
+      "transcript": "Don't hold back!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_alchemist_alch_attack_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_04.mp3",
+      "transcript": "We got this!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_alchemist_alch_attack_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_06.mp3",
+      "transcript": "Start reacting!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_alchemist_alch_attack_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_07.mp3",
+      "transcript": "Here we come!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_alchemist_alch_attack_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_08.mp3",
+      "transcript": "Here we come!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_alchemist_alch_attack_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_09.mp3",
+      "transcript": "We're onto you!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_alchemist_alch_attack_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_10.mp3",
+      "transcript": "Let's get em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_alchemist_alch_attack_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_11.mp3",
+      "transcript": "You drive for a while!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_alchemist_alch_attack_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_12.mp3",
+      "transcript": "Formula racing!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_alchemist_alch_attack_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_14.mp3",
+      "transcript": "I'll get right on them.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_alchemist_alch_attack_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_15.mp3",
+      "transcript": "I always do your dirty work.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_alchemist_alch_attack_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_16.mp3",
+      "transcript": "On it!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_alchemist_alch_attack_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_attack_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_attack_19.mp3",
+      "transcript": "Here we go!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_alchemist_alch_attack_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_cast_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_cast_02.mp3",
+      "transcript": "We got something special for you.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_alchemist_alch_cast_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_cast_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_cast_03.mp3",
+      "transcript": "Got a fresh batch on the way.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_alchemist_alch_cast_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_01.mp3",
+      "transcript": "Hold your nose!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_alchemist_alch_ability_acid_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_02.mp3",
+      "transcript": "Incoming!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_alchemist_alch_ability_acid_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_03.mp3",
+      "transcript": "Acid in the hole!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_alchemist_alch_ability_acid_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_04.mp3",
+      "transcript": "Fore!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_alchemist_alch_ability_acid_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_05.mp3",
+      "transcript": "Watch your head!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_alchemist_alch_ability_acid_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_06.mp3",
+      "transcript": "That stuff burns!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_alchemist_alch_ability_acid_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_07.mp3",
+      "transcript": "Toxic spill!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_alchemist_alch_ability_acid_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_08.mp3",
+      "transcript": "This'll eat up your armor.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_alchemist_alch_ability_acid_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_09.mp3",
+      "transcript": "I don't wanna walk in that.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_alchemist_alch_ability_acid_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_10.mp3",
+      "transcript": "That stuff stings.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_alchemist_alch_ability_acid_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_11.mp3",
+      "transcript": "Don't make me go there.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_alchemist_alch_ability_acid_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_acid_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_acid_12.mp3",
+      "transcript": "Do not go there!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_alchemist_alch_ability_acid_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_01.mp3",
+      "transcript": "Cocktail time!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_alchemist_alch_ability_concoc_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_02.mp3",
+      "transcript": "Shoulda been a mixologist!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_alchemist_alch_ability_concoc_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_03.mp3",
+      "transcript": "Gotta get rid of this stuff!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_alchemist_alch_ability_concoc_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_04.mp3",
+      "transcript": "Cocktails in five…",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_alchemist_alch_ability_concoc_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_05.mp3",
+      "transcript": "Cocktails for five!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_alchemist_alch_ability_concoc_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_06.mp3",
+      "transcript": "Little bit of this, little bit of that.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_alchemist_alch_ability_concoc_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_07.mp3",
+      "transcript": "Whoa whoa whoa whoa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_alchemist_alch_ability_concoc_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_08.mp3",
+      "transcript": "Look what's cookin!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_alchemist_alch_ability_concoc_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_10.mp3",
+      "transcript": "It's heatin up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_alchemist_alch_ability_concoc_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_11.mp3",
+      "transcript": "Uh oh.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_alchemist_alch_ability_concoc_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_12.mp3",
+      "transcript": "Look out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_alchemist_alch_ability_concoc_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_13.mp3",
+      "transcript": "What the---",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_alchemist_alch_ability_concoc_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_14.mp3",
+      "transcript": "Duck!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_alchemist_alch_ability_concoc_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_18.mp3",
+      "transcript": "What're you waiting for?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_alchemist_alch_ability_concoc_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_19.mp3",
+      "transcript": "Throw it!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_alchemist_alch_ability_concoc_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_20.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_20.mp3",
+      "transcript": "Throw the damn thing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_alchemist_alch_ability_concoc_20.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_21.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_21.mp3",
+      "transcript": "Hey, watch my head!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_alchemist_alch_ability_concoc_21.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_22.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_22.mp3",
+      "transcript": "Hey!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_alchemist_alch_ability_concoc_22.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_23.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_23.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_alchemist_alch_ability_concoc_23.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_24.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_24.mp3",
+      "transcript": "Ow! That hurt!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_alchemist_alch_ability_concoc_24.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_25.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_25.mp3",
+      "transcript": "Didn't you hear me telling you to throw it?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_alchemist_alch_ability_concoc_25.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_26.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_26.mp3",
+      "transcript": "Maybe you want to trade places?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_alchemist_alch_ability_concoc_26.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_27.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_27.mp3",
+      "transcript": "Next time maybe I can try throwing?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_alchemist_alch_ability_concoc_27.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_09.mp3",
+      "transcript": "Shaken and stirred!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_alchemist_alch_ability_concoc_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_15.mp3",
+      "transcript": "Mixed that up special for you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_alchemist_alch_ability_concoc_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_16.mp3",
+      "transcript": "That was a close one!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_alchemist_alch_ability_concoc_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_concoc_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_concoc_17.mp3",
+      "transcript": "Oh ho yeah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_alchemist_alch_ability_concoc_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_01.mp3",
+      "transcript": "Ha ha! Sic em!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_alchemist_alch_ability_rage_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_02.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_alchemist_alch_ability_rage_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_03.mp3",
+      "transcript": "Down the hatch!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_alchemist_alch_ability_rage_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_04.mp3",
+      "transcript": "Open up!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_alchemist_alch_ability_rage_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_05.mp3",
+      "transcript": "Yee haw!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_alchemist_alch_ability_rage_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_06.mp3",
+      "transcript": "Woo hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_alchemist_alch_ability_rage_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_07.mp3",
+      "transcript": "Woo hoo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_alchemist_alch_ability_rage_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_08.mp3",
+      "transcript": "Knives out!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_alchemist_alch_ability_rage_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_09.mp3",
+      "transcript": "Go on, little buddy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_alchemist_alch_ability_rage_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_10.mp3",
+      "transcript": "Pour it on!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_alchemist_alch_ability_rage_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_11.mp3",
+      "transcript": "Let em have it!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_alchemist_alch_ability_rage_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_12.mp3",
+      "transcript": "Knives akimbo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_alchemist_alch_ability_rage_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_13.mp3",
+      "transcript": "Ogre battle!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_alchemist_alch_ability_rage_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_14.mp3",
+      "transcript": "I can't believe I'm seeing this with my own eyes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_alchemist_alch_ability_rage_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_15.mp3",
+      "transcript": "Mrrraaw!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_alchemist_alch_ability_rage_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_16.mp3",
+      "transcript": "Urrooor!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_alchemist_alch_ability_rage_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_17.mp3",
+      "transcript": "Rawwwr!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_alchemist_alch_ability_rage_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_18.mp3",
+      "transcript": "Mrrroar!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_alchemist_alch_ability_rage_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_19.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_alchemist_alch_ability_rage_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_20.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_20.mp3",
+      "transcript": "More!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_alchemist_alch_ability_rage_20.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_21.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_21.mp3",
+      "transcript": "These are my blades!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_alchemist_alch_ability_rage_21.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_22.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_22.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_alchemist_alch_ability_rage_22.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_23.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_23.mp3",
+      "transcript": "Let me at em!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_alchemist_alch_ability_rage_23.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_24.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_24.mp3",
+      "transcript": "It's hacking time!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_alchemist_alch_ability_rage_24.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_rage_25.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_rage_25.mp3",
+      "transcript": "Hey, everybody!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_alchemist_alch_ability_rage_25.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_01.mp3",
+      "transcript": "This stuff really works!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_alchemist_alch_level_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_02.mp3",
+      "transcript": "I've got the stuff!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_alchemist_alch_level_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_03.mp3",
+      "transcript": "Lead into gold!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_alchemist_alch_level_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_04.mp3",
+      "transcript": "That's what I call chemistry.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_alchemist_alch_level_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_06.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_alchemist_alch_level_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_07.mp3",
+      "transcript": "Oh ho!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_alchemist_alch_level_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_08.mp3",
+      "transcript": "Ah ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_alchemist_alch_level_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_09.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_alchemist_alch_level_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_10.mp3",
+      "transcript": "You losing weight, boss?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_alchemist_alch_level_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_11.mp3",
+      "transcript": "Gonna punch a little harder.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_alchemist_alch_level_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_level_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_level_12.mp3",
+      "transcript": "I felt that too!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_alchemist_alch_level_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_01.mp3",
+      "transcript": "That was special for you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_alchemist_alch_kill_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_02.mp3",
+      "transcript": "That was genius!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_alchemist_alch_kill_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_03.mp3",
+      "transcript": "It's all part of the formula.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_alchemist_alch_kill_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_04.mp3",
+      "transcript": "You've been mixing with the wrong crowd.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_alchemist_alch_kill_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_05.mp3",
+      "transcript": "That's comedy gold!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_alchemist_alch_kill_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_06.mp3",
+      "transcript": "That's you distilled to your essence.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_alchemist_alch_kill_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_07.mp3",
+      "transcript": "You could use more refinement.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_alchemist_alch_kill_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_08.mp3",
+      "transcript": "Talk about overreacting.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_alchemist_alch_kill_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_09.mp3",
+      "transcript": "You're melting, you're melting, ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_alchemist_alch_kill_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_10.mp3",
+      "transcript": "Tell the ogre you're sorry.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_alchemist_alch_kill_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_11.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_alchemist_alch_kill_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_12.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_alchemist_alch_kill_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_13.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_alchemist_alch_kill_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_14.mp3",
+      "transcript": "Got one!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_alchemist_alch_kill_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_15.mp3",
+      "transcript": "The boss said you had to go.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_alchemist_alch_kill_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_16.mp3",
+      "transcript": "You want I should keep punching him, boss?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_alchemist_alch_kill_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_17.mp3",
+      "transcript": "Aw, I was just getting started.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_alchemist_alch_kill_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_kill_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_kill_18.mp3",
+      "transcript": "Was that one mine?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_alchemist_alch_kill_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_01.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_alchemist_alch_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_02.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_alchemist_alch_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_03.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_alchemist_alch_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_04.mp3",
+      "transcript": "Heh hee ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_alchemist_alch_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_05.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_alchemist_alch_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_06.mp3",
+      "transcript": "Heh heh heh he he.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_alchemist_alch_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_07.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_alchemist_alch_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_08.mp3",
+      "transcript": "Bah ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_alchemist_alch_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_09.mp3",
+      "transcript": "Ah ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_alchemist_alch_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_laugh_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_laugh_10.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_alchemist_alch_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_01.mp3",
+      "transcript": "Damn, was gonna ask Batrider if he wanted to trade mounts. Hey!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_alchemist_alch_rival_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_02.mp3",
+      "transcript": "You don't think Pudge will mind if we salvage him for fluids, do ya?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_alchemist_alch_rival_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_03.mp3",
+      "transcript": "Pudge, were you tapping methane? Yikes!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_alchemist_alch_rival_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_04.mp3",
+      "transcript": "I always wondered what you'd get if you melted Apparition down.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_alchemist_alch_rival_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_05.mp3",
+      "transcript": "All right! Fairy dragon blood is hard to come by.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_alchemist_alch_rival_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_06.mp3",
+      "transcript": "Hey, you think Kunkka knew I stole his rum?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_alchemist_alch_rival_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_07.mp3",
+      "transcript": "Morphling, if I could have shoved you in a beaker…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_alchemist_alch_rival_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_08.mp3",
+      "transcript": "One Skeleton King provides a day's requirement of calcium.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_alchemist_alch_rival_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_09.mp3",
+      "transcript": "Calcium nitrate? He, that explains a lot about Skeleton King.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_alchemist_alch_rival_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_10.mp3",
+      "transcript": "Clinkz, your bones were brittle. Shoulda eaten more spinach.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_alchemist_alch_rival_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_11.mp3",
+      "transcript": "Pugna's full of phosphorus? That makes sense.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f0/Vo_alchemist_alch_rival_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_12.mp3",
+      "transcript": "Well Doom Bringer, if you keep that up, I won't want for sulfur.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_alchemist_alch_rival_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_13.mp3",
+      "transcript": "A little mercury goes a long way, eh, Slardar?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_alchemist_alch_rival_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_14.mp3",
+      "transcript": "Thanks to Slardar I can rig up an excellent mercury switch.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_alchemist_alch_rival_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_15.mp3",
+      "transcript": "Get out the siphon. Clockwerk's full of gasoline!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_alchemist_alch_rival_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_16.mp3",
+      "transcript": "Sniper, if you're done with all that gunpowder, I can use it.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_alchemist_alch_rival_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_17.mp3",
+      "transcript": "I didn't need a tree trunk to knock you out, Earthshaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_alchemist_alch_rival_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_18.mp3",
+      "transcript": "My fists beat your axe, Axe.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_alchemist_alch_rival_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_20.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_20.mp3",
+      "transcript": "Paper scissors axe fist!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_alchemist_alch_rival_20.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rival_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rival_19.mp3",
+      "transcript": "You made my knuckles bleed, Spirit Breaker.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_alchemist_alch_rival_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_firstblood_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_firstblood_01.mp3",
+      "transcript": "First Blood! We're off to an explosive start!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_alchemist_alch_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_01.mp3",
+      "transcript": "Greed is good.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_alchemist_alch_ability_goblin_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_02.mp3",
+      "transcript": "Gimme gimme!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_alchemist_alch_ability_goblin_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_03.mp3",
+      "transcript": "Candy from a baby!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_alchemist_alch_ability_goblin_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_04.mp3",
+      "transcript": "I'm gonna need a bin for it all.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_alchemist_alch_ability_goblin_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_05.mp3",
+      "transcript": "Happiness can be bought.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_alchemist_alch_ability_goblin_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_06.mp3",
+      "transcript": "With interest!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_alchemist_alch_ability_goblin_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_goblin_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_goblin_07.mp3",
+      "transcript": "Compound interest.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_alchemist_alch_ability_goblin_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_01.mp3",
+      "transcript": "Only ninety-eight percent pure?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_alchemist_alch_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_02.mp3",
+      "transcript": "Now that's how you make gold.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_alchemist_alch_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_03.mp3",
+      "transcript": "We'll split this.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_alchemist_alch_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_04.mp3",
+      "transcript": "One for you. Thanks.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_alchemist_alch_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_05.mp3",
+      "transcript": "One for me.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_alchemist_alch_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_06.mp3",
+      "transcript": "Divvy that up.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a7/Vo_alchemist_alch_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_07.mp3",
+      "transcript": "We'll take that.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_alchemist_alch_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_08.mp3",
+      "transcript": "Gotta get my cut.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_alchemist_alch_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lasthit_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lasthit_09.mp3",
+      "transcript": "For the boss.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_alchemist_alch_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_alchemist_alch_deny_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_alchemist_alch_deny_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_03.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_alchemist_alch_deny_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_04.mp3",
+      "transcript": "We're here to say no!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_alchemist_alch_deny_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_05.mp3",
+      "transcript": "Nope!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_alchemist_alch_deny_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_06.mp3",
+      "transcript": "Not gonna happen!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_alchemist_alch_deny_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_07.mp3",
+      "transcript": "Trust me, you didn't want it anyway.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_alchemist_alch_deny_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_08.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_alchemist_alch_deny_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_09.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_alchemist_alch_deny_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_10.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_alchemist_alch_deny_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_11.mp3",
+      "transcript": "No way!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_alchemist_alch_deny_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_12.mp3",
+      "transcript": "No way!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_alchemist_alch_deny_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_13.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_alchemist_alch_deny_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_14.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_alchemist_alch_deny_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_15.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_alchemist_alch_deny_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_16.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_alchemist_alch_deny_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_17.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_alchemist_alch_deny_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_18.mp3",
+      "transcript": "Uh uh!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_alchemist_alch_deny_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_19.mp3",
+      "transcript": "No way!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_alchemist_alch_deny_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_20.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_20.mp3",
+      "transcript": "Nope!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_alchemist_alch_deny_20.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_21.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_21.mp3",
+      "transcript": "Boss wanted it for himself.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_alchemist_alch_deny_21.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_deny_22.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_deny_22.mp3",
+      "transcript": "I needed the exercise.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_alchemist_alch_deny_22.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_purch_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_purch_01.mp3",
+      "transcript": "Oh, this is gonna be good! Is it new shoes?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_alchemist_alch_purch_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_purch_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_purch_02.mp3",
+      "transcript": "We pooled our money for this!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_alchemist_alch_purch_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_purch_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_purch_03.mp3",
+      "transcript": "I love buying new equipment! Is it a back brace?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_alchemist_alch_purch_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_scepter_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_scepter_01.mp3",
+      "transcript": "Oh ho! Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_alchemist_alch_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_scepter_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_scepter_02.mp3",
+      "transcript": "Everything's better with scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_alchemist_alch_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_blink_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_blink_01.mp3",
+      "transcript": "Blink dagger! Less walking is good!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_alchemist_alch_blink_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_blink_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_blink_02.mp3",
+      "transcript": "We're gonna have some fun with this!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_alchemist_alch_blink_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_01.mp3",
+      "transcript": "Vanguard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_alchemist_alch_item_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_02.mp3",
+      "transcript": "Satanic!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_alchemist_alch_item_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_03.mp3",
+      "transcript": "Hood of Defiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_alchemist_alch_item_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_04.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_alchemist_alch_item_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_05.mp3",
+      "transcript": "Assault Cuirass! Boss, that's not gonna fit on you.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_alchemist_alch_item_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_06.mp3",
+      "transcript": "Radiance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_alchemist_alch_item_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_07.mp3",
+      "transcript": "Phase Boots! Finally, new shoes!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_alchemist_alch_item_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_item_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_item_08.mp3",
+      "transcript": "Mask of Madness!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_alchemist_alch_item_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_immort_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_immort_02.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_alchemist_alch_immort_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_immort_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_immort_01.mp3",
+      "transcript": "Does Immortality work for both of us? It better!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_alchemist_alch_immort_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_alchemist_alch_death_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_alchemist_alch_death_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_03.mp3",
+      "transcript": "Must've mixed up the formula!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_alchemist_alch_death_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_04.mp3",
+      "transcript": "How'd I get mixed up in this!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_alchemist_alch_death_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_05.mp3",
+      "transcript": "Down we go.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_alchemist_alch_death_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_06.mp3",
+      "transcript": "My trusty mount.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_alchemist_alch_death_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_07.mp3",
+      "transcript": "Transmuted.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_alchemist_alch_death_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_08.mp3",
+      "transcript": "Gold into dead.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_alchemist_alch_death_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_09.mp3",
+      "transcript": "Sorry, friend, I let you down.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_alchemist_alch_death_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_10.mp3",
+      "transcript": "Back to the drawing board.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_alchemist_alch_death_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_11.mp3",
+      "transcript": "Dismount.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_alchemist_alch_death_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_12.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_12.mp3",
+      "transcript": "Shoulda brought a bigger ogre.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_alchemist_alch_death_12.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_13.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_13.mp3",
+      "transcript": "I slipped!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_alchemist_alch_death_13.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_14.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_14.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_alchemist_alch_death_14.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_15.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_15.mp3",
+      "transcript": "Sorry, boss.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_alchemist_alch_death_15.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_16.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_16.mp3",
+      "transcript": "Boss? Boss…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_alchemist_alch_death_16.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_17.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_17.mp3",
+      "transcript": "I think I'll be okay…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_alchemist_alch_death_17.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_18.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_18.mp3",
+      "transcript": "Don't put me out of my misery yet.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_alchemist_alch_death_18.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_death_19.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_death_19.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_alchemist_alch_death_19.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_01.mp3",
+      "transcript": "We're back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_alchemist_alch_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_03.mp3",
+      "transcript": "Let's see if I can improve on that formula.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_alchemist_alch_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_04.mp3",
+      "transcript": "I've got some new recipes to try out.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_alchemist_alch_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_05.mp3",
+      "transcript": "Let's learn from our failures.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_alchemist_alch_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_06.mp3",
+      "transcript": "Failure is just another kind of success. The wrong kind.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_alchemist_alch_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_07.mp3",
+      "transcript": "Well, that was a waste of ingredients.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_alchemist_alch_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_08.mp3",
+      "transcript": "That's one way to work out the impurities.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_alchemist_alch_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_09.mp3",
+      "transcript": "Maybe I should find some more stable formulas.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_alchemist_alch_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_respawn_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_respawn_10.mp3",
+      "transcript": "I hope I didn't leave anything on the burner.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_alchemist_alch_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_fastres_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_fastres_01.mp3",
+      "transcript": "We'll be right back!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_alchemist_alch_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_bottle_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_bottle_01.mp3",
+      "transcript": "Everything good comes from a bottle.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f2/Vo_alchemist_alch_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_bottle_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_bottle_02.mp3",
+      "transcript": "Bottles make everything better.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_alchemist_alch_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_bottle_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_bottle_03.mp3",
+      "transcript": "I'll make a tincture.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_alchemist_alch_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_04.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_alchemist_alch_happy_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_06.mp3",
+      "transcript": "Ha ha ha ha ha.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_alchemist_alch_happy_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_invis_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_invis_02.mp3",
+      "transcript": "Been trying to figure out this formula for ages.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_alchemist_alch_invis_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_doubdam_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_alchemist_alch_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_doubdam_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_doubdam_02.mp3",
+      "transcript": "No more splitting the damage between us.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_alchemist_alch_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_haste_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_alchemist_alch_haste_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_haste_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_haste_02.mp3",
+      "transcript": "Run, buddy, run!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_alchemist_alch_haste_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_illus_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_alchemist_alch_illus_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_illus_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_illus_03.mp3",
+      "transcript": "I don't think I have enough bottles for all of us!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_alchemist_alch_illus_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_illus_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_illus_02.mp3",
+      "transcript": "Two goes into six!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_alchemist_alch_illus_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_invis_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_alchemist_alch_invis_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_regen_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_alchemist_alch_regen_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_regen_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_regen_02.mp3",
+      "transcript": "A formula for perfect health!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_alchemist_alch_regen_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_alchemist_alch_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_alchemist_alch_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_alchemist_alch_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_alchemist_alch_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_alchemist_alch_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_alchemist_alch_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_alchemist_alch_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_alchemist_alch_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_notyet_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_alchemist_alch_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_alchemist_alch_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_alchemist_alch_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_alchemist_alch_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_alchemist_alch_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_alchemist_alch_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_alchemist_alch_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_alchemist_alch_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_alchemist_alch_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_nomana_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_alchemist_alch_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_alchemist_alch_pain_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_alchemist_alch_pain_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_03.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_alchemist_alch_pain_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_04.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_alchemist_alch_pain_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_05.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_alchemist_alch_pain_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_06.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_alchemist_alch_pain_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_07.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_alchemist_alch_pain_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_08.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_alchemist_alch_pain_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_09.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_09.mp3",
+      "transcript": "Urr!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_alchemist_alch_pain_09.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_10.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_10.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_alchemist_alch_pain_10.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_pain_11.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_pain_11.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_alchemist_alch_pain_11.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_underattack_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_underattack_01.mp3",
+      "transcript": "We're under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_alchemist_alch_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rare_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rare_01.mp3",
+      "transcript": "Who's my little buddy?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_alchemist_alch_rare_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rare_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rare_02.mp3",
+      "transcript": "You're all right, you know that?",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_alchemist_alch_rare_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rare_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rare_03.mp3",
+      "transcript": "I can't feel my legs.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_alchemist_alch_rare_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_rare_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_rare_04.mp3",
+      "transcript": "Say hello to the nice people. Eh, he's shy.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_alchemist_alch_rare_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_thanks_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_thanks_01.mp3",
+      "transcript": "Thanks!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_alchemist_alch_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_thanks_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_thanks_02.mp3",
+      "transcript": "We owe ya one.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_alchemist_alch_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_win_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_alchemist_alch_win_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_win_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_alchemist_alch_win_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_win_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_win_03.mp3",
+      "transcript": "We've got pretty good chemistry.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_alchemist_alch_win_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lose_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_alchemist_alch_lose_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lose_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_alchemist_alch_lose_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_lose_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_lose_03.mp3",
+      "transcript": "The whole world went to lead!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_alchemist_alch_lose_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_03.mp3",
+      "transcript": "Huh huh ho!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_alchemist_alch_happy_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_05.mp3",
+      "transcript": "Uh ho!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_alchemist_alch_happy_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_01.mp3",
+      "transcript": "Aw, drat!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_alchemist_alch_ability_failure_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_02.mp3",
+      "transcript": "What a mess!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_alchemist_alch_ability_failure_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_03.mp3",
+      "transcript": "Bah, fizzled out!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_alchemist_alch_ability_failure_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_04.mp3",
+      "transcript": "What were you thinking? Shut up!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_alchemist_alch_ability_failure_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_05.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_05.mp3",
+      "transcript": "Not your best work, boss. You're telling me?",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_alchemist_alch_ability_failure_05.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_06.mp3",
+      "transcript": "That didn't go so well. Thanks for pointing out the obvious.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_alchemist_alch_ability_failure_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_ability_failure_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_ability_failure_07.mp3",
+      "transcript": "I have to say--If I want your opinion, I'll ask for it!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_alchemist_alch_ability_failure_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_shitwiz_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_alchemist_alch_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_crumwiz_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_alchemist_alch_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_01.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_alchemist_alch_anger_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_02.mp3",
+      "transcript": "Guh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_alchemist_alch_anger_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_03.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_03.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_alchemist_alch_anger_03.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_04.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_04.mp3",
+      "transcript": "Gaah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_alchemist_alch_anger_04.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_06.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_06.mp3",
+      "transcript": "Wuh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_alchemist_alch_anger_06.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_07.mp3",
+      "transcript": "Hrreh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_alchemist_alch_anger_07.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_anger_08.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_anger_08.mp3",
+      "transcript": "Ehhh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_alchemist_alch_anger_08.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_01.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_01.mp3",
+      "transcript": "Haah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_alchemist_alch_happy_01.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_02.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_02.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_alchemist_alch_happy_02.mp3"
+    },
+    {
+      "file": "Vo_alchemist_alch_happy_07.mp3",
+      "key": "dota2/alchemist/Vo_alchemist_alch_happy_07.mp3",
+      "transcript": "Ho ho ho ho.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_alchemist_alch_happy_07.mp3"
+    }
+  ]
+}

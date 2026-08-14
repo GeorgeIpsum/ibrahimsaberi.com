@@ -1,0 +1,2389 @@
+{
+  "hero": "Dazzle",
+  "slug": "dazzle",
+  "source": "https://liquipedia.net/dota2/Dazzle/Responses",
+  "scrapedAt": "2026-06-17T14:55:57.416Z",
+  "count": 236,
+  "voicelines": [
+    {
+      "file": "Vo_dazzle_dazz_spawn_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_spawn_01.mp3",
+      "transcript": "Dazzle!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f8/Vo_dazzle_dazz_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_spawn_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_spawn_02.mp3",
+      "transcript": "Shadow Priest!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_dazzle_dazz_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_spawn_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_spawn_03.mp3",
+      "transcript": "I cast a long shadow.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_dazzle_dazz_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_spawn_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_spawn_04.mp3",
+      "transcript": "The enemy pales when they see the face of Dazzle!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_dazzle_dazz_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_spawn_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_spawn_05.mp3",
+      "transcript": "Take a care when my shadow falls upon the foe.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_dazzle_dazz_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_05.mp3",
+      "transcript": "I cast a long shadow.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_dazzle_dazz_level_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_09.mp3",
+      "transcript": "From shadow to shallow.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_dazzle_dazz_move_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_04.mp3",
+      "transcript": "Where my shadow falls, there falls my foe.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_dazzle_dazz_kill_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_04.mp3",
+      "transcript": "Up to my old tricks again.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_dazzle_dazz_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_17.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_17.mp3",
+      "transcript": "Who needs healing?",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_dazzle_dazz_move_17.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_win_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_win_03.mp3",
+      "transcript": "My shadow shall darken all creation.",
+      "categories": [
+        "Loadout",
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_dazzle_dazz_win_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_14.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_14.mp3",
+      "transcript": "Dazzle!",
+      "categories": [
+        "Loadout",
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_dazzle_dazz_ability_sfx_14.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_05.mp3",
+      "transcript": "Grrr.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7d/Vo_dazzle_dazz_anger_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_inthebag_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_dazzle_dazz_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_battlebegins_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_battlebegins_01.mp3",
+      "transcript": "My shadow leaps ahead!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dazzle_dazz_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_dazzle_dazz_move_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_02.mp3",
+      "transcript": "Mm hm!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_dazzle_dazz_move_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_03.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_dazzle_dazz_move_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_04.mp3",
+      "transcript": "Travel on.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b3/Vo_dazzle_dazz_move_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_05.mp3",
+      "transcript": "A spiritual journey.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dazzle_dazz_move_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_06.mp3",
+      "transcript": "Confirmed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_dazzle_dazz_move_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_07.mp3",
+      "transcript": "Rite of passage.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_dazzle_dazz_move_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_08.mp3",
+      "transcript": "Of course.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_dazzle_dazz_move_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_10.mp3",
+      "transcript": "Indeed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_dazzle_dazz_move_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_11.mp3",
+      "transcript": "I go where I'm needed.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_dazzle_dazz_move_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_12.mp3",
+      "transcript": "On my way.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_dazzle_dazz_move_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_13.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_13.mp3",
+      "transcript": "Wait for me!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_dazzle_dazz_move_13.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_14.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_14.mp3",
+      "transcript": "I'm with you.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_dazzle_dazz_move_14.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_15.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_15.mp3",
+      "transcript": "Healing here!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ab/Vo_dazzle_dazz_move_15.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_move_16.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_move_16.mp3",
+      "transcript": "Shadows come.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_dazzle_dazz_move_16.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_05.mp3",
+      "transcript": "Shadows keep you.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_dazzle_dazz_ability_shalgrave_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_11.mp3",
+      "transcript": "Ask and you'll receive!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_dazzle_dazz_ability_shadowave_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_dazzle_dazz_attack_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_02.mp3",
+      "transcript": "Come, comrades!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_dazzle_dazz_attack_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_03.mp3",
+      "transcript": "Strikedown!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_dazzle_dazz_attack_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_04.mp3",
+      "transcript": "We fight!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dazzle_dazz_attack_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_05.mp3",
+      "transcript": "For the shadows!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_dazzle_dazz_attack_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_06.mp3",
+      "transcript": "Heal or harm!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_dazzle_dazz_attack_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_07.mp3",
+      "transcript": "Stave them off!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_dazzle_dazz_attack_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_08.mp3",
+      "transcript": "Dazzle them!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_dazzle_dazz_attack_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_09.mp3",
+      "transcript": "Bringing the pain!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_dazzle_dazz_attack_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_10.mp3",
+      "transcript": "Priest of pain!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_dazzle_dazz_attack_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_11.mp3",
+      "transcript": "Into my shadow!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_dazzle_dazz_attack_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_12.mp3",
+      "transcript": "For the order!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_dazzle_dazz_attack_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_attack_13.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_attack_13.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_dazzle_dazz_attack_13.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_poistouch_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_poistouch_03.mp3",
+      "transcript": "A touch of the old magic.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_dazzle_dazz_ability_poistouch_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_cast_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_cast_01.mp3",
+      "transcript": "The shadow's cast!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_dazzle_dazz_cast_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_cast_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_cast_02.mp3",
+      "transcript": "I follow like a shadow!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_dazzle_dazz_cast_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_cast_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_cast_03.mp3",
+      "transcript": "Power of a priest!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_dazzle_dazz_cast_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_08.mp3",
+      "transcript": "Not while I'm around.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_dazzle_dazz_ability_shalgrave_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_poistouch_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_poistouch_01.mp3",
+      "transcript": "Feeling stricken?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_dazzle_dazz_ability_poistouch_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_01.mp3",
+      "transcript": "Ngah!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_dazzle_dazz_ability_sfx_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_02.mp3",
+      "transcript": "Ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_dazzle_dazz_ability_sfx_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_03.mp3",
+      "transcript": "Hrraarr!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_dazzle_dazz_ability_sfx_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_04.mp3",
+      "transcript": "Gra Ng!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_dazzle_dazz_ability_sfx_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_05.mp3",
+      "transcript": "Guh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_dazzle_dazz_ability_sfx_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_06.mp3",
+      "transcript": "Hruh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_dazzle_dazz_ability_sfx_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_07.mp3",
+      "transcript": "Hu-shaa!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_dazzle_dazz_ability_sfx_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_09.mp3",
+      "transcript": "Mmeh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_dazzle_dazz_ability_sfx_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_10.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_dazzle_dazz_ability_sfx_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_11.mp3",
+      "transcript": "Heh ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_dazzle_dazz_ability_sfx_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_12.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_dazzle_dazz_ability_sfx_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_13.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_13.mp3",
+      "transcript": "Arr!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_dazzle_dazz_ability_sfx_13.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_15.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_15.mp3",
+      "transcript": "Hey oh!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_dazzle_dazz_ability_sfx_15.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_01.mp3",
+      "transcript": "Safe word!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_dazzle_dazz_ability_shalgrave_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_02.mp3",
+      "transcript": "You're safe!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_dazzle_dazz_ability_shalgrave_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_03.mp3",
+      "transcript": "Not so fast!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dazzle_dazz_ability_shalgrave_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_04.mp3",
+      "transcript": "Bless you!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_dazzle_dazz_ability_shalgrave_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_06.mp3",
+      "transcript": "You're under my protection.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_dazzle_dazz_ability_shalgrave_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_07.mp3",
+      "transcript": "You're safe with me.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_dazzle_dazz_ability_shalgrave_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_09.mp3",
+      "transcript": "No grave for you.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_dazzle_dazz_ability_shalgrave_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shalgrave_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shalgrave_10.mp3",
+      "transcript": "Gravely mistaken.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_dazzle_dazz_ability_shalgrave_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_01.mp3",
+      "transcript": "Zap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_dazzle_dazz_ability_shadowave_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_02.mp3",
+      "transcript": "Jzap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_dazzle_dazz_ability_shadowave_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_03.mp3",
+      "transcript": "Dazzle!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_dazzle_dazz_ability_shadowave_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_04.mp3",
+      "transcript": "Darklight!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_dazzle_dazz_ability_shadowave_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_05.mp3",
+      "transcript": "Healing!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_dazzle_dazz_ability_shadowave_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_06.mp3",
+      "transcript": "You're in the pink!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_dazzle_dazz_ability_shadowave_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_07.mp3",
+      "transcript": "A healing glow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_dazzle_dazz_ability_shadowave_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_08.mp3",
+      "transcript": "Absolved!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_dazzle_dazz_ability_shadowave_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_09.mp3",
+      "transcript": "Shadow wave!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_dazzle_dazz_ability_shadowave_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_10.mp3",
+      "transcript": "Do the wave!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_dazzle_dazz_ability_shadowave_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_01.mp3",
+      "transcript": "Ha ha ha ha yes!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_dazzle_dazz_ability_weave_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_04.mp3",
+      "transcript": "Zizzap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_dazzle_dazz_ability_weave_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_05.mp3",
+      "transcript": "Buyap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_dazzle_dazz_ability_weave_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_06.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_dazzle_dazz_ability_weave_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_07.mp3",
+      "transcript": "Rrrah! Ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_dazzle_dazz_ability_weave_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_shadowave_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_shadowave_12.mp3",
+      "transcript": "So blessed!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dazzle_dazz_ability_shadowave_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_01.mp3",
+      "transcript": "Oh yes!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_dazzle_dazz_level_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_02.mp3",
+      "transcript": "Canonized!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_dazzle_dazz_level_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_03.mp3",
+      "transcript": "A sacrament!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_dazzle_dazz_level_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_04.mp3",
+      "transcript": "I renew my shady vows.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_dazzle_dazz_level_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_level_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_level_06.mp3",
+      "transcript": "Nga ah ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_dazzle_dazz_level_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_01.mp3",
+      "transcript": "My congregation shrinks by one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_dazzle_dazz_kill_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_02.mp3",
+      "transcript": "I convey your spirit to the Nothl realm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_dazzle_dazz_kill_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_03.mp3",
+      "transcript": "I speak your final rites.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_dazzle_dazz_kill_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_05.mp3",
+      "transcript": "A dazzling death.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_dazzle_dazz_kill_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_06.mp3",
+      "transcript": "If killing you is wrong, I don't want to be right.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_dazzle_dazz_kill_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_07.mp3",
+      "transcript": "Sacrificed to shadows.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_dazzle_dazz_kill_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_08.mp3",
+      "transcript": "Sanctioned by the order.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_dazzle_dazz_kill_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_09.mp3",
+      "transcript": "Your death ennobles us all.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_dazzle_dazz_kill_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_10.mp3",
+      "transcript": "Tricked you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_dazzle_dazz_kill_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_11.mp3",
+      "transcript": "You cast no shadow now.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_dazzle_dazz_kill_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_kill_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_kill_12.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_dazzle_dazz_kill_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_01.mp3",
+      "transcript": "Uh ha ha ha ha ho!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_dazzle_dazz_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_06.mp3",
+      "transcript": "Ho ho ha ha ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_dazzle_dazz_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_07.mp3",
+      "transcript": "Uh he he he he ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_dazzle_dazz_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_08.mp3",
+      "transcript": "Uh huh ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_dazzle_dazz_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_09.mp3",
+      "transcript": "Ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_dazzle_dazz_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_rival_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_rival_01.mp3",
+      "transcript": "Heal yourself, doctor.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_dazzle_dazz_rival_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_rival_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_rival_02.mp3",
+      "transcript": "Curse you, Axe!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_dazzle_dazz_rival_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_rival_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_rival_03.mp3",
+      "transcript": "Shadow Shaman, over the hills with you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_dazzle_dazz_rival_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_firstblood_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_firstblood_01.mp3",
+      "transcript": "First Blood! Ha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_dazzle_dazz_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_01.mp3",
+      "transcript": "Dazzled!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_dazzle_dazz_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_02.mp3",
+      "transcript": "Huh huh pretty!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_dazzle_dazz_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_03.mp3",
+      "transcript": "Saved!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_dazzle_dazz_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_04.mp3",
+      "transcript": "Shiny!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_dazzle_dazz_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_05.mp3",
+      "transcript": "A weak offering!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_dazzle_dazz_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_06.mp3",
+      "transcript": "Alms from the dead!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_dazzle_dazz_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_07.mp3",
+      "transcript": "Collected!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_dazzle_dazz_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_08.mp3",
+      "transcript": "Charitable of you.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_dazzle_dazz_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lasthit_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lasthit_09.mp3",
+      "transcript": "Pretty!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_dazzle_dazz_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_dazzle_dazz_deny_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_dazzle_dazz_deny_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_03.mp3",
+      "transcript": "Uh uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_dazzle_dazz_deny_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_04.mp3",
+      "transcript": "Get back.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_dazzle_dazz_deny_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_05.mp3",
+      "transcript": "No way.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_dazzle_dazz_deny_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_06.mp3",
+      "transcript": "Wrong!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_dazzle_dazz_deny_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_07.mp3",
+      "transcript": "You've no right!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_dazzle_dazz_deny_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_08.mp3",
+      "transcript": "That's not right.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_dazzle_dazz_deny_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_09.mp3",
+      "transcript": "Hm hm ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_dazzle_dazz_deny_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_deny_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_deny_10.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_dazzle_dazz_deny_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_purch_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_purch_01.mp3",
+      "transcript": "I'd set aside funds for this.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_dazzle_dazz_purch_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_purch_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_purch_02.mp3",
+      "transcript": "Ah, my order is in!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_dazzle_dazz_purch_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_purch_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_purch_03.mp3",
+      "transcript": "Oh, what a beauty!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6c/Vo_dazzle_dazz_purch_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_blink_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_dazzle_dazz_blink_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_blink_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_blink_02.mp3",
+      "transcript": "The dagger that dazzles.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_dazzle_dazz_blink_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_scepter_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_scepter_01.mp3",
+      "transcript": "Ah, Scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_dazzle_dazz_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_scepter_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_scepter_02.mp3",
+      "transcript": "Sacred scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_dazzle_dazz_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_item_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_item_01.mp3",
+      "transcript": "Oh, sacred Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_dazzle_dazz_item_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_item_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_item_02.mp3",
+      "transcript": "Shiva's Guard, to guard us well!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_dazzle_dazz_item_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_item_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_item_03.mp3",
+      "transcript": "Ah, Desolator!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_dazzle_dazz_item_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_immort_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_dazzle_dazz_immort_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_immort_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_immort_02.mp3",
+      "transcript": "Death shall not shadow me.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_dazzle_dazz_immort_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_dazzle_dazz_death_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_02.mp3",
+      "transcript": "My shadow falls.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_dazzle_dazz_death_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_03.mp3",
+      "transcript": "By what right?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_dazzle_dazz_death_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_04.mp3",
+      "transcript": "My dazzle darkens.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_dazzle_dazz_death_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_05.mp3",
+      "transcript": "Dazzling no more.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_dazzle_dazz_death_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_06.mp3",
+      "transcript": "Death casts no shadow.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_dazzle_dazz_death_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_07.mp3",
+      "transcript": "Should have healed myself.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_dazzle_dazz_death_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_08.mp3",
+      "transcript": "I was under orders.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_dazzle_dazz_death_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_09.mp3",
+      "transcript": "Excommunicated.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_dazzle_dazz_death_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_10.mp3",
+      "transcript": "Shadows take me.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_dazzle_dazz_death_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_death_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_death_11.mp3",
+      "transcript": "My shadow lost.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_dazzle_dazz_death_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_01.mp3",
+      "transcript": "That's no simple ordination.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_dazzle_dazz_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_02.mp3",
+      "transcript": "I never miss a trick.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_dazzle_dazz_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_03.mp3",
+      "transcript": "I've been to the place where darkness is light.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9a/Vo_dazzle_dazz_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_05.mp3",
+      "transcript": "Returned from Nothl's realm.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_dazzle_dazz_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_06.mp3",
+      "transcript": "I await new orders.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_dazzle_dazz_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_07.mp3",
+      "transcript": "Reordained.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_dazzle_dazz_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_08.mp3",
+      "transcript": "More dazzling than ever.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_dazzle_dazz_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_09.mp3",
+      "transcript": "That was almost a disaster.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_dazzle_dazz_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_respawn_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_respawn_10.mp3",
+      "transcript": "Resurrection comes easily to a Shadow Priest!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_dazzle_dazz_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_fastres_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_fastres_01.mp3",
+      "transcript": "This death means nothing to me!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_dazzle_dazz_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_bottle_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_bottle_01.mp3",
+      "transcript": "Zip it up!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_dazzle_dazz_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_bottle_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_bottle_02.mp3",
+      "transcript": "Caught the buzz!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_dazzle_dazz_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_bottle_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_bottle_03.mp3",
+      "transcript": "Corked it.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_dazzle_dazz_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_poistouch_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_poistouch_02.mp3",
+      "transcript": "Just a touch.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_dazzle_dazz_ability_poistouch_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_sfx_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_sfx_08.mp3",
+      "transcript": "Dazzle!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_dazzle_dazz_ability_sfx_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_doubdam_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_dazzle_dazz_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_doubdam_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_doubdam_02.mp3",
+      "transcript": "Double deity.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_dazzle_dazz_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_haste_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_dazzle_dazz_haste_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_haste_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_haste_02.mp3",
+      "transcript": "The shadow speeds along!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_dazzle_dazz_haste_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_illus_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_dazzle_dazz_illus_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_illus_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_illus_02.mp3",
+      "transcript": "The threefold shadow.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/59/Vo_dazzle_dazz_illus_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_invis_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_dazzle_dazz_invis_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_invis_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_invis_02.mp3",
+      "transcript": "Shadows unseen!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_dazzle_dazz_invis_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_regen_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_dazzle_dazz_regen_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_regen_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_regen_02.mp3",
+      "transcript": "Healing for the healer.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_dazzle_dazz_regen_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_dazzle_dazz_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_dazzle_dazz_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/62/Vo_dazzle_dazz_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_dazzle_dazz_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_dazzle_dazz_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_dazzle_dazz_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_07.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_dazzle_dazz_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_dazzle_dazz_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_notyet_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_notyet_09.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_dazzle_dazz_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_dazzle_dazz_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_dazzle_dazz_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_dazzle_dazz_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_dazzle_dazz_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_dazzle_dazz_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dazzle_dazz_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_07.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_dazzle_dazz_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_08.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_dazzle_dazz_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_nomana_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_nomana_09.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_dazzle_dazz_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_01.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_dazzle_dazz_pain_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_02.mp3",
+      "transcript": "Ow!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_dazzle_dazz_pain_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_03.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_dazzle_dazz_pain_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_04.mp3",
+      "transcript": "Oowa ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_dazzle_dazz_pain_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_05.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_dazzle_dazz_pain_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_dazzle_dazz_pain_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_07.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_07.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_dazzle_dazz_pain_07.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_08.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_08.mp3",
+      "transcript": "Hwat!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_dazzle_dazz_pain_08.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_09.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_09.mp3",
+      "transcript": "Tah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_dazzle_dazz_pain_09.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_10.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_10.mp3",
+      "transcript": "Ko-ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_dazzle_dazz_pain_10.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_11.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_11.mp3",
+      "transcript": "Kah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dazzle_dazz_pain_11.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_pain_12.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_pain_12.mp3",
+      "transcript": "Uh ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_dazzle_dazz_pain_12.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_underattack_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_dazzle_dazz_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_rare_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_rare_01.mp3",
+      "transcript": "I've seen the blinding darkness at the center of all light.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_dazzle_dazz_rare_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_rare_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_rare_02.mp3",
+      "transcript": "In the Nothl realm, brightness is dark, and the touch that heals a friend will fell a foe.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_dazzle_dazz_rare_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_thanks_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_dazzle_dazz_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_thanks_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_thanks_02.mp3",
+      "transcript": "My gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_dazzle_dazz_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_02.mp3",
+      "transcript": "Ha ha har ha ha ha!",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_dazzle_dazz_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_03.mp3",
+      "transcript": "He he he he he he he!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_dazzle_dazz_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_04.mp3",
+      "transcript": "He he he he he he he he he!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_dazzle_dazz_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_laugh_05.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_laugh_05.mp3",
+      "transcript": "Ho ho ho ho yeah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_dazzle_dazz_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_win_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_dazzle_dazz_win_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_win_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_dazzle_dazz_win_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lose_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lose_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_dazzle_dazz_lose_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lose_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lose_02.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_dazzle_dazz_lose_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_lose_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_lose_03.mp3",
+      "transcript": "The order will have my shadow for this!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_dazzle_dazz_lose_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_happy_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_happy_03.mp3",
+      "transcript": "Haa.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_dazzle_dazz_happy_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_dazzle_dazz_ability_weave_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_ability_weave_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_ability_weave_03.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_dazzle_dazz_ability_weave_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_shitwiz_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_dazzle_dazz_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_crumwiz_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_dazzle_dazz_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_01.mp3",
+      "transcript": "Numm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_dazzle_dazz_anger_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_02.mp3",
+      "transcript": "Urrruh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_dazzle_dazz_anger_02.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_03.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_03.mp3",
+      "transcript": "Hrrrrr.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_dazzle_dazz_anger_03.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_04.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_04.mp3",
+      "transcript": "Mrruuf.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_dazzle_dazz_anger_04.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_anger_06.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_anger_06.mp3",
+      "transcript": "Hrruf.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_dazzle_dazz_anger_06.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_happy_01.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_happy_01.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_dazzle_dazz_happy_01.mp3"
+    },
+    {
+      "file": "Vo_dazzle_dazz_happy_02.mp3",
+      "key": "dota2/dazzle/Vo_dazzle_dazz_happy_02.mp3",
+      "transcript": "Ahhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_dazzle_dazz_happy_02.mp3"
+    }
+  ]
+}

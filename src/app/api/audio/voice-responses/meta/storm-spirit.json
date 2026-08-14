@@ -1,0 +1,2748 @@
+{
+  "hero": "Storm Spirit",
+  "slug": "storm-spirit",
+  "source": "https://liquipedia.net/dota2/Storm_Spirit/Responses",
+  "scrapedAt": "2026-06-17T14:45:33.958Z",
+  "count": 272,
+  "voicelines": [
+    {
+      "file": "Vo_stormspirit_ss_spawn_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_01.mp3",
+      "transcript": "Storm Spirit!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_stormspirit_ss_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_02.mp3",
+      "transcript": "I am Storm Spirit!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_stormspirit_ss_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_03.mp3",
+      "transcript": "O ho!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_stormspirit_ss_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_04.mp3",
+      "transcript": "Storm Spirit has arrived!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_stormspirit_ss_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_05.mp3",
+      "transcript": "Ha ha! I am here!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_stormspirit_ss_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_06.mp3",
+      "transcript": "Feel the wind in your hair!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_stormspirit_ss_spawn_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_07.mp3",
+      "transcript": "Stormy weather…",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_stormspirit_ss_spawn_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_08.mp3",
+      "transcript": "The calm before the storm…",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_stormspirit_ss_spawn_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_spawn_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_spawn_09.mp3",
+      "transcript": "Storm Spirit!",
+      "categories": [
+        "Loadout",
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_stormspirit_ss_spawn_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_11.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_11.mp3",
+      "transcript": "Storm clouds are gathering.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_stormspirit_ss_move_11.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_12.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_12.mp3",
+      "transcript": "Storm Spirit, moving in.",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_stormspirit_ss_move_12.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_02.mp3",
+      "transcript": "Stormy weather time!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_stormspirit_ss_attack_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_03.mp3",
+      "transcript": "Told you a storm was coming!",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_stormspirit_ss_kill_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_anger_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_anger_03.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_stormspirit_ss_anger_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_inthebag_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_inthebag_01.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_stormspirit_ss_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_inthebag_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_inthebag_02.mp3",
+      "transcript": "It's in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_stormspirit_ss_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_battlebegins_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_battlebegins_01.mp3",
+      "transcript": "You had better not start without me!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_stormspirit_stormspirit_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_battlebegins_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_battlebegins_02.mp3",
+      "transcript": "Draw back the curtains, I'm here!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_stormspirit_stormspirit_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_01.mp3",
+      "transcript": "Forward!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_stormspirit_ss_move_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_02.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_stormspirit_ss_move_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_03.mp3",
+      "transcript": "Ah hah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_stormspirit_ss_move_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_04.mp3",
+      "transcript": "Like the wind!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_stormspirit_ss_move_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_06.mp3",
+      "transcript": "Here I come!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_stormspirit_ss_move_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_07.mp3",
+      "transcript": "Well said!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_stormspirit_ss_move_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_09.mp3",
+      "transcript": "Without a doubt!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_stormspirit_ss_move_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_10.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_10.mp3",
+      "transcript": "We are agreed!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_stormspirit_ss_move_10.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_13.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_13.mp3",
+      "transcript": "The spirit of the storm be with you!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_stormspirit_ss_move_13.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_14.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_14.mp3",
+      "transcript": "The spirit moves me!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_stormspirit_ss_move_14.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_happy_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_happy_01.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_stormspirit_ss_happy_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_happy_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_happy_02.mp3",
+      "transcript": "Mm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_stormspirit_ss_happy_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_happy_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_happy_03.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_stormspirit_ss_happy_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_02.mp3",
+      "transcript": "Oh ho!",
+      "categories": [
+        "Moving",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_stormspirit_ss_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_03.mp3",
+      "transcript": "Hee hee hee hee.",
+      "categories": [
+        "Moving",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_stormspirit_ss_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_01.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_stormspirit_ss_acknow_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_04.mp3",
+      "transcript": "Hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_stormspirit_ss_acknow_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_05.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_stormspirit_ss_acknow_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_06.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_stormspirit_ss_acknow_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_07.mp3",
+      "transcript": "Mm hm.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_stormspirit_ss_acknow_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_01.mp3",
+      "transcript": "Blow them away!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_stormspirit_ss_attack_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_03.mp3",
+      "transcript": "Get set for heavy weather!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_stormspirit_ss_attack_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_04.mp3",
+      "transcript": "Storm warning!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_stormspirit_ss_attack_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_05.mp3",
+      "transcript": "Storm Force Five!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_stormspirit_ss_attack_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_06.mp3",
+      "transcript": "I love this part!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_stormspirit_ss_attack_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_07.mp3",
+      "transcript": "Storm's a-comin!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7b/Vo_stormspirit_ss_attack_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_08.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_stormspirit_ss_attack_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_09.mp3",
+      "transcript": "That's the spirit!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_stormspirit_ss_attack_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_attack_10.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_attack_10.mp3",
+      "transcript": "I'll spirit you away!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/71/Vo_stormspirit_ss_attack_10.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_cast_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_cast_01.mp3",
+      "transcript": "At last!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_stormspirit_ss_cast_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_cast_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_cast_02.mp3",
+      "transcript": "It's time!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_stormspirit_ss_cast_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_cast_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_cast_03.mp3",
+      "transcript": "The time has come!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_stormspirit_ss_cast_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_cast_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_cast_04.mp3",
+      "transcript": "Let's get crackin!",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_stormspirit_ss_cast_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_01.mp3",
+      "transcript": "Ooh, who's that handsome devil?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_stormspirit_ss_ability_static_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_02.mp3",
+      "transcript": "Looking good!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_stormspirit_ss_ability_static_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_03.mp3",
+      "transcript": "Left you a little somethin'.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_stormspirit_ss_ability_static_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_04.mp3",
+      "transcript": "Ooh, who's that handsome devil?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_stormspirit_ss_ability_static_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_05.mp3",
+      "transcript": "Looking good!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_stormspirit_ss_ability_static_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_static_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_static_06.mp3",
+      "transcript": "Left you a little somethin'.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_stormspirit_ss_ability_static_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_02.mp3",
+      "transcript": "I'm in a hurry-cane!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_stormspirit_ss_ability_lightning_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_04.mp3",
+      "transcript": "Whoa, what'd I miss?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_stormspirit_ss_ability_lightning_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_05.mp3",
+      "transcript": "Where's the party?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_stormspirit_ss_ability_lightning_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_06.mp3",
+      "transcript": "Lookin for me?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_stormspirit_ss_ability_lightning_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_07.mp3",
+      "transcript": "Let the fun begin!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_stormspirit_ss_ability_lightning_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_08.mp3",
+      "transcript": "I'm over here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_stormspirit_ss_ability_lightning_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_09.mp3",
+      "transcript": "Over here now!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_stormspirit_ss_ability_lightning_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_10.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_10.mp3",
+      "transcript": "Here I am!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_stormspirit_ss_ability_lightning_10.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_11.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_11.mp3",
+      "transcript": "Pow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_stormspirit_ss_ability_lightning_11.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_12.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_12.mp3",
+      "transcript": "Zip!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fe/Vo_stormspirit_ss_ability_lightning_12.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_13.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_13.mp3",
+      "transcript": "Zap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_stormspirit_ss_ability_lightning_13.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_14.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_14.mp3",
+      "transcript": "Ha ha ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_stormspirit_ss_ability_lightning_14.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_15.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_15.mp3",
+      "transcript": "Whoa-ho-ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_stormspirit_ss_ability_lightning_15.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_16.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_16.mp3",
+      "transcript": "Whoa-ho-ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_stormspirit_ss_ability_lightning_16.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_17.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_17.mp3",
+      "transcript": "Pow!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_stormspirit_ss_ability_lightning_17.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_18.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_18.mp3",
+      "transcript": "Zip!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_stormspirit_ss_ability_lightning_18.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_19.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_19.mp3",
+      "transcript": "Zap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_stormspirit_ss_ability_lightning_19.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_20.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_20.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_stormspirit_ss_ability_lightning_20.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_21.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_21.mp3",
+      "transcript": "Touché",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_stormspirit_ss_ability_lightning_21.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_23.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_23.mp3",
+      "transcript": "I'm over here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_stormspirit_ss_ability_lightning_23.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_24.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_24.mp3",
+      "transcript": "Over here now!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_stormspirit_ss_ability_lightning_24.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_25.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_25.mp3",
+      "transcript": "Here I am!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_stormspirit_ss_ability_lightning_25.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_26.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_26.mp3",
+      "transcript": "Zaap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_stormspirit_ss_ability_lightning_26.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_27.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_27.mp3",
+      "transcript": "Zip!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_stormspirit_ss_ability_lightning_27.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_28.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_28.mp3",
+      "transcript": "Zap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_stormspirit_ss_ability_lightning_28.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_29.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_29.mp3",
+      "transcript": "Ho ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_stormspirit_ss_ability_lightning_29.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_30.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_30.mp3",
+      "transcript": "Ya ha ha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_stormspirit_ss_ability_lightning_30.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_31.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_31.mp3",
+      "transcript": "Zip zap!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_stormspirit_ss_ability_lightning_31.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_32.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_32.mp3",
+      "transcript": "Puddin' pop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_stormspirit_ss_ability_lightning_32.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_move_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_move_05.mp3",
+      "transcript": "I ride the wild winds!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_stormspirit_ss_move_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_01.mp3",
+      "transcript": "Coming through!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_stormspirit_ss_ability_lightning_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_ability_lightning_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_ability_lightning_03.mp3",
+      "transcript": "Whoa-ho-ho!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_stormspirit_ss_ability_lightning_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_level_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_level_01.mp3",
+      "transcript": "I grow stronger!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_stormspirit_ss_level_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_level_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_level_02.mp3",
+      "transcript": "The spirit of the storm increases!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_stormspirit_ss_level_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_level_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_level_03.mp3",
+      "transcript": "Feel the power!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_stormspirit_ss_level_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_level_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_level_04.mp3",
+      "transcript": "Yes! I grow!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_stormspirit_ss_level_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_01.mp3",
+      "transcript": "Was that a spotlight? On me?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a1/Vo_stormspirit_stormspirit_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_02.mp3",
+      "transcript": "I can hardly contain myself.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_stormspirit_stormspirit_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_03.mp3",
+      "transcript": "Such greatness deserves to be shared.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_stormspirit_stormspirit_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_04.mp3",
+      "transcript": "Hm, keeping my end up!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_stormspirit_stormspirit_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_05.mp3",
+      "transcript": "Don't worry, there's plenty to go around.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_stormspirit_stormspirit_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_levelup_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_levelup_06.mp3",
+      "transcript": "Let's have the spotlight. Over here!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_stormspirit_stormspirit_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_01.mp3",
+      "transcript": "You had your warning!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_stormspirit_ss_kill_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_02.mp3",
+      "transcript": "You blew it!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_stormspirit_ss_kill_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_04.mp3",
+      "transcript": "Blown away!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_stormspirit_ss_kill_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_05.mp3",
+      "transcript": "Blow the man down!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_stormspirit_ss_kill_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_kill_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_kill_06.mp3",
+      "transcript": "No whining now!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_stormspirit_ss_kill_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_01.mp3",
+      "transcript": "Hm hm hm hm hm hm.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_stormspirit_ss_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_04.mp3",
+      "transcript": "Ha ha ha ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_stormspirit_ss_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_05.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_stormspirit_ss_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_laugh_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_laugh_06.mp3",
+      "transcript": "Hm hm hm hm hee hee hee ha ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_stormspirit_ss_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_01.mp3",
+      "transcript": "There's no safe harbor from this storm, Kunkka!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_stormspirit_stormspirit_rival_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_02.mp3",
+      "transcript": "Ha ha! You should have put to port sooner!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/75/Vo_stormspirit_stormspirit_rival_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_03.mp3",
+      "transcript": "Admiral, but not admirable. Hm hm hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_stormspirit_stormspirit_rival_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_04.mp3",
+      "transcript": "Call off your little storms, Razor. They're an embarrassment.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_stormspirit_stormspirit_rival_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_05.mp3",
+      "transcript": "You can come out of that tin can any time.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_stormspirit_stormspirit_rival_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_06.mp3",
+      "transcript": "If you think to harness nature's power, you've got another thing coming.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_stormspirit_stormspirit_rival_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_07.mp3",
+      "transcript": "The biggest tree in the forest must bow to the smallest storm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_stormspirit_stormspirit_rival_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_08.mp3",
+      "transcript": "Oh, a windfall!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_stormspirit_stormspirit_rival_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_09.mp3",
+      "transcript": "When you strip away his leaves, Nature's Prophet is just plain gnarly.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_stormspirit_stormspirit_rival_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_10.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_10.mp3",
+      "transcript": "Ha ha! Blew you off course, did I?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_stormspirit_stormspirit_rival_10.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_11.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_11.mp3",
+      "transcript": "Your whirlybird is at the mercy of the wind, and I'm not feeling very merciful today.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_stormspirit_stormspirit_rival_11.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_12.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_12.mp3",
+      "transcript": "You needed an altitude adjustment, hm hm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_stormspirit_stormspirit_rival_12.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_13.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_13.mp3",
+      "transcript": "You shouldn't have spit into the wind, Viper.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_stormspirit_stormspirit_rival_13.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_14.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_14.mp3",
+      "transcript": "Ha ha ha ha. Your maidenly charms were wasted on me.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_stormspirit_stormspirit_rival_14.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_15.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_15.mp3",
+      "transcript": "Venomancer, I was never a fan.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_stormspirit_stormspirit_rival_15.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_16.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_16.mp3",
+      "transcript": "Antimage, you're no fun at all.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_stormspirit_stormspirit_rival_16.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_17.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_17.mp3",
+      "transcript": "Not a fan, Antimage?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_stormspirit_stormspirit_rival_17.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_18.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_18.mp3",
+      "transcript": "That grimoire of his got terrible reviews.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_stormspirit_stormspirit_rival_18.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_19.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_19.mp3",
+      "transcript": "Mm, Spirit, Apparition…they're nothing alike.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_stormspirit_stormspirit_rival_19.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_20.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_20.mp3",
+      "transcript": "Pity, Puck. You lightened the air.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_stormspirit_stormspirit_rival_20.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_21.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_21.mp3",
+      "transcript": "I leave you with your precious dirt.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_stormspirit_stormspirit_rival_21.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_22.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_22.mp3",
+      "transcript": "You weren't particularly bright or enduring.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_stormspirit_stormspirit_rival_22.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_23.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_23.mp3",
+      "transcript": "Your calculations cannot predict the movements of a storm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_stormspirit_stormspirit_rival_23.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_rival_24.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_rival_24.mp3",
+      "transcript": "I've lived on this plane much longer, brother. You have no power here.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_stormspirit_stormspirit_rival_24.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_firstblood_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_firstblood_01.mp3",
+      "transcript": "I accept this honor on behalf of storms everywhere!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_stormspirit_stormspirit_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_ally_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_ally_01.mp3",
+      "transcript": "Did you truly come here of your own accord?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_stormspirit_stormspirit_ally_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_ally_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_ally_03.mp3",
+      "transcript": "I'll forgive your scheming, but never your entitlement.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_stormspirit_stormspirit_ally_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_ally_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_ally_04.mp3",
+      "transcript": "You were supposed to oversee from a distance.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_stormspirit_stormspirit_ally_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_ally_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_ally_05.mp3",
+      "transcript": "You cannot control me, brother. You merely set me loose.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_stormspirit_stormspirit_ally_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_ally_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_ally_02.mp3",
+      "transcript": "Have you ever considered what five words could do for you?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_stormspirit_stormspirit_ally_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_01.mp3",
+      "transcript": "Lightning strike!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_stormspirit_ss_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_02.mp3",
+      "transcript": "All mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_stormspirit_ss_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_03.mp3",
+      "transcript": "Ah, nice!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0c/Vo_stormspirit_ss_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_04.mp3",
+      "transcript": "Glorious!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_stormspirit_ss_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_05.mp3",
+      "transcript": "Stupendous!",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_stormspirit_ss_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_07.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_stormspirit_ss_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_10.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_10.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_stormspirit_ss_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_01.mp3",
+      "transcript": "Take a break.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_stormspirit_stormspirit_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_02.mp3",
+      "transcript": "You're it.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_stormspirit_stormspirit_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_03.mp3",
+      "transcript": "Let it go.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_stormspirit_stormspirit_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_04.mp3",
+      "transcript": "For me?",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/43/Vo_stormspirit_stormspirit_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_05.mp3",
+      "transcript": "You shouldn't have.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_stormspirit_stormspirit_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_06.mp3",
+      "transcript": "You shouldn't have.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_stormspirit_stormspirit_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_07.mp3",
+      "transcript": "What a generous soul.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_stormspirit_stormspirit_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lasthit_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lasthit_08.mp3",
+      "transcript": "Cha ching!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_stormspirit_stormspirit_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_stormspirit_ss_deny_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_02.mp3",
+      "transcript": "That'll take the wind from their sails!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_stormspirit_ss_deny_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_03.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_stormspirit_ss_deny_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_04.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_stormspirit_ss_deny_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_05.mp3",
+      "transcript": "Huh ha! Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_stormspirit_ss_deny_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_06.mp3",
+      "transcript": "Ha ha ha ha! Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_stormspirit_ss_deny_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_deny_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_deny_07.mp3",
+      "transcript": "Denied! Ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_stormspirit_ss_deny_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_01.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_stormspirit_stormspirit_deny_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_02.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_stormspirit_stormspirit_deny_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_03.mp3",
+      "transcript": "To me!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_stormspirit_stormspirit_deny_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_04.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_stormspirit_stormspirit_deny_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_05.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/45/Vo_stormspirit_stormspirit_deny_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_deny_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_deny_06.mp3",
+      "transcript": "Oh sweet!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_stormspirit_stormspirit_deny_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_purch_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_purch_01.mp3",
+      "transcript": "I've been wanting this…",
+      "categories": [
+        "Acquiring an item",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_stormspirit_ss_purch_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_purch_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_purch_02.mp3",
+      "transcript": "He who dies with the most toys wins!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_stormspirit_ss_purch_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_scepter_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_scepter_01.mp3",
+      "transcript": "Ah, scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_stormspirit_stormspirit_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_scepter_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_scepter_02.mp3",
+      "transcript": "With this I'll be king of the winds.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_stormspirit_stormspirit_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_01.mp3",
+      "transcript": "Bloodstone!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_stormspirit_stormspirit_item_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_02.mp3",
+      "transcript": "Linken's Sphere!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_stormspirit_stormspirit_item_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_03.mp3",
+      "transcript": "Orchid Malevolence!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_stormspirit_stormspirit_item_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_04.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_stormspirit_stormspirit_item_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_05.mp3",
+      "transcript": "Black King Bar!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_stormspirit_stormspirit_item_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_item_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_item_06.mp3",
+      "transcript": "Shiva's Guard!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_stormspirit_stormspirit_item_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_blink_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_stormspirit_stormspirit_blink_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_blink_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_blink_02.mp3",
+      "transcript": "The eye of the storm blinks!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a6/Vo_stormspirit_stormspirit_blink_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_immort_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_immort_01.mp3",
+      "transcript": "Immortality is mine!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_stormspirit_ss_immort_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_immort_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_immort_02.mp3",
+      "transcript": "I'll rise from any grave.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_stormspirit_ss_immort_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_immort_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_immort_03.mp3",
+      "transcript": "Ha ha ha ha! Immortality is mine!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_stormspirit_ss_immort_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_immort_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_immort_04.mp3",
+      "transcript": "I'll rise from any grave.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_stormspirit_ss_immort_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_stormspirit_ss_death_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_02.mp3",
+      "transcript": "Can't breathe!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_stormspirit_ss_death_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_03.mp3",
+      "transcript": "I blew it…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_stormspirit_ss_death_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_04.mp3",
+      "transcript": "Lights out…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_stormspirit_ss_death_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_05.mp3",
+      "transcript": "My spirit…sinks…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_stormspirit_ss_death_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_06.mp3",
+      "transcript": "Ex…hausted…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_stormspirit_ss_death_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_07.mp3",
+      "transcript": "I'll fight to the last…breath…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_stormspirit_ss_death_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_08.mp3",
+      "transcript": "Spirit…away…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_stormspirit_ss_death_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_death_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_death_09.mp3",
+      "transcript": "Spirit…away…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_stormspirit_ss_death_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_01.mp3",
+      "transcript": "Ah, that first breath is the sweetest.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_stormspirit_ss_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_02.mp3",
+      "transcript": "Yes! Again!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_stormspirit_ss_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_03.mp3",
+      "transcript": "Well blow me down…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_stormspirit_ss_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_04.mp3",
+      "transcript": "Breath of fresh air!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_stormspirit_ss_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_05.mp3",
+      "transcript": "Well, I've caught my breath…back to it!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_stormspirit_ss_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_06.mp3",
+      "transcript": "I needed a break anyway.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_stormspirit_ss_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_respawn_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_respawn_07.mp3",
+      "transcript": "In the eye of the storm…",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_stormspirit_ss_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_06.mp3",
+      "transcript": "Hoo hoo ha ha ha ha ha ha ha!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/91/Vo_stormspirit_ss_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_fastres_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_fastres_01.mp3",
+      "transcript": "I'm staging a comeback!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_stormspirit_stormspirit_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_01.mp3",
+      "transcript": "I'll just cork this for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_stormspirit_ss_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_02.mp3",
+      "transcript": "This ought to come in handy.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_stormspirit_ss_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_03.mp3",
+      "transcript": "I'll save this till it's five oclock somewhere.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/68/Vo_stormspirit_ss_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_04.mp3",
+      "transcript": "This'll get better with age.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_stormspirit_ss_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_05.mp3",
+      "transcript": "I'll decant this a bit later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_stormspirit_ss_bottle_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_bottle_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_bottle_06.mp3",
+      "transcript": "I'll save this till it's five oclock somewhere.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_stormspirit_ss_bottle_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_doubdam_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_doubdam_01.mp3",
+      "transcript": "Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_stormspirit_ss_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_doubdam_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_doubdam_02.mp3",
+      "transcript": "Storm Force - Double Damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_stormspirit_ss_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_haste_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_stormspirit_ss_haste_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_haste_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_haste_02.mp3",
+      "transcript": "Swift as the wind!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_stormspirit_ss_haste_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_haste_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_haste_03.mp3",
+      "transcript": "Hurricane and hurry pain!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_stormspirit_ss_haste_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_illus_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_stormspirit_ss_illus_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_illus_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_illus_02.mp3",
+      "transcript": "Now it's a party!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_stormspirit_ss_illus_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_invis_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_stormspirit_ss_invis_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_invis_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_invis_02.mp3",
+      "transcript": "No one can see the wind…",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_stormspirit_ss_invis_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_invis_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_invis_03.mp3",
+      "transcript": "Better than a poke in the eye of the storm…",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_stormspirit_ss_invis_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_regen_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_stormspirit_ss_regen_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_regen_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_regen_02.mp3",
+      "transcript": "I'm getting a second wind!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_stormspirit_ss_regen_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_05.mp3",
+      "transcript": "Not quite yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_stormspirit_ss_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_06.mp3",
+      "transcript": "It's not time!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_stormspirit_ss_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_01.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c9/Vo_stormspirit_ss_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_04.mp3",
+      "transcript": "I'm not ready!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_stormspirit_ss_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_02.mp3",
+      "transcript": "Not quite yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_stormspirit_ss_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_notyet_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_notyet_03.mp3",
+      "transcript": "It's not time!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_stormspirit_ss_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_01.mp3",
+      "transcript": "I'm out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_stormspirit_ss_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_02.mp3",
+      "transcript": "There's no mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_stormspirit_ss_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_stormspirit_ss_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_04.mp3",
+      "transcript": "I'm out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_stormspirit_ss_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_05.mp3",
+      "transcript": "There's no mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_stormspirit_ss_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_nomana_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_stormspirit_ss_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_01.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_stormspirit_ss_pain_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_02.mp3",
+      "transcript": "Uh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_stormspirit_ss_pain_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_03.mp3",
+      "transcript": "Eh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_stormspirit_ss_pain_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_04.mp3",
+      "transcript": "Ooh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_stormspirit_ss_pain_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_05.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_stormspirit_ss_pain_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_06.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_stormspirit_ss_pain_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_pain_07.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_pain_07.mp3",
+      "transcript": "Huh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_stormspirit_ss_pain_07.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_underattack_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_stormspirit_stormspirit_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_rare_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_rare_01.mp3",
+      "transcript": "I break like the wind!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_stormspirit_ss_rare_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_rare_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_rare_02.mp3",
+      "transcript": "I'll scatter my foes like dead leaves in a winter gale!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_stormspirit_ss_rare_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_rare_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_rare_03.mp3",
+      "transcript": "Everyone complains about the weather…well, I'm doing something about it!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_stormspirit_ss_rare_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_rare_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_rare_04.mp3",
+      "transcript": "When a warm front and a cold front love each other very much…a storm is born!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_stormspirit_ss_rare_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_rare_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_rare_05.mp3",
+      "transcript": "I only want blue tangos in my dressing room!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_stormspirit_ss_rare_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lane_missing_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lane_missing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/84/Vo_stormspirit_stormspirit_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lane_missing_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lane_missing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_stormspirit_stormspirit_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_lane_missing_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_lane_missing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_stormspirit_stormspirit_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_thanks_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_thanks_01.mp3",
+      "transcript": "Glorious thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c6/Vo_stormspirit_stormspirit_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_thanks_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_thanks_02.mp3",
+      "transcript": "My eternal gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_stormspirit_stormspirit_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_stormspirit_thanks_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_stormspirit_thanks_03.mp3",
+      "transcript": "I thank you.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_stormspirit_stormspirit_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_01.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_stormspirit_ss_win_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_02.mp3",
+      "transcript": "The day is ours!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_stormspirit_ss_win_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_03.mp3",
+      "transcript": "That's the spirit!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_stormspirit_ss_win_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_05.mp3",
+      "transcript": "Huzzah!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_stormspirit_ss_win_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_06.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_06.mp3",
+      "transcript": "Huzzah!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_stormspirit_ss_win_06.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lose_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lose_01.mp3",
+      "transcript": "Nooo!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_stormspirit_ss_lose_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lose_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lose_02.mp3",
+      "transcript": "We blew it!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_stormspirit_ss_lose_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lose_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lose_03.mp3",
+      "transcript": "That wasn't in the forecast.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_stormspirit_ss_lose_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lose_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lose_04.mp3",
+      "transcript": "NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_stormspirit_ss_lose_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_11.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_11.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d1/Vo_stormspirit_ss_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_08.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_stormspirit_ss_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_win_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_win_04.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_stormspirit_ss_win_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_lasthit_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_lasthit_09.mp3",
+      "transcript": "Ah ha ha ha!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_stormspirit_ss_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_shitwiz_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_stormspirit_ss_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_crumwiz_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_stormspirit_ss_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_anger_01.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_anger_01.mp3",
+      "transcript": "Eyah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_stormspirit_ss_anger_01.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_anger_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_anger_02.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_stormspirit_ss_anger_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_anger_04.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_anger_04.mp3",
+      "transcript": "Yah!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_stormspirit_ss_anger_04.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_anger_05.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_anger_05.mp3",
+      "transcript": "Ha!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_stormspirit_ss_anger_05.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_02.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_02.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_stormspirit_ss_acknow_02.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_03.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_03.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_stormspirit_ss_acknow_03.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_08.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_08.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_stormspirit_ss_acknow_08.mp3"
+    },
+    {
+      "file": "Vo_stormspirit_ss_acknow_09.mp3",
+      "key": "dota2/storm-spirit/Vo_stormspirit_ss_acknow_09.mp3",
+      "transcript": "Ah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_stormspirit_ss_acknow_09.mp3"
+    }
+  ]
+}

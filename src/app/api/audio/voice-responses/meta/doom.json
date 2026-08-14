@@ -1,0 +1,2290 @@
+{
+  "hero": "Doom",
+  "slug": "doom",
+  "source": "https://liquipedia.net/dota2/Doom/Responses",
+  "scrapedAt": "2026-06-17T13:20:31.503Z",
+  "count": 226,
+  "voicelines": [
+    {
+      "file": "Vo_doom_bringer_doom_spawn_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_spawn_01.mp3",
+      "transcript": "Doom.",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/11/Vo_doom_bringer_doom_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_spawn_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_spawn_03.mp3",
+      "transcript": "The seven hells hunger.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_doom_bringer_doom_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_spawn_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_spawn_04.mp3",
+      "transcript": "Damnation rises!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_doom_bringer_doom_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_battlebegins_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_battlebegins_01.mp3",
+      "transcript": "Face your demons.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_doom_bringer_doom_battlebegins_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_battlebegins_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_battlebegins_02.mp3",
+      "transcript": "The fire starts now.",
+      "categories": [
+        "Loadout",
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_doom_bringer_doom_battlebegins_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_01.mp3",
+      "transcript": "Ahhh, my flame burns brighter",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/30/Vo_doom_bringer_doom_level_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_02.mp3",
+      "transcript": "Ah, my sword flares!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_doom_bringer_doom_level_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_04.mp3",
+      "transcript": "The inferno blazes.",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_doom_bringer_doom_level_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_01.mp3",
+      "transcript": "See you in the seven hells.",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_doom_bringer_doom_kill_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_03.mp3",
+      "transcript": "I rise from the flames.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_doom_bringer_doom_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_10.mp3",
+      "transcript": "Time to paint the battlefield red.",
+      "categories": [
+        "Loadout",
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_doom_bringer_doom_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_11.mp3",
+      "transcript": "I am the midnight of your soul.",
+      "categories": [
+        "Loadout",
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_doom_bringer_doom_move_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_02.mp3",
+      "transcript": "Hrrreah.",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_doom_bringer_doom_anger_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_spawn_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_spawn_02.mp3",
+      "transcript": "I bring doom.",
+      "categories": [
+        "Entering battle"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_doom_bringer_doom_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_inthebag_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_inthebag_01.mp3",
+      "transcript": "It's in the bag! Heh heh he he hah hah.",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_doom_bringer_doom_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_01.mp3",
+      "transcript": "Yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_doom_bringer_doom_move_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_02.mp3",
+      "transcript": "Heheheh heh heh heh.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_doom_bringer_doom_move_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_03.mp3",
+      "transcript": "Heh hah.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_doom_bringer_doom_move_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_04.mp3",
+      "transcript": "Bring it.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_doom_bringer_doom_move_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_05.mp3",
+      "transcript": "The fire spreads.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_doom_bringer_doom_move_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_06.mp3",
+      "transcript": "The ground burns.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_doom_bringer_doom_move_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_07.mp3",
+      "transcript": "Oh, yes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_doom_bringer_doom_move_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_08.mp3",
+      "transcript": "Hells on Earth.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_doom_bringer_doom_move_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_09.mp3",
+      "transcript": "The inferno rages.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_doom_bringer_doom_move_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_10.mp3",
+      "transcript": "Till damnation come.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_doom_bringer_doom_move_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_move_12.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_move_12.mp3",
+      "transcript": "The soul eater hungers.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_doom_bringer_doom_move_12.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fc/Vo_doom_bringer_doom_attack_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_02.mp3",
+      "transcript": "Attack.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_doom_bringer_doom_attack_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_03.mp3",
+      "transcript": "Upon my horns, I'll gore thee.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_doom_bringer_doom_attack_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_04.mp3",
+      "transcript": "With sword of flame.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_doom_bringer_doom_attack_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_05.mp3",
+      "transcript": "By the fires of the pit.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_doom_bringer_doom_attack_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_06.mp3",
+      "transcript": "Infernal!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9e/Vo_doom_bringer_doom_attack_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_07.mp3",
+      "transcript": "Burning steel.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_doom_bringer_doom_attack_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_08.mp3",
+      "transcript": "Defilement.",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_doom_bringer_doom_attack_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_09.mp3",
+      "transcript": "Slash and burn!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_doom_bringer_doom_attack_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_attack_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_attack_10.mp3",
+      "transcript": "Slice your throat!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_doom_bringer_doom_attack_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_cast_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_cast_01.mp3",
+      "transcript": "Come taste the flame.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_doom_bringer_doom_cast_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_cast_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_cast_02.mp3",
+      "transcript": "Don't look now.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_doom_bringer_doom_cast_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_cast_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_cast_03.mp3",
+      "transcript": "I'm at your shoulder.",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_doom_bringer_doom_cast_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_devour_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_devour_01.mp3",
+      "transcript": "Devour.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_doom_bringer_doom_ability_devour_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_devour_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_devour_02.mp3",
+      "transcript": "Eat your soul.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_doom_bringer_doom_ability_devour_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_scorched_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_scorched_01.mp3",
+      "transcript": "Fan the flames.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_doom_bringer_doom_ability_scorched_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_scorched_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_scorched_02.mp3",
+      "transcript": "Firestorm!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_doom_bringer_doom_ability_scorched_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_scorched_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_scorched_03.mp3",
+      "transcript": "Hellfire!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_doom_bringer_doom_ability_scorched_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_lvldeath_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_lvldeath_01.mp3",
+      "transcript": "Feel the burn.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fd/Vo_doom_bringer_doom_ability_lvldeath_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_lvldeath_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_lvldeath_04.mp3",
+      "transcript": "Burned you to ashes.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_doom_bringer_doom_ability_lvldeath_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_lvldeath_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_lvldeath_05.mp3",
+      "transcript": "Annihilation!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_doom_bringer_doom_ability_lvldeath_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_lvldeath_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_lvldeath_02.mp3",
+      "transcript": "He hah, a demon's luck with numbers.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_doom_bringer_doom_ability_lvldeath_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_lvldeath_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_lvldeath_03.mp3",
+      "transcript": "I gambled, you lost.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_doom_bringer_doom_ability_lvldeath_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_01.mp3",
+      "transcript": "Doom reigns!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_doom_bringer_doom_ability_doom_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_02.mp3",
+      "transcript": "Pentagram!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_doom_bringer_doom_ability_doom_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_03.mp3",
+      "transcript": "Neyaheh hah ahha ha, you're doomed!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5e/Vo_doom_bringer_doom_ability_doom_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_04.mp3",
+      "transcript": "You're doomed.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_doom_bringer_doom_ability_doom_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_05.mp3",
+      "transcript": "You are doomed.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_doom_bringer_doom_ability_doom_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_06.mp3",
+      "transcript": "Doomed!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_doom_bringer_doom_ability_doom_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_03.mp3",
+      "transcript": "Ah, hell yeah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_doom_bringer_doom_level_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_05.mp3",
+      "transcript": "He he heh heh he, handsome devil, aren't I?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_doom_bringer_doom_level_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_06.mp3",
+      "transcript": "Ah, my soul hunger grows!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_doom_bringer_doom_level_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_07.mp3",
+      "transcript": "Hmeh heh heh hah heh he hah heh.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_doom_bringer_doom_level_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_level_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_level_08.mp3",
+      "transcript": "Oh, yes!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_doom_bringer_doom_level_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_doom_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_doom_07.mp3",
+      "transcript": "I mark your soul.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_doom_bringer_doom_ability_doom_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_02.mp3",
+      "transcript": "Ultimate sacrifice.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_doom_bringer_doom_kill_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_03.mp3",
+      "transcript": "I get my due.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_doom_bringer_doom_kill_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_04.mp3",
+      "transcript": "Inferno takes you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_doom_bringer_doom_kill_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_05.mp3",
+      "transcript": "I stoke the furnace with your corpse.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_doom_bringer_doom_kill_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_06.mp3",
+      "transcript": "Your cause is doomed.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_doom_bringer_doom_kill_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_07.mp3",
+      "transcript": "Your entrails festoon my horns.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_doom_bringer_doom_kill_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_08.mp3",
+      "transcript": "Killed and cauterized.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_doom_bringer_doom_kill_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_09.mp3",
+      "transcript": "Mess with Doom, you get the horns.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_doom_bringer_doom_kill_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_10.mp3",
+      "transcript": "You'll wake in lowest hell.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_doom_bringer_doom_kill_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_kill_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_kill_11.mp3",
+      "transcript": "Huweheh heh heh heh aheh hah heh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_doom_bringer_doom_kill_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_01.mp3",
+      "transcript": "Hooreh heh heh ah heh heh hah ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_doom_bringer_doom_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_02.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_doom_bringer_doom_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_03.mp3",
+      "transcript": "Hmeh heh heh hah eh huh heh eh heh heh ha.",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_doom_bringer_doom_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_01.mp3",
+      "transcript": "Cold day in Hells.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_doom_bringer_doom_rival_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_02.mp3",
+      "transcript": "Chen, now you are holy.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_doom_bringer_doom_rival_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_03.mp3",
+      "transcript": "Omniknight, your night is over.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_doom_bringer_doom_rival_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_04.mp3",
+      "transcript": "Storm Spirit, you're a pretentious bastard.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_doom_bringer_doom_rival_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_05.mp3",
+      "transcript": "Storm Spirit, I eat your tangos.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_doom_bringer_doom_rival_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_06.mp3",
+      "transcript": "Storm Spirit, enjoy the firestorm.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_doom_bringer_doom_rival_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_07.mp3",
+      "transcript": "Storm Spirit, shut up.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_doom_bringer_doom_rival_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_08.mp3",
+      "transcript": "Storm Spirit, I weary of your endless self-promotion.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_doom_bringer_doom_rival_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_11.mp3",
+      "transcript": "Izh acha vo'domosh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fb/Vo_doom_bringer_doom_rival_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_12.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_12.mp3",
+      "transcript": "Ahm'ov icha domosh omoz.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_doom_bringer_doom_rival_12.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_13.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_13.mp3",
+      "transcript": "Ensh izh Arkosh, fol.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_doom_bringer_doom_rival_13.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_14.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_14.mp3",
+      "transcript": "Izh vo'acha Ozh.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_doom_bringer_doom_rival_14.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_firstblood_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_firstblood_01.mp3",
+      "transcript": "First blood, heh hah hah!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_doom_bringer_doom_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ally_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ally_01.mp3",
+      "transcript": "Eyik izh poz.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_doom_bringer_doom_ally_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ally_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ally_02.mp3",
+      "transcript": "Arkosh izh-domosh.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_doom_bringer_doom_ally_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_01.mp3",
+      "transcript": "Hell to pay.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_doom_bringer_doom_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_02.mp3",
+      "transcript": "Services rendered.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_doom_bringer_doom_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_03.mp3",
+      "transcript": "Almighty money.",
+      "categories": [
+        "Last hitting",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_doom_bringer_doom_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_04.mp3",
+      "transcript": "Bankrolled.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_doom_bringer_doom_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_05.mp3",
+      "transcript": "The chips fall.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_doom_bringer_doom_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_06.mp3",
+      "transcript": "Ka-ching, withdrawal.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e4/Vo_doom_bringer_doom_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_07.mp3",
+      "transcript": "Lump sum.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/90/Vo_doom_bringer_doom_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_08.mp3",
+      "transcript": "Dues paid.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_doom_bringer_doom_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_09.mp3",
+      "transcript": "Root of all evil.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_doom_bringer_doom_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_10.mp3",
+      "transcript": "Gold for its own sake.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_doom_bringer_doom_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lasthit_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lasthit_11.mp3",
+      "transcript": "Hmm hem hmm, succulent.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_doom_bringer_doom_lasthit_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_doom_bringer_doom_deny_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_02.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_doom_bringer_doom_deny_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_03.mp3",
+      "transcript": "Uh-huh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4a/Vo_doom_bringer_doom_deny_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_04.mp3",
+      "transcript": "The hell you will.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_doom_bringer_doom_deny_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_05.mp3",
+      "transcript": "Not going to happen.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_doom_bringer_doom_deny_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_06.mp3",
+      "transcript": "Like hell, heh-h.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_doom_bringer_doom_deny_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_07.mp3",
+      "transcript": "Hm heh heh heh heh huh huh heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_doom_bringer_doom_deny_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_deny_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_deny_08.mp3",
+      "transcript": "Huheheheh huh heh heh hah heh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_doom_bringer_doom_deny_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_purch_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_purch_01.mp3",
+      "transcript": "Spent wisely.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_doom_bringer_doom_purch_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_purch_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_purch_02.mp3",
+      "transcript": "Acquired at cost.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_doom_bringer_doom_purch_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_purch_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_purch_03.mp3",
+      "transcript": "Worth every red cent.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_doom_bringer_doom_purch_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_blink_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_blink_01.mp3",
+      "transcript": "Blink dagger.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_doom_bringer_doom_blink_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_blink_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_blink_02.mp3",
+      "transcript": "Precious blinker.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_doom_bringer_doom_blink_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_scepter_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_scepter_01.mp3",
+      "transcript": "Ah, scepter.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/de/Vo_doom_bringer_doom_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_scepter_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_scepter_02.mp3",
+      "transcript": "My scepter at last.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4c/Vo_doom_bringer_doom_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_radiance_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_radiance_01.mp3",
+      "transcript": "Ah, radiance.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_doom_bringer_doom_radiance_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_radiance_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_radiance_02.mp3",
+      "transcript": "Bright as hottest hell.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_doom_bringer_doom_radiance_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_bootstrav_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_bootstrav_02.mp3",
+      "transcript": "Boots of travel.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_doom_bringer_doom_bootstrav_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_assaultcuirass_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_assaultcuirass_01.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_doom_bringer_doom_assaultcuirass_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_heartoftarrasque_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_heartoftarrasque_01.mp3",
+      "transcript": "Heart of Tarrasque.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_doom_bringer_doom_heartoftarrasque_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_refresherorb_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_refresherorb_01.mp3",
+      "transcript": "Refresher orb.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_doom_bringer_doom_refresherorb_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_refresherorb_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_refresherorb_02.mp3",
+      "transcript": "Mmm, refreshing.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/32/Vo_doom_bringer_doom_refresherorb_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_immort_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_doom_bringer_doom_immort_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_immort_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_immort_02.mp3",
+      "transcript": "Eternal flame.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_doom_bringer_doom_immort_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_01.mp3",
+      "transcript": "No.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6b/Vo_doom_bringer_doom_death_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_02.mp3",
+      "transcript": "Returned to the furnace.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_doom_bringer_doom_death_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_03.mp3",
+      "transcript": "I fall to the seven hells.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_doom_bringer_doom_death_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_04.mp3",
+      "transcript": "The inferno beckons.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_doom_bringer_doom_death_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_05.mp3",
+      "transcript": "My body stokes the furnace.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_doom_bringer_doom_death_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_06.mp3",
+      "transcript": "What…the hell.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_doom_bringer_doom_death_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_07.mp3",
+      "transcript": "Hell hath no fury.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_doom_bringer_doom_death_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_08.mp3",
+      "transcript": "My sword grows cold.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_doom_bringer_doom_death_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_09.mp3",
+      "transcript": "My fire is out.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_doom_bringer_doom_death_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_10.mp3",
+      "transcript": "My soul burns.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_doom_bringer_doom_death_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_death_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_death_11.mp3",
+      "transcript": "Writhing agony.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3f/Vo_doom_bringer_doom_death_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_09.mp3",
+      "transcript": "Cold day…in…hells.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_doom_bringer_doom_rival_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rival_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rival_10.mp3",
+      "transcript": "Hell…freezes…over.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_doom_bringer_doom_rival_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_01.mp3",
+      "transcript": "What fresh hell is this?",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_doom_bringer_doom_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_02.mp3",
+      "transcript": "Heh hem, demon spawn.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_doom_bringer_doom_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_04.mp3",
+      "transcript": "The furnace delivers me to life.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_doom_bringer_doom_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_05.mp3",
+      "transcript": "Heh heh hah heh ugh, heh heh, I come with all hell's fury.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_doom_bringer_doom_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_06.mp3",
+      "transcript": "Infernal rebirth.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_doom_bringer_doom_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_07.mp3",
+      "transcript": "Hell bent on revenge.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4e/Vo_doom_bringer_doom_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_08.mp3",
+      "transcript": "All hell's broken loose.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_doom_bringer_doom_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_09.mp3",
+      "transcript": "I'll give em hell.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c8/Vo_doom_bringer_doom_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_11.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_11.mp3",
+      "transcript": "I am what can't be killed.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_doom_bringer_doom_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_respawn_12.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_respawn_12.mp3",
+      "transcript": "Well, hell's bells.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_doom_bringer_doom_respawn_12.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_fastres_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_fastres_01.mp3",
+      "transcript": "I'll reignite.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_doom_bringer_doom_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_bottle_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_bottle_01.mp3",
+      "transcript": "Held by for later.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_doom_bringer_doom_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_bottle_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_bottle_02.mp3",
+      "transcript": "Secured for another time.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_doom_bringer_doom_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_bottle_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_bottle_03.mp3",
+      "transcript": "Invested in the future.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/72/Vo_doom_bringer_doom_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_bottle_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_bottle_04.mp3",
+      "transcript": "Stashed aside.",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3c/Vo_doom_bringer_doom_bottle_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_happy_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_happy_01.mp3",
+      "transcript": "Oh, yes.",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_doom_bringer_doom_happy_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_doubdam_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/50/Vo_doom_bringer_doom_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_doubdam_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_doubdam_02.mp3",
+      "transcript": "My sword cuts twice.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_doom_bringer_doom_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_haste_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_doom_bringer_doom_haste_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_haste_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_haste_02.mp3",
+      "transcript": "Like a bat out of hell.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_doom_bringer_doom_haste_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_illus_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_doom_bringer_doom_illus_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_illus_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_illus_02.mp3",
+      "transcript": "The lesser of three evils.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_doom_bringer_doom_illus_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_invis_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dd/Vo_doom_bringer_doom_invis_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_invis_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_invis_02.mp3",
+      "transcript": "Where the hell did I go?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_doom_bringer_doom_invis_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_invis_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_invis_03.mp3",
+      "transcript": "Nyeh heh huh he see no evil.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_doom_bringer_doom_invis_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_regen_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e6/Vo_doom_bringer_doom_regen_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_regen_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_regen_02.mp3",
+      "transcript": "Stoke my fire.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_doom_bringer_doom_regen_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_doom_bringer_doom_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_02.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_doom_bringer_doom_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_03.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_doom_bringer_doom_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_04.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_doom_bringer_doom_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_doom_bringer_doom_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_06.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_doom_bringer_doom_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_07.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b2/Vo_doom_bringer_doom_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_08.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_doom_bringer_doom_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_notyet_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_notyet_09.mp3",
+      "transcript": "It is not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_doom_bringer_doom_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_doom_bringer_doom_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_02.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_doom_bringer_doom_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_03.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_doom_bringer_doom_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_04.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_doom_bringer_doom_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_doom_bringer_doom_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_06.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_doom_bringer_doom_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_07.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/36/Vo_doom_bringer_doom_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_08.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_doom_bringer_doom_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_nomana_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/35/Vo_doom_bringer_doom_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_01.mp3",
+      "transcript": "Ahh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_doom_bringer_doom_pain_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_02.mp3",
+      "transcript": "Argh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_doom_bringer_doom_pain_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_03.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_doom_bringer_doom_pain_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_04.mp3",
+      "transcript": "Hagh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_doom_bringer_doom_pain_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_05.mp3",
+      "transcript": "Oogh.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/61/Vo_doom_bringer_doom_pain_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_06.mp3",
+      "transcript": "Oawe.",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_doom_bringer_doom_pain_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_07.mp3",
+      "transcript": "Dah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_doom_bringer_doom_pain_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_08.mp3",
+      "transcript": "Oahhh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_doom_bringer_doom_pain_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_pain_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_pain_09.mp3",
+      "transcript": "Doah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_doom_bringer_doom_pain_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_underattack_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_underattack_01.mp3",
+      "transcript": "I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_doom_bringer_doom_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_devour_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_devour_03.mp3",
+      "transcript": "Nnnn, I hunger.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/56/Vo_doom_bringer_doom_ability_devour_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_rare_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_rare_01.mp3",
+      "transcript": "Hehm ehme meh heh heh, speak of me, and I shall appear. Face me and face the furnace!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_doom_bringer_doom_rare_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_thanks_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_doom_bringer_doom_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_thanks_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_thanks_02.mp3",
+      "transcript": "With gratitude.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_doom_bringer_doom_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_04.mp3",
+      "transcript": "Hem heh hm eh hmm meh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/23/Vo_doom_bringer_doom_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_05.mp3",
+      "transcript": "Hemeh ho hoh heh hoh hoh.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c1/Vo_doom_bringer_doom_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_06.mp3",
+      "transcript": "Hoh heh hah heh hah hah hah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_doom_bringer_doom_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_07.mp3",
+      "transcript": "Heheh hah hah hah heh huh heh hah.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_doom_bringer_doom_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_08.mp3",
+      "transcript": "Heaagheh hah heh heh hah.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_doom_bringer_doom_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_09.mp3",
+      "transcript": "Howeh heh eh heh heh heh.",
+      "categories": [
+        "Chat responses",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/80/Vo_doom_bringer_doom_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_laugh_10.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_laugh_10.mp3",
+      "transcript": "Heheh heh hah heh hah hah hah.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_doom_bringer_doom_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_win_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/96/Vo_doom_bringer_doom_win_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_win_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_doom_bringer_doom_win_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_win_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_win_03.mp3",
+      "transcript": "Infernal victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_doom_bringer_doom_win_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lose_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lose_01.mp3",
+      "transcript": "Nooooehw!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/38/Vo_doom_bringer_doom_lose_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lose_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lose_02.mp3",
+      "transcript": "Defeated.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/53/Vo_doom_bringer_doom_lose_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lose_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lose_03.mp3",
+      "transcript": "Damnation.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_doom_bringer_doom_lose_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_lose_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_lose_04.mp3",
+      "transcript": "Oh, crap.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_doom_bringer_doom_lose_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_devour_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_devour_04.mp3",
+      "transcript": "Hahahaha, tasty.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/67/Vo_doom_bringer_doom_ability_devour_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_happy_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_happy_02.mp3",
+      "transcript": "Hemuhm.",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_doom_bringer_doom_happy_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_fail_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_fail_01.mp3",
+      "transcript": "reahhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/55/Vo_doom_bringer_doom_ability_fail_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_fail_02.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_fail_02.mp3",
+      "transcript": "Hemmehm, you were lucky this time.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_doom_bringer_doom_ability_fail_02.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_ability_fail_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_ability_fail_03.mp3",
+      "transcript": "reahhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_doom_bringer_doom_ability_fail_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_shitwiz_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_shitwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/17/Vo_doom_bringer_doom_shitwiz_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_crumwiz_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_doom_bringer_doom_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_01.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_01.mp3",
+      "transcript": "Hoawgh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/33/Vo_doom_bringer_doom_anger_01.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_03.mp3",
+      "transcript": "Gearrh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_doom_bringer_doom_anger_03.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_04.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_04.mp3",
+      "transcript": "Haergh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_doom_bringer_doom_anger_04.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_05.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_05.mp3",
+      "transcript": "Haerghhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_doom_bringer_doom_anger_05.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_06.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_06.mp3",
+      "transcript": "Raeregh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_doom_bringer_doom_anger_06.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_07.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_07.mp3",
+      "transcript": "Haeregh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_doom_bringer_doom_anger_07.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_08.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_08.mp3",
+      "transcript": "Arghhhehh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_doom_bringer_doom_anger_08.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_anger_09.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_anger_09.mp3",
+      "transcript": "Oh hells!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_doom_bringer_doom_anger_09.mp3"
+    },
+    {
+      "file": "Vo_doom_bringer_doom_happy_03.mp3",
+      "key": "dota2/doom/Vo_doom_bringer_doom_happy_03.mp3",
+      "transcript": "Hmmehhhmmm.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/29/Vo_doom_bringer_doom_happy_03.mp3"
+    }
+  ]
+}

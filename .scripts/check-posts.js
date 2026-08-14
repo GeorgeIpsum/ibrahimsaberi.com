@@ -1,8 +1,6 @@
-function main() {
-  
-}
+function main() {}
 
-module.exports = {
+export default {
   main,
   meta: {
     command: "check-posts",
@@ -10,4 +8,4 @@ module.exports = {
     opts: [],
     args: [],
   },
-}
+};

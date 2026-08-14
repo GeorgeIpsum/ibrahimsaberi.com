@@ -1,6 +1,10 @@
-export default function Layout({ children }: { children: JSX.Element }) {
+import "@/css/basin.css";
+
+import type { ReactNode } from "react";
+
+export default function BasinPostLayout({ children }: { children: ReactNode }) {
   return (
-    <article className="rounded-lg bg-white/30 px-4 pb-14 pt-4 shadow-lg shadow-fuchsia-700/5 backdrop-blur-lg dark:bg-black/50 dark:shadow-green-700/5 md:px-6 md:pb-20 md:pt-12">
+    <article className="rounded-lg px-4 pt-4 pb-14 shadow-lg backdrop-blur-lg md:px-6 md:pt-12 md:pb-20">
       {children}
     </article>
   );

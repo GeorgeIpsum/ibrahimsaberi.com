@@ -1,0 +1,85 @@
+name: Release
+
+# Consumes changesets that land on main: runs vitest, bumps the root package
+# version, writes CHANGELOG.md, commits + tags vX.Y.Z, and creates a GitHub
+# Release. No-ops when main has no unconsumed changesets (regular merges).
+#
+# Required repo secrets:
+#   RELEASE_DEPLOY_KEY  private half of the "release-workflow" write deploy
+#                       key; the release job checks out with it so the push
+#                       to main bypasses the "protecc"/"release-gate" rulesets
+#                       via their DeployKey bypass actor (GitHub refuses the
+#                       Actions app as a bypass actor on personal repos).
+# Deploy-key pushes retrigger workflows: the version-bump push causes one
+# extra run of this workflow, which no-ops (zero changesets remain).
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    # workflow_dispatch has no branch filter; without this guard, dispatching
+    # from a non-main ref would push that ref to main past the release gate.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    outputs:
+      count: ${{ steps.count.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count unconsumed changesets
+        id: count
+        run: |
+          count=$(find .changeset -maxdepth 1 -name '*.md' ! -name 'README.md' | wc -l | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" = "0" ]; then
+            echo "::notice::No changesets on main; nothing to release."
+          fi
+
+  release:
+    needs: check
+    if: needs.check.outputs.count != '0'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.RELEASE_DEPLOY_KEY }}
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - name: Version, commit, tag
+        id: version
+        run: |
+          pnpm changeset version
+          version=$(node -p "require('./package.json').version")
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(release): v${version}"
+          git tag -a "v${version}" -m "v${version}"
+          git push origin HEAD:main --follow-tags
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          awk -v ver="$version" '
+            $0 == "## " ver { grab = 1; next }
+            /^## /          { grab = 0 }
+            grab            { print }
+          ' CHANGELOG.md > "$RUNNER_TEMP/notes.md"
+          gh release create "v${version}" --title "v${version}" --notes-file "$RUNNER_TEMP/notes.md"

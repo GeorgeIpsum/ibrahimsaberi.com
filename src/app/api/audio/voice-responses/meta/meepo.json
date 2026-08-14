@@ -1,0 +1,3899 @@
+{
+  "hero": "Meepo",
+  "slug": "meepo",
+  "source": "https://liquipedia.net/dota2/Meepo/Responses",
+  "scrapedAt": "2026-06-17T13:54:50.705Z",
+  "count": 387,
+  "voicelines": [
+    {
+      "file": "Vo_meepo_meepo_spawn_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_spawn_01.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Loadout",
+        "Drafting",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_meepo_meepo_spawn_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_spawn_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_spawn_02.mp3",
+      "transcript": "Meepo the Geomancer!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_meepo_meepo_spawn_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_spawn_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_spawn_03.mp3",
+      "transcript": "A digger's gotta dig!",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_meepo_meepo_spawn_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_spawn_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_spawn_04.mp3",
+      "transcript": "Name's Meepo. Geomancer. Pleased to meet ya.",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_meepo_meepo_spawn_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_spawn_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_spawn_05.mp3",
+      "transcript": "Hey, what's cookin'?",
+      "categories": [
+        "Loadout",
+        "Entering battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b0/Vo_meepo_meepo_spawn_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_16.mp3",
+      "transcript": "Aw yeah!",
+      "categories": [
+        "Loadout",
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_meepo_meepo_move_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_28.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_28.mp3",
+      "transcript": "Mischief for mischief!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_meepo_meepo_move_28.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_37.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_37.mp3",
+      "transcript": "Let's go to work!",
+      "categories": [
+        "Loadout"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_meepo_meepo_move_37.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_13.mp3",
+      "transcript": "Come out and play!",
+      "categories": [
+        "Loadout",
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_meepo_meepo_attack_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_cast_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_cast_01.mp3",
+      "transcript": "Comin' for ya!",
+      "categories": [
+        "Loadout",
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3b/Vo_meepo_meepo_cast_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_03.mp3",
+      "transcript": "Ain't nothing gonna stop me now!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_meepo_meepo_levelup_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_15.mp3",
+      "transcript": "Oh now that's what I'm talking about!",
+      "categories": [
+        "Loadout",
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a9/Vo_meepo_meepo_levelup_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_12.mp3",
+      "transcript": "Ahh, c'mon!",
+      "categories": [
+        "Drafting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_meepo_meepo_anger_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_inthebag_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_inthebag_01.mp3",
+      "transcript": "Don't tell nobody, but this one's already in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_meepo_meepo_inthebag_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_inthebag_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_inthebag_02.mp3",
+      "transcript": "Hey! Hey! Don't tell nobody, but this one's already in the bag!",
+      "categories": [
+        "Taunting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_meepo_meepo_inthebag_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_begin_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_begin_01.mp3",
+      "transcript": "Let's get this over with. I ain't leaving empty handed!",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4b/Vo_meepo_meepo_begin_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_begin_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_begin_02.mp3",
+      "transcript": "Probably gonna dig a grave or two before this is done.",
+      "categories": [
+        "Beginning battle"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_meepo_meepo_begin_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_01.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_meepo_meepo_move_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_02.mp3",
+      "transcript": "Yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_meepo_meepo_move_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_03.mp3",
+      "transcript": "Yep-yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_meepo_meepo_move_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_04.mp3",
+      "transcript": "Yep yep!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_meepo_meepo_move_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_05.mp3",
+      "transcript": "Uh huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/14/Vo_meepo_meepo_move_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_06.mp3",
+      "transcript": "Uh huh!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/83/Vo_meepo_meepo_move_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_07.mp3",
+      "transcript": "Hey why not?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_meepo_meepo_move_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_08.mp3",
+      "transcript": "Alright!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/db/Vo_meepo_meepo_move_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_09.mp3",
+      "transcript": "Like that idea!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_meepo_meepo_move_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_10.mp3",
+      "transcript": "Good thinking!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ca/Vo_meepo_meepo_move_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_11.mp3",
+      "transcript": "One paw in front of the other!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_meepo_meepo_move_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_12.mp3",
+      "transcript": "Like it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_meepo_meepo_move_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_13.mp3",
+      "transcript": "Like it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/ce/Vo_meepo_meepo_move_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_14.mp3",
+      "transcript": "Ah it's too bright out here.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f6/Vo_meepo_meepo_move_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_15.mp3",
+      "transcript": "Just what I was thinking.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/04/Vo_meepo_meepo_move_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_17.mp3",
+      "transcript": "Like your style!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_meepo_meepo_move_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_18.mp3",
+      "transcript": "Got dirt between my toes.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_meepo_meepo_move_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_19.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_19.mp3",
+      "transcript": "What'd you have in mind?",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_meepo_meepo_move_19.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_20.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_20.mp3",
+      "transcript": "If you say so.",
+      "categories": [
+        "Moving"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_meepo_meepo_move_20.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_21.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_21.mp3",
+      "transcript": "C'mon!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_meepo_meepo_move_21.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_22.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_22.mp3",
+      "transcript": "C'mon!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_meepo_meepo_move_22.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_23.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_23.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_meepo_meepo_move_23.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_24.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_24.mp3",
+      "transcript": "Let's go!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_meepo_meepo_move_24.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_25.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_25.mp3",
+      "transcript": "We gotta move!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_meepo_meepo_move_25.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_26.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_26.mp3",
+      "transcript": "Let's head out!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_meepo_meepo_move_26.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_27.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_27.mp3",
+      "transcript": "And we're off!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/60/Vo_meepo_meepo_move_27.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_29.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_29.mp3",
+      "transcript": "Pack rats!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_meepo_meepo_move_29.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_30.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_30.mp3",
+      "transcript": "The rat pack!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_meepo_meepo_move_30.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_31.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_31.mp3",
+      "transcript": "We got numbers!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8c/Vo_meepo_meepo_move_31.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_32.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_32.mp3",
+      "transcript": "Gang up!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d6/Vo_meepo_meepo_move_32.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_33.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_33.mp3",
+      "transcript": "Posse!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_meepo_meepo_move_33.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_34.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_34.mp3",
+      "transcript": "C'mon guys!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/88/Vo_meepo_meepo_move_34.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_35.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_35.mp3",
+      "transcript": "Strut it!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_meepo_meepo_move_35.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_move_36.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_move_36.mp3",
+      "transcript": "We're lookin' good!",
+      "categories": [
+        "Moving"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_meepo_meepo_move_36.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_01.mp3",
+      "transcript": "Attack!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_meepo_meepo_attack_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_02.mp3",
+      "transcript": "Where do you think you're going?",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_meepo_meepo_attack_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_03.mp3",
+      "transcript": "Ey!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6f/Vo_meepo_meepo_attack_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_04.mp3",
+      "transcript": "Ey!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_meepo_meepo_attack_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_05.mp3",
+      "transcript": "C'mere!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/58/Vo_meepo_meepo_attack_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_06.mp3",
+      "transcript": "Come 'ere!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_meepo_meepo_attack_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_07.mp3",
+      "transcript": "Ey! Ey ey ey buddy!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_meepo_meepo_attack_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_08.mp3",
+      "transcript": "Hey buddy!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_meepo_meepo_attack_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_09.mp3",
+      "transcript": "Stay away!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_meepo_meepo_attack_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_10.mp3",
+      "transcript": "Gotta grave for ya!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_meepo_meepo_attack_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_11.mp3",
+      "transcript": "Yeah,I'm gonna beat ya!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_meepo_meepo_attack_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_12.mp3",
+      "transcript": "Cave your head in!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_meepo_meepo_attack_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_14.mp3",
+      "transcript": "Here's dirt in your eye!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_meepo_meepo_attack_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_15.mp3",
+      "transcript": "Let's get 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_meepo_meepo_attack_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_16.mp3",
+      "transcript": "Can't stop us!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_meepo_meepo_attack_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_17.mp3",
+      "transcript": "Bruise 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_meepo_meepo_attack_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_18.mp3",
+      "transcript": "We can take 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/52/Vo_meepo_meepo_attack_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_19.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_19.mp3",
+      "transcript": "Charge!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_meepo_meepo_attack_19.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_attack_20.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_attack_20.mp3",
+      "transcript": "Mob 'em!",
+      "categories": [
+        "Attacking"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_meepo_meepo_attack_20.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_cast_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_cast_02.mp3",
+      "transcript": "Aw you gonna run?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_meepo_meepo_cast_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_cast_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_cast_03.mp3",
+      "transcript": "What's up?",
+      "categories": [
+        "Ordering a spell cast"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_meepo_meepo_cast_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_01.mp3",
+      "transcript": "Hold still!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_meepo_meepo_earthbind_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_02.mp3",
+      "transcript": "Stay put!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_meepo_meepo_earthbind_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_03.mp3",
+      "transcript": "Stop!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_meepo_meepo_earthbind_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_04.mp3",
+      "transcript": "Stay boy!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_meepo_meepo_earthbind_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_05.mp3",
+      "transcript": "How ya doin?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bc/Vo_meepo_meepo_earthbind_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_06.mp3",
+      "transcript": "Earthbind!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_meepo_meepo_earthbind_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_07.mp3",
+      "transcript": "Gotcha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_meepo_meepo_earthbind_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_earthbind_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_earthbind_08.mp3",
+      "transcript": "Gotcha!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_meepo_meepo_earthbind_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_01.mp3",
+      "transcript": "Poof!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_meepo_meepo_poof_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_02.mp3",
+      "transcript": "Poof!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cc/Vo_meepo_meepo_poof_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_03.mp3",
+      "transcript": "Away!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_meepo_meepo_poof_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_04.mp3",
+      "transcript": "Away!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/37/Vo_meepo_meepo_poof_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_05.mp3",
+      "transcript": "See ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_meepo_meepo_poof_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_06.mp3",
+      "transcript": "See ya!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/31/Vo_meepo_meepo_poof_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_07.mp3",
+      "transcript": "Scram!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_meepo_meepo_poof_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_poof_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_poof_08.mp3",
+      "transcript": "I ain't here!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_meepo_meepo_poof_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_01.mp3",
+      "transcript": "More Meepo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_meepo_meepo_divided_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_02.mp3",
+      "transcript": "More Meepo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_meepo_meepo_divided_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_03.mp3",
+      "transcript": "More Meepo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/16/Vo_meepo_meepo_divided_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_04.mp3",
+      "transcript": "More Meepo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_meepo_meepo_divided_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_05.mp3",
+      "transcript": "Hey Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/98/Vo_meepo_meepo_divided_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_06.mp3",
+      "transcript": "Hey Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/af/Vo_meepo_meepo_divided_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_07.mp3",
+      "transcript": "Hey Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_meepo_meepo_divided_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_08.mp3",
+      "transcript": "Hey Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_meepo_meepo_divided_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_09.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_meepo_meepo_divided_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_10.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_meepo_meepo_divided_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_11.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cd/Vo_meepo_meepo_divided_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_12.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a2/Vo_meepo_meepo_divided_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_13.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a4/Vo_meepo_meepo_divided_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_14.mp3",
+      "transcript": "Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_meepo_meepo_divided_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_15.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_meepo_meepo_divided_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_16.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/99/Vo_meepo_meepo_divided_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_17.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/63/Vo_meepo_meepo_divided_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_18.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_meepo_meepo_divided_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_19.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_19.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3a/Vo_meepo_meepo_divided_19.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_20.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_20.mp3",
+      "transcript": "What's up Meepo?",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/66/Vo_meepo_meepo_divided_20.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_21.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_21.mp3",
+      "transcript": "Meepo! Meepo! Meepo! Meepo! Meeepooo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/08/Vo_meepo_meepo_divided_21.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_22.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_22.mp3",
+      "transcript": "Meepoooooo Meeepooooo Meeeepoooo Meeepooooo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_meepo_meepo_divided_22.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_23.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_23.mp3",
+      "transcript": "Meepo number 1 reporting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_meepo_meepo_divided_23.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_24.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_24.mp3",
+      "transcript": "Meepo number 2 reporting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6d/Vo_meepo_meepo_divided_24.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_25.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_25.mp3",
+      "transcript": "Meepo number 3 reporting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9b/Vo_meepo_meepo_divided_25.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_26.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_26.mp3",
+      "transcript": "Meepo number 4 reporting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7c/Vo_meepo_meepo_divided_26.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_27.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_27.mp3",
+      "transcript": "Meepo number 5 reporting!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_meepo_meepo_divided_27.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_28.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_28.mp3",
+      "transcript": "More Meepo.",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_meepo_meepo_divided_28.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_divided_29.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_divided_29.mp3",
+      "transcript": "Hey Meepo!",
+      "categories": [
+        "Abilities"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_meepo_meepo_divided_29.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_01.mp3",
+      "transcript": "Shiny!",
+      "categories": [
+        "Leveling up",
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_meepo_meepo_levelup_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_02.mp3",
+      "transcript": "What's the big idea?",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_meepo_meepo_levelup_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_04.mp3",
+      "transcript": "I got ambition!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c7/Vo_meepo_meepo_levelup_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_05.mp3",
+      "transcript": "Diggin' in deep!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_meepo_meepo_levelup_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_06.mp3",
+      "transcript": "Think I like it here!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_meepo_meepo_levelup_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_07.mp3",
+      "transcript": "Wow that's bright.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_meepo_meepo_levelup_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_08.mp3",
+      "transcript": "This pack ain't so heavy no more!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_meepo_meepo_levelup_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_09.mp3",
+      "transcript": "Gonna be no stopping me!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_meepo_meepo_levelup_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_10.mp3",
+      "transcript": "Moving up in the world!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_meepo_meepo_levelup_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_11.mp3",
+      "transcript": "It's all coming together for me.",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_meepo_meepo_levelup_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_12.mp3",
+      "transcript": "Nhanhyanyahnyah!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_meepo_meepo_levelup_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_13.mp3",
+      "transcript": "Hn ha ha ha ha ha ah ha ha ha ha nn ha ha ha ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_meepo_meepo_levelup_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_levelup_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_levelup_14.mp3",
+      "transcript": "Nn ha he ha he ha he ha ya ya ha!",
+      "categories": [
+        "Leveling up"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_meepo_meepo_levelup_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_01.mp3",
+      "transcript": "Hey I'm great at burials!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_meepo_meepo_kill_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_02.mp3",
+      "transcript": "Have shovel, will bury. You.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c5/Vo_meepo_meepo_kill_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_03.mp3",
+      "transcript": "Ha ha! You okay?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_meepo_meepo_kill_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_04.mp3",
+      "transcript": "I'm just messin' with ya!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_meepo_meepo_kill_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_05.mp3",
+      "transcript": "That was fun!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_meepo_meepo_kill_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_06.mp3",
+      "transcript": "Should do it again some time!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/49/Vo_meepo_meepo_kill_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_07.mp3",
+      "transcript": "Aww, didn't mean to hurt ya. Much.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2c/Vo_meepo_meepo_kill_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_08.mp3",
+      "transcript": "I guess size ain't everything, eh? Eh!? Ha ha ha aww it is.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_meepo_meepo_kill_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_09.mp3",
+      "transcript": "I guess size ain't everything, eh?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7f/Vo_meepo_meepo_kill_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_10.mp3",
+      "transcript": "Can't fight the ground!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_meepo_meepo_kill_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_11.mp3",
+      "transcript": "Welcome into the earth!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_meepo_meepo_kill_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_12.mp3",
+      "transcript": "Buried alive-ish.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_meepo_meepo_kill_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_13.mp3",
+      "transcript": "I know just the place to plant you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5b/Vo_meepo_meepo_kill_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_14.mp3",
+      "transcript": "Fancy geomancy!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_meepo_meepo_kill_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_15.mp3",
+      "transcript": "Are you mad?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_meepo_meepo_kill_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_16.mp3",
+      "transcript": "Can you dig it?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_meepo_meepo_kill_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_17.mp3",
+      "transcript": "Meepwned!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_meepo_meepo_kill_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_18.mp3",
+      "transcript": "Meepwned!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_meepo_meepo_kill_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_19.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_19.mp3",
+      "transcript": "You got some dirt on ya. Here's some more!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_meepo_meepo_kill_19.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_20.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_20.mp3",
+      "transcript": "Ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_meepo_meepo_kill_20.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_21.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_21.mp3",
+      "transcript": "Hnha! Hnya hnya hnya hnya!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_meepo_meepo_kill_21.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_22.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_22.mp3",
+      "transcript": "Hnha hn ha hn! Ha hn ha hn ha hn ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_meepo_meepo_kill_22.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_23.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_23.mp3",
+      "transcript": "I'm not even winded!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_meepo_meepo_kill_23.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_kill_24.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_kill_24.mp3",
+      "transcript": "Who's the tough guy now, tough guy?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/13/Vo_meepo_meepo_kill_24.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_01.mp3",
+      "transcript": "Ah ha ha!!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/09/Vo_meepo_meepo_laugh_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_02.mp3",
+      "transcript": "Nn ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d4/Vo_meepo_meepo_laugh_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_03.mp3",
+      "transcript": "Aha aha aha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/39/Vo_meepo_meepo_laugh_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_04.mp3",
+      "transcript": "Ahh ha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d5/Vo_meepo_meepo_laugh_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_05.mp3",
+      "transcript": "Nhya nyhanyhaha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_meepo_meepo_laugh_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_06.mp3",
+      "transcript": "Nha ha ha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_meepo_meepo_laugh_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_08.mp3",
+      "transcript": "Ahh ha-ha! Ha nhanhanhanha!",
+      "categories": [
+        "Killing an enemy",
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_meepo_meepo_laugh_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_pango_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_pango_01.mp3",
+      "transcript": "Looks like your friends don't got your back after all, Danté.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_meepo_meepo_rival_pango_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_dark_willow_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_dark_willow_01.mp3",
+      "transcript": "Ya know, I see a bit of myself in you, 'cept I Ain't dead.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_meepo_meepo_rival_dark_willow_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_monkey_king_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_monkey_king_01.mp3",
+      "transcript": "What good are copies if they just stand 'round doing nothin'?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/76/Vo_meepo_meepo_rival_monkey_king_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_grimstroke_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_grimstroke_01.mp3",
+      "transcript": "I've been dealing with snobs like you my whole life.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_meepo_meepo_rival_grimstroke_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_mars_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_mars_01.mp3",
+      "transcript": "If you're the god of war, I'd hate to see how bad you are at everything else.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/27/Vo_meepo_meepo_rival_mars_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_01.mp3",
+      "transcript": "Nothing shiny on Tiny!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/19/Vo_meepo_meepo_rival_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_02.mp3",
+      "transcript": "Hey! My digger broke through!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_meepo_meepo_rival_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_03.mp3",
+      "transcript": "That's enough cave-ins out of you!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_meepo_meepo_rival_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_04.mp3",
+      "transcript": "My digger beat your grabber!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/00/Vo_meepo_meepo_rival_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_05.mp3",
+      "transcript": "Just let me pry a few of those gems off of you.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_meepo_meepo_rival_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_07.mp3",
+      "transcript": "Sleep with your fishies!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/93/Vo_meepo_meepo_rival_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_08.mp3",
+      "transcript": "If nobody else wants that fish…",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/54/Vo_meepo_meepo_rival_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_09.mp3",
+      "transcript": "You ain't the boss of me!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_meepo_meepo_rival_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_10.mp3",
+      "transcript": "Sand: the lesser dirt.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_meepo_meepo_rival_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_11.mp3",
+      "transcript": "You're the king of sand? Well I'm the king of dirt!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_meepo_meepo_rival_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_12.mp3",
+      "transcript": "You and what army, Phantom Lancer?",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1e/Vo_meepo_meepo_rival_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_13.mp3",
+      "transcript": "About time he keeled over. I'm parched!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_meepo_meepo_rival_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_14.mp3",
+      "transcript": "Shame to hear that voice go to waste..",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_meepo_meepo_rival_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_15.mp3",
+      "transcript": "Ain't you a cheerful one.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_meepo_meepo_rival_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_16.mp3",
+      "transcript": "You ain't going nowhere Anti-Mage.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/97/Vo_meepo_meepo_rival_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_17.mp3",
+      "transcript": "They should call you Ain't-Mage.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_meepo_meepo_rival_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rival_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rival_06.mp3",
+      "transcript": "Too bad. I like redheads.",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_meepo_meepo_rival_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_firstblood_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_firstblood_01.mp3",
+      "transcript": "First blood! Hey everyone's gotta start somewhere. Nha ha ha ha!",
+      "categories": [
+        "Killing an enemy"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/10/Vo_meepo_meepo_firstblood_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_01.mp3",
+      "transcript": "Ain't you a tall tree!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0e/Vo_meepo_meepo_ally_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_02.mp3",
+      "transcript": "Hey Earthshaker! Gonna cave in the competition? Hnyanya!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_meepo_meepo_ally_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_03.mp3",
+      "transcript": "Hey Destroyer, what are you made of? And what's it worth?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_meepo_meepo_ally_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_04.mp3",
+      "transcript": "Windrunner, how are you doing?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1d/Vo_meepo_meepo_ally_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_05.mp3",
+      "transcript": "Hey Hunter! I took care of that thing for ya.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bb/Vo_meepo_meepo_ally_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_06.mp3",
+      "transcript": "Hey Rubick! If you ever wanna sell some of those gems…",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_meepo_meepo_ally_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_07.mp3",
+      "transcript": "Hey Rubick! I can get you a few more of those magic jewels. Just ask.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ec/Vo_meepo_meepo_ally_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_08.mp3",
+      "transcript": "Careful King Sandy. Dirt's a lot harder than sand.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/aa/Vo_meepo_meepo_ally_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_pango_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_pango_01.mp3",
+      "transcript": "Mind your own bussiness, Danté, and we'll do just fine.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_meepo_meepo_ally_pango_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_dark_willow_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_dark_willow_01.mp3",
+      "transcript": "Yeah, you I think I'm gonna like!",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d8/Vo_meepo_meepo_ally_dark_willow_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_monkey_king_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_monkey_king_01.mp3",
+      "transcript": "I like a guy with a chip on his shoulder.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6e/Vo_meepo_meepo_ally_monkey_king_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_grimstroke_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_grimstroke_01.mp3",
+      "transcript": "So uh.. found a painting.. real fancy. Think you can say what it's worth?",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_meepo_meepo_ally_grimstroke_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_ally_mars_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_ally_mars_01.mp3",
+      "transcript": "Aah! Ah, phew, for a second I thought you were on their side.",
+      "categories": [
+        "Meeting an ally"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f1/Vo_meepo_meepo_ally_mars_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_01.mp3",
+      "transcript": "Coin!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_meepo_meepo_lasthit_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_02.mp3",
+      "transcript": "Shiny!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e9/Vo_meepo_meepo_lasthit_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_03.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/21/Vo_meepo_meepo_lasthit_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_04.mp3",
+      "transcript": "Needed that!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f4/Vo_meepo_meepo_lasthit_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_05.mp3",
+      "transcript": "More for me!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_meepo_meepo_lasthit_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_06.mp3",
+      "transcript": "Every bit counts!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ef/Vo_meepo_meepo_lasthit_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_07.mp3",
+      "transcript": "I'll take that!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/24/Vo_meepo_meepo_lasthit_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_08.mp3",
+      "transcript": "Just what I needed.",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_meepo_meepo_lasthit_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_09.mp3",
+      "transcript": "Keep 'em coming!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_meepo_meepo_lasthit_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lasthit_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lasthit_10.mp3",
+      "transcript": "Easy!",
+      "categories": [
+        "Last hitting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_meepo_meepo_lasthit_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_01.mp3",
+      "transcript": "Denied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_meepo_meepo_deny_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_02.mp3",
+      "transcript": "Ah-denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_meepo_meepo_deny_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_03.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_meepo_meepo_deny_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_04.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_meepo_meepo_deny_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_05.mp3",
+      "transcript": "Uh-uh.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_meepo_meepo_deny_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_06.mp3",
+      "transcript": "You won't be needing this.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_meepo_meepo_deny_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_07.mp3",
+      "transcript": "Nope!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_meepo_meepo_deny_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_08.mp3",
+      "transcript": "Nope!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_meepo_meepo_deny_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_09.mp3",
+      "transcript": "I take what I want.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_meepo_meepo_deny_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_10.mp3",
+      "transcript": "You won't miss it.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ee/Vo_meepo_meepo_deny_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_11.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_meepo_meepo_deny_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_12.mp3",
+      "transcript": "Mine!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_meepo_meepo_deny_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_13.mp3",
+      "transcript": "Hands off!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_meepo_meepo_deny_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_14.mp3",
+      "transcript": "Ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_meepo_meepo_deny_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_15.mp3",
+      "transcript": "Ha ha ha ha ha ha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1f/Vo_meepo_meepo_deny_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_17.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f7/Vo_meepo_meepo_deny_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_18.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_meepo_meepo_deny_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_19.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_19.mp3",
+      "transcript": "Denied!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/dc/Vo_meepo_meepo_deny_19.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_20.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_20.mp3",
+      "transcript": "Denied! Uh-ho ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_meepo_meepo_deny_20.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_21.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_21.mp3",
+      "transcript": "De. Nied.",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_meepo_meepo_deny_21.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_deny_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_deny_16.mp3",
+      "transcript": "Hnya Hnyahnyaha ha ha ha!",
+      "categories": [
+        "Denying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/57/Vo_meepo_meepo_deny_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_purch_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_purch_01.mp3",
+      "transcript": "Been meaning to get that!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e7/Vo_meepo_meepo_purch_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_purch_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_purch_02.mp3",
+      "transcript": "Just what I always wanted!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_meepo_meepo_purch_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_purch_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_purch_03.mp3",
+      "transcript": "Arm and a leg and a tooth…",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_meepo_meepo_purch_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_purch_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_purch_05.mp3",
+      "transcript": "Hey what kind of scam you running here?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d2/Vo_meepo_meepo_purch_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_purch_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_purch_04.mp3",
+      "transcript": "You know maybe I oughtta open a shop. Lot of money flowing through here.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b9/Vo_meepo_meepo_purch_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_blink_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_blink_01.mp3",
+      "transcript": "Blink dagger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/26/Vo_meepo_meepo_blink_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_blink_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_blink_02.mp3",
+      "transcript": "Blink digger!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/78/Vo_meepo_meepo_blink_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_01.mp3",
+      "transcript": "Ah scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/69/Vo_meepo_meepo_scepter_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_02.mp3",
+      "transcript": "Multi-Meepo scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_meepo_meepo_scepter_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_03.mp3",
+      "transcript": "Geo-scepter!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_meepo_meepo_scepter_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_04.mp3",
+      "transcript": "Ah scept—uh wait where did you come from?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/44/Vo_meepo_meepo_scepter_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_05.mp3",
+      "transcript": "Ah scept—hey, who are you?",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/41/Vo_meepo_meepo_scepter_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_scepter_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_scepter_06.mp3",
+      "transcript": "Ah scept—oh hello.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_meepo_meepo_scepter_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_01.mp3",
+      "transcript": "A pipe for the piper!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_meepo_meepo_items_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_02.mp3",
+      "transcript": "Mekansm!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_meepo_meepo_items_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_03.mp3",
+      "transcript": "Vladmir's made me an offer!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d7/Vo_meepo_meepo_items_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_04.mp3",
+      "transcript": "Assault Cuirass!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/ff/Vo_meepo_meepo_items_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_05.mp3",
+      "transcript": "Scythe of Vyse!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d3/Vo_meepo_meepo_items_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_06.mp3",
+      "transcript": "Drum of Endurance!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a3/Vo_meepo_meepo_items_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_items_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_items_07.mp3",
+      "transcript": "Heart of Tarrasque!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0f/Vo_meepo_meepo_items_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_immort_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_immort_01.mp3",
+      "transcript": "Immortality!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/df/Vo_meepo_meepo_immort_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_immort_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_immort_02.mp3",
+      "transcript": "They'll never take me alive.",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_meepo_meepo_immort_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_immort_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_immort_03.mp3",
+      "transcript": "They'll never take us alive!",
+      "categories": [
+        "Acquiring an item"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_meepo_meepo_immort_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_01.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_meepo_meepo_death_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_02.mp3",
+      "transcript": "Ow.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_meepo_meepo_death_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_03.mp3",
+      "transcript": "Thought I had it.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_meepo_meepo_death_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_04.mp3",
+      "transcript": "Back underground.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1b/Vo_meepo_meepo_death_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_05.mp3",
+      "transcript": "I miss the cave…",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_meepo_meepo_death_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_06.mp3",
+      "transcript": "How did you do that?",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_meepo_meepo_death_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_07.mp3",
+      "transcript": "Hey that hurt.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ae/Vo_meepo_meepo_death_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_08.mp3",
+      "transcript": "Hey. That hurt.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_meepo_meepo_death_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_09.mp3",
+      "transcript": "That wasn't fair.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/92/Vo_meepo_meepo_death_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_10.mp3",
+      "transcript": "Dirt nap.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2e/Vo_meepo_meepo_death_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_11.mp3",
+      "transcript": "Right in the jewels.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_meepo_meepo_death_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_12.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_12.mp3",
+      "transcript": "My money!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_meepo_meepo_death_12.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_13.mp3",
+      "transcript": "You suck.",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9d/Vo_meepo_meepo_death_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_death_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_death_14.mp3",
+      "transcript": "You punched out all of my blood!",
+      "categories": [
+        "Dying"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/6a/Vo_meepo_meepo_death_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_01.mp3",
+      "transcript": "Back above ground!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/74/Vo_meepo_meepo_respawn_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_02.mp3",
+      "transcript": "Try that again, tough guy!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_meepo_meepo_respawn_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_03.mp3",
+      "transcript": "Can't die yet. I got too much left to do!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_meepo_meepo_respawn_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_04.mp3",
+      "transcript": "Where's the rest of us? We'll take 'im!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/79/Vo_meepo_meepo_respawn_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_05.mp3",
+      "transcript": "Ain't the first hole I've crawled out of!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_meepo_meepo_respawn_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_06.mp3",
+      "transcript": "Was kinda cozy down there!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/70/Vo_meepo_meepo_respawn_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_07.mp3",
+      "transcript": "Aaaand we're back.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/64/Vo_meepo_meepo_respawn_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_08.mp3",
+      "transcript": "I feel fine. Don't know what everyone's worried about.",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8d/Vo_meepo_meepo_respawn_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_09.mp3",
+      "transcript": "Have digger, will travel!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2a/Vo_meepo_meepo_respawn_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_10.mp3",
+      "transcript": "Back outta the woodwork!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/73/Vo_meepo_meepo_respawn_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_respawn_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_respawn_11.mp3",
+      "transcript": "I meant to do that. Yep!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0a/Vo_meepo_meepo_respawn_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_fastres_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_fastres_01.mp3",
+      "transcript": "Spent enough time underground, thanks!",
+      "categories": [
+        "Respawning"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a5/Vo_meepo_meepo_fastres_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bottle_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bottle_01.mp3",
+      "transcript": "Got big plans for this!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0b/Vo_meepo_meepo_bottle_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bottle_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bottle_02.mp3",
+      "transcript": "Into the sack!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e5/Vo_meepo_meepo_bottle_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bottle_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bottle_03.mp3",
+      "transcript": "Scavenged!",
+      "categories": [
+        "Bottling Runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_meepo_meepo_bottle_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_drop_rare_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_drop_rare_01.mp3",
+      "transcript": "Look what I dug up!",
+      "categories": [
+        "Activating runes",
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1a/Vo_meepo_meepo_drop_rare_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_arcane_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_arcane_01.mp3",
+      "transcript": "Arcane power!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_meepo_meepo_arcane_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_arcane_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_arcane_02.mp3",
+      "transcript": "Ooh, never felt that before, eh he he.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/25/Vo_meepo_meepo_arcane_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bounty_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bounty_01.mp3",
+      "transcript": "Bounty!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2f/Vo_meepo_meepo_bounty_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bounty_01_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bounty_01_02.mp3",
+      "transcript": "Bounty.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c0/Vo_meepo_meepo_bounty_01_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_bounty_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_bounty_02.mp3",
+      "transcript": "Oh yeah, that's the good stuff.",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ea/Vo_meepo_meepo_bounty_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_doubdam_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_doubdam_01.mp3",
+      "transcript": "Double damage!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/be/Vo_meepo_meepo_doubdam_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_doubdam_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_doubdam_02.mp3",
+      "transcript": "Shovels and skulls!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_meepo_meepo_doubdam_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_haste_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_haste_01.mp3",
+      "transcript": "Haste!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e8/Vo_meepo_meepo_haste_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_haste_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_haste_02.mp3",
+      "transcript": "I'm outta here!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/28/Vo_meepo_meepo_haste_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_illus_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_illus_01.mp3",
+      "transcript": "Illusion!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/95/Vo_meepo_meepo_illus_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_illus_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_illus_03.mp3",
+      "transcript": "You never saw me, alright?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_meepo_meepo_illus_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_illus_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_illus_02.mp3",
+      "transcript": "Say hello to my lesser friends!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_meepo_meepo_illus_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_invis_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_invis_01.mp3",
+      "transcript": "Invisibility!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_meepo_meepo_invis_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_invis_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_invis_02.mp3",
+      "transcript": "You never saw me, alright?",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/46/Vo_meepo_meepo_invis_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_regen_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_regen_01.mp3",
+      "transcript": "Regeneration!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/eb/Vo_meepo_meepo_regen_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_regen_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_regen_02.mp3",
+      "transcript": "This is the life!",
+      "categories": [
+        "Activating runes"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/77/Vo_meepo_meepo_regen_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_01.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/15/Vo_meepo_meepo_notyet_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_04.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b4/Vo_meepo_meepo_notyet_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_07.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_meepo_meepo_notyet_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_02.mp3",
+      "transcript": "Not yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_meepo_meepo_notyet_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_05.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cb/Vo_meepo_meepo_notyet_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_08.mp3",
+      "transcript": "It's not time yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/34/Vo_meepo_meepo_notyet_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_03.mp3",
+      "transcript": "Not yet.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_meepo_meepo_notyet_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_06.mp3",
+      "transcript": "I'm not ready.",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_meepo_meepo_notyet_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_notyet_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_notyet_09.mp3",
+      "transcript": "It's not time yet!",
+      "categories": [
+        "Ability on cooldown"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c3/Vo_meepo_meepo_notyet_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_01.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3e/Vo_meepo_meepo_nomana_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_04.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b7/Vo_meepo_meepo_nomana_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_07.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c2/Vo_meepo_meepo_nomana_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_02.mp3",
+      "transcript": "Out of mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/87/Vo_meepo_meepo_nomana_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_05.mp3",
+      "transcript": "No mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7a/Vo_meepo_meepo_nomana_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_08.mp3",
+      "transcript": "Not enough mana.",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_meepo_meepo_nomana_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_03.mp3",
+      "transcript": "Out of mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f5/Vo_meepo_meepo_nomana_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_06.mp3",
+      "transcript": "No mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/fa/Vo_meepo_meepo_nomana_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_nomana_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_nomana_09.mp3",
+      "transcript": "Not enough mana!",
+      "categories": [
+        "Not enough mana"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5c/Vo_meepo_meepo_nomana_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_01.mp3",
+      "transcript": "Beh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/85/Vo_meepo_meepo_pain_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_02.mp3",
+      "transcript": "Dah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_meepo_meepo_pain_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_03.mp3",
+      "transcript": "Oh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_meepo_meepo_pain_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_04.mp3",
+      "transcript": "Hey!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/01/Vo_meepo_meepo_pain_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_05.mp3",
+      "transcript": "Ahha!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/82/Vo_meepo_meepo_pain_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_06.mp3",
+      "transcript": "Doh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bf/Vo_meepo_meepo_pain_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_07.mp3",
+      "transcript": "Hueh!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d0/Vo_meepo_meepo_pain_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_pain_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_pain_08.mp3",
+      "transcript": "Ah!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e0/Vo_meepo_meepo_pain_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_02.mp3",
+      "transcript": "Ah! We're under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f3/Vo_meepo_meepo_underattack_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_01.mp3",
+      "transcript": "Ah! I'm under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_meepo_meepo_underattack_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_03.mp3",
+      "transcript": "1 is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a0/Vo_meepo_meepo_underattack_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_04.mp3",
+      "transcript": "2 is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8e/Vo_meepo_meepo_underattack_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_05.mp3",
+      "transcript": "3 is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/06/Vo_meepo_meepo_underattack_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_06.mp3",
+      "transcript": "4 is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/cf/Vo_meepo_meepo_underattack_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_underattack_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_underattack_07.mp3",
+      "transcript": "5 is under attack!",
+      "categories": [
+        "Taking damage"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/89/Vo_meepo_meepo_underattack_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rare_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rare_01.mp3",
+      "transcript": "I'm sick of scrambling around in the dirt. Gotta find a way to get us back on our feet!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_meepo_meepo_rare_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rare_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rare_02.mp3",
+      "transcript": "This smile's worth nearly everything I got!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_meepo_meepo_rare_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rare_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rare_03.mp3",
+      "transcript": "All these fancy knights and scary monsters. Pff! What do they got that I ain't got? Nothing, that's what.",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/42/Vo_meepo_meepo_rare_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_rare_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_rare_04.mp3",
+      "transcript": "Ain't no problem some tools and a few strong backs can't solve!",
+      "categories": [
+        "Selecting"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b6/Vo_meepo_meepo_rare_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lane_missing_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lane_missing_01.mp3",
+      "transcript": "Missing top!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/f/f9/Vo_meepo_meepo_lane_missing_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lane_missing_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lane_missing_02.mp3",
+      "transcript": "Missing middle!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/0d/Vo_meepo_meepo_lane_missing_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lane_missing_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lane_missing_03.mp3",
+      "transcript": "Missing bottom!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/c/c4/Vo_meepo_meepo_lane_missing_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_thanks_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_thanks_01.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_meepo_meepo_thanks_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_thanks_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_thanks_02.mp3",
+      "transcript": "Thanks.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/3/3d/Vo_meepo_meepo_thanks_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_thanks_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_thanks_03.mp3",
+      "transcript": "I won't forget this.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_meepo_meepo_thanks_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_thanks_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_thanks_04.mp3",
+      "transcript": "Nice!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5f/Vo_meepo_meepo_thanks_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_07.mp3",
+      "transcript": "Nhaa!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/02/Vo_meepo_meepo_laugh_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_09.mp3",
+      "transcript": "Nha ha ha! Ha ha ha ha ha!",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2b/Vo_meepo_meepo_laugh_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_laugh_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_laugh_10.mp3",
+      "transcript": "Eh hee hee hee hee hee.",
+      "categories": [
+        "Chat responses"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e3/Vo_meepo_meepo_laugh_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_win_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_win_01.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/51/Vo_meepo_meepo_win_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_win_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_win_02.mp3",
+      "transcript": "Victory!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/bd/Vo_meepo_meepo_win_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_win_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_win_03.mp3",
+      "transcript": "Yes!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/03/Vo_meepo_meepo_win_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_win_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_win_04.mp3",
+      "transcript": "I'm gonna be rich! Rich!!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e2/Vo_meepo_meepo_win_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_win_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_win_05.mp3",
+      "transcript": "You guys! We're all gonna be rich! Rich!!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_meepo_meepo_win_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_01.mp3",
+      "transcript": "Defeated!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_meepo_meepo_lose_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_02.mp3",
+      "transcript": "No!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/07/Vo_meepo_meepo_lose_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_03.mp3",
+      "transcript": "We just got robbed!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8f/Vo_meepo_meepo_lose_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_04.mp3",
+      "transcript": "Freakin' unbelievable.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/12/Vo_meepo_meepo_lose_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_05.mp3",
+      "transcript": "This is a real freakin' embarrasment.",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/7/7e/Vo_meepo_meepo_lose_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_lose_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_lose_06.mp3",
+      "transcript": "No, seriously, you all suck!",
+      "categories": [
+        "Match end"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/86/Vo_meepo_meepo_lose_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_drop_common.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_drop_common.mp3",
+      "transcript": "Ain't that fancy!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/ed/Vo_meepo_meepo_drop_common.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_drop_medium.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_drop_medium.mp3",
+      "transcript": "Now that's what I'm talking about!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/e/e1/Vo_meepo_meepo_drop_medium.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_drop_rare_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_drop_rare_02.mp3",
+      "transcript": "This must'a fallen off a wagon!",
+      "categories": [
+        "Cosmetic item drop"
+      ],
+      "unused": false,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/47/Vo_meepo_meepo_drop_rare_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_failure_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_failure_01.mp3",
+      "transcript": "Ah damnit!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/4f/Vo_meepo_meepo_failure_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_failure_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_failure_02.mp3",
+      "transcript": "Hey can't win 'em all!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9c/Vo_meepo_meepo_failure_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_failure_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_failure_03.mp3",
+      "transcript": "Ah for cryin' out loud!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/48/Vo_meepo_meepo_failure_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_shiwiz_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_shiwiz_01.mp3",
+      "transcript": "Shitty wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_meepo_meepo_shiwiz_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_crumwiz_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_crumwiz_01.mp3",
+      "transcript": "Crummy wizard!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ad/Vo_meepo_meepo_crumwiz_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_01.mp3",
+      "transcript": "Hnnyafa get off me.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b8/Vo_meepo_meepo_anger_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_02.mp3",
+      "transcript": "Nnnnnn.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_meepo_meepo_anger_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_03.mp3",
+      "transcript": "Hhh hhh hhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/ac/Vo_meepo_meepo_anger_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_04.mp3",
+      "transcript": "Ahhygwatagtbekddinme.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/ba/Vo_meepo_meepo_anger_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_05.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/0/05/Vo_meepo_meepo_anger_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_06.mp3",
+      "transcript": "Naah.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/9f/Vo_meepo_meepo_anger_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_07.mp3",
+      "transcript": "Nahhwhy I oughtta.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/d9/Vo_meepo_meepo_anger_07.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_08.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_08.mp3",
+      "transcript": "Why I oughtta…",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8b/Vo_meepo_meepo_anger_08.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_09.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_09.mp3",
+      "transcript": "Y'gotta be kidding me with that.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/a/a8/Vo_meepo_meepo_anger_09.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_10.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_10.mp3",
+      "transcript": "Ya so I oughtta put you in the dirt nn km.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/d/da/Vo_meepo_meepo_anger_10.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_11.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_11.mp3",
+      "transcript": "Buncha losers. C'mon.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/20/Vo_meepo_meepo_anger_11.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_13.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_13.mp3",
+      "transcript": "Ah c'mon!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/18/Vo_meepo_meepo_anger_13.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_14.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_14.mp3",
+      "transcript": "Ahhh c'mon!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/1/1c/Vo_meepo_meepo_anger_14.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_15.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_15.mp3",
+      "transcript": "Oh c'mon!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/22/Vo_meepo_meepo_anger_15.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_16.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_16.mp3",
+      "transcript": "Oh c'mon!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5a/Vo_meepo_meepo_anger_16.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_17.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_17.mp3",
+      "transcript": "Ahh c'mon!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/4/40/Vo_meepo_meepo_anger_17.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_anger_18.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_anger_18.mp3",
+      "transcript": "Ahh zvz.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b5/Vo_meepo_meepo_anger_18.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_01.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_01.mp3",
+      "transcript": "Ahhhhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/5/5d/Vo_meepo_meepo_happy_01.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_02.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_02.mp3",
+      "transcript": "Ahh now that's the stuff!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/8a/Vo_meepo_meepo_happy_02.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_03.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_03.mp3",
+      "transcript": "Haahh!",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/8/81/Vo_meepo_meepo_happy_03.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_04.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_04.mp3",
+      "transcript": "Hhhh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/b/b1/Vo_meepo_meepo_happy_04.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_05.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_05.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/9/94/Vo_meepo_meepo_happy_05.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_06.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_06.mp3",
+      "transcript": "Niiice.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/6/65/Vo_meepo_meepo_happy_06.mp3"
+    },
+    {
+      "file": "Vo_meepo_meepo_happy_07.mp3",
+      "key": "dota2/meepo/Vo_meepo_meepo_happy_07.mp3",
+      "transcript": "Ahh.",
+      "categories": [
+        "Misc"
+      ],
+      "unused": true,
+      "sourceUrl": "https://liquipedia.net/commons/images/2/2d/Vo_meepo_meepo_happy_07.mp3"
+    }
+  ]
+}
