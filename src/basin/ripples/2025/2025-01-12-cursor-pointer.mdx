@@ -5,9 +5,23 @@ publishedAt: 2025-01-12
 blurb: POINTER? I HARDL–
 tags:
   - code
+  - ui
   - ux
   - css
   - rants
+draft: true
 ---
 
-You ever see this?
+At some point UI devs decided that the base web stylesheet for buttons (i.e. `cursor: default;`) should actually be the default across all web applications, extending further to *desktop applications* as well. I get the original impetus for the web standard[^link], but modern UI[^read] requires better signaling for interactivity.
+
+[^link]: "The cursor is a pointer that indicates a link." - https://www.w3.org/TR/css-ui-4/#valdef-cursor-pointer
+
+[^read]: may or may not be terrible, ymmv
+
+## Where we are
+
+<Showcase>
+  <ResetContainer>
+    <button>Button</button>
+  </ResetContainer>
+</Showcase>

@@ -855,3 +855,12 @@ html[data-panel="open"] .control-panel-static {
     rgb(0, 0, 255)
   );
 }
+
+.reset-container,
+.reset-container *,
+.reset-container *::before,
+.reset-container *::after,
+.reset-container::before,
+.reset-container::after {
+  all: revert;
+}

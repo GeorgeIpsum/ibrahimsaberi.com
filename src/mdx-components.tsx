@@ -10,7 +10,7 @@ import {
 } from "./components/atoms/preview-card";
 import { cn } from "./css/lib";
 
-const components: MDXComponents = {
+const overrideComponents: MDXComponents = {
   a: ({ href = "", children, ...props }) => {
     const isInternal = href.startsWith("/") || href.startsWith("#");
     if (isInternal) {
@@ -79,11 +79,37 @@ const components: MDXComponents = {
       </sup>
     );
   },
+};
+
+const customComponents: MDXComponents = {
   Script,
   Kbd,
   KbdGroup,
+  Showcase: ({ children, ...props }) => {
+    return (
+      <div
+        {...props}
+        className={cn(
+          "flex min-h-40 w-full flex-col items-center justify-center gap-4 rounded-lg bg-background-high-contrast/50 p-4",
+          props.className,
+        )}
+      >
+        {children}
+      </div>
+    );
+  },
+  ResetContainer: ({ children, ...props }) => {
+    return (
+      <div {...props} className={cn("reset-container", props.className)}>
+        {children}
+      </div>
+    );
+  },
 };
 
 export function useMDXComponents(): MDXComponents {
-  return components;
+  return {
+    ...overrideComponents,
+    ...customComponents,
+  };
 }
